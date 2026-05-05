@@ -20,8 +20,8 @@
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-DX-_n8gl.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-Dihz9AWj.css">
+		<script type="module" crossorigin src="/assets/index-az2-isYl.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index--tqaSebg.css">
 	
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tarenx.com/undefined/undefined/4/" />
@@ -80,7 +80,7 @@
 				<div class="content">
 
     <article class="post-detail">
-      <header class="post-detail-header">
+      <header class="post-header">
 				<div class="post-tags">#Linux  #CAN</div>
 				<h1 class="post-title">Linux에서 오픈 소스 CANable 사용하기</h1>
 				<time class="post-datetime" datetime="2026-03-28T19:23">2026년 3월 28일 19시 23분</time>
@@ -88,9 +88,9 @@
 
       <hr />
 
-			<div class="post-detail-body">
-        <div>
-	<section style="margin: 120px 0;">
+			<div class="post-body">
+        <div class="post-entry">
+	<section class="post-section">
 		<h2 class="post-tab">1. 의존성 설치.</h2>
 		<div>
 			sudo apt-get update<br />
@@ -98,16 +98,16 @@
 		</div>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">2. CANable USB 연결.</h2>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">3. 연결 확인.</h2>
 		<div>ls /dev/ttyACM*</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_ttyACM.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_ttyACM.png"
 				alt="ttyACM 출력 예시"
 				width="200"
 			/>
@@ -115,12 +115,12 @@
 		</figure>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">4. idvendor, idproduct 확인.</h2>
 		<div>lsusb</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_lsusb.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_lsusb.png"
 				alt="lsusb 출력 예시"
 				width="600"
 			/>
@@ -128,12 +128,12 @@
 		</figure>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">5. serial 확인.</h2>
 		<div>sudo lsusb -d 16d0:117e -v | grep -i serial</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_serial.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_serial.png"
 				alt="serial 출력 예시"
 				width="400"
 			/>
@@ -141,7 +141,7 @@
 		</figure>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">6. .rules 파일 생성.</h2>
 		<div>
 			echo KERNEL=="ttyACM*",ATTRS{serial}=="207B30705330",MODE:="0777",SYMLINK+="can0" >> can0.rules<br />
@@ -149,7 +149,7 @@
 		</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_rules.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_rules.png"
 				alt="rules 출력 예시"
 				width="600"
 			/>
@@ -157,21 +157,21 @@
 		</figure>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">7. .rules 파일 이동.</h2>
 		<div>sudo cp can0.rules /etc/udev/rules.d/</div>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">8. 적용.</h2>
 		<div>sudo udevadm control --reload-rules</div>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">9. USB 재연결.</h2>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">10. 인터페이스 생성 및 띄우기.</h2>
 		<div>
 			sudo slcand -o -c -s5 /dev/can0 can0<br />
@@ -180,7 +180,7 @@
 		</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_interface.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_interface.png"
 				alt="interface 출력 예시"
 				width="600"
 			/>
@@ -188,13 +188,13 @@
 		</figure>
 	</section>
 
-	<section style="margin: 120px 0;">
+	<section class="post-section" style="margin: 120px 0;">
 		<h2 class="post-tab">11. 테스트.</h2>
 		<div>터미널 A / sudo candump can0</div>
 		<div>터미널 B / sudo cansend can0 000#R</div>
 		<figure>
 			<img
-				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/development/4/result_test.png"
+				src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_test.png"
 				alt="test 출력 예시"
 				width="200"
 			/>
