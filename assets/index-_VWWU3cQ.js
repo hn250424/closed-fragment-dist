@@ -7,7 +7,1143 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 ]*?"'`},{begin:`"[^\r
 "]*"`}]},{className:`built_in`,variants:[{begin:`\\b(abs|acos|asin|atan|atan2|atanh|ceil|cloglog|comb|cos|digamma|exp|floor|invcloglog|invlogit|ln|lnfact|lnfactorial|lngamma|log|log10|max|min|mod|reldif|round|sign|sin|sqrt|sum|tan|tanh|trigamma|trunc|betaden|Binomial|binorm|binormal|chi2|chi2tail|dgammapda|dgammapdada|dgammapdadx|dgammapdx|dgammapdxdx|F|Fden|Ftail|gammaden|gammap|ibeta|invbinomial|invchi2|invchi2tail|invF|invFtail|invgammap|invibeta|invnchi2|invnFtail|invnibeta|invnorm|invnormal|invttail|nbetaden|nchi2|nFden|nFtail|nibeta|norm|normal|normalden|normd|npnchi2|tden|ttail|uniform|abbrev|char|index|indexnot|length|lower|ltrim|match|plural|proper|real|regexm|regexr|regexs|reverse|rtrim|string|strlen|strlower|strltrim|strmatch|strofreal|strpos|strproper|strreverse|strrtrim|strtrim|strupper|subinstr|subinword|substr|trim|upper|word|wordcount|_caller|autocode|byteorder|chop|clip|cond|e|epsdouble|epsfloat|group|inlist|inrange|irecode|matrix|maxbyte|maxdouble|maxfloat|maxint|maxlong|mi|minbyte|mindouble|minfloat|minint|minlong|missing|r|recode|replay|return|s|scalar|d|date|day|dow|doy|halfyear|mdy|month|quarter|week|year|d|daily|dofd|dofh|dofm|dofq|dofw|dofy|h|halfyearly|hofd|m|mofd|monthly|q|qofd|quarterly|tin|twithin|w|weekly|wofd|y|yearly|yh|ym|yofd|yq|yw|cholesky|colnumb|colsof|corr|det|diag|diag0cnt|el|get|hadamard|I|inv|invsym|issym|issymmetric|J|matmissing|matuniform|mreldif|nullmat|rownumb|rowsof|sweep|syminv|trace|vec|vecdiag)(?=\\()`}]},e.COMMENT(`^[ 	]*\\*.*$`,!1),e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]}}t.exports=n})),_n=o(((e,t)=>{function n(e){return{name:`STEP Part 21`,aliases:[`p21`,`step`,`stp`],case_insensitive:!0,keywords:{$pattern:`[A-Z_][A-Z0-9_.]*`,keyword:[`HEADER`,`ENDSEC`,`DATA`]},contains:[{className:`meta`,begin:`ISO-10303-21;`,relevance:10},{className:`meta`,begin:`END-ISO-10303-21;`,relevance:10},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,e.COMMENT(`/\\*\\*!`,`\\*/`),e.C_NUMBER_MODE,e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null}),{className:`string`,begin:`'`,end:`'`},{className:`symbol`,variants:[{begin:`#`,end:`\\d+`,illegal:`\\W`}]}]}}t.exports=n})),vn=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function u(e){let t=n(e),r={className:`variable`,begin:`\\$`+e.IDENT_RE},i=[`charset`,`css`,`debug`,`extend`,`font-face`,`for`,`import`,`include`,`keyframes`,`media`,`mixin`,`page`,`warn`,`while`],u=`(?=[.\\s\\n[:,(])`;return{name:`Stylus`,aliases:[`styl`],case_insensitive:!1,keywords:`if else for in`,illegal:`(`+[`\\?`,`(\\bReturn\\b)`,`(\\bEnd\\b)`,`(\\bend\\b)`,`(\\bdef\\b)`,`;`,`#\\s`,`\\*\\s`,`===\\s`,`\\|`,`%`].join(`|`)+`)`,contains:[e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,t.HEXCOLOR,{begin:`\\.[a-zA-Z][a-zA-Z0-9_-]*`+u,className:`selector-class`},{begin:`#[a-zA-Z][a-zA-Z0-9_-]*`+u,className:`selector-id`},{begin:`\\b(`+a.join(`|`)+`)(?=[.\\s\\n[:,(])`,className:`selector-tag`},{className:`selector-pseudo`,begin:`&?:(`+s.join(`|`)+`)(?=[.\\s\\n[:,(])`},{className:`selector-pseudo`,begin:`&?:(:)?(`+c.join(`|`)+`)(?=[.\\s\\n[:,(])`},t.ATTRIBUTE_SELECTOR_MODE,{className:`keyword`,begin:/@media/,starts:{end:/[{;}]/,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},contains:[t.CSS_NUMBER_MODE]}},{className:`keyword`,begin:`@((-(o|moz|ms|webkit)-)?(`+i.join(`|`)+`))\\b`},r,t.CSS_NUMBER_MODE,{className:`function`,begin:`^[a-zA-Z][a-zA-Z0-9_-]*\\(.*\\)`,illegal:`[\\n]`,returnBegin:!0,contains:[{className:`title`,begin:`\\b[a-zA-Z][a-zA-Z0-9_-]*`},{className:`params`,begin:/\(/,end:/\)/,contains:[t.HEXCOLOR,r,e.APOS_STRING_MODE,t.CSS_NUMBER_MODE,e.QUOTE_STRING_MODE]}]},t.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`,starts:{end:/;|$/,contains:[t.HEXCOLOR,r,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,t.CSS_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,t.IMPORTANT,t.FUNCTION_DISPATCH],illegal:/\./,relevance:0}},t.FUNCTION_DISPATCH]}}t.exports=u})),yn=o(((e,t)=>{function n(e){return{name:`SubUnit`,case_insensitive:!0,contains:[{className:`string`,begin:`\\[
 (multipart)?`,end:`\\]
-`},{className:`string`,begin:`\\d{4}-\\d{2}-\\d{2}(\\s+)\\d{2}:\\d{2}:\\d{2}.\\d+Z`},{className:`string`,begin:`(\\+|-)\\d+`},{className:`keyword`,relevance:10,variants:[{begin:`^(test|testing|success|successful|failure|error|skip|xfail|uxsuccess)(:?)\\s+(test)?`},{begin:`^progress(:?)(\\s+)?(pop|push)?`},{begin:`^tags:`},{begin:`^time:`}]}]}}t.exports=n})),bn=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),B={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},ee=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],te={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:ee},V=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...ee,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},H={scope:`regexp`,variants:[V(`###`),V(`##`),V(`#`),te]},U={match:i(/`/,x,/`/)},W=[U,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],G=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,B]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],K={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ne={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...G,A,K]};K.contains.push(ne);let re={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,H,...O,...k,...j,P,B,...W,...G,K]},q={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,K]},J={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,B,...G,K,re],endsParent:!0,illegal:/["']/},ie={match:[/(func|macro)/,/\s+/,o(U.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[q,J,t],illegal:[/\[/,/%/]},ae={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[q,J,t],illegal:/\[|%/},oe={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},se={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[K],keywords:[...p,...f],end:/}/},Y={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},ce={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},le={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[q,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of B.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,B,...W];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,ie,ae,Y,ce,le,oe,se,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},H,...O,...k,...j,P,B,...W,...G,K,re]}}t.exports=T})),xn=o(((e,t)=>{function n(e){return{name:`Tagger Script`,contains:[{className:`comment`,begin:/\$noop\(/,end:/\)/,contains:[{begin:/\\[()]/},{begin:/\(/,end:/\)/,contains:[{begin:/\\[()]/},`self`]}],relevance:10},{className:`keyword`,begin:/\$[_a-zA-Z0-9]+(?=\()/},{className:`variable`,begin:/%[_a-zA-Z0-9:]+%/},{className:`symbol`,begin:/\\[\\nt$%,()]/},{className:`symbol`,begin:/\\u[a-fA-F0-9]{4}/}]}}t.exports=n})),Sn=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Cn=o(((e,t)=>{function n(e){return{name:`Test Anything Protocol`,case_insensitive:!0,contains:[e.HASH_COMMENT_MODE,{className:`meta`,variants:[{begin:`^TAP version (\\d+)$`},{begin:`^1\\.\\.(\\d+)$`}]},{begin:/---$/,end:`\\.\\.\\.$`,subLanguage:`yaml`,relevance:0},{className:`number`,begin:` (\\d+) `},{className:`symbol`,variants:[{begin:`^ok`},{begin:`^not ok`}]}]}}t.exports=n})),wn=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z_][a-zA-Z0-9_]*/,r={className:`number`,variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]};return{name:`Tcl`,aliases:[`tk`],keywords:`after.append.apply.array.auto_execok.auto_import.auto_load.auto_mkindex.auto_mkindex_old.auto_qualify.auto_reset.bgerror.binary.break.catch.cd.chan.clock.close.concat.continue.dde.dict.encoding.eof.error.eval.exec.exit.expr.fblocked.fconfigure.fcopy.file.fileevent.filename.flush.for.foreach.format.gets.glob.global.history.http.if.incr.info.interp.join.lappend|10.lassign|10.lindex|10.linsert|10.list.llength|10.load.lrange|10.lrepeat|10.lreplace|10.lreverse|10.lsearch|10.lset|10.lsort|10.mathfunc.mathop.memory.msgcat.namespace.open.package.parray.pid.pkg::create.pkg_mkIndex.platform.platform::shell.proc.puts.pwd.read.refchan.regexp.registry.regsub|10.rename.return.safe.scan.seek.set.socket.source.split.string.subst.switch.tcl_endOfWord.tcl_findLibrary.tcl_startOfNextWord.tcl_startOfPreviousWord.tcl_wordBreakAfter.tcl_wordBreakBefore.tcltest.tclvars.tell.time.tm.trace.unknown.unload.unset.update.uplevel.upvar.variable.vwait.while`.split(`.`),contains:[e.COMMENT(`;[ \\t]*#`,`$`),e.COMMENT(`^[ \\t]*#`,`$`),{beginKeywords:`proc`,end:`[\\{]`,excludeEnd:!0,contains:[{className:`title`,begin:`[ \\t\\n\\r]+(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`[ \\t\\n\\r]`,endsWithParent:!0,excludeEnd:!0}]},{className:`variable`,variants:[{begin:t.concat(/\$/,t.optional(/::/),n,`(::`,n,`)*`)},{begin:`\\$\\{(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`\\}`,contains:[r]}]},{className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},r]}}t.exports=n})),Tn=o(((e,t)=>{function n(e){let t=[`bool`,`byte`,`i16`,`i32`,`i64`,`double`,`string`,`binary`];return{name:`Thrift`,keywords:{keyword:[`namespace`,`const`,`typedef`,`struct`,`enum`,`service`,`exception`,`void`,`oneway`,`set`,`list`,`map`,`required`,`optional`],type:t,literal:`true false`},contains:[e.QUOTE_STRING_MODE,e.NUMBER_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`class`,beginKeywords:`struct enum service exception`,end:/\{/,illegal:/\n/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,excludeEnd:!0}})]},{begin:`\\b(set|list|map)\\s*<`,keywords:{type:[...t,`set`,`list`,`map`]},end:`>`,contains:[`self`]}]}}t.exports=n})),En=o(((e,t)=>{function n(e){let t={className:`number`,begin:`[1-9][0-9]*`,relevance:0},n={className:`symbol`,begin:`:[^\\]]+`};return{name:`TP`,keywords:{keyword:`ABORT.ACC.ADJUST.AND.AP_LD.BREAK.CALL.CNT.COL.CONDITION.CONFIG.DA.DB.DIV.DETECT.ELSE.END.ENDFOR.ERR_NUM.ERROR_PROG.FINE.FOR.GP.GUARD.INC.IF.JMP.LINEAR_MAX_SPEED.LOCK.MOD.MONITOR.OFFSET.Offset.OR.OVERRIDE.PAUSE.PREG.PTH.RT_LD.RUN.SELECT.SKIP.Skip.TA.TB.TO.TOOL_OFFSET.Tool_Offset.UF.UT.UFRAME_NUM.UTOOL_NUM.UNLOCK.WAIT.X.Y.Z.W.P.R.STRLEN.SUBSTR.FINDSTR.VOFFSET.PROG.ATTR.MN.POS`.split(`.`),literal:[`ON`,`OFF`,`max_speed`,`LPOS`,`JPOS`,`ENABLE`,`DISABLE`,`START`,`STOP`,`RESET`]},contains:[{className:`built_in`,begin:`(AR|P|PAYLOAD|PR|R|SR|RSR|LBL|VR|UALM|MESSAGE|UTOOL|UFRAME|TIMER|TIMER_OVERFLOW|JOINT_MAX_SPEED|RESUME_PROG|DIAG_REC)\\[`,end:`\\]`,contains:[`self`,t,n]},{className:`built_in`,begin:`(AI|AO|DI|DO|F|RI|RO|UI|UO|GI|GO|SI|SO)\\[`,end:`\\]`,contains:[`self`,t,e.QUOTE_STRING_MODE,n]},{className:`keyword`,begin:`/(PROG|ATTR|MN|POS|END)\\b`},{className:`keyword`,begin:`(CALL|RUN|POINT_LOGIC|LBL)\\b`},{className:`keyword`,begin:`\\b(ACC|CNT|Skip|Offset|PSPD|RT_LD|AP_LD|Tool_Offset)`},{className:`number`,begin:`\\d+(sec|msec|mm/sec|cm/min|inch/min|deg/sec|mm|in|cm)?\\b`,relevance:0},e.COMMENT(`//`,`[;$]`),e.COMMENT(`!`,`[;$]`),e.COMMENT(`--eg:`,`$`),e.QUOTE_STRING_MODE,{className:`string`,begin:`'`,end:`'`},e.C_NUMBER_MODE,{className:`variable`,begin:`\\$[A-Za-z0-9_]+`}]}}t.exports=n})),Dn=o(((e,t)=>{function n(e){let t=e.regex,n=`absolute_url.asset|0.asset_version.attribute.block.constant.controller|0.country_timezones.csrf_token.cycle.date.dump.expression.form|0.form_end.form_errors.form_help.form_label.form_rest.form_row.form_start.form_widget.html_classes.include.is_granted.logout_path.logout_url.max.min.parent.path|0.random.range.relative_path.render.render_esi.source.template_from_string.url|0`.split(`.`),r=`abs.abbr_class.abbr_method.batch.capitalize.column.convert_encoding.country_name.currency_name.currency_symbol.data_uri.date.date_modify.default.escape.file_excerpt.file_link.file_relative.filter.first.format.format_args.format_args_as_text.format_currency.format_date.format_datetime.format_file.format_file_from_text.format_number.format_time.html_to_markdown.humanize.inky_to_html.inline_css.join.json_encode.keys.language_name.last.length.locale_name.lower.map.markdown.markdown_to_html.merge.nl2br.number_format.raw.reduce.replace.reverse.round.slice.slug.sort.spaceless.split.striptags.timezone_name.title.trans.transchoice.trim.u|0.upper.url_encode.yaml_dump.yaml_encode`.split(`.`),i=`apply.autoescape.block.cache.deprecated.do.embed.extends.filter.flush.for.form_theme.from.if.import.include.macro.sandbox.set.stopwatch.trans.trans_default_domain.transchoice.use.verbatim.with`.split(`.`);i=i.concat(i.map(e=>`end${e}`));let a={scope:`string`,variants:[{begin:/'/,end:/'/},{begin:/"/,end:/"/}]},o={scope:`number`,match:/\d+/},s={begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,contains:[a,o]},c={beginKeywords:n.join(` `),keywords:{name:n},relevance:0,contains:[s]},l={match:/\|(?=[A-Za-z_]+:?)/,beginScope:`punctuation`,relevance:0,contains:[{match:/[A-Za-z_]+:?/,keywords:r}]},u=(e,{relevance:n})=>({beginScope:{1:`template-tag`,3:`name`},relevance:n||2,endScope:`template-tag`,begin:[/\{%/,/\s*/,t.either(...e)],end:/%\}/,keywords:`in`,contains:[l,c,a,o]}),d=/[a-z_]+/,f=u(i,{relevance:2}),p=u([d],{relevance:1});return{name:`Twig`,aliases:[`craftcms`],case_insensitive:!0,subLanguage:`xml`,contains:[e.COMMENT(/\{#/,/#\}/),f,p,{className:`template-variable`,begin:/\{\{/,end:/\}\}/,contains:[`self`,l,c,a,o]}]}}t.exports=n})),On=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,B={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},B,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),kn=o(((e,t)=>{function n(e){return{name:`Vala`,keywords:{keyword:`char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 uint16 uint32 uint64 float double bool struct enum string void weak unowned owned async signal static abstract interface override virtual delegate if while do for foreach else switch case break default return try catch public private protected internal using new this get set const stdout stdin stderr var`,built_in:`DBus GLib CCode Gee Object Gtk Posix`,literal:`false true null`},contains:[{className:`class`,beginKeywords:`class interface namespace`,end:/\{/,excludeEnd:!0,illegal:`[^,:\\n\\s\\.]`,contains:[e.UNDERSCORE_TITLE_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`string`,begin:`"""`,end:`"""`,relevance:5},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,e.C_NUMBER_MODE,{className:`meta`,begin:`^#`,end:`$`}]}}t.exports=n})),An=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),jn=o(((e,t)=>{function n(e){let t=e.regex,n=`lcase.month.vartype.instrrev.ubound.setlocale.getobject.rgb.getref.string.weekdayname.rnd.dateadd.monthname.now.day.minute.isarray.cbool.round.formatcurrency.conversions.csng.timevalue.second.year.space.abs.clng.timeserial.fixs.len.asc.isempty.maths.dateserial.atn.timer.isobject.filter.weekday.datevalue.ccur.isdate.instr.datediff.formatdatetime.replace.isnull.right.sgn.array.snumeric.log.cdbl.hex.chr.lbound.msgbox.ucase.getlocale.cos.cdate.cbyte.rtrim.join.hour.oct.typename.trim.strcomp.int.createobject.loadpicture.tan.formatnumber.mid.split.cint.sin.datepart.ltrim.sqr.time.derived.eval.date.formatpercent.exp.inputbox.left.ascw.chrw.regexp.cstr.err`.split(`.`),r=[`server`,`response`,`request`,`scriptengine`,`scriptenginebuildversion`,`scriptengineminorversion`,`scriptenginemajorversion`],i={begin:t.concat(t.either(...n),`\\s*\\(`),relevance:0,keywords:{built_in:n}};return{name:`VBScript`,aliases:[`vbs`],case_insensitive:!0,keywords:{keyword:`call.class.const.dim.do.loop.erase.execute.executeglobal.exit.for.each.next.function.if.then.else.on.error.option.explicit.new.private.property.let.get.public.randomize.redim.rem.select.case.set.stop.sub.while.wend.with.end.to.elseif.is.or.xor.and.not.class_initialize.class_terminate.default.preserve.in.me.byval.byref.step.resume.goto`.split(`.`),built_in:r,literal:[`true`,`false`,`null`,`nothing`,`empty`]},illegal:`//`,contains:[i,e.inherit(e.QUOTE_STRING_MODE,{contains:[{begin:`""`}]}),e.COMMENT(/'/,/$/,{relevance:0}),e.C_NUMBER_MODE]}}t.exports=n})),Mn=o(((e,t)=>{function n(e){return{name:`VBScript in HTML`,subLanguage:`xml`,contains:[{begin:`<%`,end:`%>`,subLanguage:`vbscript`}]}}t.exports=n})),Nn=o(((e,t)=>{function n(e){let t=e.regex,n={$pattern:/\$?[\w]+(\$[\w]+)*/,keyword:`accept_on.alias.always.always_comb.always_ff.always_latch.and.assert.assign.assume.automatic.before.begin.bind.bins.binsof.bit.break.buf|0.bufif0.bufif1.byte.case.casex.casez.cell.chandle.checker.class.clocking.cmos.config.const.constraint.context.continue.cover.covergroup.coverpoint.cross.deassign.default.defparam.design.disable.dist.do.edge.else.end.endcase.endchecker.endclass.endclocking.endconfig.endfunction.endgenerate.endgroup.endinterface.endmodule.endpackage.endprimitive.endprogram.endproperty.endspecify.endsequence.endtable.endtask.enum.event.eventually.expect.export.extends.extern.final.first_match.for.force.foreach.forever.fork.forkjoin.function.generate|5.genvar.global.highz0.highz1.if.iff.ifnone.ignore_bins.illegal_bins.implements.implies.import.incdir.include.initial.inout.input.inside.instance.int.integer.interconnect.interface.intersect.join.join_any.join_none.large.let.liblist.library.local.localparam.logic.longint.macromodule.matches.medium.modport.module.nand.negedge.nettype.new.nexttime.nmos.nor.noshowcancelled.not.notif0.notif1.or.output.package.packed.parameter.pmos.posedge.primitive.priority.program.property.protected.pull0.pull1.pulldown.pullup.pulsestyle_ondetect.pulsestyle_onevent.pure.rand.randc.randcase.randsequence.rcmos.real.realtime.ref.reg.reject_on.release.repeat.restrict.return.rnmos.rpmos.rtran.rtranif0.rtranif1.s_always.s_eventually.s_nexttime.s_until.s_until_with.scalared.sequence.shortint.shortreal.showcancelled.signed.small.soft.solve.specify.specparam.static.string.strong.strong0.strong1.struct.super.supply0.supply1.sync_accept_on.sync_reject_on.table.tagged.task.this.throughout.time.timeprecision.timeunit.tran.tranif0.tranif1.tri.tri0.tri1.triand.trior.trireg.type.typedef.union.unique.unique0.unsigned.until.until_with.untyped.use.uwire.var.vectored.virtual.void.wait.wait_order.wand.weak.weak0.weak1.while.wildcard.wire.with.within.wor.xnor.xor`.split(`.`),literal:[`null`],built_in:`$finish.$stop.$exit.$fatal.$error.$warning.$info.$realtime.$time.$printtimescale.$bitstoreal.$bitstoshortreal.$itor.$signed.$cast.$bits.$stime.$timeformat.$realtobits.$shortrealtobits.$rtoi.$unsigned.$asserton.$assertkill.$assertpasson.$assertfailon.$assertnonvacuouson.$assertoff.$assertcontrol.$assertpassoff.$assertfailoff.$assertvacuousoff.$isunbounded.$sampled.$fell.$changed.$past_gclk.$fell_gclk.$changed_gclk.$rising_gclk.$steady_gclk.$coverage_control.$coverage_get.$coverage_save.$set_coverage_db_name.$rose.$stable.$past.$rose_gclk.$stable_gclk.$future_gclk.$falling_gclk.$changing_gclk.$display.$coverage_get_max.$coverage_merge.$get_coverage.$load_coverage_db.$typename.$unpacked_dimensions.$left.$low.$increment.$clog2.$ln.$log10.$exp.$sqrt.$pow.$floor.$ceil.$sin.$cos.$tan.$countbits.$onehot.$isunknown.$fatal.$warning.$dimensions.$right.$high.$size.$asin.$acos.$atan.$atan2.$hypot.$sinh.$cosh.$tanh.$asinh.$acosh.$atanh.$countones.$onehot0.$error.$info.$random.$dist_chi_square.$dist_erlang.$dist_exponential.$dist_normal.$dist_poisson.$dist_t.$dist_uniform.$q_initialize.$q_remove.$q_exam.$async$and$array.$async$nand$array.$async$or$array.$async$nor$array.$sync$and$array.$sync$nand$array.$sync$or$array.$sync$nor$array.$q_add.$q_full.$psprintf.$async$and$plane.$async$nand$plane.$async$or$plane.$async$nor$plane.$sync$and$plane.$sync$nand$plane.$sync$or$plane.$sync$nor$plane.$system.$display.$displayb.$displayh.$displayo.$strobe.$strobeb.$strobeh.$strobeo.$write.$readmemb.$readmemh.$writememh.$value$plusargs.$dumpvars.$dumpon.$dumplimit.$dumpports.$dumpportson.$dumpportslimit.$writeb.$writeh.$writeo.$monitor.$monitorb.$monitorh.$monitoro.$writememb.$dumpfile.$dumpoff.$dumpall.$dumpflush.$dumpportsoff.$dumpportsall.$dumpportsflush.$fclose.$fdisplay.$fdisplayb.$fdisplayh.$fdisplayo.$fstrobe.$fstrobeb.$fstrobeh.$fstrobeo.$swrite.$swriteb.$swriteh.$swriteo.$fscanf.$fread.$fseek.$fflush.$feof.$fopen.$fwrite.$fwriteb.$fwriteh.$fwriteo.$fmonitor.$fmonitorb.$fmonitorh.$fmonitoro.$sformat.$sformatf.$fgetc.$ungetc.$fgets.$sscanf.$rewind.$ftell.$ferror`.split(`.`)},r=[`__FILE__`,`__LINE__`],i=`begin_keywords.celldefine.default_nettype.default_decay_time.default_trireg_strength.define.delay_mode_distributed.delay_mode_path.delay_mode_unit.delay_mode_zero.else.elsif.end_keywords.endcelldefine.endif.ifdef.ifndef.include.line.nounconnected_drive.pragma.resetall.timescale.unconnected_drive.undef.undefineall`.split(`.`);return{name:`Verilog`,aliases:[`v`,`sv`,`svh`],case_insensitive:!1,keywords:n,contains:[e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.QUOTE_STRING_MODE,{scope:`number`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/\b((\d+'([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\B(('([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\b[0-9][0-9_]*/,relevance:0}]},{scope:`variable`,variants:[{begin:`#\\((?!parameter).+\\)`},{begin:`\\.\\w+`,relevance:0}]},{scope:`variable.constant`,match:t.concat(/`/,t.either(...r))},{scope:`meta`,begin:t.concat(/`/,t.either(...i)),end:/$|\/\/|\/\*/,returnEnd:!0,keywords:i}]}}t.exports=n})),Pn=o(((e,t)=>{function n(e){let t=`\\d(_|\\d)*`;return``+t,t+``,t+``,{name:`VHDL`,case_insensitive:!0,keywords:{keyword:`abs.access.after.alias.all.and.architecture.array.assert.assume.assume_guarantee.attribute.begin.block.body.buffer.bus.case.component.configuration.constant.context.cover.disconnect.downto.default.else.elsif.end.entity.exit.fairness.file.for.force.function.generate.generic.group.guarded.if.impure.in.inertial.inout.is.label.library.linkage.literal.loop.map.mod.nand.new.next.nor.not.null.of.on.open.or.others.out.package.parameter.port.postponed.procedure.process.property.protected.pure.range.record.register.reject.release.rem.report.restrict.restrict_guarantee.return.rol.ror.select.sequence.severity.shared.signal.sla.sll.sra.srl.strong.subtype.then.to.transport.type.unaffected.units.until.use.variable.view.vmode.vprop.vunit.wait.when.while.with.xnor.xor`.split(`.`),built_in:`boolean.bit.character.integer.time.delay_length.natural.positive.string.bit_vector.file_open_kind.file_open_status.std_logic.std_logic_vector.unsigned.signed.boolean_vector.integer_vector.std_ulogic.std_ulogic_vector.unresolved_unsigned.u_unsigned.unresolved_signed.u_signed.real_vector.time_vector`.split(`.`),literal:[`false`,`true`,`note`,`warning`,`error`,`failure`,`line`,`text`,`side`,`width`]},illegal:/\{/,contains:[e.C_BLOCK_COMMENT_MODE,e.COMMENT(`--`,`$`),e.QUOTE_STRING_MODE,{className:`number`,begin:`\\b(\\d(_|\\d)*#\\w+(\\.\\w+)?#([eE][-+]?\\d(_|\\d)*)?|\\d(_|\\d)*(\\.\\d(_|\\d)*)?([eE][-+]?\\d(_|\\d)*)?)`,relevance:0},{className:`string`,begin:`'(U|X|0|1|Z|W|L|H|-)'`,contains:[e.BACKSLASH_ESCAPE]},{className:`symbol`,begin:`'[A-Za-z](_?[A-Za-z0-9])*`,contains:[e.BACKSLASH_ESCAPE]}]}}t.exports=n})),Fn=o(((e,t)=>{function n(e){return{name:`Vim Script`,keywords:{$pattern:/[!#@\w]+/,keyword:`N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank`,built_in:`synIDtrans atan2 range matcharg did_filetype asin feedkeys xor argv complete_check add getwinposx getqflist getwinposy screencol clearmatches empty extend getcmdpos mzeval garbagecollect setreg ceil sqrt diff_hlID inputsecret get getfperm getpid filewritable shiftwidth max sinh isdirectory synID system inputrestore winline atan visualmode inputlist tabpagewinnr round getregtype mapcheck hasmapto histdel argidx findfile sha256 exists toupper getcmdline taglist string getmatches bufnr strftime winwidth bufexists strtrans tabpagebuflist setcmdpos remote_read printf setloclist getpos getline bufwinnr float2nr len getcmdtype diff_filler luaeval resolve libcallnr foldclosedend reverse filter has_key bufname str2float strlen setline getcharmod setbufvar index searchpos shellescape undofile foldclosed setqflist buflisted strchars str2nr virtcol floor remove undotree remote_expr winheight gettabwinvar reltime cursor tabpagenr finddir localtime acos getloclist search tanh matchend rename gettabvar strdisplaywidth type abs py3eval setwinvar tolower wildmenumode log10 spellsuggest bufloaded synconcealed nextnonblank server2client complete settabwinvar executable input wincol setmatches getftype hlID inputsave searchpair or screenrow line settabvar histadd deepcopy strpart remote_peek and eval getftime submatch screenchar winsaveview matchadd mkdir screenattr getfontname libcall reltimestr getfsize winnr invert pow getbufline byte2line soundfold repeat fnameescape tagfiles sin strwidth spellbadword trunc maparg log lispindent hostname setpos globpath remote_foreground getchar synIDattr fnamemodify cscope_connection stridx winbufnr indent min complete_add nr2char searchpairpos inputdialog values matchlist items hlexists strridx browsedir expand fmod pathshorten line2byte argc count getwinvar glob foldtextresult getreg foreground cosh matchdelete has char2nr simplify histget searchdecl iconv winrestcmd pumvisible writefile foldlevel haslocaldir keys cos matchstr foldtext histnr tan tempname getcwd byteidx getbufvar islocked escape eventhandler remote_send serverlist winrestview synstack pyeval prevnonblank readfile cindent filereadable changenr exp`},illegal:/;/,contains:[e.NUMBER_MODE,{className:`string`,begin:`'`,end:`'`,illegal:`\\n`},{className:`string`,begin:/"(\\"|\n\\|[^"\n])*"/},e.COMMENT(`"`,`$`),{className:`variable`,begin:/[bwtglsav]:[\w\d_]+/},{begin:[/\b(?:function|function!)/,/\s+/,e.IDENT_RE],className:{1:`keyword`,3:`title`},end:`$`,relevance:0,contains:[{className:`params`,begin:`\\(`,end:`\\)`}]},{className:`symbol`,begin:/<[\w-]+>/}]}}t.exports=n})),In=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Ln=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z]\w*/,r=[`as`,`break`,`class`,`construct`,`continue`,`else`,`for`,`foreign`,`if`,`import`,`in`,`is`,`return`,`static`,`var`,`while`],i=[`true`,`false`,`null`],a=[`this`,`super`],o=[`Bool`,`Class`,`Fiber`,`Fn`,`List`,`Map`,`Null`,`Num`,`Object`,`Range`,`Sequence`,`String`,`System`],s=[`-`,`~`,/\*/,`%`,/\.\.\./,/\.\./,/\+/,`<<`,`>>`,`>=`,`<=`,`<`,`>`,/\^/,/!=/,/!/,/\bis\b/,`==`,`&&`,`&`,/\|\|/,/\|/,/\?:/,`=`],c={relevance:0,match:t.concat(/\b(?!(if|while|for|else|super)\b)/,n,/(?=\s*[({])/),className:`title.function`},l={match:t.concat(t.either(t.concat(/\b(?!(if|while|for|else|super)\b)/,n),t.either(...s)),/(?=\s*\([^)]+\)\s*\{)/),className:`title.function`,starts:{contains:[{begin:/\(/,end:/\)/,contains:[{relevance:0,scope:`params`,match:n}]}]}},u={variants:[{match:[/class\s+/,n,/\s+is\s+/,n]},{match:[/class\s+/,n]}],scope:{2:`title.class`,4:`title.class.inherited`},keywords:r},d={relevance:0,match:t.either(...s),className:`operator`},f={className:`string`,begin:/"""/,end:/"""/},p={className:`property`,begin:t.concat(/\./,t.lookahead(n)),end:n,excludeBegin:!0,relevance:0},m={relevance:0,match:t.concat(/\b_/,n),scope:`variable`},h={relevance:0,match:/\b[A-Z]+[a-z]+([A-Z]+[a-z]+)*/,scope:`title.class`,keywords:{_:o}},g=e.C_NUMBER_MODE,_={match:[n,/\s*/,/=/,/\s*/,/\(/,n,/\)\s*\{/],scope:{1:`title.function`,3:`operator`,6:`params`}},v=e.COMMENT(/\/\*\*/,/\*\//,{contains:[{match:/@[a-z]+/,scope:`doctag`},`self`]}),y={scope:`subst`,begin:/%\(/,end:/\)/,contains:[g,h,c,m,d]},b={scope:`string`,begin:/"/,end:/"/,contains:[y,{scope:`char.escape`,variants:[{match:/\\\\|\\["0%abefnrtv]/},{match:/\\x[0-9A-F]{2}/},{match:/\\u[0-9A-F]{4}/},{match:/\\U[0-9A-F]{8}/}]}]};y.contains.push(b);let x=[...r,...a,...i],S={relevance:0,match:t.concat(`\\b(?!`,x.join(`|`),`\\b)`,/[a-zA-Z_]\w*(?:[?!]|\b)/),className:`variable`};return{name:`Wren`,keywords:{keyword:r,"variable.language":a,literal:i},contains:[{scope:`comment`,variants:[{begin:[/#!?/,/[A-Za-z_]+(?=\()/],beginScope:{},keywords:{literal:i},contains:[],end:/\)/},{begin:[/#!?/,/[A-Za-z_]+/],beginScope:{},end:/$/}]},g,b,f,v,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,h,u,_,l,c,d,m,p,S]}}t.exports=n})),Rn=o(((e,t)=>{function n(e){return{name:`Intel x86 Assembly`,case_insensitive:!0,keywords:{$pattern:`[.%]?`+e.IDENT_RE,keyword:`lock rep repe repz repne repnz xaquire xrelease bnd nobnd aaa aad aam aas adc add and arpl bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts call cbw cdq cdqe clc cld cli clts cmc cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg486 cmpxchg8b cmpxchg16b cpuid cpu_read cpu_write cqo cwd cwde daa das dec div dmint emms enter equ f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp fxam fxch fxtract fyl2x fyl2xp1 hlt ibts icebp idiv imul in inc incbin insb insd insw int int01 int1 int03 int3 into invd invpcid invlpg invlpga iret iretd iretq iretw jcxz jecxz jrcxz jmp jmpe lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait neg nop not or out outsb outsd outsw packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad pushaw pushf pushfd pushfq pushfw pxor rcl rcr rdshr rdmsr rdpmc rdtsc rdtscp ret retf retn rol ror rdm rsdc rsldt rsm rsts sahf sal salc sar sbb scasb scasd scasq scasw sfence sgdt shl shld shr shrd sidt sldt skinit smi smint smintold smsw stc std sti stosb stosd stosq stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret test ud0 ud1 ud2b ud2 ud2a umov verr verw fwait wbinvd wrshr wrmsr xadd xbts xchg xlatb xlat xor cmove cmovz cmovne cmovnz cmova cmovnbe cmovae cmovnb cmovb cmovnae cmovbe cmovna cmovg cmovnle cmovge cmovnl cmovl cmovnge cmovle cmovng cmovc cmovnc cmovo cmovno cmovs cmovns cmovp cmovpe cmovnp cmovpo je jz jne jnz ja jnbe jae jnb jb jnae jbe jna jg jnle jge jnl jl jnge jle jng jc jnc jo jno js jns jpo jnp jpe jp sete setz setne setnz seta setnbe setae setnb setnc setb setnae setcset setbe setna setg setnle setge setnl setl setnge setle setng sets setns seto setno setpe setp setpo setnp addps addss andnps andps cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpunordps cmpunordss cmpps cmpss comiss cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi cvttss2si divps divss ldmxcsr maxps maxss minps minss movaps movhps movlhps movlps movhlps movmskps movntps movss movups mulps mulss orps rcpps rcpss rsqrtps rsqrtss shufps sqrtps sqrtss stmxcsr subps subss ucomiss unpckhps unpcklps xorps fxrstor fxrstor64 fxsave fxsave64 xgetbv xsetbv xsave xsave64 xsaveopt xsaveopt64 xrstor xrstor64 prefetchnta prefetcht0 prefetcht1 prefetcht2 maskmovq movntq pavgb pavgw pextrw pinsrw pmaxsw pmaxub pminsw pminub pmovmskb pmulhuw psadbw pshufw pf2iw pfnacc pfpnacc pi2fw pswapd maskmovdqu clflush movntdq movnti movntpd movdqa movdqu movdq2q movq2dq paddq pmuludq pshufd pshufhw pshuflw pslldq psrldq psubq punpckhqdq punpcklqdq addpd addsd andnpd andpd cmpeqpd cmpeqsd cmplepd cmplesd cmpltpd cmpltsd cmpneqpd cmpneqsd cmpnlepd cmpnlesd cmpnltpd cmpnltsd cmpordpd cmpordsd cmpunordpd cmpunordsd cmppd comisd cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtps2dq cvtps2pd cvtsd2si cvtsd2ss cvtsi2sd cvtss2sd cvttpd2pi cvttpd2dq cvttps2dq cvttsd2si divpd divsd maxpd maxsd minpd minsd movapd movhpd movlpd movmskpd movupd mulpd mulsd orpd shufpd sqrtpd sqrtsd subpd subsd ucomisd unpckhpd unpcklpd xorpd addsubpd addsubps haddpd haddps hsubpd hsubps lddqu movddup movshdup movsldup clgi stgi vmcall vmclear vmfunc vmlaunch vmload vmmcall vmptrld vmptrst vmread vmresume vmrun vmsave vmwrite vmxoff vmxon invept invvpid pabsb pabsw pabsd palignr phaddw phaddd phaddsw phsubw phsubd phsubsw pmaddubsw pmulhrsw pshufb psignb psignw psignd extrq insertq movntsd movntss lzcnt blendpd blendps blendvpd blendvps dppd dpps extractps insertps movntdqa mpsadbw packusdw pblendvb pblendw pcmpeqq pextrb pextrd pextrq phminposuw pinsrb pinsrd pinsrq pmaxsb pmaxsd pmaxud pmaxuw pminsb pminsd pminud pminuw pmovsxbw pmovsxbd pmovsxbq pmovsxwd pmovsxwq pmovsxdq pmovzxbw pmovzxbd pmovzxbq pmovzxwd pmovzxwq pmovzxdq pmuldq pmulld ptest roundpd roundps roundsd roundss crc32 pcmpestri pcmpestrm pcmpistri pcmpistrm pcmpgtq popcnt getsec pfrcpv pfrsqrtv movbe aesenc aesenclast aesdec aesdeclast aesimc aeskeygenassist vaesenc vaesenclast vaesdec vaesdeclast vaesimc vaeskeygenassist vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vandpd vandps vandnpd vandnps vblendpd vblendps vblendvpd vblendvps vbroadcastss vbroadcastsd vbroadcastf128 vcmpeq_ospd vcmpeqpd vcmplt_ospd vcmpltpd vcmple_ospd vcmplepd vcmpunord_qpd vcmpunordpd vcmpneq_uqpd vcmpneqpd vcmpnlt_uspd vcmpnltpd vcmpnle_uspd vcmpnlepd vcmpord_qpd vcmpordpd vcmpeq_uqpd vcmpnge_uspd vcmpngepd vcmpngt_uspd vcmpngtpd vcmpfalse_oqpd vcmpfalsepd vcmpneq_oqpd vcmpge_ospd vcmpgepd vcmpgt_ospd vcmpgtpd vcmptrue_uqpd vcmptruepd vcmplt_oqpd vcmple_oqpd vcmpunord_spd vcmpneq_uspd vcmpnlt_uqpd vcmpnle_uqpd vcmpord_spd vcmpeq_uspd vcmpnge_uqpd vcmpngt_uqpd vcmpfalse_ospd vcmpneq_ospd vcmpge_oqpd vcmpgt_oqpd vcmptrue_uspd vcmppd vcmpeq_osps vcmpeqps vcmplt_osps vcmpltps vcmple_osps vcmpleps vcmpunord_qps vcmpunordps vcmpneq_uqps vcmpneqps vcmpnlt_usps vcmpnltps vcmpnle_usps vcmpnleps vcmpord_qps vcmpordps vcmpeq_uqps vcmpnge_usps vcmpngeps vcmpngt_usps vcmpngtps vcmpfalse_oqps vcmpfalseps vcmpneq_oqps vcmpge_osps vcmpgeps vcmpgt_osps vcmpgtps vcmptrue_uqps vcmptrueps vcmplt_oqps vcmple_oqps vcmpunord_sps vcmpneq_usps vcmpnlt_uqps vcmpnle_uqps vcmpord_sps vcmpeq_usps vcmpnge_uqps vcmpngt_uqps vcmpfalse_osps vcmpneq_osps vcmpge_oqps vcmpgt_oqps vcmptrue_usps vcmpps vcmpeq_ossd vcmpeqsd vcmplt_ossd vcmpltsd vcmple_ossd vcmplesd vcmpunord_qsd vcmpunordsd vcmpneq_uqsd vcmpneqsd vcmpnlt_ussd vcmpnltsd vcmpnle_ussd vcmpnlesd vcmpord_qsd vcmpordsd vcmpeq_uqsd vcmpnge_ussd vcmpngesd vcmpngt_ussd vcmpngtsd vcmpfalse_oqsd vcmpfalsesd vcmpneq_oqsd vcmpge_ossd vcmpgesd vcmpgt_ossd vcmpgtsd vcmptrue_uqsd vcmptruesd vcmplt_oqsd vcmple_oqsd vcmpunord_ssd vcmpneq_ussd vcmpnlt_uqsd vcmpnle_uqsd vcmpord_ssd vcmpeq_ussd vcmpnge_uqsd vcmpngt_uqsd vcmpfalse_ossd vcmpneq_ossd vcmpge_oqsd vcmpgt_oqsd vcmptrue_ussd vcmpsd vcmpeq_osss vcmpeqss vcmplt_osss vcmpltss vcmple_osss vcmpless vcmpunord_qss vcmpunordss vcmpneq_uqss vcmpneqss vcmpnlt_usss vcmpnltss vcmpnle_usss vcmpnless vcmpord_qss vcmpordss vcmpeq_uqss vcmpnge_usss vcmpngess vcmpngt_usss vcmpngtss vcmpfalse_oqss vcmpfalsess vcmpneq_oqss vcmpge_osss vcmpgess vcmpgt_osss vcmpgtss vcmptrue_uqss vcmptruess vcmplt_oqss vcmple_oqss vcmpunord_sss vcmpneq_usss vcmpnlt_uqss vcmpnle_uqss vcmpord_sss vcmpeq_usss vcmpnge_uqss vcmpngt_uqss vcmpfalse_osss vcmpneq_osss vcmpge_oqss vcmpgt_oqss vcmptrue_usss vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtps2dq vcvtps2pd vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinsertps vlddqu vldqqu vldmxcsr vmaskmovdqu vmaskmovps vmaskmovpd vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmovapd vmovaps vmovd vmovq vmovddup vmovdqa vmovqqa vmovdqu vmovqqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq vmovntqq vmovntdqa vmovntpd vmovntps vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsw vpabsd vpacksswb vpackssdw vpackuswb vpackusdw vpaddb vpaddw vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpcmpestri vpcmpestrm vpcmpistri vpcmpistrm vpcmpeqb vpcmpeqw vpcmpeqd vpcmpeqq vpcmpgtb vpcmpgtw vpcmpgtd vpcmpgtq vpermilpd vpermilps vperm2f128 vpextrb vpextrw vpextrd vpextrq vphaddw vphaddd vphaddsw vphminposuw vphsubw vphsubd vphsubsw vpinsrb vpinsrw vpinsrd vpinsrq vpmaddwd vpmaddubsw vpmaxsb vpmaxsw vpmaxsd vpmaxub vpmaxuw vpmaxud vpminsb vpminsw vpminsd vpminub vpminuw vpminud vpmovmskb vpmovsxbw vpmovsxbd vpmovsxbq vpmovsxwd vpmovsxwq vpmovsxdq vpmovzxbw vpmovzxbd vpmovzxbq vpmovzxwd vpmovzxwq vpmovzxdq vpmulhuw vpmulhrsw vpmulhw vpmullw vpmulld vpmuludq vpmuldq vpor vpsadbw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignw vpsignd vpslldq vpsrldq vpsllw vpslld vpsllq vpsraw vpsrad vpsrlw vpsrld vpsrlq vptest vpsubb vpsubw vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpunpckhbw vpunpckhwd vpunpckhdq vpunpckhqdq vpunpcklbw vpunpcklwd vpunpckldq vpunpcklqdq vpxor vrcpps vrcpss vrsqrtps vrsqrtss vroundpd vroundps vroundsd vroundss vshufpd vshufps vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestps vtestpd vucomisd vucomiss vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper pclmullqlqdq pclmulhqlqdq pclmullqhqdq pclmulhqhqdq pclmulqdq vpclmullqlqdq vpclmulhqlqdq vpclmullqhqdq vpclmulhqhqdq vpclmulqdq vfmadd132ps vfmadd132pd vfmadd312ps vfmadd312pd vfmadd213ps vfmadd213pd vfmadd123ps vfmadd123pd vfmadd231ps vfmadd231pd vfmadd321ps vfmadd321pd vfmaddsub132ps vfmaddsub132pd vfmaddsub312ps vfmaddsub312pd vfmaddsub213ps vfmaddsub213pd vfmaddsub123ps vfmaddsub123pd vfmaddsub231ps vfmaddsub231pd vfmaddsub321ps vfmaddsub321pd vfmsub132ps vfmsub132pd vfmsub312ps vfmsub312pd vfmsub213ps vfmsub213pd vfmsub123ps vfmsub123pd vfmsub231ps vfmsub231pd vfmsub321ps vfmsub321pd vfmsubadd132ps vfmsubadd132pd vfmsubadd312ps vfmsubadd312pd vfmsubadd213ps vfmsubadd213pd vfmsubadd123ps vfmsubadd123pd vfmsubadd231ps vfmsubadd231pd vfmsubadd321ps vfmsubadd321pd vfnmadd132ps vfnmadd132pd vfnmadd312ps vfnmadd312pd vfnmadd213ps vfnmadd213pd vfnmadd123ps vfnmadd123pd vfnmadd231ps vfnmadd231pd vfnmadd321ps vfnmadd321pd vfnmsub132ps vfnmsub132pd vfnmsub312ps vfnmsub312pd vfnmsub213ps vfnmsub213pd vfnmsub123ps vfnmsub123pd vfnmsub231ps vfnmsub231pd vfnmsub321ps vfnmsub321pd vfmadd132ss vfmadd132sd vfmadd312ss vfmadd312sd vfmadd213ss vfmadd213sd vfmadd123ss vfmadd123sd vfmadd231ss vfmadd231sd vfmadd321ss vfmadd321sd vfmsub132ss vfmsub132sd vfmsub312ss vfmsub312sd vfmsub213ss vfmsub213sd vfmsub123ss vfmsub123sd vfmsub231ss vfmsub231sd vfmsub321ss vfmsub321sd vfnmadd132ss vfnmadd132sd vfnmadd312ss vfnmadd312sd vfnmadd213ss vfnmadd213sd vfnmadd123ss vfnmadd123sd vfnmadd231ss vfnmadd231sd vfnmadd321ss vfnmadd321sd vfnmsub132ss vfnmsub132sd vfnmsub312ss vfnmsub312sd vfnmsub213ss vfnmsub213sd vfnmsub123ss vfnmsub123sd vfnmsub231ss vfnmsub231sd vfnmsub321ss vfnmsub321sd rdfsbase rdgsbase rdrand wrfsbase wrgsbase vcvtph2ps vcvtps2ph adcx adox rdseed clac stac xstore xcryptecb xcryptcbc xcryptctr xcryptcfb xcryptofb montmul xsha1 xsha256 llwpcb slwpcb lwpval lwpins vfmaddpd vfmaddps vfmaddsd vfmaddss vfmaddsubpd vfmaddsubps vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vpcmov vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vphaddbd vphaddbq vphaddbw vphadddq vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddwd vphaddwq vphsubbw vphsubdq vphsubwd vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpperm vprotb vprotd vprotq vprotw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vbroadcasti128 vpblendd vpbroadcastb vpbroadcastw vpbroadcastd vpbroadcastq vpermd vpermpd vpermps vpermq vperm2i128 vextracti128 vinserti128 vpmaskmovd vpmaskmovq vpsllvd vpsllvq vpsravd vpsrlvd vpsrlvq vgatherdpd vgatherqpd vgatherdps vgatherqps vpgatherdd vpgatherqd vpgatherdq vpgatherqq xabort xbegin xend xtest andn bextr blci blcic blsi blsic blcfill blsfill blcmsk blsmsk blsr blcs bzhi mulx pdep pext rorx sarx shlx shrx tzcnt tzmsk t1mskc valignd valignq vblendmpd vblendmps vbroadcastf32x4 vbroadcastf64x4 vbroadcasti32x4 vbroadcasti64x4 vcompresspd vcompressps vcvtpd2udq vcvtps2udq vcvtsd2usi vcvtss2usi vcvttpd2udq vcvttps2udq vcvttsd2usi vcvttss2usi vcvtudq2pd vcvtudq2ps vcvtusi2sd vcvtusi2ss vexpandpd vexpandps vextractf32x4 vextractf64x4 vextracti32x4 vextracti64x4 vfixupimmpd vfixupimmps vfixupimmsd vfixupimmss vgetexppd vgetexpps vgetexpsd vgetexpss vgetmantpd vgetmantps vgetmantsd vgetmantss vinsertf32x4 vinsertf64x4 vinserti32x4 vinserti64x4 vmovdqa32 vmovdqa64 vmovdqu32 vmovdqu64 vpabsq vpandd vpandnd vpandnq vpandq vpblendmd vpblendmq vpcmpltd vpcmpled vpcmpneqd vpcmpnltd vpcmpnled vpcmpd vpcmpltq vpcmpleq vpcmpneqq vpcmpnltq vpcmpnleq vpcmpq vpcmpequd vpcmpltud vpcmpleud vpcmpnequd vpcmpnltud vpcmpnleud vpcmpud vpcmpequq vpcmpltuq vpcmpleuq vpcmpnequq vpcmpnltuq vpcmpnleuq vpcmpuq vpcompressd vpcompressq vpermi2d vpermi2pd vpermi2ps vpermi2q vpermt2d vpermt2pd vpermt2ps vpermt2q vpexpandd vpexpandq vpmaxsq vpmaxuq vpminsq vpminuq vpmovdb vpmovdw vpmovqb vpmovqd vpmovqw vpmovsdb vpmovsdw vpmovsqb vpmovsqd vpmovsqw vpmovusdb vpmovusdw vpmovusqb vpmovusqd vpmovusqw vpord vporq vprold vprolq vprolvd vprolvq vprord vprorq vprorvd vprorvq vpscatterdd vpscatterdq vpscatterqd vpscatterqq vpsraq vpsravq vpternlogd vpternlogq vptestmd vptestmq vptestnmd vptestnmq vpxord vpxorq vrcp14pd vrcp14ps vrcp14sd vrcp14ss vrndscalepd vrndscaleps vrndscalesd vrndscaless vrsqrt14pd vrsqrt14ps vrsqrt14sd vrsqrt14ss vscalefpd vscalefps vscalefsd vscalefss vscatterdpd vscatterdps vscatterqpd vscatterqps vshuff32x4 vshuff64x2 vshufi32x4 vshufi64x2 kandnw kandw kmovw knotw kortestw korw kshiftlw kshiftrw kunpckbw kxnorw kxorw vpbroadcastmb2q vpbroadcastmw2d vpconflictd vpconflictq vplzcntd vplzcntq vexp2pd vexp2ps vrcp28pd vrcp28ps vrcp28sd vrcp28ss vrsqrt28pd vrsqrt28ps vrsqrt28sd vrsqrt28ss vgatherpf0dpd vgatherpf0dps vgatherpf0qpd vgatherpf0qps vgatherpf1dpd vgatherpf1dps vgatherpf1qpd vgatherpf1qps vscatterpf0dpd vscatterpf0dps vscatterpf0qpd vscatterpf0qps vscatterpf1dpd vscatterpf1dps vscatterpf1qpd vscatterpf1qps prefetchwt1 bndmk bndcl bndcu bndcn bndmov bndldx bndstx sha1rnds4 sha1nexte sha1msg1 sha1msg2 sha256rnds2 sha256msg1 sha256msg2 hint_nop0 hint_nop1 hint_nop2 hint_nop3 hint_nop4 hint_nop5 hint_nop6 hint_nop7 hint_nop8 hint_nop9 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15 hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop20 hint_nop21 hint_nop22 hint_nop23 hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop30 hint_nop31 hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48 hint_nop49 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56 hint_nop57 hint_nop58 hint_nop59 hint_nop60 hint_nop61 hint_nop62 hint_nop63`,built_in:`ip eip rip al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 cs ds es fs gs ss st st0 st1 st2 st3 st4 st5 st6 st7 mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 k0 k1 k2 k3 k4 k5 k6 k7 bnd0 bnd1 bnd2 bnd3 cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d r0h r1h r2h r3h r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l db dw dd dq dt ddq do dy dz resb resw resd resq rest resdq reso resy resz incbin equ times byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr`,meta:`%define %xdefine %+ %undef %defstr %deftok %assign %strcat %strlen %substr %rotate %elif %else %endif %if %ifmacro %ifctx %ifidn %ifidni %ifid %ifnum %ifstr %iftoken %ifempty %ifenv %error %warning %fatal %rep %endrep %include %push %pop %repl %pathsearch %depend %use %arg %stacksize %local %line %comment %endcomment .nolist __FILE__ __LINE__ __SECT__  __BITS__ __OUTPUT_FORMAT__ __DATE__ __TIME__ __DATE_NUM__ __TIME_NUM__ __UTC_DATE__ __UTC_TIME__ __UTC_DATE_NUM__ __UTC_TIME_NUM__  __PASS__ struc endstruc istruc at iend align alignb sectalign daz nodaz up down zero default option assume public bits use16 use32 use64 default section segment absolute extern global common cpu float __utf16__ __utf16le__ __utf16be__ __utf32__ __utf32le__ __utf32be__ __float8__ __float16__ __float32__ __float64__ __float80m__ __float80e__ __float128l__ __float128h__ __Infinity__ __QNaN__ __SNaN__ Inf NaN QNaN SNaN float8 float16 float32 float64 float80m float80e float128l float128h __FLOAT_DAZ__ __FLOAT_ROUND__ __FLOAT__`},contains:[e.COMMENT(`;`,`$`,{relevance:0}),{className:`number`,variants:[{begin:`\\b(?:([0-9][0-9_]*)?\\.[0-9_]*(?:[eE][+-]?[0-9_]+)?|(0[Xx])?[0-9][0-9_]*(\\.[0-9_]*)?(?:[pP](?:[+-]?[0-9_]+)?)?)\\b`,relevance:0},{begin:`\\$[0-9][0-9A-Fa-f]*`,relevance:0},{begin:`\\b(?:[0-9A-Fa-f][0-9A-Fa-f_]*[Hh]|[0-9][0-9_]*[DdTt]?|[0-7][0-7_]*[QqOo]|[0-1][0-1_]*[BbYy])\\b`},{begin:`\\b(?:0[Xx][0-9A-Fa-f_]+|0[DdTt][0-9_]+|0[QqOo][0-7_]+|0[BbYy][0-1_]+)\\b`}]},e.QUOTE_STRING_MODE,{className:`string`,variants:[{begin:`'`,end:`[^\\\\]'`},{begin:"`",end:"[^\\\\]`"}],relevance:0},{className:`symbol`,variants:[{begin:`^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)`},{begin:`^\\s*%%[A-Za-z0-9_$#@~.?]*:`}],relevance:0},{className:`subst`,begin:`%[0-9]+`,relevance:0},{className:`subst`,begin:`%!S+`,relevance:0},{className:`meta`,begin:/^\s*\.[\w_-]+/}]}}t.exports=n})),zn=o(((e,t)=>{function n(e){let t={$pattern:/[a-zA-Z][a-zA-Z0-9_?]*/,keyword:`if.then.else.do.while.until.for.loop.import.with.is.as.where.when.by.data.constant.integer.real.text.name.boolean.symbol.infix.prefix.postfix.block.tree`.split(`.`),literal:[`true`,`false`,`nil`],built_in:`in.mod.rem.and.or.xor.not.abs.sign.floor.ceil.sqrt.sin.cos.tan.asin.acos.atan.exp.expm1.log.log2.log10.log1p.pi.at.text_length.text_range.text_find.text_replace.contains.page.slide.basic_slide.title_slide.title.subtitle.fade_in.fade_out.fade_at.clear_color.color.line_color.line_width.texture_wrap.texture_transform.texture.scale_?x.scale_?y.scale_?z?.translate_?x.translate_?y.translate_?z?.rotate_?x.rotate_?y.rotate_?z?.rectangle.circle.ellipse.sphere.path.line_to.move_to.quad_to.curve_to.theme.background.contents.locally.time.mouse_?x.mouse_?y.mouse_buttons`.split(`.`).concat([`ObjectLoader`,`Animate`,`MovieCredits`,`Slides`,`Filters`,`Shading`,`Materials`,`LensFlare`,`Mapping`,`VLCAudioVideo`,`StereoDecoder`,`PointCloud`,`NetworkAccess`,`RemoteControl`,`RegExp`,`ChromaKey`,`Snowfall`,`NodeJS`,`Speech`,`Charts`])},n={className:`string`,begin:`"`,end:`"`,illegal:`\\n`},r={className:`string`,begin:`'`,end:`'`,illegal:`\\n`},i={className:`string`,begin:`<<`,end:`>>`},a={className:`number`,begin:`[0-9]+#[0-9A-Z_]+(\\.[0-9-A-Z_]+)?#?([Ee][+-]?[0-9]+)?`},o={beginKeywords:`import`,end:`$`,keywords:t,contains:[n]},s={className:`function`,begin:/[a-z][^\n]*->/,returnBegin:!0,end:/->/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,keywords:t}})]};return{name:`XL`,aliases:[`tao`],keywords:t,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,n,r,i,s,o,a,e.NUMBER_MODE]}}t.exports=n})),Bn=o(((e,t)=>{function n(e){return{name:`XQuery`,aliases:[`xpath`,`xq`,`xqm`],case_insensitive:!1,illegal:/(proc)|(abstract)|(extends)|(until)|(#)/,keywords:{$pattern:/[a-zA-Z$][a-zA-Z0-9_:-]*/,keyword:`module.schema.namespace.boundary-space.preserve.no-preserve.strip.default.collation.base-uri.ordering.context.decimal-format.decimal-separator.copy-namespaces.empty-sequence.except.exponent-separator.external.grouping-separator.inherit.no-inherit.lax.minus-sign.per-mille.percent.schema-attribute.schema-element.strict.unordered.zero-digit.declare.import.option.function.validate.variable.for.at.in.let.where.order.group.by.return.if.then.else.tumbling.sliding.window.start.when.only.end.previous.next.stable.ascending.descending.allowing.empty.greatest.least.some.every.satisfies.switch.case.typeswitch.try.catch.and.or.to.union.intersect.instance.of.treat.as.castable.cast.map.array.delete.insert.into.replace.value.rename.copy.modify.update`.split(`.`),type:`item.document-node.node.attribute.document.element.comment.namespace.namespace-node.processing-instruction.text.construction.xs:anyAtomicType.xs:untypedAtomic.xs:duration.xs:time.xs:decimal.xs:float.xs:double.xs:gYearMonth.xs:gYear.xs:gMonthDay.xs:gMonth.xs:gDay.xs:boolean.xs:base64Binary.xs:hexBinary.xs:anyURI.xs:QName.xs:NOTATION.xs:dateTime.xs:dateTimeStamp.xs:date.xs:string.xs:normalizedString.xs:token.xs:language.xs:NMTOKEN.xs:Name.xs:NCName.xs:ID.xs:IDREF.xs:ENTITY.xs:integer.xs:nonPositiveInteger.xs:negativeInteger.xs:long.xs:int.xs:short.xs:byte.xs:nonNegativeInteger.xs:unisignedLong.xs:unsignedInt.xs:unsignedShort.xs:unsignedByte.xs:positiveInteger.xs:yearMonthDuration.xs:dayTimeDuration`.split(`.`),literal:[`eq`,`ne`,`lt`,`le`,`gt`,`ge`,`is`,`self::`,`child::`,`descendant::`,`descendant-or-self::`,`attribute::`,`following::`,`following-sibling::`,`parent::`,`ancestor::`,`ancestor-or-self::`,`preceding::`,`preceding-sibling::`,`NaN`]},contains:[{className:`variable`,begin:/[$][\w\-:]+/},{className:`built_in`,variants:[{begin:/\barray:/,end:/(?:append|filter|flatten|fold-(?:left|right)|for-each(?:-pair)?|get|head|insert-before|join|put|remove|reverse|size|sort|subarray|tail)\b/},{begin:/\bmap:/,end:/(?:contains|entry|find|for-each|get|keys|merge|put|remove|size)\b/},{begin:/\bmath:/,end:/(?:a(?:cos|sin|tan[2]?)|cos|exp(?:10)?|log(?:10)?|pi|pow|sin|sqrt|tan)\b/},{begin:/\bop:/,end:/\(/,excludeEnd:!0},{begin:/\bfn:/,end:/\(/,excludeEnd:!0},{begin:/[^</$:'"-]\b(?:abs|accumulator-(?:after|before)|adjust-(?:date(?:Time)?|time)-to-timezone|analyze-string|apply|available-(?:environment-variables|system-properties)|avg|base-uri|boolean|ceiling|codepoints?-(?:equal|to-string)|collation-key|collection|compare|concat|contains(?:-token)?|copy-of|count|current(?:-)?(?:date(?:Time)?|time|group(?:ing-key)?|output-uri|merge-(?:group|key))?data|dateTime|days?-from-(?:date(?:Time)?|duration)|deep-equal|default-(?:collation|language)|distinct-values|document(?:-uri)?|doc(?:-available)?|element-(?:available|with-id)|empty|encode-for-uri|ends-with|environment-variable|error|escape-html-uri|exactly-one|exists|false|filter|floor|fold-(?:left|right)|for-each(?:-pair)?|format-(?:date(?:Time)?|time|integer|number)|function-(?:arity|available|lookup|name)|generate-id|has-children|head|hours-from-(?:dateTime|duration|time)|id(?:ref)?|implicit-timezone|in-scope-prefixes|index-of|innermost|insert-before|iri-to-uri|json-(?:doc|to-xml)|key|lang|last|load-xquery-module|local-name(?:-from-QName)?|(?:lower|upper)-case|matches|max|minutes-from-(?:dateTime|duration|time)|min|months?-from-(?:date(?:Time)?|duration)|name(?:space-uri-?(?:for-prefix|from-QName)?)?|nilled|node-name|normalize-(?:space|unicode)|not|number|one-or-more|outermost|parse-(?:ietf-date|json)|path|position|(?:prefix-from-)?QName|random-number-generator|regex-group|remove|replace|resolve-(?:QName|uri)|reverse|root|round(?:-half-to-even)?|seconds-from-(?:dateTime|duration|time)|snapshot|sort|starts-with|static-base-uri|stream-available|string-?(?:join|length|to-codepoints)?|subsequence|substring-?(?:after|before)?|sum|system-property|tail|timezone-from-(?:date(?:Time)?|time)|tokenize|trace|trans(?:form|late)|true|type-available|unordered|unparsed-(?:entity|text)?-?(?:public-id|uri|available|lines)?|uri-collection|xml-to-json|years?-from-(?:date(?:Time)?|duration)|zero-or-one)\b/},{begin:/\blocal:/,end:/\(/,excludeEnd:!0},{begin:/\bzip:/,end:/(?:zip-file|(?:xml|html|text|binary)-entry| (?:update-)?entries)\b/},{begin:/\b(?:util|db|functx|app|xdmp|xmldb):/,end:/\(/,excludeEnd:!0}]},{className:`string`,variants:[{begin:/"/,end:/"/,contains:[{begin:/""/,relevance:0}]},{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]}]},{className:`number`,begin:/(\b0[0-7_]+)|(\b0x[0-9a-fA-F_]+)|(\b[1-9][0-9_]*(\.[0-9_]+)?)|[0_]\b/,relevance:0},{className:`comment`,begin:/\(:/,end:/:\)/,relevance:10,contains:[{className:`doctag`,begin:/@\w+/}]},{className:`meta`,begin:/%[\w\-:]+/},{className:`title`,begin:/\bxquery version "[13]\.[01]"\s?(?:encoding ".+")?/,end:/;/},{beginKeywords:`element attribute comment document processing-instruction`,end:/\{/,excludeEnd:!0},{begin:/<([\w._:-]+)(\s+\S*=('|").*('|"))?>/,end:/(\/[\w._:-]+>)/,subLanguage:`xml`,contains:[{begin:/\{/,end:/\}/,subLanguage:`xquery`},`self`]}]}}t.exports=n})),Vn=o(((e,t)=>{function n(e){let t={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},n=e.UNDERSCORE_TITLE_MODE,r={variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]},i=`namespace class interface use extends function return abstract final public protected private static deprecated throw try catch Exception echo empty isset instanceof unset let var new const self require if else elseif switch case default do while loop for continue break likely unlikely __LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ array boolean float double integer object resource string char long unsigned bool int uint ulong uchar true false null undefined`;return{name:`Zephir`,aliases:[`zep`],keywords:i,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(/\/\*/,/\*\//,{contains:[{className:`doctag`,begin:/@[A-Za-z]+/}]}),{className:`string`,begin:/<<<['"]?\w+['"]?$/,end:/^\w+;/,contains:[e.BACKSLASH_ESCAPE]},{begin:/(::|->)+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/},{className:`function`,beginKeywords:`function fn`,end:/[;{]/,excludeEnd:!0,illegal:/\$|\[|%/,contains:[n,{className:`params`,begin:/\(/,end:/\)/,keywords:i,contains:[`self`,e.C_BLOCK_COMMENT_MODE,t,r]}]},{className:`class`,beginKeywords:`class interface`,end:/\{/,excludeEnd:!0,illegal:/[:($"]/,contains:[{beginKeywords:`extends implements`},n]},{beginKeywords:`namespace`,end:/;/,illegal:/[.']/,contains:[n]},{beginKeywords:`use`,end:/;/,contains:[n]},{begin:/=>/},t,r]}}t.exports=n})),Hn=l(o(((e,t)=>{var n=u();n.registerLanguage(`1c`,d()),n.registerLanguage(`abnf`,f()),n.registerLanguage(`accesslog`,p()),n.registerLanguage(`actionscript`,m()),n.registerLanguage(`ada`,h()),n.registerLanguage(`angelscript`,g()),n.registerLanguage(`apache`,_()),n.registerLanguage(`applescript`,v()),n.registerLanguage(`arcade`,y()),n.registerLanguage(`arduino`,b()),n.registerLanguage(`armasm`,x()),n.registerLanguage(`xml`,S()),n.registerLanguage(`asciidoc`,C()),n.registerLanguage(`aspectj`,w()),n.registerLanguage(`autohotkey`,T()),n.registerLanguage(`autoit`,E()),n.registerLanguage(`avrasm`,D()),n.registerLanguage(`awk`,O()),n.registerLanguage(`axapta`,k()),n.registerLanguage(`bash`,A()),n.registerLanguage(`basic`,j()),n.registerLanguage(`bnf`,M()),n.registerLanguage(`brainfuck`,N()),n.registerLanguage(`c`,P()),n.registerLanguage(`cal`,F()),n.registerLanguage(`capnproto`,I()),n.registerLanguage(`ceylon`,L()),n.registerLanguage(`clean`,R()),n.registerLanguage(`clojure`,z()),n.registerLanguage(`clojure-repl`,B()),n.registerLanguage(`cmake`,ee()),n.registerLanguage(`coffeescript`,te()),n.registerLanguage(`coq`,V()),n.registerLanguage(`cos`,H()),n.registerLanguage(`cpp`,U()),n.registerLanguage(`crmsh`,W()),n.registerLanguage(`crystal`,G()),n.registerLanguage(`csharp`,K()),n.registerLanguage(`csp`,ne()),n.registerLanguage(`css`,re()),n.registerLanguage(`d`,q()),n.registerLanguage(`markdown`,J()),n.registerLanguage(`dart`,ie()),n.registerLanguage(`delphi`,ae()),n.registerLanguage(`diff`,oe()),n.registerLanguage(`django`,se()),n.registerLanguage(`dns`,Y()),n.registerLanguage(`dockerfile`,ce()),n.registerLanguage(`dos`,le()),n.registerLanguage(`dsconfig`,ue()),n.registerLanguage(`dts`,X()),n.registerLanguage(`dust`,de()),n.registerLanguage(`ebnf`,Z()),n.registerLanguage(`elixir`,Q()),n.registerLanguage(`elm`,fe()),n.registerLanguage(`ruby`,pe()),n.registerLanguage(`erb`,me()),n.registerLanguage(`erlang-repl`,he()),n.registerLanguage(`erlang`,ge()),n.registerLanguage(`excel`,_e()),n.registerLanguage(`fix`,ve()),n.registerLanguage(`flix`,ye()),n.registerLanguage(`fortran`,be()),n.registerLanguage(`fsharp`,xe()),n.registerLanguage(`gams`,Se()),n.registerLanguage(`gauss`,Ce()),n.registerLanguage(`gcode`,we()),n.registerLanguage(`gherkin`,Te()),n.registerLanguage(`glsl`,Ee()),n.registerLanguage(`gml`,$()),n.registerLanguage(`go`,De()),n.registerLanguage(`golo`,Oe()),n.registerLanguage(`gradle`,ke()),n.registerLanguage(`graphql`,Ae()),n.registerLanguage(`groovy`,je()),n.registerLanguage(`haml`,Me()),n.registerLanguage(`handlebars`,Ne()),n.registerLanguage(`haskell`,Pe()),n.registerLanguage(`haxe`,Fe()),n.registerLanguage(`hsp`,Ie()),n.registerLanguage(`http`,Le()),n.registerLanguage(`hy`,Re()),n.registerLanguage(`inform7`,ze()),n.registerLanguage(`ini`,Be()),n.registerLanguage(`irpf90`,Ve()),n.registerLanguage(`isbl`,He()),n.registerLanguage(`java`,Ue()),n.registerLanguage(`javascript`,We()),n.registerLanguage(`jboss-cli`,Ge()),n.registerLanguage(`json`,Ke()),n.registerLanguage(`julia`,qe()),n.registerLanguage(`julia-repl`,Je()),n.registerLanguage(`kotlin`,Ye()),n.registerLanguage(`lasso`,Xe()),n.registerLanguage(`latex`,Ze()),n.registerLanguage(`ldif`,Qe()),n.registerLanguage(`leaf`,$e()),n.registerLanguage(`less`,et()),n.registerLanguage(`lisp`,tt()),n.registerLanguage(`livecodeserver`,nt()),n.registerLanguage(`livescript`,rt()),n.registerLanguage(`llvm`,it()),n.registerLanguage(`lsl`,at()),n.registerLanguage(`lua`,ot()),n.registerLanguage(`makefile`,st()),n.registerLanguage(`mathematica`,ct()),n.registerLanguage(`matlab`,lt()),n.registerLanguage(`maxima`,ut()),n.registerLanguage(`mel`,dt()),n.registerLanguage(`mercury`,ft()),n.registerLanguage(`mipsasm`,pt()),n.registerLanguage(`mizar`,mt()),n.registerLanguage(`perl`,ht()),n.registerLanguage(`mojolicious`,gt()),n.registerLanguage(`monkey`,_t()),n.registerLanguage(`moonscript`,vt()),n.registerLanguage(`n1ql`,yt()),n.registerLanguage(`nestedtext`,bt()),n.registerLanguage(`nginx`,xt()),n.registerLanguage(`nim`,St()),n.registerLanguage(`nix`,Ct()),n.registerLanguage(`node-repl`,wt()),n.registerLanguage(`nsis`,Tt()),n.registerLanguage(`objectivec`,Et()),n.registerLanguage(`ocaml`,Dt()),n.registerLanguage(`openscad`,Ot()),n.registerLanguage(`oxygene`,kt()),n.registerLanguage(`parser3`,At()),n.registerLanguage(`pf`,jt()),n.registerLanguage(`pgsql`,Mt()),n.registerLanguage(`php`,Nt()),n.registerLanguage(`php-template`,Pt()),n.registerLanguage(`plaintext`,Ft()),n.registerLanguage(`pony`,It()),n.registerLanguage(`powershell`,Lt()),n.registerLanguage(`processing`,Rt()),n.registerLanguage(`profile`,zt()),n.registerLanguage(`prolog`,Bt()),n.registerLanguage(`properties`,Vt()),n.registerLanguage(`protobuf`,Ht()),n.registerLanguage(`puppet`,Ut()),n.registerLanguage(`purebasic`,Wt()),n.registerLanguage(`python`,Gt()),n.registerLanguage(`python-repl`,Kt()),n.registerLanguage(`q`,qt()),n.registerLanguage(`qml`,Jt()),n.registerLanguage(`r`,Yt()),n.registerLanguage(`reasonml`,Xt()),n.registerLanguage(`rib`,Zt()),n.registerLanguage(`roboconf`,Qt()),n.registerLanguage(`routeros`,$t()),n.registerLanguage(`rsl`,en()),n.registerLanguage(`ruleslanguage`,tn()),n.registerLanguage(`rust`,nn()),n.registerLanguage(`sas`,rn()),n.registerLanguage(`scala`,an()),n.registerLanguage(`scheme`,on()),n.registerLanguage(`scilab`,sn()),n.registerLanguage(`scss`,cn()),n.registerLanguage(`shell`,ln()),n.registerLanguage(`smali`,un()),n.registerLanguage(`smalltalk`,dn()),n.registerLanguage(`sml`,fn()),n.registerLanguage(`sqf`,pn()),n.registerLanguage(`sql`,mn()),n.registerLanguage(`stan`,hn()),n.registerLanguage(`stata`,gn()),n.registerLanguage(`step21`,_n()),n.registerLanguage(`stylus`,vn()),n.registerLanguage(`subunit`,yn()),n.registerLanguage(`swift`,bn()),n.registerLanguage(`taggerscript`,xn()),n.registerLanguage(`yaml`,Sn()),n.registerLanguage(`tap`,Cn()),n.registerLanguage(`tcl`,wn()),n.registerLanguage(`thrift`,Tn()),n.registerLanguage(`tp`,En()),n.registerLanguage(`twig`,Dn()),n.registerLanguage(`typescript`,On()),n.registerLanguage(`vala`,kn()),n.registerLanguage(`vbnet`,An()),n.registerLanguage(`vbscript`,jn()),n.registerLanguage(`vbscript-html`,Mn()),n.registerLanguage(`verilog`,Nn()),n.registerLanguage(`vhdl`,Pn()),n.registerLanguage(`vim`,Fn()),n.registerLanguage(`wasm`,In()),n.registerLanguage(`wren`,Ln()),n.registerLanguage(`x86asm`,Rn()),n.registerLanguage(`xl`,zn()),n.registerLanguage(`xquery`,Bn()),n.registerLanguage(`zephir`,Vn()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,Un=s({default:()=>Wn}),Wn=[{id:4,title:`Linux에서 오픈 소스 CANable 사용하기`,publishedAt:`2026-03-28T19:23`,tags:[`Linux`,`CAN`]}],Gn=s({default:()=>Kn}),Kn=[{id:7,title:`천재 광고기획자의 아이디어 생산 5단계 정리`,publishedAt:`2026-04-22T23:28`,tags:[`아이디어`,`제임스 웹 영`,`60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법`]}],qn=s({default:()=>Jn}),Jn=[{id:5,title:`채권 듀레이션 정리`,publishedAt:`2026-04-18T23:03`,tags:[`채권`]}],Yn=s({default:()=>Xn}),Xn=[{id:2,title:`청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결`,publishedAt:`2026-03-24T21:58`,tags:[`헤밍웨이`,`노인과 바다`]}],Zn=s({default:()=>Qn}),Qn=[],$n=s({default:()=>er}),er=[{id:1,title:`전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계`,publishedAt:`2026-03-23T19:41`,tags:[`TypeScript`]},{id:3,title:`addEventListener에서 커스텀 이벤트 타입 추론하기`,publishedAt:`2026-03-28T17:21`,tags:[`TypeScript`]}],tr=s({default:()=>nr}),nr=[{id:6,title:`묵직한 실린더 라이너에 담긴 가벼운 멀티플`,publishedAt:`2026-04-25T19:10`,tags:[`주식`,`케이프`]}];function rr(){let e=Object.assign({"../content/archives/development/posts.json":Un,"../content/archives/growth/posts.json":Gn,"../content/archives/investment/posts.json":qn,"../content/essays/culture/posts.json":Yn,"../content/essays/daily/posts.json":Zn,"../content/essays/development/posts.json":$n,"../content/essays/investment/posts.json":tr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=e.split(`/`);if(r[r.length-1]===`posts.json`){let e=r[r.length-3],i=r[r.length-2],a=n.default||n;e&&i&&(t[e]||(t[e]={}),t[e][i]=a.map(t=>({...t,categoryId:e,boardId:i})))}}),t}var ir=[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],ar={common:{itemsPerPage:10},build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};function or(e){e.innerHTML=ir.map(e=>`
+`},{className:`string`,begin:`\\d{4}-\\d{2}-\\d{2}(\\s+)\\d{2}:\\d{2}:\\d{2}.\\d+Z`},{className:`string`,begin:`(\\+|-)\\d+`},{className:`keyword`,relevance:10,variants:[{begin:`^(test|testing|success|successful|failure|error|skip|xfail|uxsuccess)(:?)\\s+(test)?`},{begin:`^progress(:?)(\\s+)?(pop|push)?`},{begin:`^tags:`},{begin:`^time:`}]}]}}t.exports=n})),bn=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),B={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},ee=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],te={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:ee},V=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...ee,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},H={scope:`regexp`,variants:[V(`###`),V(`##`),V(`#`),te]},U={match:i(/`/,x,/`/)},W=[U,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],G=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,B]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],K={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ne={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...G,A,K]};K.contains.push(ne);let re={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,H,...O,...k,...j,P,B,...W,...G,K]},q={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,K]},J={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,B,...G,K,re],endsParent:!0,illegal:/["']/},ie={match:[/(func|macro)/,/\s+/,o(U.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[q,J,t],illegal:[/\[/,/%/]},ae={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[q,J,t],illegal:/\[|%/},oe={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},se={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[K],keywords:[...p,...f],end:/}/},Y={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},ce={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},le={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[q,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of B.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,B,...W];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,ie,ae,Y,ce,le,oe,se,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},H,...O,...k,...j,P,B,...W,...G,K,re]}}t.exports=T})),xn=o(((e,t)=>{function n(e){return{name:`Tagger Script`,contains:[{className:`comment`,begin:/\$noop\(/,end:/\)/,contains:[{begin:/\\[()]/},{begin:/\(/,end:/\)/,contains:[{begin:/\\[()]/},`self`]}],relevance:10},{className:`keyword`,begin:/\$[_a-zA-Z0-9]+(?=\()/},{className:`variable`,begin:/%[_a-zA-Z0-9:]+%/},{className:`symbol`,begin:/\\[\\nt$%,()]/},{className:`symbol`,begin:/\\u[a-fA-F0-9]{4}/}]}}t.exports=n})),Sn=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Cn=o(((e,t)=>{function n(e){return{name:`Test Anything Protocol`,case_insensitive:!0,contains:[e.HASH_COMMENT_MODE,{className:`meta`,variants:[{begin:`^TAP version (\\d+)$`},{begin:`^1\\.\\.(\\d+)$`}]},{begin:/---$/,end:`\\.\\.\\.$`,subLanguage:`yaml`,relevance:0},{className:`number`,begin:` (\\d+) `},{className:`symbol`,variants:[{begin:`^ok`},{begin:`^not ok`}]}]}}t.exports=n})),wn=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z_][a-zA-Z0-9_]*/,r={className:`number`,variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]};return{name:`Tcl`,aliases:[`tk`],keywords:`after.append.apply.array.auto_execok.auto_import.auto_load.auto_mkindex.auto_mkindex_old.auto_qualify.auto_reset.bgerror.binary.break.catch.cd.chan.clock.close.concat.continue.dde.dict.encoding.eof.error.eval.exec.exit.expr.fblocked.fconfigure.fcopy.file.fileevent.filename.flush.for.foreach.format.gets.glob.global.history.http.if.incr.info.interp.join.lappend|10.lassign|10.lindex|10.linsert|10.list.llength|10.load.lrange|10.lrepeat|10.lreplace|10.lreverse|10.lsearch|10.lset|10.lsort|10.mathfunc.mathop.memory.msgcat.namespace.open.package.parray.pid.pkg::create.pkg_mkIndex.platform.platform::shell.proc.puts.pwd.read.refchan.regexp.registry.regsub|10.rename.return.safe.scan.seek.set.socket.source.split.string.subst.switch.tcl_endOfWord.tcl_findLibrary.tcl_startOfNextWord.tcl_startOfPreviousWord.tcl_wordBreakAfter.tcl_wordBreakBefore.tcltest.tclvars.tell.time.tm.trace.unknown.unload.unset.update.uplevel.upvar.variable.vwait.while`.split(`.`),contains:[e.COMMENT(`;[ \\t]*#`,`$`),e.COMMENT(`^[ \\t]*#`,`$`),{beginKeywords:`proc`,end:`[\\{]`,excludeEnd:!0,contains:[{className:`title`,begin:`[ \\t\\n\\r]+(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`[ \\t\\n\\r]`,endsWithParent:!0,excludeEnd:!0}]},{className:`variable`,variants:[{begin:t.concat(/\$/,t.optional(/::/),n,`(::`,n,`)*`)},{begin:`\\$\\{(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`\\}`,contains:[r]}]},{className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},r]}}t.exports=n})),Tn=o(((e,t)=>{function n(e){let t=[`bool`,`byte`,`i16`,`i32`,`i64`,`double`,`string`,`binary`];return{name:`Thrift`,keywords:{keyword:[`namespace`,`const`,`typedef`,`struct`,`enum`,`service`,`exception`,`void`,`oneway`,`set`,`list`,`map`,`required`,`optional`],type:t,literal:`true false`},contains:[e.QUOTE_STRING_MODE,e.NUMBER_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`class`,beginKeywords:`struct enum service exception`,end:/\{/,illegal:/\n/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,excludeEnd:!0}})]},{begin:`\\b(set|list|map)\\s*<`,keywords:{type:[...t,`set`,`list`,`map`]},end:`>`,contains:[`self`]}]}}t.exports=n})),En=o(((e,t)=>{function n(e){let t={className:`number`,begin:`[1-9][0-9]*`,relevance:0},n={className:`symbol`,begin:`:[^\\]]+`};return{name:`TP`,keywords:{keyword:`ABORT.ACC.ADJUST.AND.AP_LD.BREAK.CALL.CNT.COL.CONDITION.CONFIG.DA.DB.DIV.DETECT.ELSE.END.ENDFOR.ERR_NUM.ERROR_PROG.FINE.FOR.GP.GUARD.INC.IF.JMP.LINEAR_MAX_SPEED.LOCK.MOD.MONITOR.OFFSET.Offset.OR.OVERRIDE.PAUSE.PREG.PTH.RT_LD.RUN.SELECT.SKIP.Skip.TA.TB.TO.TOOL_OFFSET.Tool_Offset.UF.UT.UFRAME_NUM.UTOOL_NUM.UNLOCK.WAIT.X.Y.Z.W.P.R.STRLEN.SUBSTR.FINDSTR.VOFFSET.PROG.ATTR.MN.POS`.split(`.`),literal:[`ON`,`OFF`,`max_speed`,`LPOS`,`JPOS`,`ENABLE`,`DISABLE`,`START`,`STOP`,`RESET`]},contains:[{className:`built_in`,begin:`(AR|P|PAYLOAD|PR|R|SR|RSR|LBL|VR|UALM|MESSAGE|UTOOL|UFRAME|TIMER|TIMER_OVERFLOW|JOINT_MAX_SPEED|RESUME_PROG|DIAG_REC)\\[`,end:`\\]`,contains:[`self`,t,n]},{className:`built_in`,begin:`(AI|AO|DI|DO|F|RI|RO|UI|UO|GI|GO|SI|SO)\\[`,end:`\\]`,contains:[`self`,t,e.QUOTE_STRING_MODE,n]},{className:`keyword`,begin:`/(PROG|ATTR|MN|POS|END)\\b`},{className:`keyword`,begin:`(CALL|RUN|POINT_LOGIC|LBL)\\b`},{className:`keyword`,begin:`\\b(ACC|CNT|Skip|Offset|PSPD|RT_LD|AP_LD|Tool_Offset)`},{className:`number`,begin:`\\d+(sec|msec|mm/sec|cm/min|inch/min|deg/sec|mm|in|cm)?\\b`,relevance:0},e.COMMENT(`//`,`[;$]`),e.COMMENT(`!`,`[;$]`),e.COMMENT(`--eg:`,`$`),e.QUOTE_STRING_MODE,{className:`string`,begin:`'`,end:`'`},e.C_NUMBER_MODE,{className:`variable`,begin:`\\$[A-Za-z0-9_]+`}]}}t.exports=n})),Dn=o(((e,t)=>{function n(e){let t=e.regex,n=`absolute_url.asset|0.asset_version.attribute.block.constant.controller|0.country_timezones.csrf_token.cycle.date.dump.expression.form|0.form_end.form_errors.form_help.form_label.form_rest.form_row.form_start.form_widget.html_classes.include.is_granted.logout_path.logout_url.max.min.parent.path|0.random.range.relative_path.render.render_esi.source.template_from_string.url|0`.split(`.`),r=`abs.abbr_class.abbr_method.batch.capitalize.column.convert_encoding.country_name.currency_name.currency_symbol.data_uri.date.date_modify.default.escape.file_excerpt.file_link.file_relative.filter.first.format.format_args.format_args_as_text.format_currency.format_date.format_datetime.format_file.format_file_from_text.format_number.format_time.html_to_markdown.humanize.inky_to_html.inline_css.join.json_encode.keys.language_name.last.length.locale_name.lower.map.markdown.markdown_to_html.merge.nl2br.number_format.raw.reduce.replace.reverse.round.slice.slug.sort.spaceless.split.striptags.timezone_name.title.trans.transchoice.trim.u|0.upper.url_encode.yaml_dump.yaml_encode`.split(`.`),i=`apply.autoescape.block.cache.deprecated.do.embed.extends.filter.flush.for.form_theme.from.if.import.include.macro.sandbox.set.stopwatch.trans.trans_default_domain.transchoice.use.verbatim.with`.split(`.`);i=i.concat(i.map(e=>`end${e}`));let a={scope:`string`,variants:[{begin:/'/,end:/'/},{begin:/"/,end:/"/}]},o={scope:`number`,match:/\d+/},s={begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,contains:[a,o]},c={beginKeywords:n.join(` `),keywords:{name:n},relevance:0,contains:[s]},l={match:/\|(?=[A-Za-z_]+:?)/,beginScope:`punctuation`,relevance:0,contains:[{match:/[A-Za-z_]+:?/,keywords:r}]},u=(e,{relevance:n})=>({beginScope:{1:`template-tag`,3:`name`},relevance:n||2,endScope:`template-tag`,begin:[/\{%/,/\s*/,t.either(...e)],end:/%\}/,keywords:`in`,contains:[l,c,a,o]}),d=/[a-z_]+/,f=u(i,{relevance:2}),p=u([d],{relevance:1});return{name:`Twig`,aliases:[`craftcms`],case_insensitive:!0,subLanguage:`xml`,contains:[e.COMMENT(/\{#/,/#\}/),f,p,{className:`template-variable`,begin:/\{\{/,end:/\}\}/,contains:[`self`,l,c,a,o]}]}}t.exports=n})),On=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,B={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},B,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),kn=o(((e,t)=>{function n(e){return{name:`Vala`,keywords:{keyword:`char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 uint16 uint32 uint64 float double bool struct enum string void weak unowned owned async signal static abstract interface override virtual delegate if while do for foreach else switch case break default return try catch public private protected internal using new this get set const stdout stdin stderr var`,built_in:`DBus GLib CCode Gee Object Gtk Posix`,literal:`false true null`},contains:[{className:`class`,beginKeywords:`class interface namespace`,end:/\{/,excludeEnd:!0,illegal:`[^,:\\n\\s\\.]`,contains:[e.UNDERSCORE_TITLE_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`string`,begin:`"""`,end:`"""`,relevance:5},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,e.C_NUMBER_MODE,{className:`meta`,begin:`^#`,end:`$`}]}}t.exports=n})),An=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),jn=o(((e,t)=>{function n(e){let t=e.regex,n=`lcase.month.vartype.instrrev.ubound.setlocale.getobject.rgb.getref.string.weekdayname.rnd.dateadd.monthname.now.day.minute.isarray.cbool.round.formatcurrency.conversions.csng.timevalue.second.year.space.abs.clng.timeserial.fixs.len.asc.isempty.maths.dateserial.atn.timer.isobject.filter.weekday.datevalue.ccur.isdate.instr.datediff.formatdatetime.replace.isnull.right.sgn.array.snumeric.log.cdbl.hex.chr.lbound.msgbox.ucase.getlocale.cos.cdate.cbyte.rtrim.join.hour.oct.typename.trim.strcomp.int.createobject.loadpicture.tan.formatnumber.mid.split.cint.sin.datepart.ltrim.sqr.time.derived.eval.date.formatpercent.exp.inputbox.left.ascw.chrw.regexp.cstr.err`.split(`.`),r=[`server`,`response`,`request`,`scriptengine`,`scriptenginebuildversion`,`scriptengineminorversion`,`scriptenginemajorversion`],i={begin:t.concat(t.either(...n),`\\s*\\(`),relevance:0,keywords:{built_in:n}};return{name:`VBScript`,aliases:[`vbs`],case_insensitive:!0,keywords:{keyword:`call.class.const.dim.do.loop.erase.execute.executeglobal.exit.for.each.next.function.if.then.else.on.error.option.explicit.new.private.property.let.get.public.randomize.redim.rem.select.case.set.stop.sub.while.wend.with.end.to.elseif.is.or.xor.and.not.class_initialize.class_terminate.default.preserve.in.me.byval.byref.step.resume.goto`.split(`.`),built_in:r,literal:[`true`,`false`,`null`,`nothing`,`empty`]},illegal:`//`,contains:[i,e.inherit(e.QUOTE_STRING_MODE,{contains:[{begin:`""`}]}),e.COMMENT(/'/,/$/,{relevance:0}),e.C_NUMBER_MODE]}}t.exports=n})),Mn=o(((e,t)=>{function n(e){return{name:`VBScript in HTML`,subLanguage:`xml`,contains:[{begin:`<%`,end:`%>`,subLanguage:`vbscript`}]}}t.exports=n})),Nn=o(((e,t)=>{function n(e){let t=e.regex,n={$pattern:/\$?[\w]+(\$[\w]+)*/,keyword:`accept_on.alias.always.always_comb.always_ff.always_latch.and.assert.assign.assume.automatic.before.begin.bind.bins.binsof.bit.break.buf|0.bufif0.bufif1.byte.case.casex.casez.cell.chandle.checker.class.clocking.cmos.config.const.constraint.context.continue.cover.covergroup.coverpoint.cross.deassign.default.defparam.design.disable.dist.do.edge.else.end.endcase.endchecker.endclass.endclocking.endconfig.endfunction.endgenerate.endgroup.endinterface.endmodule.endpackage.endprimitive.endprogram.endproperty.endspecify.endsequence.endtable.endtask.enum.event.eventually.expect.export.extends.extern.final.first_match.for.force.foreach.forever.fork.forkjoin.function.generate|5.genvar.global.highz0.highz1.if.iff.ifnone.ignore_bins.illegal_bins.implements.implies.import.incdir.include.initial.inout.input.inside.instance.int.integer.interconnect.interface.intersect.join.join_any.join_none.large.let.liblist.library.local.localparam.logic.longint.macromodule.matches.medium.modport.module.nand.negedge.nettype.new.nexttime.nmos.nor.noshowcancelled.not.notif0.notif1.or.output.package.packed.parameter.pmos.posedge.primitive.priority.program.property.protected.pull0.pull1.pulldown.pullup.pulsestyle_ondetect.pulsestyle_onevent.pure.rand.randc.randcase.randsequence.rcmos.real.realtime.ref.reg.reject_on.release.repeat.restrict.return.rnmos.rpmos.rtran.rtranif0.rtranif1.s_always.s_eventually.s_nexttime.s_until.s_until_with.scalared.sequence.shortint.shortreal.showcancelled.signed.small.soft.solve.specify.specparam.static.string.strong.strong0.strong1.struct.super.supply0.supply1.sync_accept_on.sync_reject_on.table.tagged.task.this.throughout.time.timeprecision.timeunit.tran.tranif0.tranif1.tri.tri0.tri1.triand.trior.trireg.type.typedef.union.unique.unique0.unsigned.until.until_with.untyped.use.uwire.var.vectored.virtual.void.wait.wait_order.wand.weak.weak0.weak1.while.wildcard.wire.with.within.wor.xnor.xor`.split(`.`),literal:[`null`],built_in:`$finish.$stop.$exit.$fatal.$error.$warning.$info.$realtime.$time.$printtimescale.$bitstoreal.$bitstoshortreal.$itor.$signed.$cast.$bits.$stime.$timeformat.$realtobits.$shortrealtobits.$rtoi.$unsigned.$asserton.$assertkill.$assertpasson.$assertfailon.$assertnonvacuouson.$assertoff.$assertcontrol.$assertpassoff.$assertfailoff.$assertvacuousoff.$isunbounded.$sampled.$fell.$changed.$past_gclk.$fell_gclk.$changed_gclk.$rising_gclk.$steady_gclk.$coverage_control.$coverage_get.$coverage_save.$set_coverage_db_name.$rose.$stable.$past.$rose_gclk.$stable_gclk.$future_gclk.$falling_gclk.$changing_gclk.$display.$coverage_get_max.$coverage_merge.$get_coverage.$load_coverage_db.$typename.$unpacked_dimensions.$left.$low.$increment.$clog2.$ln.$log10.$exp.$sqrt.$pow.$floor.$ceil.$sin.$cos.$tan.$countbits.$onehot.$isunknown.$fatal.$warning.$dimensions.$right.$high.$size.$asin.$acos.$atan.$atan2.$hypot.$sinh.$cosh.$tanh.$asinh.$acosh.$atanh.$countones.$onehot0.$error.$info.$random.$dist_chi_square.$dist_erlang.$dist_exponential.$dist_normal.$dist_poisson.$dist_t.$dist_uniform.$q_initialize.$q_remove.$q_exam.$async$and$array.$async$nand$array.$async$or$array.$async$nor$array.$sync$and$array.$sync$nand$array.$sync$or$array.$sync$nor$array.$q_add.$q_full.$psprintf.$async$and$plane.$async$nand$plane.$async$or$plane.$async$nor$plane.$sync$and$plane.$sync$nand$plane.$sync$or$plane.$sync$nor$plane.$system.$display.$displayb.$displayh.$displayo.$strobe.$strobeb.$strobeh.$strobeo.$write.$readmemb.$readmemh.$writememh.$value$plusargs.$dumpvars.$dumpon.$dumplimit.$dumpports.$dumpportson.$dumpportslimit.$writeb.$writeh.$writeo.$monitor.$monitorb.$monitorh.$monitoro.$writememb.$dumpfile.$dumpoff.$dumpall.$dumpflush.$dumpportsoff.$dumpportsall.$dumpportsflush.$fclose.$fdisplay.$fdisplayb.$fdisplayh.$fdisplayo.$fstrobe.$fstrobeb.$fstrobeh.$fstrobeo.$swrite.$swriteb.$swriteh.$swriteo.$fscanf.$fread.$fseek.$fflush.$feof.$fopen.$fwrite.$fwriteb.$fwriteh.$fwriteo.$fmonitor.$fmonitorb.$fmonitorh.$fmonitoro.$sformat.$sformatf.$fgetc.$ungetc.$fgets.$sscanf.$rewind.$ftell.$ferror`.split(`.`)},r=[`__FILE__`,`__LINE__`],i=`begin_keywords.celldefine.default_nettype.default_decay_time.default_trireg_strength.define.delay_mode_distributed.delay_mode_path.delay_mode_unit.delay_mode_zero.else.elsif.end_keywords.endcelldefine.endif.ifdef.ifndef.include.line.nounconnected_drive.pragma.resetall.timescale.unconnected_drive.undef.undefineall`.split(`.`);return{name:`Verilog`,aliases:[`v`,`sv`,`svh`],case_insensitive:!1,keywords:n,contains:[e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.QUOTE_STRING_MODE,{scope:`number`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/\b((\d+'([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\B(('([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\b[0-9][0-9_]*/,relevance:0}]},{scope:`variable`,variants:[{begin:`#\\((?!parameter).+\\)`},{begin:`\\.\\w+`,relevance:0}]},{scope:`variable.constant`,match:t.concat(/`/,t.either(...r))},{scope:`meta`,begin:t.concat(/`/,t.either(...i)),end:/$|\/\/|\/\*/,returnEnd:!0,keywords:i}]}}t.exports=n})),Pn=o(((e,t)=>{function n(e){let t=`\\d(_|\\d)*`;return``+t,t+``,t+``,{name:`VHDL`,case_insensitive:!0,keywords:{keyword:`abs.access.after.alias.all.and.architecture.array.assert.assume.assume_guarantee.attribute.begin.block.body.buffer.bus.case.component.configuration.constant.context.cover.disconnect.downto.default.else.elsif.end.entity.exit.fairness.file.for.force.function.generate.generic.group.guarded.if.impure.in.inertial.inout.is.label.library.linkage.literal.loop.map.mod.nand.new.next.nor.not.null.of.on.open.or.others.out.package.parameter.port.postponed.procedure.process.property.protected.pure.range.record.register.reject.release.rem.report.restrict.restrict_guarantee.return.rol.ror.select.sequence.severity.shared.signal.sla.sll.sra.srl.strong.subtype.then.to.transport.type.unaffected.units.until.use.variable.view.vmode.vprop.vunit.wait.when.while.with.xnor.xor`.split(`.`),built_in:`boolean.bit.character.integer.time.delay_length.natural.positive.string.bit_vector.file_open_kind.file_open_status.std_logic.std_logic_vector.unsigned.signed.boolean_vector.integer_vector.std_ulogic.std_ulogic_vector.unresolved_unsigned.u_unsigned.unresolved_signed.u_signed.real_vector.time_vector`.split(`.`),literal:[`false`,`true`,`note`,`warning`,`error`,`failure`,`line`,`text`,`side`,`width`]},illegal:/\{/,contains:[e.C_BLOCK_COMMENT_MODE,e.COMMENT(`--`,`$`),e.QUOTE_STRING_MODE,{className:`number`,begin:`\\b(\\d(_|\\d)*#\\w+(\\.\\w+)?#([eE][-+]?\\d(_|\\d)*)?|\\d(_|\\d)*(\\.\\d(_|\\d)*)?([eE][-+]?\\d(_|\\d)*)?)`,relevance:0},{className:`string`,begin:`'(U|X|0|1|Z|W|L|H|-)'`,contains:[e.BACKSLASH_ESCAPE]},{className:`symbol`,begin:`'[A-Za-z](_?[A-Za-z0-9])*`,contains:[e.BACKSLASH_ESCAPE]}]}}t.exports=n})),Fn=o(((e,t)=>{function n(e){return{name:`Vim Script`,keywords:{$pattern:/[!#@\w]+/,keyword:`N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank`,built_in:`synIDtrans atan2 range matcharg did_filetype asin feedkeys xor argv complete_check add getwinposx getqflist getwinposy screencol clearmatches empty extend getcmdpos mzeval garbagecollect setreg ceil sqrt diff_hlID inputsecret get getfperm getpid filewritable shiftwidth max sinh isdirectory synID system inputrestore winline atan visualmode inputlist tabpagewinnr round getregtype mapcheck hasmapto histdel argidx findfile sha256 exists toupper getcmdline taglist string getmatches bufnr strftime winwidth bufexists strtrans tabpagebuflist setcmdpos remote_read printf setloclist getpos getline bufwinnr float2nr len getcmdtype diff_filler luaeval resolve libcallnr foldclosedend reverse filter has_key bufname str2float strlen setline getcharmod setbufvar index searchpos shellescape undofile foldclosed setqflist buflisted strchars str2nr virtcol floor remove undotree remote_expr winheight gettabwinvar reltime cursor tabpagenr finddir localtime acos getloclist search tanh matchend rename gettabvar strdisplaywidth type abs py3eval setwinvar tolower wildmenumode log10 spellsuggest bufloaded synconcealed nextnonblank server2client complete settabwinvar executable input wincol setmatches getftype hlID inputsave searchpair or screenrow line settabvar histadd deepcopy strpart remote_peek and eval getftime submatch screenchar winsaveview matchadd mkdir screenattr getfontname libcall reltimestr getfsize winnr invert pow getbufline byte2line soundfold repeat fnameescape tagfiles sin strwidth spellbadword trunc maparg log lispindent hostname setpos globpath remote_foreground getchar synIDattr fnamemodify cscope_connection stridx winbufnr indent min complete_add nr2char searchpairpos inputdialog values matchlist items hlexists strridx browsedir expand fmod pathshorten line2byte argc count getwinvar glob foldtextresult getreg foreground cosh matchdelete has char2nr simplify histget searchdecl iconv winrestcmd pumvisible writefile foldlevel haslocaldir keys cos matchstr foldtext histnr tan tempname getcwd byteidx getbufvar islocked escape eventhandler remote_send serverlist winrestview synstack pyeval prevnonblank readfile cindent filereadable changenr exp`},illegal:/;/,contains:[e.NUMBER_MODE,{className:`string`,begin:`'`,end:`'`,illegal:`\\n`},{className:`string`,begin:/"(\\"|\n\\|[^"\n])*"/},e.COMMENT(`"`,`$`),{className:`variable`,begin:/[bwtglsav]:[\w\d_]+/},{begin:[/\b(?:function|function!)/,/\s+/,e.IDENT_RE],className:{1:`keyword`,3:`title`},end:`$`,relevance:0,contains:[{className:`params`,begin:`\\(`,end:`\\)`}]},{className:`symbol`,begin:/<[\w-]+>/}]}}t.exports=n})),In=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Ln=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z]\w*/,r=[`as`,`break`,`class`,`construct`,`continue`,`else`,`for`,`foreign`,`if`,`import`,`in`,`is`,`return`,`static`,`var`,`while`],i=[`true`,`false`,`null`],a=[`this`,`super`],o=[`Bool`,`Class`,`Fiber`,`Fn`,`List`,`Map`,`Null`,`Num`,`Object`,`Range`,`Sequence`,`String`,`System`],s=[`-`,`~`,/\*/,`%`,/\.\.\./,/\.\./,/\+/,`<<`,`>>`,`>=`,`<=`,`<`,`>`,/\^/,/!=/,/!/,/\bis\b/,`==`,`&&`,`&`,/\|\|/,/\|/,/\?:/,`=`],c={relevance:0,match:t.concat(/\b(?!(if|while|for|else|super)\b)/,n,/(?=\s*[({])/),className:`title.function`},l={match:t.concat(t.either(t.concat(/\b(?!(if|while|for|else|super)\b)/,n),t.either(...s)),/(?=\s*\([^)]+\)\s*\{)/),className:`title.function`,starts:{contains:[{begin:/\(/,end:/\)/,contains:[{relevance:0,scope:`params`,match:n}]}]}},u={variants:[{match:[/class\s+/,n,/\s+is\s+/,n]},{match:[/class\s+/,n]}],scope:{2:`title.class`,4:`title.class.inherited`},keywords:r},d={relevance:0,match:t.either(...s),className:`operator`},f={className:`string`,begin:/"""/,end:/"""/},p={className:`property`,begin:t.concat(/\./,t.lookahead(n)),end:n,excludeBegin:!0,relevance:0},m={relevance:0,match:t.concat(/\b_/,n),scope:`variable`},h={relevance:0,match:/\b[A-Z]+[a-z]+([A-Z]+[a-z]+)*/,scope:`title.class`,keywords:{_:o}},g=e.C_NUMBER_MODE,_={match:[n,/\s*/,/=/,/\s*/,/\(/,n,/\)\s*\{/],scope:{1:`title.function`,3:`operator`,6:`params`}},v=e.COMMENT(/\/\*\*/,/\*\//,{contains:[{match:/@[a-z]+/,scope:`doctag`},`self`]}),y={scope:`subst`,begin:/%\(/,end:/\)/,contains:[g,h,c,m,d]},b={scope:`string`,begin:/"/,end:/"/,contains:[y,{scope:`char.escape`,variants:[{match:/\\\\|\\["0%abefnrtv]/},{match:/\\x[0-9A-F]{2}/},{match:/\\u[0-9A-F]{4}/},{match:/\\U[0-9A-F]{8}/}]}]};y.contains.push(b);let x=[...r,...a,...i],S={relevance:0,match:t.concat(`\\b(?!`,x.join(`|`),`\\b)`,/[a-zA-Z_]\w*(?:[?!]|\b)/),className:`variable`};return{name:`Wren`,keywords:{keyword:r,"variable.language":a,literal:i},contains:[{scope:`comment`,variants:[{begin:[/#!?/,/[A-Za-z_]+(?=\()/],beginScope:{},keywords:{literal:i},contains:[],end:/\)/},{begin:[/#!?/,/[A-Za-z_]+/],beginScope:{},end:/$/}]},g,b,f,v,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,h,u,_,l,c,d,m,p,S]}}t.exports=n})),Rn=o(((e,t)=>{function n(e){return{name:`Intel x86 Assembly`,case_insensitive:!0,keywords:{$pattern:`[.%]?`+e.IDENT_RE,keyword:`lock rep repe repz repne repnz xaquire xrelease bnd nobnd aaa aad aam aas adc add and arpl bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts call cbw cdq cdqe clc cld cli clts cmc cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg486 cmpxchg8b cmpxchg16b cpuid cpu_read cpu_write cqo cwd cwde daa das dec div dmint emms enter equ f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp fxam fxch fxtract fyl2x fyl2xp1 hlt ibts icebp idiv imul in inc incbin insb insd insw int int01 int1 int03 int3 into invd invpcid invlpg invlpga iret iretd iretq iretw jcxz jecxz jrcxz jmp jmpe lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait neg nop not or out outsb outsd outsw packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad pushaw pushf pushfd pushfq pushfw pxor rcl rcr rdshr rdmsr rdpmc rdtsc rdtscp ret retf retn rol ror rdm rsdc rsldt rsm rsts sahf sal salc sar sbb scasb scasd scasq scasw sfence sgdt shl shld shr shrd sidt sldt skinit smi smint smintold smsw stc std sti stosb stosd stosq stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret test ud0 ud1 ud2b ud2 ud2a umov verr verw fwait wbinvd wrshr wrmsr xadd xbts xchg xlatb xlat xor cmove cmovz cmovne cmovnz cmova cmovnbe cmovae cmovnb cmovb cmovnae cmovbe cmovna cmovg cmovnle cmovge cmovnl cmovl cmovnge cmovle cmovng cmovc cmovnc cmovo cmovno cmovs cmovns cmovp cmovpe cmovnp cmovpo je jz jne jnz ja jnbe jae jnb jb jnae jbe jna jg jnle jge jnl jl jnge jle jng jc jnc jo jno js jns jpo jnp jpe jp sete setz setne setnz seta setnbe setae setnb setnc setb setnae setcset setbe setna setg setnle setge setnl setl setnge setle setng sets setns seto setno setpe setp setpo setnp addps addss andnps andps cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpunordps cmpunordss cmpps cmpss comiss cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi cvttss2si divps divss ldmxcsr maxps maxss minps minss movaps movhps movlhps movlps movhlps movmskps movntps movss movups mulps mulss orps rcpps rcpss rsqrtps rsqrtss shufps sqrtps sqrtss stmxcsr subps subss ucomiss unpckhps unpcklps xorps fxrstor fxrstor64 fxsave fxsave64 xgetbv xsetbv xsave xsave64 xsaveopt xsaveopt64 xrstor xrstor64 prefetchnta prefetcht0 prefetcht1 prefetcht2 maskmovq movntq pavgb pavgw pextrw pinsrw pmaxsw pmaxub pminsw pminub pmovmskb pmulhuw psadbw pshufw pf2iw pfnacc pfpnacc pi2fw pswapd maskmovdqu clflush movntdq movnti movntpd movdqa movdqu movdq2q movq2dq paddq pmuludq pshufd pshufhw pshuflw pslldq psrldq psubq punpckhqdq punpcklqdq addpd addsd andnpd andpd cmpeqpd cmpeqsd cmplepd cmplesd cmpltpd cmpltsd cmpneqpd cmpneqsd cmpnlepd cmpnlesd cmpnltpd cmpnltsd cmpordpd cmpordsd cmpunordpd cmpunordsd cmppd comisd cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtps2dq cvtps2pd cvtsd2si cvtsd2ss cvtsi2sd cvtss2sd cvttpd2pi cvttpd2dq cvttps2dq cvttsd2si divpd divsd maxpd maxsd minpd minsd movapd movhpd movlpd movmskpd movupd mulpd mulsd orpd shufpd sqrtpd sqrtsd subpd subsd ucomisd unpckhpd unpcklpd xorpd addsubpd addsubps haddpd haddps hsubpd hsubps lddqu movddup movshdup movsldup clgi stgi vmcall vmclear vmfunc vmlaunch vmload vmmcall vmptrld vmptrst vmread vmresume vmrun vmsave vmwrite vmxoff vmxon invept invvpid pabsb pabsw pabsd palignr phaddw phaddd phaddsw phsubw phsubd phsubsw pmaddubsw pmulhrsw pshufb psignb psignw psignd extrq insertq movntsd movntss lzcnt blendpd blendps blendvpd blendvps dppd dpps extractps insertps movntdqa mpsadbw packusdw pblendvb pblendw pcmpeqq pextrb pextrd pextrq phminposuw pinsrb pinsrd pinsrq pmaxsb pmaxsd pmaxud pmaxuw pminsb pminsd pminud pminuw pmovsxbw pmovsxbd pmovsxbq pmovsxwd pmovsxwq pmovsxdq pmovzxbw pmovzxbd pmovzxbq pmovzxwd pmovzxwq pmovzxdq pmuldq pmulld ptest roundpd roundps roundsd roundss crc32 pcmpestri pcmpestrm pcmpistri pcmpistrm pcmpgtq popcnt getsec pfrcpv pfrsqrtv movbe aesenc aesenclast aesdec aesdeclast aesimc aeskeygenassist vaesenc vaesenclast vaesdec vaesdeclast vaesimc vaeskeygenassist vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vandpd vandps vandnpd vandnps vblendpd vblendps vblendvpd vblendvps vbroadcastss vbroadcastsd vbroadcastf128 vcmpeq_ospd vcmpeqpd vcmplt_ospd vcmpltpd vcmple_ospd vcmplepd vcmpunord_qpd vcmpunordpd vcmpneq_uqpd vcmpneqpd vcmpnlt_uspd vcmpnltpd vcmpnle_uspd vcmpnlepd vcmpord_qpd vcmpordpd vcmpeq_uqpd vcmpnge_uspd vcmpngepd vcmpngt_uspd vcmpngtpd vcmpfalse_oqpd vcmpfalsepd vcmpneq_oqpd vcmpge_ospd vcmpgepd vcmpgt_ospd vcmpgtpd vcmptrue_uqpd vcmptruepd vcmplt_oqpd vcmple_oqpd vcmpunord_spd vcmpneq_uspd vcmpnlt_uqpd vcmpnle_uqpd vcmpord_spd vcmpeq_uspd vcmpnge_uqpd vcmpngt_uqpd vcmpfalse_ospd vcmpneq_ospd vcmpge_oqpd vcmpgt_oqpd vcmptrue_uspd vcmppd vcmpeq_osps vcmpeqps vcmplt_osps vcmpltps vcmple_osps vcmpleps vcmpunord_qps vcmpunordps vcmpneq_uqps vcmpneqps vcmpnlt_usps vcmpnltps vcmpnle_usps vcmpnleps vcmpord_qps vcmpordps vcmpeq_uqps vcmpnge_usps vcmpngeps vcmpngt_usps vcmpngtps vcmpfalse_oqps vcmpfalseps vcmpneq_oqps vcmpge_osps vcmpgeps vcmpgt_osps vcmpgtps vcmptrue_uqps vcmptrueps vcmplt_oqps vcmple_oqps vcmpunord_sps vcmpneq_usps vcmpnlt_uqps vcmpnle_uqps vcmpord_sps vcmpeq_usps vcmpnge_uqps vcmpngt_uqps vcmpfalse_osps vcmpneq_osps vcmpge_oqps vcmpgt_oqps vcmptrue_usps vcmpps vcmpeq_ossd vcmpeqsd vcmplt_ossd vcmpltsd vcmple_ossd vcmplesd vcmpunord_qsd vcmpunordsd vcmpneq_uqsd vcmpneqsd vcmpnlt_ussd vcmpnltsd vcmpnle_ussd vcmpnlesd vcmpord_qsd vcmpordsd vcmpeq_uqsd vcmpnge_ussd vcmpngesd vcmpngt_ussd vcmpngtsd vcmpfalse_oqsd vcmpfalsesd vcmpneq_oqsd vcmpge_ossd vcmpgesd vcmpgt_ossd vcmpgtsd vcmptrue_uqsd vcmptruesd vcmplt_oqsd vcmple_oqsd vcmpunord_ssd vcmpneq_ussd vcmpnlt_uqsd vcmpnle_uqsd vcmpord_ssd vcmpeq_ussd vcmpnge_uqsd vcmpngt_uqsd vcmpfalse_ossd vcmpneq_ossd vcmpge_oqsd vcmpgt_oqsd vcmptrue_ussd vcmpsd vcmpeq_osss vcmpeqss vcmplt_osss vcmpltss vcmple_osss vcmpless vcmpunord_qss vcmpunordss vcmpneq_uqss vcmpneqss vcmpnlt_usss vcmpnltss vcmpnle_usss vcmpnless vcmpord_qss vcmpordss vcmpeq_uqss vcmpnge_usss vcmpngess vcmpngt_usss vcmpngtss vcmpfalse_oqss vcmpfalsess vcmpneq_oqss vcmpge_osss vcmpgess vcmpgt_osss vcmpgtss vcmptrue_uqss vcmptruess vcmplt_oqss vcmple_oqss vcmpunord_sss vcmpneq_usss vcmpnlt_uqss vcmpnle_uqss vcmpord_sss vcmpeq_usss vcmpnge_uqss vcmpngt_uqss vcmpfalse_osss vcmpneq_osss vcmpge_oqss vcmpgt_oqss vcmptrue_usss vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtps2dq vcvtps2pd vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinsertps vlddqu vldqqu vldmxcsr vmaskmovdqu vmaskmovps vmaskmovpd vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmovapd vmovaps vmovd vmovq vmovddup vmovdqa vmovqqa vmovdqu vmovqqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq vmovntqq vmovntdqa vmovntpd vmovntps vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsw vpabsd vpacksswb vpackssdw vpackuswb vpackusdw vpaddb vpaddw vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpcmpestri vpcmpestrm vpcmpistri vpcmpistrm vpcmpeqb vpcmpeqw vpcmpeqd vpcmpeqq vpcmpgtb vpcmpgtw vpcmpgtd vpcmpgtq vpermilpd vpermilps vperm2f128 vpextrb vpextrw vpextrd vpextrq vphaddw vphaddd vphaddsw vphminposuw vphsubw vphsubd vphsubsw vpinsrb vpinsrw vpinsrd vpinsrq vpmaddwd vpmaddubsw vpmaxsb vpmaxsw vpmaxsd vpmaxub vpmaxuw vpmaxud vpminsb vpminsw vpminsd vpminub vpminuw vpminud vpmovmskb vpmovsxbw vpmovsxbd vpmovsxbq vpmovsxwd vpmovsxwq vpmovsxdq vpmovzxbw vpmovzxbd vpmovzxbq vpmovzxwd vpmovzxwq vpmovzxdq vpmulhuw vpmulhrsw vpmulhw vpmullw vpmulld vpmuludq vpmuldq vpor vpsadbw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignw vpsignd vpslldq vpsrldq vpsllw vpslld vpsllq vpsraw vpsrad vpsrlw vpsrld vpsrlq vptest vpsubb vpsubw vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpunpckhbw vpunpckhwd vpunpckhdq vpunpckhqdq vpunpcklbw vpunpcklwd vpunpckldq vpunpcklqdq vpxor vrcpps vrcpss vrsqrtps vrsqrtss vroundpd vroundps vroundsd vroundss vshufpd vshufps vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestps vtestpd vucomisd vucomiss vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper pclmullqlqdq pclmulhqlqdq pclmullqhqdq pclmulhqhqdq pclmulqdq vpclmullqlqdq vpclmulhqlqdq vpclmullqhqdq vpclmulhqhqdq vpclmulqdq vfmadd132ps vfmadd132pd vfmadd312ps vfmadd312pd vfmadd213ps vfmadd213pd vfmadd123ps vfmadd123pd vfmadd231ps vfmadd231pd vfmadd321ps vfmadd321pd vfmaddsub132ps vfmaddsub132pd vfmaddsub312ps vfmaddsub312pd vfmaddsub213ps vfmaddsub213pd vfmaddsub123ps vfmaddsub123pd vfmaddsub231ps vfmaddsub231pd vfmaddsub321ps vfmaddsub321pd vfmsub132ps vfmsub132pd vfmsub312ps vfmsub312pd vfmsub213ps vfmsub213pd vfmsub123ps vfmsub123pd vfmsub231ps vfmsub231pd vfmsub321ps vfmsub321pd vfmsubadd132ps vfmsubadd132pd vfmsubadd312ps vfmsubadd312pd vfmsubadd213ps vfmsubadd213pd vfmsubadd123ps vfmsubadd123pd vfmsubadd231ps vfmsubadd231pd vfmsubadd321ps vfmsubadd321pd vfnmadd132ps vfnmadd132pd vfnmadd312ps vfnmadd312pd vfnmadd213ps vfnmadd213pd vfnmadd123ps vfnmadd123pd vfnmadd231ps vfnmadd231pd vfnmadd321ps vfnmadd321pd vfnmsub132ps vfnmsub132pd vfnmsub312ps vfnmsub312pd vfnmsub213ps vfnmsub213pd vfnmsub123ps vfnmsub123pd vfnmsub231ps vfnmsub231pd vfnmsub321ps vfnmsub321pd vfmadd132ss vfmadd132sd vfmadd312ss vfmadd312sd vfmadd213ss vfmadd213sd vfmadd123ss vfmadd123sd vfmadd231ss vfmadd231sd vfmadd321ss vfmadd321sd vfmsub132ss vfmsub132sd vfmsub312ss vfmsub312sd vfmsub213ss vfmsub213sd vfmsub123ss vfmsub123sd vfmsub231ss vfmsub231sd vfmsub321ss vfmsub321sd vfnmadd132ss vfnmadd132sd vfnmadd312ss vfnmadd312sd vfnmadd213ss vfnmadd213sd vfnmadd123ss vfnmadd123sd vfnmadd231ss vfnmadd231sd vfnmadd321ss vfnmadd321sd vfnmsub132ss vfnmsub132sd vfnmsub312ss vfnmsub312sd vfnmsub213ss vfnmsub213sd vfnmsub123ss vfnmsub123sd vfnmsub231ss vfnmsub231sd vfnmsub321ss vfnmsub321sd rdfsbase rdgsbase rdrand wrfsbase wrgsbase vcvtph2ps vcvtps2ph adcx adox rdseed clac stac xstore xcryptecb xcryptcbc xcryptctr xcryptcfb xcryptofb montmul xsha1 xsha256 llwpcb slwpcb lwpval lwpins vfmaddpd vfmaddps vfmaddsd vfmaddss vfmaddsubpd vfmaddsubps vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vpcmov vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vphaddbd vphaddbq vphaddbw vphadddq vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddwd vphaddwq vphsubbw vphsubdq vphsubwd vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpperm vprotb vprotd vprotq vprotw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vbroadcasti128 vpblendd vpbroadcastb vpbroadcastw vpbroadcastd vpbroadcastq vpermd vpermpd vpermps vpermq vperm2i128 vextracti128 vinserti128 vpmaskmovd vpmaskmovq vpsllvd vpsllvq vpsravd vpsrlvd vpsrlvq vgatherdpd vgatherqpd vgatherdps vgatherqps vpgatherdd vpgatherqd vpgatherdq vpgatherqq xabort xbegin xend xtest andn bextr blci blcic blsi blsic blcfill blsfill blcmsk blsmsk blsr blcs bzhi mulx pdep pext rorx sarx shlx shrx tzcnt tzmsk t1mskc valignd valignq vblendmpd vblendmps vbroadcastf32x4 vbroadcastf64x4 vbroadcasti32x4 vbroadcasti64x4 vcompresspd vcompressps vcvtpd2udq vcvtps2udq vcvtsd2usi vcvtss2usi vcvttpd2udq vcvttps2udq vcvttsd2usi vcvttss2usi vcvtudq2pd vcvtudq2ps vcvtusi2sd vcvtusi2ss vexpandpd vexpandps vextractf32x4 vextractf64x4 vextracti32x4 vextracti64x4 vfixupimmpd vfixupimmps vfixupimmsd vfixupimmss vgetexppd vgetexpps vgetexpsd vgetexpss vgetmantpd vgetmantps vgetmantsd vgetmantss vinsertf32x4 vinsertf64x4 vinserti32x4 vinserti64x4 vmovdqa32 vmovdqa64 vmovdqu32 vmovdqu64 vpabsq vpandd vpandnd vpandnq vpandq vpblendmd vpblendmq vpcmpltd vpcmpled vpcmpneqd vpcmpnltd vpcmpnled vpcmpd vpcmpltq vpcmpleq vpcmpneqq vpcmpnltq vpcmpnleq vpcmpq vpcmpequd vpcmpltud vpcmpleud vpcmpnequd vpcmpnltud vpcmpnleud vpcmpud vpcmpequq vpcmpltuq vpcmpleuq vpcmpnequq vpcmpnltuq vpcmpnleuq vpcmpuq vpcompressd vpcompressq vpermi2d vpermi2pd vpermi2ps vpermi2q vpermt2d vpermt2pd vpermt2ps vpermt2q vpexpandd vpexpandq vpmaxsq vpmaxuq vpminsq vpminuq vpmovdb vpmovdw vpmovqb vpmovqd vpmovqw vpmovsdb vpmovsdw vpmovsqb vpmovsqd vpmovsqw vpmovusdb vpmovusdw vpmovusqb vpmovusqd vpmovusqw vpord vporq vprold vprolq vprolvd vprolvq vprord vprorq vprorvd vprorvq vpscatterdd vpscatterdq vpscatterqd vpscatterqq vpsraq vpsravq vpternlogd vpternlogq vptestmd vptestmq vptestnmd vptestnmq vpxord vpxorq vrcp14pd vrcp14ps vrcp14sd vrcp14ss vrndscalepd vrndscaleps vrndscalesd vrndscaless vrsqrt14pd vrsqrt14ps vrsqrt14sd vrsqrt14ss vscalefpd vscalefps vscalefsd vscalefss vscatterdpd vscatterdps vscatterqpd vscatterqps vshuff32x4 vshuff64x2 vshufi32x4 vshufi64x2 kandnw kandw kmovw knotw kortestw korw kshiftlw kshiftrw kunpckbw kxnorw kxorw vpbroadcastmb2q vpbroadcastmw2d vpconflictd vpconflictq vplzcntd vplzcntq vexp2pd vexp2ps vrcp28pd vrcp28ps vrcp28sd vrcp28ss vrsqrt28pd vrsqrt28ps vrsqrt28sd vrsqrt28ss vgatherpf0dpd vgatherpf0dps vgatherpf0qpd vgatherpf0qps vgatherpf1dpd vgatherpf1dps vgatherpf1qpd vgatherpf1qps vscatterpf0dpd vscatterpf0dps vscatterpf0qpd vscatterpf0qps vscatterpf1dpd vscatterpf1dps vscatterpf1qpd vscatterpf1qps prefetchwt1 bndmk bndcl bndcu bndcn bndmov bndldx bndstx sha1rnds4 sha1nexte sha1msg1 sha1msg2 sha256rnds2 sha256msg1 sha256msg2 hint_nop0 hint_nop1 hint_nop2 hint_nop3 hint_nop4 hint_nop5 hint_nop6 hint_nop7 hint_nop8 hint_nop9 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15 hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop20 hint_nop21 hint_nop22 hint_nop23 hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop30 hint_nop31 hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48 hint_nop49 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56 hint_nop57 hint_nop58 hint_nop59 hint_nop60 hint_nop61 hint_nop62 hint_nop63`,built_in:`ip eip rip al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 cs ds es fs gs ss st st0 st1 st2 st3 st4 st5 st6 st7 mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 k0 k1 k2 k3 k4 k5 k6 k7 bnd0 bnd1 bnd2 bnd3 cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d r0h r1h r2h r3h r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l db dw dd dq dt ddq do dy dz resb resw resd resq rest resdq reso resy resz incbin equ times byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr`,meta:`%define %xdefine %+ %undef %defstr %deftok %assign %strcat %strlen %substr %rotate %elif %else %endif %if %ifmacro %ifctx %ifidn %ifidni %ifid %ifnum %ifstr %iftoken %ifempty %ifenv %error %warning %fatal %rep %endrep %include %push %pop %repl %pathsearch %depend %use %arg %stacksize %local %line %comment %endcomment .nolist __FILE__ __LINE__ __SECT__  __BITS__ __OUTPUT_FORMAT__ __DATE__ __TIME__ __DATE_NUM__ __TIME_NUM__ __UTC_DATE__ __UTC_TIME__ __UTC_DATE_NUM__ __UTC_TIME_NUM__  __PASS__ struc endstruc istruc at iend align alignb sectalign daz nodaz up down zero default option assume public bits use16 use32 use64 default section segment absolute extern global common cpu float __utf16__ __utf16le__ __utf16be__ __utf32__ __utf32le__ __utf32be__ __float8__ __float16__ __float32__ __float64__ __float80m__ __float80e__ __float128l__ __float128h__ __Infinity__ __QNaN__ __SNaN__ Inf NaN QNaN SNaN float8 float16 float32 float64 float80m float80e float128l float128h __FLOAT_DAZ__ __FLOAT_ROUND__ __FLOAT__`},contains:[e.COMMENT(`;`,`$`,{relevance:0}),{className:`number`,variants:[{begin:`\\b(?:([0-9][0-9_]*)?\\.[0-9_]*(?:[eE][+-]?[0-9_]+)?|(0[Xx])?[0-9][0-9_]*(\\.[0-9_]*)?(?:[pP](?:[+-]?[0-9_]+)?)?)\\b`,relevance:0},{begin:`\\$[0-9][0-9A-Fa-f]*`,relevance:0},{begin:`\\b(?:[0-9A-Fa-f][0-9A-Fa-f_]*[Hh]|[0-9][0-9_]*[DdTt]?|[0-7][0-7_]*[QqOo]|[0-1][0-1_]*[BbYy])\\b`},{begin:`\\b(?:0[Xx][0-9A-Fa-f_]+|0[DdTt][0-9_]+|0[QqOo][0-7_]+|0[BbYy][0-1_]+)\\b`}]},e.QUOTE_STRING_MODE,{className:`string`,variants:[{begin:`'`,end:`[^\\\\]'`},{begin:"`",end:"[^\\\\]`"}],relevance:0},{className:`symbol`,variants:[{begin:`^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)`},{begin:`^\\s*%%[A-Za-z0-9_$#@~.?]*:`}],relevance:0},{className:`subst`,begin:`%[0-9]+`,relevance:0},{className:`subst`,begin:`%!S+`,relevance:0},{className:`meta`,begin:/^\s*\.[\w_-]+/}]}}t.exports=n})),zn=o(((e,t)=>{function n(e){let t={$pattern:/[a-zA-Z][a-zA-Z0-9_?]*/,keyword:`if.then.else.do.while.until.for.loop.import.with.is.as.where.when.by.data.constant.integer.real.text.name.boolean.symbol.infix.prefix.postfix.block.tree`.split(`.`),literal:[`true`,`false`,`nil`],built_in:`in.mod.rem.and.or.xor.not.abs.sign.floor.ceil.sqrt.sin.cos.tan.asin.acos.atan.exp.expm1.log.log2.log10.log1p.pi.at.text_length.text_range.text_find.text_replace.contains.page.slide.basic_slide.title_slide.title.subtitle.fade_in.fade_out.fade_at.clear_color.color.line_color.line_width.texture_wrap.texture_transform.texture.scale_?x.scale_?y.scale_?z?.translate_?x.translate_?y.translate_?z?.rotate_?x.rotate_?y.rotate_?z?.rectangle.circle.ellipse.sphere.path.line_to.move_to.quad_to.curve_to.theme.background.contents.locally.time.mouse_?x.mouse_?y.mouse_buttons`.split(`.`).concat([`ObjectLoader`,`Animate`,`MovieCredits`,`Slides`,`Filters`,`Shading`,`Materials`,`LensFlare`,`Mapping`,`VLCAudioVideo`,`StereoDecoder`,`PointCloud`,`NetworkAccess`,`RemoteControl`,`RegExp`,`ChromaKey`,`Snowfall`,`NodeJS`,`Speech`,`Charts`])},n={className:`string`,begin:`"`,end:`"`,illegal:`\\n`},r={className:`string`,begin:`'`,end:`'`,illegal:`\\n`},i={className:`string`,begin:`<<`,end:`>>`},a={className:`number`,begin:`[0-9]+#[0-9A-Z_]+(\\.[0-9-A-Z_]+)?#?([Ee][+-]?[0-9]+)?`},o={beginKeywords:`import`,end:`$`,keywords:t,contains:[n]},s={className:`function`,begin:/[a-z][^\n]*->/,returnBegin:!0,end:/->/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,keywords:t}})]};return{name:`XL`,aliases:[`tao`],keywords:t,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,n,r,i,s,o,a,e.NUMBER_MODE]}}t.exports=n})),Bn=o(((e,t)=>{function n(e){return{name:`XQuery`,aliases:[`xpath`,`xq`,`xqm`],case_insensitive:!1,illegal:/(proc)|(abstract)|(extends)|(until)|(#)/,keywords:{$pattern:/[a-zA-Z$][a-zA-Z0-9_:-]*/,keyword:`module.schema.namespace.boundary-space.preserve.no-preserve.strip.default.collation.base-uri.ordering.context.decimal-format.decimal-separator.copy-namespaces.empty-sequence.except.exponent-separator.external.grouping-separator.inherit.no-inherit.lax.minus-sign.per-mille.percent.schema-attribute.schema-element.strict.unordered.zero-digit.declare.import.option.function.validate.variable.for.at.in.let.where.order.group.by.return.if.then.else.tumbling.sliding.window.start.when.only.end.previous.next.stable.ascending.descending.allowing.empty.greatest.least.some.every.satisfies.switch.case.typeswitch.try.catch.and.or.to.union.intersect.instance.of.treat.as.castable.cast.map.array.delete.insert.into.replace.value.rename.copy.modify.update`.split(`.`),type:`item.document-node.node.attribute.document.element.comment.namespace.namespace-node.processing-instruction.text.construction.xs:anyAtomicType.xs:untypedAtomic.xs:duration.xs:time.xs:decimal.xs:float.xs:double.xs:gYearMonth.xs:gYear.xs:gMonthDay.xs:gMonth.xs:gDay.xs:boolean.xs:base64Binary.xs:hexBinary.xs:anyURI.xs:QName.xs:NOTATION.xs:dateTime.xs:dateTimeStamp.xs:date.xs:string.xs:normalizedString.xs:token.xs:language.xs:NMTOKEN.xs:Name.xs:NCName.xs:ID.xs:IDREF.xs:ENTITY.xs:integer.xs:nonPositiveInteger.xs:negativeInteger.xs:long.xs:int.xs:short.xs:byte.xs:nonNegativeInteger.xs:unisignedLong.xs:unsignedInt.xs:unsignedShort.xs:unsignedByte.xs:positiveInteger.xs:yearMonthDuration.xs:dayTimeDuration`.split(`.`),literal:[`eq`,`ne`,`lt`,`le`,`gt`,`ge`,`is`,`self::`,`child::`,`descendant::`,`descendant-or-self::`,`attribute::`,`following::`,`following-sibling::`,`parent::`,`ancestor::`,`ancestor-or-self::`,`preceding::`,`preceding-sibling::`,`NaN`]},contains:[{className:`variable`,begin:/[$][\w\-:]+/},{className:`built_in`,variants:[{begin:/\barray:/,end:/(?:append|filter|flatten|fold-(?:left|right)|for-each(?:-pair)?|get|head|insert-before|join|put|remove|reverse|size|sort|subarray|tail)\b/},{begin:/\bmap:/,end:/(?:contains|entry|find|for-each|get|keys|merge|put|remove|size)\b/},{begin:/\bmath:/,end:/(?:a(?:cos|sin|tan[2]?)|cos|exp(?:10)?|log(?:10)?|pi|pow|sin|sqrt|tan)\b/},{begin:/\bop:/,end:/\(/,excludeEnd:!0},{begin:/\bfn:/,end:/\(/,excludeEnd:!0},{begin:/[^</$:'"-]\b(?:abs|accumulator-(?:after|before)|adjust-(?:date(?:Time)?|time)-to-timezone|analyze-string|apply|available-(?:environment-variables|system-properties)|avg|base-uri|boolean|ceiling|codepoints?-(?:equal|to-string)|collation-key|collection|compare|concat|contains(?:-token)?|copy-of|count|current(?:-)?(?:date(?:Time)?|time|group(?:ing-key)?|output-uri|merge-(?:group|key))?data|dateTime|days?-from-(?:date(?:Time)?|duration)|deep-equal|default-(?:collation|language)|distinct-values|document(?:-uri)?|doc(?:-available)?|element-(?:available|with-id)|empty|encode-for-uri|ends-with|environment-variable|error|escape-html-uri|exactly-one|exists|false|filter|floor|fold-(?:left|right)|for-each(?:-pair)?|format-(?:date(?:Time)?|time|integer|number)|function-(?:arity|available|lookup|name)|generate-id|has-children|head|hours-from-(?:dateTime|duration|time)|id(?:ref)?|implicit-timezone|in-scope-prefixes|index-of|innermost|insert-before|iri-to-uri|json-(?:doc|to-xml)|key|lang|last|load-xquery-module|local-name(?:-from-QName)?|(?:lower|upper)-case|matches|max|minutes-from-(?:dateTime|duration|time)|min|months?-from-(?:date(?:Time)?|duration)|name(?:space-uri-?(?:for-prefix|from-QName)?)?|nilled|node-name|normalize-(?:space|unicode)|not|number|one-or-more|outermost|parse-(?:ietf-date|json)|path|position|(?:prefix-from-)?QName|random-number-generator|regex-group|remove|replace|resolve-(?:QName|uri)|reverse|root|round(?:-half-to-even)?|seconds-from-(?:dateTime|duration|time)|snapshot|sort|starts-with|static-base-uri|stream-available|string-?(?:join|length|to-codepoints)?|subsequence|substring-?(?:after|before)?|sum|system-property|tail|timezone-from-(?:date(?:Time)?|time)|tokenize|trace|trans(?:form|late)|true|type-available|unordered|unparsed-(?:entity|text)?-?(?:public-id|uri|available|lines)?|uri-collection|xml-to-json|years?-from-(?:date(?:Time)?|duration)|zero-or-one)\b/},{begin:/\blocal:/,end:/\(/,excludeEnd:!0},{begin:/\bzip:/,end:/(?:zip-file|(?:xml|html|text|binary)-entry| (?:update-)?entries)\b/},{begin:/\b(?:util|db|functx|app|xdmp|xmldb):/,end:/\(/,excludeEnd:!0}]},{className:`string`,variants:[{begin:/"/,end:/"/,contains:[{begin:/""/,relevance:0}]},{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]}]},{className:`number`,begin:/(\b0[0-7_]+)|(\b0x[0-9a-fA-F_]+)|(\b[1-9][0-9_]*(\.[0-9_]+)?)|[0_]\b/,relevance:0},{className:`comment`,begin:/\(:/,end:/:\)/,relevance:10,contains:[{className:`doctag`,begin:/@\w+/}]},{className:`meta`,begin:/%[\w\-:]+/},{className:`title`,begin:/\bxquery version "[13]\.[01]"\s?(?:encoding ".+")?/,end:/;/},{beginKeywords:`element attribute comment document processing-instruction`,end:/\{/,excludeEnd:!0},{begin:/<([\w._:-]+)(\s+\S*=('|").*('|"))?>/,end:/(\/[\w._:-]+>)/,subLanguage:`xml`,contains:[{begin:/\{/,end:/\}/,subLanguage:`xquery`},`self`]}]}}t.exports=n})),Vn=o(((e,t)=>{function n(e){let t={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},n=e.UNDERSCORE_TITLE_MODE,r={variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]},i=`namespace class interface use extends function return abstract final public protected private static deprecated throw try catch Exception echo empty isset instanceof unset let var new const self require if else elseif switch case default do while loop for continue break likely unlikely __LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ array boolean float double integer object resource string char long unsigned bool int uint ulong uchar true false null undefined`;return{name:`Zephir`,aliases:[`zep`],keywords:i,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(/\/\*/,/\*\//,{contains:[{className:`doctag`,begin:/@[A-Za-z]+/}]}),{className:`string`,begin:/<<<['"]?\w+['"]?$/,end:/^\w+;/,contains:[e.BACKSLASH_ESCAPE]},{begin:/(::|->)+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/},{className:`function`,beginKeywords:`function fn`,end:/[;{]/,excludeEnd:!0,illegal:/\$|\[|%/,contains:[n,{className:`params`,begin:/\(/,end:/\)/,keywords:i,contains:[`self`,e.C_BLOCK_COMMENT_MODE,t,r]}]},{className:`class`,beginKeywords:`class interface`,end:/\{/,excludeEnd:!0,illegal:/[:($"]/,contains:[{beginKeywords:`extends implements`},n]},{beginKeywords:`namespace`,end:/;/,illegal:/[.']/,contains:[n]},{beginKeywords:`use`,end:/;/,contains:[n]},{begin:/=>/},t,r]}}t.exports=n})),Hn=l(o(((e,t)=>{var n=u();n.registerLanguage(`1c`,d()),n.registerLanguage(`abnf`,f()),n.registerLanguage(`accesslog`,p()),n.registerLanguage(`actionscript`,m()),n.registerLanguage(`ada`,h()),n.registerLanguage(`angelscript`,g()),n.registerLanguage(`apache`,_()),n.registerLanguage(`applescript`,v()),n.registerLanguage(`arcade`,y()),n.registerLanguage(`arduino`,b()),n.registerLanguage(`armasm`,x()),n.registerLanguage(`xml`,S()),n.registerLanguage(`asciidoc`,C()),n.registerLanguage(`aspectj`,w()),n.registerLanguage(`autohotkey`,T()),n.registerLanguage(`autoit`,E()),n.registerLanguage(`avrasm`,D()),n.registerLanguage(`awk`,O()),n.registerLanguage(`axapta`,k()),n.registerLanguage(`bash`,A()),n.registerLanguage(`basic`,j()),n.registerLanguage(`bnf`,M()),n.registerLanguage(`brainfuck`,N()),n.registerLanguage(`c`,P()),n.registerLanguage(`cal`,F()),n.registerLanguage(`capnproto`,I()),n.registerLanguage(`ceylon`,L()),n.registerLanguage(`clean`,R()),n.registerLanguage(`clojure`,z()),n.registerLanguage(`clojure-repl`,B()),n.registerLanguage(`cmake`,ee()),n.registerLanguage(`coffeescript`,te()),n.registerLanguage(`coq`,V()),n.registerLanguage(`cos`,H()),n.registerLanguage(`cpp`,U()),n.registerLanguage(`crmsh`,W()),n.registerLanguage(`crystal`,G()),n.registerLanguage(`csharp`,K()),n.registerLanguage(`csp`,ne()),n.registerLanguage(`css`,re()),n.registerLanguage(`d`,q()),n.registerLanguage(`markdown`,J()),n.registerLanguage(`dart`,ie()),n.registerLanguage(`delphi`,ae()),n.registerLanguage(`diff`,oe()),n.registerLanguage(`django`,se()),n.registerLanguage(`dns`,Y()),n.registerLanguage(`dockerfile`,ce()),n.registerLanguage(`dos`,le()),n.registerLanguage(`dsconfig`,ue()),n.registerLanguage(`dts`,X()),n.registerLanguage(`dust`,de()),n.registerLanguage(`ebnf`,Z()),n.registerLanguage(`elixir`,Q()),n.registerLanguage(`elm`,fe()),n.registerLanguage(`ruby`,pe()),n.registerLanguage(`erb`,me()),n.registerLanguage(`erlang-repl`,he()),n.registerLanguage(`erlang`,ge()),n.registerLanguage(`excel`,_e()),n.registerLanguage(`fix`,ve()),n.registerLanguage(`flix`,ye()),n.registerLanguage(`fortran`,be()),n.registerLanguage(`fsharp`,xe()),n.registerLanguage(`gams`,Se()),n.registerLanguage(`gauss`,Ce()),n.registerLanguage(`gcode`,we()),n.registerLanguage(`gherkin`,Te()),n.registerLanguage(`glsl`,Ee()),n.registerLanguage(`gml`,$()),n.registerLanguage(`go`,De()),n.registerLanguage(`golo`,Oe()),n.registerLanguage(`gradle`,ke()),n.registerLanguage(`graphql`,Ae()),n.registerLanguage(`groovy`,je()),n.registerLanguage(`haml`,Me()),n.registerLanguage(`handlebars`,Ne()),n.registerLanguage(`haskell`,Pe()),n.registerLanguage(`haxe`,Fe()),n.registerLanguage(`hsp`,Ie()),n.registerLanguage(`http`,Le()),n.registerLanguage(`hy`,Re()),n.registerLanguage(`inform7`,ze()),n.registerLanguage(`ini`,Be()),n.registerLanguage(`irpf90`,Ve()),n.registerLanguage(`isbl`,He()),n.registerLanguage(`java`,Ue()),n.registerLanguage(`javascript`,We()),n.registerLanguage(`jboss-cli`,Ge()),n.registerLanguage(`json`,Ke()),n.registerLanguage(`julia`,qe()),n.registerLanguage(`julia-repl`,Je()),n.registerLanguage(`kotlin`,Ye()),n.registerLanguage(`lasso`,Xe()),n.registerLanguage(`latex`,Ze()),n.registerLanguage(`ldif`,Qe()),n.registerLanguage(`leaf`,$e()),n.registerLanguage(`less`,et()),n.registerLanguage(`lisp`,tt()),n.registerLanguage(`livecodeserver`,nt()),n.registerLanguage(`livescript`,rt()),n.registerLanguage(`llvm`,it()),n.registerLanguage(`lsl`,at()),n.registerLanguage(`lua`,ot()),n.registerLanguage(`makefile`,st()),n.registerLanguage(`mathematica`,ct()),n.registerLanguage(`matlab`,lt()),n.registerLanguage(`maxima`,ut()),n.registerLanguage(`mel`,dt()),n.registerLanguage(`mercury`,ft()),n.registerLanguage(`mipsasm`,pt()),n.registerLanguage(`mizar`,mt()),n.registerLanguage(`perl`,ht()),n.registerLanguage(`mojolicious`,gt()),n.registerLanguage(`monkey`,_t()),n.registerLanguage(`moonscript`,vt()),n.registerLanguage(`n1ql`,yt()),n.registerLanguage(`nestedtext`,bt()),n.registerLanguage(`nginx`,xt()),n.registerLanguage(`nim`,St()),n.registerLanguage(`nix`,Ct()),n.registerLanguage(`node-repl`,wt()),n.registerLanguage(`nsis`,Tt()),n.registerLanguage(`objectivec`,Et()),n.registerLanguage(`ocaml`,Dt()),n.registerLanguage(`openscad`,Ot()),n.registerLanguage(`oxygene`,kt()),n.registerLanguage(`parser3`,At()),n.registerLanguage(`pf`,jt()),n.registerLanguage(`pgsql`,Mt()),n.registerLanguage(`php`,Nt()),n.registerLanguage(`php-template`,Pt()),n.registerLanguage(`plaintext`,Ft()),n.registerLanguage(`pony`,It()),n.registerLanguage(`powershell`,Lt()),n.registerLanguage(`processing`,Rt()),n.registerLanguage(`profile`,zt()),n.registerLanguage(`prolog`,Bt()),n.registerLanguage(`properties`,Vt()),n.registerLanguage(`protobuf`,Ht()),n.registerLanguage(`puppet`,Ut()),n.registerLanguage(`purebasic`,Wt()),n.registerLanguage(`python`,Gt()),n.registerLanguage(`python-repl`,Kt()),n.registerLanguage(`q`,qt()),n.registerLanguage(`qml`,Jt()),n.registerLanguage(`r`,Yt()),n.registerLanguage(`reasonml`,Xt()),n.registerLanguage(`rib`,Zt()),n.registerLanguage(`roboconf`,Qt()),n.registerLanguage(`routeros`,$t()),n.registerLanguage(`rsl`,en()),n.registerLanguage(`ruleslanguage`,tn()),n.registerLanguage(`rust`,nn()),n.registerLanguage(`sas`,rn()),n.registerLanguage(`scala`,an()),n.registerLanguage(`scheme`,on()),n.registerLanguage(`scilab`,sn()),n.registerLanguage(`scss`,cn()),n.registerLanguage(`shell`,ln()),n.registerLanguage(`smali`,un()),n.registerLanguage(`smalltalk`,dn()),n.registerLanguage(`sml`,fn()),n.registerLanguage(`sqf`,pn()),n.registerLanguage(`sql`,mn()),n.registerLanguage(`stan`,hn()),n.registerLanguage(`stata`,gn()),n.registerLanguage(`step21`,_n()),n.registerLanguage(`stylus`,vn()),n.registerLanguage(`subunit`,yn()),n.registerLanguage(`swift`,bn()),n.registerLanguage(`taggerscript`,xn()),n.registerLanguage(`yaml`,Sn()),n.registerLanguage(`tap`,Cn()),n.registerLanguage(`tcl`,wn()),n.registerLanguage(`thrift`,Tn()),n.registerLanguage(`tp`,En()),n.registerLanguage(`twig`,Dn()),n.registerLanguage(`typescript`,On()),n.registerLanguage(`vala`,kn()),n.registerLanguage(`vbnet`,An()),n.registerLanguage(`vbscript`,jn()),n.registerLanguage(`vbscript-html`,Mn()),n.registerLanguage(`verilog`,Nn()),n.registerLanguage(`vhdl`,Pn()),n.registerLanguage(`vim`,Fn()),n.registerLanguage(`wasm`,In()),n.registerLanguage(`wren`,Ln()),n.registerLanguage(`x86asm`,Rn()),n.registerLanguage(`xl`,zn()),n.registerLanguage(`xquery`,Bn()),n.registerLanguage(`zephir`,Vn()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,Un=s({default:()=>Wn}),Wn=`<div class="post-meta">\r
+	<meta name="post-id" content="4">\r
+	<meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기">\r
+  <meta name="post-publishedAt" content="2026-03-28T19:23">\r
+  <meta name="post-tags" content="Linux, CAN">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<h2 class="post-tab">1. 의존성 설치.</h2>\r
+	<div>\r
+		sudo apt-get update<br />\r
+		sudo apt-get install can-utils\r
+	</div>\r
+\r
+	<h2 class="post-tab">2. CANable USB 연결.</h2>\r
+\r
+	<h2 class="post-tab">3. 연결 확인.</h2>\r
+	<div>ls /dev/ttyACM*</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_ttyACM.png"\r
+			alt="ttyACM 출력 예시"\r
+			width="200"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">4. idvendor, idproduct 확인.</h2>\r
+	<div>lsusb</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_lsusb.png"\r
+			alt="lsusb 출력 예시"\r
+			width="600"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">5. serial 확인.</h2>\r
+	<div>sudo lsusb -d 16d0:117e -v | grep -i serial</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_serial.png"\r
+			alt="serial 출력 예시"\r
+			width="400"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">6. .rules 파일 생성.</h2>\r
+	<div>\r
+		echo KERNEL=="ttyACM*",ATTRS{serial}=="207B30705330",MODE:="0777",SYMLINK+="can0" >> can0.rules<br />\r
+		cat ./can0.rules\r
+	</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_rules.png"\r
+			alt="rules 출력 예시"\r
+			width="600"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">7. .rules 파일 이동.</h2>\r
+	<div>sudo cp can0.rules /etc/udev/rules.d/</div>\r
+\r
+	<h2 class="post-tab">8. 적용.</h2>\r
+	<div>sudo udevadm control --reload-rules</div>\r
+\r
+	<h2 class="post-tab">9. USB 재연결.</h2>\r
+\r
+	<h2 class="post-tab">10. 인터페이스 생성 및 띄우기.</h2>\r
+	<div>\r
+		sudo slcand -o -c -s5 /dev/can0 can0<br />\r
+		sudo ifconfig can0 up<br />\r
+		ifconfig\r
+	</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_interface.png"\r
+			alt="interface 출력 예시"\r
+			width="600"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">11. 테스트.</h2>\r
+	<div>터미널 A / sudo candump can0</div>\r
+	<div>터미널 B / sudo cansend can0 000#R</div>\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/development/4/result_test.png"\r
+			alt="test 출력 예시"\r
+			width="200"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+</div>\r
+`,Gn=s({default:()=>Kn}),Kn=`<div class="post-meta">\r
+	<meta name="post-id" content="7">\r
+	<meta name="post-title" content="천재 광고기획자의 아이디어 생산 5단계 정리">\r
+  <meta name="post-publishedAt" content="2026-04-22T23:28">\r
+  <meta name="post-tags" content="아이디어, 제임스 웹 영, 60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/growth/7/book.jpg"\r
+			alt="60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법"\r
+			width="200"\r
+		/>\r
+		<figcaption>출처: 월북</figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">총평</h2>\r
+\r
+	<p>\r
+		역시 진실은 간단하고 명료하다. 특정 정보를 얻기 위해서 읽은 책이, 서론이\r
+		길고, 불필요하게 사례를 추가하고, 주장을 반복하면서 수십 페이지면 충분할\r
+		내용을 수백 페이지로 늘리고 있으면 정말... 처음 책의 메시지에 받았던 희열은\r
+		고스란히 분노가 된다. 지금 상황에 나에게 꼭 필요한 정보를 담은 책이 그렇지\r
+		않아서 다행이다. 컴팩트한 마무리는 정보에 신뢰를 더한다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">원리</h2>\r
+\r
+	<p>\r
+		아이디어는 오래된 요소들의 새로운 조합, 그 이상도 이하도 아니다.\r
+	</p>\r
+\r
+	<p>\r
+		오래된 요소들을 가지고 새로운 조합을 만드는 능력은 ‘관계’를 보는 능력에 크게\r
+		의존한다. 팩트에는 관계와 유사성이 있다. 일련의 팩트에 일반 법칙이 적용되는\r
+		모습을 발견하는 것이 중요하다. 이는 훈련으로 키울 수 있다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">아이디어를 생산하는 5단계</h2>\r
+\r
+	<h3 class="post-point">\r
+		1. 자료를 모은다. 당면한 문제와 관련된 자료와 일반적 지식 둘 다를 꾸준히\r
+		저장하면서 점점 풍부해진 자료를 수집한다.\r
+	</h3>\r
+\r
+	<p>\r
+		수집해야 할 자료는 두 종류다. 구체적인 자료와 일반적인 자료.\r
+	</p>\r
+\r
+	<p>\r
+		구체적인 자료란 이를테면 제품과 소비자 사이의 미세한 관계를 집요하게\r
+		파고들어, 비누와 머리카락 관계에 대해 책 한 권을 써낼 만큼 철저하게 파헤친\r
+		지식을 말한다. 깊이 들어가면 언제나 모든 제품과 소비자 사이에는 개별적인\r
+		관계가 있고 바로 그 관계가 다시 아이디어로 이어질 수 있다. <br />\r
+	</p>\r
+\r
+	<p>\r
+		일반적인 자료란 말 그대로 온갖 분야의 정보를 말하는데, 이것이 중요한 이유는\r
+		간단히 만화경 속 유리 조각이 많을수록 손잡이를 돌릴 때마다 더 화려하고\r
+		새로운 패턴이 나타날 가능성이 높아지기 때문이다. "창의적 인간에게는 모든\r
+		것이 유의미하다."는 명언을 새겨두자.\r
+	</p>\r
+\r
+	<h3 class="post-point">2. 머릿속에서 이 자료들을 꼭꼭 씹어서 소화시킨다.</h3>\r
+\r
+	<h3 class="post-point">\r
+		3. 부화 단계. 의식적 생각이 아닌, 다른 것들이 종합 작용을 할 수 있게\r
+		내버려둔다.\r
+	</h3>\r
+\r
+	<p>\r
+		모든 주제를 내려놓고 고민하는 문제에 대한 생각을 머릿속에서 최대한 몰아내라.\r
+		앞선 두 단계만큼 필요한 단계라는 사실을 기억할 것. 고민하는 문제를\r
+		무의식으로 보내서 잠자는 동안 해결되게 하는 것이 목적.\r
+	</p>\r
+\r
+	<h3 class="post-point">4. 실제로 아이디어가 탄생하는 단계. “유레카! 이거야!” 단계.</h3>\r
+\r
+	<h3 class="post-point">5. 아이디어를 실용적 용도에 맞게 개발하고 다듬는 마지막 단계.</h3>\r
+\r
+	<p>\r
+		* 앞의 단계가 완료되기 전에 뒤의 단계 중 하나가 일어나는 일은 불가능하다는\r
+		것을 기억할 것. 즉, 귀찮다고 자료 모으는 과정을 피하려고 하지 마라.\r
+	</p>\r
+\r
+	<h2 class="post-tab">적용과 한계</h2>\r
+\r
+	<p>\r
+		엄밀히 말하면 저자 제임스 웹 영은 광고기획자이고, 이 책 또한 광고 분야를\r
+		타겟하고 있다. 그러나 이 책을 읽고 삶에 적용한 뒤 효과를 보았다고 편지를\r
+		보내온 독자들 중 상당수는 광고와 전혀 관계없는 분야에 종사하고 있었고,\r
+		저자가 광고계뿐만 아니라 정부의 활동이나 공익 사업을 함께 추진하며 겪었던\r
+		경험들에 비춰보더라도 크게 수정해야 할 부분을 찾지 못했다고 하니 용기를 잃지\r
+		말고 시도하도록 하자.\r
+	</p>\r
+\r
+	<h3>책에서 본 글 한 토막이 마음에 들어서 마지막으로 덧붙임</h3>\r
+\r
+	<p>\r
+		"예컨대 죽어도 베개 밑에 제인 오스틴의 소설을 넣어둘 일은 없다고 생각한다면,\r
+		그 이상 생각할 필요는 없다. 그 경우에는 19세기 영국의 지주계급이 ‘상업’에\r
+		종사하는 사람들을 얼마나 비웃었는지, 그리고 지금 이 나라 허드슨강 유역에\r
+		사는 사람들이 왜 똑같은 짓을 하고 있는지 절대로 이해하지 못할 것이다.\r
+		그렇다면 언젠가 ‘부유층’을 위한 ‘속물근성에 호소하는’ 아주 효과적인 광고를\r
+		만들 방법은 없어질 수도 있다."\r
+	</p>\r
+</div>\r
+`,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">\r
+	<meta name="post-id" content="5">\r
+	<meta name="post-title" content="채권 듀레이션 정리">\r
+  <meta name="post-publishedAt" content="2026-04-18T23:03">\r
+  <meta name="post-tags" content="채권">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<h2 class="post-tab">타임라인</h2>\r
+\r
+	<p>\r
+		채권 타임라인이란 채권 투자에서 매수 시점부터 만기 원금 상환일까지 발생하는\r
+		모든 현금 흐름(이자 지급 및 원금 상환)을 시간 순서대로 배열한 도표를\r
+		의미한다. 연 1회 이자를 지급하는 8% 이표채 3년물 채권의 타임라인은 아래와\r
+		같다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/investment/5/timeline_a.png"\r
+			alt="채권 A 타임라인"\r
+			width="400"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h3 class="post-point">시장금리가 9%로 오른다면 어떻게 될까?</h3>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/investment/5/timeline_b.png"\r
+			alt="채권 B 타임라인"\r
+			width="400"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		이제 시장에는 위와 같은 채권B가 나타나게 된다. 채권B를 구매하면 총 2700원의\r
+		수익을 얻을 수 있는데 채권A를 구매하면 총 2400원의 수익밖에 얻지 못하는\r
+		상황에서, 채권A를 가진 사람이 자신의 채권을 팔고 싶다면, 시장에 있는 채권B와\r
+		동일한 보상을 제공해주어야 한다.\r
+	</p>\r
+\r
+	<p>\r
+		채권B를 구매한 것과 비교해 채권A를 구매하면 1년 후 100원, 2년 후 100원, 3년\r
+		후 100원이 손해므로, 간단히 1년 후 100원을 보상하고, 2년 후 100원을\r
+		보상하고, 3년 후 100원을 보상하면 된다.\r
+	</p>\r
+\r
+	<p>\r
+		채권A를 매도하면서 '1, 2, 3년 후의 100원'을 보상하기 위해서는 1, 2, 3년 후의\r
+		100원을 각각 현재가치로 할인해서 보상하면 된다. 할인율 공식은 아래와 같다.\r
+	</p>\r
+\r
+	<p class="post-note">\r
+		PV = FV ÷ (1 + r)ⁿ <br /><br />\r
+\r
+		PV(Present Value): 현재가치 <br />\r
+		FV(Future Value): 미래가치 <br />\r
+		r(Rate): 할인율 <br />\r
+		n(number of periods): 횟수\r
+	</p>\r
+\r
+	<div>\r
+		1년 후의 100원 = 100 ÷ (1 + 0.09)¹ = 현재 약 91.74원 <br />\r
+		2년 후의 100원 = 100 ÷ (1 + 0.09)² = 현재 약 84.17원 <br />\r
+		3년 후의 100원 = 100 ÷ (1 + 0.09)³ = 현재 약 77.22원\r
+	</div>\r
+\r
+	<p>\r
+		보상해야 할 총금액은 약 253.13원이 되고, 이를 판매하고자 하는 현재 채권 가격\r
+		10,000에서 빼주면 약 9,746.87원이 된다. 즉 이 가격까지는 내려줘야 비로소\r
+		시장은 채권A를 바라봐 주는 것이다.\r
+	</p>\r
+\r
+	<h3 class="posst-point">채권의 만기가 3년이 아니라 10년이었다면?</h3>\r
+\r
+	<p>\r
+		시장금리가 1% 상승했을 때, 기존 3년물 채권을 시장에 팔기 위해서 100원씩 세\r
+		번을 보상해줘야 했다. 그런데 기존 채권이 3년물이 아닌 10년물이었다면 이제는\r
+		100원씩 열 번을 보상해줘야 팔 수 있게 된다. 1년부터 10년 후의 100원을 모두\r
+		현재가치로 할인해서 합하면 약 642원이 나오고 이를 채권 가격에 반영하면 약\r
+		9,358이 된다.\r
+	</p>\r
+\r
+	<p>\r
+		결과적으로 시장금리가 1% 상승했을 때, 3년물은 약 2.53%(253원) 하락하고,\r
+		10년물은 약 6.42%(642원) 하락했다. 금리가 1% 변할 때, 남은 기간에 따라 가격\r
+		하락 폭이 달라졌다. 이처럼 만기가 길어질수록 보상해야 할 금액이 누적되어\r
+		금리라는 외부 충격에 대해 채권 가격이 반응하는 민감도가 달라진다. 이 두 가지\r
+		성격, 시간과 민감도를 한 바구니에 담아 듀레이션(Duration)이라고 부른다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">듀레이션(Duration)</h2>\r
+\r
+	<p>\r
+		채권 투자에서 투자 원금과 이자를 모두 회수하는 데 걸리는 시간(현재가치로\r
+		가중된 평균만기)을 의미하며, 동시에 시장 금리 변화에 대한 채권 가격의\r
+		민감도를 나타내는 핵심 지표.\r
+	</p>\r
+\r
+	<p>\r
+		채권A에 투자했을 때, 원리합계(원금 + 모든 이자)는 12,400원이다. 그렇다면 이\r
+		12,400원을 회수하는 데는 '평균적으로' 얼마의 시간이 걸릴까?\r
+	</p>\r
+\r
+	<p>\r
+		1년 후 이자 800원은 원리합계 12,400의 약 0.06%다. 2년 후 이자 800원 또한\r
+		원리합계 12,400의 약 0.06%고, 3년 후 원금 10,000원과 이자 800원은 원리합계\r
+		12,400의 약 0.87%다.\r
+	</p>\r
+\r
+	<p>\r
+		첫 번째 이자 800원을 회수하는 데는 1년이 걸렸고, 두 번째 이자 800원을\r
+		회수하는 데는 2년이 걸렸고, 만기 때 원금 10,000원과 이자 800원을 회수하는\r
+		데는 3년이 걸렸다.\r
+	</p>\r
+\r
+	<p>\r
+		회수하는 데 걸린 시간의 평균을 계산하면 2.79년이 걸린다. 이는 단순히\r
+		현금흐름을 기준으로 계산한 평균 회수 기간이며, 이후에는 각 금액을 현재가치로\r
+		할인해 보다 정확한 듀레이션을 구하게 된다.\r
+	</p>\r
+\r
+	<p class="post-note">(0.06 × 1) + (0.06 × 2) + (0.87 × 3) = 2.79</p>\r
+\r
+	<p>\r
+		위에서 정의했듯이 듀레이션은 원리합계를 회수하는 데 걸리는 평균 시간이면서\r
+		동시에 금리 변화에 따른 가격의 민감도를 나타낸다. 즉 금리가 1% 상승할 때\r
+		가격이 2.79% 하락한다는 얘기인데 앞서 직접 구한 2.53%와 차이가 발생했다.\r
+	</p>\r
+\r
+	<h3 class="post-point">⑴ 맥컬리 듀레이션 (Macaulay Duration)</h3>\r
+\r
+	<p>\r
+		우리는 12,400원이라는 '미래의 돈'을 그대로 사용해 2.79년을 구했는데, 사실은\r
+		그 돈을 현재가치로 할인해서 계산해야 한다.\r
+	</p>\r
+\r
+	<p class="post-note">\r
+		1년 후의 800원 = 800 ÷ (1 + 0.08)¹ = 740.74원(비중: 0.074). <br />\r
+		2년 후의 800원 = 800 ÷ (1 + 0.08)² = 685.87원(비중: 0.069). <br />\r
+		3년 후의 10,800원 = 10,800 ÷ (1 + 0.08)³ = 8,573.39원(비중: 0.857). <br /><br />\r
+\r
+		(0.074 × 1) + (0.069 × 2) + (0.857 × 3) = 2.783\r
+	</p>\r
+\r
+	<p>\r
+		이렇게 현재가치로 가중해 계산한 평균 회수 기간을 맥컬리 듀레이션이라 하며,\r
+		이는 채권의 ‘평균만기’로 해석된다. 이 채권에 투자하면 내 원금과 이자의\r
+		가치를 평균적으로 2.783년 만에 회수한다고 이해할 수 있다.\r
+	</p>\r
+\r
+	<h3 class="post-point">⑵ 수정 듀레이션 (Modified Duration)</h3>\r
+\r
+	<p>\r
+		맥컬리 듀레이션(2.78~2.79)이 '시간' 개념이었다면, 수정 듀레이션은 '가격\r
+		변동률'을 의미한다. 변환을 위해서 현재 시장의 유통수익률(YTM)로 한 번 더\r
+		나누어 준다.\r
+	</p>\r
+\r
+	<div>\r
+		* 여기서는 채권의 이자율과 시장금리(YTM)가 8%로 같은 상황을 가정했다. <br />\r
+		* 앞서 직접 가격을 구할 때는 변화한 금리인 9%를 대입했지만, 듀레이션은 '지금\r
+		이 순간'의 금리 수준에서 가격이 어느 정도의 기울기로 반응하는지를 나타내는\r
+		지표이기 때문에 현재 시점의 금리인 8%를 사용한다.\r
+	</div>\r
+\r
+	<p class="post-note">2.783 ÷ (1 + 0.08) = 약 2.57</p>\r
+\r
+	<p>\r
+		즉, 채권A는 금리 1%가 변동할 때 가격이 약 2.57% 변동하는 민감도를 가졌다라고\r
+		계산된다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">볼록성(Convexity)</h2>\r
+\r
+	<p>수정 듀레이션 또한 우리가 직접 계산했던 값 2.53%와는 차이가 있다.</p>\r
+\r
+	<p>\r
+		수정 듀레이션은 현재 금리 지점에서의 순간적인 기울기로써, 금리가 아주\r
+		미세하게 변할 때를 가정한 '직선의 논리'다. 하지만 앞서 구한 것처럼 금리에\r
+		따른 채권의 가격을 일일히 계산해서 대입해보면, 금리 변화에 따라 가격은\r
+		곡선을 그리며 움직인다.\r
+	</p>\r
+\r
+	<p>이때 등장하는 개념이 바로 볼록성이다.</p>\r
+\r
+	<p>\r
+		수정 듀레이션이 금리 변화에 대한 ‘1차 반응(기울기)’이라면, 볼록성은 금리\r
+		변화가 커질수록 나타나는 ‘2차 효과(곡률)’를 반영한다.\r
+	</p>\r
+\r
+	<p>\r
+		이 곡률 구조 덕분에 채권 가격은 비대칭적으로 움직인다. 금리가 상승할 때는\r
+		가격 하락 폭이 완만해지고, 금리가 하락할 때는 가격 상승 폭이 더 커지게 된다.\r
+		즉, 손실은 줄이고 이익은 확대되는 방향으로 작용한다. 그래서 채권 투자자들은\r
+		듀레이션이 같더라도 볼록성이 더 큰 채권을 선호하는 경향이 있다. 이를테면 5년\r
+		만기 채권에 집중한 포트폴리와 1년 만기 채권 및 10년 만기 채권에 분산한\r
+		포트폴리오의 듀레이션은 같지만, 지금 시점으로부터 넓게 분산되어 있는 후자의\r
+		포트폴리오가 훨씬 큰 볼록성을 가진다.\r
+	</p>\r
+\r
+	<p>\r
+		다만 이러한 특성은 모든 채권에 동일하게 적용되는 것은 아니다. 일반적인\r
+		채권은 투자자에게 유리한 ‘양(+)의 볼록성’을 가지지만, 콜옵션이 포함된 채권\r
+		등은 금리 하락 시 가격 상승이 제한되는 ‘음(-)의 볼록성’을 보이기도 한다.\r
+	</p>\r
+\r
+	<p>\r
+		금리 변동 폭이 작을 때는 수정 듀레이션만으로도 충분히 정확한 예측이 가능지만\r
+		금리 변동 폭이 커질수록 볼록성의 영향이 점점 커지면서, 단순한 듀레이션 기반\r
+		추정과 실제 가격 변화 사이의 차이도 함께 확대된다.\r
+	</p>\r
+\r
+	<p>\r
+		결국 ‘직선적 근사’인 듀레이션에 반해 볼록성은 이면에 존재하는 실제 곡선\r
+		형태의 움직임을 반영해 그 추정이 어떻게 달라지는지를 보여준다. 따라서\r
+		듀레이션으로 채권 가격의 방향과 크기를 추산한 후에 볼록성을 통해 그 오차를\r
+		보정함으로써 보다 현실에 가까운 가격 변화를 파악할 수 있다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/investment/5/convexity.png"\r
+			alt="볼록성 그래프"\r
+			width="400"\r
+		/>\r
+		<figcaption></figcaption>\r
+	</figure>\r
+\r
+	<h3 class="post-point">왜 듀레이션이 필요할까?</h3>\r
+\r
+	<p>\r
+		이렇듯 듀레이션은 직접 계산한 값과 비교하면 약간의 오차가 존재함에도\r
+		불구하고, 채권 투자에서 필수적인 지표로 활용되는데 그 이유는 다음과 같다.\r
+	</p>\r
+\r
+	<p>첫째, 듀레이션은 현재 금리 수준에서의 '기울기'를 의미한다.</p>\r
+\r
+	<p>\r
+		그리고 이 기울기 값을 활용하면 시장금리가 0.1% 변하든지 0.5% 변하든지 곱셈\r
+		한 번으로 채권 가격 향방을 즉시 추산할 수 있다. 엄밀한 정답보다는 실시간\r
+		대응을 위한 기동성에 최적화된 도구로 쓰인다.\r
+	</p>\r
+\r
+	<p>둘째, 포트폴리오 차원의 통합 관리가 가능하다.</p>\r
+\r
+	<p>\r
+		보유한 수십 가지 채권 가격을 금리 변동 시마다 일일이 재계산하는 것은\r
+		불가능에 가깝다. 하지만 각 채권의 듀레이션을 비중별로 합산한 '포트폴리오\r
+		듀레이션'을 구해두면, 시장 금리가 출렁일 때 내 전체 자산이 입을 타격이나\r
+		수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.\r
+	</p>\r
+</div>\r
+`,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
+	<meta name="post-id" content="2">\r
+	<meta name="post-title" content="청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결">\r
+  <meta name="post-publishedAt" content="2026-03-24T21:58">\r
+  <meta name="post-tags" content="헤밍웨이, 노인과 바다">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		몇십 분째 프로그래밍 작업에 진전이 없었다. 나는 인공지능이 제시한 간단한\r
+		해답을 이해하지 못했다. 평소와 다르게 복도 문 여닫는 소음도 날카로운\r
+		파편처럼 날아와 박혔다. 점점 더 신경은 예민하게 반응했다. 마침내 나는\r
+		논리적인 생각을 조금도 이어나갈 수 없는 지경에 이르렀다. 나는 내 안의\r
+		회복탄력성이 완전히 무너졌음을 깨달았다. 왜 이렇게 지친 걸까? 내 일련의\r
+		노력들이 오랜기간 성과를 내지 못했고, 그래서 보상을 받지 못해서라는 생각이\r
+		들었다. 저녁에 집에 돌아와 헤밍웨이의 《노인과 바다》를 꺼냈다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/culture/2/book.jpg"\r
+			alt="노인과 바다"\r
+			width="200"\r
+		/>\r
+		<figcaption>출처: 민음사</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		소설 속 노인, 산티아고가 처한 현실은 오랜 실패가 쌓인 결과처럼 보인다.\r
+		조업이 끝나고 밀가루 부대로 기워진 돛을 펼친 조각배 하나가 항구에 도착하면,\r
+		그것이 산티아고의 배다. 동료 어부들에게서 홀로 떨어져 고기잡이를 하는\r
+		산티아고는 지난 84일 동안 단 한 마리의 고기도 낚지 못했다. 산티아고는 운이\r
+		없는 사람이라 불렸고, 놀림과 동정을 샀다. 양성 피부암 반점으로 덮인 깡마른\r
+		몸을 이끌고 도착한 판잣집에는 마땅히 먹을 음식조차 없었다.\r
+	</p>\r
+\r
+	<p>\r
+		지난한 실패가 일상을 잠식할 때도 산티아고의 중심은 흔들리지 않았다. 그는\r
+		자신이 정확히 미끼를 드리울 수 있음을 알았고, 운은 단지 아직 찾아오지 않았을\r
+		뿐이라 믿었다. 그에게 정말 중요한 것은 운 그 자체가 아니라, 마침내 기회가\r
+		찾아왔을 때 그것을 낚아챌 만반의 준비를 갖추는 일이었다. 84일째 빈손으로\r
+		돌아온 저녁에도 산티아고가 묵묵히 어구를 나르며 어부로서의 정체성을 지켜낸\r
+		이유가 여기에 있다. 이러한 내면의 단단함은 다음날 새벽 조업을 나가기 전,\r
+		소년 마놀린과 커피를 마시며 건넨 '오늘은 자신감이 생긴다'라는 말에 무게를\r
+		더한다. 이는 대책 없는 낙관주의자의 헛된 희망이 아니라, 자신이 할 수 있는\r
+		모든 준비를 마친 이만이 내뱉을 수 있는 철인(哲人)의 선언에 가깝다.\r
+	</p>\r
+\r
+	<p>\r
+		스토아 철학자 에픽테토스의 사유를 옮긴 '엥케이리디온' 1장 1절은 이렇게 시작한다.\r
+	</p>\r
+\r
+	<p class="post-quotation">\r
+		"존재하는 것들 가운데 어떤 것들은 우리에게 달려 있는 것들이고 다른 어떤\r
+		것들은 우리에게 달려 있는 것들이 아니다."\r
+	</p>\r
+\r
+	<p>\r
+		현대 실천 철학에서 '통제의 이분법'이라 일컫는 이 사상은 스토아 학파의 중추를\r
+		이룬다. 스토아 철학은 어떤 것이 가치가 있으려면 그것이 언제나 나를 행복하게\r
+		해줄 수 있어야 한다고 가르친다. 그들의 관점에서 보자면 재물이나 명예는\r
+		있으면 좋지만 언제든 나를 타락시키거나 혼란에 빠뜨릴 수 있기 때문에\r
+		'무관심사', 즉 가치중립적인 영역에 속했다. 에픽테토스는 통제할 수 없는\r
+		사건을 마주했을 때, 그것이 우리에게 달려 있지 않은 것들에 관한 것이라면,\r
+		'그것은 나에게 아무것도 아니다'라는 말을 할 수 있도록 준비하라고 훈련시킨다.\r
+		아무것도 아닌 것은 무가치한 것이고, 우리는 무가치한 것에 상처 입지 않는다.\r
+		우리는 무가치한 것에 패배할 수 없다.\r
+	</p>\r
+\r
+	<p>\r
+		이 철학적 사유는 산티아고의 사투 속에 선명히 녹아있다. 85일째 정오 무렵\r
+		찾아온 거대한 청새치는 그가 온 힘을 다해 쫓은 목표였으나 동시에 통제할 수\r
+		없는 운명이었다. 긴 투쟁 끝에 작살을 꽂아 그 거대한 놈을 배에 묶었을 때,\r
+		산티아고는 마침내 승리한 듯 보였다. 그러나 전리품을 챙겨 돌아오는 길, 작살에\r
+		찔려 바다로 흐른 청새치의 피 냄새를 맡은 상어 떼의 습격과 함께, 통제할 수\r
+		없는 거대한 운명 앞에 선 한 개인의 무력함이 가감 없이 드러난다.\r
+	</p>\r
+\r
+	<p>\r
+		상어 떼는 가차없는 현실이었다. 상어 떼들에 의해 청새치의 살점이 뜯겨나갈\r
+		때마다 산티아고는 깊은 절망을 느낀다. 생명력을 쥐어짜낸 노력이 무(無)로\r
+		돌아가는 과정은 잔인했다. 산티아고는 급기야 청새치를 잡은 것을 후회하기에\r
+		이른다. 그러나 바로 이 지점에서 산티아고는 위대해진다. 그는 일어난 사건을\r
+		원망하며 손을 놓아버리는 대신 지금 당장 할 수 있는 일에 집중한다. 산티아고는\r
+		상황을 수용하면서 그 안에서 자신에게 유리한 점을 찾아내 스스로를 설득했다.\r
+		그런 태도는 곧 의지의 회복으로 이어졌다. 그는 다시 일어서서 몽둥이를\r
+		휘두르고, 칼을 묶고, 남은 키를 휘두른다. 평소 패배감에 잠식되어 있는\r
+		인간에게서는 결코 기대할 수 없는 회복력이었다. 처참하게 파먹힌 청새치를 옆에\r
+		두고도 그는 마치 단 한 번도 패배한 적이 없는 사람처럼 행동한다. 이\r
+		절망스러운 투쟁 끝에 결국 고기를 모두 잃을 거라고 어렴풋 짐작하면서도 그는\r
+		지금 이 순간의 투쟁만은 온전히 자신의 통제 하에 있음을 알았다.\r
+	</p>\r
+\r
+	<p class="post-quotation">\r
+		"인간은 파멸당할 수는 있을지 몰라도 패배할 수는 없어."\r
+	</p>\r
+\r
+	<p>\r
+		항구로 돌아온 산티아고는 배에 단단히 붙들어 맨 청새치를 그대로 두고,\r
+		판잣집에서 깊은 잠에 빠진다. 그곳에 몰려든 사람들은 청새치를 보고 경탄했다.\r
+		가로등 불빛 아래 뾰족한 주둥이가 달린 시커먼 머리통으로부터 18피트에 달하는\r
+		거대한 백골이 드러나 있었다.\r
+	</p>\r
+\r
+	<p>\r
+		오늘 내가 심적으로 무너진 것은 내가 나의 청새치 백골들을, 패배의 흔적으로\r
+		바라보았기 때문이 아닐까. 판잣집에 누워 평온한 얼굴로 잠든 산티아고는\r
+		어땠을까? 스스로가 통제할 수 있는 것에만 집중했던, 자기효능감의 원천으로\r
+		바라보지 않았을까. 그렇게 믿고 싶다.\r
+	</p>\r
+</div>\r
+`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
+	<meta name="post-id" content="1">\r
+	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
+  <meta name="post-publishedAt" content="2026-03-23T19:41">\r
+  <meta name="post-tags" content="TypeScript">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를 들면,</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		type AppEvent = &quot;claimPromotionItem&quot;\r
+		type UserRole = &quot;admin&quot; | &quot;member&quot; | &quot;guest&quot;\r
+		type ServicePlan = &quot;premium&quot; | &quot;free&quot;\r
+	</code></pre>\r
+\r
+	<p>\r
+		이벤트, 역할, 플랜으로 상태를 나누고, 이벤트 발생 시 유저의 역할과 이용 중인\r
+		플랜에 따라 처리를 분기하기 위한 핸들러를 정의해서,\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		const handler = {\r
+			claimPromotionItem: {\r
+				admin: {\r
+					default: () =&gt; console.log(\`관리자 계정은 신청할 수 없습니다.\`),\r
+				},\r
+				member: {\r
+					premium: (postId: number) =&gt; console.log(\`프리미엄 회원 \${postId}번 상품 요청.\`),\r
+					free: (postId: number, reason: string) =&gt; console.log(\`일반 회원 \${postId}번 상품 요청. 사유: \${reason}\`),\r
+				},\r
+				guest: {\r
+					default: () =&gt; console.log(&quot;로그인 페이지로 이동&quot;),\r
+				},\r
+			}\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		handler["claimPromotionItem"]["member"]["free"](1, "더 좋은 서비스로 이동")\r
+		이런 식으로 쓰려고 하는 상황. 우선 실제 서비스에서 저렇게 하드코딩 할 일은 없고\r
+		참조로 가져오게 될 텐데,\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		function getRoleStatusAfterComplecatedLogic(): UserRole {\r
+			return &quot;member&quot;\r
+		}\r
+		function getPlanStatusWithReferenceLogic() : ServicePlan {\r
+			return &quot;premium&quot;\r
+		}\r
+\r
+		const r = getRoleStatusAfterComplecatedLogic ()\r
+		const p = getPlanStatusWithReferenceLogic ()\r
+		handler[&quot;claimPromotionItem&quot;][r][p](1, &quot;더 좋은 서비스로 이동&quot;)\r
+	</code></pre>\r
+\r
+	<p>그러다보면 타입스크립트가 에러를 던진다.</p>\r
+\r
+	<p>\r
+		Element implicitly has an 'any' type because expression of type 'string'\r
+		can't be used to index type '{ admin: { default: () => void; }; member: {\r
+		premium: (postId: number) => void; free: (postId: number, reason: string) =>\r
+		void; }; guest: { default: () => void; }; }'. No index signature with a\r
+		parameter of type 'string' was found on type '{ admin: { default: () =>\r
+		void; }; member: { premium: (postId: number) => void; free: (postId: number,\r
+		reason: string) => void; }; guest: { default: () => void; }; }'.\r
+	</p>\r
+\r
+	<p>\r
+		각 이벤트마다 모든 역할, 그리고 그 역할마다 또 모든 플랜을 모두 정의하면 저\r
+		에러는 사라지지만 당연히 그건 말도 안 된다. 필요한 것만 정의할 수 있어야\r
+		한다. 또 특정 이벤트는 특정 역할만 처리하거나 특정 역할만 다른 로직으로\r
+		처리하고 나머지 역할은 모두 같은 로직으로 처리하고 싶다. 일단 핸들러부터\r
+		타입을 명시해 보았다. 모든 타입이 아닌 필요한 것만 정의할 수 있도록 하는\r
+		방법으로 Partial을 사용하고 후에 공통로직을 위해 OR 연산으로 default를\r
+		넣었다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		type HandlerMap = {\r
+			[E in AppEvent]: Partial&lt;\r
+				Record&lt;\r
+					UserRole | "default",\r
+						Partial&lt;\r
+							Record&lt;ServicePlan | "default", (...args: any[]) =&gt; void | Promise&lt;void&gt;\r
+						&gt;\r
+					&gt;\r
+				&gt;\r
+			&gt;\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		여기서 [E in AppEvent]는 Mapped Type 문법인데, 기존의 타입을 순회하면서\r
+		새로운 객체 타입을 만들어내는 문법이다. AppEvent에 정의된 모든 문자열을 키로\r
+		강제하고 그 값으로 역할과 플랜에 따른 메서드 구조를 할당하고 있다.\r
+		여기까지만 하고 다시 핸들러에 마우스를 올려다 대면, Object is possibly\r
+		'undefined'로 에러가 바뀌었다. 핸들러에 핸들러맵으로 타입을 명시해주어야\r
+		한다. 다음으로 디스패치 메서드를 정의.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		async function dispatch(event: AppEvent, role: UserRole, plan: ServicePlan, ...args: any[]) {\r
+			const eventNode = handler[event]\r
+			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)\r
+\r
+			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]\r
+			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)\r
+\r
+			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]\r
+			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)\r
+\r
+			await hanlder(...args)\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		저런 식으로 이벤트-역할-플랜에 해당하는 경우가 없을 때를 처리해주면 에러를\r
+		없앨 수 있다. 사용자 입력을 받는 것이 아닌 프로그래머틱한 에러이므로\r
+		assert를 써서 크래시를 내버리자.\r
+	</p>\r
+\r
+	<pre><code>\r
+		dispatch(&quot;claimPromotionItem&quot;, r, p, 1, &quot;더 좋은 서비스로 이동&quot;)\r
+	</code></pre>\r
+\r
+	<p>\r
+		핸들러 대신 디스패치 메서드를 쓰면 이제 에러는 없는데, 핸들러 객체의 플랜이\r
+		프리미엄일 경우 인자가 postId 하나여야 함에도 불구하고 지금 reason까지 두\r
+		개를 보냈는데 인텔리센스가 잡아내지 못한다. args 타입까지 안전하게 만들어야\r
+		하는데.. 여기서부터 서서히 해낼 수 없을 것 같다는 의심이 들기 시작한다..\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		type handleEventWithArgs = {\r
+			claimPromotionItem: {\r
+				admin: {\r
+					default: []\r
+				},\r
+				member: {\r
+					premium: [postId: number],\r
+					free: [postId: number, reason: string],\r
+				},\r
+				guest: {\r
+					default: []\r
+				},\r
+			}\r
+		}\r
+	</code></pre>\r
+\r
+	<p>각 경우의 인자를 별도 타입으로 관리하고,</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		async function dispatch&lt;\r
+			E extends keyof handleEventWithArgs,\r
+			R extends keyof handleEventWithArgs[E] &amp; (UserRole | &quot;default&quot;),\r
+			P extends keyof handleEventWithArgs[E][R] &amp; (ServicePlan | &quot;default&quot;)\r
+		&gt;(\r
+			event: E,\r
+			role: R,\r
+			plan: P,\r
+			...args: handleEventWithArgs[E][R][P] extends any[]\r
+				? handleEventWithArgs[E][R][P]\r
+				: never\r
+		) {\r
+			const eventNode = handler[event]\r
+			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)\r
+\r
+			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]\r
+			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)\r
+\r
+			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]\r
+			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)\r
+\r
+			await hanlder(...args)\r
+		}\r
+	</code></pre>\r
+\r
+	<p>dispatch에 제네릭을 적용해 보았지만,</p>\r
+\r
+	<p>\r
+		Argument of type 'ServicePlan' is not assignable to parameter of type\r
+		'never'. Type '"premium"' is not assignable to type 'never'.\r
+	</p>\r
+\r
+	<p>\r
+		role과 plan이 런타임에 결정되는 넓은 타입(UserRole, ServicePlan)으로\r
+		추론되는 순간 제네릭 추론이 붕괴되어 args가 never로 떨어진다. :'(\r
+	</p>\r
+\r
+	<p>\r
+		결국 args는 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는\r
+		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
+	</p>\r
+</div>\r
+`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+	<meta name="post-id" content="3">\r
+	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
+  <meta name="post-publishedAt" content="2026-03-28T17:21">\r
+  <meta name="post-tags" content="TypeScript">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		나만의 컬러 피커 커스텀 엘리먼트를 만들었고, updateColor 발생 시 커스텀\r
+		이벤트를 디스패치하는 상황이었다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		class MyColorPicker extends HTMLElement {\r
+			constructor() {\r
+				super()\r
+			}\r
+\r
+			updateColor(color: string) {\r
+				this.dispatchEvent(new CustomEvent(&quot;update-color&quot;, {\r
+					detail: { color }\r
+				}));\r
+			}\r
+		}\r
+\r
+		customElements.define(&quot;my-color-picker&quot;, MyColorPicker);\r
+	</code></pre>\r
+\r
+	<p>\r
+		이를 등록한 이벤트 리스너에서 발생한 커스텀 이벤트 정보를 가져오고 싶다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		function main() {\r
+			const cp = document.createElement(&quot;my-color-picker&quot;) as MyColorPicker\r
+\r
+			cp.addEventListener(&quot;update-color&quot;, (e) => {\r
+				console.log(&quot;change color: &quot;, e.detail.color)\r
+			})\r
+\r
+			cp.updateColor(&quot;red&quot;)\r
+		}\r
+	</code></pre>\r
+\r
+	<p>Property 'detail' does not exist on type 'Event'. 에러 발생.</p>\r
+\r
+	<p>\r
+		TypeScript는 기본적으로 addEventListener에 들어오는 이벤트 객체를 가장\r
+		뿌리가 되는 Event 타입으로 간주한다. Event는 모든 이벤트의 조상으로 target,\r
+		type 같은 기본 속성만 있을 뿐, detail이란 속성은 없다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {\r
+			console.log(&quot;change color: &quot;, e.detail.color)\r
+		})\r
+	</code></pre>\r
+\r
+	<p>\r
+		그럼 저 e의 타입은 커스텀 이벤트가 되어야 맞고, 코드를 수정하면 detail에\r
+		그인 에러는 addEventListener에 그인다.\r
+	</p>\r
+\r
+	<p>\r
+		No overload matches this call. Overload 1 of 2, '(type: keyof\r
+		HTMLElementEventMap, listener: (this: HTMLElement, ev: Event | UIEvent |\r
+		AnimationEvent | PointerEvent | MouseEvent | ... 14 more ... | WheelEvent)\r
+		=&gt; any, options?: boolean | ... 1 more ... | undefined): void', gave the\r
+		following error. Argument of type '"update-color"' is not assignable to\r
+		parameter of type 'keyof HTMLElementEventMap'. Overload 2 of 2, '(type:\r
+		string, listener: EventListenerOrEventListenerObject, options?: boolean |\r
+		AddEventListenerOptions | undefined): void', gave the following error.\r
+		Argument of type '(e: CustomEvent) => void' is not assignable to parameter\r
+		of type 'EventListenerOrEventListenerObject'. Type '(e: CustomEvent) =>\r
+		void' is not assignable to type 'EventListener'. Types of parameters 'e' and\r
+		'evt' are incompatible. Type 'Event' is missing the following properties\r
+		from type 'CustomEvent&lt;any&gt;': detail, initCustomEvent\r
+	</p>\r
+\r
+	<p>\r
+		addEventListener는 첫 번째 인자인 type이 무엇인지에 따라 두 번째 인자인\r
+		listener 타입을 결정하는데, 'update-color'란 타입이 없어서 발생한다.\r
+		그러니까 기본 등록된 click, scroll를 기대하고 있는데 엉뚱한 것이 들어왔고 또\r
+		addEventListener의 두 번째 인자는 (e: Event) => void를 기대하는데 Event 대신\r
+		CustomEvent를 써버렸다. 이를 해결하기 위해서는 addEventListener 메서드를\r
+		오버로딩 해줘야 한다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		class BaseComponent&lt;T extends Record&lt;string, any&gt;&gt; extends HTMLElement {}\r
+	</code></pre>\r
+\r
+	<p>\r
+		다른 커스텀 컴포넌트들도 다 같이 적용되어야 할 테니 부모 클래스를 만들어\r
+		줬고, 저기 제네릭에는 이벤트를 정의해둔 인터페이스를 받으면 될 것 같다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		interface MyColorPickerCustomEvents {\r
+			&quot;update-color&quot;: { color: string }\r
+		}\r
+\r
+		class MyColorPicker extends BaseComponent&lt;MyColorPickerCustomEvents&gt; {}\r
+	</code></pre>\r
+\r
+	<p>\r
+		커스텀 이벤트 정보를 담은 인터페이스를 만들고, HTMLElement 대신 좀 전에 만든\r
+		부모 클래스를 확장하면서 만든 인터페이스를 등록한다. 그리고 첫 번째\r
+		오버로드, 이것의 목적은 우리가 선언한 커스텀 이벤트 타입을 등록해서\r
+		타입스크립트에게 알려준다.\r
+	</p>\r
+\r
+	<pre><code>\r
+		override addEventListener&lt;\r
+			K extends keyof (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })\r
+		&gt;(\r
+			type: K,\r
+			listener: (\r
+				this: this,\r
+				ev: (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })[K]\r
+			) =&gt; any,\r
+			options?: boolean | AddEventListenerOptions\r
+		): void;\r
+	</code></pre>\r
+\r
+	<p>[P in keyof T] 부터 보면, T는 우리가 보낸 인터페이스다.</p>\r
+\r
+	<p>\r
+		mapped types으로 그 인터페이스의 키를 하나씩 꺼내 P라는 변수를 사용해\r
+		키(update-color), CustomEvent&lt;{ color: string }&gt;를 값으로 묶어 새로운\r
+		객체를 만든다.\r
+	</p>\r
+\r
+	<p>\r
+		쉽게 T, { &quot;update-color&quot;: { color: string } }를 { &quot;update-color&quot;: CustomEvent&lt;{ color: string }&gt; }로 바꾼 것.\r
+	</p>\r
+\r
+	<p>\r
+		그렇게 우리가 등록한 인터페이스의 모든 키에 대해 CustomEvent를 기존 이벤트\r
+		HTMLElementEventMap과 합치고 거기서 key만 뽑아내 K를 만들어\r
+		addEventListener의 첫 인자로 보내준다.\r
+	</p>\r
+\r
+	<p>참고로 HTMLElementEventMap는</p>\r
+\r
+	<pre><code>\r
+		interface GlobalEventHandlersEventMap {\r
+			...\r
+			&quot;click&quot;: PointerEvent;\r
+			...\r
+		}\r
+	</code></pre>\r
+\r
+	<p>이런 기존 이벤트를 모은 인터페이스다.</p>\r
+\r
+	<p>\r
+		두 번째 인자 리스너의 첫 번재 인자를 this로 지정하여 this가 단순히\r
+		HTMLElement가 아닌 현재 클래스 MyColorPicker임을 보장해야 리스너 안에서 해당\r
+		클래스의 멤버에 안전하게 접근할 수 있다.\r
+	</p>\r
+\r
+	<p>\r
+		두 번째 인자 리스너의 두 번째 인자 ev는 기존 이벤트와 등록한 커스텀 이벤트를\r
+		합친 객체에 키 즉 K를 넣어서 이벤트 객체를 가져온다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {\r
+			console.log(&quot;change color: &quot;, e.detail.color)\r
+		})\r
+	</code></pre>\r
+\r
+	<p>\r
+		이렇게 update-color를 넣으면 그에 해당하는 값을 가져오게 되고 그 값은?\r
+		위에서 봤듯이 CustomEvent&lt;{ color: string }&gt;가 된다.\r
+	</p>\r
+\r
+	<p>\r
+		addEventListener의 세 번째 인자는 addEventListener 본래 코드 그대로\r
+		넣어준다.\r
+	</p>\r
+\r
+	<p>\r
+		두 번째 오버로드는 등록하지 않은 이벤트도 사용할 수 있도록 string으로\r
+		선언하는 건데 빼도 상관 없을 것 같다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		override addEventListener(\r
+			type: string,\r
+			listener: EventListenerOrEventListenerObject,\r
+			options?: boolean | AddEventListenerOptions\r
+		): void;\r
+	</code></pre>\r
+\r
+	<p>\r
+		그리고 세 번째는 타입스크립트 규칙에 의해 앞서 선언한 오버로드 모두를\r
+		수용하는 실제 구현을 써주는데 그냥 기존 addEventListener 호출을 래핑해주면\r
+		된다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		override addEventListener(\r
+			type: string,\r
+			listener: any,\r
+			options?: boolean | AddEventListenerOptions\r
+		): void {\r
+			super.addEventListener(type, listener, options);\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		이러면 이제 addEventListener를 사용하는 순간, 순서대로 먼저 커스텀 이벤트를\r
+		체크하고, 해당되지 않으면 다음 유연한 string으로 처리된다.\r
+		removeEventListener도 이와 같이 만들어주면 완성.\r
+	</p>\r
+\r
+	<p>\r
+		마지막으로 HTMLElementTagNameMap에 내 커스텀 엘리먼트를 추가한다. 추가하지\r
+		않으면 createElement로 커스텀 엘리먼트를 만들었을 때 타입을 HTMLElement로\r
+		추정하게 되는데, 거기엔 지금 만든 커스텀 오버로딩이 없다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		declare global {\r
+			interface HTMLElementTagNameMap {\r
+				&quot;my-color-picker&quot;: MyColorPicker;\r
+			}\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		이제 createElement로 생성 후 as MyColorPicker 같은 타입 단언을 하지 않아도\r
+		된다!\r
+	</p>\r
+\r
+	<p>\r
+		또 e의 정확한 타입은 CustomEvent&lt;MyColorPickerCustomEvents\r
+		['update-color]&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입\r
+		추론 시스템이 추론하게 내버려 두어야 e.detail까지 쳤을 때 color가 자동완성\r
+		된다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		function main() {\r
+			const cp = document.createElement("my-color-picker")\r
+\r
+			cp.addEventListener("update-color", (e) => {\r
+				console.log("change color: ", e.detail.color)\r
+			})\r
+\r
+			cp.updateColor("red")\r
+		}\r
+	</code></pre>\r
+</div>\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+	<meta name="post-id" content="6">\r
+	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
+  <meta name="post-publishedAt" content="2026-04-25T19:10">\r
+  <meta name="post-tags" content="주식, 케이프">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/investment/6/chart.png"\r
+			alt="케이프 차트"\r
+			width="400"\r
+		/>\r
+		<figcaption>출처: 네이버 증권</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		케이프는 실린더 라이너 한 가지 제품 생산에만 매진한다. 실린더 라이너는\r
+		대형엔진 기준 5~14개가 필요하며, 소모품으로 교환주기는 5 ~7년이다.\r
+	</p>\r
+\r
+	<p>\r
+		현재 국내 3대 엔진 빌더와 중국, 일본, 유럽 엔진 빌더에 신조선용 실린더\r
+		라이너를 공급하고 있고, HD현대마린솔루션를 통하여 세계 A/S시장에도 참여하고\r
+		있다. 최근 결산일 기준 신조선용 실린더 라이너 공급과 A/S 매출 비율은 약\r
+		2:1이다.\r
+	</p>\r
+\r
+	<p>사업보고서를 보면 확인하고 싶어지는 부분이 두 곳 있다.</p>\r
+\r
+	<p>\r
+		첫째는 24년도 케이프가 판매한 실린더 라이너는 전년 대비 약 11%(269개)\r
+		증가했는데, 내수가 9,875백만 원 증가한 것에 비해 전년 대비 달러 원 환율이 약\r
+		60원이나 높았음에도 수출은 12,133백만 원(약 54%!!) 감소한 부분인데, 케이프가\r
+		양산이 아닌 주문생산 방식을 채택하고 있기 때문에 단순히 당시 해외 주문이\r
+		줄었던 걸 수도 있고, 혹은 전략적으로 글로벌 시장을 지배하고 있는 현대중공업\r
+		그룹향 매출 비중을 늘린 것 같기도 한데, 이 부분은 조금 더 확인이 필요해\r
+		보인다. 현대중공업 그룹향 매출 비중은 2023년 34.2%에서 2024년 57.4%로 무려\r
+		23.2%p 폭등했고, 최근 결산일까지도 46.6%로 높게 유지되고 있다. 고객 집중도가\r
+		상승하는 것은 리스크 측면에서 좋지 않을 수 있지만 어쨌거나 현대중공업 그룹향\r
+		매출 비중 증가는 경쟁력이 부족한 것은 아니라는 방증.\r
+	</p>\r
+\r
+	<p>\r
+		둘째는 25년도 케이프가 판매한 실린더 라이너 개수가 1,856개로 전년 대비 약\r
+		32%(878개) 감소한 부분인데, 이는 순환주기에 따른 것으로 24년도 재고 소진 및\r
+		25년도 발주 정상화가 이루어졌다.\r
+	</p>\r
+\r
+	<p>\r
+		최근 결산일 별도 재무제표 기준 케이프의 멀티플은 8.51배다. 상장한 실린더\r
+		라이너 전문 업체가 있다면 비교해 보면 좋겠지만 마땅치가 않다. 아쉬운 대로\r
+		케이프가 속한 선박 기자재 섹터 중에서 비슷한 시가총액을 가진\r
+		인화정공(27.2배), 오리엔탈정공(30.03배), 현대힘스(29.55배)와 비교해 보면\r
+		케이프는 압도적으로 낮은 멀티플을 받고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		정확히는 선박 기자재 업체들이 좀 높은 멀티플을 받고 있지 않나... 싶지만\r
+		아무튼 같은 무리에서 혼자 소외된 상태. 게다가 비교를 위해 나열한 업체들은\r
+		선체 구조물이나 범용 의장품을 판매한다. 엔진 내부에서 피스톤 운동으로\r
+		발생하는 고온, 고압, 그리고 거친 마찰을 견뎌야 하는 실린더 라이너의 생산\r
+		난이도가 그 제품들보다 낮을 리 없다.\r
+	</p>\r
+\r
+	<p>\r
+		친환경 연료 엔진 도입의 가속화는 자명하다. 올해 검증이 본격화 되는\r
+		국제해사기구(IMO)의 5,000GT 이상 선박의 온실가스 배출량을 규제하는\r
+		탄소집약도지수(CII)는 도덕적 권고가 아니라 실질적 제재다. 이제 실린더\r
+		라이너는 친환경 엔진 안에서 더욱 높은 온도와 압력 그리고 부식성을 견뎌야\r
+		하므로 기술적 진입장벽은 더욱 견고해질 예정이다.\r
+	</p>\r
+\r
+	<p>\r
+		높은 시장 지배력에도 케이프가 낮게 평가하는 이유는, 삼성전자가\r
+		SK하이닉스보다 높은 멀티플을 받는 이유와 마찬가지로 사업 부문이 다각화되어\r
+		있지 않다는 점 때문일까? 어쨌든 온전히 납득하기 힘든 이 상황을 시장은 조금씩\r
+		해소하고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		24년도 종가 기준 현재까지 주가 추이를 보면 인화정공(약 73% 상승),\r
+		오리엔탈정공(약 60% 상승), 현대힘스(약 57% 상승) 대비 케이프(약 188% 상승)는\r
+		약 2.5~3.3배 높은 상승률을 기록했다. 최근 한동안 하락횡보 하던 케이프는\r
+		6거래일 전, 다시 상승하기 시작해 26년 4월 17일 기준 현재 약 48% 상승했다.\r
+		섹터 내 아웃퍼폼은 여전히 유효했다.\r
+	</p>\r
+\r
+	<p>\r
+		시장이 불균형을 어느 선까지 해소할지는 모르겠지만, 높은 주가 상승을 단순\r
+		변동성이 아닌 밸류에이션 재평가로 볼 근거가 있고 최근 가격 추이가 이를\r
+		증명하므로, 단기 급등 국면에서 차익실현 후 다시 기회를 노리는 전략보다는\r
+		가만히 보유하는 전략이 매력적으로 느껴진다.\r
+	</p>\r
+\r
+	<p>\r
+		지금 시장 자체가 최고점이라 추가적인 탄력 둔화가 우려되기도 하지만, 케이프는\r
+		25년도 기준 배당수익률이 7.04%에 달하는 주주친화적인 기업이다. 현 시점\r
+		기준으로도 약 5% 정도. 국내 조선 3사가 약 3.5년~4년 치 수주량을 확보한\r
+		상태로 실적은 당분간 견조할 것이니 시장의 열기가 식더라도 '무너지지만\r
+		않는다면', 높은 배당 매력에 기대어 일정 수준의 조정까지도 감내할 수 있는\r
+		구간으로 판단.\r
+	</p>\r
+\r
+	<p class="post-ref">\r
+		* 참고<br />\r
+		케이프 사업보고서(2023~2025)<br />\r
+		네이버 증권\r
+	</p>\r
+</div>\r
+`;function rr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-publishedAt" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.publishedAt=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function ir(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/development/1/index.html":Zn,"../content/essays/development/3/index.html":$n,"../content/essays/investment/6/index.html":tr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=rr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.publishedAt).getTime()-new Date(e.publishedAt).getTime())})}),t}var ar={common:{itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};function or(e){e.innerHTML=ar.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
 					<h2 class="category-title">${sr()} ${e.displayName}</h2>
 					<ul class="board-list">
@@ -24,4 +1160,4 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		<polyline points="6 9 12 15 18 9"/>
 	</svg>`}function cr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function lr(e,t,n){or(t)}function ur(){let e=rr(),t=document.querySelector(`main`),n=document.getElementById(`main-nav`),r=document.getElementById(`main-section`),i=r.querySelector(`#main-nav-toggle`),a=r.querySelector(`.content`);i.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),lr(e,n,a)}function dr(){Hn.highlightAll(),ur()}function fr(){dr()}document.addEventListener(`DOMContentLoaded`,fr);
+	</svg>`}function lr(e,t,n){or(t)}function ur(){let e=ir(),t=document.querySelector(`main`),n=document.getElementById(`main-nav`),r=document.getElementById(`main-section`),i=r.querySelector(`#main-nav-toggle`),a=r.querySelector(`.content`);i.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),lr(e,n,a)}function dr(){Hn.highlightAll(),ur()}function fr(){dr()}document.addEventListener(`DOMContentLoaded`,fr);
