@@ -20,8 +20,8 @@
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-_VWWU3cQ.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-rAGL2qP9.css">
+		<script type="module" crossorigin src="/assets/index-CeqmD-OT.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-Dl5YB4hs.css">
 	
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tarenx.com/archives/development/4/" />
@@ -89,14 +89,7 @@
       <hr />
 
 			<div class="post-body">
-        <div class="post-meta">
-	<meta name="post-id" content="4">
-	<meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기">
-  <meta name="post-publishedAt" content="2026-03-28T19:23">
-  <meta name="post-tags" content="Linux, CAN">
-</div>
-
-<div class="post-content">
+        <div class="post-content">
 	<h2 class="post-tab">1. 의존성 설치.</h2>
 	<div>
 		sudo apt-get update<br />
@@ -140,19 +133,15 @@
 
 	<h2 class="post-tab">6. .rules 파일 생성.</h2>
 	<div>
-		echo KERNEL=="ttyACM*",ATTRS{serial}=="207B30705330",MODE:="0777",SYMLINK+="can0" >> can0.rules<br />
-		cat ./can0.rules
+		제조사 기준 (교체 대응형) <br /><br />
+		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="117e", SYMLINK+="can0", MODE:="0777" > can0.rules<br />
 	</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_rules.png"
-			alt="rules 출력 예시"
-			width="600"
-		/>
-		<figcaption></figcaption>
-	</figure>
+	<div>
+		시리얼 기준 (장치 특정형) <br /><br />
+		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{serial}=="207B30705330", SYMLINK+="can0", MODE:="0777" > can0.rules<br />
+	</div>
 
-	<h2 class="post-tab">7. .rules 파일 이동.</h2>
+	<h2 class="post-tab">7. .rules 파일 복사.</h2>
 	<div>sudo cp can0.rules /etc/udev/rules.d/</div>
 
 	<h2 class="post-tab">8. 적용.</h2>
@@ -187,7 +176,6 @@
 		<figcaption></figcaption>
 	</figure>
 </div>
-
       </div>
     </article>
   

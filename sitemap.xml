@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tarenx.com/</loc>
+    
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/development/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/growth/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/investment/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/culture/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/development/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/investment/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/investment/6/</loc>
+    <lastmod>2026-04-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/growth/7/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/investment/5/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/archives/development/4/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/development/3/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/culture/2/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/essays/development/1/</loc>
+    <lastmod>2026-03-23</lastmod>
+    <priority>0.6</priority>
+  </url>
+</urlset>
