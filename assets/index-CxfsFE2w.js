@@ -104,7 +104,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 `,Gn=s({default:()=>Kn}),Kn=`<div class="post-meta">\r
 	<meta name="post-id" content="7">\r
 	<meta name="post-title" content="천재 광고기획자의 아이디어 생산 5단계 정리">\r
-  <meta name="post-published" content="2026-04-22T23:28">\r
+  <meta name="post-published" content="2026-04-26T23:28">\r
   <meta name="post-tags" content="아이디어, 제임스 웹 영, 60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법">\r
 </div>\r
 \r
@@ -200,14 +200,14 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 \r
 	<h3>책에서 본 글 한 토막이 마음에 들어서 마지막으로 덧붙임</h3>\r
 \r
-	<p>\r
+	<blockquote>\r
 		"예컨대 죽어도 베개 밑에 제인 오스틴의 소설을 넣어둘 일은 없다고 생각한다면,\r
 		그 이상 생각할 필요는 없다. 그 경우에는 19세기 영국의 지주계급이 ‘상업’에\r
 		종사하는 사람들을 얼마나 비웃었는지, 그리고 지금 이 나라 허드슨강 유역에\r
 		사는 사람들이 왜 똑같은 짓을 하고 있는지 절대로 이해하지 못할 것이다.\r
 		그렇다면 언젠가 ‘부유층’을 위한 ‘속물근성에 호소하는’ 아주 효과적인 광고를\r
 		만들 방법은 없어질 수도 있다."\r
-	</p>\r
+	</blockquote>\r
 </div>\r
 `,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">\r
 	<meta name="post-id" content="5">\r
@@ -264,14 +264,14 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		100원을 각각 현재가치로 할인해서 보상하면 된다. 할인율 공식은 아래와 같다.\r
 	</p>\r
 \r
-	<p class="post-note">\r
+	<div class="post-note">\r
 		PV = FV ÷ (1 + r)ⁿ <br /><br />\r
 \r
 		PV(Present Value): 현재가치 <br />\r
 		FV(Future Value): 미래가치 <br />\r
 		r(Rate): 할인율 <br />\r
 		n(number of periods): 횟수\r
-	</p>\r
+	</div>\r
 \r
 	<div>\r
 		1년 후의 100원 = 100 ÷ (1 + 0.09)¹ = 현재 약 91.74원 <br />\r
@@ -334,7 +334,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		할인해 보다 정확한 듀레이션을 구하게 된다.\r
 	</p>\r
 \r
-	<p class="post-note">(0.06 × 1) + (0.06 × 2) + (0.87 × 3) = 2.79</p>\r
+	<div class="post-note">(0.06 × 1) + (0.06 × 2) + (0.87 × 3) = 2.79</div>\r
 \r
 	<p>\r
 		위에서 정의했듯이 듀레이션은 원리합계를 회수하는 데 걸리는 평균 시간이면서\r
@@ -349,13 +349,13 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		그 돈을 현재가치로 할인해서 계산해야 한다.\r
 	</p>\r
 \r
-	<p class="post-note">\r
+	<div class="post-note">\r
 		1년 후의 800원 = 800 ÷ (1 + 0.08)¹ = 740.74원(비중: 0.074). <br />\r
 		2년 후의 800원 = 800 ÷ (1 + 0.08)² = 685.87원(비중: 0.069). <br />\r
 		3년 후의 10,800원 = 10,800 ÷ (1 + 0.08)³ = 8,573.39원(비중: 0.857). <br /><br />\r
 \r
 		(0.074 × 1) + (0.069 × 2) + (0.857 × 3) = 2.783\r
-	</p>\r
+	</div>\r
 \r
 	<p>\r
 		이렇게 현재가치로 가중해 계산한 평균 회수 기간을 맥컬리 듀레이션이라 하며,\r
@@ -558,9 +558,9 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		지금 이 순간의 투쟁만은 온전히 자신의 통제 하에 있음을 알았다.\r
 	</p>\r
 \r
-	<p class="post-quotation">\r
+	<blockquote class="post-quotation">\r
 		"인간은 파멸당할 수는 있을지 몰라도 패배할 수는 없어."\r
-	</p>\r
+	</blockquote>\r
 \r
 	<p>\r
 		항구로 돌아온 산티아고는 배에 단단히 붙들어 맨 청새치를 그대로 두고,\r
@@ -577,6 +577,61 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</p>\r
 </div>\r
 `,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
+	<meta name="post-id" content="8" />\r
+	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
+	<meta name="post-published" content="2026-05-09T21:15" />\r
+	<meta name="post-tags" content="마이 네임" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		마치 신에게 소명이라도 받은 것처럼 모든 것을 뒤로한 채 하나의 목적만을 향해\r
+		달려가는 이들이 있다. 하나의 목적 아래 삶의 모든 질서가 재편되어 정돈된\r
+		상태, 그 압축된 간결함을 나는 열망했다. 그 목적이, 가진 파괴력만큼 대단해야\r
+		한다고 따로 결론 내린 적은 없다. 그런데 돌이켜보면 나는 무의식중에 그렇게\r
+		정리했던 것 같다. 삶의 의미에 대한 내 집착은 아주 오랜기간 나를 괴롭혔다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/culture/8/poster.jpg"\r
+			alt="마이 네임"\r
+			width="2000"\r
+		/>\r
+		<figcaption>출처: 넷플릭스</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		17번째 생일날 저녁, 지우(한소희)는 즉석 식품 두어 개로 차려진 상 앞에\r
+		혼자였다. 그 날은 그래도 생일이라고 평소 어디서 뭘 하는지 연락 한 번 되지\r
+		않던 아빠, 동훈(윤경호)에게서 전화가 왔다. 지우는 '조폭 딸'로 소문난 자신이\r
+		겪고 있는 일에 대해 말하게 되고, 이에 동훈은 위험을 무릅쓰고 일부러 집을\r
+		찾아온다. 그런데 문을 여는 사이 나타난 의문의 괴한과 대치하게 되고, 인기척에\r
+		현관으로 나온 지우는 아빠 동훈의 죽음을 눈앞에서 본다. 그렇게 지우의 삶에는\r
+		질서가 찾아온다. 복수라는 대의 아래 모든 것들은 뒤로 밀려났다. 이름, 미래\r
+		그리고 목숨까지.\r
+	</p>\r
+\r
+	<blockquote class="post-quotation">\r
+		"아빠 죽인 새끼 잡겠다고 미래도 이름도 다 버렸어. 그 새끼 못 죽이면 내\r
+		인생에 의미 같은 거 없어."\r
+	</blockquote>\r
+\r
+	<p>\r
+		지우의 절규가 슬프게 들렸던 건, 자신의 모든 것을 희생해서 이루고자 하는 그\r
+		일이, 결국 누구도 구원하지 못할 거라는 사실 때문이었다. 그러니까 그것은\r
+		사회적으로 아무 쓸모가 없는 일이었다.\r
+	</p>\r
+\r
+	<p>\r
+		그런데 나는 바로 그 무가치함에 완전히 매료되었다. 나는, 나도 아무런 의미가\r
+		없는 삶을 살고 싶다는 생각을 했다. 남이 보기에 아무 의미가 없지만, 나에게는\r
+		세상 전부인 삶을 살고 싶다는 생각을 했다. 무가치함의 아름다움이 삶의 의미에\r
+		대한 집착으로부터 나를 해방시킨 순간이었다. 나는 그때 처음으로, 삶이 반드시\r
+		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
+	</p>\r
+</div>\r
+`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -772,7 +827,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -1028,7 +1083,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		}\r
 	</code></pre>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1038,7 +1093,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 <div class="post-content">\r
 	<figure>\r
 		<img\r
-			src="/assets/essays/investment/6/chart.png"\r
+			src="/assets/journals/investment/6/chart.png"\r
 			alt="케이프 차트"\r
 			width="400"\r
 		/>\r
@@ -1139,21 +1194,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`;function rr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-published" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.published=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function ir(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/development/1/index.html":Zn,"../content/essays/development/3/index.html":$n,"../content/essays/investment/6/index.html":tr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=rr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var ar={common:{itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};function or(e){e.innerHTML=ar.navigation.map(e=>`
+`;function ar(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-published" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.published=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function or(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/journals/development/1/index.html":$n,"../content/journals/development/3/index.html":tr,"../content/journals/investment/6/index.html":rr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ar(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var sr={common:{itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};function cr(e){e.innerHTML=sr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${sr()} ${e.displayName}</h2>
+					<h2 class="category-title">${lr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${ar.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${cr()} ${t.displayName}
+								<a href="${sr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${ur()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function sr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function lr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function cr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ur(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function lr(e,t,n){or(t)}function ur(){let e=ir(),t=document.querySelector(`main`),n=document.getElementById(`main-nav`),r=document.getElementById(`main-section`),i=r.querySelector(`#main-nav-toggle`),a=r.querySelector(`.content`);i.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),lr(e,n,a)}function dr(){Hn.highlightAll(),ur()}function fr(){dr()}document.addEventListener(`DOMContentLoaded`,fr);
+	</svg>`}function dr(e,t,n,r){cr(n)}function fr(){let e=or(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),dr(e,n,i,o)}function pr(){Hn.highlightAll(),fr()}function mr(){pr()}document.addEventListener(`DOMContentLoaded`,mr);
