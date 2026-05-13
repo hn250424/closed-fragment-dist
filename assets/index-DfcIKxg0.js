@@ -1198,7 +1198,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
-	<meta name="post-tags" content="주식, AI" />\r
+	<meta name="post-tags" content="AI, 투자" />\r
 </div>\r
 \r
 <div class="post-content">\r
