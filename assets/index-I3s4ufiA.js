@@ -1194,21 +1194,107 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`;function ar(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-published" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.published=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function or(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/journals/development/1/index.html":$n,"../content/journals/development/3/index.html":tr,"../content/journals/investment/6/index.html":rr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ar(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var sr={common:{itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};function cr(e){e.innerHTML=sr.navigation.map(e=>`
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+	<meta name="post-id" content="9" />\r
+	<meta name="post-title" content="AI 투자 단상" />\r
+	<meta name="post-published" content="2026-05-11T19:50" />\r
+	<meta name="post-tags" content="주식, AI" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		2026년 1분기 글로벌 클라우드 3사(구글, 마이크로소프트, 아마존)는 전년 동기\r
+		대비 capex를 두 배가량 늘렸다. 1분기 어닝콜에서 구글 CEO Sundar Pichai는\r
+		AI가 검색 사용량 증가를 주도하고 있다고 말했다. 주변을 봐도 AI 사용은 이미\r
+		일상적이다. 그러나 AI가 일상에 자리 잡은 지금까지도 산업의 근본 구조는\r
+		이전과 크게 달라지지 않았다. McKinsey(2025)가 실시한 설문에 따르면 응답자의\r
+		대부분은 소속 조직에서 AI를 사용하고 있지만 기업 수준의 가치를 창출하는 데\r
+		있어서는 여전히 초기 단계에 머물러 있는 것으로 판단했다.\r
+	</p>\r
+\r
+	<p>\r
+		이유를 살펴보면 기술 발전이 아직 무르익지 않아서가 정답일 것 같다. 혁신은\r
+		새로운 시장을 만든다. 자동차는 교외 생활과 관광, 물류 산업을 만들었고,\r
+		인터넷은 전자상거래와 SNS, 스트리밍 서비스를 만들었다. 그리고 스마트폰은 앱\r
+		생태계 자체를 만들었다. 앞선 혁신들이 물리적 인프라나 네트워크 자체를 바꿨던\r
+		것과 달리, AI는 아직 기존 인프라 위에서 작동하는 수준에 머물러 있다. 또한\r
+		강점을 보였던 정보처리 영역에서도 여전히 검증과 신뢰 문제를 안고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		현재 시장은 AI 수요 확산과 AGI에 대한 기대, 그 둘 사이 어딘가를 바라보고\r
+		있는 것 같다. 기대에 맞춰 질적 도약이 필요하다는 점은 분명하다.\r
+	</p>\r
+\r
+	<p>\r
+		현재 LLM을 가능하게 한 스케일링 법칙은, Epoch AI의 분석에 따르면 사전학습\r
+		단계에서 그 효과가 둔화되는 추세이며, 업계의 무게중심은 모델 크기 확장보다\r
+		추론 최적화와 데이터 품질 개선 쪽으로 이동하고 있다. 또한 DeepSeek 출시\r
+		이후를 보면 경량화를 통해 오히려 스케일을 낮추면서 효율화를 꾀하는 흐름이\r
+		나타나고 있다. 기술의 질적 도약에 있어 스케일링 법칙에 집중하지 않는다면\r
+		아키텍처 수준에서의 근본적인 전환이 필요하지만 지금 모델들은 여전히\r
+		트랜스포머 구조 위에 놓여 있다.\r
+	</p>\r
+\r
+	<p>\r
+		기술 발전 방향이 혁신보다 효율화에 집중되고 있는 상황에서, 수익 구조는\r
+		개선되고 있는 것으로 보인다. Stanford HAI의 2025 AI Index Report에 따르면\r
+		GPT-3.5 수준의 성능을 달성하는 추론 비용이 2022년 11월부터 2024년 10월 사이\r
+		280배 이상 하락했다. 또한 주요 AI 기업들은 정액제 중심의 가격 구조를 사용량\r
+		기반으로 조정하기 시작했다. 헤비유저에 대한 사용 제한이나 추가 과금을\r
+		도입하면서 비용을 수요에 맞게 전가하는 방향으로 움직이고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		결국 기술의 질적 도약을 확신할 수 없지만 비용 구조가 개선될 여지가 있다는\r
+		사실은, AI가 인터넷 초기처럼 단기간에 모든 산업을 재편하기보다 기존 산업에\r
+		점진적으로 스며드는 형태로 성장할 가능성을 시사한다. 그렇다면 폭발적\r
+		성장보다 점진적 안착에 가까운 경로를 예상하고 시장에 대응하는 것이\r
+		지금으로선 합리적이지 않을까.\r
+	</p>\r
+\r
+	<p>\r
+		사실 잘 모르겠다. 치솟는 주가를 보면.\r
+	</p>\r
+\r
+	<p class="post-ref">\r
+		* 참고<br />\r
+		Alphabet Inc. Form 10-Q (Q1 2026)<br />\r
+		Microsoft Corporation Form 10-Q (Q1 2026)<br />\r
+		Amazon.com, Inc. Form 10-Q (Q1 2026)<br />\r
+\r
+		Stanford HAI,\r
+		<a href="https://hai.stanford.edu/ai-index/2025-ai-index-report"\r
+			>2025 AI Index Report</a\r
+		><br />\r
+\r
+		McKinsey Global Institute,\r
+		<a\r
+			href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"\r
+			>The State of AI</a\r
+		><br />\r
+\r
+		EPOCH AI,\r
+		<a href="https://epoch.ai/blog/scaling-laws-literature-review"\r
+			>Scaling Laws Literature Review</a\r
+		>\r
+	</p>\r
+</div>\r
+`;function sr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-published" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.published=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function cr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/journals/development/1/index.html":$n,"../content/journals/development/3/index.html":tr,"../content/journals/investment/6/index.html":rr,"../content/journals/investment/9/index.html":ar}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=sr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var lr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};lr.common?.siteName;function ur(e){e.innerHTML=lr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${lr()} ${e.displayName}</h2>
+					<h2 class="category-title">${dr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${sr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${ur()} ${t.displayName}
+								<a href="${lr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${fr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function lr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function dr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function ur(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function fr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function dr(e,t,n,r){cr(n)}function fr(){let e=or(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),dr(e,n,i,o)}function pr(){Hn.highlightAll(),fr()}function mr(){pr()}document.addEventListener(`DOMContentLoaded`,mr);
+	</svg>`}function pr(e,t,n,r){ur(n)}function mr(){let e=cr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),pr(e,n,i,o)}function hr(){Hn.highlightAll(),mr()}function gr(){hr()}document.addEventListener(`DOMContentLoaded`,gr);
