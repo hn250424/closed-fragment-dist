@@ -466,10 +466,13 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</p>\r
 </div>\r
 `,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
-	<meta name="post-id" content="2">\r
-	<meta name="post-title" content="청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결">\r
-  <meta name="post-published" content="2026-03-24T21:58">\r
-  <meta name="post-tags" content="헤밍웨이, 노인과 바다">\r
+	<meta name="post-id" content="2" />\r
+	<meta\r
+		name="post-title"\r
+		content="청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결"\r
+	/>\r
+	<meta name="post-published" content="2026-03-24T21:58" />\r
+	<meta name="post-tags" content="헤밍웨이, 노인과 바다" />\r
 </div>\r
 \r
 <div class="post-content">\r
@@ -510,11 +513,14 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		이유가 여기에 있다. 이러한 내면의 단단함은 다음날 새벽 조업을 나가기 전,\r
 		소년 마놀린과 커피를 마시며 건넨 '오늘은 자신감이 생긴다'라는 말에 무게를\r
 		더한다. 이는 대책 없는 낙관주의자의 헛된 희망이 아니라, 자신이 할 수 있는\r
-		모든 준비를 마친 이만이 내뱉을 수 있는 철인(哲人)의 선언에 가깝다.\r
+		모든 준비를 마친 이만이 내뱉을 수 있는 철인<span class="post-sub"\r
+			>(哲人)</span\r
+		>의 선언에 가깝다.\r
 	</p>\r
 \r
 	<p>\r
-		스토아 철학자 에픽테토스의 사유를 옮긴 '엥케이리디온' 1장 1절은 이렇게 시작한다.\r
+		스토아 철학자 에픽테토스의 사유를 옮긴 '엥케이리디온' 1장 1절은 이렇게\r
+		시작한다.\r
 	</p>\r
 \r
 	<p class="post-quotation">\r
@@ -602,14 +608,14 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</figure>\r
 \r
 	<p>\r
-		17번째 생일날 저녁, 지우(한소희)는 즉석 식품 두어 개로 차려진 상 앞에\r
-		혼자였다. 그 날은 그래도 생일이라고 평소 어디서 뭘 하는지 연락 한 번 되지\r
-		않던 아빠, 동훈(윤경호)에게서 전화가 왔다. 지우는 '조폭 딸'로 소문난 자신이\r
-		겪고 있는 일에 대해 말하게 되고, 이에 동훈은 위험을 무릅쓰고 일부러 집을\r
-		찾아온다. 그런데 문을 여는 사이 나타난 의문의 괴한과 대치하게 되고, 인기척에\r
-		현관으로 나온 지우는 아빠 동훈의 죽음을 눈앞에서 본다. 그렇게 지우의 삶에는\r
-		질서가 찾아온다. 복수라는 대의 아래 모든 것들은 뒤로 밀려났다. 이름, 미래\r
-		그리고 목숨까지.\r
+		17번째 생일날 저녁, 지우<span class="post-sub">(한소희)</span>는 즉석 식품\r
+		두어 개로 차려진 상 앞에 혼자였다. 그 날은 그래도 생일이라고 평소 어디서 뭘\r
+		하는지 연락 한 번 되지 않던 아빠, 동훈<span class="post-sub">(윤경호)</span\r
+		>에게서 전화가 왔다. 지우는 '조폭 딸'로 소문난 자신이 겪고 있는 일에 대해\r
+		말하게 되고, 이에 동훈은 위험을 무릅쓰고 일부러 집을 찾아온다. 그런데 문을\r
+		여는 사이 나타난 의문의 괴한과 대치하게 되고, 인기척에 현관으로 나온 지우는\r
+		아빠 동훈의 죽음을 눈앞에서 본다. 그렇게 지우의 삶에는 질서가 찾아온다.\r
+		복수라는 대의 아래 모든 것들은 뒤로 밀려났다. 이름, 미래 그리고 목숨까지.\r
 	</p>\r
 \r
 	<blockquote class="post-quotation">\r
