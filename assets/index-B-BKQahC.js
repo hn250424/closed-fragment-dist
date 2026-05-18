@@ -638,6 +638,42 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</p>\r
 </div>\r
 `,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+	<meta name="post-id" content="0" />\r
+	<meta name="post-title" content="까만 우산" />\r
+	<meta name="post-published" content="2025-05-10T18:41" />\r
+	<meta name="post-tags" content="" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/daily/0/umbrella.jpg"\r
+			alt="까만 우산"\r
+			width="200"\r
+		/>\r
+	</figure>\r
+\r
+	<p>나는 우산을 자주 도둑 맞는다.</p>\r
+\r
+	<p>\r
+		우산을 찾으려고 우산꽂이를 뒤적이다 보면 왜 하필 내 우산이 도둑맞았는지 알게\r
+		된다. 우산꽂이에 남아있는 다른 우산들은 하나같이 안 예쁘다. 정확히는 어딘가\r
+		튄다. 색이 바랬거나 알록달록하다. 또는 없으면 좋았을 무늬가 있거나, 손잡이가\r
+		별로다. 이런 것들은 훔치기 싫기 이전에 훔치기 어렵다.\r
+	</p>\r
+\r
+	<p>\r
+		나는 미니멀한 까만 우산만 쓴다. 무난해서 예쁘다. 그리고 무난해서 훔치기도\r
+		좋다. 떳떳하지 못할 때는 튀지 않아야 하니까.\r
+	</p>\r
+\r
+	<p>\r
+		심리적 장벽을 만들어주기 위해 우산에 이름표를 달았다. 이름표는 간단히 풀어서\r
+		버릴 수 있는 끈에 허술하게 달렸지만, 이 이름표를 보고도 양심의 가책을 이겨낼\r
+		수 있는 사람은 많지 않겠지.\r
+	</p>\r
+</div>\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -833,7 +869,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -1089,7 +1125,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		}\r
 	</code></pre>\r
 </div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1200,7 +1236,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1286,21 +1322,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`;function sr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={},i=n.match(/<meta name="post-id" content="(.*?)"/i),a=n.match(/<meta name="post-title" content="(.*?)"/i),o=n.match(/<meta name="post-published" content="(.*?)"/i),s=n.match(/<meta name="post-tags" content="(.*?)"/i);return i&&(r.id=parseInt(i[1],10)),a&&(r.title=a[1]),o&&(r.published=o[1]),s&&(r.tags=s[1].split(`,`).map(e=>e.trim())),r}function cr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/journals/development/1/index.html":$n,"../content/journals/development/3/index.html":tr,"../content/journals/investment/6/index.html":rr,"../content/journals/investment/9/index.html":ar}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=sr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var lr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};lr.common?.siteName;function ur(e){e.innerHTML=lr.navigation.map(e=>`
+`;function lr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i.split(`,`).map(e=>e.trim());break}}}),r}function ur(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/essays/daily/0/index.html":$n,"../content/journals/development/1/index.html":tr,"../content/journals/development/3/index.html":rr,"../content/journals/investment/6/index.html":ar,"../content/journals/investment/9/index.html":sr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=lr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var dr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};dr.common?.siteName;function fr(e){e.innerHTML=dr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${dr()} ${e.displayName}</h2>
+					<h2 class="category-title">${pr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${lr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${fr()} ${t.displayName}
+								<a href="${dr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${mr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function dr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function pr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function fr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function mr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function pr(e,t,n,r){ur(n)}function mr(){let e=cr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),pr(e,n,i,o)}function hr(){Hn.highlightAll(),mr()}function gr(){hr()}document.addEventListener(`DOMContentLoaded`,gr);
+	</svg>`}function hr(e,t,n,r){fr(n)}function gr(){let e=ur(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),hr(e,n,i,o)}function _r(){Hn.highlightAll(),gr()}function vr(){_r()}document.addEventListener(`DOMContentLoaded`,vr);
