@@ -1126,6 +1126,74 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</code></pre>\r
 </div>\r
 `,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+	<meta name="post-id" content="10" />\r
+	<meta name="post-title" content="배당 9%의 속사정" />\r
+	<meta name="post-published" content="2026-05-25T15:28" />\r
+	<meta name="post-tags" content="주식, 흥국에프엔비" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/journals/investment/10/chart.png"\r
+			alt="흥국에프엔비 차트"\r
+			width="400"\r
+		/>\r
+		<figcaption>출처: 네이버 증권</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		26년 5월 12일 발표한 미국 소비자 물가가 3.8%로 뛰었다. 금리 인하가\r
+		기정사실인 줄 알았지만 이제는 방향을 가늠하기 어려워지고 있다. 미국 이란\r
+		전쟁의 흐름을 예측할 수 없는 상황에서 리스크를 대비해 하방이 닫힌 경기방어주\r
+		비중을 늘리고 싶다.\r
+	</p>\r
+\r
+	<p>\r
+		흥국에프엔비의 현금 배당수익률이 9.27%((최근 결산 보통주 수정 DPS / 전일자\r
+		보통주 수정 주가) × 100)까지 올라섰다. 흥국에프엔비는 카페 토탈 솔루션 ODM\r
+		기업으로 과일농축액, 스무디, 주스 등의 제조·판매를 주요 사업으로 영위하고\r
+		있다. 매출은 프랜차이즈 카페·레스토랑에서 발생하는 B2B 비중이 높으며, 이마트\r
+		및 BGF리테일과의 장기 공급 계약을 통해 리테일 채널도 병행하고 있다. 유통\r
+		다각화를 위해 향후 친환경 유기농 매장 및 고속도로 휴게소 등 특수경로\r
+		시장으로의 진출 또한 고려하고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		흥국에프엔비의 주력 상품인 과일농축액, 스무디, 과일·채소주스 등의 매출\r
+		상황을 보면(단위: 백만 원) 내수가 88,854(23년), 91,189(24년),\r
+		88,934(25년)으로 정체 중이지만 수출은 2,091(23년) 2,360(24년),\r
+		3,158(25년)으로 증가세에 있다. 전체 매출과 영업이익은 소폭 감소했다.\r
+	</p>\r
+\r
+	<p>\r
+		흥국에프엔비는 상장 이후 20% 이상 배당성향을 목표로 경영해온 주주친화적인\r
+		기업이다. 오너 지분이 50%에 육박하므로 높은 배당은 오너의 높은 수익과\r
+		연결되지만 그것을 부정적인 시각으로 바라볼 필요까지는 없어보인다.\r
+		18기(25년도) 배당 지급액은 약 78억으로 17기 약 15억에 비해 5배가량 증가했다.\r
+		78억이면 그 해 벌어들인 수익 전부가 고스란히 배당금으로 지급된 셈이다. 다소\r
+		과하다는 생각이 드는 건 사실이지만 별다른 이유를 찾지는 못했다. 26년부터\r
+		시행된 고배당기업 배당소득 과세특례 시기와 묘하게 맞물리기는 했지만\r
+		기획재정부 세제개편안 발표(25년 7월) 이전인 25년 3월에도 이미 상당한 배당을\r
+		지급했다는 점에서 그 의심은 과한 해석 같다.\r
+	</p>\r
+\r
+	<p>\r
+		흥국에프엔비가 낮은 멀티플을 받는 이유는 알 것도 같다. 그럼에도 PER 8배\r
+		수준의 저평가와 9%대 배당수익률은 분명 매력적이다. 내수 매출 정체와 영업이익\r
+		감소 추세가 부담이지만, 수출 증가와 유통 채널 다각화가 진행 중이라는 점에서\r
+		지켜볼 여지가 있다. 26년부터 시행된 고배당 분리과세 혜택까지 더해진 만큼,\r
+		영업이익 회복 여부를 확인하며 접근해보면 좋을 것 같다.\r
+	</p>\r
+\r
+	<p class="post-ref">\r
+		* 참고<br />\r
+		흥국에프엔비 사업보고서<br />\r
+		네이버 증권<br />\r
+		기획재정부 2025년 세제개편안\r
+	</p>\r
+</div>\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1236,7 +1304,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1322,21 +1390,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`;function lr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function ur(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/essays/daily/0/index.html":$n,"../content/journals/development/1/index.html":tr,"../content/journals/development/3/index.html":rr,"../content/journals/investment/6/index.html":ar,"../content/journals/investment/9/index.html":sr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=lr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var dr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};dr.common?.siteName;function fr(e){e.innerHTML=dr.navigation.map(e=>`
+`;function dr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function fr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/essays/daily/0/index.html":$n,"../content/journals/development/1/index.html":tr,"../content/journals/development/3/index.html":rr,"../content/journals/investment/10/index.html":ar,"../content/journals/investment/6/index.html":sr,"../content/journals/investment/9/index.html":lr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=dr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var pr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};pr.common?.siteName;function mr(e){e.innerHTML=pr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${pr()} ${e.displayName}</h2>
+					<h2 class="category-title">${hr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${dr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${mr()} ${t.displayName}
+								<a href="${pr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${gr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function pr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function hr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function mr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function gr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function hr(e,t,n,r){fr(n)}function gr(){let e=ur(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),hr(e,n,i,o)}function _r(){Hn.highlightAll(),gr()}function vr(){_r()}document.addEventListener(`DOMContentLoaded`,vr);
+	</svg>`}function _r(e,t,n,r){mr(n)}function vr(){let e=fr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),_r(e,n,i,o)}function yr(){Hn.highlightAll(),vr()}function br(){yr()}document.addEventListener(`DOMContentLoaded`,br);
