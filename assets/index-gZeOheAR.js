@@ -466,6 +466,73 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</p>\r
 </div>\r
 `,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
+	<meta name="post-id" content="11" />\r
+	<meta name="post-title" content="중력을 소진시키는 방법" />\r
+	<meta name="post-published" content="2026-05-23T12:39" />\r
+	<meta name="post-tags" content="소셜 네트워크" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		특별함을 추구하는 부류가 있다. 증명되지 않은 상태는 그들에게 있어 존재의\r
+		공백과 같다. 그 결핍은 계속해서 삶을 어딘가로 끌어당기는 중력으로, 거기서\r
+		벗어나는 일은 그들에게 평생의 숙제다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/culture/11/poster.jpg"\r
+			alt="소셜 네트워크"\r
+			width="500"\r
+		/>\r
+		<figcaption>출처: 컬럼비아 픽처스</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		마크와 에리카가 펍 테이블에 앉아 이야기를 시작한다. 마크도 특별함을 추구하는\r
+		부류의 인간이다. 둘의 대화가 시작부터 삐걱거린 이유는 마크의 화두가 일상과\r
+		동떨어져서가 아니라, 결핍이 대개 배려를 앗아간다는 데 있다. 조금씩 엇나가는\r
+		대화 속에서 마크는 에리카의 학력을 비하하는 발언을 하게 되고, 결국 에리카는\r
+		마크가 컴퓨터 분야에서 성공하더라도 좋은 여자는 만나지 못할 거라고 욕설과\r
+		함께 쏘아붙인 후 자리를 떠난다.\r
+	</p>\r
+\r
+	<p>\r
+		그날 밤 마크는 술을 마시며 '페이스매시'를 만든다. 하버드 여학생들의 사진을\r
+		나란히 놓고 누가 더 예쁜지 투표하는 사이트였다. 심심풀이로 만든 그것이\r
+		서버를 다운시킬 만큼 퍼져나갔고, 이어 '더 페이스북'으로 확장되었다. 더\r
+		페이스북이 하나의 현상이 되었을 때, 마크는 유명인사가 되어 있었다. 어느 날\r
+		팬을 자처한 여성들과 파티장 화장실에서 섹스를 하고 나온 마크의 눈에, 저 멀리\r
+		테이블에 앉아있는 에리카가 들어온다. 그 순간 마크는 에리카가 자신에게\r
+		마지막으로 남긴 말이 떠올랐을 것이다. 스스로가 증명되었다고 느껴지는 지금,\r
+		마크는 자신만만하게 에리카에게 다가가지만 세상(에리카)은 그에게 더없이\r
+		냉담하다. 마크는 처참함 속에 파티장을 빠져나오며 사업을 더 키우자고 말한다.\r
+	</p>\r
+\r
+	<p>\r
+		이후 마크의 사업은 완전히 정상궤도에 올라서지만 남의 아이디어를 훔쳤다는\r
+		소송이 걸리게 된다. 변호사는 그 정도 합의금은 벌금 수준이 아니냐며 그냥\r
+		줘버리라고 말하지만, 마크에게 그것은 증명의 문제였다. 남의 것으로는 자신을\r
+		증명할 수 없었다. 마크는 변호사를 먼저 보내고 잠시 컴퓨터 앞에 앉아 자신이\r
+		만든 세상을 들여다 본다. 에리카가 그 세상 속에 들어와 있었다. 마크는\r
+		에리카에게 친구 신청을 보낸다.\r
+	</p>\r
+\r
+	<p>\r
+		끈질겼던 결핍이 사라지는 건 일순간이다. 그 순간은 반드시 세상의 인정이나\r
+		스스로의 엄격한 잣대를 넘는 증명일 필요가 없다. 결핍은, 그저 채우기 위해 에너지를\r
+		소진하다 어느 순간 뒤돌아보면 사라져있다. 마크는 연달아\r
+		새로고침을 누르며 세상(에리카)의 답신을 기다리지만, 표정은 이미 무언가\r
+		내려앉은 사람처럼 조금씩 공허해진다. 더 이상 채울 필요가 없어진 은은한\r
+		해방감이 마크를 감싼다. 이후 마크는 소송과 관련해서 합의금을 지불한다.\r
+	</p>\r
+\r
+	<blockquote class="post-quotation">\r
+		"내가 냅스터를 시작한 이유? 고딩 때 좋아한 여자애가 대학 라크로스팀 주장과\r
+		사귀었어. 걜 뺏고 싶었지."\r
+	</blockquote>\r
+</div>\r
+`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
 	<meta name="post-id" content="2" />\r
 	<meta\r
 		name="post-title"\r
@@ -582,7 +649,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		바라보지 않았을까. 그렇게 믿고 싶다.\r
 	</p>\r
 </div>\r
-`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
+`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
 	<meta name="post-id" content="8" />\r
 	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
 	<meta name="post-published" content="2026-05-09T21:15" />\r
@@ -637,7 +704,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
 	</p>\r
 </div>\r
-`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="0" />\r
 	<meta name="post-title" content="까만 우산" />\r
 	<meta name="post-published" content="2025-05-10T18:41" />\r
@@ -673,7 +740,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		수 있는 사람은 많지 않겠지.\r
 	</p>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -869,7 +936,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -1125,7 +1192,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		}\r
 	</code></pre>\r
 </div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -1193,7 +1260,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1304,7 +1371,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1390,21 +1457,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`;function dr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function fr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/2/index.html":Yn,"../content/essays/culture/8/index.html":Zn,"../content/essays/daily/0/index.html":$n,"../content/journals/development/1/index.html":tr,"../content/journals/development/3/index.html":rr,"../content/journals/investment/10/index.html":ar,"../content/journals/investment/6/index.html":sr,"../content/journals/investment/9/index.html":lr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=dr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var pr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};pr.common?.siteName;function mr(e){e.innerHTML=pr.navigation.map(e=>`
+`;function pr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function mr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/7/index.html":Gn,"../content/archives/investment/5/index.html":qn,"../content/essays/culture/11/index.html":Yn,"../content/essays/culture/2/index.html":Zn,"../content/essays/culture/8/index.html":$n,"../content/essays/daily/0/index.html":tr,"../content/journals/development/1/index.html":rr,"../content/journals/development/3/index.html":ar,"../content/journals/investment/10/index.html":sr,"../content/journals/investment/6/index.html":lr,"../content/journals/investment/9/index.html":dr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=pr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var hr={common:{siteName:`닫힌 파편`,itemsPerPage:10},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};hr.common?.siteName;function gr(e){e.innerHTML=hr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${hr()} ${e.displayName}</h2>
+					<h2 class="category-title">${_r()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${pr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${gr()} ${t.displayName}
+								<a href="${hr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${vr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function hr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function _r(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function gr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function vr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function _r(e,t,n,r){mr(n)}function vr(){let e=fr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),_r(e,n,i,o)}function yr(){Hn.highlightAll(),vr()}function br(){yr()}document.addEventListener(`DOMContentLoaded`,br);
+	</svg>`}function yr(e,t,n,r){gr(n)}function br(){let e=mr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),yr(e,n,i,o)}function xr(){Hn.highlightAll(),br()}function Sr(){xr()}document.addEventListener(`DOMContentLoaded`,Sr);
