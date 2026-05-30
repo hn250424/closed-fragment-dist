@@ -1331,7 +1331,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
-	<meta name="post-tags" content="AI" />\r
+	<meta name="post-tags" content="AI 투자" />\r
 </div>\r
 \r
 <div class="post-content">\r
