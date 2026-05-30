@@ -1329,7 +1329,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 </div>\r
 `,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
-	<meta name="post-title" content="완만해지는 성장률" />\r
+	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
 	<meta name="post-tags" content="AI" />\r
 </div>\r
@@ -1391,8 +1391,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		CNBC,\r
 		<a\r
 			href="https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html"\r
-			>"AI boom: Big Tech capital expenditures now seen topping $1 trillion in\r
-			2027" (2026.04.30)</a\r
+			>"AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027" (2026.04.30)</a\r
 		><br />\r
 	</p>\r
 </div>\r
