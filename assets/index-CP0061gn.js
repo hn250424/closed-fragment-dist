@@ -1391,6 +1391,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		CNBC,\r
 		<a\r
 			href="https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html"\r
+			target="_blank"\r
 			>"AI boom: Big Tech capital expenditures now seen topping $1 trillion in\r
 			2027" (2026.04.30)</a\r
 		><br />\r
@@ -1566,9 +1567,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		지금으로선 합리적이지 않을까.\r
 	</p>\r
 \r
-	<p>\r
-		사실 잘 모르겠다. 치솟는 주가를 보면.\r
-	</p>\r
+	<p>사실 잘 모르겠다. 치솟는 주가를 보면.</p>\r
 \r
 	<p class="post-ref">\r
 		* 참고<br />\r
@@ -1577,18 +1576,23 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		Amazon.com, Inc. Form 10-Q (Q1 2026)<br />\r
 \r
 		Stanford HAI,\r
-		<a href="https://hai.stanford.edu/ai-index/2025-ai-index-report"\r
+		<a\r
+			href="https://hai.stanford.edu/ai-index/2025-ai-index-report"\r
+			target="_blank"\r
 			>2025 AI Index Report</a\r
 		><br />\r
 \r
 		McKinsey Global Institute,\r
 		<a\r
 			href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"\r
+			target="_blank"\r
 			>The State of AI</a\r
 		><br />\r
 \r
 		EPOCH AI,\r
-		<a href="https://epoch.ai/blog/scaling-laws-literature-review"\r
+		<a\r
+			href="https://epoch.ai/blog/scaling-laws-literature-review"\r
+			target="_blank"\r
 			>Scaling Laws Literature Review</a\r
 		>\r
 	</p>\r
