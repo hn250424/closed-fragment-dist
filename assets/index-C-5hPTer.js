@@ -600,6 +600,72 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</blockquote>\r
 </div>\r
 `,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+	<meta name="post-id" content="14" />\r
+	<meta name="post-title" content="시간이 쓸어내린 먼지" />\r
+	<meta name="post-published" content="2026-06-08T20:03" />\r
+	<meta name="post-tags" content="성난 군중으로부터 멀리" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고\r
+		자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.\r
+	</p>\r
+\r
+	<figure>\r
+		<img\r
+			src="/assets/essays/culture/14/poster.jpg"\r
+			alt="성난 군중으로부터 멀리"\r
+			width="500"\r
+		/>\r
+		<figcaption>출처: 폭스 서치라이트 픽처스</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		양을 몰던 가브리엘은 숲에서 말을 타는 여자를 본다. 여자는 말 위에서 대담하게\r
+		몸을 뒤로 젖힌 채 나뭇가지 사이를 지나가고 있었다. 여자가 그곳을 빠져나오며\r
+		몸을 일으키던 순간, 스카프가 나뭇가지에 걸린다.\r
+	</p>\r
+\r
+	<p>\r
+		어렸을 적 부모님을 잃은 에버딘은 혼자가 익숙했다. 가브리엘이 잃어버린 자신의\r
+		스카프를 건네며 청혼했을 때, 에버딘은 선뜻 대답하지 못했다. 가브리엘은\r
+		100에이커 농장에서 양 200마리를 키우는 건실한 사내였다. 빚을 다 갚고 나면\r
+		농장은 우리의 것이 될 테고 그러면 편하게 취미를 즐기며 지내도 좋다고 했다.\r
+		그러나 그 말은 독립심 강한 에버딘을 망설이게 만든다.\r
+	</p>\r
+\r
+	<p>\r
+		그날 밤,가브리엘의 양치기 개는 실수로 양을 절벽으로 내몰아 모두 죽게 만든다.\r
+		그 일로 가브리엘은 파산하고 새로운 일자리를 찾아 떠나는 처지가 된다.\r
+		웨더버리 농장에서 일할 사람을 구한다는 소식을 듣고 밤중에 도착한 그곳은\r
+		불길에 휩싸여 있었다. 가브리엘은 불길이 더 번지기 전에 헛간 위로 올라가\r
+		지붕을 내리쳤다. 밤새 진화 작업을 마치고 얼굴이 까맣게 탄 가브리엘 앞에 선\r
+		것은 말끔한 차림의 에버딘이었다. 에버딘은 삼촌에게 농장을 물려받아 이곳의 새\r
+		주인이 되어있었다. 둘의 처지는 이전과 달랐고, 가브리엘은 더 이상 에버딘을\r
+		욕심낼 수 없었다.\r
+	</p>\r
+\r
+	<p>\r
+		가브리엘은 에버딘 밑에서 일을 시작한다. 불길에 농장이 잿더미가 되는 것을\r
+		막고, 클로버 잎을 먹고 죽어가는 양들을 살리고, 폭풍으로부터 수확물을\r
+		지켜냈지만, 에버딘은 그런 성실함 대신 화려함에 유혹된다. 붉은 군복을 입고\r
+		날카로운 칼을 휘둘러 손쉽게 에버딘의 마음을 사로잡아버린 사내를 보면서도,\r
+		가브리엘은 여전히 성실하게 신뢰할 수 있는 사람으로 남는다.\r
+	</p>\r
+\r
+	<p>\r
+		변덕스러운 세상에 비웃음 당할 때, 우리는 시간에 기댈 수 있다. 흐르는 시간\r
+		안에서 일상은 반복되고, 반복은 끝끝내 포장을 벗겨내어 그 본질을 드러낸다.\r
+		주인이 된 에버딘을 가질 수 있을 거라 생각하지 않지만, 자신의 처지가\r
+		언제까지나 이렇지는 않을 거라는 가브리엘의 말은, 선언이나 위협이 아닌\r
+		스스로에게 건네는 다짐이었다. 눈에 띄지 않아도 언제나 그 자리를 지킨 손들을\r
+		비로소 에버딘이 알아본 것은, 극적인 어느 순간이 아니라 반복된 일상의\r
+		나날들이 쌓인 결과였다. 시간은 그렇게 조금씩 먼지를 쓸어내린다. 그리고 마침내,\r
+		가브리엘은 에버딘의 삶 안으로 들어서게 된다.\r
+	</p>\r
+</div>\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="2" />\r
 	<meta\r
 		name="post-title"\r
@@ -716,7 +782,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		바라보지 않았을까. 그렇게 믿고 싶다.\r
 	</p>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="8" />\r
 	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
 	<meta name="post-published" content="2026-05-09T21:15" />\r
@@ -771,7 +837,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
 	</p>\r
 </div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
 	<meta name="post-id" content="0" />\r
 	<meta name="post-title" content="까만 우산" />\r
 	<meta name="post-published" content="2025-05-10T18:41" />\r
@@ -807,7 +873,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		수 있는 사람은 많지 않겠지.\r
 	</p>\r
 </div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -1003,7 +1069,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -1259,7 +1325,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		}\r
 	</code></pre>\r
 </div>\r
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -1327,7 +1393,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
+`,pr=s({default:()=>mr}),mr=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
@@ -1397,7 +1463,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		><br />\r
 	</p>\r
 </div>\r
-`,pr=s({default:()=>mr}),mr=`<div class="post-meta">\r
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1508,7 +1574,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1597,21 +1663,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`;function _r(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function vr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/7/index.html":qn,"../content/archives/investment/5/index.html":Yn,"../content/essays/culture/11/index.html":Zn,"../content/essays/culture/2/index.html":$n,"../content/essays/culture/8/index.html":tr,"../content/essays/daily/0/index.html":rr,"../content/journals/development/1/index.html":ar,"../content/journals/development/3/index.html":sr,"../content/journals/investment/10/index.html":lr,"../content/journals/investment/13/index.html":dr,"../content/journals/investment/6/index.html":pr,"../content/journals/investment/9/index.html":hr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=_r(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var yr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};yr.common?.siteName;function br(e){e.innerHTML=yr.navigation.map(e=>`
+`;function yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function br(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/7/index.html":qn,"../content/archives/investment/5/index.html":Yn,"../content/essays/culture/11/index.html":Zn,"../content/essays/culture/14/index.html":$n,"../content/essays/culture/2/index.html":tr,"../content/essays/culture/8/index.html":rr,"../content/essays/daily/0/index.html":ar,"../content/journals/development/1/index.html":sr,"../content/journals/development/3/index.html":lr,"../content/journals/investment/10/index.html":dr,"../content/journals/investment/13/index.html":pr,"../content/journals/investment/6/index.html":hr,"../content/journals/investment/9/index.html":_r}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var xr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};xr.common?.siteName;function Sr(e){e.innerHTML=xr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${xr()} ${e.displayName}</h2>
+					<h2 class="category-title">${Cr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${yr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Sr()} ${t.displayName}
+								<a href="${xr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${wr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function xr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function Cr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Sr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function wr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function Cr(e,t,n,r){br(n)}function wr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Tr(){let e=vr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Cr(e,n,i,o),wr(e,o)}function Er(){Hn.highlightAll(),Tr()}function Dr(){Er()}document.addEventListener(`DOMContentLoaded`,Dr);
+	</svg>`}function Tr(e,t,n,r){Sr(n)}function Er(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Dr(){let e=br(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Tr(e,n,i,o),Er(e,o)}function Or(){Hn.highlightAll(),Dr()}function kr(){Or()}document.addEventListener(`DOMContentLoaded`,kr);
