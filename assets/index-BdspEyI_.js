@@ -1460,10 +1460,68 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 			target="_blank"\r
 			>"AI boom: Big Tech capital expenditures now seen topping $1 trillion in\r
 			2027" (2026.04.30)</a\r
-		><br />\r
+		>\r
 	</p>\r
 </div>\r
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
+	<meta name="post-id" content="15" />
+	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
+	<meta name="post-published" content="2026-06-20T11:41" />
+	<meta name="post-tags" content="주식, SNT에너지" />
+</div>
+
+<div class="post-content">
+<p>
+AFC<span class="post-sub">(Air Fin Cooler)</span>는 화공플랜트에서 나오는 고온의 유체를 물이 아닌 공기로 식히는 장치로써, 산업 용수 공급에 어려움이 있는 중동에서 주로 쓰인다.
+</p>
+
+<p>
+2025년 사업보고서 기준, SNT에너지는 AFC 매출 비중이 81.8%를 차지한다. 24년도까지 매출액은 3천억 원을 넘지 못했는데 25년도부터 두 배 이상 증가해 6천억 원대를 유지하고 있다. 현재 멀티플 약 7배 선에서 거래되고 있는데, LS증권에서 26년 1월 30일에 발행한 SNT에너지 리포트에 쓰인 SNT에너지 글로벌 peers PER 20X와 비교하면 터무니 없이 낮다.
+</p>
+
+<p>
+SNT에너지의 사우디아라비아 현지법인 SNT걸프는 2022년 사우디 아람코와 AFC 장기조달계약(CPA)을 체결했다. CPA는 아람코와 아람코 합작·자회사가 추진하는 프로젝트에서 SNT에너지의 AFC가 우선적으로 채택되도록 하는 장기 공급 자격을 부여하는 계약으로, 개별 수주가 일회성으로 끝나지 않고 향후 발주되는 프로젝트들로 이어질 수 있는 기반이 된다. 2025년 실적은 해당 계약의 영향이 본격적으로 반영된 결과로 보인다. 그 기간 주가는 폭발적으로 올랐지만 멀티플은 전과 같았다. 시장은 당시 단일 고객에게 의존한 SNT에너지의 성장을 지속 가능하다고 보지 않았다.
+</p>
+
+<p>
+핵심 상품의 한계도 명확하다. 공랭식은 수냉식보다 초기 설치비가 더 들고, 열교환 효율이 낮다. 물이 풍부한 지역에서는 공랭식을 채택할 이유가 적다. 또한 교체주기가 3, 40년에 이르는 내구재로 A/S 매출을 기대하기도 어렵다. 매출이 일회성이지 않기 위해서는 신규 플랜트 capex 투자가 꾸준히 이어져야 한다.
+</p>
+
+<p>
+최근 늘고 있는 미국향 매출은 주목할 만하다. 2025년 1월 트럼프 행정부가 들어서면서 바이든 정부 시절 묶여 있던 LNG 수출 허가가 재개됐고, 그 직후 SNT에너지는 벡텔을 통해 미국 루이지애나·텍사스 LNG 수출 터미널에 AFC를 공급하는 계약을 잇따라 체결했다. 러시아-우크라이나 전쟁 이후 유럽을 비롯한 여러 국가가 러시아산 가스 의존도를 낮추려는 흐름이 있어 이는 정책에 따른 일회성 수혜가 아닌 추세에 가깝다고 보여진다.
+</p>
+
+<p>
+다만 이 흐름이 사우디 아람코 때만큼 가파른 성장으로 이어질지는 다른 문제다. 신규 프로젝트가 FID(최종투자결정)를 거쳐 실제 매출로 인식되기까지 통상 수년이 걸리고, 정권에 따라 허가 속도가 빨라지거나 느려질 수 있어 단기간에 폭발적으로 늘어나기보다는 완만하게 쌓여가는 그림에 가까울 것으로 보인다.
+</p>
+
+<p>
+추세로 볼 만한 변화가 하나 더 있다. AI 데이터센터발 전력 수요 증가로 LNG 발전소 건설이 늘어나는 흐름인데, 이는 SNT에너지의 매출 비중 16.7%로 두 번째로 큰 파이를 차지하는 HRSG<span class="post-sub">(Heat Recovery Steam Generator)</span>와 맞닿아 있다.
+</p>
+
+<p>
+최근 새로 짓는 가스 발전소는 대부분 복합화력 방식이다. 가스터빈으로 1차 발전을 하고, 거기서 나오는 고온의 배기가스를 그냥 버리지 않고 HRSG로 회수해 증기를 만들어 증기터빈을 한 번 더 돌리는 구조다. 같은 연료로 전기를 두 번 만드는 셈이라 효율이 단순 화력발전보다 훨씬 높다. 결국 발전소가 어디에 지어지든 HRSG는 필수로 따라붙는 설비이고, 데이터센터 인근에 LNG 발전소가 늘어나는 흐름이 이어진다면 SNT에너지가 가져갈 몫도 같이 늘어날 여지가 있다.
+</p>
+
+<p>
+HRSG가 AFC만큼 성장할 수 있을까. 화공플랜트 하나에는 통상 수백 대 단위로 AFC가 들어가는 반면, 발전소는 1기당 HRSG가 한두 대 들어가는 구조로 알려져 있어 절대적인 물량 자체가 다를 가능성이 크다. 추정치를 보면 그 차이가 드러난다. 같은 리포트에 따르면 HRSG 및 기타 매출은 2026년 16.3%, 2027년 6.1% 성장에 그칠 것으로 추정되는데, 이는 AFC가 아람코향 매출 반영 첫해(2025년)에 두 배 이상 뛰었던 것과는 다른 속도다. 결국 HRSG가 AFC를 대체할 두 번째 성장축이 되기보다는, AFC 사이클이 주춤할 때를 보완해주는 정도의 역할에 그칠 가능성이 더 커 보인다.
+</p>
+
+<p>
+갈래는 여럿이지만 같은 질문으로 수렴한다. AFC를 먹여 살리는 중동과 미국의 가스 인프라 투자, 그리고 보조축인 HRSG까지, 이 모든 성장이 구조적으로 이어지느냐다. 사우디 쪽은 이미 수주잔고로 잡힌 프로젝트들의 가시성은 높지만, 2030년 가스 확장 전략에 맞춰진 투자 사이클인 만큼 그 이후에도 비슷한 속도의 신규 발주가 이어질지는 알 수 없다. 미국 쪽은 산업 자체는 10년 가까이 커온 흐름이지만, SNT에너지 입장에서는 2023년 진출 이후 이제 막 매출이 쌓이기 시작한 단계라 속도와 규모를 더 지켜봐야 한다. 더디게 보이는 HRSG 역시 AI발 전력 수요가 예상보다 가파르게 현실화된다면 추정치를 웃도는 변수가 될 수 있다. 결국 지금의 정보로는 이 낮은 멀티플이 기회라고 판단하기 어려웠다.
+</p>
+
+<p class="post-ref">
+* 참조 <br />
+SNT에너지 사업보고서(2025) <br />
+LS증권, 김세련, "SNT에너지(100840) LNG의 파도, 높아지는 파고" (2026.01.30)<br />
+한국무역협회(KITA),
+<a href="https://www.kita.net/board/totalTradeNews/totalTradeNewsDetail.do?no=89180&siteId=2"
+target="_blank">
+"美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
+</p>
+</div>
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1574,7 +1632,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
+`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1663,21 +1721,21 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`;function yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function br(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/7/index.html":qn,"../content/archives/investment/5/index.html":Yn,"../content/essays/culture/11/index.html":Zn,"../content/essays/culture/14/index.html":$n,"../content/essays/culture/2/index.html":tr,"../content/essays/culture/8/index.html":rr,"../content/essays/daily/0/index.html":ar,"../content/journals/development/1/index.html":sr,"../content/journals/development/3/index.html":lr,"../content/journals/investment/10/index.html":dr,"../content/journals/investment/13/index.html":pr,"../content/journals/investment/6/index.html":hr,"../content/journals/investment/9/index.html":_r}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var xr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};xr.common?.siteName;function Sr(e){e.innerHTML=xr.navigation.map(e=>`
+`;function xr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Sr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/7/index.html":qn,"../content/archives/investment/5/index.html":Yn,"../content/essays/culture/11/index.html":Zn,"../content/essays/culture/14/index.html":$n,"../content/essays/culture/2/index.html":tr,"../content/essays/culture/8/index.html":rr,"../content/essays/daily/0/index.html":ar,"../content/journals/development/1/index.html":sr,"../content/journals/development/3/index.html":lr,"../content/journals/investment/10/index.html":dr,"../content/journals/investment/13/index.html":pr,"../content/journals/investment/15/index.html":hr,"../content/journals/investment/6/index.html":_r,"../content/journals/investment/9/index.html":yr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=xr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Cr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Cr.common?.siteName;function wr(e){e.innerHTML=Cr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Cr()} ${e.displayName}</h2>
+					<h2 class="category-title">${Tr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${xr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${wr()} ${t.displayName}
+								<a href="${Cr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${Er()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Cr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function Tr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function wr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function Er(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function Tr(e,t,n,r){Sr(n)}function Er(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Dr(){let e=br(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Tr(e,n,i,o),Er(e,o)}function Or(){Hn.highlightAll(),Dr()}function kr(){Or()}document.addEventListener(`DOMContentLoaded`,kr);
+	</svg>`}function Dr(e,t,n,r){wr(n)}function Or(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function kr(){let e=Sr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Dr(e,n,i,o),Or(e,o)}function Ar(){Hn.highlightAll(),kr()}function jr(){Ar()}document.addEventListener(`DOMContentLoaded`,jr);
