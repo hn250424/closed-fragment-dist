@@ -169,6 +169,611 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 	</div>\r
 </div>\r
 `,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">\r
+	<meta name="post-id" content="16" />\r
+	<meta\r
+		name="post-title"\r
+		content="원하는 운명을 골라잡는 기술, 리얼리티 트랜서핑 정리"\r
+	/>\r
+	<meta name="post-published" content="2026-06-23T21:54" />\r
+	<meta name="post-tags" content="바딤 젤란드, 리얼리티 트랜서핑" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/archives/growth/16/reality_transurfing.png"\r
+			alt="리얼리티 트랜서핑"\r
+			width="400"\r
+		/>\r
+		<figcaption>출처: 정신세계사</figcaption>\r
+	</figure>\r
+\r
+	<h2 class="post-tab">트랜서핑</h2>\r
+\r
+	<p>\r
+		트랜서핑은 자신의 운명을 말 그대로 골라잡는 방법이다. 중요한 것은 납득할\r
+		만한 설명이 아닌 현실과 얼마나 맞아떨어지느냐다. 공리들은 그 자체가\r
+		양자물리학의 최초의 기준점이기 때문에 증명될 수 없다. 우리는 오직 진리가\r
+		구체화되어 실현된 것이나 어떤 법칙만을 알 수 있을 뿐이다. 우리의 목표는 단지\r
+		우리의 모델을 실질적으로 활용하는 것이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">가능태</h2>\r
+\r
+	<p>\r
+		존재 가능한 모든 물체와 그 동선상의 무한수 지점에 관한 데이터는 정보의 장\r
+		속에 저장된다. 이 정보의 장을 가능태 공간이라 한다. 가능태 공간은 과거에\r
+		존재했던 모든 것과, 현재에 존재하는 모든 것, 그리고 미래에 존재할 모든 것에\r
+		대한 정보를 담고 있다.\r
+	</p>\r
+\r
+	<p>\r
+		사념 에너지의 파동은 잠재된 가능태를 물질화시킨다. 뭔가를 생각할 때마다 사념\r
+		에너지의 주파수는 가능태 공간의 한 섹터에 동조된다. 그러면 그 섹터 고유의\r
+		가능태가 물질화하기 시작한다.\r
+	</p>\r
+\r
+	<p>\r
+		한 사람의 사념 에너지가 특정 주파수에 고정되면, 그 사람은 거기에 맞는\r
+		인생트랙으로 옮겨진다. 뭔가를 피하려는 욕구가 강하면 강할수록 그것을 갖게 될\r
+		위험은 더욱 커진다. 원하지 않는 것에 맞서 싸우는 것은 사실 바로 그것을\r
+		인생의 한 부분으로 만들려고 갖은 애를 쓰는 것이나 마찬가지다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">펜듈럼</h2>\r
+\r
+	<p>\r
+		사람들의 사념 에너지에 의해 그 특질이 형성된 모든 구조체를 펜듈럼이라고\r
+		한다. 펜듈럼은 오직 하나의 목적을 가진다. 그것은 지지자 개인으로부터\r
+		에너지가 끊임없이 흘러오게 하는 것이다. 펜듈럼은 지지자의 에너지를 먹고산다.\r
+		그로써 펜듈럼은 진폭이 점점 커진다. 트랜서핑도 하나의 펜듈럼이 될 수 있다.\r
+		펜듈럼의 파괴적인 정도는 저마다 다르다. 트랜서핑은 최악의 경우에도 훨씬 덜\r
+		파괴적인 것으로 나타날 것이다. 펜듈럼에게는 새로운 에너지가 반드시 필요하다.\r
+		에너지를 얻어내지 못하면 펜듈럼은 멈춘다. 펜듈럼은 자신에게만 건설적이고,\r
+		우리에게는 건설적이지 않다.\r
+	</p>\r
+\r
+	<p>\r
+		성공을 위한 첫 번째 조건은 펜듈럼과 싸우기를 거부하는 것이다. 선택하기가\r
+		무엇을 의미하는지를 알려면 거부하기를 먼저 배워야 한다. 거부하기 위해서는\r
+		받아들임이 필요하다.\r
+		<span class="post-underline"\r
+			>받아들임은 무엇을 껴안아 자신의 일부로 만들라는 의미가 아니다.\r
+			받아들임이란, 만물이 그 자체로서 존재할 권리를 지니고 있음을 인정해 주고\r
+			그것을 담담하게 지나쳐 가라는 뜻이다.</span\r
+		>\r
+		삶에서 어떤 것을 원하지 않는다면, 거기에 대해 생각하기를 멈추고 그것을\r
+		담담하게 지나쳐가라. 삶 밖으로 무엇을 내던진다는 것은 회피가 아니라 그냥\r
+		무시하라는 뜻이다.\r
+	</p>\r
+\r
+	<p>\r
+		문제는 인간 세상이 온통 펜듈럼 위에 건설되어 있다는 점이다. 인간은 항상\r
+		뭔가를 추구하도록 설계되어 있는 존재다. 자유란 다른 사람들의 펜듈럼으로부터\r
+		자유로운 것을 말한다. 우리가 해야 할 일은 자유로운 상태로 있으면서 동시에\r
+		진정한 성공과 행복이 기다리고 있는 인생 트랙을 선택하는 것이다. 자신의\r
+		행동과 상황을 스스로 알아차리고만 있다면 펜듈럼이 절대적으로 나쁜 것은\r
+		아니다. 펜듈럼으로부터 전적으로 벗어나는 것은 불가능하다. 유일한 문제는\r
+		어떻게 하면 펜듈럼의 영향 아래에 놓이는 것을 피하고 펜듈럼을 자신의 목적에\r
+		맞게 의식적으로 이용할 것인가이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">균형력</h2>\r
+\r
+	<p>\r
+		자연 속의 모든 것은 균형 상태를 유지하려고 애쓴다. 에너지의 잉여 포텐셜이\r
+		존재할 수 있는 모든 곳에는 불균형을 제거하려는 균형력이 나타난다.\r
+	</p>\r
+\r
+	<p>\r
+		어떤 평가에 지나치게 많은 의미와 중요성이 부여될 경우에만 잉여 포텐셜이\r
+		일어난다. 잉여포텐셜은 어떤 것의 가치가 실제에 비해 큰 차이(변위)가 있을 때\r
+		생겨난다.\r
+	</p>\r
+\r
+	<p>\r
+		세상과 조화롭게 지내고 펜듈럼에게서 벗어나려면 과도한 중요성을 감소시킬\r
+		필요가 있다. 당신이 자신과 주변 세상에 대해 얼마만큼의 중요성을 부여하고\r
+		있는지를 늘 지켜보고 있어야 한다. 당신 내면의 '지켜보는 자'는 잠들어서는 안\r
+		된다. 중요성이 줄어들면 당신은 이내 균형 상태에 들어가고, 펜듈럼이 당신을\r
+		지배할 수 없게 된다.\r
+	</p>\r
+\r
+	<p>\r
+		그러나 모든 것을 정도에 알맞게 하라. 이따금씩 균형력을 깨뜨리도록 자신을\r
+		허락하라. 그런다고 해서 끔찍한 일이 일어나지는 않는다. 중요한 것은, 바늘이\r
+		적절한 범위의 눈금을 벗어나지 않도록 지키는 일이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">영혼</h2>\r
+\r
+	<p>\r
+		잠재의식(영혼)이 정보장으로부터 데이터를 받아들이면 의식(마음)이 그것을\r
+		소리나 상징으로 번역한다. 이것이 새로운 것―음악, 미술작품 등 사람이\r
+		직접적으로 보거나 알 수 없는 모든 것―이 창조되거나 새로이 발견되는 방식이다.\r
+		또한 직관적 지식과 예감이 일어나는 방식이기도 하다.\r
+	</p>\r
+\r
+	<p>\r
+		영혼은 범주를 사용하지 않는다. 영혼은 느낌으로써 안다. 마음의 통제가\r
+		약해지면 그 틈을 타서 직관적 지식과 느낌이 의식 속으로 뚫고 들어갈 수 있게\r
+		된다. 이것을 내면의 목소리라고 부르기도 한다. 생각하지 않고 직감으로 느낀다.\r
+	</p>\r
+\r
+	<p>\r
+		마음은 끊임없이 생각을 지어내느라 바쁘다. 영혼의 목소리는 이 '생각 믹서'의\r
+		시끄러운 소리 때문에 들리지 않는다. 만일 이 생각의 흐름을 멈추고 단순히 비어\r
+		있는 상태를 묵상할 수 있다면 우리는 새벽별이 속삭이는 소리, 내면의 말 없는\r
+		목소리를 들을 수 있을 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		영혼은 두 가지 대조적인 느낌을 가지고 있다. 영혼은 정보장에 접근할 수 있다.\r
+		영혼은 아직 현실화되지 않았으나 다가오고 있는 섹터들에 놓여 있는 것을\r
+		어떻게든 미리 내다본다. 만일 영혼이 아직 현실화되지 않은 섹터에 동조한다면,\r
+		그것이 실현되었을 때 좋든 나쁘든 무슨 일이 일어날지를 알게 될 것이다. 이런\r
+		영혼의 느낌들이 마음에게는 편안한 기분이나 불편한 기분과 같은 모호한\r
+		느낌으로 인지되는 것이다. 우리가 해야 할 일은 결정의 순간에 영혼이 마음에게\r
+		하는 말을 명확히 알아듣는 법을 터득하는 것이다. 당신의 지켜보는 자에게\r
+		영혼의 기분 상태를 잘 살피라고 부탁해놓기만 하면 된다. 새벽별이 속삭이는\r
+		소리를 들으려면 영혼의 기분 상태 살피기를 제때에 기억하기만 하면 된다.\r
+	</p>\r
+\r
+	<p>\r
+		만일 뚜렷한 느낌이 없다면 그것은 당신의 마음이 아직도 귀 기울여 듣는 데에\r
+		아주 서툴다는 뜻이다. 당신의 질문에 대한 답은 정말 애매모호할 수도 있다.\r
+		그런 경우에는 그런 부정확한 데이터에 의지해서는 안 된다. 그때는 마음이\r
+		제안하는 대로 행동할 수밖에 없다. 아니라면 질문을 좀 더 단순하게 만들어야\r
+		한다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">의도</h2>\r
+\r
+	<p>\r
+		자각몽 속에서는 당신이 원하는 것을 무엇이든지 할 수 있다. 꿈속에서 의식이\r
+		깨어서 공중을 날고 싶어졌다면 날고자 하는 의도만 떠올리면 된다. 여기서\r
+		욕망과 의도의 차이가 분명해진다. 몸을 공중에 띄우기를 원하기만 하는 것으로는\r
+		아무 일도 일어나지 않는다. 팔을 들어 올리려는 욕망을 예로 들어보자. 당신은\r
+		자신에게 팔을 올리고 싶다고 말하고 있다. 하지만 아직 그것을 하고 있지는\r
+		않다. 이제는 그냥 팔을 들어 올려보라. 당신의 희망은 행동으로 옮겨졌다.\r
+		당신은 팔을 어떻게 들어 올릴지를 생각하고 있는 것이 아니라 그저 그렇게 하고\r
+		있다. 꿈에서도 마찬가지다. 순수한 의도를 사용하여 그냥 자신을 공중에 띄워라.\r
+		그리고 어디든지 원하는 곳으로 날아가라.\r
+	</p>\r
+\r
+	<p>\r
+		꿈은 흔히 생각하는 것과 같은 환영이 아니다. 마음은 꿈을 상상해 내는 것이\r
+		아니라 실제로 그것을 보고 있다. 꿈은 과거나 미래의 가능한 사건을 보여준다.\r
+		꿈은 영혼이 가능태 공간 속을 여행하는 것이다. 가능태 공간 속에는 온갖\r
+		시나리오가 다 있다. 자각몽 속에서 꿈의 시나리오를 마음대로 바꿀 수 있는\r
+		이유도 이것이다. 시나리오 자체가 실제로 고쳐지는 것은 아니다. 당신이 수시로\r
+		시나리오를 마음대로 골라잡는 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		<span class="post-underline">꿈과 현실은 기본적으로 같다.</span> 유일한 차이는 시나리오가 현실로 나타나는\r
+		속도뿐이다. 현실 속의 사건도 꿈속의 사건과 동일한 법칙을 따라 일어난다.\r
+		하지만 그것은 번개처럼 빨리 일어나지는 않는다. 가능태가 물질 차원에 실현되는\r
+		데에는 불활성이 작용하기 때문이다. 우리가 실패하는 이유는 아주 종종, 목표를\r
+		향해 충분히 끈기 있게 노력하지 않기 때문이다. 많은 목표들이, 단지 현실화될\r
+		시간을 갖지 못한 이유로 이루어지지 않는다.\r
+	</p>\r
+\r
+	<p>\r
+		실제 삶에서는 의식의 각성도가 꿈속에서보다 높다. 이것은 내부의도를\r
+		제어하기에는 충분하다. 하지만 외부의도는 이보다 훨씬 높은 각성도를 요구한다.\r
+		자각몽에서와 마찬가지로 현실의 삶에서도 외부의도를 제어하려면 의식이\r
+		깨어있어야 한다. 현실 또한 당신에게 일어나는 것일 뿐이다. 꿈에 대해서, 삶에\r
+		대해서도 지배력을 얻으려면 참여자로부터 관찰자로 역할을 바꿀 필요가 있다.\r
+		수동적인 꿈에서는 관찰자는 없고 배우만 있다. 당신은 자신의 역에 완전히\r
+		빠져들어 있어서 상황을 밖으로부터 바라보지 못한다. 자신의 역할에 너무 깊이\r
+		빠져들지 말라. 내적, 외적 중요성을 최저 수준으로 유지하는 것이 그 열쇠다.\r
+		당신의 지켜보는 자를 항상 대기시켜라. 상황을 지배하는 능력은 당신의 깨어있는\r
+		정도에 비례한다. 꿈속에서는 의식의 각성도가 낮고, 그것이 꿈이 '일어나는'\r
+		이유다. <span class="post-underline">꿈꾸고 있다는 사실을 깨닫기만 하면 상황이 통째로 지배하에 놓이게\r
+		된다.</span> 원하는 것을 무엇이든 할 수 있게 되는 것이다. 그러나 만사를 절대적으로\r
+		완전히 지배한다는 것은 꿈속에서조차 일어날 수 없는 일이다. 당신은 단지\r
+		선택할 권리가 있을 뿐이지 무엇을 변화시킬 권리는 없다. 개어있는 의식은\r
+		통제와 지배를 위한 것이 아니라 관찰을 위한 것이다. 통제력은 오직 부정적인\r
+		함정에 빠지지 않고 그 대신 유쾌한 시나리오를 상상하고 그것을 당신의 삶 속에\r
+		맞이하여 온 가슴으로 받아들이는 데에만 발휘되어야 한다. 당신의 시나리오를\r
+		세상에 강요하지 말라. 특정 가능태가 스스로 실현되게끔 세상이 허용하는 일이\r
+		일어날 가능성을 열어두라.\r
+	</p>\r
+\r
+	<p>\r
+		현실화를 가져오는 것은 욕망 자체가 아니라 원하는 대상을 노리고 있는\r
+		당신이다. 가지겠다는, 그리고 행동하겠다는 결정으로 정의할 의도다. 욕망은\r
+		목표 그 자체를 지향하지만 의도는 그 목표에 다다르는 과정을 지향한다. 의도는\r
+		잉여 포텐셜을 만들어내지 않는다. 욕망에 의해 만들어진 포텐셜 에너지가 행동에\r
+		사용되기 때문이다. 욕망과 행동은 의도 속에서 하나가 된다. 의도는 욕망과\r
+		행동의 조합이다. 자신만의 힘으로써 무엇을 하고자 하는 의도가 내부의도다.\r
+		의도의 작용을 외부 세계로 확대시키는 것은 그보다 훨씬 힘들다. 그것이\r
+		외부의도다. 외부의도의 도움으로 우리는 세상을 다스릴 수 있다. 주변 세상이\r
+		어떻게 행동하게 할지를 선택할 수 있게 된다.\r
+	</p>\r
+\r
+	<p>\r
+		탁자 위에 연필이 놓여 있다. 당신은 의도의 힘으로써 그것이 움직이기 시작하는\r
+		것을 상상한다. 당신의 의도는 연필이 다른 장소에 놓여있는 가능태 공간의\r
+		섹터를 찾아낸다. 사념 에너지가 충분한 힘으로 방사된다면 연필은 실제 공간\r
+		속의 새로운 지점들로 차례로 옮겨가면서 물질화될 것이다. 연필을 전혀 움직이지\r
+		못하더라도 놀라운 일은 아니다. 거의 모든 사람들이 초자연적 능력을 지니고\r
+		있지만 그 힘은 매우 미약하다. 그런 일이 가능하다고 믿기가 너무나 어려워서\r
+		자기 안에서 순수한 의도를 일으키기가 매우 힘들기 때문이다. 물체를 원격\r
+		이동시키는 염력을 지닌 사람들은 대상 자체를 움직이는 것이 아니다. 그들은\r
+		의도의 힘으로 에너지를 보내어 가능태 공간에서 대상이 물질화되는 지점을\r
+		변화시키는 능력을 지닌 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		욕망은 목표 자체에다 주의를 모으는 것이다. 내부의도는 목표를 향해 움직여가는\r
+		과정에 주의를 모으는 것이다. 외부의도는 목표가 스스로 실현되는 이치에 주의를\r
+		모으는 것이다. 내부의도는 목표를 성취하는 반면에 외부의도는 목표를 선택한다.\r
+		내부의도가 행동하겠다는 결정이라고 한다면 외부의도는 가지겠다는 결정이다.\r
+	</p>\r
+\r
+	<p>\r
+		<span class="post-underline">외부의도는 관찰자의 입장을 취한다.</span> 당신의 의지에 따라 일어나지만 그것은\r
+		저절로 일어나는 일이다. 당신은 무엇을 변화시키지 않는다. 대신 선택한다.\r
+		외부의도는 내가 날고 있다고 주장하지 않고 내가 날고 있는 것을 인지한다.\r
+	</p>\r
+\r
+	<p>\r
+		<span class="post-underline"\r
+			>꿈속에서 졸고 있는 마음은 공중을 나는 것이 가능하다고 믿을 수 있다.</span\r
+		>\r
+		하지만 아무리 설득하려고 애써도 깨어있는 마음으로서는 난다는 것은 상상하기\r
+		힘든 일이다. 그래서 단지 <span class="post-underline">믿음이 아니라 지식이 있어야 한다.</span> 믿음은 의심의\r
+		가능성을 내포한다. 지식은 의심을 쫓아내준다. 믿는 것이 아니라 안다.\r
+	</p>\r
+\r
+	<p>\r
+		꿈속에서 날기 위해서는 약간의 외부의도만 있으면 충분한 반면에 불활성 물질\r
+		현실의 세계에서는 의도가 절대적으로 순수해야 한다. <span class="post-underline">순수한 의도를\r
+		얻기란 불가능하지만 다행히 목표를 이루는 데는 '2등급' 의도만 가지고도\r
+		충분하다. 불활성 물질이 '제대로 펼쳐져서' 실현되는 데는 단지 약간의 시간이\r
+		필요할 뿐이다.</span>\r
+	</p>\r
+\r
+	<p>\r
+		즉각적인 응답을 기대하지 말라. 당신이 주문한 것이 올 때까지는 오래 기다려야\r
+		할 수도 있다. 모든 것은 의도의 순수성에 달려 있다. 의도에서 욕망을 반드시\r
+		씻어내야 한다. <span class="post-underline">일자리를 구한다고 가정했을 때, 당신은 고용되기 위해서가\r
+		아니라 면접을 하기 위해서 면접장에 간다.</span> 자신이 주문한 것에 무관심할수록\r
+		그것은 더 빨리 이루어진다.\r
+	</p>\r
+\r
+	<p>\r
+		의도의 균형을 유지해야 한다. 의도는 믿지도 않고 소망하지도 않는다. 의도는\r
+		단지 행동할 뿐이다. 의도는 모든 것이 이미 결정되어 있다고 생각한다. 팔을\r
+		들어 머리를 긁고자 하는 의도는 잉여 포텐셜이 전혀 없는 의도의 한 보기다.\r
+		아무런 욕망도 없이 오로지 순수한 의도만을 가져야 한다. 거기에 이르기\r
+		위해서는 내적, 외적 중요성을 낮춰야 한다. 중요성을 처리하는 간단하고\r
+		효과적인 처방이 하나 있다. 미리 패배를 받아들이라. 일단 패배를 받아들였으면\r
+		더 이상은 패배도 성공도 생각지 말고 그저 목표를 향해 계속 걸어가라. 잡지를\r
+		사러 신문 가판대로 걸어가듯이 목표를 향해 걸어가라. 가판대에 신문을 사러\r
+		가는 데에 결단성과 힘이 필요한 것은 아니다. 여기에 욕망은 이미 없다. 욕망은\r
+		내가 그렇게 하기로 결정하던 순간까지만 있었다. 욕망이 충족되지 않을 가능성은\r
+		매우 희박하다.\r
+		<span class="post-underline"\r
+			>그 가판대에 신문이 없더라도 당신은 흥분하지 않는다. 설사 충족되지\r
+			않는다고 하더라도 무슨 재앙이 일어나는 것은 아니다. 다른 데 가서 사면\r
+			그만이다.</span\r
+		>\r
+		의도가 욕망으로부터 완전히 자유로운 것은 이 때문이다. 그래서 그것은 잉여\r
+		포텐셜로부터도 자유롭다.\r
+	</p>\r
+\r
+	<p>\r
+		트랜서핑의 핵심은 내부의도를 거부하고 외부의도를 사용하는 것이다. 내부의도가\r
+		끝나고 외부의도가 시작되는 경계선을 긋기는 어렵다. 내부의도는 마음(의식)이\r
+		영혼(잠재의식)과 합쳐서 일치되고 조율될 때 외부의도로 변한다. 이 경계선은\r
+		감지되지 않는다. 그것은 꿈속에서 의도적으로 자신을 공중에 띄워서 나는 느낌과\r
+		가장 비슷할 것이다. 또는 자유낙하의 느낌이나, 자전거 타기에 처음 성공했을\r
+		때의 느낌과도 비슷하다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">슬라이드</h2>\r
+\r
+	<p>\r
+		인간은 백 퍼센트 객관적으로 주변 세계를 인식할 수 없다. 이것은 슬라이드\r
+		영사기와도 유사하다. 고르고 규칙적인 빛이 슬라이드 필름을 통과하면 화면 위의\r
+		그림으로 변한다. 인식이 스크린이라면 빛은 우리 주변 세계이고, 슬라이드는\r
+		세계에 대한 우리의 이해 곧 세계관이라고 할 수 있다.\r
+	</p>\r
+\r
+	<p>\r
+		슬라이드는 현실의 왜곡된 표현이다. 슬라이드는 당신의 머릿속에는 있지만 다른\r
+		사람들 속에는 없는 무엇이다. 당신이 자신의 못생긴 외모에 대한 슬라이드를\r
+		마음속에 끼우고 있다고 가정해 보자. 당신은 다른 사람들이 보여주는 모든 것을\r
+		그 슬라이드를 통해 인식한다. 우호적인 미소는 비웃음으로 바뀌어 보인다.\r
+		실제로는 그런 생각을 품지 않았다. 그것은 당신의 머릿속에만 있는 것이다.\r
+		그것은 당신의 슬라이드다.\r
+	</p>\r
+\r
+	<p>\r
+		슬라이드를 만들어내는 것은 중요성이다. 외모에 신경이 쓰인다는 것은 외모가\r
+		당신에게 중요하기 때문이다. 슬라이드는 당신의 머릿속에 들어 있다. 슬라이드는\r
+		상상의 산물이며 그런 의미에서 환영이라고 봐도 된다.\r
+		<span class="post-underline"\r
+			>이런 종류의 환영은 삶에 실질적인 영향을 미친다.</span\r
+		>\r
+		이것이 외부의도가 그 사람의 의지에 반하여 파괴적으로 작용하는 예다.\r
+	</p>\r
+\r
+	<p>\r
+		부정적 슬라이드는 대개 영혼과 마음의 일치를 불러일으킨다. 이럴 경우\r
+		외부의도는 거침없이 순조롭게 작용한다. 다만 그 전이는 점진적으로 일어난다.\r
+		슬라이드에 지나친 중요성을 부여하기를 그치거나 긍정적 슬라이드를 만들어내는\r
+		쪽으로 방향을 돌릴 때까지 계속된다.\r
+	</p>\r
+\r
+	<p>\r
+		당신이 할 일은 자신의 좋아하는 면이나 가지고 싶은 면으로 주의를 전환시키는\r
+		것이다. 긍정적 슬라이드는 부정적 슬라이드가 그랬던 것과 마찬가지로 당신의\r
+		행동과 태도에 직접적인 힘을 미칠 것이다. 당신은 뜻밖에, 무의식적으로\r
+		슬라이드에 맞추어 행동하게 될 것이다. 그리고 중요한 일은 모두 외부의도가\r
+		슬라이드의 이미지에 맞추어 해줄 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		<span class="post-underline"\r
+			>슬라이드가 해체될 때까지 우리는 만들어낸 이미지를 생각 속에 계속\r
+			재생시켜야 한다.</span\r
+		>\r
+		시간이 지나면 슬라이드는 실질적으로 당신의 일부가 될 것이고, 그러면 그것은\r
+		더 이상 슬라이드가 아니다. 원하는 것을 얻으면 그것은 더 이상 당신에게\r
+		중요하지 않게 될 것이다. 중요성은 사라지고 슬라이드도 해체되지만 임무는\r
+		완수되어 있을 것이다. 그것은 당신의 영혼이 마음과 일치했다는 뜻이다.\r
+	</p>\r
+\r
+	<p>\r
+		마음이 슬라이드를 현실로 만들려고 애쓰는 동안에도 영혼 깊은 곳에서 당신은\r
+		이것이 한갓 현실로 가장한 게임일 뿐이라는 사실을 알고 있다. 하지만 당신이\r
+		조직적으로 용의주도하게 이 이미지를 계속 굳혀 가면 결국 영혼은 거기에\r
+		익숙해져서 그 슬라이드를 자신의 빼놓을 수 없는 일부로 받아들이게 될 것이다.\r
+		외부의도는 슬라이드를 금방 인식하지 못하고 서서히 인식한다는 점을 유념하라.\r
+		슬라이드의 이미지를 잊지 말고 그것을 늘 의식하라. 슬라이드의 가장 중요한\r
+		성질은 그 내용이 외부의도에 의해서 서서히, 그러나 어김없이 현실화된다는\r
+		것이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">안락지대</h2>\r
+\r
+	<p>\r
+		자신이 성공하리라는 생각에 익숙해져야만 한다. 부자가 되고 싶어 하면서 비싼\r
+		가게에 들어가기를 겁낸다면 아무런 일도 일어나지 않을 것이다. 비싼 가게에서\r
+		눈곱만큼이라도 불편을 느낀다면 당신은 비싼 물건을 소유하도록 스스로 허락할\r
+		준비가 되어 있지 않은 것이다. 비싼 가게의 물건을 살 수 있다고 자신을\r
+		확신시키려 애쓰는 자기암시 훈련은 물론 아무짝에도 소용없다. 호주머니엔 빈\r
+		지갑밖에 없으면서 비싼 물건을 살 수 있다고 자신을 확신시키려고 애써야 한다는\r
+		것도 아니다. 요점은 그게 아니다. 당신은 어쨌든 간에 소원은 실현되리라는 말에\r
+		대해 영혼 깊은 곳에서 늘 얼마간의 의심을 품고 있다. 욕망을 이루기 위해\r
+		행동할 준비가 다 되어 있다고 해도 그것만으로는 충분하지 않다. 의심한다는\r
+		것은 자신이 자격이 있다고 느끼도록 스스로 허용하지 않는 것이다. 백만장자가\r
+		된 사람들은 원하는 것을 가지도록 스스로 허용했다는 점에서 남다른 것이다.\r
+		당신도 자신에게 가지도록 허락해야 한다. 이 상태는 자전거를 처음으로 탈 수\r
+		있게 되었을 때의 기분과도 흡사하다. 의심과 주저와 반론이 사라져 버렸다. 남아\r
+		있는 유일한 것은 고요한 명료함, 곧 앎이었다.\r
+		<span class="post-underline"\r
+			>말 없는 명료한 느낌, 뭔가를 믿지 않고 아는 것, 주저 없는 자신감이 바로\r
+			영혼과 마음이 일치된 상태다.</span\r
+		>\r
+		이 같은 상태는 자신이 마치 우주를 지배하는 무언의 힘의 필수불가결한 일부가\r
+		된 것 같은 느낌이다.\r
+	</p>\r
+\r
+	<p>\r
+		이루기 힘든 꿈을 가진다는 것이 단지 개인적 선택의 문제일 뿐이라는 것을\r
+		당신은 가슴속에서 믿지 않는다.\r
+		<span class="post-underline"\r
+			>하지만 긍정적 슬라이드가 이 믿기지 않는 것을 당신의 안락지대 안으로\r
+			들여놓을 수 있도록 도와줄 것이다.</span\r
+		>\r
+		모든 꿈을 이룰 수 있다는 생각이 더 이상 거북하게 느껴지지 않게 되면 망설임이\r
+		사라지고 믿음은 앎으로 바뀔 것이다. 영혼은 마음과 일치를 이뤄내고, 그것이\r
+		당신이 가지기로 결정하는 때다.\r
+	</p>\r
+\r
+	<p>\r
+		영혼을 설득하려 드는 것은 부질없는 짓이다. 영혼은 생각하지 않고 그저\r
+		알뿐이다. 영혼은 길들일 수 있을 뿐이다.\r
+		<span class="post-underline"\r
+			>영혼은 새로운 안락지대에 익숙해져야 한다. 슬라이드가 필요한 것은 이\r
+			때문이다. 슬라이드의 도움을 받으면 영혼과 마음의 일치가 서서히 이루어진다.\r
+			이 요새는 오랜 기간의 지배로써만 빼앗을 수 있다.</span\r
+		>\r
+		머릿속에 당신의 꿈의 슬라이드를 만들어내고 그것을 의식 속에 늘 간직하라.\r
+		외부의 관찰자처럼 슬라이드를 바라보고만 있지 말라. 그 속에 자신을 몰입시키고\r
+		최소한 가상으로라도 그 속에서 살라. 슬라이드는 오랫동안 용의주도하게\r
+		상영되었을 때만 결실을 가져올 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		비싼 가게에서 물건 고르는 연습을 할 수도 있다. 돈에 대해서는 생각하지 말고\r
+		가격표도 들여다보지 말라. 목표는 돈이 아니라 돈으로 살 수 있는 그것이다.\r
+		그저 가까이에서 그것의 느낌을 느끼면서 골라보고, 말없이 살펴보면서 평가하는\r
+		것으로 충분하다. 그것을 가질 수 없는 사치품인 것처럼 바라보지 말고 사려는\r
+		물건처럼 바라보라. 당신이 그것의 주인인 것처럼 느껴라. 그것이 어떻게 당신의\r
+		것이 될지에 대해서는 걱정할 필요가 없다. 가지기로 결정하기만 하면 외부의도가\r
+		당신이 생각조차 못 한 방법을 찾아낼 것이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">과정</h2>\r
+\r
+	<p>\r
+		많은 사람들이 저지르는 또 한 가지 실수는 모든 것을 한꺼번에 얻어내려고\r
+		덤벼드는 것이다. 가능태 흐름은 당신이 여러 방향으로 동시에 헤엄쳐가도록\r
+		허락하지 않는다. 최종 목표가 한 발짝 밖에 있지 않은 한 최종 목표에 집중하는\r
+		것으로는 한 걸음도 나아가지 못한다. 목표에 집중하는 것은 욕망이다. 목표를\r
+		향한 움직임에 집중하는 것은 의도다. 심상의 초점은 목표를 향해 다가가는\r
+		과정에 있다.\r
+		<span class="post-underline"\r
+			>욕망이 의도와 다른 것만큼이나, 목표 자체를 심상화하는 것은 목표를 이루는\r
+			과정을 심상화하는 것과 같지 않다.</span\r
+		>\r
+		팔을 올리려고 할 때, 팔을 올리고 싶어 한다는 것을 생각하고, 목표인 올려진\r
+		팔을 상상해 보라. 그리고 팔을 올려라. 앞부분에서는 욕망이 작용하고 있지만\r
+		이루어진 일은 아무것도 없다. 뒷부분에서는 의도가 작용하고 있는데, 의도는\r
+		팔이 올라가고 있는 동안 계속 작용하고 있다. 목표는 당신이 추구해야 할\r
+		무엇이기는 하지만 당신이 실제로 집중하고 있는 것은 목표에 다가가는\r
+		과정이라는 것을 알 수 있다. 결국 어디에 도달하기 위해서는 그것을 그저 원하고\r
+		자신이 거기에 있는 모습을 그리는 것만으로는 안 된다. 필요한 단계를\r
+		밟아가야만 하는 것이다. 즉 그 과정을 실천해야 한다.\r
+	</p>\r
+\r
+	<p>\r
+		무엇을 하든지 간에 그것이 오래 걸리는 과정이라면 그 과정 자체를 심상화하는\r
+		것이 도움이 된다.\r
+		<span class="post-underline"\r
+			>작업을 하는 중간중간에 작품이 점점 완성되어가는 모습을 상상해 보라.</span\r
+		>\r
+		오늘 당신은 작품의 세밀한 부분을 조금 완성시켰다. 내일은 또 새로운 모습을\r
+		갖출 것이다. 당신의 작품이 변해가는 모습을 상상하라. 어떤 경우든 과정을\r
+		심상화하라. 단지 최종 결과만을 상상하는 것은 안락지대를 넓혀주고, 그것만도\r
+		상당한 일이긴 하지만, 목표에 다가가는 과정을 심상화한다면 당신은 외부의도의\r
+		작용을 한층 가속시키고 있는 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		전이는 점진적으로 행해져야 한다. 목표가 멀리 있는 인생 트랙 위에 놓여\r
+		있다면 그 인생 트랙에 맞추어 사념 에너지를 방사한다는 것은 실질적으로\r
+		불가능하다. 금방 도달할 수 없는 인생트랙을 따라 움직이는 과정을 심상화하는\r
+		것은 당신을 완전히 엉뚱한 곳으로 데려다 놓을 수 있다. 목표가 여러 단계를\r
+		거쳐서 이루어져야 하는 것이라면 당신은 싫어도 각각의 단계를 순서대로 다\r
+		밟아야 한다. 트랜서핑의 심상화란 전이 사슬 중 현재의 고리가 현실화되는\r
+		과정을 마음에 그리는 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		목표를 실현시킬 방법을 알지 못하더라도 조바심 내지 말라. 침착하고\r
+		용의주도하게 슬라이드를 계속 심상화하라. 목표가 안락지대 안으로 완전히\r
+		융화되어 들어오면 외부의도가 적당한 방법을 던져줄 것이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">에너지</h2>\r
+\r
+	<p>\r
+		자유에너지는 인체를 통해 흐르는 우주의 에너지다. 당신이 만일 아무것도 하고\r
+		싶은 것이 없다면 그것은 바로 자유에너지가 부족함을 뜻한다. 자유에너지가\r
+		없으면 의도도 있을 수 없다. 의식적으로 에너지를 얻기 위해서는 에너지 통로를\r
+		의도적으로 넓혀야 한다. 그리고 그 통로로 에너지가 흐르게 해야 한다.\r
+	</p>\r
+\r
+	<p>\r
+		편안하게 근육을 긴장시키지 말고 똑바로 선다. 숨을 들이마시면서 땅에서 위로\r
+		올라오는 에너지의 흐름을 상상한다. 땅에서 올라온 에너지는 회음을 통해 몸으로\r
+		들어와 척추를 타고 위로 올라온다. 그 에너지는 머리 꼭대기에서 밖으로 나가\r
+		하늘로 올라간다. 이제 숨을 내쉬면서 상상한다. 하늘 높이 어딘가에서 에너지의\r
+		흐름이 내려온다. 그 에너지는 당신의 머리 꼭대기를 통해 들어온 다음 척추를\r
+		따라 내려와 몸 밖으로 나와서 땅속으로 들어간다. 이 흐름을 육체적 감각으로\r
+		느껴야만 하는 것은 아니다. 이 과정을 그저 상상하는 것으로 충분하다.\r
+		<span class="post-underline"\r
+			>시간이 지나면 당신의 감각도 발달하여 이 흐름이 지나가는 것을 감지할 수\r
+			있게 될 것이다.</span\r
+		>\r
+	</p>\r
+\r
+	<p>\r
+		인체 안에는 자유에너지를 모아둘 장소가 없다. 자유에너지는 온 우주로부터 몸\r
+		안으로 들어온다. 통로가 충분히 넓으면 그 에너지를 얻을 것이고, 통로가 좁으면\r
+		에너지를 얻지 못한다. 그러므로 강한 생명력을 지닌다는 것은 무엇보다도 통로의\r
+		넓이에 관련된 문제다. 이 에너지가 자신에게 흘러 들어오게 하는 법을, 그리고\r
+		<span class="post-underline">자신이 우주의 일부임을</span> 느끼는 법을\r
+		배워야 한다. 에너지 차원에서 주변 세상과 일체감을 느끼는 경지에\r
+		이르기까지 꾸준히 나아가야 한다. 에너지를 축적하려고 하지 말라. 에너지가\r
+		반대 방향의 두 흐름으로 당신의 몸속을 자유롭게 통과하도록 허용하라. 하나의\r
+		에너지 덩어리가 되려고 애쓰지 말고 자신이 대양 속의 한 물방울이라고\r
+		상상하라. 당신은 우주의 일부다. 우주의 모든 에너지를 마음껏 가져다 쓸 수\r
+		있다. 몸에다 에너지를 비축하지 말라. 온 우주와 하나가 되어라. 그렇게 하면\r
+		외부의도를 약간만 움직여도 내부의도로는 결코 이룰 수 없는 일을 어느 정도의\r
+		시간 안에 해낼 수 있을 것이다.\r
+	</p>\r
+\r
+	<p>\r
+		두 흐름은 균형을 이루어야 한다. 그 중심점이 몸의 가운데쯤에 위치하도록 하라.\r
+		마음으로, 그 중심점으로부터 에너지 구체 전체로 에너지를 방사하라. 너무\r
+		열심히 해서는 안 된다. 부지런함으로는 목적에 도달하지 못할 것이다. 그냥\r
+		이따금씩 척추 앞쪽 부위를 마음으로 응시하라. 그리고 상승 흐름이 올라가고\r
+		하강 흐름이 내려가는 것을 마음으로 그려라. 자연스럽게 흐름을 느끼는 습관이\r
+		길러진다.\r
+	</p>\r
+\r
+	<p>\r
+		에너지는 중앙의 흐름 형태로 사람의 몸 안에 들어온다. 그런 다음 그 에너지는\r
+		사념에 의해 모양이 갖춰지고, 몸에서 빠져나갈 때 이 사념들에 상응하는\r
+		매개변수를 획득한다. 이렇게 변조된 에너지는 가능태 공간의 상응하는 섹터에\r
+		가해지고, 그 결과 그 가능태가 물질적으로 실현된다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">조율</h2>\r
+\r
+	<p>\r
+		조율이란 마치 목표가 이미 이루어진 양 목표를 생각하는 데서 기쁨을 얻는\r
+		것이다. 조율을 지키기 위해서는 중요성을 내려놓고 의식적으로 흐름을 따라가야\r
+		한다. 중요성을 내려놓기는 어렵다. 이 상황을 효과적으로 빠져나가기 위해서는\r
+		모든 것을 통제하려 드는 마음의 습관을 이용해서, 마음에게 새로운 게임을\r
+		권하면 된다. 나쁜 일이 일어나면 의식을 일깨워서 일어나고 있는 일의 중요성을\r
+		의식적으로 따져보라. 그리고 당신의 태도를 바꾸라.\r
+		<span class="post-underline"\r
+			>비관적으로 보이는 변화를 낙관적인 것으로 바라보기를 의도하라.</span\r
+		>\r
+	</p>\r
+\r
+	<p>\r
+		해야 할 유일한 일은 목표의 슬라이드를 상영하고 조율의 원리를 따르는 것이다.\r
+		<span class="post-underline"\r
+			>조율은 연습의 문제라는 것을 명심해야 한다. 지켜보는 자가 항상 깨어있어야\r
+			한다.</span\r
+		>\r
+		조율은 가능태 공간 속을 움직여가는 가장 효율적인 방법이다. 모든 사건을\r
+		긍정적으로 대하여 항상 바람직한 갈래로 올라서라.\r
+	</p>\r
+\r
+	<p>\r
+		파괴적인 펜듈럼과의 게임을 받아들이지 말고, 쓸모가 있어 보이는 펜듈럼을\r
+		찾아서 게임을 벌이라. 이것은 긍정적이고 좋은 것에 주의를 기울이는 습관을\r
+		갖는 것을 의미한다. 불행한 일이 일어날 때마다 그것이 당신을 옭아매려는\r
+		펜듈럼임을 기억하는 것, 그것을 배우는 일이 중요하다.\r
+		<span class="post-underline"\r
+			>그것을 기억하는 순간 의식적인 선택을 할 수 있게 된다.</span\r
+		>\r
+		그것을 기억해 내기만 한다면, 펜듈럼을 그냥 지나가게 하거나 꺼버리는 것은\r
+		쉬운 일이다. 당신에게는 펜듈럼을 받아들일지, 거부할지를 의식적으로 결정할 수\r
+		있는 자유가 있다. 아주 끈기 있고 단호하게 이 방법을 사용한다면 결국에는\r
+		새로운 습관이 낡은 습관을 몰아낼 것이다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">의심</h2>\r
+\r
+	<p>\r
+		영혼이 의심을 품는다면 영혼을 설득하거나 확신시키는 것은 불가능하다. 한 가지\r
+		근본적인 조치를 취해야 한다. 믿음이라는 말을 당신의 관념틀 속에서 없애버리고\r
+		그 대신 앎을 그 자리에 갖다 놓으라.\r
+		<span class="post-underline"\r
+			>마음이 이런저런 일이 일어나리라는 것을 그저 알기만 한다면 설득할 필요\r
+			없이 영혼은 거기에 동의할 것이다.</span\r
+		>\r
+		이 앎을 얻는 것. 그러려면 이 앎에 익숙해지고 그것을 받아들일 필요가 있다.\r
+		세월과 함께 사람들은 전화, 텔레비전, 비행기 등 온갖 희한한 것들에도 곧잘\r
+		익숙해진다. 슬라이드 기법을 적용하라. 이 앎을 당신의 머릿속에 품어서 먹이고\r
+		길러야 한다. 목표가 이루어질 것임을 당신이 알고 있음을 수시로 자신에게\r
+		상기시키는 것이다. 목표를 생각할 때 당신은 다시 자기도 모르게 습관적으로\r
+		의심을 하고 목표를 이룰 방법을 궁리하고 있는 것을 발견할 것이다. 의심은 물론\r
+		있을 것이지만 당신은 그것을 알아차리고 바로잡아야 한다. 의심은 점차 사라질\r
+		것이다. 의심을 쫓아내려고 너무 애쓰지만 말라. 의심의 존재에 저항하지도 말라.\r
+		의심을 하면 반드시 실패하는 것은 아니라고 자신을 다독거려라.\r
+	</p>\r
+\r
+	<p>\r
+		믿음의 미궁에는 빠져나갈 길이 없다. 그러나 그 미궁의 벽도 외부의도가 사과가\r
+		하늘로 떨어지는 것을 당신 눈앞에 보여줄 때면 허물어지게 되리라는, 그런\r
+		희망은 있어야 한다. 이런 희망조차 없다면 트랜서핑을 실천하는 것은\r
+		불가능하다. 희망을 발견하면 마음이 발판을 얻고 영혼은 생기를 되찾는다.\r
+	</p>\r
+</div>\r
+`,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
 	<meta name="post-id" content="7">\r
 	<meta name="post-title" content="천재 광고기획자의 아이디어 생산 5단계 정리">\r
   <meta name="post-published" content="2026-04-26T23:28">\r
@@ -276,7 +881,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		만들 방법은 없어질 수도 있다."\r
 	</blockquote>\r
 </div>\r
-`,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
+`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
 	<meta name="post-id" content="5">\r
 	<meta name="post-title" content="채권 듀레이션 정리">\r
   <meta name="post-published" content="2026-04-18T23:03">\r
@@ -532,7 +1137,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.\r
 	</p>\r
 </div>\r
-`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
+`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
 	<meta name="post-id" content="11" />\r
 	<meta name="post-title" content="중력을 소진시키는 방법" />\r
 	<meta name="post-published" content="2026-05-27T21:30" />\r
@@ -599,7 +1204,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		사귀었어. 걜 뺏고 싶었지."\r
 	</blockquote>\r
 </div>\r
-`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="14" />\r
 	<meta name="post-title" content="시간이 쓸어내린 먼지" />\r
 	<meta name="post-published" content="2026-06-08T20:03" />\r
@@ -665,7 +1270,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.\r
 	</p>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="2" />\r
 	<meta\r
 		name="post-title"\r
@@ -782,7 +1387,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		바라보지 않았을까. 그렇게 믿고 싶다.\r
 	</p>\r
 </div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
 	<meta name="post-id" content="8" />\r
 	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
 	<meta name="post-published" content="2026-05-09T21:15" />\r
@@ -837,7 +1442,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
 	</p>\r
 </div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="0" />\r
 	<meta name="post-title" content="까만 우산" />\r
 	<meta name="post-published" content="2025-05-10T18:41" />\r
@@ -873,7 +1478,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		수 있는 사람은 많지 않겠지.\r
 	</p>\r
 </div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -1069,7 +1674,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -1325,7 +1930,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		}\r
 	</code></pre>\r
 </div>\r
-`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
+`,pr=s({default:()=>mr}),mr=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -1393,7 +1998,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,pr=s({default:()=>mr}),mr=`<div class="post-meta">\r
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
@@ -1463,7 +2068,7 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 		>\r
 	</p>\r
 </div>\r
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
 	<meta name="post-id" content="15" />
 	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
 	<meta name="post-published" content="2026-06-20T11:41" />
@@ -1521,7 +2126,7 @@ target="_blank">
 "美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
 </p>
 </div>
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
+`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -1632,7 +2237,7 @@ target="_blank">
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -1721,21 +2326,21 @@ target="_blank">
 		>\r
 	</p>\r
 </div>\r
-`;function xr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Sr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/7/index.html":qn,"../content/archives/investment/5/index.html":Yn,"../content/essays/culture/11/index.html":Zn,"../content/essays/culture/14/index.html":$n,"../content/essays/culture/2/index.html":tr,"../content/essays/culture/8/index.html":rr,"../content/essays/daily/0/index.html":ar,"../content/journals/development/1/index.html":sr,"../content/journals/development/3/index.html":lr,"../content/journals/investment/10/index.html":dr,"../content/journals/investment/13/index.html":pr,"../content/journals/investment/15/index.html":hr,"../content/journals/investment/6/index.html":_r,"../content/journals/investment/9/index.html":yr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=xr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Cr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Cr.common?.siteName;function wr(e){e.innerHTML=Cr.navigation.map(e=>`
+`;function Cr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function wr(){let e=Object.assign({"../content/archives/development/4/index.html":Un,"../content/archives/growth/12/index.html":Gn,"../content/archives/growth/16/index.html":qn,"../content/archives/growth/7/index.html":Yn,"../content/archives/investment/5/index.html":Zn,"../content/essays/culture/11/index.html":$n,"../content/essays/culture/14/index.html":tr,"../content/essays/culture/2/index.html":rr,"../content/essays/culture/8/index.html":ar,"../content/essays/daily/0/index.html":sr,"../content/journals/development/1/index.html":lr,"../content/journals/development/3/index.html":dr,"../content/journals/investment/10/index.html":pr,"../content/journals/investment/13/index.html":hr,"../content/journals/investment/15/index.html":_r,"../content/journals/investment/6/index.html":yr,"../content/journals/investment/9/index.html":xr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Cr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Tr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Tr.common?.siteName;function Er(e){e.innerHTML=Tr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Tr()} ${e.displayName}</h2>
+					<h2 class="category-title">${Dr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${Cr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Er()} ${t.displayName}
+								<a href="${Tr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${Or()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Tr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function Dr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Er(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function Or(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function Dr(e,t,n,r){wr(n)}function Or(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function kr(){let e=Sr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Dr(e,n,i,o),Or(e,o)}function Ar(){Hn.highlightAll(),kr()}function jr(){Ar()}document.addEventListener(`DOMContentLoaded`,jr);
+	</svg>`}function kr(e,t,n,r){Er(n)}function Ar(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function jr(){let e=wr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),kr(e,n,i,o),Ar(e,o)}function Mr(){Hn.highlightAll(),jr()}function Nr(){Mr()}document.addEventListener(`DOMContentLoaded`,Nr);
