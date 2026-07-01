@@ -19,17 +19,19 @@
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Linux에서 오픈 소스 CANable 사용하기 - 닫힌 파편</title>
+		<title>자주 쓰는 Git 명령어 모음 - 닫힌 파편</title>
 		<script type="module" crossorigin src="/assets/index-CewHmZGj.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
 	
-    <link rel="canonical" href="https://tarenx.com/archives/development/4/" />
-    <meta name="description" content="" />
+    <link rel="canonical" href="https://tarenx.com/archives/development/19/" />
+    <meta name="description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
+		꺼내 쓰는 개인용 치트시트다." />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://tarenx.com/archives/development/4/" />
-    <meta property="og:title" content="Linux에서 오픈 소스 CANable 사용하기" />
-    <meta property="og:description" content="" />
-    <meta property="article:published_time" content="2026-03-28T19:23" />
+    <meta property="og:url" content="https://tarenx.com/archives/development/19/" />
+    <meta property="og:title" content="자주 쓰는 Git 명령어 모음" />
+    <meta property="og:description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
+		꺼내 쓰는 개인용 치트시트다." />
+    <meta property="article:published_time" content="2026-07-01T20:40" />
 </head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
@@ -198,100 +200,190 @@
 
     <article class="post-detail">
       <header class="post-header">
-				<div class="post-tags">#Linux  #CAN</div>
-				<h1 class="post-title">Linux에서 오픈 소스 CANable 사용하기</h1>
-				<time class="post-datetime" datetime="2026-03-28T19:23">2026년 3월 28일 19시 23분</time>
+				<div class="post-tags">#Git</div>
+				<h1 class="post-title">자주 쓰는 Git 명령어 모음</h1>
+				<time class="post-datetime" datetime="2026-07-01T20:40">2026년 7월 1일 20시 40분</time>
       </header>
 
       <hr />
 
 			<div class="post-body">
         <div class="post-content">
-	<h2 class="post-tab">1. 의존성 설치.</h2>
-	<div>
-		sudo apt-get update<br />
-		sudo apt-get install can-utils
-	</div>
+	<p>
+		매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
+		꺼내 쓰는 개인용 치트시트다.
+	</p>
 
-	<h2 class="post-tab">2. CANable USB 연결.</h2>
+	<h2 class="post-tab">1. 초기 설정.</h2>
+	<pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)
+git config --global user.name "이름"
+git config --global user.email "메일주소"
 
-	<h2 class="post-tab">3. 연결 확인.</h2>
-	<div>ls /dev/ttyACM*</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_ttyACM.png"
-			alt="ttyACM 출력 예시"
-			width="200"
-		/>
-		<figcaption></figcaption>
-	</figure>
+# 기본 브랜치 이름을 main으로 설정한다
+git config --global init.defaultBranch main
 
-	<h2 class="post-tab">4. idvendor, idproduct 확인.</h2>
-	<div>lsusb</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_lsusb.png"
-			alt="lsusb 출력 예시"
-			width="600"
-		/>
-		<figcaption></figcaption>
-	</figure>
+# 현재 설정 전체를 확인한다
+git config --list</code></pre>
 
-	<h2 class="post-tab">5. serial 확인.</h2>
-	<div>sudo lsusb -d 16d0:117e -v | grep -i serial</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_serial.png"
-			alt="serial 출력 예시"
-			width="400"
-		/>
-		<figcaption></figcaption>
-	</figure>
+	<h2 class="post-tab">2. 저장소 시작.</h2>
+	<pre><code class="language-bash"># 현재 폴더를 새 저장소로 초기화한다
+git init
 
-	<h2 class="post-tab">6. .rules 파일 생성.</h2>
-	<div>
-		제조사 기준 (교체 대응형) <br /><br />
-		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="117e", SYMLINK+="can0", MODE:="0777" > can0.rules<br />
-	</div>
-	<div>
-		시리얼 기준 (장치 특정형) <br /><br />
-		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{serial}=="207B30705330", SYMLINK+="can0", MODE:="0777" > can0.rules<br />
-	</div>
+# 원격 저장소를 복제한다
+git clone &lt;url&gt;
 
-	<h2 class="post-tab">7. .rules 파일 복사.</h2>
-	<div>sudo cp can0.rules /etc/udev/rules.d/</div>
+# 히스토리를 최소화해 얕게 복제한다
+git clone --depth 1 &lt;url&gt;</code></pre>
 
-	<h2 class="post-tab">8. 적용.</h2>
-	<div>sudo udevadm control --reload-rules</div>
+	<h2 class="post-tab">3. 상태 확인.</h2>
+	<pre><code class="language-bash"># 작업 트리 상태를 확인한다
+git status
 
-	<h2 class="post-tab">9. USB 재연결.</h2>
+# 한 줄로 간결하게 확인한다
+git status -s
 
-	<h2 class="post-tab">10. 인터페이스 생성 및 띄우기.</h2>
-	<div>
-		sudo slcand -o -c -s5 /dev/can0 can0<br />
-		sudo ifconfig can0 up<br />
-		ifconfig
-	</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_interface.png"
-			alt="interface 출력 예시"
-			width="600"
-		/>
-		<figcaption></figcaption>
-	</figure>
+# 스테이징 전 변경 사항을 비교한다
+git diff
 
-	<h2 class="post-tab">11. 테스트.</h2>
-	<div>터미널 A / sudo candump can0</div>
-	<div>터미널 B / sudo cansend can0 000#R</div>
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/archives/development/4/result_test.png"
-			alt="test 출력 예시"
-			width="200"
-		/>
-		<figcaption></figcaption>
-	</figure>
+# 스테이징된 변경 사항을 비교한다
+git diff --staged</code></pre>
+
+	<h2 class="post-tab">4. 스테이징과 커밋.</h2>
+	<pre><code class="language-bash"># 특정 파일을 스테이징한다
+git add &lt;파일&gt;
+
+# 변경 사항 전체를 스테이징한다
+git add .
+
+# 커밋을 생성한다
+git commit -m "메시지"
+
+# 스테이징과 커밋을 한 번에 한다 (추적 중인 파일 한정)
+git commit -am "메시지"
+
+# 직전 커밋에 현재 변경을 더하고 메시지도 수정한다
+git commit --amend
+
+# 직전 커밋에 현재 변경만 더한다 (메시지는 그대로 둔다)
+git commit --amend --no-edit</code></pre>
+
+	<h2 class="post-tab">5. 브랜치.</h2>
+	<pre><code class="language-bash"># 브랜치 목록을 확인한다
+git branch
+
+# 원격 포함 전체 브랜치를 확인한다
+git branch -a
+
+# 브랜치를 생성하고 이동한다
+git switch -c &lt;브랜치&gt;
+
+# 기존 브랜치로 이동한다
+git switch &lt;브랜치&gt;
+
+# 브랜치를 삭제한다
+git branch -d &lt;브랜치&gt;
+
+# 병합하지 않은 브랜치를 강제로 삭제한다
+git branch -D &lt;브랜치&gt;</code></pre>
+
+	<h2 class="post-tab">6. 병합과 리베이스.</h2>
+	<pre><code class="language-bash"># 현재 브랜치에 다른 브랜치를 병합한다
+git merge &lt;브랜치&gt;
+
+# 다른 브랜치의 여러 커밋을 하나로 합쳐 가져온다 (스테이징만 되므로 커밋이 필요하다)
+git merge --squash &lt;브랜치&gt;
+git commit -m "메시지"
+
+# 커밋 히스토리를 한 줄로 재정렬하며 병합한다
+git rebase &lt;브랜치&gt;
+
+# 충돌을 해결한 뒤 리베이스를 계속한다
+git rebase --continue
+
+# 리베이스를 중단하고 원래대로 되돌린다
+git rebase --abort</code></pre>
+
+	<h2 class="post-tab">7. 원격 저장소.</h2>
+	<pre><code class="language-bash"># 등록된 원격을 확인한다
+git remote -v
+
+# 원격을 추가한다
+git remote add origin &lt;url&gt;
+
+# 원격 변경을 병합 없이 내려받는다
+git fetch
+
+# 원격 변경을 내려받아 병합한다
+git pull
+
+# 커밋을 올린다
+git push
+
+# 새 브랜치를 원격에 처음 올리며 추적을 설정한다 (이후로는 git push, git pull만 써도 된다)
+git push -u origin &lt;브랜치&gt;</code></pre>
+
+	<h2 class="post-tab">8. 되돌리기.</h2>
+	<pre><code class="language-bash"># 작업 트리의 파일 변경을 취소한다 (수정을 폐기한다)
+git restore &lt;파일&gt;
+
+# 스테이징만 취소한다 (변경은 유지한다)
+git restore --staged &lt;파일&gt;
+
+# 직전 커밋을 취소하되 변경은 스테이징 상태로 유지한다
+git reset --soft HEAD~1
+
+# 직전 커밋과 변경을 모두 폐기한다 (주의한다)
+git reset --hard HEAD~1
+
+# 특정 커밋을 취소하는 새 커밋을 생성한다 (히스토리를 보존한다)
+git revert &lt;커밋&gt;</code></pre>
+
+	<h2 class="post-tab">9. 임시 저장.</h2>
+	<pre><code class="language-bash"># 작업 중인 변경을 임시로 치워둔다
+git stash
+
+# 추적하지 않는 파일까지 포함한다
+git stash -u
+
+# 저장 목록을 확인한다
+git stash list
+
+# 가장 최근 저장을 복원하고 목록에서 제거한다
+git stash pop
+
+# 복원하되 목록에는 남겨둔다
+git stash apply</code></pre>
+
+	<h2 class="post-tab">10. 히스토리 확인.</h2>
+	<pre><code class="language-bash"># 커밋 히스토리를 확인한다
+git log
+
+# 한 줄 요약으로 확인한다
+git log --oneline
+
+# 브랜치 그래프까지 함께 확인한다
+git log --oneline --graph --all
+
+# 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다
+git blame &lt;파일&gt;</code></pre>
+
+	<h2 class="post-tab">11. 태그.</h2>
+	<pre><code class="language-bash"># 태그 목록을 확인한다
+git tag
+
+# 주석 있는 태그를 생성한다
+git tag -a v1.0.0 -m "메시지"
+
+# 태그를 원격에 올린다
+git push origin v1.0.0
+
+# 모든 태그를 원격에 올린다
+git push --tags</code></pre>
+
+	<p class="post-ref">
+		* 참조 <br />
+		<a href="https://git-scm.com/doc" target="_blank">Git 공식 문서 (git-scm.com/doc)</a>
+	</p>
 </div>
       </div>
     </article>
@@ -332,8 +424,8 @@
 				
 					<li class="item">
 						<div>
-							<a href="/archives/development/19/" class="post-link" data-id="19" >
-								<span class="post-title ">자주 쓰는 Git 명령어 모음</span>
+							<a href="/archives/development/19/" class="post-link" data-id="19" style="pointer-events: none;">
+								<span class="post-title active">자주 쓰는 Git 명령어 모음</span>
 							</a>
 							<time class="post-datetime" datetime="2026-07-01T20:40">26. 07. 01.</time>
 						</div>
@@ -341,8 +433,8 @@
 				
 					<li class="item">
 						<div>
-							<a href="/archives/development/4/" class="post-link" data-id="4" style="pointer-events: none;">
-								<span class="post-title active">Linux에서 오픈 소스 CANable 사용하기</span>
+							<a href="/archives/development/4/" class="post-link" data-id="4" >
+								<span class="post-title ">Linux에서 오픈 소스 CANable 사용하기</span>
 							</a>
 							<time class="post-datetime" datetime="2026-03-28T19:23">26. 03. 28.</time>
 						</div>

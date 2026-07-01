@@ -19,19 +19,19 @@
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>시간이 쓸어내린 먼지 - 닫힌 파편</title>
+		<title>헷갈리는 CSS 선택자와 변수 정리 - 닫힌 파편</title>
 		<script type="module" crossorigin src="/assets/index-CewHmZGj.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
 	
-    <link rel="canonical" href="https://tarenx.com/essays/culture/14/" />
-    <meta name="description" content="부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고
-		자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다." />
+    <link rel="canonical" href="https://tarenx.com/archives/development/20/" />
+    <meta name="description" content="속성보다 매번 헷갈리는 건 선택자 쪽이다. 결합자와 가상 클래스, 가상 요소,
+		그리고 커스텀 프로퍼티를 상황별로 정리했다." />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://tarenx.com/essays/culture/14/" />
-    <meta property="og:title" content="시간이 쓸어내린 먼지" />
-    <meta property="og:description" content="부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고
-		자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다." />
-    <meta property="article:published_time" content="2026-06-08T20:03" />
+    <meta property="og:url" content="https://tarenx.com/archives/development/20/" />
+    <meta property="og:title" content="헷갈리는 CSS 선택자와 변수 정리" />
+    <meta property="og:description" content="속성보다 매번 헷갈리는 건 선택자 쪽이다. 결합자와 가상 클래스, 가상 요소,
+		그리고 커스텀 프로퍼티를 상황별로 정리했다." />
+    <meta property="article:published_time" content="2026-07-01T20:50" />
 </head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
@@ -200,9 +200,9 @@
 
     <article class="post-detail">
       <header class="post-header">
-				<div class="post-tags">#성난 군중으로부터 멀리</div>
-				<h1 class="post-title">시간이 쓸어내린 먼지</h1>
-				<time class="post-datetime" datetime="2026-06-08T20:03">2026년 6월 8일 20시 03분</time>
+				<div class="post-tags">#CSS</div>
+				<h1 class="post-title">헷갈리는 CSS 선택자와 변수 정리</h1>
+				<time class="post-datetime" datetime="2026-07-01T20:50">2026년 7월 1일 20시 50분</time>
       </header>
 
       <hr />
@@ -210,115 +210,180 @@
 			<div class="post-body">
         <div class="post-content">
 	<p>
-		부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고
-		자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.
+		속성보다 매번 헷갈리는 건 선택자 쪽이다. 결합자와 가상 클래스, 가상 요소,
+		그리고 커스텀 프로퍼티를 상황별로 정리했다.
 	</p>
 
-	<figure>
-		<img
-			src="https://raw.githubusercontent.com/taren250424/tarenx-assets/main/essays/culture/14/poster.jpg"
-			alt="성난 군중으로부터 멀리"
-			width="500"
-		/>
-		<figcaption>출처: 폭스 서치라이트 픽처스</figcaption>
-	</figure>
+	<h2 class="post-tab">1. 결합자.</h2>
+	<pre><code class="language-css">/* 자손 (하위 전체) */
+article p {}
 
+/* 자식 (바로 아래 한 단계만) */
+article &gt; p {}
+
+/* 인접 형제 (바로 다음에 오는 하나) */
+h2 + p {}
+
+/* 일반 형제 (뒤따르는 모든 형제) */
+h2 ~ p {}</code></pre>
+
+	<h2 class="post-tab">2. 가상 클래스 (콜론 하나).</h2>
 	<p>
-		양을 몰던 가브리엘은 우연히 숲에서 말을 타는 한 여자를 보게 된다. 여자는 말
-		위에서 대담하게 몸을 뒤로 젖힌 채 나뭇가지 사이를 지나가고 있었다. 여자가
-		그곳을 빠져나오며 몸을 일으키던 순간, 매고 있던 스카프가 나뭇가지에 걸린다.
+		요소의 상태나 위치를 조건으로 거는 선택자다. 콜론을 하나 붙인다.
 	</p>
+	<pre><code class="language-css">/* 첫 번째, 마지막 자식 */
+li:first-child {}
+li:last-child {}
 
+/* n번째 자식 (홀수 / 3의 배수마다) */
+li:nth-child(odd) {}
+li:nth-child(3n) {}
+
+/* 조건에 해당하지 않는 요소 */
+li:not(.active) {}
+
+/* 여러 선택자를 하나로 묶는다 (특정도가 인자 중 가장 높은 값) */
+:is(h1, h2, h3) {}
+
+/* :is와 같지만 특정도가 항상 0이라 덮어쓰기 쉽다 */
+:where(h1, h2, h3) {}</code></pre>
 	<p>
-		어렸을 적 부모님을 잃은 에버딘은 혼자가 익숙했다. 가브리엘이 잃어버린 자신의
-		스카프를 건네며 청혼했을 때, 에버딘은 선뜻 대답하지 못했다. 가브리엘은
-		100에이커 농장에서 양 200마리를 키우는 건실한 사내였다. 빚을 다 갚고 나면
-		농장은 우리의 것이 될 테고, 그러면 편하게 취미를 즐기며 지내도 좋다고 했다.
-		그러나 그 말은 독립심 강한 에버딘을 망설이게 만든다.
+		:first-child는 타입이 아니라 순서를 본다. 아래 둘은 다르게 동작한다.
 	</p>
+	<pre><code class="language-css">/* 부모의 첫 자식이면서 그게 p일 때만 적용된다 */
+p:first-child {}
 
+/* 형제 중 p 타입의 첫 번째에 적용된다 */
+p:first-of-type {}</code></pre>
+
+	<h2 class="post-tab">3. 가상 요소 (콜론 두 개).</h2>
 	<p>
-		그날 밤,가브리엘의 양치기 개는 실수로 양들을 모두 절벽으로 내몬다. 양을 잃은
-		가브리엘은 파산하게 되고, 새로운 일자리를 찾아 떠나는 신세가 된다. 일할
-		사람을 구한다는 소문을 듣고 가브리엘은 웨더버리 농장을 찾는다. 밤중에 도착한
-		그곳은 불길에 휩싸여 있었다. 가브리엘은 불길이 더 번지기 전에 헛간 위로
-		올라가 지붕을 내리쳤다. 밤새 진화 작업을 마치고 얼굴이 까맣게 탄 가브리엘
-		앞에 선 것은 말끔한 차림의 에버딘이었다. 에버딘은 삼촌에게 농장을 물려받아
-		이곳의 새 주인이 되어있었다. 둘의 처지는 이전과 달랐고, 가브리엘은 더 이상
-		에버딘을 욕심낼 수 없었다.
+		가상 클래스가 상태를 고른다면, 가상 요소는 실제로 없는 요소를 만들어낸다.
+		그래서 콜론을 두 개 붙여 가상 클래스와 구분한다. <span class="post-underline">:before처럼 하나만 써도
+		옛 문법으로 동작하지만, 표준은 콜론 두 개다.</span>
 	</p>
+	<pre><code class="language-css">/* 요소 앞뒤에 콘텐츠를 삽입한다. content가 반드시 필요하다 */
+.tag::before { content: "#"; }
+.price::after { content: " 원"; }
 
+/* 첫 줄, 첫 글자에만 스타일을 준다 */
+p::first-line {}
+p::first-letter {}
+
+/* 사용자가 드래그로 선택한 영역 */
+::selection { background: yellow; }</code></pre>
+
+	<h2 class="post-tab">4. 속성 선택자.</h2>
+	<pre><code class="language-css">/* 해당 속성을 가진 요소 */
+a[target] {}
+
+/* 값이 정확히 일치하는 요소 */
+input[type="text"] {}
+
+/* 값이 특정 문자열로 시작 */
+a[href^="https"] {}
+
+/* 값이 특정 문자열로 끝남 */
+a[href$=".pdf"] {}
+
+/* 값에 특정 문자열이 포함 */
+a[href*="github"] {}</code></pre>
+
+	<h2 class="post-tab">5. 커스텀 프로퍼티 (변수).</h2>
 	<p>
-		가브리엘은 에버딘 밑에서 일을 시작했다. 불길에 농장이 잿더미가 되는 것을
-		막고, 클로버 잎을 먹고 죽어가는 양들을 살리고, 폭풍으로부터 수확물을
-		지켜냈지만, 에버딘은 그런 성실함 대신 화려함에 유혹된다. 붉은 군복을 입고
-		날카로운 칼을 휘둘러 손쉽게 에버딘의 마음을 사로잡아버린 사내를 보면서도,
-		가브리엘은 여전히 성실하게 신뢰할 수 있는 사람으로 남으려 한다.
+		:root에 선언하면 문서 전역에서 쓸 수 있다. var()로 꺼내 쓰며, SCSS 변수와
+		달리 런타임에 살아 있어 미디어 쿼리나 특정 범위에서 값을 덮어쓸 수 있다.
 	</p>
+	<pre><code class="language-css">/* :root에 전역 변수를 선언한다 */
+:root {
+	--main-color: #3b82f6;
+	--gap: 16px;
+}
 
-	<p>
-		변덕스러운 세상에 비웃음 당할 때, 우리는 시간에 기댈 수 있다. 흐르는 시간
-		안에서 일상은 반복되고, 반복은 끝끝내 포장을 벗겨내어 그 본질을 드러낸다.
-		주인이 된 에버딘을 가질 수 있을 거라 생각하지 않지만, 자신의 처지가
-		언제까지나 이렇지는 않을 거라는 가브리엘의 말은, 선언이나 위협이 아닌
-		스스로에게 건네는 다짐이었다. 눈에 띄지 않아도 언제나 그 자리를 지킨 손들을
-		비로소 에버딘이 알아본 것은, 극적인 어느 순간이 아니라 반복된 일상의
-		나날들이 쌓인 결과였다. 시간은 그렇게 조금씩 먼지를 쓸어내린다. 그리고
-		마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.
+/* var()로 꺼내 쓴다 */
+.button {
+	background: var(--main-color);
+	padding: var(--gap);
+}
+
+/* 변수가 없을 때 쓸 대체값을 두 번째 인자로 준다 */
+.card {
+	color: var(--text-color, #333);
+}
+
+/* 특정 범위에서만 값을 덮어쓴다 */
+.dark {
+	--main-color: #60a5fa;
+}</code></pre>
+
+	<h2 class="post-tab">6. calc.</h2>
+	<pre><code class="language-css">/* 서로 다른 단위를 섞어 계산한다 (연산자 양옆 공백은 필수다) */
+.sidebar {
+	width: calc(100% - 240px);
+}
+
+/* 변수와 함께 쓸 수 있다 */
+.box {
+	padding: calc(var(--gap) * 2);
+}</code></pre>
+
+	<p class="post-ref">
+		* 참조 <br />
+		<a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_blank">MDN CSS 문서 (developer.mozilla.org)</a>
 	</p>
 </div>
       </div>
     </article>
   <div class="post-bottom">
 		<div class="post-header">
-			<span class="post-title">에세이 / 문화</span>
-			<a href="/essays/culture/" class="btn-list">목록</a>
+			<span class="post-title">아카이브 / 개발</span>
+			<a href="/archives/development/" class="btn-list">목록</a>
 		</div>
 		<div class="post-list">
 			<ul class="post-list" data-page="1" style="">
 			
 					<li class="item">
 						<div>
-							<a href="/essays/culture/17/" class="post-link" data-id="17" >
-								<span class="post-title ">긴 계단 가장 높은 곳에서 맞던 밤바람</span>
+							<a href="/archives/development/22/" class="post-link" data-id="22" >
+								<span class="post-title ">IP 주소와 서브넷 마스크 정리</span>
 							</a>
-							<time class="post-datetime" datetime="2026-06-27T23:37">26. 06. 27.</time>
+							<time class="post-datetime" datetime="2026-07-01T21:10">26. 07. 01.</time>
 						</div>
 					</li>
 				
 					<li class="item">
 						<div>
-							<a href="/essays/culture/14/" class="post-link" data-id="14" style="pointer-events: none;">
-								<span class="post-title active">시간이 쓸어내린 먼지</span>
+							<a href="/archives/development/21/" class="post-link" data-id="21" >
+								<span class="post-title ">자주 쓰는 SCSS 문법 정리</span>
 							</a>
-							<time class="post-datetime" datetime="2026-06-08T20:03">26. 06. 08.</time>
+							<time class="post-datetime" datetime="2026-07-01T21:00">26. 07. 01.</time>
 						</div>
 					</li>
 				
 					<li class="item">
 						<div>
-							<a href="/essays/culture/11/" class="post-link" data-id="11" >
-								<span class="post-title ">중력을 소진시키는 방법</span>
+							<a href="/archives/development/20/" class="post-link" data-id="20" style="pointer-events: none;">
+								<span class="post-title active">헷갈리는 CSS 선택자와 변수 정리</span>
 							</a>
-							<time class="post-datetime" datetime="2026-05-27T21:30">26. 05. 27.</time>
+							<time class="post-datetime" datetime="2026-07-01T20:50">26. 07. 01.</time>
 						</div>
 					</li>
 				
 					<li class="item">
 						<div>
-							<a href="/essays/culture/8/" class="post-link" data-id="8" >
-								<span class="post-title ">삶은 역사적일 필요가 없다</span>
+							<a href="/archives/development/19/" class="post-link" data-id="19" >
+								<span class="post-title ">자주 쓰는 Git 명령어 모음</span>
 							</a>
-							<time class="post-datetime" datetime="2026-05-09T21:15">26. 05. 09.</time>
+							<time class="post-datetime" datetime="2026-07-01T20:40">26. 07. 01.</time>
 						</div>
 					</li>
 				
 					<li class="item">
 						<div>
-							<a href="/essays/culture/2/" class="post-link" data-id="2" >
-								<span class="post-title ">청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결</span>
+							<a href="/archives/development/4/" class="post-link" data-id="4" >
+								<span class="post-title ">Linux에서 오픈 소스 CANable 사용하기</span>
 							</a>
-							<time class="post-datetime" datetime="2026-03-24T21:58">26. 03. 24.</time>
+							<time class="post-datetime" datetime="2026-03-28T19:23">26. 03. 28.</time>
 						</div>
 					</li>
 				
