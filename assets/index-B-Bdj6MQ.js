@@ -2272,7 +2272,23 @@ $primary: #3b82f6;</code></pre>
 미학적인 새벽이었다.
 </p>
 </div>
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
+	<meta name="post-id" content="24" />
+	<meta name="post-title" content="손톱" />
+	<meta name="post-published" content="2026-07-04T08:42" />
+	<meta name="post-tags" content="" />
+</div>
+
+<div class="post-content">
+<p>
+바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을 것 같다. 
+</p>
+
+<p>
+가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의 모든 것이 좋아진다.
+</p>
+</div>
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -2468,7 +2484,7 @@ $primary: #3b82f6;</code></pre>
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
+`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -2724,7 +2740,7 @@ $primary: #3b82f6;</code></pre>
 		}\r
 	</code></pre>\r
 </div>\r
-`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
+`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -2792,7 +2808,7 @@ $primary: #3b82f6;</code></pre>
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">\r
+`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
@@ -2862,7 +2878,7 @@ $primary: #3b82f6;</code></pre>
 		>\r
 	</p>\r
 </div>\r
-`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
+`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
 	<meta name="post-id" content="15" />
 	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
 	<meta name="post-published" content="2026-06-20T11:41" />
@@ -2920,7 +2936,7 @@ target="_blank">
 "美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
 </p>
 </div>
-`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">\r
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
 	<meta name="post-id" content="18" />\r
 	<meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />\r
 	<meta name="post-published" content="2026-06-29T16:43" />\r
@@ -3004,7 +3020,7 @@ target="_blank">
 		신한투자증권 최승환, "바겐세일" (2026.04.09)\r
 	</p>\r
 </div>\r
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -3115,7 +3131,7 @@ target="_blank">
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -3204,21 +3220,21 @@ target="_blank">
 		>\r
 	</p>\r
 </div>\r
-`;function Lr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Rr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/4/index.html":Zn,"../content/archives/growth/12/index.html":$n,"../content/archives/growth/16/index.html":tr,"../content/archives/growth/7/index.html":rr,"../content/archives/investment/5/index.html":ar,"../content/essays/culture/11/index.html":sr,"../content/essays/culture/14/index.html":lr,"../content/essays/culture/17/index.html":dr,"../content/essays/culture/2/index.html":pr,"../content/essays/culture/8/index.html":hr,"../content/essays/daily/0/index.html":_r,"../content/essays/daily/23/index.html":yr,"../content/journals/development/1/index.html":xr,"../content/journals/development/3/index.html":Cr,"../content/journals/investment/10/index.html":Tr,"../content/journals/investment/13/index.html":Dr,"../content/journals/investment/15/index.html":kr,"../content/journals/investment/18/index.html":jr,"../content/journals/investment/6/index.html":Nr,"../content/journals/investment/9/index.html":Fr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Lr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var zr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};zr.common?.siteName;function Br(e){e.innerHTML=zr.navigation.map(e=>`
+`;function zr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Br(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/4/index.html":Zn,"../content/archives/growth/12/index.html":$n,"../content/archives/growth/16/index.html":tr,"../content/archives/growth/7/index.html":rr,"../content/archives/investment/5/index.html":ar,"../content/essays/culture/11/index.html":sr,"../content/essays/culture/14/index.html":lr,"../content/essays/culture/17/index.html":dr,"../content/essays/culture/2/index.html":pr,"../content/essays/culture/8/index.html":hr,"../content/essays/daily/0/index.html":_r,"../content/essays/daily/23/index.html":yr,"../content/essays/daily/24/index.html":xr,"../content/journals/development/1/index.html":Cr,"../content/journals/development/3/index.html":Tr,"../content/journals/investment/10/index.html":Dr,"../content/journals/investment/13/index.html":kr,"../content/journals/investment/15/index.html":jr,"../content/journals/investment/18/index.html":Nr,"../content/journals/investment/6/index.html":Fr,"../content/journals/investment/9/index.html":Lr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=zr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Vr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Vr.common?.siteName;function Hr(e){e.innerHTML=Vr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Vr()} ${e.displayName}</h2>
+					<h2 class="category-title">${Ur()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${zr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Hr()} ${t.displayName}
+								<a href="${Vr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${Wr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Vr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function Ur(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Hr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function Wr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function Ur(e,t,n,r){Br(n)}function Wr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Gr(){let e=Rr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Ur(e,n,i,o),Wr(e,o)}function Kr(){Hn.highlightAll(),Gr()}function qr(){Kr()}document.addEventListener(`DOMContentLoaded`,qr);
+	</svg>`}function Gr(e,t,n,r){Hr(n)}function Kr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function qr(){let e=Br(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Gr(e,n,i,o),Kr(e,o)}function Jr(){Hn.highlightAll(),qr()}function Yr(){Jr()}document.addEventListener(`DOMContentLoaded`,Yr);
