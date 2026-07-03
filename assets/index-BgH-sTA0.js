@@ -2265,7 +2265,7 @@ $primary: #3b82f6;</code></pre>
 </p>
 
 <p>
-집에 돌아오니 틀어놓고 간 유튜브 뮤직이 Judas Priest의 Before the Dawn을 노래하고 있었다.
+집에 돌아오니 틀어놓고 간 유튜브 뮤직에서는 Judas Priest의 Before the Dawn이 흘러나오고 있었다.
 </p>
 
 <p>
