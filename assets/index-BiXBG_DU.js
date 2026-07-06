@@ -2190,7 +2190,7 @@ $primary: #3b82f6;</code></pre>\r
 	<meta name="post-id" content="0" />\r
 	<meta name="post-title" content="까만 우산" />\r
 	<meta name="post-published" content="2025-05-10T18:41" />\r
-	<meta name="post-tags" content="" />\r
+	<meta name="post-tags" content="시선" />\r
 </div>\r
 \r
 <div class="post-content">\r
@@ -2222,74 +2222,74 @@ $primary: #3b82f6;</code></pre>\r
 		수 있는 사람은 많지 않겠지.\r
 	</p>\r
 </div>\r
-`,yr=s({default:()=>br}),br=`<div class="post-meta">
-	<meta name="post-id" content="23" />
-	<meta name="post-title" content="새벽" />
-	<meta name="post-published" content="2026-07-04T07:28" />
-	<meta name="post-tags" content="" />
-</div>
-
-<div class="post-content">
-<p>
-간밤에 비가 왔었는지 아직 세상이 젖어있던 새벽, 편의점 가는 길. 
-</p>
-
-<p>
-수백 미터 앞 사거리에 신호를 기다리는 사람이 있었다. 
-</p>
-
-<p>
-애매한 길이에 색이 바랜 장화, 짙은 검정으로 형태를 구분할 수 없는 바지.
-</p>
-
-<p>
-방금 세탁한 것 같은, 깨끗하지만 주름진 흰색 셔츠는 폭이 넓고 허리 아래까지 내려온다.
-</p>
-
-<p>
-길고 짙은 노란색의 머리칼, 그리고 작은 얼굴.
-</p>
-
-<p>
-그 자체로 한 폭의 고전 미술처럼 보였다.
-</p>
-
-<p>
-집에 돌아오니 틀어놓고 간 유튜브 뮤직에서는 Judas Priest의 Before the Dawn이 흘러나오고 있었다.
-</p>
-
-<p>
-미학적인 새벽이었다.
-</p>
-</div>
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
-	<meta name="post-id" content="24" />
-	<meta name="post-title" content="손톱" />
-	<meta name="post-published" content="2026-07-04T08:42" />
-	<meta name="post-tags" content="" />
-</div>
-
-<div class="post-content">
-<p>
-바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을 것 같다. 
-</p>
-
-<p>
-가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의 모든 것이 좋아진다.
-</p>
-</div>
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
-	<meta name="post-id" content="25" />
-	<meta name="post-title" content="흰 티" />
-	<meta name="post-published" content="2026-07-05T12:32" />
-	<meta name="post-tags" content="" />
-</div>
-
-<div class="post-content">
-<p>
-깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.
-</p>
-</div>
+`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
+	<meta name="post-id" content="23" />\r
+	<meta name="post-title" content="새벽" />\r
+	<meta name="post-published" content="2026-07-04T07:28" />\r
+	<meta name="post-tags" content="인상" />\r
+</div>\r
+\r
+<div class="post-content">\r
+<p>\r
+간밤에 비가 왔었는지 아직 세상이 젖어있던 새벽, 편의점 가는 길.\r
+</p>\r
+\r
+<p>\r
+수백 미터 앞 사거리에 신호를 기다리는 사람이 있었다.\r
+</p>\r
+\r
+<p>\r
+애매한 길이에 색이 바랜 장화, 짙은 검정으로 형태를 구분할 수 없는 바지.\r
+</p>\r
+\r
+<p>\r
+방금 세탁한 것 같은, 깨끗하지만 주름진 흰색 셔츠는 폭이 넓고 허리 아래까지 내려온다.\r
+</p>\r
+\r
+<p>\r
+길고 짙은 노란색의 머리칼, 그리고 작은 얼굴.\r
+</p>\r
+\r
+<p>\r
+그 자체로 한 폭의 고전 미술처럼 보였다.\r
+</p>\r
+\r
+<p>\r
+집에 돌아오니 틀어놓고 간 유튜브 뮤직에서는 Judas Priest의 Before the Dawn이 흘러나오고 있었다.\r
+</p>\r
+\r
+<p>\r
+미학적인 새벽이었다.\r
+</p>\r
+</div>\r
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
+	<meta name="post-id" content="24" />\r
+	<meta name="post-title" content="손톱" />\r
+	<meta name="post-published" content="2026-07-04T08:42" />\r
+	<meta name="post-tags" content="인상" />\r
+</div>\r
+\r
+<div class="post-content">\r
+<p>\r
+바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을 것 같다.\r
+</p>\r
+\r
+<p>\r
+가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의 모든 것이 좋아진다.\r
+</p>\r
+</div>\r
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
+	<meta name="post-id" content="25" />\r
+	<meta name="post-title" content="흰 티" />\r
+	<meta name="post-published" content="2026-07-05T12:32" />\r
+	<meta name="post-tags" content="취향" />\r
+</div>\r
+\r
+<div class="post-content">\r
+<p>\r
+깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.\r
+</p>\r
+</div>\r
 `,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
