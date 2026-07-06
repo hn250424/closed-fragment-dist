@@ -20,17 +20,17 @@
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>자주 쓰는 Git 명령어 모음 - 닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-BFhibE7N.js"></script>
+		<script type="module" crossorigin src="/assets/index-oRj0yZ2M.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
 	
     <link rel="canonical" href="https://tarenx.com/archives/development/19/" />
-    <meta name="description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
-		꺼내 쓰는 개인용 치트시트다." />
+    <meta name="description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로 꺼내
+		쓰는 개인용 치트시트다." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tarenx.com/archives/development/19/" />
     <meta property="og:title" content="자주 쓰는 Git 명령어 모음" />
-    <meta property="og:description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
-		꺼내 쓰는 개인용 치트시트다." />
+    <meta property="og:description" content="매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로 꺼내
+		쓰는 개인용 치트시트다." />
     <meta property="article:published_time" content="2026-07-01T20:40" />
 </head>
 	<body>
@@ -210,8 +210,8 @@
 			<div class="post-body">
         <div class="post-content">
 	<p>
-		매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로
-		꺼내 쓰는 개인용 치트시트다.
+		매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로 꺼내
+		쓰는 개인용 치트시트다.
 	</p>
 
 	<h2 class="post-tab">1. 초기 설정.</h2>
@@ -323,11 +323,14 @@ git push
 git push -u origin &lt;브랜치&gt;</code></pre>
 
 	<h2 class="post-tab">8. 되돌리기.</h2>
-	<pre><code class="language-bash"># 작업 트리의 파일 변경을 취소한다 (수정을 폐기한다)
+	<pre><code class="language-bash"># 스테이징하지 않은(Unstaged) 변경을 취소한다
 git restore &lt;파일&gt;
 
-# 스테이징만 취소한다 (변경은 유지한다)
+# 스테이징을 취소한다 (변경은 유지한다)
 git restore --staged &lt;파일&gt;
+
+# 스테이징도 취소하고 변경도 취소한다
+git restore --staged --worktree &lt;파일&gt;
 
 # 직전 커밋을 취소하되 변경은 스테이징 상태로 유지한다
 git reset --soft HEAD~1
@@ -382,7 +385,9 @@ git push --tags</code></pre>
 
 	<p class="post-ref">
 		* 참조 <br />
-		<a href="https://git-scm.com/doc" target="_blank">Git 공식 문서 (git-scm.com/doc)</a>
+		<a href="https://git-scm.com/doc" target="_blank"
+			>Git 공식 문서 (git-scm.com/doc)</a
+		>
 	</p>
 </div>
       </div>
