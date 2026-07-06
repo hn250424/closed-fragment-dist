@@ -15,11 +15,6 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 </div>\r
 \r
 <div class="post-content">\r
-	<p>\r
-		매번 찾아보게 되는 Git 명령어를 상황별로 추려 정리했다. 필요할 때 바로 꺼내\r
-		쓰는 개인용 치트시트다.\r
-	</p>\r
-\r
 	<h2 class="post-tab">1. 초기 설정.</h2>\r
 	<pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)\r
 git config --global user.name "이름"\r
