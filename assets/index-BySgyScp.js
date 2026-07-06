@@ -199,11 +199,6 @@ git push --tags</code></pre>\r
 </div>\r
 \r
 <div class="post-content">\r
-	<p>\r
-		속성보다 매번 헷갈리는 건 선택자 쪽이다. 결합자와 가상 클래스, 가상 요소,\r
-		그리고 커스텀 프로퍼티를 상황별로 정리했다.\r
-	</p>\r
-\r
 	<h2 class="post-tab">1. 결합자.</h2>\r
 	<pre><code class="language-css">/* 자손 (하위 전체) */\r
 article p {}\r
@@ -322,230 +317,225 @@ a[href*="github"] {}</code></pre>\r
 		<a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_blank">MDN CSS 문서 (developer.mozilla.org)</a>\r
 	</p>\r
 </div>\r
-`,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">
-	<meta name="post-id" content="21">
-	<meta name="post-title" content="자주 쓰는 SCSS 문법 정리">
-  <meta name="post-published" content="2026-07-01T21:00">
-  <meta name="post-tags" content="SCSS">
-</div>
-
-<div class="post-content">
-	<p>
-		SCSS는 사실상 프로그래밍 언어에 가깝다. 변수와 중첩부터 반복문, 조건문,
-		함수까지 자주 쓰는 문법을 정리했다.
-	</p>
-
-	<h2 class="post-tab">1. 변수.</h2>
-	<p>
-		$로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로
-		치환되어 박히므로, 런타임에 바꿀 수는 없다.
-	</p>
-	<pre><code class="language-scss">$main-color: #3b82f6;
-$gap: 16px;
-
-.button {
-	background: $main-color;
-	padding: $gap;
-}</code></pre>
-
-	<h2 class="post-tab">2. 중첩과 부모 참조.</h2>
-	<p>
-		선택자를 중첩하면 자동으로 자손(공백)으로 컴파일된다. &amp;는 부모 선택자를
-		가리키는데, 뒤에 공백을 두면 결국 자손이 되어 &amp; 없이 쓴 것과 똑같아진다.
-		반대로 공백 없이 붙이면 부모와 같은 요소를 겨냥하거나 이름을 이어 붙이므로,
-		이때는 &amp;가 반드시 필요하다.
-	</p>
-	<pre><code class="language-scss">.card {
-	padding: 16px;
-
-	/* 중첩만 해도 자손이 된다 → .card .title */
-	.title {
-		font-weight: bold;
-	}
-
-	/* &amp; 뒤에 공백을 두면 위와 똑같은 .card .title 이라 굳이 쓸 필요가 없다 */
-	&amp; .title {}
-
-	/* 공백 없이 붙이면 부모와 같은 요소를 겨냥한다 → .card:hover */
-	&amp;:hover {
-		background: #f5f5f5;
-	}
-
-	/* 이름을 이어 붙인다 → .card--active */
-	&amp;--active {
-		border: 1px solid;
-	}
-}</code></pre>
-
-	<h2 class="post-tab">3. 믹스인.</h2>
-	<p>
-		재사용할 스타일 묶음이다. 인자와 기본값을 받을 수 있다.
-	</p>
-	<pre><code class="language-scss">@mixin flex-center($direction: row) {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: $direction;
-}
-
-.box {
-	@include flex-center(column);
-}</code></pre>
-
-	<h2 class="post-tab">4. 함수.</h2>
-	<p>
-		믹스인이 스타일 덩어리를 반환한다면, 함수는 값을 계산해 반환한다.
-	</p>
-	<pre><code class="language-scss">@function double($n) {
-	@return $n * 2;
-}
-
-.box {
-	padding: double(8px); /* 16px */
-}</code></pre>
-
-	<h2 class="post-tab">5. 반복문.</h2>
-	<p>
-		셋 다 반복이지만 쓰임이 다르다. @for는 정해진 횟수만큼 숫자를 셀 때,
-		@each는 미리 정해둔 목록(이름, 색상 등)을 훑을 때, @while은 종료 조건이
-		숫자 범위로 딱 떨어지지 않을 때 쓴다.
-	</p>
-	<pre><code class="language-scss">/* @for: 1부터 3까지 센다 (through는 끝값 3 포함, to로 쓰면 3 제외) */
-@for $i from 1 through 3 {
-	.col-#{$i} {
-		width: calc(100% / #{$i});
-	}
-}
-/* 결과:
-   .col-1 { width: calc(100% / 1); }
-   .col-2 { width: calc(100% / 2); }
-   .col-3 { width: calc(100% / 3); } */
-
-/* @each: 맵의 항목을 이름과 값으로 하나씩 꺼낸다 */
-@each $name, $color in ("info": blue, "warn": orange) {
-	.text-#{$name} {
-		color: $color;
-	}
-}
-/* 결과:
-   .text-info { color: blue; }
-   .text-warn { color: orange; } */
-
-/* @while: 조건이 참인 동안 반복한다. 카운터를 직접 증가시켜야 한다 */
-$i: 1;
-@while $i &lt;= 3 {
-	.m-#{$i} { margin: #{$i * 4}px; }
-	$i: $i + 1;
-}
-/* 결과:
-   .m-1 { margin: 4px; }
-   .m-2 { margin: 8px; }
-   .m-3 { margin: 12px; } */</code></pre>
-
-	<h2 class="post-tab">6. 조건문.</h2>
-	<p>
-		넘긴 인자에 따라 어느 가지를 내보낼지 컴파일 시점에 고른다. 참인 가지의
-		스타일만 최종 CSS에 남는다. @else if로 여러 조건을, @else로 나머지 경우를
-		처리한다.
-	</p>
-	<pre><code class="language-scss">@mixin theme($mode) {
-	@if $mode == dark {
-		background: #111;
-		color: #eee;
-	} @else if $mode == sepia {
-		background: #f4ecd8;
-		color: #5b4636;
-	} @else {
-		background: #fff;
-		color: #111;
-	}
-}
-
-.page {
-	@include theme(dark);
-}
-/* dark 가지가 참이라 .page 에는 그 스타일만 박힌다:
-   .page { background: #111; color: #eee; } */</code></pre>
-
-	<h2 class="post-tab">7. 보간.</h2>
-	<p>
-		값이 오는 자리(속성 값)에서는 그냥 $변수로 쓰면 된다. 하지만 선택자 이름이나
-		속성 이름처럼 변수를 "코드의 일부"로 끼워 넣어야 할 때는 SCSS가 그게 변수인
-		줄 모르므로, #{}로 감싸 "여기에 값을 넣어라"라고 알려줘야 한다. calc()는 CSS가
-		실행 시점에 계산하는 함수라 안쪽을 문자열로 넘기는데, 이때 SCSS 변수도 문자
-		그대로 남으므로 마찬가지로 보간해 값을 미리 넣어줘야 한다.
-	</p>
-	<pre><code class="language-scss">$side: left;
-$gap: 16px;
-
-.menu {
-	/* 값 자리에서는 보간이 필요 없다 → padding: 16px */
-	padding: $gap;
-
-	/* 속성 이름에 끼워 넣을 땐 보간해야 한다 → margin-left: 20px */
-	margin-#{$side}: 20px;
-
-	/* 보간 없이 margin-$side 라고 쓰면 값이 안 들어가고 문자 그대로 깨진다 */
-
-	/* calc 안의 SCSS 변수도 보간해야 값이 들어간다 → width: calc(100% - 16px) */
-	width: calc(100% - #{$gap});
-}</code></pre>
-
-	<h2 class="post-tab">8. 파일 분리와 @use.</h2>
-	<p>
-		큰 스타일을 여러 파일로 쪼갤 때, 다른 파일에서 불러다 쓸 조각은 이름을
-		밑줄로 시작한다. 밑줄은 컴파일러에게 "이 파일은 단독으로 쓰는 게 아니니
-		_colors.css 같은 결과 파일을 따로 만들지 말라"고 알려주는 표시다. 밑줄이
-		없으면 colors.scss는 그 자체로 colors.css까지 만들어내 불필요한 파일이 생긴다.
-	</p>
-	<p>
-		그리고 불러올 때는 밑줄과 .scss 확장자를 뺀 이름으로 쓴다. 즉 파일이
-		_colors.scss여도 @use "colors"라고 적으면 컴파일러가 알아서 _colors.scss를
-		찾아 연결한다. 이렇게 불러오면 파일 이름(colors)이 네임스페이스가 되어
-		접두어를 붙여 접근하고, 접두어가 번거로우면 as *로 생략할 수 있다.
-	</p>
-	<pre><code class="language-scss">/* 파일명: _colors.scss (밑줄로 시작 → 단독 .css로 컴파일되지 않는다) */
-$primary: #3b82f6;</code></pre>
-	<pre><code class="language-scss">/* ── 네임스페이스로 쓰는 경우 ── */
-@use "colors"; /* _colors.scss 를 밑줄·확장자 없이 부른다. colors 가 네임스페이스가 된다 */
-
-.button {
-	color: colors.$primary; /* 접두어를 붙여 접근한다 */
-}
-
-/* ── 네임스페이스를 생략하는 경우 ── */
-@use "colors" as *;
-
-.button {
-	color: $primary; /* 접두어 없이 바로 쓴다 */
-}</code></pre>
-
-	<h2 class="post-tab">9. 상속과 자리표시자.</h2>
-	<p>
-		@extend로 다른 선택자의 스타일을 물려받는다. %로 시작하는 자리표시자는
-		단독으로 출력되지 않고, 상속될 때만 실제 스타일로 나타난다.
-	</p>
-	<pre><code class="language-scss">%card-base {
-	border-radius: 8px;
-	padding: 16px;
-}
-
-.notice {
-	@extend %card-base;
-	background: #eef;
-}
-/* 결과: .notice 는 물려받은 속성과 자기 속성을 모두 갖는다
-   .notice {
-     border-radius: 8px;
-     padding: 16px;
-     background: #eef;
-   } */</code></pre>
-
-	<p class="post-ref">
-		* 참조 <br />
-		<a href="https://sass-lang.com/documentation/" target="_blank">Sass 공식 문서 (sass-lang.com)</a>
-	</p>
-</div>
+`,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">\r
+	<meta name="post-id" content="21">\r
+	<meta name="post-title" content="자주 쓰는 SCSS 문법 정리">\r
+  <meta name="post-published" content="2026-07-01T21:00">\r
+  <meta name="post-tags" content="SCSS">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<h2 class="post-tab">1. 변수.</h2>\r
+	<p>\r
+		$로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로\r
+		치환되어 박히므로, 런타임에 바꿀 수는 없다.\r
+	</p>\r
+	<pre><code class="language-scss">$main-color: #3b82f6;\r
+$gap: 16px;\r
+\r
+.button {\r
+	background: $main-color;\r
+	padding: $gap;\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">2. 중첩과 부모 참조.</h2>\r
+	<p>\r
+		선택자를 중첩하면 자동으로 자손(공백)으로 컴파일된다. &amp;는 부모 선택자를\r
+		가리키는데, 뒤에 공백을 두면 결국 자손이 되어 &amp; 없이 쓴 것과 똑같아진다.\r
+		반대로 공백 없이 붙이면 부모와 같은 요소를 겨냥하거나 이름을 이어 붙이므로,\r
+		이때는 &amp;가 반드시 필요하다.\r
+	</p>\r
+	<pre><code class="language-scss">.card {\r
+	padding: 16px;\r
+\r
+	/* 중첩만 해도 자손이 된다 → .card .title */\r
+	.title {\r
+		font-weight: bold;\r
+	}\r
+\r
+	/* &amp; 뒤에 공백을 두면 위와 똑같은 .card .title 이라 굳이 쓸 필요가 없다 */\r
+	&amp; .title {}\r
+\r
+	/* 공백 없이 붙이면 부모와 같은 요소를 겨냥한다 → .card:hover */\r
+	&amp;:hover {\r
+		background: #f5f5f5;\r
+	}\r
+\r
+	/* 이름을 이어 붙인다 → .card--active */\r
+	&amp;--active {\r
+		border: 1px solid;\r
+	}\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">3. 믹스인.</h2>\r
+	<p>\r
+		재사용할 스타일 묶음이다. 인자와 기본값을 받을 수 있다.\r
+	</p>\r
+	<pre><code class="language-scss">@mixin flex-center($direction: row) {\r
+	display: flex;\r
+	justify-content: center;\r
+	align-items: center;\r
+	flex-direction: $direction;\r
+}\r
+\r
+.box {\r
+	@include flex-center(column);\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">4. 함수.</h2>\r
+	<p>\r
+		믹스인이 스타일 덩어리를 반환한다면, 함수는 값을 계산해 반환한다.\r
+	</p>\r
+	<pre><code class="language-scss">@function double($n) {\r
+	@return $n * 2;\r
+}\r
+\r
+.box {\r
+	padding: double(8px); /* 16px */\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">5. 반복문.</h2>\r
+	<p>\r
+		셋 다 반복이지만 쓰임이 다르다. @for는 정해진 횟수만큼 숫자를 셀 때,\r
+		@each는 미리 정해둔 목록(이름, 색상 등)을 훑을 때, @while은 종료 조건이\r
+		숫자 범위로 딱 떨어지지 않을 때 쓴다.\r
+	</p>\r
+	<pre><code class="language-scss">/* @for: 1부터 3까지 센다 (through는 끝값 3 포함, to로 쓰면 3 제외) */\r
+@for $i from 1 through 3 {\r
+	.col-#{$i} {\r
+		width: calc(100% / #{$i});\r
+	}\r
+}\r
+/* 결과:\r
+   .col-1 { width: calc(100% / 1); }\r
+   .col-2 { width: calc(100% / 2); }\r
+   .col-3 { width: calc(100% / 3); } */\r
+\r
+/* @each: 맵의 항목을 이름과 값으로 하나씩 꺼낸다 */\r
+@each $name, $color in ("info": blue, "warn": orange) {\r
+	.text-#{$name} {\r
+		color: $color;\r
+	}\r
+}\r
+/* 결과:\r
+   .text-info { color: blue; }\r
+   .text-warn { color: orange; } */\r
+\r
+/* @while: 조건이 참인 동안 반복한다. 카운터를 직접 증가시켜야 한다 */\r
+$i: 1;\r
+@while $i &lt;= 3 {\r
+	.m-#{$i} { margin: #{$i * 4}px; }\r
+	$i: $i + 1;\r
+}\r
+/* 결과:\r
+   .m-1 { margin: 4px; }\r
+   .m-2 { margin: 8px; }\r
+   .m-3 { margin: 12px; } */</code></pre>\r
+\r
+	<h2 class="post-tab">6. 조건문.</h2>\r
+	<p>\r
+		넘긴 인자에 따라 어느 가지를 내보낼지 컴파일 시점에 고른다. 참인 가지의\r
+		스타일만 최종 CSS에 남는다. @else if로 여러 조건을, @else로 나머지 경우를\r
+		처리한다.\r
+	</p>\r
+	<pre><code class="language-scss">@mixin theme($mode) {\r
+	@if $mode == dark {\r
+		background: #111;\r
+		color: #eee;\r
+	} @else if $mode == sepia {\r
+		background: #f4ecd8;\r
+		color: #5b4636;\r
+	} @else {\r
+		background: #fff;\r
+		color: #111;\r
+	}\r
+}\r
+\r
+.page {\r
+	@include theme(dark);\r
+}\r
+/* dark 가지가 참이라 .page 에는 그 스타일만 박힌다:\r
+   .page { background: #111; color: #eee; } */</code></pre>\r
+\r
+	<h2 class="post-tab">7. 보간.</h2>\r
+	<p>\r
+		값이 오는 자리(속성 값)에서는 그냥 $변수로 쓰면 된다. 하지만 선택자 이름이나\r
+		속성 이름처럼 변수를 "코드의 일부"로 끼워 넣어야 할 때는 SCSS가 그게 변수인\r
+		줄 모르므로, #{}로 감싸 "여기에 값을 넣어라"라고 알려줘야 한다. calc()는 CSS가\r
+		실행 시점에 계산하는 함수라 안쪽을 문자열로 넘기는데, 이때 SCSS 변수도 문자\r
+		그대로 남으므로 마찬가지로 보간해 값을 미리 넣어줘야 한다.\r
+	</p>\r
+	<pre><code class="language-scss">$side: left;\r
+$gap: 16px;\r
+\r
+.menu {\r
+	/* 값 자리에서는 보간이 필요 없다 → padding: 16px */\r
+	padding: $gap;\r
+\r
+	/* 속성 이름에 끼워 넣을 땐 보간해야 한다 → margin-left: 20px */\r
+	margin-#{$side}: 20px;\r
+\r
+	/* 보간 없이 margin-$side 라고 쓰면 값이 안 들어가고 문자 그대로 깨진다 */\r
+\r
+	/* calc 안의 SCSS 변수도 보간해야 값이 들어간다 → width: calc(100% - 16px) */\r
+	width: calc(100% - #{$gap});\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">8. 파일 분리와 @use.</h2>\r
+	<p>\r
+		큰 스타일을 여러 파일로 쪼갤 때, 다른 파일에서 불러다 쓸 조각은 이름을\r
+		밑줄로 시작한다. 밑줄은 컴파일러에게 "이 파일은 단독으로 쓰는 게 아니니\r
+		_colors.css 같은 결과 파일을 따로 만들지 말라"고 알려주는 표시다. 밑줄이\r
+		없으면 colors.scss는 그 자체로 colors.css까지 만들어내 불필요한 파일이 생긴다.\r
+	</p>\r
+	<p>\r
+		그리고 불러올 때는 밑줄과 .scss 확장자를 뺀 이름으로 쓴다. 즉 파일이\r
+		_colors.scss여도 @use "colors"라고 적으면 컴파일러가 알아서 _colors.scss를\r
+		찾아 연결한다. 이렇게 불러오면 파일 이름(colors)이 네임스페이스가 되어\r
+		접두어를 붙여 접근하고, 접두어가 번거로우면 as *로 생략할 수 있다.\r
+	</p>\r
+	<pre><code class="language-scss">/* 파일명: _colors.scss (밑줄로 시작 → 단독 .css로 컴파일되지 않는다) */\r
+$primary: #3b82f6;</code></pre>\r
+	<pre><code class="language-scss">/* ── 네임스페이스로 쓰는 경우 ── */\r
+@use "colors"; /* _colors.scss 를 밑줄·확장자 없이 부른다. colors 가 네임스페이스가 된다 */\r
+\r
+.button {\r
+	color: colors.$primary; /* 접두어를 붙여 접근한다 */\r
+}\r
+\r
+/* ── 네임스페이스를 생략하는 경우 ── */\r
+@use "colors" as *;\r
+\r
+.button {\r
+	color: $primary; /* 접두어 없이 바로 쓴다 */\r
+}</code></pre>\r
+\r
+	<h2 class="post-tab">9. 상속과 자리표시자.</h2>\r
+	<p>\r
+		@extend로 다른 선택자의 스타일을 물려받는다. %로 시작하는 자리표시자는\r
+		단독으로 출력되지 않고, 상속될 때만 실제 스타일로 나타난다.\r
+	</p>\r
+	<pre><code class="language-scss">%card-base {\r
+	border-radius: 8px;\r
+	padding: 16px;\r
+}\r
+\r
+.notice {\r
+	@extend %card-base;\r
+	background: #eef;\r
+}\r
+/* 결과: .notice 는 물려받은 속성과 자기 속성을 모두 갖는다\r
+   .notice {\r
+     border-radius: 8px;\r
+     padding: 16px;\r
+     background: #eef;\r
+   } */</code></pre>\r
+\r
+	<p class="post-ref">\r
+		* 참조 <br />\r
+		<a href="https://sass-lang.com/documentation/" target="_blank">Sass 공식 문서 (sass-lang.com)</a>\r
+	</p>\r
+</div>\r
 `,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
 	<meta name="post-id" content="22">\r
 	<meta name="post-title" content="IP 주소와 서브넷 마스크 정리">\r

@@ -20,7 +20,7 @@
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-DvINQGyz.js"></script>
+		<script type="module" crossorigin src="/assets/index-BySgyScp.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
 	
     <link rel="canonical" href="https://tarenx.com/" />
@@ -258,8 +258,8 @@
 								<time class="post-datetime" datetime="2026-07-01T21:00">2026년 7월 1일 21시 00분</time>
 							</div>
 							<h3 class="post-title">자주 쓰는 SCSS 문법 정리</h3>
-							<span class="post-excerpt">SCSS는 사실상 프로그래밍 언어에 가깝다. 변수와 중첩부터 반복문, 조건문,
-		함수까지 자주 쓰는 문법을 정리했다.</span>
+							<span class="post-excerpt">$로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로
+		치환되어 박히므로, 런타임에 바꿀 수는 없다.</span>
 						</a>
 					</article>
 				</li>
@@ -272,8 +272,16 @@
 								<time class="post-datetime" datetime="2026-07-01T20:50">2026년 7월 1일 20시 50분</time>
 							</div>
 							<h3 class="post-title">헷갈리는 CSS 선택자와 변수 정리</h3>
-							<span class="post-excerpt">속성보다 매번 헷갈리는 건 선택자 쪽이다. 결합자와 가상 클래스, 가상 요소,
-		그리고 커스텀 프로퍼티를 상황별로 정리했다.</span>
+							<span class="post-excerpt">/* 자손 (하위 전체) */
+article p {}
+
+/* 자식 (바로 아래 한 단계만) */
+article &gt; p {}
+
+/* 인접 형제 (바로 다음에 오는 하나) */
+h2 + p {}
+
+...</span>
 						</a>
 					</article>
 				</li>
