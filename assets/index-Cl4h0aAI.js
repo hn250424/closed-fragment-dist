@@ -724,6 +724,68 @@ $primary: #3b82f6;</code></pre>\r
 	</p>\r
 </div>\r
 `,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
+	<meta name="post-id" content="26" />\r
+	<meta name="post-title" content="Git Bash 새 탭을 현재 경로에서 열기" />\r
+	<meta name="post-published" content="2026-07-07T21:00" />\r
+	<meta name="post-tags" content="Git Bash" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<h2 class="post-tab">1. 문제.</h2>\r
+	<p>\r
+		Windows Terminal에서 Git Bash를 쓰다 보면, 탭 바의 + 버튼으로 새 탭을 열\r
+		때마다 홈 디렉터리로 돌아간다. 지금 작업하던 경로를 그대로 이어받아 새\r
+		탭을 열고 싶다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">2. 새 탭과 탭 복제.</h2>\r
+	<p>\r
+		+ 버튼(새 탭)은 항상 프로필의 startingDirectory 값으로 열리므로 현재 경로를\r
+		무시한다. 반면 탭 복제(Duplicate Tab)는 현재 셸이 있는 경로를 물려받는다. 즉\r
+		"현재 경로에서 열기"의 정체는 새 탭이 아니라 탭 복제.\r
+	</p>\r
+\r
+	<h2 class="post-tab">3. Git Bash가 자기 경로를 알리게 하기.</h2>\r
+	<p>\r
+		Git Bash는 기본적으로 자기 현재 위치를 터미널에 보고하지 않는다. 셸이\r
+		디렉터리를 옮길 때마다 그 경로를 이스케이프 신호(OSC)로 터미널에 알려주도록\r
+		PROMPT_COMMAND를 설정. Git Bash를 열고 아래 한 줄을 ~/.bashrc에 추가한다.\r
+	</p>\r
+	<pre><code class="language-bash">echo 'export PROMPT_COMMAND='\\''printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'\\''' &gt;&gt; ~/.bashrc</code></pre>\r
+	<p>\r
+		cygpath -w는 Git Bash식 경로(/d/foo)를 Windows식 경로(D:\\foo)로 바꿔\r
+		넘겨주는 역할이고, \\e]9;9;...\\e\\\\ 가 Windows Terminal이 알아듣는 "현재\r
+		디렉터리는 여기다"라는 신호.\r
+	</p>\r
+\r
+	<h2 class="post-tab">5. 적용과 확인.</h2>\r
+	<p>추가한 설정을 지금 세션에 바로 반영한다.</p>\r
+	<pre><code class="language-bash">source ~/.bashrc</code></pre>\r
+	<p>제대로 들어갔는지는 cat으로 확인.</p>\r
+	<pre><code class="language-bash">cat ~/.bashrc\r
+# ...\r
+# export PROMPT_COMMAND='printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'</code></pre>\r
+\r
+	<h2 class="post-tab">6. 사용.</h2>\r
+	<p>\r
+		이제 Git Bash에서 원하는 폴더로 이동한 뒤, 탭 바를 우클릭하고 "탭 복제"를\r
+		고르면 그 경로 그대로 새 탭이 열린다. 단축키 Ctrl + Shift + D가 기본으로 탭\r
+		복제에 걸려있다.\r
+	</p>\r
+\r
+	<h2 class="post-tab">7. 신호가 안 먹힐 때.</h2>\r
+	<p>\r
+		\\e]9;9; 방식은 Windows Terminal의 확장 신호라 버전에 따라 안 먹을 수 있다.\r
+		그럴 땐 표준인 OSC 7 방식으로 바꾼다. ~/.bashrc의 그 줄을 아래로 교체하면\r
+		된다.\r
+	</p>\r
+	<pre><code class="language-bash">export PROMPT_COMMAND='printf "\\e]7;file://%s%s\\e\\\\" "$HOSTNAME" "$(cygpath -w "$PWD" | sed "s|\\\\\\\\|/|g")"'</code></pre>\r
+	<p>\r
+		여기서는 경로의 역슬래시(\\)를 sed로 슬래시(/)로 바꿔 file:// URL 형태로\r
+		넘긴다. 교체 후 다시 source ~/.bashrc로 적용하고 탭 복제로 확인한다.\r
+	</p>\r
+</div>\r
+`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
 	<meta name="post-id" content="4">\r
 	<meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기">\r
   <meta name="post-published" content="2026-03-28T19:23">\r
@@ -817,7 +879,7 @@ $primary: #3b82f6;</code></pre>\r
 		<figcaption></figcaption>\r
 	</figure>\r
 </div>\r
-`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
 	<meta name="post-id" content="12">\r
 	<meta name="post-title" content="나의 행동 매뉴얼">\r
   <meta name="post-published" content="2026-05-27T23:03">\r
@@ -884,7 +946,7 @@ $primary: #3b82f6;</code></pre>\r
 		육체적 활동, 명상, 몰입, 성장이 모든 문제의 해결점.\r
 	</div>\r
 </div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
 	<meta name="post-id" content="16" />\r
 	<meta\r
 		name="post-title"\r
@@ -1489,7 +1551,7 @@ $primary: #3b82f6;</code></pre>\r
 		불가능하다. 희망을 발견하면 마음이 발판을 얻고 영혼은 생기를 되찾는다.\r
 	</p>\r
 </div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
+`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
 	<meta name="post-id" content="7">\r
 	<meta name="post-title" content="천재 광고기획자의 아이디어 생산 5단계 정리">\r
   <meta name="post-published" content="2026-04-26T23:28">\r
@@ -1597,7 +1659,7 @@ $primary: #3b82f6;</code></pre>\r
 		만들 방법은 없어질 수도 있다."\r
 	</blockquote>\r
 </div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
 	<meta name="post-id" content="5">\r
 	<meta name="post-title" content="채권 듀레이션 정리">\r
   <meta name="post-published" content="2026-04-18T23:03">\r
@@ -1853,7 +1915,7 @@ $primary: #3b82f6;</code></pre>\r
 		수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.\r
 	</p>\r
 </div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
 	<meta name="post-id" content="11" />\r
 	<meta name="post-title" content="중력을 소진시키는 방법" />\r
 	<meta name="post-published" content="2026-05-27T21:30" />\r
@@ -1920,7 +1982,7 @@ $primary: #3b82f6;</code></pre>\r
 		사귀었어. 걜 뺏고 싶었지."\r
 	</blockquote>\r
 </div>\r
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
 	<meta name="post-id" content="14" />\r
 	<meta name="post-title" content="시간이 쓸어내린 먼지" />\r
 	<meta name="post-published" content="2026-06-08T20:03" />\r
@@ -1986,7 +2048,7 @@ $primary: #3b82f6;</code></pre>\r
 		마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.\r
 	</p>\r
 </div>\r
-`,dr=s({default:()=>fr}),fr=`<div class="post-meta">
+`,pr=s({default:()=>mr}),mr=`<div class="post-meta">
 	<meta name="post-id" content="17" />
 	<meta name="post-title" content="긴 계단 가장 높은 곳에서 맞던 밤바람" />
 	<meta name="post-published" content="2026-06-27T23:37" />
@@ -2014,7 +2076,7 @@ $primary: #3b82f6;</code></pre>\r
 노래를 듣고 있으면 꿈을 버렸던 그 날이 떠오른다. 커다란 슬픔이 다른 감정을 밀어내서 그때는 제대로 인지하지 못했지만, 분명 내 마음 한 켠에 해방감이 있었다. 
 </p>
 </div>
-`,pr=s({default:()=>mr}),mr=`<div class="post-meta">\r
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
 	<meta name="post-id" content="2" />\r
 	<meta\r
 		name="post-title"\r
@@ -2131,7 +2193,7 @@ $primary: #3b82f6;</code></pre>\r
 		바라보지 않았을까. 그렇게 믿고 싶다.\r
 	</p>\r
 </div>\r
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
 	<meta name="post-id" content="8" />\r
 	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
 	<meta name="post-published" content="2026-05-09T21:15" />\r
@@ -2186,7 +2248,7 @@ $primary: #3b82f6;</code></pre>\r
 		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
 	</p>\r
 </div>\r
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
+`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
 	<meta name="post-id" content="0" />\r
 	<meta name="post-title" content="까만 우산" />\r
 	<meta name="post-published" content="2025-05-10T18:41" />\r
@@ -2222,7 +2284,7 @@ $primary: #3b82f6;</code></pre>\r
 		수 있는 사람은 많지 않겠지.\r
 	</p>\r
 </div>\r
-`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
 	<meta name="post-id" content="23" />\r
 	<meta name="post-title" content="새벽" />\r
 	<meta name="post-published" content="2026-07-04T07:28" />\r
@@ -2262,7 +2324,7 @@ $primary: #3b82f6;</code></pre>\r
 미학적인 새벽이었다.\r
 </p>\r
 </div>\r
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
 	<meta name="post-id" content="24" />\r
 	<meta name="post-title" content="손톱" />\r
 	<meta name="post-published" content="2026-07-04T08:42" />\r
@@ -2278,7 +2340,7 @@ $primary: #3b82f6;</code></pre>\r
 가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의 모든 것이 좋아진다.\r
 </p>\r
 </div>\r
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
+`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
 	<meta name="post-id" content="25" />\r
 	<meta name="post-title" content="흰 티" />\r
 	<meta name="post-published" content="2026-07-05T12:32" />\r
@@ -2290,7 +2352,7 @@ $primary: #3b82f6;</code></pre>\r
 깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.\r
 </p>\r
 </div>\r
-`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
+`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">\r
 	<meta name="post-id" content="1">\r
 	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
   <meta name="post-published" content="2026-03-23T19:41">\r
@@ -2486,7 +2548,7 @@ $primary: #3b82f6;</code></pre>\r
 		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
 	</p>\r
 </div>\r
-`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">\r
+`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -2742,7 +2804,7 @@ $primary: #3b82f6;</code></pre>\r
 		}\r
 	</code></pre>\r
 </div>\r
-`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">\r
+`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -2810,7 +2872,7 @@ $primary: #3b82f6;</code></pre>\r
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">\r
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
@@ -2880,7 +2942,7 @@ $primary: #3b82f6;</code></pre>\r
 		>\r
 	</p>\r
 </div>\r
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
 	<meta name="post-id" content="15" />
 	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
 	<meta name="post-published" content="2026-06-20T11:41" />
@@ -2938,7 +3000,7 @@ target="_blank">
 "美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
 </p>
 </div>
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">\r
 	<meta name="post-id" content="18" />\r
 	<meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />\r
 	<meta name="post-published" content="2026-06-29T16:43" />\r
@@ -3022,7 +3084,7 @@ target="_blank">
 		신한투자증권 최승환, "바겐세일" (2026.04.09)\r
 	</p>\r
 </div>\r
-`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">\r
+`,zr=s({default:()=>Br}),Br=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -3133,7 +3195,7 @@ target="_blank">
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,zr=s({default:()=>Br}),Br=`<div class="post-meta">\r
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -3222,21 +3284,21 @@ target="_blank">
 		>\r
 	</p>\r
 </div>\r
-`;function Vr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Hr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/4/index.html":Zn,"../content/archives/growth/12/index.html":$n,"../content/archives/growth/16/index.html":tr,"../content/archives/growth/7/index.html":rr,"../content/archives/investment/5/index.html":ar,"../content/essays/culture/11/index.html":sr,"../content/essays/culture/14/index.html":lr,"../content/essays/culture/17/index.html":dr,"../content/essays/culture/2/index.html":pr,"../content/essays/culture/8/index.html":hr,"../content/essays/daily/0/index.html":_r,"../content/essays/daily/23/index.html":yr,"../content/essays/daily/24/index.html":xr,"../content/essays/daily/25/index.html":Cr,"../content/journals/development/1/index.html":Tr,"../content/journals/development/3/index.html":Dr,"../content/journals/investment/10/index.html":kr,"../content/journals/investment/13/index.html":jr,"../content/journals/investment/15/index.html":Nr,"../content/journals/investment/18/index.html":Fr,"../content/journals/investment/6/index.html":Lr,"../content/journals/investment/9/index.html":zr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Vr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Ur={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Ur.common?.siteName;function Wr(e){e.innerHTML=Ur.navigation.map(e=>`
+`;function Ur(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Wr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/8/index.html":_r,"../content/essays/daily/0/index.html":yr,"../content/essays/daily/23/index.html":xr,"../content/essays/daily/24/index.html":Cr,"../content/essays/daily/25/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/3/index.html":kr,"../content/journals/investment/10/index.html":jr,"../content/journals/investment/13/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/6/index.html":zr,"../content/journals/investment/9/index.html":Vr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Ur(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Gr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Gr.common?.siteName;function Kr(e){e.innerHTML=Gr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Gr()} ${e.displayName}</h2>
+					<h2 class="category-title">${qr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${Ur.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Kr()} ${t.displayName}
+								<a href="${Gr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${Jr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Gr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function qr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Kr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function Jr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function qr(e,t,n,r){Wr(n)}function Jr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Yr(){let e=Hr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),qr(e,n,i,o),Jr(e,o)}function Xr(){Hn.highlightAll(),Yr()}function Zr(){Xr()}document.addEventListener(`DOMContentLoaded`,Zr);
+	</svg>`}function Yr(e,t,n,r){Kr(n)}function Xr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function Zr(){let e=Wr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Yr(e,n,i,o),Xr(e,o)}function Qr(){Hn.highlightAll(),Zr()}function $r(){Qr()}document.addEventListener(`DOMContentLoaded`,$r);
