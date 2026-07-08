@@ -168,6 +168,15 @@ git log --oneline\r
 # 브랜치 그래프까지 함께 확인한다\r
 git log --oneline --graph --all\r
 \r
+# 특정 커밋의 정보와 변경 사항을 확인한다\r
+git show <커밋>\r
+\r
+# 특정 커밋에서 변경된 파일 목록만 확인한다\r
+git show --name-only <커밋>\r
+\r
+# 특정 커밋의 변경 통계를 확인한다\r
+git show --stat <커밋>\r
+\r
 # 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다\r
 git blame &lt;파일&gt;</code></pre>\r
 \r
