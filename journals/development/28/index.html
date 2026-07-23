@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-NLCK842B");
+		</script>
+		<!-- End Google Tag Manager -->
+
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계 - 닫힌 파편</title>
+		<script type="module" crossorigin src="/assets/index-DnLa-8tX.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
+	
+    <link rel="canonical" href="https://tarenx.com/journals/development/28/" />
+    <meta name="description" content="지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를
+		any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로
+		물러났었다. SVG 편집기 명령..." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://tarenx.com/journals/development/28/" />
+    <meta property="og:title" content="명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계" />
+    <meta property="og:description" content="지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를
+		any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로
+		물러났었다. SVG 편집기 명령..." />
+    <meta property="article:published_time" content="2026-07-23T18:54" />
+</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-NLCK842B"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<header id="site-header">
+			<h1>
+				<a href="/">
+					<svg
+						width="512"
+						height="512"
+						viewBox="0 0 48 48"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<polygon
+							points="24,6 36,20 28,42 14,36 10,18"
+							fill="none"
+							stroke="#222"
+							stroke-width="1"
+							stroke-linejoin="round"
+							opacity="0.85"
+						/>
+						<polygon
+							points="24,12 34,22 26,38 16,32 14,20"
+							fill="none"
+							stroke="#222"
+							stroke-width="0.6"
+							stroke-linejoin="round"
+							opacity="0.3"
+						/>
+						<polygon
+							points="24,18 30,26 24,34 18,28 20,20"
+							fill="none"
+							stroke="#222"
+							stroke-width="0.4"
+							stroke-linejoin="round"
+							opacity="0.18"
+						/>
+					</svg>
+					<span class="sr-only">닫힌 파편</span>
+				</a>
+			</h1>
+		</header>
+		<main class="nav-closed">
+			<nav id="main-nav">
+				<div id="content-tree"></div>
+				<hr class="divider" />
+				<div id="link">
+					<ul>
+						<li>
+							<a
+								href="https://github.com/taren250424"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
+									/>
+								</svg>
+								<span>Github</span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.threads.com/@taren250424"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M20,8 C19,3.66666667 16.1666667,1.5 11.5,1.5 C5.5,1.5 3,5.5 3,11.5 C3,17.5 6,21.5 11.5,21.5 C17,21.5 19,18 19,15.5 C19,13 17,10.5 12.5,10.5 C10,10.5 8.5,12 8.5,13.5 C8.5,15 10,16 12,16 C14,16 15.5,14 15.5,11.5 C15.5,9 14.5,6.5 12,6.5 C10.3333333,6.5 9.16666667,7.16666667 8.5,8.5"
+									/>
+								</svg>
+								<span>Thread</span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://medium.com/@taren250424"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M4 6l6 12l6-12" />
+									<path d="M4 6v12" />
+									<path d="M16 6v12" />
+								</svg>
+								<span>Medium</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section id="main-section">
+				<button id="main-nav-toggle" aria-label="내비게이션 열기">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="svg-close"
+						viewBox="0 0 24 24"
+						width="16"
+						height="16"
+					>
+						<path
+							d="M6 6L18 18M18 6L6 18"
+							stroke="black"
+							stroke-width="2"
+							stroke-linecap="round"
+						/>
+					</svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="svg-menu"
+						viewBox="0 0 24 24"
+						width="16"
+						height="16"
+					>
+						<path
+							d="M4 6H20M4 12H20M4 18H20"
+							stroke="black"
+							stroke-width="2"
+							stroke-linecap="round"
+						/>
+					</svg>
+				</button>
+				<div id="content-container">
+
+    <article class="post-detail">
+      <header class="post-header">
+				<div class="post-tags">#TypeScript</div>
+				<h1 class="post-title">명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계</h1>
+				<time class="post-datetime" datetime="2026-07-23T18:54">2026년 7월 23일 18시 54분</time>
+      </header>
+
+      <hr />
+
+			<div class="post-body">
+        <div class="post-content">
+	<p>
+		지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를
+		any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로
+		물러났었다. SVG 편집기 명령 레이어를 만들다가 같은 문제를 다시 만났다.
+	</p>
+
+	<p>
+		단축키·툴바 아이콘·메뉴가 전부 하나의 진입점(runCommand)을 타는 명령
+		테이블이다. 대부분의 명령은 페이로드가 없지만 몇 개는 있다. 회전은 각도를,
+		크기 창은 폭과 높이를 받아야 한다.
+	</p>
+
+	<pre><code class="language-typescript">
+		interface CommandPayloads {
+			rotate: { deltaDeg: number }
+			offset: { deltaMm: number; join: OffsetJoin }
+			nest: { gapMm: number; mode: NestMode }
+			setPosition: { x: number; y: number }
+			setSize: { w: number; h: number }
+		}
+
+		interface Command&lt;P extends CommandPayloads[keyof CommandPayloads] | void = void&gt; {
+			when?: (editor: Editor) =&gt; boolean
+			run: (editor: Editor, ctx: CommandContext, payload: P) =&gt; void | Promise&lt;void&gt;
+		}
+	</code></pre>
+
+	<p>
+		명령마다 페이로드 타입이 제각각인데 이걸 테이블 하나에 담아야 한다. 타입
+		표기는 P를 하나로 골라 전 키에 똑같이 퍼뜨리므로, Command&lt;void&gt;로 못
+		박으면 페이로드 명령이 컴파일에서 죽고, 모든 페이로드 시그니처를 받아주는
+		표기는 하한인 Command&lt;never&gt; 하나뿐이다(함수 인자는 반공변이니까).
+		그래서 처음엔 이렇게 했다.
+	</p>
+
+	<pre><code class="language-typescript">
+		export const commands = {
+			rotate: { ... },
+			setPosition: { ... },
+			// ...
+		} satisfies Record&lt;string, Command&lt;never&gt;&gt;
+	</code></pre>
+
+	<p>
+		그러나 "모두 허용한다"는 것은 "아무것도 검사하지 않는다"는
+		뜻. setPosition에 setSize의 페이로드를 잘못 적어도 통과한다.
+	</p>
+
+	<pre><code class="language-typescript">
+		setPosition: {
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt;  // 오타!
+				editor.engine.moveSelectionTo(payload.w, payload.h)
+		}
+	</code></pre>
+
+	<p>
+		호출부는 오버로드대로 { x, y }를 넘기니 payload.w는 undefined, 계산 결과는
+		NaN, 도형은 엉뚱한 곳으로 간다. 타입은 조용하고 앱에서 터진다.
+	</p>
+
+	<p>
+		지난 글에서 붕괴의 원인은 키(role, plan)가 런타임에 결정되는 넓은 타입이라는
+		것이었다. handler[event][r][p]에서 r, p가 런타임 변수인 순간 제네릭 추론이
+		무너져 args가 never로 떨어졌다. 이번엔 사정이 다르다 — 명령 이름은 호출부에
+		리터럴로 박힌다. runCommand("rotate", editor, ctx, { deltaDeg: 15 }) 식이다.
+		좁힐 키를 컴파일 타임에 이미 알고 있으므로, 디스패처 쪽은 오버로드로 잡을 수
+		있다.
+	</p>
+
+	<pre><code class="language-typescript">
+		export function runCommand(name: PayloadlessCommandName, editor: Editor, ctx: CommandContext): void
+		export function runCommand&lt;N extends keyof CommandPayloads&gt;(
+			name: N,
+			editor: Editor,
+			ctx: CommandContext,
+			payload: CommandPayloads[N]
+		): void
+	</code></pre>
+
+	<p>
+		남은 건 테이블 정의 쪽이다. 키마다 다른 페이로드를 요구해야 하는데 표기
+		하나로는 표현할 수 없다. 그래서 표기를 붙이는 대신, 항등함수에 자기참조
+		제약을 걸어 통과시키는 방법을 썼다.
+	</p>
+
+	<pre><code class="language-typescript">
+		const defineCommands = &lt;
+			T extends {
+				[K in keyof T]: K extends keyof CommandPayloads ? Command&lt;CommandPayloads[K]&gt; : Command&lt;void&gt;
+			}
+		&gt;(
+			table: T
+		): T =&gt; table
+
+		export const commands = defineCommands({ ... })
+	</code></pre>
+
+	<p>
+		몸통은 받은 것을 그대로 돌려줄 뿐이다. 대신 T를 있는 그대로 반환하므로
+		리터럴 타입이 보존되어 keyof typeof commands가 정확한 명령 이름 유니온으로
+		남는다. 일은 껍데기가 한다. 제약의 키가 T 자신의 키(keyof T)라서 규칙이
+		고정 목록이 아니라 넘긴 객체를 따라 만들어진다. 넣은 키가
+		CommandPayloads에 있으면 그 페이로드, 아니면 void. 지난
+		글에서 하나의 타입으로는 못 하던 "키마다 다른 요구"가 Mapped Type 제약으로는
+		된다. 실제로 잡는지 tsc --strict로 확인해 보면,
+	</p>
+
+	<pre><code class="language-typescript">
+		// 시나리오 A: payload를 setSize로 잘못 명시
+		rotate: {
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt; { ... }
+		}
+		// error TS2322: Type '(..., payload: { w, h }) =&gt; void' is not assignable
+		//   to type '(..., payload: { deltaDeg }) =&gt; void | Promise&lt;void&gt;'.
+
+		// 시나리오 B: 표기 생략 후 엉뚱한 속성 접근
+		rotate: {
+			run: (editor, _ctx, payload) =&gt; { console.log(payload.w) }
+		}
+		// error TS2339: Property 'w' does not exist on type '{ deltaDeg: number }'.
+	</code></pre>
+
+	<p>
+		표기를 생략하면 문맥 타이핑으로 payload가 { deltaDeg }로 추론되어 엉뚱한
+		속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던 지점 — 잘못된 인자를
+		넘겨도 인텔리센스가 침묵하던 — 이 여기서는 잡힌다.
+	</p>
+
+	<p>그러나 두 페이로드의 구조가 똑같다면..</p>
+
+	<pre><code class="language-typescript">
+		interface CommandPayloads {
+			a: { n: number }
+			b: { n: number }  // a와 모양이 같다
+		}
+
+		const commands = defineCommands({
+			a: {
+				run: (editor, _ctx, payload: CommandPayloads['b']) =&gt; { ... }  // 뒤바꿔도
+			},
+		})
+		// tsc --strict --noEmit → 에러 0. 통과.
+	</code></pre>
+
+	<p>
+		TypeScript는 구조적 타이핑이라 이름이 아니라 모양으로 같고 다름을 판단한다.
+		CommandPayloads['a']와 CommandPayloads['b']가 둘 다 { n: number }면 컴파일러
+		입장에선 완전히 같은 타입이고, 뒤바뀜을 인식할 근거 자체가 없다. 명목적
+		타이핑 언어라면 애초에 성립하지 않는 사고다. 같은 상황을 Java로 옮겨 보면,
+	</p>
+
+	<pre><code class="language-java">
+		record RotatePayload(double n) {}
+		record ScalePayload(double n) {}  // 모양은 완전히 같다
+
+		void runRotate(RotatePayload p) { engine.rotate(p.n()); }
+
+		runRotate(new ScalePayload(2.0));
+		// error: incompatible types: ScalePayload cannot be converted to RotatePayload
+	</code></pre>
+
+	<p>
+		Java는 이름이 곧 정체성이다. 모양이 같아도 이름이 다르면 다른 타입이고,
+		뒤바꾸는 실수는 위처럼 컴파일에서 죽는다. 반면 TypeScript의 이름은 모양에
+		붙인 별명일 뿐이다. CommandPayloads['a']라고 부르든 ['b']라고 부르든
+		컴파일러가 보는 건 { n: number }라는 모양 하나. 별명이 몇 개든 타입은
+		하나라서, 뒤바뀜이라는 개념 자체가 성립하지 않는다.
+	</p>
+
+	<p>
+		그래도 갈라내고 싶다면 방법은 하나뿐이다. 이름을 구별 못 하니, 모양 자체를
+		다르게 만드는 것. 브랜드 타입이 그 트릭이다.
+	</p>
+
+	<pre><code class="language-typescript">
+		type A = { n: number } &amp; { readonly __brand: 'a' }
+		type B = { n: number } &amp; { readonly __brand: 'b' }
+		// __brand 값이 다르니 이제 모양부터 다르다. 뒤바꾸면 컴파일 에러.
+	</code></pre>
+
+	<p>
+		대신 페이로드가 태어나는 모든 곳에서 __brand라는 가짜 속성을 채워 넣어야
+		한다. 지금은 다섯 페이로드가 전부 모양이 달라 그 비용을 치를 실익이 없어
+		보류. 사실 모양이 같으면 런타임에 읽는 값도 같아서 데이터 사고는 안 나고,
+		남는 위험은 엉뚱한 run 로직을 그 키에 배선하는 것뿐인데 그건 애초에 타입이
+		아니라 리뷰와 테스트의 영역이다.
+	</p>
+
+	<p>
+		VSCode는 어떻게 했나 열어봤다. 이 when/run 명령 테이블 방식의
+		원조 격이니까.
+	</p>
+
+	<pre><code class="language-typescript">
+		export function registerCommand(command: string, callback: (...args: any[]) =&gt; any, thisArg?: any): Disposable;
+		export function executeCommand&lt;T = unknown&gt;(command: string, ...rest: any[]): Thenable&lt;T&gt;;
+	</code></pre>
+
+	<p>
+		명령은 string, 인자는 any[]. 잡고 못 잡고 이전에 시도 자체를 안 했다. 확장
+		생태계라 명령 등록이 열려 있으니 페이로드 목록을 닫힌 타입으로 가둘 수 없는
+		사정이 있긴 하다. when마저 함수가 아니라 package.json의 문자열 컨텍스트
+		표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론 — 정의
+		자체를 명세 삼아 호출부에서 맞춰라 — 를 공식 API로 채택한 셈이라 묘한 위안이
+		됐다.
+	</p>
+</div>
+      </div>
+    </article>
+  <div class="post-bottom">
+		<div class="post-header">
+			<span class="post-title">저널 / 개발</span>
+			<a href="/journals/development/" class="btn-list">목록</a>
+		</div>
+		<div class="post-list">
+			<ul class="post-list" data-page="1" style="">
+			
+					<li class="item">
+						<div>
+							<a href="/journals/development/28/" class="post-link" data-id="28" style="pointer-events: none;">
+								<span class="post-title active">명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계</span>
+							</a>
+							<time class="post-datetime" datetime="2026-07-23T18:54">26. 07. 23.</time>
+						</div>
+					</li>
+				
+					<li class="item">
+						<div>
+							<a href="/journals/development/3/" class="post-link" data-id="3" >
+								<span class="post-title ">addEventListener에서 커스텀 이벤트 타입 추론하기</span>
+							</a>
+							<time class="post-datetime" datetime="2026-03-28T17:21">26. 03. 28.</time>
+						</div>
+					</li>
+				
+					<li class="item">
+						<div>
+							<a href="/journals/development/1/" class="post-link" data-id="1" >
+								<span class="post-title ">전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계</span>
+							</a>
+							<time class="post-datetime" datetime="2026-03-23T19:41">26. 03. 23.</time>
+						</div>
+					</li>
+				
+		</ul>
+		</div>
+		
+	</div>
+</div>
+			</section>
+		</main>
+		<footer id="site-footer">
+			<span>© 2026 · taren250424@gmail.com</span>
+		</footer>
+
+	</body>
+</html>

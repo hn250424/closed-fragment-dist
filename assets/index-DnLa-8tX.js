@@ -2601,6 +2601,221 @@ $primary: #3b82f6;</code></pre>\r
 	</p>\r
 </div>\r
 `,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">\r
+	<meta name="post-id" content="28">\r
+	<meta name="post-title" content="명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계">\r
+  <meta name="post-published" content="2026-07-23T18:54">\r
+  <meta name="post-tags" content="TypeScript">\r
+</div>\r
+\r
+<div class="post-content">\r
+	<p>\r
+		지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를\r
+		any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로\r
+		물러났었다. SVG 편집기 명령 레이어를 만들다가 같은 문제를 다시 만났다.\r
+	</p>\r
+\r
+	<p>\r
+		단축키·툴바 아이콘·메뉴가 전부 하나의 진입점(runCommand)을 타는 명령\r
+		테이블이다. 대부분의 명령은 페이로드가 없지만 몇 개는 있다. 회전은 각도를,\r
+		크기 창은 폭과 높이를 받아야 한다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		interface CommandPayloads {\r
+			rotate: { deltaDeg: number }\r
+			offset: { deltaMm: number; join: OffsetJoin }\r
+			nest: { gapMm: number; mode: NestMode }\r
+			setPosition: { x: number; y: number }\r
+			setSize: { w: number; h: number }\r
+		}\r
+\r
+		interface Command&lt;P extends CommandPayloads[keyof CommandPayloads] | void = void&gt; {\r
+			when?: (editor: Editor) =&gt; boolean\r
+			run: (editor: Editor, ctx: CommandContext, payload: P) =&gt; void | Promise&lt;void&gt;\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		명령마다 페이로드 타입이 제각각인데 이걸 테이블 하나에 담아야 한다. 타입\r
+		표기는 P를 하나로 골라 전 키에 똑같이 퍼뜨리므로, Command&lt;void&gt;로 못\r
+		박으면 페이로드 명령이 컴파일에서 죽고, 모든 페이로드 시그니처를 받아주는\r
+		표기는 하한인 Command&lt;never&gt; 하나뿐이다(함수 인자는 반공변이니까).\r
+		그래서 처음엔 이렇게 했다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		export const commands = {\r
+			rotate: { ... },\r
+			setPosition: { ... },\r
+			// ...\r
+		} satisfies Record&lt;string, Command&lt;never&gt;&gt;\r
+	</code></pre>\r
+\r
+	<p>\r
+		그러나 "모두 허용한다"는 것은 "아무것도 검사하지 않는다"는\r
+		뜻. setPosition에 setSize의 페이로드를 잘못 적어도 통과한다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		setPosition: {\r
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt;  // 오타!\r
+				editor.engine.moveSelectionTo(payload.w, payload.h)\r
+		}\r
+	</code></pre>\r
+\r
+	<p>\r
+		호출부는 오버로드대로 { x, y }를 넘기니 payload.w는 undefined, 계산 결과는\r
+		NaN, 도형은 엉뚱한 곳으로 간다. 타입은 조용하고 앱에서 터진다.\r
+	</p>\r
+\r
+	<p>\r
+		지난 글에서 붕괴의 원인은 키(role, plan)가 런타임에 결정되는 넓은 타입이라는\r
+		것이었다. handler[event][r][p]에서 r, p가 런타임 변수인 순간 제네릭 추론이\r
+		무너져 args가 never로 떨어졌다. 이번엔 사정이 다르다 — 명령 이름은 호출부에\r
+		리터럴로 박힌다. runCommand("rotate", editor, ctx, { deltaDeg: 15 }) 식이다.\r
+		좁힐 키를 컴파일 타임에 이미 알고 있으므로, 디스패처 쪽은 오버로드로 잡을 수\r
+		있다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		export function runCommand(name: PayloadlessCommandName, editor: Editor, ctx: CommandContext): void\r
+		export function runCommand&lt;N extends keyof CommandPayloads&gt;(\r
+			name: N,\r
+			editor: Editor,\r
+			ctx: CommandContext,\r
+			payload: CommandPayloads[N]\r
+		): void\r
+	</code></pre>\r
+\r
+	<p>\r
+		남은 건 테이블 정의 쪽이다. 키마다 다른 페이로드를 요구해야 하는데 표기\r
+		하나로는 표현할 수 없다. 그래서 표기를 붙이는 대신, 항등함수에 자기참조\r
+		제약을 걸어 통과시키는 방법을 썼다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		const defineCommands = &lt;\r
+			T extends {\r
+				[K in keyof T]: K extends keyof CommandPayloads ? Command&lt;CommandPayloads[K]&gt; : Command&lt;void&gt;\r
+			}\r
+		&gt;(\r
+			table: T\r
+		): T =&gt; table\r
+\r
+		export const commands = defineCommands({ ... })\r
+	</code></pre>\r
+\r
+	<p>\r
+		몸통은 받은 것을 그대로 돌려줄 뿐이다. 대신 T를 있는 그대로 반환하므로\r
+		리터럴 타입이 보존되어 keyof typeof commands가 정확한 명령 이름 유니온으로\r
+		남는다. 일은 껍데기가 한다. 제약의 키가 T 자신의 키(keyof T)라서 규칙이\r
+		고정 목록이 아니라 넘긴 객체를 따라 만들어진다. 넣은 키가\r
+		CommandPayloads에 있으면 그 페이로드, 아니면 void. 지난\r
+		글에서 하나의 타입으로는 못 하던 "키마다 다른 요구"가 Mapped Type 제약으로는\r
+		된다. 실제로 잡는지 tsc --strict로 확인해 보면,\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		// 시나리오 A: payload를 setSize로 잘못 명시\r
+		rotate: {\r
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt; { ... }\r
+		}\r
+		// error TS2322: Type '(..., payload: { w, h }) =&gt; void' is not assignable\r
+		//   to type '(..., payload: { deltaDeg }) =&gt; void | Promise&lt;void&gt;'.\r
+\r
+		// 시나리오 B: 표기 생략 후 엉뚱한 속성 접근\r
+		rotate: {\r
+			run: (editor, _ctx, payload) =&gt; { console.log(payload.w) }\r
+		}\r
+		// error TS2339: Property 'w' does not exist on type '{ deltaDeg: number }'.\r
+	</code></pre>\r
+\r
+	<p>\r
+		표기를 생략하면 문맥 타이핑으로 payload가 { deltaDeg }로 추론되어 엉뚱한\r
+		속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던 지점 — 잘못된 인자를\r
+		넘겨도 인텔리센스가 침묵하던 — 이 여기서는 잡힌다.\r
+	</p>\r
+\r
+	<p>그러나 두 페이로드의 구조가 똑같다면..</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		interface CommandPayloads {\r
+			a: { n: number }\r
+			b: { n: number }  // a와 모양이 같다\r
+		}\r
+\r
+		const commands = defineCommands({\r
+			a: {\r
+				run: (editor, _ctx, payload: CommandPayloads['b']) =&gt; { ... }  // 뒤바꿔도\r
+			},\r
+		})\r
+		// tsc --strict --noEmit → 에러 0. 통과.\r
+	</code></pre>\r
+\r
+	<p>\r
+		TypeScript는 구조적 타이핑이라 이름이 아니라 모양으로 같고 다름을 판단한다.\r
+		CommandPayloads['a']와 CommandPayloads['b']가 둘 다 { n: number }면 컴파일러\r
+		입장에선 완전히 같은 타입이고, 뒤바뀜을 인식할 근거 자체가 없다. 명목적\r
+		타이핑 언어라면 애초에 성립하지 않는 사고다. 같은 상황을 Java로 옮겨 보면,\r
+	</p>\r
+\r
+	<pre><code class="language-java">\r
+		record RotatePayload(double n) {}\r
+		record ScalePayload(double n) {}  // 모양은 완전히 같다\r
+\r
+		void runRotate(RotatePayload p) { engine.rotate(p.n()); }\r
+\r
+		runRotate(new ScalePayload(2.0));\r
+		// error: incompatible types: ScalePayload cannot be converted to RotatePayload\r
+	</code></pre>\r
+\r
+	<p>\r
+		Java는 이름이 곧 정체성이다. 모양이 같아도 이름이 다르면 다른 타입이고,\r
+		뒤바꾸는 실수는 위처럼 컴파일에서 죽는다. 반면 TypeScript의 이름은 모양에\r
+		붙인 별명일 뿐이다. CommandPayloads['a']라고 부르든 ['b']라고 부르든\r
+		컴파일러가 보는 건 { n: number }라는 모양 하나. 별명이 몇 개든 타입은\r
+		하나라서, 뒤바뀜이라는 개념 자체가 성립하지 않는다.\r
+	</p>\r
+\r
+	<p>\r
+		그래도 갈라내고 싶다면 방법은 하나뿐이다. 이름을 구별 못 하니, 모양 자체를\r
+		다르게 만드는 것. 브랜드 타입이 그 트릭이다.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		type A = { n: number } &amp; { readonly __brand: 'a' }\r
+		type B = { n: number } &amp; { readonly __brand: 'b' }\r
+		// __brand 값이 다르니 이제 모양부터 다르다. 뒤바꾸면 컴파일 에러.\r
+	</code></pre>\r
+\r
+	<p>\r
+		대신 페이로드가 태어나는 모든 곳에서 __brand라는 가짜 속성을 채워 넣어야\r
+		한다. 지금은 다섯 페이로드가 전부 모양이 달라 그 비용을 치를 실익이 없어\r
+		보류. 사실 모양이 같으면 런타임에 읽는 값도 같아서 데이터 사고는 안 나고,\r
+		남는 위험은 엉뚱한 run 로직을 그 키에 배선하는 것뿐인데 그건 애초에 타입이\r
+		아니라 리뷰와 테스트의 영역이다.\r
+	</p>\r
+\r
+	<p>\r
+		VSCode는 어떻게 했나 열어봤다. 이 when/run 명령 테이블 방식의\r
+		원조 격이니까.\r
+	</p>\r
+\r
+	<pre><code class="language-typescript">\r
+		export function registerCommand(command: string, callback: (...args: any[]) =&gt; any, thisArg?: any): Disposable;\r
+		export function executeCommand&lt;T = unknown&gt;(command: string, ...rest: any[]): Thenable&lt;T&gt;;\r
+	</code></pre>\r
+\r
+	<p>\r
+		명령은 string, 인자는 any[]. 잡고 못 잡고 이전에 시도 자체를 안 했다. 확장\r
+		생태계라 명령 등록이 열려 있으니 페이로드 목록을 닫힌 타입으로 가둘 수 없는\r
+		사정이 있긴 하다. when마저 함수가 아니라 package.json의 문자열 컨텍스트\r
+		표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론 — 정의\r
+		자체를 명세 삼아 호출부에서 맞춰라 — 를 공식 API로 채택한 셈이라 묘한 위안이\r
+		됐다.\r
+	</p>\r
+</div>\r
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
 	<meta name="post-id" content="3">\r
 	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
   <meta name="post-published" content="2026-03-28T17:21">\r
@@ -2661,7 +2876,7 @@ $primary: #3b82f6;</code></pre>\r
 \r
 	<p>\r
 		그럼 저 e의 타입은 커스텀 이벤트가 되어야 맞고, 코드를 수정하면 detail에\r
-		그인 에러는 addEventListener에 그인다.\r
+		그였던 에러는 addEventListener로 옮겨 간다.\r
 	</p>\r
 \r
 	<p>\r
@@ -2683,7 +2898,7 @@ $primary: #3b82f6;</code></pre>\r
 	<p>\r
 		addEventListener는 첫 번째 인자인 type이 무엇인지에 따라 두 번째 인자인\r
 		listener 타입을 결정하는데, 'update-color'란 타입이 없어서 발생한다.\r
-		그러니까 기본 등록된 click, scroll를 기대하고 있는데 엉뚱한 것이 들어왔고 또\r
+		그러니까 기본 등록된 click, scroll을 기대하고 있는데 엉뚱한 것이 들어왔고 또\r
 		addEventListener의 두 번째 인자는 (e: Event) => void를 기대하는데 Event 대신\r
 		CustomEvent를 써버렸다. 이를 해결하기 위해서는 addEventListener 메서드를\r
 		오버로딩 해줘야 한다.\r
@@ -2744,7 +2959,7 @@ $primary: #3b82f6;</code></pre>\r
 		addEventListener의 첫 인자로 보내준다.\r
 	</p>\r
 \r
-	<p>참고로 HTMLElementEventMap는</p>\r
+	<p>참고로 HTMLElementEventMap는 GlobalEventHandlersEventMap를 상속하는데,</p>\r
 \r
 	<pre><code>\r
 		interface GlobalEventHandlersEventMap {\r
@@ -2757,7 +2972,7 @@ $primary: #3b82f6;</code></pre>\r
 	<p>이런 기존 이벤트를 모은 인터페이스다.</p>\r
 \r
 	<p>\r
-		두 번째 인자 리스너의 첫 번재 인자를 this로 지정하여 this가 단순히\r
+		두 번째 인자 리스너의 첫 번째 인자를 this로 지정하여 this가 단순히\r
 		HTMLElement가 아닌 현재 클래스 MyColorPicker임을 보장해야 리스너 안에서 해당\r
 		클래스의 멤버에 안전하게 접근할 수 있다.\r
 	</p>\r
@@ -2839,7 +3054,7 @@ $primary: #3b82f6;</code></pre>\r
 \r
 	<p>\r
 		또 e의 정확한 타입은 CustomEvent&lt;MyColorPickerCustomEvents\r
-		['update-color]&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입\r
+		['update-color']&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입\r
 		추론 시스템이 추론하게 내버려 두어야 e.detail까지 쳤을 때 color가 자동완성\r
 		된다.\r
 	</p>\r
@@ -2856,7 +3071,7 @@ $primary: #3b82f6;</code></pre>\r
 		}\r
 	</code></pre>\r
 </div>\r
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
 	<meta name="post-id" content="10" />\r
 	<meta name="post-title" content="배당 9%의 속사정" />\r
 	<meta name="post-published" content="2026-05-25T15:28" />\r
@@ -2924,7 +3139,7 @@ $primary: #3b82f6;</code></pre>\r
 		기획재정부 2025년 세제개편안\r
 	</p>\r
 </div>\r
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">\r
 	<meta name="post-id" content="13" />\r
 	<meta name="post-title" content="1조의 무게" />\r
 	<meta name="post-published" content="2026-05-30T13:35" />\r
@@ -2994,7 +3209,7 @@ $primary: #3b82f6;</code></pre>\r
 		>\r
 	</p>\r
 </div>\r
-`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
+`,zr=s({default:()=>Br}),Br=`<div class="post-meta">
 	<meta name="post-id" content="15" />
 	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
 	<meta name="post-published" content="2026-06-20T11:41" />
@@ -3052,7 +3267,7 @@ target="_blank">
 "美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
 </p>
 </div>
-`,zr=s({default:()=>Br}),Br=`<div class="post-meta">\r
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">\r
 	<meta name="post-id" content="18" />\r
 	<meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />\r
 	<meta name="post-published" content="2026-06-29T16:43" />\r
@@ -3136,7 +3351,7 @@ target="_blank">
 		신한투자증권 최승환, "바겐세일" (2026.04.09)\r
 	</p>\r
 </div>\r
-`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">\r
+`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -3247,7 +3462,7 @@ target="_blank">
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">\r
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -3336,21 +3551,21 @@ target="_blank">
 		>\r
 	</p>\r
 </div>\r
-`;function Gr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Kr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/27/index.html":_r,"../content/essays/culture/8/index.html":yr,"../content/essays/daily/0/index.html":xr,"../content/essays/daily/23/index.html":Cr,"../content/essays/daily/24/index.html":Tr,"../content/essays/daily/25/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/13/index.html":Fr,"../content/journals/investment/15/index.html":Lr,"../content/journals/investment/18/index.html":zr,"../content/journals/investment/6/index.html":Vr,"../content/journals/investment/9/index.html":Ur}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Gr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var qr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};qr.common?.siteName;function Jr(e){e.innerHTML=qr.navigation.map(e=>`
+`;function qr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Jr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/27/index.html":_r,"../content/essays/culture/8/index.html":yr,"../content/essays/daily/0/index.html":xr,"../content/essays/daily/23/index.html":Cr,"../content/essays/daily/24/index.html":Tr,"../content/essays/daily/25/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/28/index.html":jr,"../content/journals/development/3/index.html":Nr,"../content/journals/investment/10/index.html":Fr,"../content/journals/investment/13/index.html":Lr,"../content/journals/investment/15/index.html":zr,"../content/journals/investment/18/index.html":Vr,"../content/journals/investment/6/index.html":Ur,"../content/journals/investment/9/index.html":Gr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=qr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Yr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Yr.common?.siteName;function Xr(e){e.innerHTML=Yr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Yr()} ${e.displayName}</h2>
+					<h2 class="category-title">${Zr()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${qr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Xr()} ${t.displayName}
+								<a href="${Yr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${Qr()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Yr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function Zr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Xr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function Qr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function Zr(e,t,n,r){Jr(n)}function Qr(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function $r(){let e=Kr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),Zr(e,n,i,o),Qr(e,o)}function ei(){Hn.highlightAll(),$r()}function ti(){ei()}document.addEventListener(`DOMContentLoaded`,ti);
+	</svg>`}function $r(e,t,n,r){Xr(n)}function ei(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ti(){let e=Jr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),$r(e,n,i,o),ei(e,o)}function ni(){Hn.highlightAll(),ti()}function ri(){ni()}document.addEventListener(`DOMContentLoaded`,ri);

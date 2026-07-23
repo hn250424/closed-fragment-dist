@@ -20,7 +20,7 @@
 		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>addEventListener에서 커스텀 이벤트 타입 추론하기 - 닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-Cnt4iY1J.js"></script>
+		<script type="module" crossorigin src="/assets/index-DnLa-8tX.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
 	
     <link rel="canonical" href="https://tarenx.com/journals/development/3/" />
@@ -262,7 +262,7 @@
 
 	<p>
 		그럼 저 e의 타입은 커스텀 이벤트가 되어야 맞고, 코드를 수정하면 detail에
-		그인 에러는 addEventListener에 그인다.
+		그였던 에러는 addEventListener로 옮겨 간다.
 	</p>
 
 	<p>
@@ -284,7 +284,7 @@
 	<p>
 		addEventListener는 첫 번째 인자인 type이 무엇인지에 따라 두 번째 인자인
 		listener 타입을 결정하는데, 'update-color'란 타입이 없어서 발생한다.
-		그러니까 기본 등록된 click, scroll를 기대하고 있는데 엉뚱한 것이 들어왔고 또
+		그러니까 기본 등록된 click, scroll을 기대하고 있는데 엉뚱한 것이 들어왔고 또
 		addEventListener의 두 번째 인자는 (e: Event) => void를 기대하는데 Event 대신
 		CustomEvent를 써버렸다. 이를 해결하기 위해서는 addEventListener 메서드를
 		오버로딩 해줘야 한다.
@@ -345,7 +345,7 @@
 		addEventListener의 첫 인자로 보내준다.
 	</p>
 
-	<p>참고로 HTMLElementEventMap는</p>
+	<p>참고로 HTMLElementEventMap는 GlobalEventHandlersEventMap를 상속하는데,</p>
 
 	<pre><code>
 		interface GlobalEventHandlersEventMap {
@@ -358,7 +358,7 @@
 	<p>이런 기존 이벤트를 모은 인터페이스다.</p>
 
 	<p>
-		두 번째 인자 리스너의 첫 번재 인자를 this로 지정하여 this가 단순히
+		두 번째 인자 리스너의 첫 번째 인자를 this로 지정하여 this가 단순히
 		HTMLElement가 아닌 현재 클래스 MyColorPicker임을 보장해야 리스너 안에서 해당
 		클래스의 멤버에 안전하게 접근할 수 있다.
 	</p>
@@ -440,7 +440,7 @@
 
 	<p>
 		또 e의 정확한 타입은 CustomEvent&lt;MyColorPickerCustomEvents
-		['update-color]&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입
+		['update-color']&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입
 		추론 시스템이 추론하게 내버려 두어야 e.detail까지 쳤을 때 color가 자동완성
 		된다.
 	</p>
@@ -467,6 +467,15 @@
 		<div class="post-list">
 			<ul class="post-list" data-page="1" style="">
 			
+					<li class="item">
+						<div>
+							<a href="/journals/development/28/" class="post-link" data-id="28" >
+								<span class="post-title ">명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계</span>
+							</a>
+							<time class="post-datetime" datetime="2026-07-23T18:54">26. 07. 23.</time>
+						</div>
+					</li>
+				
 					<li class="item">
 						<div>
 							<a href="/journals/development/3/" class="post-link" data-id="3" style="pointer-events: none;">
