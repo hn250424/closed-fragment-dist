@@ -3352,6 +3352,101 @@ target="_blank">
 	</p>\r
 </div>\r
 `,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">\r
+	<meta name="post-id" content="29" />\r
+	<meta name="post-title" content="목표비중은 왜 올랐나" />\r
+	<meta name="post-published" content="2026-07-31T12:55" />\r
+	<meta name="post-tags" content="주식, 연기금" />\r
+</div>\r
+\r
+<div class="post-content">\r
+	<figure>\r
+		<img\r
+			src="/assets/journals/investment/29/chart.png"\r
+			alt="코스피 차트"\r
+			width="400"\r
+		/>\r
+		<figcaption>출처: 네이버 증권</figcaption>\r
+	</figure>\r
+\r
+	<p>\r
+		26년 7월, 코스피가 한 달 만에 28% 넘게 빠졌다. 국민연금이 정부 압력 때문에\r
+		제때 팔지 않아 손실을 키웠다는 비판이 거세다.\r
+	</p>\r
+\r
+	<p>\r
+		선을 긋자면, 정부의 증시 정책이나 최근 보이는 대응 방식을 옹호하고 싶지\r
+		않다. 그쪽은 그쪽대로 따질 지점이 있다. 다만 쉽게 동의하기 힘든 것은\r
+		국민연금이 노후자금을 동원해 그간 주가를 떠받쳤다는 주장이다. 매매 기록으로\r
+		확인되는 사실 관계라 한국거래소 정보데이터시스템에서 투자자별 거래실적을\r
+		받아 확인해봤다.\r
+	</p>\r
+\r
+	<p>\r
+		확인된 사실은 다음과 같다. 2025년 6월 2일부터 2026년 6월 말까지 13개월간\r
+		연기금은 코스피에서 11조2782억 원을 순매도했다. 이 가운데 8조7326억 원이\r
+		주가가 탄력을 받기 시작한 2026년 상반기에 나왔다. 지수가 4224에서 6224로\r
+		오른 1~2월에 2조5728억 원, 6165에서 5052로 밀린 3월에 7648억 원, 5330에서\r
+		8476까지 뛴 4~5월에 3조579억 원을 팔았다. 6월은 오르내림이 있었으나 종가\r
+		기준으로 8476에서 시작해 8476으로 끝났다. 지수가 제자리인 그 한 달에도\r
+		2조3371억 원이 나왔다.\r
+	</p>\r
+\r
+	<p>\r
+		그럼에도 같은 기간 코스피가 2692에서 8476으로 3.1배가 되었기 때문에 연기금의\r
+		국내주식 보유비중은 오히려 늘었다. 지수가 세 배 오르는 그 속도에 매도를\r
+		맞추라는 건 현실적이지 않다.\r
+	</p>\r
+\r
+	<p>\r
+		목표비중은 두 차례 움직였다. 2025년에 세운 2026년 기금운용계획의 국내주식\r
+		목표비중은 14.4%였다. 2026년 1월 26일 제1차 기금운용위원회는 이를 14.9%로\r
+		올리면서, 전략적 자산배분 허용범위를 벗어나도 기계적으로 매도하지 않도록\r
+		리밸런싱을 6월 말까지 한시 유예했다. 1월 초 코스피는 4224다. 5월 28일 제5차\r
+		회의는 14.9%를 20.8%로 올렸다. 이때 코스피는 8476이다. 새 목표비중은 유예가\r
+		끝나는 6월 말부터 적용됐다.\r
+	</p>\r
+\r
+	<p>\r
+		보건복지부는 상법 개정 등에 따른 국내주식 시장의 구조적 변화 가능성을\r
+		언급했다. 목표비중 14.4%는 코리아 디스카운트라는 전제 위에 세워진 것이다.\r
+		2025년 상법 개정으로 이사의 충실의무 대상이 회사에서 주주로 바뀌었고,\r
+		지배구조를 이유로 한국 시장에 매기던 할인이 줄었다는 평가가 안팎에서 나왔다.\r
+		할인 요인이 해소되는 중이라면 할인을 전제로 만든 목표치를 그대로 고수하는\r
+		쪽이 오히려 오류다. 목표비중을 그대로 둔 채 유예만 끝냈다면 수십조 원을 한\r
+		번에 쏟아내야 했다. 그 매도 자체가 가격을 떨어뜨려 수익을 줄일 것이라는\r
+		당시의 판단은 비합리적이지 않다.\r
+	</p>\r
+\r
+	<p>\r
+		목표비중을 올린 시점이 최고점 부근인 것은 안타깝다. 더 일찍 더 많이 덜어냈다면\r
+		좋았겠지만, 그건 우리가 7월을 알고 난 뒤의 판단이다. 5월에는 AI 수요와\r
+		반도체 실적 전망을 근거로 한 낙관이 시장의 공통된 시각이었다.\r
+	</p>\r
+\r
+	<p>\r
+		기록이 말하는 건 단순하다. 연기금은 본격적인 주가 상승기인 26년 상반기에\r
+		매도를 집중했다. 노후자금으로 주가를 떠받쳤다는 그림은 매매 데이터에 없다.\r
+		목표비중을 올린 것은 매수 결정이 아니라, 유예 종료와 함께 쏟아질 물량을\r
+		줄이는 결정이었다.\r
+	</p>\r
+\r
+	<p class="post-ref">\r
+		* 참조 <br />\r
+		한국거래소 정보데이터시스템, 투자자별 거래실적 (코스피,\r
+		2025.06.01~2026.06.30)<br />\r
+		보건복지부, 2026년도 제1차 국민연금기금운용위원회 (2026.01.26)<br />\r
+		보건복지부, 2026년도 제5차 국민연금기금운용위원회 (2026.05.28)<br />\r
+		<a\r
+			href="https://fund.nps.or.kr/oprtprcn/ivsmprcn/getOHED0003M0.do"\r
+			target="_blank"\r
+		>\r
+			국민연금기금운용본부, 자산군별 현황</a\r
+		><br />\r
+		서울경제, "연기금, 5년 만에 月 최대 순매도" (2026.06.24)<br />\r
+		머니투데이, "국민연금 '매도 폭탄' 없었다" (2026.07.28)\r
+	</p>\r
+</div>\r
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">\r
 	<meta name="post-id" content="6">\r
 	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
   <meta name="post-published" content="2026-04-25T19:10">\r
@@ -3462,7 +3557,7 @@ target="_blank">
 		네이버 증권\r
 	</p>\r
 </div>\r
-`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">\r
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">\r
 	<meta name="post-id" content="9" />\r
 	<meta name="post-title" content="AI 투자 단상" />\r
 	<meta name="post-published" content="2026-05-11T19:50" />\r
@@ -3551,21 +3646,21 @@ target="_blank">
 		>\r
 	</p>\r
 </div>\r
-`;function qr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Jr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/27/index.html":_r,"../content/essays/culture/8/index.html":yr,"../content/essays/daily/0/index.html":xr,"../content/essays/daily/23/index.html":Cr,"../content/essays/daily/24/index.html":Tr,"../content/essays/daily/25/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/28/index.html":jr,"../content/journals/development/3/index.html":Nr,"../content/journals/investment/10/index.html":Fr,"../content/journals/investment/13/index.html":Lr,"../content/journals/investment/15/index.html":zr,"../content/journals/investment/18/index.html":Vr,"../content/journals/investment/6/index.html":Ur,"../content/journals/investment/9/index.html":Gr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=qr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Yr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Yr.common?.siteName;function Xr(e){e.innerHTML=Yr.navigation.map(e=>`
+`;function Yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Xr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/27/index.html":_r,"../content/essays/culture/8/index.html":yr,"../content/essays/daily/0/index.html":xr,"../content/essays/daily/23/index.html":Cr,"../content/essays/daily/24/index.html":Tr,"../content/essays/daily/25/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/28/index.html":jr,"../content/journals/development/3/index.html":Nr,"../content/journals/investment/10/index.html":Fr,"../content/journals/investment/13/index.html":Lr,"../content/journals/investment/15/index.html":zr,"../content/journals/investment/18/index.html":Vr,"../content/journals/investment/29/index.html":Ur,"../content/journals/investment/6/index.html":Gr,"../content/journals/investment/9/index.html":qr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Zr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Zr.common?.siteName;function Qr(e){e.innerHTML=Zr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${Zr()} ${e.displayName}</h2>
+					<h2 class="category-title">${$r()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${Yr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${Qr()} ${t.displayName}
+								<a href="${Zr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${ei()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function Zr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function $r(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function Qr(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ei(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function $r(e,t,n,r){Xr(n)}function ei(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ti(){let e=Jr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),$r(e,n,i,o),ei(e,o)}function ni(){Hn.highlightAll(),ti()}function ri(){ni()}document.addEventListener(`DOMContentLoaded`,ri);
+	</svg>`}function ti(e,t,n,r){Qr(n)}function ni(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ri(){let e=Xr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e)}),ti(e,n,i,o),ni(e,o)}function ii(){Hn.highlightAll(),ri()}function ai(){ii()}document.addEventListener(`DOMContentLoaded`,ai);
