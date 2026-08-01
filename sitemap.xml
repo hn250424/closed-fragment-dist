@@ -21,6 +21,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tarenx.com/columns/culture/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/columns/investment/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tarenx.com/essays/culture/</loc>
     
     <priority>0.8</priority>
@@ -41,7 +51,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/journals/investment/29/</loc>
+    <loc>https://tarenx.com/musings/culture/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/musings/daily/</loc>
+    
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/columns/investment/29/</loc>
     <lastmod>2026-07-31</lastmod>
     <priority>0.6</priority>
   </url>
@@ -51,7 +71,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/culture/27/</loc>
+    <loc>https://tarenx.com/musings/culture/27/</loc>
     <lastmod>2026-07-17</lastmod>
     <priority>0.6</priority>
   </url>
@@ -61,17 +81,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/daily/25/</loc>
+    <loc>https://tarenx.com/musings/daily/25/</loc>
     <lastmod>2026-07-05</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/daily/24/</loc>
+    <loc>https://tarenx.com/musings/daily/24/</loc>
     <lastmod>2026-07-04</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/daily/23/</loc>
+    <loc>https://tarenx.com/musings/daily/23/</loc>
     <lastmod>2026-07-04</lastmod>
     <priority>0.6</priority>
   </url>
@@ -116,12 +136,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/culture/14/</loc>
+    <loc>https://tarenx.com/musings/culture/14/</loc>
     <lastmod>2026-06-08</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/journals/investment/13/</loc>
+    <loc>https://tarenx.com/columns/investment/13/</loc>
     <lastmod>2026-05-30</lastmod>
     <priority>0.6</priority>
   </url>
@@ -131,7 +151,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/culture/11/</loc>
+    <loc>https://tarenx.com/columns/culture/11/</loc>
     <lastmod>2026-05-27</lastmod>
     <priority>0.6</priority>
   </url>
@@ -141,7 +161,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/journals/investment/9/</loc>
+    <loc>https://tarenx.com/columns/investment/9/</loc>
     <lastmod>2026-05-11</lastmod>
     <priority>0.6</priority>
   </url>
@@ -176,7 +196,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tarenx.com/essays/culture/2/</loc>
+    <loc>https://tarenx.com/columns/culture/2/</loc>
     <lastmod>2026-03-24</lastmod>
     <priority>0.6</priority>
   </url>

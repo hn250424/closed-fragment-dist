@@ -7,3646 +7,3779 @@ https://github.com/highlightjs/highlight.js/issues/2277`),i=e,r=t),n===void 0&&(
 ]*?"'`},{begin:`"[^\r
 "]*"`}]},{className:`built_in`,variants:[{begin:`\\b(abs|acos|asin|atan|atan2|atanh|ceil|cloglog|comb|cos|digamma|exp|floor|invcloglog|invlogit|ln|lnfact|lnfactorial|lngamma|log|log10|max|min|mod|reldif|round|sign|sin|sqrt|sum|tan|tanh|trigamma|trunc|betaden|Binomial|binorm|binormal|chi2|chi2tail|dgammapda|dgammapdada|dgammapdadx|dgammapdx|dgammapdxdx|F|Fden|Ftail|gammaden|gammap|ibeta|invbinomial|invchi2|invchi2tail|invF|invFtail|invgammap|invibeta|invnchi2|invnFtail|invnibeta|invnorm|invnormal|invttail|nbetaden|nchi2|nFden|nFtail|nibeta|norm|normal|normalden|normd|npnchi2|tden|ttail|uniform|abbrev|char|index|indexnot|length|lower|ltrim|match|plural|proper|real|regexm|regexr|regexs|reverse|rtrim|string|strlen|strlower|strltrim|strmatch|strofreal|strpos|strproper|strreverse|strrtrim|strtrim|strupper|subinstr|subinword|substr|trim|upper|word|wordcount|_caller|autocode|byteorder|chop|clip|cond|e|epsdouble|epsfloat|group|inlist|inrange|irecode|matrix|maxbyte|maxdouble|maxfloat|maxint|maxlong|mi|minbyte|mindouble|minfloat|minint|minlong|missing|r|recode|replay|return|s|scalar|d|date|day|dow|doy|halfyear|mdy|month|quarter|week|year|d|daily|dofd|dofh|dofm|dofq|dofw|dofy|h|halfyearly|hofd|m|mofd|monthly|q|qofd|quarterly|tin|twithin|w|weekly|wofd|y|yearly|yh|ym|yofd|yq|yw|cholesky|colnumb|colsof|corr|det|diag|diag0cnt|el|get|hadamard|I|inv|invsym|issym|issymmetric|J|matmissing|matuniform|mreldif|nullmat|rownumb|rowsof|sweep|syminv|trace|vec|vecdiag)(?=\\()`}]},e.COMMENT(`^[ 	]*\\*.*$`,!1),e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE]}}t.exports=n})),_n=o(((e,t)=>{function n(e){return{name:`STEP Part 21`,aliases:[`p21`,`step`,`stp`],case_insensitive:!0,keywords:{$pattern:`[A-Z_][A-Z0-9_.]*`,keyword:[`HEADER`,`ENDSEC`,`DATA`]},contains:[{className:`meta`,begin:`ISO-10303-21;`,relevance:10},{className:`meta`,begin:`END-ISO-10303-21;`,relevance:10},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,e.COMMENT(`/\\*\\*!`,`\\*/`),e.C_NUMBER_MODE,e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null}),{className:`string`,begin:`'`,end:`'`},{className:`symbol`,variants:[{begin:`#`,end:`\\d+`,illegal:`\\W`}]}]}}t.exports=n})),vn=o(((e,t)=>{var n=e=>({IMPORTANT:{scope:`meta`,begin:`!important`},BLOCK_COMMENT:e.C_BLOCK_COMMENT_MODE,HEXCOLOR:{scope:`number`,begin:/#(([0-9a-fA-F]{3,4})|(([0-9a-fA-F]{2}){3,4}))\b/},FUNCTION_DISPATCH:{className:`built_in`,begin:/[\w-]+(?=\()/},ATTRIBUTE_SELECTOR_MODE:{scope:`selector-attr`,begin:/\[/,end:/\]/,illegal:`$`,contains:[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE]},CSS_NUMBER_MODE:{scope:`number`,begin:e.NUMBER_RE+`(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?`,relevance:0},CSS_VARIABLE:{className:`attr`,begin:/--[A-Za-z_][A-Za-z0-9_-]*/}}),r=`a.abbr.address.article.aside.audio.b.blockquote.body.button.canvas.caption.cite.code.dd.del.details.dfn.div.dl.dt.em.fieldset.figcaption.figure.footer.form.h1.h2.h3.h4.h5.h6.header.hgroup.html.i.iframe.img.input.ins.kbd.label.legend.li.main.mark.menu.nav.object.ol.optgroup.option.p.picture.q.quote.samp.section.select.source.span.strong.summary.sup.table.tbody.td.textarea.tfoot.th.thead.time.tr.ul.var.video`.split(`.`),i=`defs.g.marker.mask.pattern.svg.switch.symbol.feBlend.feColorMatrix.feComponentTransfer.feComposite.feConvolveMatrix.feDiffuseLighting.feDisplacementMap.feFlood.feGaussianBlur.feImage.feMerge.feMorphology.feOffset.feSpecularLighting.feTile.feTurbulence.linearGradient.radialGradient.stop.circle.ellipse.image.line.path.polygon.polyline.rect.text.use.textPath.tspan.foreignObject.clipPath`.split(`.`),a=[...r,...i],o=`any-hover.any-pointer.aspect-ratio.color.color-gamut.color-index.device-aspect-ratio.device-height.device-width.display-mode.forced-colors.grid.height.hover.inverted-colors.monochrome.orientation.overflow-block.overflow-inline.pointer.prefers-color-scheme.prefers-contrast.prefers-reduced-motion.prefers-reduced-transparency.resolution.scan.scripting.update.width.min-width.max-width.min-height.max-height`.split(`.`).sort().reverse(),s=`active.any-link.blank.checked.current.default.defined.dir.disabled.drop.empty.enabled.first.first-child.first-of-type.fullscreen.future.focus.focus-visible.focus-within.has.host.host-context.hover.indeterminate.in-range.invalid.is.lang.last-child.last-of-type.left.link.local-link.not.nth-child.nth-col.nth-last-child.nth-last-col.nth-last-of-type.nth-of-type.only-child.only-of-type.optional.out-of-range.past.placeholder-shown.read-only.read-write.required.right.root.scope.target.target-within.user-invalid.valid.visited.where`.split(`.`).sort().reverse(),c=[`after`,`backdrop`,`before`,`cue`,`cue-region`,`first-letter`,`first-line`,`grammar-error`,`marker`,`part`,`placeholder`,`selection`,`slotted`,`spelling-error`].sort().reverse(),l=`accent-color.align-content.align-items.align-self.alignment-baseline.all.anchor-name.animation.animation-composition.animation-delay.animation-direction.animation-duration.animation-fill-mode.animation-iteration-count.animation-name.animation-play-state.animation-range.animation-range-end.animation-range-start.animation-timeline.animation-timing-function.appearance.aspect-ratio.backdrop-filter.backface-visibility.background.background-attachment.background-blend-mode.background-clip.background-color.background-image.background-origin.background-position.background-position-x.background-position-y.background-repeat.background-size.baseline-shift.block-size.border.border-block.border-block-color.border-block-end.border-block-end-color.border-block-end-style.border-block-end-width.border-block-start.border-block-start-color.border-block-start-style.border-block-start-width.border-block-style.border-block-width.border-bottom.border-bottom-color.border-bottom-left-radius.border-bottom-right-radius.border-bottom-style.border-bottom-width.border-collapse.border-color.border-end-end-radius.border-end-start-radius.border-image.border-image-outset.border-image-repeat.border-image-slice.border-image-source.border-image-width.border-inline.border-inline-color.border-inline-end.border-inline-end-color.border-inline-end-style.border-inline-end-width.border-inline-start.border-inline-start-color.border-inline-start-style.border-inline-start-width.border-inline-style.border-inline-width.border-left.border-left-color.border-left-style.border-left-width.border-radius.border-right.border-right-color.border-right-style.border-right-width.border-spacing.border-start-end-radius.border-start-start-radius.border-style.border-top.border-top-color.border-top-left-radius.border-top-right-radius.border-top-style.border-top-width.border-width.bottom.box-align.box-decoration-break.box-direction.box-flex.box-flex-group.box-lines.box-ordinal-group.box-orient.box-pack.box-shadow.box-sizing.break-after.break-before.break-inside.caption-side.caret-color.clear.clip.clip-path.clip-rule.color.color-interpolation.color-interpolation-filters.color-profile.color-rendering.color-scheme.column-count.column-fill.column-gap.column-rule.column-rule-color.column-rule-style.column-rule-width.column-span.column-width.columns.contain.contain-intrinsic-block-size.contain-intrinsic-height.contain-intrinsic-inline-size.contain-intrinsic-size.contain-intrinsic-width.container.container-name.container-type.content.content-visibility.counter-increment.counter-reset.counter-set.cue.cue-after.cue-before.cursor.cx.cy.direction.display.dominant-baseline.empty-cells.enable-background.field-sizing.fill.fill-opacity.fill-rule.filter.flex.flex-basis.flex-direction.flex-flow.flex-grow.flex-shrink.flex-wrap.float.flood-color.flood-opacity.flow.font.font-display.font-family.font-feature-settings.font-kerning.font-language-override.font-optical-sizing.font-palette.font-size.font-size-adjust.font-smooth.font-smoothing.font-stretch.font-style.font-synthesis.font-synthesis-position.font-synthesis-small-caps.font-synthesis-style.font-synthesis-weight.font-variant.font-variant-alternates.font-variant-caps.font-variant-east-asian.font-variant-emoji.font-variant-ligatures.font-variant-numeric.font-variant-position.font-variation-settings.font-weight.forced-color-adjust.gap.glyph-orientation-horizontal.glyph-orientation-vertical.grid.grid-area.grid-auto-columns.grid-auto-flow.grid-auto-rows.grid-column.grid-column-end.grid-column-start.grid-gap.grid-row.grid-row-end.grid-row-start.grid-template.grid-template-areas.grid-template-columns.grid-template-rows.hanging-punctuation.height.hyphenate-character.hyphenate-limit-chars.hyphens.icon.image-orientation.image-rendering.image-resolution.ime-mode.initial-letter.initial-letter-align.inline-size.inset.inset-area.inset-block.inset-block-end.inset-block-start.inset-inline.inset-inline-end.inset-inline-start.isolation.justify-content.justify-items.justify-self.kerning.left.letter-spacing.lighting-color.line-break.line-height.line-height-step.list-style.list-style-image.list-style-position.list-style-type.margin.margin-block.margin-block-end.margin-block-start.margin-bottom.margin-inline.margin-inline-end.margin-inline-start.margin-left.margin-right.margin-top.margin-trim.marker.marker-end.marker-mid.marker-start.marks.mask.mask-border.mask-border-mode.mask-border-outset.mask-border-repeat.mask-border-slice.mask-border-source.mask-border-width.mask-clip.mask-composite.mask-image.mask-mode.mask-origin.mask-position.mask-repeat.mask-size.mask-type.masonry-auto-flow.math-depth.math-shift.math-style.max-block-size.max-height.max-inline-size.max-width.min-block-size.min-height.min-inline-size.min-width.mix-blend-mode.nav-down.nav-index.nav-left.nav-right.nav-up.none.normal.object-fit.object-position.offset.offset-anchor.offset-distance.offset-path.offset-position.offset-rotate.opacity.order.orphans.outline.outline-color.outline-offset.outline-style.outline-width.overflow.overflow-anchor.overflow-block.overflow-clip-margin.overflow-inline.overflow-wrap.overflow-x.overflow-y.overlay.overscroll-behavior.overscroll-behavior-block.overscroll-behavior-inline.overscroll-behavior-x.overscroll-behavior-y.padding.padding-block.padding-block-end.padding-block-start.padding-bottom.padding-inline.padding-inline-end.padding-inline-start.padding-left.padding-right.padding-top.page.page-break-after.page-break-before.page-break-inside.paint-order.pause.pause-after.pause-before.perspective.perspective-origin.place-content.place-items.place-self.pointer-events.position.position-anchor.position-visibility.print-color-adjust.quotes.r.resize.rest.rest-after.rest-before.right.rotate.row-gap.ruby-align.ruby-position.scale.scroll-behavior.scroll-margin.scroll-margin-block.scroll-margin-block-end.scroll-margin-block-start.scroll-margin-bottom.scroll-margin-inline.scroll-margin-inline-end.scroll-margin-inline-start.scroll-margin-left.scroll-margin-right.scroll-margin-top.scroll-padding.scroll-padding-block.scroll-padding-block-end.scroll-padding-block-start.scroll-padding-bottom.scroll-padding-inline.scroll-padding-inline-end.scroll-padding-inline-start.scroll-padding-left.scroll-padding-right.scroll-padding-top.scroll-snap-align.scroll-snap-stop.scroll-snap-type.scroll-timeline.scroll-timeline-axis.scroll-timeline-name.scrollbar-color.scrollbar-gutter.scrollbar-width.shape-image-threshold.shape-margin.shape-outside.shape-rendering.speak.speak-as.src.stop-color.stop-opacity.stroke.stroke-dasharray.stroke-dashoffset.stroke-linecap.stroke-linejoin.stroke-miterlimit.stroke-opacity.stroke-width.tab-size.table-layout.text-align.text-align-all.text-align-last.text-anchor.text-combine-upright.text-decoration.text-decoration-color.text-decoration-line.text-decoration-skip.text-decoration-skip-ink.text-decoration-style.text-decoration-thickness.text-emphasis.text-emphasis-color.text-emphasis-position.text-emphasis-style.text-indent.text-justify.text-orientation.text-overflow.text-rendering.text-shadow.text-size-adjust.text-transform.text-underline-offset.text-underline-position.text-wrap.text-wrap-mode.text-wrap-style.timeline-scope.top.touch-action.transform.transform-box.transform-origin.transform-style.transition.transition-behavior.transition-delay.transition-duration.transition-property.transition-timing-function.translate.unicode-bidi.user-modify.user-select.vector-effect.vertical-align.view-timeline.view-timeline-axis.view-timeline-inset.view-timeline-name.view-transition-name.visibility.voice-balance.voice-duration.voice-family.voice-pitch.voice-range.voice-rate.voice-stress.voice-volume.white-space.white-space-collapse.widows.width.will-change.word-break.word-spacing.word-wrap.writing-mode.x.y.z-index.zoom`.split(`.`).sort().reverse();function u(e){let t=n(e),r={className:`variable`,begin:`\\$`+e.IDENT_RE},i=[`charset`,`css`,`debug`,`extend`,`font-face`,`for`,`import`,`include`,`keyframes`,`media`,`mixin`,`page`,`warn`,`while`],u=`(?=[.\\s\\n[:,(])`;return{name:`Stylus`,aliases:[`styl`],case_insensitive:!1,keywords:`if else for in`,illegal:`(`+[`\\?`,`(\\bReturn\\b)`,`(\\bEnd\\b)`,`(\\bend\\b)`,`(\\bdef\\b)`,`;`,`#\\s`,`\\*\\s`,`===\\s`,`\\|`,`%`].join(`|`)+`)`,contains:[e.QUOTE_STRING_MODE,e.APOS_STRING_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,t.HEXCOLOR,{begin:`\\.[a-zA-Z][a-zA-Z0-9_-]*`+u,className:`selector-class`},{begin:`#[a-zA-Z][a-zA-Z0-9_-]*`+u,className:`selector-id`},{begin:`\\b(`+a.join(`|`)+`)(?=[.\\s\\n[:,(])`,className:`selector-tag`},{className:`selector-pseudo`,begin:`&?:(`+s.join(`|`)+`)(?=[.\\s\\n[:,(])`},{className:`selector-pseudo`,begin:`&?:(:)?(`+c.join(`|`)+`)(?=[.\\s\\n[:,(])`},t.ATTRIBUTE_SELECTOR_MODE,{className:`keyword`,begin:/@media/,starts:{end:/[{;}]/,keywords:{$pattern:/[a-z-]+/,keyword:`and or not only`,attribute:o.join(` `)},contains:[t.CSS_NUMBER_MODE]}},{className:`keyword`,begin:`@((-(o|moz|ms|webkit)-)?(`+i.join(`|`)+`))\\b`},r,t.CSS_NUMBER_MODE,{className:`function`,begin:`^[a-zA-Z][a-zA-Z0-9_-]*\\(.*\\)`,illegal:`[\\n]`,returnBegin:!0,contains:[{className:`title`,begin:`\\b[a-zA-Z][a-zA-Z0-9_-]*`},{className:`params`,begin:/\(/,end:/\)/,contains:[t.HEXCOLOR,r,e.APOS_STRING_MODE,t.CSS_NUMBER_MODE,e.QUOTE_STRING_MODE]}]},t.CSS_VARIABLE,{className:`attribute`,begin:`\\b(`+l.join(`|`)+`)\\b`,starts:{end:/;|$/,contains:[t.HEXCOLOR,r,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,t.CSS_NUMBER_MODE,e.C_BLOCK_COMMENT_MODE,t.IMPORTANT,t.FUNCTION_DISPATCH],illegal:/\./,relevance:0}},t.FUNCTION_DISPATCH]}}t.exports=u})),yn=o(((e,t)=>{function n(e){return{name:`SubUnit`,case_insensitive:!0,contains:[{className:`string`,begin:`\\[
 (multipart)?`,end:`\\]
-`},{className:`string`,begin:`\\d{4}-\\d{2}-\\d{2}(\\s+)\\d{2}:\\d{2}:\\d{2}.\\d+Z`},{className:`string`,begin:`(\\+|-)\\d+`},{className:`keyword`,relevance:10,variants:[{begin:`^(test|testing|success|successful|failure|error|skip|xfail|uxsuccess)(:?)\\s+(test)?`},{begin:`^progress(:?)(\\s+)?(pop|push)?`},{begin:`^tags:`},{begin:`^time:`}]}]}}t.exports=n})),bn=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),B={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},ee=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],te={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:ee},V=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...ee,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},H={scope:`regexp`,variants:[V(`###`),V(`##`),V(`#`),te]},U={match:i(/`/,x,/`/)},W=[U,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],G=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,B]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],K={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ne={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...G,A,K]};K.contains.push(ne);let re={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,H,...O,...k,...j,P,B,...W,...G,K]},q={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,K]},J={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,B,...G,K,re],endsParent:!0,illegal:/["']/},ie={match:[/(func|macro)/,/\s+/,o(U.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[q,J,t],illegal:[/\[/,/%/]},ae={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[q,J,t],illegal:/\[|%/},oe={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},se={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[K],keywords:[...p,...f],end:/}/},Y={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},ce={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},le={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[q,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of B.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,B,...W];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,ie,ae,Y,ce,le,oe,se,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},H,...O,...k,...j,P,B,...W,...G,K,re]}}t.exports=T})),xn=o(((e,t)=>{function n(e){return{name:`Tagger Script`,contains:[{className:`comment`,begin:/\$noop\(/,end:/\)/,contains:[{begin:/\\[()]/},{begin:/\(/,end:/\)/,contains:[{begin:/\\[()]/},`self`]}],relevance:10},{className:`keyword`,begin:/\$[_a-zA-Z0-9]+(?=\()/},{className:`variable`,begin:/%[_a-zA-Z0-9:]+%/},{className:`symbol`,begin:/\\[\\nt$%,()]/},{className:`symbol`,begin:/\\u[a-fA-F0-9]{4}/}]}}t.exports=n})),Sn=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Cn=o(((e,t)=>{function n(e){return{name:`Test Anything Protocol`,case_insensitive:!0,contains:[e.HASH_COMMENT_MODE,{className:`meta`,variants:[{begin:`^TAP version (\\d+)$`},{begin:`^1\\.\\.(\\d+)$`}]},{begin:/---$/,end:`\\.\\.\\.$`,subLanguage:`yaml`,relevance:0},{className:`number`,begin:` (\\d+) `},{className:`symbol`,variants:[{begin:`^ok`},{begin:`^not ok`}]}]}}t.exports=n})),wn=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z_][a-zA-Z0-9_]*/,r={className:`number`,variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]};return{name:`Tcl`,aliases:[`tk`],keywords:`after.append.apply.array.auto_execok.auto_import.auto_load.auto_mkindex.auto_mkindex_old.auto_qualify.auto_reset.bgerror.binary.break.catch.cd.chan.clock.close.concat.continue.dde.dict.encoding.eof.error.eval.exec.exit.expr.fblocked.fconfigure.fcopy.file.fileevent.filename.flush.for.foreach.format.gets.glob.global.history.http.if.incr.info.interp.join.lappend|10.lassign|10.lindex|10.linsert|10.list.llength|10.load.lrange|10.lrepeat|10.lreplace|10.lreverse|10.lsearch|10.lset|10.lsort|10.mathfunc.mathop.memory.msgcat.namespace.open.package.parray.pid.pkg::create.pkg_mkIndex.platform.platform::shell.proc.puts.pwd.read.refchan.regexp.registry.regsub|10.rename.return.safe.scan.seek.set.socket.source.split.string.subst.switch.tcl_endOfWord.tcl_findLibrary.tcl_startOfNextWord.tcl_startOfPreviousWord.tcl_wordBreakAfter.tcl_wordBreakBefore.tcltest.tclvars.tell.time.tm.trace.unknown.unload.unset.update.uplevel.upvar.variable.vwait.while`.split(`.`),contains:[e.COMMENT(`;[ \\t]*#`,`$`),e.COMMENT(`^[ \\t]*#`,`$`),{beginKeywords:`proc`,end:`[\\{]`,excludeEnd:!0,contains:[{className:`title`,begin:`[ \\t\\n\\r]+(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`[ \\t\\n\\r]`,endsWithParent:!0,excludeEnd:!0}]},{className:`variable`,variants:[{begin:t.concat(/\$/,t.optional(/::/),n,`(::`,n,`)*`)},{begin:`\\$\\{(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`\\}`,contains:[r]}]},{className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},r]}}t.exports=n})),Tn=o(((e,t)=>{function n(e){let t=[`bool`,`byte`,`i16`,`i32`,`i64`,`double`,`string`,`binary`];return{name:`Thrift`,keywords:{keyword:[`namespace`,`const`,`typedef`,`struct`,`enum`,`service`,`exception`,`void`,`oneway`,`set`,`list`,`map`,`required`,`optional`],type:t,literal:`true false`},contains:[e.QUOTE_STRING_MODE,e.NUMBER_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`class`,beginKeywords:`struct enum service exception`,end:/\{/,illegal:/\n/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,excludeEnd:!0}})]},{begin:`\\b(set|list|map)\\s*<`,keywords:{type:[...t,`set`,`list`,`map`]},end:`>`,contains:[`self`]}]}}t.exports=n})),En=o(((e,t)=>{function n(e){let t={className:`number`,begin:`[1-9][0-9]*`,relevance:0},n={className:`symbol`,begin:`:[^\\]]+`};return{name:`TP`,keywords:{keyword:`ABORT.ACC.ADJUST.AND.AP_LD.BREAK.CALL.CNT.COL.CONDITION.CONFIG.DA.DB.DIV.DETECT.ELSE.END.ENDFOR.ERR_NUM.ERROR_PROG.FINE.FOR.GP.GUARD.INC.IF.JMP.LINEAR_MAX_SPEED.LOCK.MOD.MONITOR.OFFSET.Offset.OR.OVERRIDE.PAUSE.PREG.PTH.RT_LD.RUN.SELECT.SKIP.Skip.TA.TB.TO.TOOL_OFFSET.Tool_Offset.UF.UT.UFRAME_NUM.UTOOL_NUM.UNLOCK.WAIT.X.Y.Z.W.P.R.STRLEN.SUBSTR.FINDSTR.VOFFSET.PROG.ATTR.MN.POS`.split(`.`),literal:[`ON`,`OFF`,`max_speed`,`LPOS`,`JPOS`,`ENABLE`,`DISABLE`,`START`,`STOP`,`RESET`]},contains:[{className:`built_in`,begin:`(AR|P|PAYLOAD|PR|R|SR|RSR|LBL|VR|UALM|MESSAGE|UTOOL|UFRAME|TIMER|TIMER_OVERFLOW|JOINT_MAX_SPEED|RESUME_PROG|DIAG_REC)\\[`,end:`\\]`,contains:[`self`,t,n]},{className:`built_in`,begin:`(AI|AO|DI|DO|F|RI|RO|UI|UO|GI|GO|SI|SO)\\[`,end:`\\]`,contains:[`self`,t,e.QUOTE_STRING_MODE,n]},{className:`keyword`,begin:`/(PROG|ATTR|MN|POS|END)\\b`},{className:`keyword`,begin:`(CALL|RUN|POINT_LOGIC|LBL)\\b`},{className:`keyword`,begin:`\\b(ACC|CNT|Skip|Offset|PSPD|RT_LD|AP_LD|Tool_Offset)`},{className:`number`,begin:`\\d+(sec|msec|mm/sec|cm/min|inch/min|deg/sec|mm|in|cm)?\\b`,relevance:0},e.COMMENT(`//`,`[;$]`),e.COMMENT(`!`,`[;$]`),e.COMMENT(`--eg:`,`$`),e.QUOTE_STRING_MODE,{className:`string`,begin:`'`,end:`'`},e.C_NUMBER_MODE,{className:`variable`,begin:`\\$[A-Za-z0-9_]+`}]}}t.exports=n})),Dn=o(((e,t)=>{function n(e){let t=e.regex,n=`absolute_url.asset|0.asset_version.attribute.block.constant.controller|0.country_timezones.csrf_token.cycle.date.dump.expression.form|0.form_end.form_errors.form_help.form_label.form_rest.form_row.form_start.form_widget.html_classes.include.is_granted.logout_path.logout_url.max.min.parent.path|0.random.range.relative_path.render.render_esi.source.template_from_string.url|0`.split(`.`),r=`abs.abbr_class.abbr_method.batch.capitalize.column.convert_encoding.country_name.currency_name.currency_symbol.data_uri.date.date_modify.default.escape.file_excerpt.file_link.file_relative.filter.first.format.format_args.format_args_as_text.format_currency.format_date.format_datetime.format_file.format_file_from_text.format_number.format_time.html_to_markdown.humanize.inky_to_html.inline_css.join.json_encode.keys.language_name.last.length.locale_name.lower.map.markdown.markdown_to_html.merge.nl2br.number_format.raw.reduce.replace.reverse.round.slice.slug.sort.spaceless.split.striptags.timezone_name.title.trans.transchoice.trim.u|0.upper.url_encode.yaml_dump.yaml_encode`.split(`.`),i=`apply.autoescape.block.cache.deprecated.do.embed.extends.filter.flush.for.form_theme.from.if.import.include.macro.sandbox.set.stopwatch.trans.trans_default_domain.transchoice.use.verbatim.with`.split(`.`);i=i.concat(i.map(e=>`end${e}`));let a={scope:`string`,variants:[{begin:/'/,end:/'/},{begin:/"/,end:/"/}]},o={scope:`number`,match:/\d+/},s={begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,contains:[a,o]},c={beginKeywords:n.join(` `),keywords:{name:n},relevance:0,contains:[s]},l={match:/\|(?=[A-Za-z_]+:?)/,beginScope:`punctuation`,relevance:0,contains:[{match:/[A-Za-z_]+:?/,keywords:r}]},u=(e,{relevance:n})=>({beginScope:{1:`template-tag`,3:`name`},relevance:n||2,endScope:`template-tag`,begin:[/\{%/,/\s*/,t.either(...e)],end:/%\}/,keywords:`in`,contains:[l,c,a,o]}),d=/[a-z_]+/,f=u(i,{relevance:2}),p=u([d],{relevance:1});return{name:`Twig`,aliases:[`craftcms`],case_insensitive:!0,subLanguage:`xml`,contains:[e.COMMENT(/\{#/,/#\}/),f,p,{className:`template-variable`,begin:/\{\{/,end:/\}\}/,contains:[`self`,l,c,a,o]}]}}t.exports=n})),On=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,B={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},B,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),kn=o(((e,t)=>{function n(e){return{name:`Vala`,keywords:{keyword:`char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 uint16 uint32 uint64 float double bool struct enum string void weak unowned owned async signal static abstract interface override virtual delegate if while do for foreach else switch case break default return try catch public private protected internal using new this get set const stdout stdin stderr var`,built_in:`DBus GLib CCode Gee Object Gtk Posix`,literal:`false true null`},contains:[{className:`class`,beginKeywords:`class interface namespace`,end:/\{/,excludeEnd:!0,illegal:`[^,:\\n\\s\\.]`,contains:[e.UNDERSCORE_TITLE_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`string`,begin:`"""`,end:`"""`,relevance:5},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,e.C_NUMBER_MODE,{className:`meta`,begin:`^#`,end:`$`}]}}t.exports=n})),An=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),jn=o(((e,t)=>{function n(e){let t=e.regex,n=`lcase.month.vartype.instrrev.ubound.setlocale.getobject.rgb.getref.string.weekdayname.rnd.dateadd.monthname.now.day.minute.isarray.cbool.round.formatcurrency.conversions.csng.timevalue.second.year.space.abs.clng.timeserial.fixs.len.asc.isempty.maths.dateserial.atn.timer.isobject.filter.weekday.datevalue.ccur.isdate.instr.datediff.formatdatetime.replace.isnull.right.sgn.array.snumeric.log.cdbl.hex.chr.lbound.msgbox.ucase.getlocale.cos.cdate.cbyte.rtrim.join.hour.oct.typename.trim.strcomp.int.createobject.loadpicture.tan.formatnumber.mid.split.cint.sin.datepart.ltrim.sqr.time.derived.eval.date.formatpercent.exp.inputbox.left.ascw.chrw.regexp.cstr.err`.split(`.`),r=[`server`,`response`,`request`,`scriptengine`,`scriptenginebuildversion`,`scriptengineminorversion`,`scriptenginemajorversion`],i={begin:t.concat(t.either(...n),`\\s*\\(`),relevance:0,keywords:{built_in:n}};return{name:`VBScript`,aliases:[`vbs`],case_insensitive:!0,keywords:{keyword:`call.class.const.dim.do.loop.erase.execute.executeglobal.exit.for.each.next.function.if.then.else.on.error.option.explicit.new.private.property.let.get.public.randomize.redim.rem.select.case.set.stop.sub.while.wend.with.end.to.elseif.is.or.xor.and.not.class_initialize.class_terminate.default.preserve.in.me.byval.byref.step.resume.goto`.split(`.`),built_in:r,literal:[`true`,`false`,`null`,`nothing`,`empty`]},illegal:`//`,contains:[i,e.inherit(e.QUOTE_STRING_MODE,{contains:[{begin:`""`}]}),e.COMMENT(/'/,/$/,{relevance:0}),e.C_NUMBER_MODE]}}t.exports=n})),Mn=o(((e,t)=>{function n(e){return{name:`VBScript in HTML`,subLanguage:`xml`,contains:[{begin:`<%`,end:`%>`,subLanguage:`vbscript`}]}}t.exports=n})),Nn=o(((e,t)=>{function n(e){let t=e.regex,n={$pattern:/\$?[\w]+(\$[\w]+)*/,keyword:`accept_on.alias.always.always_comb.always_ff.always_latch.and.assert.assign.assume.automatic.before.begin.bind.bins.binsof.bit.break.buf|0.bufif0.bufif1.byte.case.casex.casez.cell.chandle.checker.class.clocking.cmos.config.const.constraint.context.continue.cover.covergroup.coverpoint.cross.deassign.default.defparam.design.disable.dist.do.edge.else.end.endcase.endchecker.endclass.endclocking.endconfig.endfunction.endgenerate.endgroup.endinterface.endmodule.endpackage.endprimitive.endprogram.endproperty.endspecify.endsequence.endtable.endtask.enum.event.eventually.expect.export.extends.extern.final.first_match.for.force.foreach.forever.fork.forkjoin.function.generate|5.genvar.global.highz0.highz1.if.iff.ifnone.ignore_bins.illegal_bins.implements.implies.import.incdir.include.initial.inout.input.inside.instance.int.integer.interconnect.interface.intersect.join.join_any.join_none.large.let.liblist.library.local.localparam.logic.longint.macromodule.matches.medium.modport.module.nand.negedge.nettype.new.nexttime.nmos.nor.noshowcancelled.not.notif0.notif1.or.output.package.packed.parameter.pmos.posedge.primitive.priority.program.property.protected.pull0.pull1.pulldown.pullup.pulsestyle_ondetect.pulsestyle_onevent.pure.rand.randc.randcase.randsequence.rcmos.real.realtime.ref.reg.reject_on.release.repeat.restrict.return.rnmos.rpmos.rtran.rtranif0.rtranif1.s_always.s_eventually.s_nexttime.s_until.s_until_with.scalared.sequence.shortint.shortreal.showcancelled.signed.small.soft.solve.specify.specparam.static.string.strong.strong0.strong1.struct.super.supply0.supply1.sync_accept_on.sync_reject_on.table.tagged.task.this.throughout.time.timeprecision.timeunit.tran.tranif0.tranif1.tri.tri0.tri1.triand.trior.trireg.type.typedef.union.unique.unique0.unsigned.until.until_with.untyped.use.uwire.var.vectored.virtual.void.wait.wait_order.wand.weak.weak0.weak1.while.wildcard.wire.with.within.wor.xnor.xor`.split(`.`),literal:[`null`],built_in:`$finish.$stop.$exit.$fatal.$error.$warning.$info.$realtime.$time.$printtimescale.$bitstoreal.$bitstoshortreal.$itor.$signed.$cast.$bits.$stime.$timeformat.$realtobits.$shortrealtobits.$rtoi.$unsigned.$asserton.$assertkill.$assertpasson.$assertfailon.$assertnonvacuouson.$assertoff.$assertcontrol.$assertpassoff.$assertfailoff.$assertvacuousoff.$isunbounded.$sampled.$fell.$changed.$past_gclk.$fell_gclk.$changed_gclk.$rising_gclk.$steady_gclk.$coverage_control.$coverage_get.$coverage_save.$set_coverage_db_name.$rose.$stable.$past.$rose_gclk.$stable_gclk.$future_gclk.$falling_gclk.$changing_gclk.$display.$coverage_get_max.$coverage_merge.$get_coverage.$load_coverage_db.$typename.$unpacked_dimensions.$left.$low.$increment.$clog2.$ln.$log10.$exp.$sqrt.$pow.$floor.$ceil.$sin.$cos.$tan.$countbits.$onehot.$isunknown.$fatal.$warning.$dimensions.$right.$high.$size.$asin.$acos.$atan.$atan2.$hypot.$sinh.$cosh.$tanh.$asinh.$acosh.$atanh.$countones.$onehot0.$error.$info.$random.$dist_chi_square.$dist_erlang.$dist_exponential.$dist_normal.$dist_poisson.$dist_t.$dist_uniform.$q_initialize.$q_remove.$q_exam.$async$and$array.$async$nand$array.$async$or$array.$async$nor$array.$sync$and$array.$sync$nand$array.$sync$or$array.$sync$nor$array.$q_add.$q_full.$psprintf.$async$and$plane.$async$nand$plane.$async$or$plane.$async$nor$plane.$sync$and$plane.$sync$nand$plane.$sync$or$plane.$sync$nor$plane.$system.$display.$displayb.$displayh.$displayo.$strobe.$strobeb.$strobeh.$strobeo.$write.$readmemb.$readmemh.$writememh.$value$plusargs.$dumpvars.$dumpon.$dumplimit.$dumpports.$dumpportson.$dumpportslimit.$writeb.$writeh.$writeo.$monitor.$monitorb.$monitorh.$monitoro.$writememb.$dumpfile.$dumpoff.$dumpall.$dumpflush.$dumpportsoff.$dumpportsall.$dumpportsflush.$fclose.$fdisplay.$fdisplayb.$fdisplayh.$fdisplayo.$fstrobe.$fstrobeb.$fstrobeh.$fstrobeo.$swrite.$swriteb.$swriteh.$swriteo.$fscanf.$fread.$fseek.$fflush.$feof.$fopen.$fwrite.$fwriteb.$fwriteh.$fwriteo.$fmonitor.$fmonitorb.$fmonitorh.$fmonitoro.$sformat.$sformatf.$fgetc.$ungetc.$fgets.$sscanf.$rewind.$ftell.$ferror`.split(`.`)},r=[`__FILE__`,`__LINE__`],i=`begin_keywords.celldefine.default_nettype.default_decay_time.default_trireg_strength.define.delay_mode_distributed.delay_mode_path.delay_mode_unit.delay_mode_zero.else.elsif.end_keywords.endcelldefine.endif.ifdef.ifndef.include.line.nounconnected_drive.pragma.resetall.timescale.unconnected_drive.undef.undefineall`.split(`.`);return{name:`Verilog`,aliases:[`v`,`sv`,`svh`],case_insensitive:!1,keywords:n,contains:[e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.QUOTE_STRING_MODE,{scope:`number`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/\b((\d+'([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\B(('([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\b[0-9][0-9_]*/,relevance:0}]},{scope:`variable`,variants:[{begin:`#\\((?!parameter).+\\)`},{begin:`\\.\\w+`,relevance:0}]},{scope:`variable.constant`,match:t.concat(/`/,t.either(...r))},{scope:`meta`,begin:t.concat(/`/,t.either(...i)),end:/$|\/\/|\/\*/,returnEnd:!0,keywords:i}]}}t.exports=n})),Pn=o(((e,t)=>{function n(e){let t=`\\d(_|\\d)*`;return``+t,t+``,t+``,{name:`VHDL`,case_insensitive:!0,keywords:{keyword:`abs.access.after.alias.all.and.architecture.array.assert.assume.assume_guarantee.attribute.begin.block.body.buffer.bus.case.component.configuration.constant.context.cover.disconnect.downto.default.else.elsif.end.entity.exit.fairness.file.for.force.function.generate.generic.group.guarded.if.impure.in.inertial.inout.is.label.library.linkage.literal.loop.map.mod.nand.new.next.nor.not.null.of.on.open.or.others.out.package.parameter.port.postponed.procedure.process.property.protected.pure.range.record.register.reject.release.rem.report.restrict.restrict_guarantee.return.rol.ror.select.sequence.severity.shared.signal.sla.sll.sra.srl.strong.subtype.then.to.transport.type.unaffected.units.until.use.variable.view.vmode.vprop.vunit.wait.when.while.with.xnor.xor`.split(`.`),built_in:`boolean.bit.character.integer.time.delay_length.natural.positive.string.bit_vector.file_open_kind.file_open_status.std_logic.std_logic_vector.unsigned.signed.boolean_vector.integer_vector.std_ulogic.std_ulogic_vector.unresolved_unsigned.u_unsigned.unresolved_signed.u_signed.real_vector.time_vector`.split(`.`),literal:[`false`,`true`,`note`,`warning`,`error`,`failure`,`line`,`text`,`side`,`width`]},illegal:/\{/,contains:[e.C_BLOCK_COMMENT_MODE,e.COMMENT(`--`,`$`),e.QUOTE_STRING_MODE,{className:`number`,begin:`\\b(\\d(_|\\d)*#\\w+(\\.\\w+)?#([eE][-+]?\\d(_|\\d)*)?|\\d(_|\\d)*(\\.\\d(_|\\d)*)?([eE][-+]?\\d(_|\\d)*)?)`,relevance:0},{className:`string`,begin:`'(U|X|0|1|Z|W|L|H|-)'`,contains:[e.BACKSLASH_ESCAPE]},{className:`symbol`,begin:`'[A-Za-z](_?[A-Za-z0-9])*`,contains:[e.BACKSLASH_ESCAPE]}]}}t.exports=n})),Fn=o(((e,t)=>{function n(e){return{name:`Vim Script`,keywords:{$pattern:/[!#@\w]+/,keyword:`N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank`,built_in:`synIDtrans atan2 range matcharg did_filetype asin feedkeys xor argv complete_check add getwinposx getqflist getwinposy screencol clearmatches empty extend getcmdpos mzeval garbagecollect setreg ceil sqrt diff_hlID inputsecret get getfperm getpid filewritable shiftwidth max sinh isdirectory synID system inputrestore winline atan visualmode inputlist tabpagewinnr round getregtype mapcheck hasmapto histdel argidx findfile sha256 exists toupper getcmdline taglist string getmatches bufnr strftime winwidth bufexists strtrans tabpagebuflist setcmdpos remote_read printf setloclist getpos getline bufwinnr float2nr len getcmdtype diff_filler luaeval resolve libcallnr foldclosedend reverse filter has_key bufname str2float strlen setline getcharmod setbufvar index searchpos shellescape undofile foldclosed setqflist buflisted strchars str2nr virtcol floor remove undotree remote_expr winheight gettabwinvar reltime cursor tabpagenr finddir localtime acos getloclist search tanh matchend rename gettabvar strdisplaywidth type abs py3eval setwinvar tolower wildmenumode log10 spellsuggest bufloaded synconcealed nextnonblank server2client complete settabwinvar executable input wincol setmatches getftype hlID inputsave searchpair or screenrow line settabvar histadd deepcopy strpart remote_peek and eval getftime submatch screenchar winsaveview matchadd mkdir screenattr getfontname libcall reltimestr getfsize winnr invert pow getbufline byte2line soundfold repeat fnameescape tagfiles sin strwidth spellbadword trunc maparg log lispindent hostname setpos globpath remote_foreground getchar synIDattr fnamemodify cscope_connection stridx winbufnr indent min complete_add nr2char searchpairpos inputdialog values matchlist items hlexists strridx browsedir expand fmod pathshorten line2byte argc count getwinvar glob foldtextresult getreg foreground cosh matchdelete has char2nr simplify histget searchdecl iconv winrestcmd pumvisible writefile foldlevel haslocaldir keys cos matchstr foldtext histnr tan tempname getcwd byteidx getbufvar islocked escape eventhandler remote_send serverlist winrestview synstack pyeval prevnonblank readfile cindent filereadable changenr exp`},illegal:/;/,contains:[e.NUMBER_MODE,{className:`string`,begin:`'`,end:`'`,illegal:`\\n`},{className:`string`,begin:/"(\\"|\n\\|[^"\n])*"/},e.COMMENT(`"`,`$`),{className:`variable`,begin:/[bwtglsav]:[\w\d_]+/},{begin:[/\b(?:function|function!)/,/\s+/,e.IDENT_RE],className:{1:`keyword`,3:`title`},end:`$`,relevance:0,contains:[{className:`params`,begin:`\\(`,end:`\\)`}]},{className:`symbol`,begin:/<[\w-]+>/}]}}t.exports=n})),In=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Ln=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z]\w*/,r=[`as`,`break`,`class`,`construct`,`continue`,`else`,`for`,`foreign`,`if`,`import`,`in`,`is`,`return`,`static`,`var`,`while`],i=[`true`,`false`,`null`],a=[`this`,`super`],o=[`Bool`,`Class`,`Fiber`,`Fn`,`List`,`Map`,`Null`,`Num`,`Object`,`Range`,`Sequence`,`String`,`System`],s=[`-`,`~`,/\*/,`%`,/\.\.\./,/\.\./,/\+/,`<<`,`>>`,`>=`,`<=`,`<`,`>`,/\^/,/!=/,/!/,/\bis\b/,`==`,`&&`,`&`,/\|\|/,/\|/,/\?:/,`=`],c={relevance:0,match:t.concat(/\b(?!(if|while|for|else|super)\b)/,n,/(?=\s*[({])/),className:`title.function`},l={match:t.concat(t.either(t.concat(/\b(?!(if|while|for|else|super)\b)/,n),t.either(...s)),/(?=\s*\([^)]+\)\s*\{)/),className:`title.function`,starts:{contains:[{begin:/\(/,end:/\)/,contains:[{relevance:0,scope:`params`,match:n}]}]}},u={variants:[{match:[/class\s+/,n,/\s+is\s+/,n]},{match:[/class\s+/,n]}],scope:{2:`title.class`,4:`title.class.inherited`},keywords:r},d={relevance:0,match:t.either(...s),className:`operator`},f={className:`string`,begin:/"""/,end:/"""/},p={className:`property`,begin:t.concat(/\./,t.lookahead(n)),end:n,excludeBegin:!0,relevance:0},m={relevance:0,match:t.concat(/\b_/,n),scope:`variable`},h={relevance:0,match:/\b[A-Z]+[a-z]+([A-Z]+[a-z]+)*/,scope:`title.class`,keywords:{_:o}},g=e.C_NUMBER_MODE,_={match:[n,/\s*/,/=/,/\s*/,/\(/,n,/\)\s*\{/],scope:{1:`title.function`,3:`operator`,6:`params`}},v=e.COMMENT(/\/\*\*/,/\*\//,{contains:[{match:/@[a-z]+/,scope:`doctag`},`self`]}),y={scope:`subst`,begin:/%\(/,end:/\)/,contains:[g,h,c,m,d]},b={scope:`string`,begin:/"/,end:/"/,contains:[y,{scope:`char.escape`,variants:[{match:/\\\\|\\["0%abefnrtv]/},{match:/\\x[0-9A-F]{2}/},{match:/\\u[0-9A-F]{4}/},{match:/\\U[0-9A-F]{8}/}]}]};y.contains.push(b);let x=[...r,...a,...i],S={relevance:0,match:t.concat(`\\b(?!`,x.join(`|`),`\\b)`,/[a-zA-Z_]\w*(?:[?!]|\b)/),className:`variable`};return{name:`Wren`,keywords:{keyword:r,"variable.language":a,literal:i},contains:[{scope:`comment`,variants:[{begin:[/#!?/,/[A-Za-z_]+(?=\()/],beginScope:{},keywords:{literal:i},contains:[],end:/\)/},{begin:[/#!?/,/[A-Za-z_]+/],beginScope:{},end:/$/}]},g,b,f,v,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,h,u,_,l,c,d,m,p,S]}}t.exports=n})),Rn=o(((e,t)=>{function n(e){return{name:`Intel x86 Assembly`,case_insensitive:!0,keywords:{$pattern:`[.%]?`+e.IDENT_RE,keyword:`lock rep repe repz repne repnz xaquire xrelease bnd nobnd aaa aad aam aas adc add and arpl bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts call cbw cdq cdqe clc cld cli clts cmc cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg486 cmpxchg8b cmpxchg16b cpuid cpu_read cpu_write cqo cwd cwde daa das dec div dmint emms enter equ f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp fxam fxch fxtract fyl2x fyl2xp1 hlt ibts icebp idiv imul in inc incbin insb insd insw int int01 int1 int03 int3 into invd invpcid invlpg invlpga iret iretd iretq iretw jcxz jecxz jrcxz jmp jmpe lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait neg nop not or out outsb outsd outsw packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad pushaw pushf pushfd pushfq pushfw pxor rcl rcr rdshr rdmsr rdpmc rdtsc rdtscp ret retf retn rol ror rdm rsdc rsldt rsm rsts sahf sal salc sar sbb scasb scasd scasq scasw sfence sgdt shl shld shr shrd sidt sldt skinit smi smint smintold smsw stc std sti stosb stosd stosq stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret test ud0 ud1 ud2b ud2 ud2a umov verr verw fwait wbinvd wrshr wrmsr xadd xbts xchg xlatb xlat xor cmove cmovz cmovne cmovnz cmova cmovnbe cmovae cmovnb cmovb cmovnae cmovbe cmovna cmovg cmovnle cmovge cmovnl cmovl cmovnge cmovle cmovng cmovc cmovnc cmovo cmovno cmovs cmovns cmovp cmovpe cmovnp cmovpo je jz jne jnz ja jnbe jae jnb jb jnae jbe jna jg jnle jge jnl jl jnge jle jng jc jnc jo jno js jns jpo jnp jpe jp sete setz setne setnz seta setnbe setae setnb setnc setb setnae setcset setbe setna setg setnle setge setnl setl setnge setle setng sets setns seto setno setpe setp setpo setnp addps addss andnps andps cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpunordps cmpunordss cmpps cmpss comiss cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi cvttss2si divps divss ldmxcsr maxps maxss minps minss movaps movhps movlhps movlps movhlps movmskps movntps movss movups mulps mulss orps rcpps rcpss rsqrtps rsqrtss shufps sqrtps sqrtss stmxcsr subps subss ucomiss unpckhps unpcklps xorps fxrstor fxrstor64 fxsave fxsave64 xgetbv xsetbv xsave xsave64 xsaveopt xsaveopt64 xrstor xrstor64 prefetchnta prefetcht0 prefetcht1 prefetcht2 maskmovq movntq pavgb pavgw pextrw pinsrw pmaxsw pmaxub pminsw pminub pmovmskb pmulhuw psadbw pshufw pf2iw pfnacc pfpnacc pi2fw pswapd maskmovdqu clflush movntdq movnti movntpd movdqa movdqu movdq2q movq2dq paddq pmuludq pshufd pshufhw pshuflw pslldq psrldq psubq punpckhqdq punpcklqdq addpd addsd andnpd andpd cmpeqpd cmpeqsd cmplepd cmplesd cmpltpd cmpltsd cmpneqpd cmpneqsd cmpnlepd cmpnlesd cmpnltpd cmpnltsd cmpordpd cmpordsd cmpunordpd cmpunordsd cmppd comisd cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtps2dq cvtps2pd cvtsd2si cvtsd2ss cvtsi2sd cvtss2sd cvttpd2pi cvttpd2dq cvttps2dq cvttsd2si divpd divsd maxpd maxsd minpd minsd movapd movhpd movlpd movmskpd movupd mulpd mulsd orpd shufpd sqrtpd sqrtsd subpd subsd ucomisd unpckhpd unpcklpd xorpd addsubpd addsubps haddpd haddps hsubpd hsubps lddqu movddup movshdup movsldup clgi stgi vmcall vmclear vmfunc vmlaunch vmload vmmcall vmptrld vmptrst vmread vmresume vmrun vmsave vmwrite vmxoff vmxon invept invvpid pabsb pabsw pabsd palignr phaddw phaddd phaddsw phsubw phsubd phsubsw pmaddubsw pmulhrsw pshufb psignb psignw psignd extrq insertq movntsd movntss lzcnt blendpd blendps blendvpd blendvps dppd dpps extractps insertps movntdqa mpsadbw packusdw pblendvb pblendw pcmpeqq pextrb pextrd pextrq phminposuw pinsrb pinsrd pinsrq pmaxsb pmaxsd pmaxud pmaxuw pminsb pminsd pminud pminuw pmovsxbw pmovsxbd pmovsxbq pmovsxwd pmovsxwq pmovsxdq pmovzxbw pmovzxbd pmovzxbq pmovzxwd pmovzxwq pmovzxdq pmuldq pmulld ptest roundpd roundps roundsd roundss crc32 pcmpestri pcmpestrm pcmpistri pcmpistrm pcmpgtq popcnt getsec pfrcpv pfrsqrtv movbe aesenc aesenclast aesdec aesdeclast aesimc aeskeygenassist vaesenc vaesenclast vaesdec vaesdeclast vaesimc vaeskeygenassist vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vandpd vandps vandnpd vandnps vblendpd vblendps vblendvpd vblendvps vbroadcastss vbroadcastsd vbroadcastf128 vcmpeq_ospd vcmpeqpd vcmplt_ospd vcmpltpd vcmple_ospd vcmplepd vcmpunord_qpd vcmpunordpd vcmpneq_uqpd vcmpneqpd vcmpnlt_uspd vcmpnltpd vcmpnle_uspd vcmpnlepd vcmpord_qpd vcmpordpd vcmpeq_uqpd vcmpnge_uspd vcmpngepd vcmpngt_uspd vcmpngtpd vcmpfalse_oqpd vcmpfalsepd vcmpneq_oqpd vcmpge_ospd vcmpgepd vcmpgt_ospd vcmpgtpd vcmptrue_uqpd vcmptruepd vcmplt_oqpd vcmple_oqpd vcmpunord_spd vcmpneq_uspd vcmpnlt_uqpd vcmpnle_uqpd vcmpord_spd vcmpeq_uspd vcmpnge_uqpd vcmpngt_uqpd vcmpfalse_ospd vcmpneq_ospd vcmpge_oqpd vcmpgt_oqpd vcmptrue_uspd vcmppd vcmpeq_osps vcmpeqps vcmplt_osps vcmpltps vcmple_osps vcmpleps vcmpunord_qps vcmpunordps vcmpneq_uqps vcmpneqps vcmpnlt_usps vcmpnltps vcmpnle_usps vcmpnleps vcmpord_qps vcmpordps vcmpeq_uqps vcmpnge_usps vcmpngeps vcmpngt_usps vcmpngtps vcmpfalse_oqps vcmpfalseps vcmpneq_oqps vcmpge_osps vcmpgeps vcmpgt_osps vcmpgtps vcmptrue_uqps vcmptrueps vcmplt_oqps vcmple_oqps vcmpunord_sps vcmpneq_usps vcmpnlt_uqps vcmpnle_uqps vcmpord_sps vcmpeq_usps vcmpnge_uqps vcmpngt_uqps vcmpfalse_osps vcmpneq_osps vcmpge_oqps vcmpgt_oqps vcmptrue_usps vcmpps vcmpeq_ossd vcmpeqsd vcmplt_ossd vcmpltsd vcmple_ossd vcmplesd vcmpunord_qsd vcmpunordsd vcmpneq_uqsd vcmpneqsd vcmpnlt_ussd vcmpnltsd vcmpnle_ussd vcmpnlesd vcmpord_qsd vcmpordsd vcmpeq_uqsd vcmpnge_ussd vcmpngesd vcmpngt_ussd vcmpngtsd vcmpfalse_oqsd vcmpfalsesd vcmpneq_oqsd vcmpge_ossd vcmpgesd vcmpgt_ossd vcmpgtsd vcmptrue_uqsd vcmptruesd vcmplt_oqsd vcmple_oqsd vcmpunord_ssd vcmpneq_ussd vcmpnlt_uqsd vcmpnle_uqsd vcmpord_ssd vcmpeq_ussd vcmpnge_uqsd vcmpngt_uqsd vcmpfalse_ossd vcmpneq_ossd vcmpge_oqsd vcmpgt_oqsd vcmptrue_ussd vcmpsd vcmpeq_osss vcmpeqss vcmplt_osss vcmpltss vcmple_osss vcmpless vcmpunord_qss vcmpunordss vcmpneq_uqss vcmpneqss vcmpnlt_usss vcmpnltss vcmpnle_usss vcmpnless vcmpord_qss vcmpordss vcmpeq_uqss vcmpnge_usss vcmpngess vcmpngt_usss vcmpngtss vcmpfalse_oqss vcmpfalsess vcmpneq_oqss vcmpge_osss vcmpgess vcmpgt_osss vcmpgtss vcmptrue_uqss vcmptruess vcmplt_oqss vcmple_oqss vcmpunord_sss vcmpneq_usss vcmpnlt_uqss vcmpnle_uqss vcmpord_sss vcmpeq_usss vcmpnge_uqss vcmpngt_uqss vcmpfalse_osss vcmpneq_osss vcmpge_oqss vcmpgt_oqss vcmptrue_usss vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtps2dq vcvtps2pd vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinsertps vlddqu vldqqu vldmxcsr vmaskmovdqu vmaskmovps vmaskmovpd vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmovapd vmovaps vmovd vmovq vmovddup vmovdqa vmovqqa vmovdqu vmovqqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq vmovntqq vmovntdqa vmovntpd vmovntps vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsw vpabsd vpacksswb vpackssdw vpackuswb vpackusdw vpaddb vpaddw vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpcmpestri vpcmpestrm vpcmpistri vpcmpistrm vpcmpeqb vpcmpeqw vpcmpeqd vpcmpeqq vpcmpgtb vpcmpgtw vpcmpgtd vpcmpgtq vpermilpd vpermilps vperm2f128 vpextrb vpextrw vpextrd vpextrq vphaddw vphaddd vphaddsw vphminposuw vphsubw vphsubd vphsubsw vpinsrb vpinsrw vpinsrd vpinsrq vpmaddwd vpmaddubsw vpmaxsb vpmaxsw vpmaxsd vpmaxub vpmaxuw vpmaxud vpminsb vpminsw vpminsd vpminub vpminuw vpminud vpmovmskb vpmovsxbw vpmovsxbd vpmovsxbq vpmovsxwd vpmovsxwq vpmovsxdq vpmovzxbw vpmovzxbd vpmovzxbq vpmovzxwd vpmovzxwq vpmovzxdq vpmulhuw vpmulhrsw vpmulhw vpmullw vpmulld vpmuludq vpmuldq vpor vpsadbw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignw vpsignd vpslldq vpsrldq vpsllw vpslld vpsllq vpsraw vpsrad vpsrlw vpsrld vpsrlq vptest vpsubb vpsubw vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpunpckhbw vpunpckhwd vpunpckhdq vpunpckhqdq vpunpcklbw vpunpcklwd vpunpckldq vpunpcklqdq vpxor vrcpps vrcpss vrsqrtps vrsqrtss vroundpd vroundps vroundsd vroundss vshufpd vshufps vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestps vtestpd vucomisd vucomiss vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper pclmullqlqdq pclmulhqlqdq pclmullqhqdq pclmulhqhqdq pclmulqdq vpclmullqlqdq vpclmulhqlqdq vpclmullqhqdq vpclmulhqhqdq vpclmulqdq vfmadd132ps vfmadd132pd vfmadd312ps vfmadd312pd vfmadd213ps vfmadd213pd vfmadd123ps vfmadd123pd vfmadd231ps vfmadd231pd vfmadd321ps vfmadd321pd vfmaddsub132ps vfmaddsub132pd vfmaddsub312ps vfmaddsub312pd vfmaddsub213ps vfmaddsub213pd vfmaddsub123ps vfmaddsub123pd vfmaddsub231ps vfmaddsub231pd vfmaddsub321ps vfmaddsub321pd vfmsub132ps vfmsub132pd vfmsub312ps vfmsub312pd vfmsub213ps vfmsub213pd vfmsub123ps vfmsub123pd vfmsub231ps vfmsub231pd vfmsub321ps vfmsub321pd vfmsubadd132ps vfmsubadd132pd vfmsubadd312ps vfmsubadd312pd vfmsubadd213ps vfmsubadd213pd vfmsubadd123ps vfmsubadd123pd vfmsubadd231ps vfmsubadd231pd vfmsubadd321ps vfmsubadd321pd vfnmadd132ps vfnmadd132pd vfnmadd312ps vfnmadd312pd vfnmadd213ps vfnmadd213pd vfnmadd123ps vfnmadd123pd vfnmadd231ps vfnmadd231pd vfnmadd321ps vfnmadd321pd vfnmsub132ps vfnmsub132pd vfnmsub312ps vfnmsub312pd vfnmsub213ps vfnmsub213pd vfnmsub123ps vfnmsub123pd vfnmsub231ps vfnmsub231pd vfnmsub321ps vfnmsub321pd vfmadd132ss vfmadd132sd vfmadd312ss vfmadd312sd vfmadd213ss vfmadd213sd vfmadd123ss vfmadd123sd vfmadd231ss vfmadd231sd vfmadd321ss vfmadd321sd vfmsub132ss vfmsub132sd vfmsub312ss vfmsub312sd vfmsub213ss vfmsub213sd vfmsub123ss vfmsub123sd vfmsub231ss vfmsub231sd vfmsub321ss vfmsub321sd vfnmadd132ss vfnmadd132sd vfnmadd312ss vfnmadd312sd vfnmadd213ss vfnmadd213sd vfnmadd123ss vfnmadd123sd vfnmadd231ss vfnmadd231sd vfnmadd321ss vfnmadd321sd vfnmsub132ss vfnmsub132sd vfnmsub312ss vfnmsub312sd vfnmsub213ss vfnmsub213sd vfnmsub123ss vfnmsub123sd vfnmsub231ss vfnmsub231sd vfnmsub321ss vfnmsub321sd rdfsbase rdgsbase rdrand wrfsbase wrgsbase vcvtph2ps vcvtps2ph adcx adox rdseed clac stac xstore xcryptecb xcryptcbc xcryptctr xcryptcfb xcryptofb montmul xsha1 xsha256 llwpcb slwpcb lwpval lwpins vfmaddpd vfmaddps vfmaddsd vfmaddss vfmaddsubpd vfmaddsubps vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vpcmov vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vphaddbd vphaddbq vphaddbw vphadddq vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddwd vphaddwq vphsubbw vphsubdq vphsubwd vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpperm vprotb vprotd vprotq vprotw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vbroadcasti128 vpblendd vpbroadcastb vpbroadcastw vpbroadcastd vpbroadcastq vpermd vpermpd vpermps vpermq vperm2i128 vextracti128 vinserti128 vpmaskmovd vpmaskmovq vpsllvd vpsllvq vpsravd vpsrlvd vpsrlvq vgatherdpd vgatherqpd vgatherdps vgatherqps vpgatherdd vpgatherqd vpgatherdq vpgatherqq xabort xbegin xend xtest andn bextr blci blcic blsi blsic blcfill blsfill blcmsk blsmsk blsr blcs bzhi mulx pdep pext rorx sarx shlx shrx tzcnt tzmsk t1mskc valignd valignq vblendmpd vblendmps vbroadcastf32x4 vbroadcastf64x4 vbroadcasti32x4 vbroadcasti64x4 vcompresspd vcompressps vcvtpd2udq vcvtps2udq vcvtsd2usi vcvtss2usi vcvttpd2udq vcvttps2udq vcvttsd2usi vcvttss2usi vcvtudq2pd vcvtudq2ps vcvtusi2sd vcvtusi2ss vexpandpd vexpandps vextractf32x4 vextractf64x4 vextracti32x4 vextracti64x4 vfixupimmpd vfixupimmps vfixupimmsd vfixupimmss vgetexppd vgetexpps vgetexpsd vgetexpss vgetmantpd vgetmantps vgetmantsd vgetmantss vinsertf32x4 vinsertf64x4 vinserti32x4 vinserti64x4 vmovdqa32 vmovdqa64 vmovdqu32 vmovdqu64 vpabsq vpandd vpandnd vpandnq vpandq vpblendmd vpblendmq vpcmpltd vpcmpled vpcmpneqd vpcmpnltd vpcmpnled vpcmpd vpcmpltq vpcmpleq vpcmpneqq vpcmpnltq vpcmpnleq vpcmpq vpcmpequd vpcmpltud vpcmpleud vpcmpnequd vpcmpnltud vpcmpnleud vpcmpud vpcmpequq vpcmpltuq vpcmpleuq vpcmpnequq vpcmpnltuq vpcmpnleuq vpcmpuq vpcompressd vpcompressq vpermi2d vpermi2pd vpermi2ps vpermi2q vpermt2d vpermt2pd vpermt2ps vpermt2q vpexpandd vpexpandq vpmaxsq vpmaxuq vpminsq vpminuq vpmovdb vpmovdw vpmovqb vpmovqd vpmovqw vpmovsdb vpmovsdw vpmovsqb vpmovsqd vpmovsqw vpmovusdb vpmovusdw vpmovusqb vpmovusqd vpmovusqw vpord vporq vprold vprolq vprolvd vprolvq vprord vprorq vprorvd vprorvq vpscatterdd vpscatterdq vpscatterqd vpscatterqq vpsraq vpsravq vpternlogd vpternlogq vptestmd vptestmq vptestnmd vptestnmq vpxord vpxorq vrcp14pd vrcp14ps vrcp14sd vrcp14ss vrndscalepd vrndscaleps vrndscalesd vrndscaless vrsqrt14pd vrsqrt14ps vrsqrt14sd vrsqrt14ss vscalefpd vscalefps vscalefsd vscalefss vscatterdpd vscatterdps vscatterqpd vscatterqps vshuff32x4 vshuff64x2 vshufi32x4 vshufi64x2 kandnw kandw kmovw knotw kortestw korw kshiftlw kshiftrw kunpckbw kxnorw kxorw vpbroadcastmb2q vpbroadcastmw2d vpconflictd vpconflictq vplzcntd vplzcntq vexp2pd vexp2ps vrcp28pd vrcp28ps vrcp28sd vrcp28ss vrsqrt28pd vrsqrt28ps vrsqrt28sd vrsqrt28ss vgatherpf0dpd vgatherpf0dps vgatherpf0qpd vgatherpf0qps vgatherpf1dpd vgatherpf1dps vgatherpf1qpd vgatherpf1qps vscatterpf0dpd vscatterpf0dps vscatterpf0qpd vscatterpf0qps vscatterpf1dpd vscatterpf1dps vscatterpf1qpd vscatterpf1qps prefetchwt1 bndmk bndcl bndcu bndcn bndmov bndldx bndstx sha1rnds4 sha1nexte sha1msg1 sha1msg2 sha256rnds2 sha256msg1 sha256msg2 hint_nop0 hint_nop1 hint_nop2 hint_nop3 hint_nop4 hint_nop5 hint_nop6 hint_nop7 hint_nop8 hint_nop9 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15 hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop20 hint_nop21 hint_nop22 hint_nop23 hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop30 hint_nop31 hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48 hint_nop49 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56 hint_nop57 hint_nop58 hint_nop59 hint_nop60 hint_nop61 hint_nop62 hint_nop63`,built_in:`ip eip rip al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 cs ds es fs gs ss st st0 st1 st2 st3 st4 st5 st6 st7 mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 k0 k1 k2 k3 k4 k5 k6 k7 bnd0 bnd1 bnd2 bnd3 cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d r0h r1h r2h r3h r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l db dw dd dq dt ddq do dy dz resb resw resd resq rest resdq reso resy resz incbin equ times byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr`,meta:`%define %xdefine %+ %undef %defstr %deftok %assign %strcat %strlen %substr %rotate %elif %else %endif %if %ifmacro %ifctx %ifidn %ifidni %ifid %ifnum %ifstr %iftoken %ifempty %ifenv %error %warning %fatal %rep %endrep %include %push %pop %repl %pathsearch %depend %use %arg %stacksize %local %line %comment %endcomment .nolist __FILE__ __LINE__ __SECT__  __BITS__ __OUTPUT_FORMAT__ __DATE__ __TIME__ __DATE_NUM__ __TIME_NUM__ __UTC_DATE__ __UTC_TIME__ __UTC_DATE_NUM__ __UTC_TIME_NUM__  __PASS__ struc endstruc istruc at iend align alignb sectalign daz nodaz up down zero default option assume public bits use16 use32 use64 default section segment absolute extern global common cpu float __utf16__ __utf16le__ __utf16be__ __utf32__ __utf32le__ __utf32be__ __float8__ __float16__ __float32__ __float64__ __float80m__ __float80e__ __float128l__ __float128h__ __Infinity__ __QNaN__ __SNaN__ Inf NaN QNaN SNaN float8 float16 float32 float64 float80m float80e float128l float128h __FLOAT_DAZ__ __FLOAT_ROUND__ __FLOAT__`},contains:[e.COMMENT(`;`,`$`,{relevance:0}),{className:`number`,variants:[{begin:`\\b(?:([0-9][0-9_]*)?\\.[0-9_]*(?:[eE][+-]?[0-9_]+)?|(0[Xx])?[0-9][0-9_]*(\\.[0-9_]*)?(?:[pP](?:[+-]?[0-9_]+)?)?)\\b`,relevance:0},{begin:`\\$[0-9][0-9A-Fa-f]*`,relevance:0},{begin:`\\b(?:[0-9A-Fa-f][0-9A-Fa-f_]*[Hh]|[0-9][0-9_]*[DdTt]?|[0-7][0-7_]*[QqOo]|[0-1][0-1_]*[BbYy])\\b`},{begin:`\\b(?:0[Xx][0-9A-Fa-f_]+|0[DdTt][0-9_]+|0[QqOo][0-7_]+|0[BbYy][0-1_]+)\\b`}]},e.QUOTE_STRING_MODE,{className:`string`,variants:[{begin:`'`,end:`[^\\\\]'`},{begin:"`",end:"[^\\\\]`"}],relevance:0},{className:`symbol`,variants:[{begin:`^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)`},{begin:`^\\s*%%[A-Za-z0-9_$#@~.?]*:`}],relevance:0},{className:`subst`,begin:`%[0-9]+`,relevance:0},{className:`subst`,begin:`%!S+`,relevance:0},{className:`meta`,begin:/^\s*\.[\w_-]+/}]}}t.exports=n})),zn=o(((e,t)=>{function n(e){let t={$pattern:/[a-zA-Z][a-zA-Z0-9_?]*/,keyword:`if.then.else.do.while.until.for.loop.import.with.is.as.where.when.by.data.constant.integer.real.text.name.boolean.symbol.infix.prefix.postfix.block.tree`.split(`.`),literal:[`true`,`false`,`nil`],built_in:`in.mod.rem.and.or.xor.not.abs.sign.floor.ceil.sqrt.sin.cos.tan.asin.acos.atan.exp.expm1.log.log2.log10.log1p.pi.at.text_length.text_range.text_find.text_replace.contains.page.slide.basic_slide.title_slide.title.subtitle.fade_in.fade_out.fade_at.clear_color.color.line_color.line_width.texture_wrap.texture_transform.texture.scale_?x.scale_?y.scale_?z?.translate_?x.translate_?y.translate_?z?.rotate_?x.rotate_?y.rotate_?z?.rectangle.circle.ellipse.sphere.path.line_to.move_to.quad_to.curve_to.theme.background.contents.locally.time.mouse_?x.mouse_?y.mouse_buttons`.split(`.`).concat([`ObjectLoader`,`Animate`,`MovieCredits`,`Slides`,`Filters`,`Shading`,`Materials`,`LensFlare`,`Mapping`,`VLCAudioVideo`,`StereoDecoder`,`PointCloud`,`NetworkAccess`,`RemoteControl`,`RegExp`,`ChromaKey`,`Snowfall`,`NodeJS`,`Speech`,`Charts`])},n={className:`string`,begin:`"`,end:`"`,illegal:`\\n`},r={className:`string`,begin:`'`,end:`'`,illegal:`\\n`},i={className:`string`,begin:`<<`,end:`>>`},a={className:`number`,begin:`[0-9]+#[0-9A-Z_]+(\\.[0-9-A-Z_]+)?#?([Ee][+-]?[0-9]+)?`},o={beginKeywords:`import`,end:`$`,keywords:t,contains:[n]},s={className:`function`,begin:/[a-z][^\n]*->/,returnBegin:!0,end:/->/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,keywords:t}})]};return{name:`XL`,aliases:[`tao`],keywords:t,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,n,r,i,s,o,a,e.NUMBER_MODE]}}t.exports=n})),Bn=o(((e,t)=>{function n(e){return{name:`XQuery`,aliases:[`xpath`,`xq`,`xqm`],case_insensitive:!1,illegal:/(proc)|(abstract)|(extends)|(until)|(#)/,keywords:{$pattern:/[a-zA-Z$][a-zA-Z0-9_:-]*/,keyword:`module.schema.namespace.boundary-space.preserve.no-preserve.strip.default.collation.base-uri.ordering.context.decimal-format.decimal-separator.copy-namespaces.empty-sequence.except.exponent-separator.external.grouping-separator.inherit.no-inherit.lax.minus-sign.per-mille.percent.schema-attribute.schema-element.strict.unordered.zero-digit.declare.import.option.function.validate.variable.for.at.in.let.where.order.group.by.return.if.then.else.tumbling.sliding.window.start.when.only.end.previous.next.stable.ascending.descending.allowing.empty.greatest.least.some.every.satisfies.switch.case.typeswitch.try.catch.and.or.to.union.intersect.instance.of.treat.as.castable.cast.map.array.delete.insert.into.replace.value.rename.copy.modify.update`.split(`.`),type:`item.document-node.node.attribute.document.element.comment.namespace.namespace-node.processing-instruction.text.construction.xs:anyAtomicType.xs:untypedAtomic.xs:duration.xs:time.xs:decimal.xs:float.xs:double.xs:gYearMonth.xs:gYear.xs:gMonthDay.xs:gMonth.xs:gDay.xs:boolean.xs:base64Binary.xs:hexBinary.xs:anyURI.xs:QName.xs:NOTATION.xs:dateTime.xs:dateTimeStamp.xs:date.xs:string.xs:normalizedString.xs:token.xs:language.xs:NMTOKEN.xs:Name.xs:NCName.xs:ID.xs:IDREF.xs:ENTITY.xs:integer.xs:nonPositiveInteger.xs:negativeInteger.xs:long.xs:int.xs:short.xs:byte.xs:nonNegativeInteger.xs:unisignedLong.xs:unsignedInt.xs:unsignedShort.xs:unsignedByte.xs:positiveInteger.xs:yearMonthDuration.xs:dayTimeDuration`.split(`.`),literal:[`eq`,`ne`,`lt`,`le`,`gt`,`ge`,`is`,`self::`,`child::`,`descendant::`,`descendant-or-self::`,`attribute::`,`following::`,`following-sibling::`,`parent::`,`ancestor::`,`ancestor-or-self::`,`preceding::`,`preceding-sibling::`,`NaN`]},contains:[{className:`variable`,begin:/[$][\w\-:]+/},{className:`built_in`,variants:[{begin:/\barray:/,end:/(?:append|filter|flatten|fold-(?:left|right)|for-each(?:-pair)?|get|head|insert-before|join|put|remove|reverse|size|sort|subarray|tail)\b/},{begin:/\bmap:/,end:/(?:contains|entry|find|for-each|get|keys|merge|put|remove|size)\b/},{begin:/\bmath:/,end:/(?:a(?:cos|sin|tan[2]?)|cos|exp(?:10)?|log(?:10)?|pi|pow|sin|sqrt|tan)\b/},{begin:/\bop:/,end:/\(/,excludeEnd:!0},{begin:/\bfn:/,end:/\(/,excludeEnd:!0},{begin:/[^</$:'"-]\b(?:abs|accumulator-(?:after|before)|adjust-(?:date(?:Time)?|time)-to-timezone|analyze-string|apply|available-(?:environment-variables|system-properties)|avg|base-uri|boolean|ceiling|codepoints?-(?:equal|to-string)|collation-key|collection|compare|concat|contains(?:-token)?|copy-of|count|current(?:-)?(?:date(?:Time)?|time|group(?:ing-key)?|output-uri|merge-(?:group|key))?data|dateTime|days?-from-(?:date(?:Time)?|duration)|deep-equal|default-(?:collation|language)|distinct-values|document(?:-uri)?|doc(?:-available)?|element-(?:available|with-id)|empty|encode-for-uri|ends-with|environment-variable|error|escape-html-uri|exactly-one|exists|false|filter|floor|fold-(?:left|right)|for-each(?:-pair)?|format-(?:date(?:Time)?|time|integer|number)|function-(?:arity|available|lookup|name)|generate-id|has-children|head|hours-from-(?:dateTime|duration|time)|id(?:ref)?|implicit-timezone|in-scope-prefixes|index-of|innermost|insert-before|iri-to-uri|json-(?:doc|to-xml)|key|lang|last|load-xquery-module|local-name(?:-from-QName)?|(?:lower|upper)-case|matches|max|minutes-from-(?:dateTime|duration|time)|min|months?-from-(?:date(?:Time)?|duration)|name(?:space-uri-?(?:for-prefix|from-QName)?)?|nilled|node-name|normalize-(?:space|unicode)|not|number|one-or-more|outermost|parse-(?:ietf-date|json)|path|position|(?:prefix-from-)?QName|random-number-generator|regex-group|remove|replace|resolve-(?:QName|uri)|reverse|root|round(?:-half-to-even)?|seconds-from-(?:dateTime|duration|time)|snapshot|sort|starts-with|static-base-uri|stream-available|string-?(?:join|length|to-codepoints)?|subsequence|substring-?(?:after|before)?|sum|system-property|tail|timezone-from-(?:date(?:Time)?|time)|tokenize|trace|trans(?:form|late)|true|type-available|unordered|unparsed-(?:entity|text)?-?(?:public-id|uri|available|lines)?|uri-collection|xml-to-json|years?-from-(?:date(?:Time)?|duration)|zero-or-one)\b/},{begin:/\blocal:/,end:/\(/,excludeEnd:!0},{begin:/\bzip:/,end:/(?:zip-file|(?:xml|html|text|binary)-entry| (?:update-)?entries)\b/},{begin:/\b(?:util|db|functx|app|xdmp|xmldb):/,end:/\(/,excludeEnd:!0}]},{className:`string`,variants:[{begin:/"/,end:/"/,contains:[{begin:/""/,relevance:0}]},{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]}]},{className:`number`,begin:/(\b0[0-7_]+)|(\b0x[0-9a-fA-F_]+)|(\b[1-9][0-9_]*(\.[0-9_]+)?)|[0_]\b/,relevance:0},{className:`comment`,begin:/\(:/,end:/:\)/,relevance:10,contains:[{className:`doctag`,begin:/@\w+/}]},{className:`meta`,begin:/%[\w\-:]+/},{className:`title`,begin:/\bxquery version "[13]\.[01]"\s?(?:encoding ".+")?/,end:/;/},{beginKeywords:`element attribute comment document processing-instruction`,end:/\{/,excludeEnd:!0},{begin:/<([\w._:-]+)(\s+\S*=('|").*('|"))?>/,end:/(\/[\w._:-]+>)/,subLanguage:`xml`,contains:[{begin:/\{/,end:/\}/,subLanguage:`xquery`},`self`]}]}}t.exports=n})),Vn=o(((e,t)=>{function n(e){let t={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},n=e.UNDERSCORE_TITLE_MODE,r={variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]},i=`namespace class interface use extends function return abstract final public protected private static deprecated throw try catch Exception echo empty isset instanceof unset let var new const self require if else elseif switch case default do while loop for continue break likely unlikely __LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ array boolean float double integer object resource string char long unsigned bool int uint ulong uchar true false null undefined`;return{name:`Zephir`,aliases:[`zep`],keywords:i,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(/\/\*/,/\*\//,{contains:[{className:`doctag`,begin:/@[A-Za-z]+/}]}),{className:`string`,begin:/<<<['"]?\w+['"]?$/,end:/^\w+;/,contains:[e.BACKSLASH_ESCAPE]},{begin:/(::|->)+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/},{className:`function`,beginKeywords:`function fn`,end:/[;{]/,excludeEnd:!0,illegal:/\$|\[|%/,contains:[n,{className:`params`,begin:/\(/,end:/\)/,keywords:i,contains:[`self`,e.C_BLOCK_COMMENT_MODE,t,r]}]},{className:`class`,beginKeywords:`class interface`,end:/\{/,excludeEnd:!0,illegal:/[:($"]/,contains:[{beginKeywords:`extends implements`},n]},{beginKeywords:`namespace`,end:/;/,illegal:/[.']/,contains:[n]},{beginKeywords:`use`,end:/;/,contains:[n]},{begin:/=>/},t,r]}}t.exports=n})),Hn=l(o(((e,t)=>{var n=u();n.registerLanguage(`1c`,d()),n.registerLanguage(`abnf`,f()),n.registerLanguage(`accesslog`,p()),n.registerLanguage(`actionscript`,m()),n.registerLanguage(`ada`,h()),n.registerLanguage(`angelscript`,g()),n.registerLanguage(`apache`,_()),n.registerLanguage(`applescript`,v()),n.registerLanguage(`arcade`,y()),n.registerLanguage(`arduino`,b()),n.registerLanguage(`armasm`,x()),n.registerLanguage(`xml`,S()),n.registerLanguage(`asciidoc`,C()),n.registerLanguage(`aspectj`,w()),n.registerLanguage(`autohotkey`,T()),n.registerLanguage(`autoit`,E()),n.registerLanguage(`avrasm`,D()),n.registerLanguage(`awk`,O()),n.registerLanguage(`axapta`,k()),n.registerLanguage(`bash`,A()),n.registerLanguage(`basic`,j()),n.registerLanguage(`bnf`,M()),n.registerLanguage(`brainfuck`,N()),n.registerLanguage(`c`,P()),n.registerLanguage(`cal`,F()),n.registerLanguage(`capnproto`,I()),n.registerLanguage(`ceylon`,L()),n.registerLanguage(`clean`,R()),n.registerLanguage(`clojure`,z()),n.registerLanguage(`clojure-repl`,B()),n.registerLanguage(`cmake`,ee()),n.registerLanguage(`coffeescript`,te()),n.registerLanguage(`coq`,V()),n.registerLanguage(`cos`,H()),n.registerLanguage(`cpp`,U()),n.registerLanguage(`crmsh`,W()),n.registerLanguage(`crystal`,G()),n.registerLanguage(`csharp`,K()),n.registerLanguage(`csp`,ne()),n.registerLanguage(`css`,re()),n.registerLanguage(`d`,q()),n.registerLanguage(`markdown`,J()),n.registerLanguage(`dart`,ie()),n.registerLanguage(`delphi`,ae()),n.registerLanguage(`diff`,oe()),n.registerLanguage(`django`,se()),n.registerLanguage(`dns`,Y()),n.registerLanguage(`dockerfile`,ce()),n.registerLanguage(`dos`,le()),n.registerLanguage(`dsconfig`,ue()),n.registerLanguage(`dts`,X()),n.registerLanguage(`dust`,de()),n.registerLanguage(`ebnf`,Z()),n.registerLanguage(`elixir`,Q()),n.registerLanguage(`elm`,fe()),n.registerLanguage(`ruby`,pe()),n.registerLanguage(`erb`,me()),n.registerLanguage(`erlang-repl`,he()),n.registerLanguage(`erlang`,ge()),n.registerLanguage(`excel`,_e()),n.registerLanguage(`fix`,ve()),n.registerLanguage(`flix`,ye()),n.registerLanguage(`fortran`,be()),n.registerLanguage(`fsharp`,xe()),n.registerLanguage(`gams`,Se()),n.registerLanguage(`gauss`,Ce()),n.registerLanguage(`gcode`,we()),n.registerLanguage(`gherkin`,Te()),n.registerLanguage(`glsl`,Ee()),n.registerLanguage(`gml`,$()),n.registerLanguage(`go`,De()),n.registerLanguage(`golo`,Oe()),n.registerLanguage(`gradle`,ke()),n.registerLanguage(`graphql`,Ae()),n.registerLanguage(`groovy`,je()),n.registerLanguage(`haml`,Me()),n.registerLanguage(`handlebars`,Ne()),n.registerLanguage(`haskell`,Pe()),n.registerLanguage(`haxe`,Fe()),n.registerLanguage(`hsp`,Ie()),n.registerLanguage(`http`,Le()),n.registerLanguage(`hy`,Re()),n.registerLanguage(`inform7`,ze()),n.registerLanguage(`ini`,Be()),n.registerLanguage(`irpf90`,Ve()),n.registerLanguage(`isbl`,He()),n.registerLanguage(`java`,Ue()),n.registerLanguage(`javascript`,We()),n.registerLanguage(`jboss-cli`,Ge()),n.registerLanguage(`json`,Ke()),n.registerLanguage(`julia`,qe()),n.registerLanguage(`julia-repl`,Je()),n.registerLanguage(`kotlin`,Ye()),n.registerLanguage(`lasso`,Xe()),n.registerLanguage(`latex`,Ze()),n.registerLanguage(`ldif`,Qe()),n.registerLanguage(`leaf`,$e()),n.registerLanguage(`less`,et()),n.registerLanguage(`lisp`,tt()),n.registerLanguage(`livecodeserver`,nt()),n.registerLanguage(`livescript`,rt()),n.registerLanguage(`llvm`,it()),n.registerLanguage(`lsl`,at()),n.registerLanguage(`lua`,ot()),n.registerLanguage(`makefile`,st()),n.registerLanguage(`mathematica`,ct()),n.registerLanguage(`matlab`,lt()),n.registerLanguage(`maxima`,ut()),n.registerLanguage(`mel`,dt()),n.registerLanguage(`mercury`,ft()),n.registerLanguage(`mipsasm`,pt()),n.registerLanguage(`mizar`,mt()),n.registerLanguage(`perl`,ht()),n.registerLanguage(`mojolicious`,gt()),n.registerLanguage(`monkey`,_t()),n.registerLanguage(`moonscript`,vt()),n.registerLanguage(`n1ql`,yt()),n.registerLanguage(`nestedtext`,bt()),n.registerLanguage(`nginx`,xt()),n.registerLanguage(`nim`,St()),n.registerLanguage(`nix`,Ct()),n.registerLanguage(`node-repl`,wt()),n.registerLanguage(`nsis`,Tt()),n.registerLanguage(`objectivec`,Et()),n.registerLanguage(`ocaml`,Dt()),n.registerLanguage(`openscad`,Ot()),n.registerLanguage(`oxygene`,kt()),n.registerLanguage(`parser3`,At()),n.registerLanguage(`pf`,jt()),n.registerLanguage(`pgsql`,Mt()),n.registerLanguage(`php`,Nt()),n.registerLanguage(`php-template`,Pt()),n.registerLanguage(`plaintext`,Ft()),n.registerLanguage(`pony`,It()),n.registerLanguage(`powershell`,Lt()),n.registerLanguage(`processing`,Rt()),n.registerLanguage(`profile`,zt()),n.registerLanguage(`prolog`,Bt()),n.registerLanguage(`properties`,Vt()),n.registerLanguage(`protobuf`,Ht()),n.registerLanguage(`puppet`,Ut()),n.registerLanguage(`purebasic`,Wt()),n.registerLanguage(`python`,Gt()),n.registerLanguage(`python-repl`,Kt()),n.registerLanguage(`q`,qt()),n.registerLanguage(`qml`,Jt()),n.registerLanguage(`r`,Yt()),n.registerLanguage(`reasonml`,Xt()),n.registerLanguage(`rib`,Zt()),n.registerLanguage(`roboconf`,Qt()),n.registerLanguage(`routeros`,$t()),n.registerLanguage(`rsl`,en()),n.registerLanguage(`ruleslanguage`,tn()),n.registerLanguage(`rust`,nn()),n.registerLanguage(`sas`,rn()),n.registerLanguage(`scala`,an()),n.registerLanguage(`scheme`,on()),n.registerLanguage(`scilab`,sn()),n.registerLanguage(`scss`,cn()),n.registerLanguage(`shell`,ln()),n.registerLanguage(`smali`,un()),n.registerLanguage(`smalltalk`,dn()),n.registerLanguage(`sml`,fn()),n.registerLanguage(`sqf`,pn()),n.registerLanguage(`sql`,mn()),n.registerLanguage(`stan`,hn()),n.registerLanguage(`stata`,gn()),n.registerLanguage(`step21`,_n()),n.registerLanguage(`stylus`,vn()),n.registerLanguage(`subunit`,yn()),n.registerLanguage(`swift`,bn()),n.registerLanguage(`taggerscript`,xn()),n.registerLanguage(`yaml`,Sn()),n.registerLanguage(`tap`,Cn()),n.registerLanguage(`tcl`,wn()),n.registerLanguage(`thrift`,Tn()),n.registerLanguage(`tp`,En()),n.registerLanguage(`twig`,Dn()),n.registerLanguage(`typescript`,On()),n.registerLanguage(`vala`,kn()),n.registerLanguage(`vbnet`,An()),n.registerLanguage(`vbscript`,jn()),n.registerLanguage(`vbscript-html`,Mn()),n.registerLanguage(`verilog`,Nn()),n.registerLanguage(`vhdl`,Pn()),n.registerLanguage(`vim`,Fn()),n.registerLanguage(`wasm`,In()),n.registerLanguage(`wren`,Ln()),n.registerLanguage(`x86asm`,Rn()),n.registerLanguage(`xl`,zn()),n.registerLanguage(`xquery`,Bn()),n.registerLanguage(`zephir`,Vn()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,Un=s({default:()=>Wn}),Wn=`<div class="post-meta">\r
-	<meta name="post-id" content="19" />\r
-	<meta name="post-title" content="자주 쓰는 Git 명령어 모음" />\r
-	<meta name="post-published" content="2026-07-01T20:40" />\r
-	<meta name="post-tags" content="Git" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. 초기 설정.</h2>\r
-	<pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)\r
-git config --global user.name "이름"\r
-git config --global user.email "메일주소"\r
-\r
-# 기본 브랜치 이름을 main으로 설정한다\r
-git config --global init.defaultBranch main\r
-\r
-# 현재 설정 전체를 확인한다\r
-git config --list</code></pre>\r
-\r
-	<h2 class="post-tab">2. 저장소 시작.</h2>\r
-	<pre><code class="language-bash"># 현재 폴더를 새 저장소로 초기화한다\r
-git init\r
-\r
-# 원격 저장소를 복제한다\r
-git clone &lt;url&gt;\r
-\r
-# 히스토리를 최소화해 얕게 복제한다\r
-git clone --depth 1 &lt;url&gt;</code></pre>\r
-\r
-	<h2 class="post-tab">3. 상태 확인.</h2>\r
-	<pre><code class="language-bash"># 작업 트리 상태를 확인한다\r
-git status\r
-\r
-# 한 줄로 간결하게 확인한다\r
-git status -s\r
-\r
-# 스테이징 전 변경 사항을 비교한다\r
-git diff\r
-\r
-# 스테이징된 변경 사항을 비교한다\r
-git diff --staged</code></pre>\r
-\r
-	<h2 class="post-tab">4. 스테이징과 커밋.</h2>\r
-	<pre><code class="language-bash"># 특정 파일을 스테이징한다\r
-git add &lt;파일&gt;\r
-\r
-# 변경 사항 전체를 스테이징한다\r
-git add .\r
-\r
-# 커밋을 생성한다\r
-git commit -m "메시지"\r
-\r
-# 스테이징과 커밋을 한 번에 한다 (추적 중인 파일 한정)\r
-git commit -am "메시지"\r
-\r
-# 직전 커밋에 현재 변경을 더하고 메시지도 수정한다\r
-git commit --amend\r
-\r
-# 직전 커밋에 현재 변경만 더한다 (메시지는 그대로 둔다)\r
-git commit --amend --no-edit</code></pre>\r
-\r
-	<h2 class="post-tab">5. 브랜치.</h2>\r
-	<pre><code class="language-bash"># 브랜치 목록을 확인한다\r
-git branch\r
-\r
-# 원격 포함 전체 브랜치를 확인한다\r
-git branch -a\r
-\r
-# 브랜치를 생성하고 이동한다\r
-git switch -c &lt;브랜치&gt;\r
-\r
-# 기존 브랜치로 이동한다\r
-git switch &lt;브랜치&gt;\r
-\r
-# 브랜치를 삭제한다\r
-git branch -d &lt;브랜치&gt;\r
-\r
-# 병합하지 않은 브랜치를 강제로 삭제한다\r
-git branch -D &lt;브랜치&gt;</code></pre>\r
-\r
-	<h2 class="post-tab">6. 병합과 리베이스.</h2>\r
-	<pre><code class="language-bash"># 현재 브랜치에 다른 브랜치를 병합한다\r
-git merge &lt;브랜치&gt;\r
-\r
-# 다른 브랜치의 여러 커밋을 하나로 합쳐 가져온다 (스테이징만 되므로 커밋이 필요하다)\r
-git merge --squash &lt;브랜치&gt;\r
-git commit -m "메시지"\r
-\r
-# 커밋 히스토리를 한 줄로 재정렬하며 병합한다\r
-git rebase &lt;브랜치&gt;\r
-\r
-# 충돌을 해결한 뒤 리베이스를 계속한다\r
-git rebase --continue\r
-\r
-# 리베이스를 중단하고 원래대로 되돌린다\r
-git rebase --abort</code></pre>\r
-\r
-	<h2 class="post-tab">7. 원격 저장소.</h2>\r
-	<pre><code class="language-bash"># 등록된 원격을 확인한다\r
-git remote -v\r
-\r
-# 원격을 추가한다\r
-git remote add origin &lt;url&gt;\r
-\r
-# 원격 변경을 병합 없이 내려받는다\r
-git fetch\r
-\r
-# 원격 변경을 내려받아 병합한다\r
-git pull\r
-\r
-# 커밋을 올린다\r
-git push\r
-\r
-# 새 브랜치를 원격에 처음 올리며 추적을 설정한다 (이후로는 git push, git pull만 써도 된다)\r
-git push -u origin &lt;브랜치&gt;</code></pre>\r
-\r
-	<h2 class="post-tab">8. 되돌리기.</h2>\r
-	<pre><code class="language-bash"># 스테이징하지 않은(Unstaged) 변경을 취소한다\r
-git restore &lt;파일&gt;\r
-\r
-# 스테이징을 취소한다 (변경은 유지한다)\r
-git restore --staged &lt;파일&gt;\r
-\r
-# 스테이징도 취소하고 변경도 취소한다\r
-git restore --staged --worktree &lt;파일&gt;\r
-\r
-# 직전 커밋을 취소하되 변경은 스테이징 상태로 유지한다\r
-git reset --soft HEAD~1\r
-\r
-# 직전 커밋과 변경을 모두 폐기한다 (주의한다)\r
-git reset --hard HEAD~1\r
-\r
-# 특정 커밋을 취소하는 새 커밋을 생성한다 (히스토리를 보존한다)\r
-git revert &lt;커밋&gt;</code></pre>\r
-\r
-	<h2 class="post-tab">9. 임시 저장.</h2>\r
-	<pre><code class="language-bash"># 작업 중인 변경을 임시로 치워둔다\r
-git stash\r
-\r
-# 추적하지 않는 파일까지 포함한다\r
-git stash -u\r
-\r
-# 저장 목록을 확인한다\r
-git stash list\r
-\r
-# 가장 최근 저장을 복원하고 목록에서 제거한다\r
-git stash pop\r
-\r
-# 복원하되 목록에는 남겨둔다\r
-git stash apply</code></pre>\r
-\r
-	<h2 class="post-tab">10. 히스토리 확인.</h2>\r
-	<pre><code class="language-bash"># 커밋 히스토리를 확인한다\r
-git log\r
-\r
-# 한 줄 요약으로 확인한다\r
-git log --oneline\r
-\r
-# 브랜치 그래프까지 함께 확인한다\r
-git log --oneline --graph --all\r
-\r
-# 특정 커밋의 정보와 변경 사항을 확인한다\r
-git show <커밋>\r
-\r
-# 특정 커밋에서 변경된 파일 목록만 확인한다\r
-git show --name-only <커밋>\r
-\r
-# 특정 커밋의 변경 통계를 확인한다\r
-git show --stat <커밋>\r
-\r
-# 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다\r
-git blame &lt;파일&gt;</code></pre>\r
-\r
-	<h2 class="post-tab">11. 태그.</h2>\r
-	<pre><code class="language-bash"># 태그 목록을 확인한다\r
-git tag\r
-\r
-# 주석 있는 태그를 생성한다\r
-git tag -a v1.0.0 -m "메시지"\r
-\r
-# 태그를 원격에 올린다\r
-git push origin v1.0.0\r
-\r
-# 모든 태그를 원격에 올린다\r
-git push --tags</code></pre>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		<a href="https://git-scm.com/doc" target="_blank"\r
-			>Git 공식 문서 (git-scm.com/doc)</a\r
-		>\r
-	</p>\r
-</div>\r
-`,Gn=s({default:()=>Kn}),Kn=`<div class="post-meta">\r
-	<meta name="post-id" content="20">\r
-	<meta name="post-title" content="헷갈리는 CSS 선택자와 변수 정리">\r
-  <meta name="post-published" content="2026-07-01T20:50">\r
-  <meta name="post-tags" content="CSS">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. 결합자.</h2>\r
-	<pre><code class="language-css">/* 자손 (하위 전체) */\r
-article p {}\r
-\r
-/* 자식 (바로 아래 한 단계만) */\r
-article &gt; p {}\r
-\r
-/* 인접 형제 (바로 다음에 오는 하나) */\r
-h2 + p {}\r
-\r
-/* 일반 형제 (뒤따르는 모든 형제) */\r
-h2 ~ p {}</code></pre>\r
-\r
-	<h2 class="post-tab">2. 가상 클래스 (콜론 하나).</h2>\r
-	<p>\r
-		요소의 상태나 위치를 조건으로 거는 선택자다. 콜론을 하나 붙인다.\r
-	</p>\r
-	<pre><code class="language-css">/* 첫 번째, 마지막 자식 */\r
-li:first-child {}\r
-li:last-child {}\r
-\r
-/* n번째 자식 (홀수 / 3의 배수마다) */\r
-li:nth-child(odd) {}\r
-li:nth-child(3n) {}\r
-\r
-/* 조건에 해당하지 않는 요소 */\r
-li:not(.active) {}\r
-\r
-/* 여러 선택자를 하나로 묶는다 (특정도가 인자 중 가장 높은 값) */\r
-:is(h1, h2, h3) {}\r
-\r
-/* :is와 같지만 특정도가 항상 0이라 덮어쓰기 쉽다 */\r
-:where(h1, h2, h3) {}</code></pre>\r
-	<p>\r
-		:first-child는 타입이 아니라 순서를 본다. 아래 둘은 다르게 동작한다.\r
-	</p>\r
-	<pre><code class="language-css">/* 부모의 첫 자식이면서 그게 p일 때만 적용된다 */\r
-p:first-child {}\r
-\r
-/* 형제 중 p 타입의 첫 번째에 적용된다 */\r
-p:first-of-type {}</code></pre>\r
-\r
-	<h2 class="post-tab">3. 가상 요소 (콜론 두 개).</h2>\r
-	<p>\r
-		가상 클래스가 상태를 고른다면, 가상 요소는 실제로 없는 요소를 만들어낸다.\r
-		그래서 콜론을 두 개 붙여 가상 클래스와 구분한다. <span class="post-underline">:before처럼 하나만 써도\r
-		옛 문법으로 동작하지만, 표준은 콜론 두 개다.</span>\r
-	</p>\r
-	<pre><code class="language-css">/* 요소 앞뒤에 콘텐츠를 삽입한다. content가 반드시 필요하다 */\r
-.tag::before { content: "#"; }\r
-.price::after { content: " 원"; }\r
-\r
-/* 첫 줄, 첫 글자에만 스타일을 준다 */\r
-p::first-line {}\r
-p::first-letter {}\r
-\r
-/* 사용자가 드래그로 선택한 영역 */\r
-::selection { background: yellow; }</code></pre>\r
-\r
-	<h2 class="post-tab">4. 속성 선택자.</h2>\r
-	<pre><code class="language-css">/* 해당 속성을 가진 요소 */\r
-a[target] {}\r
-\r
-/* 값이 정확히 일치하는 요소 */\r
-input[type="text"] {}\r
-\r
-/* 값이 특정 문자열로 시작 */\r
-a[href^="https"] {}\r
-\r
-/* 값이 특정 문자열로 끝남 */\r
-a[href$=".pdf"] {}\r
-\r
-/* 값에 특정 문자열이 포함 */\r
-a[href*="github"] {}</code></pre>\r
-\r
-	<h2 class="post-tab">5. 커스텀 프로퍼티 (변수).</h2>\r
-	<p>\r
-		:root에 선언하면 문서 전역에서 쓸 수 있다. var()로 꺼내 쓰며, SCSS 변수와\r
-		달리 런타임에 살아 있어 미디어 쿼리나 특정 범위에서 값을 덮어쓸 수 있다.\r
-	</p>\r
-	<pre><code class="language-css">/* :root에 전역 변수를 선언한다 */\r
-:root {\r
-	--main-color: #3b82f6;\r
-	--gap: 16px;\r
-}\r
-\r
-/* var()로 꺼내 쓴다 */\r
-.button {\r
-	background: var(--main-color);\r
-	padding: var(--gap);\r
-}\r
-\r
-/* 변수가 없을 때 쓸 대체값을 두 번째 인자로 준다 */\r
-.card {\r
-	color: var(--text-color, #333);\r
-}\r
-\r
-/* 특정 범위에서만 값을 덮어쓴다 */\r
-.dark {\r
-	--main-color: #60a5fa;\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">6. calc.</h2>\r
-	<pre><code class="language-css">/* 서로 다른 단위를 섞어 계산한다 (연산자 양옆 공백은 필수다) */\r
-.sidebar {\r
-	width: calc(100% - 240px);\r
-}\r
-\r
-/* 변수와 함께 쓸 수 있다 */\r
-.box {\r
-	padding: calc(var(--gap) * 2);\r
-}</code></pre>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		<a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_blank">MDN CSS 문서 (developer.mozilla.org)</a>\r
-	</p>\r
-</div>\r
-`,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">\r
-	<meta name="post-id" content="21">\r
-	<meta name="post-title" content="자주 쓰는 SCSS 문법 정리">\r
-  <meta name="post-published" content="2026-07-01T21:00">\r
-  <meta name="post-tags" content="SCSS">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. 변수.</h2>\r
-	<p>\r
-		$로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로\r
-		치환되어 박히므로, 런타임에 바꿀 수는 없다.\r
-	</p>\r
-	<pre><code class="language-scss">$main-color: #3b82f6;\r
-$gap: 16px;\r
-\r
-.button {\r
-	background: $main-color;\r
-	padding: $gap;\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">2. 중첩과 부모 참조.</h2>\r
-	<p>\r
-		선택자를 중첩하면 자동으로 자손(공백)으로 컴파일된다. &amp;는 부모 선택자를\r
-		가리키는데, 뒤에 공백을 두면 결국 자손이 되어 &amp; 없이 쓴 것과 똑같아진다.\r
-		반대로 공백 없이 붙이면 부모와 같은 요소를 겨냥하거나 이름을 이어 붙이므로,\r
-		이때는 &amp;가 반드시 필요하다.\r
-	</p>\r
-	<pre><code class="language-scss">.card {\r
-	padding: 16px;\r
-\r
-	/* 중첩만 해도 자손이 된다 → .card .title */\r
-	.title {\r
-		font-weight: bold;\r
-	}\r
-\r
-	/* &amp; 뒤에 공백을 두면 위와 똑같은 .card .title 이라 굳이 쓸 필요가 없다 */\r
-	&amp; .title {}\r
-\r
-	/* 공백 없이 붙이면 부모와 같은 요소를 겨냥한다 → .card:hover */\r
-	&amp;:hover {\r
-		background: #f5f5f5;\r
-	}\r
-\r
-	/* 이름을 이어 붙인다 → .card--active */\r
-	&amp;--active {\r
-		border: 1px solid;\r
-	}\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">3. 믹스인.</h2>\r
-	<p>\r
-		재사용할 스타일 묶음이다. 인자와 기본값을 받을 수 있다.\r
-	</p>\r
-	<pre><code class="language-scss">@mixin flex-center($direction: row) {\r
-	display: flex;\r
-	justify-content: center;\r
-	align-items: center;\r
-	flex-direction: $direction;\r
-}\r
-\r
-.box {\r
-	@include flex-center(column);\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">4. 함수.</h2>\r
-	<p>\r
-		믹스인이 스타일 덩어리를 반환한다면, 함수는 값을 계산해 반환한다.\r
-	</p>\r
-	<pre><code class="language-scss">@function double($n) {\r
-	@return $n * 2;\r
-}\r
-\r
-.box {\r
-	padding: double(8px); /* 16px */\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">5. 반복문.</h2>\r
-	<p>\r
-		셋 다 반복이지만 쓰임이 다르다. @for는 정해진 횟수만큼 숫자를 셀 때,\r
-		@each는 미리 정해둔 목록(이름, 색상 등)을 훑을 때, @while은 종료 조건이\r
-		숫자 범위로 딱 떨어지지 않을 때 쓴다.\r
-	</p>\r
-	<pre><code class="language-scss">/* @for: 1부터 3까지 센다 (through는 끝값 3 포함, to로 쓰면 3 제외) */\r
-@for $i from 1 through 3 {\r
-	.col-#{$i} {\r
-		width: calc(100% / #{$i});\r
-	}\r
-}\r
-/* 결과:\r
-   .col-1 { width: calc(100% / 1); }\r
-   .col-2 { width: calc(100% / 2); }\r
-   .col-3 { width: calc(100% / 3); } */\r
-\r
-/* @each: 맵의 항목을 이름과 값으로 하나씩 꺼낸다 */\r
-@each $name, $color in ("info": blue, "warn": orange) {\r
-	.text-#{$name} {\r
-		color: $color;\r
-	}\r
-}\r
-/* 결과:\r
-   .text-info { color: blue; }\r
-   .text-warn { color: orange; } */\r
-\r
-/* @while: 조건이 참인 동안 반복한다. 카운터를 직접 증가시켜야 한다 */\r
-$i: 1;\r
-@while $i &lt;= 3 {\r
-	.m-#{$i} { margin: #{$i * 4}px; }\r
-	$i: $i + 1;\r
-}\r
-/* 결과:\r
-   .m-1 { margin: 4px; }\r
-   .m-2 { margin: 8px; }\r
-   .m-3 { margin: 12px; } */</code></pre>\r
-\r
-	<h2 class="post-tab">6. 조건문.</h2>\r
-	<p>\r
-		넘긴 인자에 따라 어느 가지를 내보낼지 컴파일 시점에 고른다. 참인 가지의\r
-		스타일만 최종 CSS에 남는다. @else if로 여러 조건을, @else로 나머지 경우를\r
-		처리한다.\r
-	</p>\r
-	<pre><code class="language-scss">@mixin theme($mode) {\r
-	@if $mode == dark {\r
-		background: #111;\r
-		color: #eee;\r
-	} @else if $mode == sepia {\r
-		background: #f4ecd8;\r
-		color: #5b4636;\r
-	} @else {\r
-		background: #fff;\r
-		color: #111;\r
-	}\r
-}\r
-\r
-.page {\r
-	@include theme(dark);\r
-}\r
-/* dark 가지가 참이라 .page 에는 그 스타일만 박힌다:\r
-   .page { background: #111; color: #eee; } */</code></pre>\r
-\r
-	<h2 class="post-tab">7. 보간.</h2>\r
-	<p>\r
-		값이 오는 자리(속성 값)에서는 그냥 $변수로 쓰면 된다. 하지만 선택자 이름이나\r
-		속성 이름처럼 변수를 "코드의 일부"로 끼워 넣어야 할 때는 SCSS가 그게 변수인\r
-		줄 모르므로, #{}로 감싸 "여기에 값을 넣어라"라고 알려줘야 한다. calc()는 CSS가\r
-		실행 시점에 계산하는 함수라 안쪽을 문자열로 넘기는데, 이때 SCSS 변수도 문자\r
-		그대로 남으므로 마찬가지로 보간해 값을 미리 넣어줘야 한다.\r
-	</p>\r
-	<pre><code class="language-scss">$side: left;\r
-$gap: 16px;\r
-\r
-.menu {\r
-	/* 값 자리에서는 보간이 필요 없다 → padding: 16px */\r
-	padding: $gap;\r
-\r
-	/* 속성 이름에 끼워 넣을 땐 보간해야 한다 → margin-left: 20px */\r
-	margin-#{$side}: 20px;\r
-\r
-	/* 보간 없이 margin-$side 라고 쓰면 값이 안 들어가고 문자 그대로 깨진다 */\r
-\r
-	/* calc 안의 SCSS 변수도 보간해야 값이 들어간다 → width: calc(100% - 16px) */\r
-	width: calc(100% - #{$gap});\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">8. 파일 분리와 @use.</h2>\r
-	<p>\r
-		큰 스타일을 여러 파일로 쪼갤 때, 다른 파일에서 불러다 쓸 조각은 이름을\r
-		밑줄로 시작한다. 밑줄은 컴파일러에게 "이 파일은 단독으로 쓰는 게 아니니\r
-		_colors.css 같은 결과 파일을 따로 만들지 말라"고 알려주는 표시다. 밑줄이\r
-		없으면 colors.scss는 그 자체로 colors.css까지 만들어내 불필요한 파일이 생긴다.\r
-	</p>\r
-	<p>\r
-		그리고 불러올 때는 밑줄과 .scss 확장자를 뺀 이름으로 쓴다. 즉 파일이\r
-		_colors.scss여도 @use "colors"라고 적으면 컴파일러가 알아서 _colors.scss를\r
-		찾아 연결한다. 이렇게 불러오면 파일 이름(colors)이 네임스페이스가 되어\r
-		접두어를 붙여 접근하고, 접두어가 번거로우면 as *로 생략할 수 있다.\r
-	</p>\r
-	<pre><code class="language-scss">/* 파일명: _colors.scss (밑줄로 시작 → 단독 .css로 컴파일되지 않는다) */\r
-$primary: #3b82f6;</code></pre>\r
-	<pre><code class="language-scss">/* ── 네임스페이스로 쓰는 경우 ── */\r
-@use "colors"; /* _colors.scss 를 밑줄·확장자 없이 부른다. colors 가 네임스페이스가 된다 */\r
-\r
-.button {\r
-	color: colors.$primary; /* 접두어를 붙여 접근한다 */\r
-}\r
-\r
-/* ── 네임스페이스를 생략하는 경우 ── */\r
-@use "colors" as *;\r
-\r
-.button {\r
-	color: $primary; /* 접두어 없이 바로 쓴다 */\r
-}</code></pre>\r
-\r
-	<h2 class="post-tab">9. 상속과 자리표시자.</h2>\r
-	<p>\r
-		@extend로 다른 선택자의 스타일을 물려받는다. %로 시작하는 자리표시자는\r
-		단독으로 출력되지 않고, 상속될 때만 실제 스타일로 나타난다.\r
-	</p>\r
-	<pre><code class="language-scss">%card-base {\r
-	border-radius: 8px;\r
-	padding: 16px;\r
-}\r
-\r
-.notice {\r
-	@extend %card-base;\r
-	background: #eef;\r
-}\r
-/* 결과: .notice 는 물려받은 속성과 자기 속성을 모두 갖는다\r
-   .notice {\r
-     border-radius: 8px;\r
-     padding: 16px;\r
-     background: #eef;\r
-   } */</code></pre>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		<a href="https://sass-lang.com/documentation/" target="_blank">Sass 공식 문서 (sass-lang.com)</a>\r
-	</p>\r
-</div>\r
-`,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">\r
-	<meta name="post-id" content="22">\r
-	<meta name="post-title" content="IP 주소와 서브넷 마스크 정리">\r
-  <meta name="post-published" content="2026-07-01T21:10">\r
-  <meta name="post-tags" content="IP, 네트워크, 서브넷 마스크">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. IP 주소란.</h2>\r
-	<p>\r
-		네트워크에 연결된 기기는 저마다 주소를 가진다. 편지를 보내려면 받는 사람의\r
-		주소가 있어야 하듯, 데이터를 주고받으려면 상대 기기의 주소가 필요하다. 그\r
-		주소가 IP 주소다. 우리가 흔히 보는 건 이런 모양이다.\r
-	</p>\r
-	<p style="text-align: center; font-family: monospace; font-size: 1.6rem; letter-spacing: 0.08em;">\r
-		192.168.0.1\r
-	</p>\r
-	<p>\r
-		점 세 개로 숫자 네 덩어리가 나뉘어 있다. 이 점과 덩어리가 무엇인지 아는 것이\r
-		시작이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">2. 32비트와 옥텟.</h2>\r
-	<p>\r
-		지금 널리 쓰이는 IPv4 주소는 <span class="post-bold">32개의 비트</span>,\r
-		즉 0과 1이 32개 늘어선 것이다. 사람이 0과 1을 32개나 읽기는 힘드니, 8비트씩\r
-		네 묶음으로 끊고 각 묶음을 10진수로 바꿔 점으로 이어 적는다. 이 8비트 묶음\r
-		하나를 <span class="post-bold">옥텟(octet)</span>이라 부른다.\r
-	</p>\r
-	<p>\r
-		8비트로 표현할 수 있는 값은 2의 8제곱, 즉 256가지다. 0부터 세므로 한 옥텟이\r
-		가질 수 있는 값은 <span class="post-bold">0부터 255까지</span>다. IP의 각\r
-		칸에 256 같은 숫자가 올 수 없는 이유가 여기 있다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">비트 8개가 전부 0 → 00000000 → 0   (가장 작은 값)\r
-비트 8개가 전부 1 → 11111111 → 255 (가장 큰 값)</pre>\r
-\r
-	<h2 class="post-tab">3. 2진수로 펼쳐 보기.</h2>\r
-	<p>\r
-		앞서 본 192.168.0.1을 옥텟별로 2진수로 바꿔 나란히 놓으면 이렇게 된다. 결국\r
-		컴퓨터가 보는 건 이 32개의 0과 1이다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">192 = 11000000\r
-168 = 10101000\r
-  0 = 00000000\r
-  1 = 00000001</pre>\r
-	<p>\r
-		이 32비트가 뒤에 나올 모든 이야기의 바탕이다. 서브넷 마스크도, CIDR도\r
-		결국 이 0과 1을 어디서 자르느냐의 문제일 뿐이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">4. 네트워크 부분과 호스트 부분.</h2>\r
-	<p>\r
-		IP 주소는 사실 두 부분으로 나뉜다. 아파트 주소를 떠올리면 쉽다. "101동\r
-		304호"에서 앞의 <span class="post-italic">동</span>은 어느 건물인지를,\r
-		뒤의 <span class="post-italic">호수</span>는 그 건물 안 어느 집인지를\r
-		가리킨다.\r
-	</p>\r
-	<p>\r
-		IP도 똑같다. 앞부분은 <span style="color: #2563eb; font-weight: bold;">네트워크 부분</span>(어느\r
-		네트워크인지, 동에 해당), 뒷부분은 <span style="color: #d62828; font-weight: bold;">호스트\r
-		부분</span>(그 네트워크 안 어느 기기인지, 호수에 해당)이다. 같은 동에 사는\r
-		사람끼리 복도에서 바로 만나듯, 같은 네트워크에 속한 기기끼리는 직접\r
-		통신한다. 동이 다르면 정문(라우터)을 거쳐야 한다.\r
-	</p>\r
-	<p>\r
-		문제는 32비트 중 <span class="post-underline">어디까지가 동이고 어디부터\r
-		호수인지</span>가 주소만 봐서는 안 보인다는 것이다. 그 경계를 알려주는 것이\r
-		바로 서브넷 마스크다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">5. 서브넷 마스크.</h2>\r
-	<p>\r
-		서브넷 마스크는 IP와 똑같이 생긴 32비트 값인데, 역할이 다르다. 2진수로\r
-		폈을 때 <span style="color: #2563eb; font-weight: bold;">1로 채워진 자리는\r
-		네트워크 부분</span>, <span style="color: #d62828; font-weight: bold;">0으로\r
-		채워진 자리는 호스트 부분</span>이라고 알려주는 자(尺)다. 가장 흔한\r
-		255.255.255.0을 펼쳐 보자.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">255 . 255 . 255 . 0\r
-= <span style="color: #2563eb;">11111111 . 11111111 . 11111111</span> . <span style="color: #d62828;">00000000</span></pre>\r
-	<p>\r
-		1이 앞의 24자리, 0이 뒤의 8자리다. 즉 이 마스크는 "앞 세 옥텟은 동, 마지막\r
-		한 옥텟은 호수"라고 선언하는 셈이다. 이 마스크를 IP에 겹쳐 보면 어느 부분이\r
-		동이고 호수인지 그대로 드러난다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">IP    : <span style="color: #2563eb;">192 . 168 . 0</span> . <span style="color: #d62828;">1</span>\r
-마스크: <span style="color: #2563eb;">255 . 255 . 255</span> . <span style="color: #d62828;">0</span></pre>\r
-	<p>\r
-		그래서 <span style="color: #2563eb; font-weight: bold;">192.168.0</span>.1과\r
-		<span style="color: #2563eb; font-weight: bold;">192.168.0</span>.2는 네트워크\r
-		부분이 같으니 같은 네트워크, 192.168.<span style="color: #2563eb; font-weight: bold;">1</span>.1은\r
-		세 번째 옥텟이 달라 다른 네트워크가 된다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">6. CIDR 표기 (/24).</h2>\r
-	<p>\r
-		255.255.255.0처럼 매번 마스크를 다 적기는 번거롭다. 그래서 그냥\r
-		<span class="post-bold">1이 몇 개인지</span>만 슬래시 뒤에 붙여 쓴다. 이걸\r
-		CIDR 표기라고 한다. 255.255.255.0은 1이 24개이므로 /24다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">/24 = 255.255.255.0   (호스트 254개)\r
-/16 = 255.255.0.0     (호스트 65,534개)\r
-/8  = 255.0.0.0       (호스트 16,777,214개)</pre>\r
-	<p>\r
-		그래서 192.168.1.3/24라고 쓰면 두 정보가 한 줄에 담긴다. 앞의 192.168.1.3은\r
-		IP 주소, 뒤의 /24는 "앞 24비트가 네트워크"라는 뜻이니 마스크 255.255.255.0과\r
-		같은 말이다. 색으로 나누면 이렇게 읽힌다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;"><span style="color: #2563eb;">192 . 168 . 1</span> . <span style="color: #d62828;">3</span>  / 24\r
-= IP <span style="color: #2563eb; font-weight: bold;">192.168.1</span>.<span style="color: #d62828; font-weight: bold;">3</span> + 마스크 255.255.255.0</pre>\r
-	<p>\r
-		슬래시 뒤 숫자가 클수록(/24 &gt; /16) 네트워크 부분이 길고 호스트 부분이\r
-		짧아, 한 네트워크에 담을 수 있는 기기 수가 적어진다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">7. 네트워크 주소와 브로드캐스트 주소.</h2>\r
-	<p>\r
-		한 네트워크 안의 호스트 자리를 특별하게 쓰는 두 주소가 있다. 호스트 비트가\r
-		<span class="post-bold">전부 0인 주소는 네트워크 주소</span>로, 그 네트워크\r
-		자체를 가리키는 이름표다. 호스트 비트가 <span class="post-bold">전부 1인\r
-		주소는 브로드캐스트 주소</span>로, 그 네트워크의 모든 기기에게 한꺼번에\r
-		보낼 때 쓴다.\r
-	</p>\r
-	<p>\r
-		이 둘은 기기에 배정할 수 없다. 그래서 실제로 기기가 쓸 수 있는 주소는\r
-		전체에서 2개를 뺀 만큼이다. /24라면 호스트 자리가 8비트라 256개지만, 앞뒤\r
-		2개를 빼고 <span class="post-bold">254개</span>가 남는 것이다.\r
-	</p>\r
-	<p>\r
-		그럼 네트워크 주소는 무엇을 할까. 특정 기기를 가리키는 게 아니라\r
-		<span class="post-underline">네트워크 그 자체를 부르는 이름</span>이다.\r
-		앞서 본 192.168.1.0/24처럼 "이 네트워크"를 말할 때, 라우터가 경로를 정리하는\r
-		표에 "192.168.1.0 대역은 이쪽으로" 하고 적을 때 쓰인다. 그래서 여기로 데이터를\r
-		보낸다기보다, 네트워크를 지칭하는 대표 주소라고 보면 된다.\r
-	</p>\r
-	<p>\r
-		반면 브로드캐스트 주소로는 실제로 쏠 수 있다. 당연한 얘기지만, 한 옥텟은 255를 넘을 수 없기 때문에\r
-		192.168.0.256은 불가능. /24\r
-		네트워크의 브로드캐스트는 <span class="post-bold">192.168.0.255</span>이고,\r
-		여기로 보내면 그 네트워크의 모든 기기가 함께 받는다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스는 보통 -b 필요)</pre>\r
-	<p>\r
-		다만 요즘 기기나 방화벽은 보안상 브로드캐스트 핑에 응답하지 않도록 막아둔\r
-		경우가 많아, 실제로는 답이 안 올 수도 있다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">8. 사설 IP와 공인 IP.</h2>\r
-	<p>\r
-		공인 IP는 인터넷 전체에서 겹치지 않는 고유한 주소다. 반면 집이나 회사 내부\r
-		에서만 쓰는, 인터넷에 그대로 노출되지 않는 대역이 따로 정해져 있는데 이를\r
-		사설 IP라 한다. 집 공유기에 물린 기기들이 192.168로 시작하는 주소를 받는\r
-		이유다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;">10.0.0.0    ~ 10.255.255.255    (/8)\r
-172.16.0.0  ~ 172.31.255.255   (/12)\r
-192.168.0.0 ~ 192.168.255.255  (/16)</pre>\r
-	<p>\r
-		사설 대역은 여러 집에서 똑같이 써도 된다. 우리 집 192.168.0.1과 옆집\r
-		192.168.0.1이 충돌하지 않는 건, 각자 공유기 안에서만 통하는 주소이기\r
-		때문이다. 바깥 인터넷으로 나갈 때는 공유기가 이 사설 주소를 공인 주소로\r
-		바꿔주는데, 그 변환을 NAT라고 부른다.\r
-	</p>\r
-	<p>\r
-		KT가 공유기 WAN 쪽에 공인 IP(예: 1.2.3.4)를\r
-		하나 주고, 공유기는 집 안 기기들에게 192.168.1.7, 192.168.1.8 같은 사설 IP를\r
-		나눠준다. 이때 192.168.1.7이 ping 8.8.8.8을 때리면, 공유기가 출발지 주소를\r
-		<span class="post-bold">사설 192.168.1.7 → 공인 1.2.3.4</span>로 바꿔서\r
-		내보낸다. 192.168.1.8이 때려도 마찬가지로 1.2.3.4로 나간다. 즉 바깥에서 보면\r
-		집 안의 모든 기기가 KT가 준 하나의 공인 IP로 보인다.\r
-	</p>\r
-	<pre style="font-family: monospace; font-size: 1rem; line-height: 1.7;"><span style="color: #d62828;">192.168.1.7</span> → 공유기(NAT) → <span style="color: #2563eb;">1.2.3.4</span> → 8.8.8.8\r
-<span style="color: #d62828;">192.168.1.8</span> → 공유기(NAT) → <span style="color: #2563eb;">1.2.3.4</span> → 8.8.8.8</pre>\r
-	<p>\r
-		그럼 8.8.8.8이 1.2.3.4로 답을 돌려줬을 때, 공유기는 그게 .7이 보낸 것인지\r
-		.8이 보낸 것인지 어떻게 알까. 공유기는 내보낼 때 출발지 IP뿐 아니라\r
-		<span class="post-underline">포트 번호까지 함께 기록해둔다</span>. 돌아온\r
-		응답의 포트를 보고 원래 주인을 찾아 그 사설 IP로 되돌려준다. 이렇게\r
-		포트까지 활용하는 방식이라 기기 수십 대가 공인 IP 하나를 공유할 수 있다.\r
-	</p>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		<a href="https://developer.mozilla.org/ko/docs/Glossary/IP_Address" target="_blank">MDN IP 주소 (developer.mozilla.org)</a>\r
-	</p>\r
-</div>\r
-`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">\r
-	<meta name="post-id" content="26" />\r
-	<meta name="post-title" content="Git Bash 새 탭을 현재 경로에서 열기" />\r
-	<meta name="post-published" content="2026-07-07T21:00" />\r
-	<meta name="post-tags" content="Git Bash" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. 문제.</h2>\r
-	<p>\r
-		Windows Terminal에서 Git Bash를 쓰다 보면, 탭 바의 + 버튼으로 새 탭을 열\r
-		때마다 홈 디렉터리로 돌아간다. 지금 작업하던 경로를 그대로 이어받아 새\r
-		탭을 열고 싶다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">2. 새 탭과 탭 복제.</h2>\r
-	<p>\r
-		+ 버튼(새 탭)은 항상 프로필의 startingDirectory 값으로 열리므로 현재 경로를\r
-		무시한다. 반면 탭 복제(Duplicate Tab)는 현재 셸이 있는 경로를 물려받는다. 즉\r
-		"현재 경로에서 열기"의 정체는 새 탭이 아니라 탭 복제.\r
-	</p>\r
-\r
-	<h2 class="post-tab">3. Git Bash가 자기 경로를 알리게 하기.</h2>\r
-	<p>\r
-		Git Bash는 기본적으로 자기 현재 위치를 터미널에 보고하지 않는다. 셸이\r
-		디렉터리를 옮길 때마다 그 경로를 이스케이프 신호(OSC)로 터미널에 알려주도록\r
-		PROMPT_COMMAND를 설정. Git Bash를 열고 아래 한 줄을 ~/.bashrc에 추가한다.\r
-	</p>\r
-	<pre><code class="language-bash">echo 'export PROMPT_COMMAND='\\''printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'\\''' &gt;&gt; ~/.bashrc</code></pre>\r
-	<p>\r
-		cygpath -w는 Git Bash식 경로(/d/foo)를 Windows식 경로(D:\\foo)로 바꿔\r
-		넘겨주는 역할이고, \\e]9;9;...\\e\\\\ 가 Windows Terminal이 알아듣는 "현재\r
-		디렉터리는 여기다"라는 신호.\r
-	</p>\r
-\r
-	<h2 class="post-tab">5. 적용과 확인.</h2>\r
-	<p>추가한 설정을 지금 세션에 바로 반영한다.</p>\r
-	<pre><code class="language-bash">source ~/.bashrc</code></pre>\r
-	<p>제대로 들어갔는지는 cat으로 확인.</p>\r
-	<pre><code class="language-bash">cat ~/.bashrc\r
-# ...\r
-# export PROMPT_COMMAND='printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'</code></pre>\r
-\r
-	<h2 class="post-tab">6. 사용.</h2>\r
-	<p>\r
-		이제 Git Bash에서 원하는 폴더로 이동한 뒤, 탭 바를 우클릭하고 "탭 복제"를\r
-		고르면 그 경로 그대로 새 탭이 열린다. 단축키 Ctrl + Shift + D가 기본으로 탭\r
-		복제에 걸려있다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">7. 신호가 안 먹힐 때.</h2>\r
-	<p>\r
-		\\e]9;9; 방식은 Windows Terminal의 확장 신호라 버전에 따라 안 먹을 수 있다.\r
-		그럴 땐 표준인 OSC 7 방식으로 바꾼다. ~/.bashrc의 그 줄을 아래로 교체하면\r
-		된다.\r
-	</p>\r
-	<pre><code class="language-bash">export PROMPT_COMMAND='printf "\\e]7;file://%s%s\\e\\\\" "$HOSTNAME" "$(cygpath -w "$PWD" | sed "s|\\\\\\\\|/|g")"'</code></pre>\r
-	<p>\r
-		여기서는 경로의 역슬래시(\\)를 sed로 슬래시(/)로 바꿔 file:// URL 형태로\r
-		넘긴다. 교체 후 다시 source ~/.bashrc로 적용하고 탭 복제로 확인한다.\r
-	</p>\r
-</div>\r
-`,$n=s({default:()=>er}),er=`<div class="post-meta">\r
-	<meta name="post-id" content="4">\r
-	<meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기">\r
-  <meta name="post-published" content="2026-03-28T19:23">\r
-  <meta name="post-tags" content="Linux, CAN">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">1. 의존성 설치.</h2>\r
-	<div>\r
-		sudo apt-get update<br />\r
-		sudo apt-get install can-utils\r
-	</div>\r
-\r
-	<h2 class="post-tab">2. CANable USB 연결.</h2>\r
-\r
-	<h2 class="post-tab">3. 연결 확인.</h2>\r
-	<div>ls /dev/ttyACM*</div>\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/development/4/result_ttyACM.png"\r
-			alt="ttyACM 출력 예시"\r
-			width="200"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">4. idvendor, idproduct 확인.</h2>\r
-	<div>lsusb</div>\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/development/4/result_lsusb.png"\r
-			alt="lsusb 출력 예시"\r
-			width="600"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">5. serial 확인.</h2>\r
-	<div>sudo lsusb -d 16d0:117e -v | grep -i serial</div>\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/development/4/result_serial.png"\r
-			alt="serial 출력 예시"\r
-			width="400"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">6. .rules 파일 생성.</h2>\r
-	<div>\r
-		제조사 기준 (교체 대응형) <br /><br />\r
-		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="117e", SYMLINK+="can0", MODE:="0777" > can0.rules<br />\r
-	</div>\r
-	<div>\r
-		시리얼 기준 (장치 특정형) <br /><br />\r
-		echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{serial}=="207B30705330", SYMLINK+="can0", MODE:="0777" > can0.rules<br />\r
-	</div>\r
-\r
-	<h2 class="post-tab">7. .rules 파일 복사.</h2>\r
-	<div>sudo cp can0.rules /etc/udev/rules.d/</div>\r
-\r
-	<h2 class="post-tab">8. 적용.</h2>\r
-	<div>sudo udevadm control --reload-rules</div>\r
-\r
-	<h2 class="post-tab">9. USB 재연결.</h2>\r
-\r
-	<h2 class="post-tab">10. 인터페이스 생성 및 띄우기.</h2>\r
-	<div>\r
-		sudo slcand -o -c -s5 /dev/can0 can0<br />\r
-		sudo ifconfig can0 up<br />\r
-		ifconfig\r
-	</div>\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/development/4/result_interface.png"\r
-			alt="interface 출력 예시"\r
-			width="600"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">11. 테스트.</h2>\r
-	<div>터미널 A / sudo candump can0</div>\r
-	<div>터미널 B / sudo cansend can0 000#R</div>\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/development/4/result_test.png"\r
-			alt="test 출력 예시"\r
-			width="200"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-</div>\r
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">\r
-	<meta name="post-id" content="12">\r
-	<meta name="post-title" content="나의 행동 매뉴얼">\r
-  <meta name="post-published" content="2026-05-27T23:03">\r
-  <meta name="post-tags" content="습관, 행동">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p class="post-ref">\r
-		습관의 힘, 아주 작은 습관의 힘, 습관의 디테일을 읽고 실천하면서 내 것을 추려내 정리함.\r
-	</p>\r
-\r
-	<h2 class="post-tab">동기</h2>\r
-\r
-	<h3 class="post-point">* 스스로에게 정체성 부여하기</h3>\r
-\r
-	<h3 class="post-point">* 의무를 선행</h3>\r
-\r
-	<div>\r
-		해야 할 일을 금요일에 하지 못해 월요일에 하게 되면 주말에 불쾌함만 남는다. <br />\r
-		의무를 다하고 자기통제감을 느낀 상태에서 마신 맥주.\r
-	</div>\r
-\r
-	<h3 class="post-point">* 지우고 싶은 습관을 한심하게 바라보기</h3>\r
-\r
-	<div>\r
-		하루 종일 휴대폰을 보고 있는 모습.\r
-	</div>\r
-\r
-	<h3 class="post-point">* 하지 말아야 할 행동을 하고 난 뒤의 불쾌감 떠올리기</h3>\r
-\r
-	<div>\r
-		기어이 피자를 시켜 먹고 난 뒤의 상태. <br />\r
-		헛된 만남에서 낭비한 잃어버린 생산성. <br />\r
-		불필요한 쇼핑에서 잃어버린 투자비용.\r
-	</div>\r
-\r
-	<h2 class="post-tab">환경</h2>\r
-\r
-	<div>\r
-		당장 트랙 위에 있을 수 있다면 유튜브를 보지 않고 러닝을 했을 것. <br />\r
-		노트북이 있다면 유튜브를 보지만 휴대폰과 책이 있다면 책을 본다.\r
-	</div>\r
-\r
-	<h2 class="post-tab">작은 시작</h2>\r
-\r
-	<h3 class="post-point">* 목표를 아주 잘게 쪼개기</h3>\r
-\r
-	<div>\r
-		겨울 아침, 이불 밖으로 나오는 게 힘들어도 무릎을 굽혀 네 발로 엎드리는 것까지는 할 수 있다.\r
-	</div>\r
-\r
-	<h3 class="post-point">* 상태 전환</h3>\r
-\r
-	<div>\r
-		'애매한 저각성 정체 상태에서는' 각성 레벨을 올려줄 저부하 자극 활동부터 시작하여 단계적으로 상태를 전환하므로써 감당 가능한 인지 강도를 점진적으로 높인다.\r
-	</div>\r
-\r
-	<h2 class="post-tab">4. 메모</h2>\r
-\r
-	<div>\r
-		통제가 어렵다면 마음의 차분함을 먼저 얻어라. <br />\r
-		시작하면 시작된다. <br />\r
-		통제감을 느껴야 지속가능하다. <br />\r
-		육체적 활동, 명상, 몰입, 성장이 모든 문제의 해결점.\r
-	</div>\r
-</div>\r
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">\r
-	<meta name="post-id" content="16" />\r
-	<meta\r
-		name="post-title"\r
-		content="원하는 운명을 골라잡는 기술, 리얼리티 트랜서핑 정리"\r
-	/>\r
-	<meta name="post-published" content="2026-06-23T21:54" />\r
-	<meta name="post-tags" content="바딤 젤란드, 리얼리티 트랜서핑" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/growth/16/reality_transurfing.png"\r
-			alt="리얼리티 트랜서핑"\r
-			width="400"\r
-		/>\r
-		<figcaption>출처: 정신세계사</figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">트랜서핑</h2>\r
-\r
-	<p>\r
-		트랜서핑은 자신의 운명을 말 그대로 골라잡는 방법이다. 중요한 것은 납득할\r
-		만한 설명이 아닌 현실과 얼마나 맞아떨어지느냐다. 공리들은 그 자체가\r
-		양자물리학의 최초의 기준점이기 때문에 증명될 수 없다. 우리는 오직 진리가\r
-		구체화되어 실현된 것이나 어떤 법칙만을 알 수 있을 뿐이다. 우리의 목표는 단지\r
-		우리의 모델을 실질적으로 활용하는 것이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">가능태</h2>\r
-\r
-	<p>\r
-		존재 가능한 모든 물체와 그 동선상의 무한수 지점에 관한 데이터는 정보의 장\r
-		속에 저장된다. 이 정보의 장을 가능태 공간이라 한다. 가능태 공간은 과거에\r
-		존재했던 모든 것과, 현재에 존재하는 모든 것, 그리고 미래에 존재할 모든 것에\r
-		대한 정보를 담고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		사념 에너지의 파동은 잠재된 가능태를 물질화시킨다. 뭔가를 생각할 때마다 사념\r
-		에너지의 주파수는 가능태 공간의 한 섹터에 동조된다. 그러면 그 섹터 고유의\r
-		가능태가 물질화하기 시작한다.\r
-	</p>\r
-\r
-	<p>\r
-		한 사람의 사념 에너지가 특정 주파수에 고정되면, 그 사람은 거기에 맞는\r
-		인생트랙으로 옮겨진다. 뭔가를 피하려는 욕구가 강하면 강할수록 그것을 갖게 될\r
-		위험은 더욱 커진다. 원하지 않는 것에 맞서 싸우는 것은 사실 바로 그것을\r
-		인생의 한 부분으로 만들려고 갖은 애를 쓰는 것이나 마찬가지다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">펜듈럼</h2>\r
-\r
-	<p>\r
-		사람들의 사념 에너지에 의해 그 특질이 형성된 모든 구조체를 펜듈럼이라고\r
-		한다. 펜듈럼은 오직 하나의 목적을 가진다. 그것은 지지자 개인으로부터\r
-		에너지가 끊임없이 흘러오게 하는 것이다. 펜듈럼은 지지자의 에너지를 먹고산다.\r
-		그로써 펜듈럼은 진폭이 점점 커진다. 트랜서핑도 하나의 펜듈럼이 될 수 있다.\r
-		펜듈럼의 파괴적인 정도는 저마다 다르다. 트랜서핑은 최악의 경우에도 훨씬 덜\r
-		파괴적인 것으로 나타날 것이다. 펜듈럼에게는 새로운 에너지가 반드시 필요하다.\r
-		에너지를 얻어내지 못하면 펜듈럼은 멈춘다. 펜듈럼은 자신에게만 건설적이고,\r
-		우리에게는 건설적이지 않다.\r
-	</p>\r
-\r
-	<p>\r
-		성공을 위한 첫 번째 조건은 펜듈럼과 싸우기를 거부하는 것이다. 선택하기가\r
-		무엇을 의미하는지를 알려면 거부하기를 먼저 배워야 한다. 거부하기 위해서는\r
-		받아들임이 필요하다.\r
-		<span class="post-underline"\r
-			>받아들임은 무엇을 껴안아 자신의 일부로 만들라는 의미가 아니다.\r
-			받아들임이란, 만물이 그 자체로서 존재할 권리를 지니고 있음을 인정해 주고\r
-			그것을 담담하게 지나쳐 가라는 뜻이다.</span\r
-		>\r
-		삶에서 어떤 것을 원하지 않는다면, 거기에 대해 생각하기를 멈추고 그것을\r
-		담담하게 지나쳐가라. 삶 밖으로 무엇을 내던진다는 것은 회피가 아니라 그냥\r
-		무시하라는 뜻이다.\r
-	</p>\r
-\r
-	<p>\r
-		문제는 인간 세상이 온통 펜듈럼 위에 건설되어 있다는 점이다. 인간은 항상\r
-		뭔가를 추구하도록 설계되어 있는 존재다. 자유란 다른 사람들의 펜듈럼으로부터\r
-		자유로운 것을 말한다. 우리가 해야 할 일은 자유로운 상태로 있으면서 동시에\r
-		진정한 성공과 행복이 기다리고 있는 인생 트랙을 선택하는 것이다. 자신의\r
-		행동과 상황을 스스로 알아차리고만 있다면 펜듈럼이 절대적으로 나쁜 것은\r
-		아니다. 펜듈럼으로부터 전적으로 벗어나는 것은 불가능하다. 유일한 문제는\r
-		어떻게 하면 펜듈럼의 영향 아래에 놓이는 것을 피하고 펜듈럼을 자신의 목적에\r
-		맞게 의식적으로 이용할 것인가이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">균형력</h2>\r
-\r
-	<p>\r
-		자연 속의 모든 것은 균형 상태를 유지하려고 애쓴다. 에너지의 잉여 포텐셜이\r
-		존재할 수 있는 모든 곳에는 불균형을 제거하려는 균형력이 나타난다.\r
-	</p>\r
-\r
-	<p>\r
-		어떤 평가에 지나치게 많은 의미와 중요성이 부여될 경우에만 잉여 포텐셜이\r
-		일어난다. 잉여포텐셜은 어떤 것의 가치가 실제에 비해 큰 차이(변위)가 있을 때\r
-		생겨난다.\r
-	</p>\r
-\r
-	<p>\r
-		세상과 조화롭게 지내고 펜듈럼에게서 벗어나려면 과도한 중요성을 감소시킬\r
-		필요가 있다. 당신이 자신과 주변 세상에 대해 얼마만큼의 중요성을 부여하고\r
-		있는지를 늘 지켜보고 있어야 한다. 당신 내면의 '지켜보는 자'는 잠들어서는 안\r
-		된다. 중요성이 줄어들면 당신은 이내 균형 상태에 들어가고, 펜듈럼이 당신을\r
-		지배할 수 없게 된다.\r
-	</p>\r
-\r
-	<p>\r
-		그러나 모든 것을 정도에 알맞게 하라. 이따금씩 균형력을 깨뜨리도록 자신을\r
-		허락하라. 그런다고 해서 끔찍한 일이 일어나지는 않는다. 중요한 것은, 바늘이\r
-		적절한 범위의 눈금을 벗어나지 않도록 지키는 일이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">영혼</h2>\r
-\r
-	<p>\r
-		잠재의식(영혼)이 정보장으로부터 데이터를 받아들이면 의식(마음)이 그것을\r
-		소리나 상징으로 번역한다. 이것이 새로운 것―음악, 미술작품 등 사람이\r
-		직접적으로 보거나 알 수 없는 모든 것―이 창조되거나 새로이 발견되는 방식이다.\r
-		또한 직관적 지식과 예감이 일어나는 방식이기도 하다.\r
-	</p>\r
-\r
-	<p>\r
-		영혼은 범주를 사용하지 않는다. 영혼은 느낌으로써 안다. 마음의 통제가\r
-		약해지면 그 틈을 타서 직관적 지식과 느낌이 의식 속으로 뚫고 들어갈 수 있게\r
-		된다. 이것을 내면의 목소리라고 부르기도 한다. 생각하지 않고 직감으로 느낀다.\r
-	</p>\r
-\r
-	<p>\r
-		마음은 끊임없이 생각을 지어내느라 바쁘다. 영혼의 목소리는 이 '생각 믹서'의\r
-		시끄러운 소리 때문에 들리지 않는다. 만일 이 생각의 흐름을 멈추고 단순히 비어\r
-		있는 상태를 묵상할 수 있다면 우리는 새벽별이 속삭이는 소리, 내면의 말 없는\r
-		목소리를 들을 수 있을 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		영혼은 두 가지 대조적인 느낌을 가지고 있다. 영혼은 정보장에 접근할 수 있다.\r
-		영혼은 아직 현실화되지 않았으나 다가오고 있는 섹터들에 놓여 있는 것을\r
-		어떻게든 미리 내다본다. 만일 영혼이 아직 현실화되지 않은 섹터에 동조한다면,\r
-		그것이 실현되었을 때 좋든 나쁘든 무슨 일이 일어날지를 알게 될 것이다. 이런\r
-		영혼의 느낌들이 마음에게는 편안한 기분이나 불편한 기분과 같은 모호한\r
-		느낌으로 인지되는 것이다. 우리가 해야 할 일은 결정의 순간에 영혼이 마음에게\r
-		하는 말을 명확히 알아듣는 법을 터득하는 것이다. 당신의 지켜보는 자에게\r
-		영혼의 기분 상태를 잘 살피라고 부탁해놓기만 하면 된다. 새벽별이 속삭이는\r
-		소리를 들으려면 영혼의 기분 상태 살피기를 제때에 기억하기만 하면 된다.\r
-	</p>\r
-\r
-	<p>\r
-		만일 뚜렷한 느낌이 없다면 그것은 당신의 마음이 아직도 귀 기울여 듣는 데에\r
-		아주 서툴다는 뜻이다. 당신의 질문에 대한 답은 정말 애매모호할 수도 있다.\r
-		그런 경우에는 그런 부정확한 데이터에 의지해서는 안 된다. 그때는 마음이\r
-		제안하는 대로 행동할 수밖에 없다. 아니라면 질문을 좀 더 단순하게 만들어야\r
-		한다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">의도</h2>\r
-\r
-	<p>\r
-		자각몽 속에서는 당신이 원하는 것을 무엇이든지 할 수 있다. 꿈속에서 의식이\r
-		깨어서 공중을 날고 싶어졌다면 날고자 하는 의도만 떠올리면 된다. 여기서\r
-		욕망과 의도의 차이가 분명해진다. 몸을 공중에 띄우기를 원하기만 하는 것으로는\r
-		아무 일도 일어나지 않는다. 팔을 들어 올리려는 욕망을 예로 들어보자. 당신은\r
-		자신에게 팔을 올리고 싶다고 말하고 있다. 하지만 아직 그것을 하고 있지는\r
-		않다. 이제는 그냥 팔을 들어 올려보라. 당신의 희망은 행동으로 옮겨졌다.\r
-		당신은 팔을 어떻게 들어 올릴지를 생각하고 있는 것이 아니라 그저 그렇게 하고\r
-		있다. 꿈에서도 마찬가지다. 순수한 의도를 사용하여 그냥 자신을 공중에 띄워라.\r
-		그리고 어디든지 원하는 곳으로 날아가라.\r
-	</p>\r
-\r
-	<p>\r
-		꿈은 흔히 생각하는 것과 같은 환영이 아니다. 마음은 꿈을 상상해 내는 것이\r
-		아니라 실제로 그것을 보고 있다. 꿈은 과거나 미래의 가능한 사건을 보여준다.\r
-		꿈은 영혼이 가능태 공간 속을 여행하는 것이다. 가능태 공간 속에는 온갖\r
-		시나리오가 다 있다. 자각몽 속에서 꿈의 시나리오를 마음대로 바꿀 수 있는\r
-		이유도 이것이다. 시나리오 자체가 실제로 고쳐지는 것은 아니다. 당신이 수시로\r
-		시나리오를 마음대로 골라잡는 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		<span class="post-underline">꿈과 현실은 기본적으로 같다.</span> 유일한 차이는 시나리오가 현실로 나타나는\r
-		속도뿐이다. 현실 속의 사건도 꿈속의 사건과 동일한 법칙을 따라 일어난다.\r
-		하지만 그것은 번개처럼 빨리 일어나지는 않는다. 가능태가 물질 차원에 실현되는\r
-		데에는 불활성이 작용하기 때문이다. 우리가 실패하는 이유는 아주 종종, 목표를\r
-		향해 충분히 끈기 있게 노력하지 않기 때문이다. 많은 목표들이, 단지 현실화될\r
-		시간을 갖지 못한 이유로 이루어지지 않는다.\r
-	</p>\r
-\r
-	<p>\r
-		실제 삶에서는 의식의 각성도가 꿈속에서보다 높다. 이것은 내부의도를\r
-		제어하기에는 충분하다. 하지만 외부의도는 이보다 훨씬 높은 각성도를 요구한다.\r
-		자각몽에서와 마찬가지로 현실의 삶에서도 외부의도를 제어하려면 의식이\r
-		깨어있어야 한다. 현실 또한 당신에게 일어나는 것일 뿐이다. 꿈에 대해서, 삶에\r
-		대해서도 지배력을 얻으려면 참여자로부터 관찰자로 역할을 바꿀 필요가 있다.\r
-		수동적인 꿈에서는 관찰자는 없고 배우만 있다. 당신은 자신의 역에 완전히\r
-		빠져들어 있어서 상황을 밖으로부터 바라보지 못한다. 자신의 역할에 너무 깊이\r
-		빠져들지 말라. 내적, 외적 중요성을 최저 수준으로 유지하는 것이 그 열쇠다.\r
-		당신의 지켜보는 자를 항상 대기시켜라. 상황을 지배하는 능력은 당신의 깨어있는\r
-		정도에 비례한다. 꿈속에서는 의식의 각성도가 낮고, 그것이 꿈이 '일어나는'\r
-		이유다. <span class="post-underline">꿈꾸고 있다는 사실을 깨닫기만 하면 상황이 통째로 지배하에 놓이게\r
-		된다.</span> 원하는 것을 무엇이든 할 수 있게 되는 것이다. 그러나 만사를 절대적으로\r
-		완전히 지배한다는 것은 꿈속에서조차 일어날 수 없는 일이다. 당신은 단지\r
-		선택할 권리가 있을 뿐이지 무엇을 변화시킬 권리는 없다. 개어있는 의식은\r
-		통제와 지배를 위한 것이 아니라 관찰을 위한 것이다. 통제력은 오직 부정적인\r
-		함정에 빠지지 않고 그 대신 유쾌한 시나리오를 상상하고 그것을 당신의 삶 속에\r
-		맞이하여 온 가슴으로 받아들이는 데에만 발휘되어야 한다. 당신의 시나리오를\r
-		세상에 강요하지 말라. 특정 가능태가 스스로 실현되게끔 세상이 허용하는 일이\r
-		일어날 가능성을 열어두라.\r
-	</p>\r
-\r
-	<p>\r
-		현실화를 가져오는 것은 욕망 자체가 아니라 원하는 대상을 노리고 있는\r
-		당신이다. 가지겠다는, 그리고 행동하겠다는 결정으로 정의할 의도다. 욕망은\r
-		목표 그 자체를 지향하지만 의도는 그 목표에 다다르는 과정을 지향한다. 의도는\r
-		잉여 포텐셜을 만들어내지 않는다. 욕망에 의해 만들어진 포텐셜 에너지가 행동에\r
-		사용되기 때문이다. 욕망과 행동은 의도 속에서 하나가 된다. 의도는 욕망과\r
-		행동의 조합이다. 자신만의 힘으로써 무엇을 하고자 하는 의도가 내부의도다.\r
-		의도의 작용을 외부 세계로 확대시키는 것은 그보다 훨씬 힘들다. 그것이\r
-		외부의도다. 외부의도의 도움으로 우리는 세상을 다스릴 수 있다. 주변 세상이\r
-		어떻게 행동하게 할지를 선택할 수 있게 된다.\r
-	</p>\r
-\r
-	<p>\r
-		탁자 위에 연필이 놓여 있다. 당신은 의도의 힘으로써 그것이 움직이기 시작하는\r
-		것을 상상한다. 당신의 의도는 연필이 다른 장소에 놓여있는 가능태 공간의\r
-		섹터를 찾아낸다. 사념 에너지가 충분한 힘으로 방사된다면 연필은 실제 공간\r
-		속의 새로운 지점들로 차례로 옮겨가면서 물질화될 것이다. 연필을 전혀 움직이지\r
-		못하더라도 놀라운 일은 아니다. 거의 모든 사람들이 초자연적 능력을 지니고\r
-		있지만 그 힘은 매우 미약하다. 그런 일이 가능하다고 믿기가 너무나 어려워서\r
-		자기 안에서 순수한 의도를 일으키기가 매우 힘들기 때문이다. 물체를 원격\r
-		이동시키는 염력을 지닌 사람들은 대상 자체를 움직이는 것이 아니다. 그들은\r
-		의도의 힘으로 에너지를 보내어 가능태 공간에서 대상이 물질화되는 지점을\r
-		변화시키는 능력을 지닌 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		욕망은 목표 자체에다 주의를 모으는 것이다. 내부의도는 목표를 향해 움직여가는\r
-		과정에 주의를 모으는 것이다. 외부의도는 목표가 스스로 실현되는 이치에 주의를\r
-		모으는 것이다. 내부의도는 목표를 성취하는 반면에 외부의도는 목표를 선택한다.\r
-		내부의도가 행동하겠다는 결정이라고 한다면 외부의도는 가지겠다는 결정이다.\r
-	</p>\r
-\r
-	<p>\r
-		<span class="post-underline">외부의도는 관찰자의 입장을 취한다.</span> 당신의 의지에 따라 일어나지만 그것은\r
-		저절로 일어나는 일이다. 당신은 무엇을 변화시키지 않는다. 대신 선택한다.\r
-		외부의도는 내가 날고 있다고 주장하지 않고 내가 날고 있는 것을 인지한다.\r
-	</p>\r
-\r
-	<p>\r
-		<span class="post-underline"\r
-			>꿈속에서 졸고 있는 마음은 공중을 나는 것이 가능하다고 믿을 수 있다.</span\r
-		>\r
-		하지만 아무리 설득하려고 애써도 깨어있는 마음으로서는 난다는 것은 상상하기\r
-		힘든 일이다. 그래서 단지 <span class="post-underline">믿음이 아니라 지식이 있어야 한다.</span> 믿음은 의심의\r
-		가능성을 내포한다. 지식은 의심을 쫓아내준다. 믿는 것이 아니라 안다.\r
-	</p>\r
-\r
-	<p>\r
-		꿈속에서 날기 위해서는 약간의 외부의도만 있으면 충분한 반면에 불활성 물질\r
-		현실의 세계에서는 의도가 절대적으로 순수해야 한다. <span class="post-underline">순수한 의도를\r
-		얻기란 불가능하지만 다행히 목표를 이루는 데는 '2등급' 의도만 가지고도\r
-		충분하다. 불활성 물질이 '제대로 펼쳐져서' 실현되는 데는 단지 약간의 시간이\r
-		필요할 뿐이다.</span>\r
-	</p>\r
-\r
-	<p>\r
-		즉각적인 응답을 기대하지 말라. 당신이 주문한 것이 올 때까지는 오래 기다려야\r
-		할 수도 있다. 모든 것은 의도의 순수성에 달려 있다. 의도에서 욕망을 반드시\r
-		씻어내야 한다. <span class="post-underline">일자리를 구한다고 가정했을 때, 당신은 고용되기 위해서가\r
-		아니라 면접을 하기 위해서 면접장에 간다.</span> 자신이 주문한 것에 무관심할수록\r
-		그것은 더 빨리 이루어진다.\r
-	</p>\r
-\r
-	<p>\r
-		의도의 균형을 유지해야 한다. 의도는 믿지도 않고 소망하지도 않는다. 의도는\r
-		단지 행동할 뿐이다. 의도는 모든 것이 이미 결정되어 있다고 생각한다. 팔을\r
-		들어 머리를 긁고자 하는 의도는 잉여 포텐셜이 전혀 없는 의도의 한 보기다.\r
-		아무런 욕망도 없이 오로지 순수한 의도만을 가져야 한다. 거기에 이르기\r
-		위해서는 내적, 외적 중요성을 낮춰야 한다. 중요성을 처리하는 간단하고\r
-		효과적인 처방이 하나 있다. 미리 패배를 받아들이라. 일단 패배를 받아들였으면\r
-		더 이상은 패배도 성공도 생각지 말고 그저 목표를 향해 계속 걸어가라. 잡지를\r
-		사러 신문 가판대로 걸어가듯이 목표를 향해 걸어가라. 가판대에 신문을 사러\r
-		가는 데에 결단성과 힘이 필요한 것은 아니다. 여기에 욕망은 이미 없다. 욕망은\r
-		내가 그렇게 하기로 결정하던 순간까지만 있었다. 욕망이 충족되지 않을 가능성은\r
-		매우 희박하다.\r
-		<span class="post-underline"\r
-			>그 가판대에 신문이 없더라도 당신은 흥분하지 않는다. 설사 충족되지\r
-			않는다고 하더라도 무슨 재앙이 일어나는 것은 아니다. 다른 데 가서 사면\r
-			그만이다.</span\r
-		>\r
-		의도가 욕망으로부터 완전히 자유로운 것은 이 때문이다. 그래서 그것은 잉여\r
-		포텐셜로부터도 자유롭다.\r
-	</p>\r
-\r
-	<p>\r
-		트랜서핑의 핵심은 내부의도를 거부하고 외부의도를 사용하는 것이다. 내부의도가\r
-		끝나고 외부의도가 시작되는 경계선을 긋기는 어렵다. 내부의도는 마음(의식)이\r
-		영혼(잠재의식)과 합쳐서 일치되고 조율될 때 외부의도로 변한다. 이 경계선은\r
-		감지되지 않는다. 그것은 꿈속에서 의도적으로 자신을 공중에 띄워서 나는 느낌과\r
-		가장 비슷할 것이다. 또는 자유낙하의 느낌이나, 자전거 타기에 처음 성공했을\r
-		때의 느낌과도 비슷하다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">슬라이드</h2>\r
-\r
-	<p>\r
-		인간은 백 퍼센트 객관적으로 주변 세계를 인식할 수 없다. 이것은 슬라이드\r
-		영사기와도 유사하다. 고르고 규칙적인 빛이 슬라이드 필름을 통과하면 화면 위의\r
-		그림으로 변한다. 인식이 스크린이라면 빛은 우리 주변 세계이고, 슬라이드는\r
-		세계에 대한 우리의 이해 곧 세계관이라고 할 수 있다.\r
-	</p>\r
-\r
-	<p>\r
-		슬라이드는 현실의 왜곡된 표현이다. 슬라이드는 당신의 머릿속에는 있지만 다른\r
-		사람들 속에는 없는 무엇이다. 당신이 자신의 못생긴 외모에 대한 슬라이드를\r
-		마음속에 끼우고 있다고 가정해 보자. 당신은 다른 사람들이 보여주는 모든 것을\r
-		그 슬라이드를 통해 인식한다. 우호적인 미소는 비웃음으로 바뀌어 보인다.\r
-		실제로는 그런 생각을 품지 않았다. 그것은 당신의 머릿속에만 있는 것이다.\r
-		그것은 당신의 슬라이드다.\r
-	</p>\r
-\r
-	<p>\r
-		슬라이드를 만들어내는 것은 중요성이다. 외모에 신경이 쓰인다는 것은 외모가\r
-		당신에게 중요하기 때문이다. 슬라이드는 당신의 머릿속에 들어 있다. 슬라이드는\r
-		상상의 산물이며 그런 의미에서 환영이라고 봐도 된다.\r
-		<span class="post-underline"\r
-			>이런 종류의 환영은 삶에 실질적인 영향을 미친다.</span\r
-		>\r
-		이것이 외부의도가 그 사람의 의지에 반하여 파괴적으로 작용하는 예다.\r
-	</p>\r
-\r
-	<p>\r
-		부정적 슬라이드는 대개 영혼과 마음의 일치를 불러일으킨다. 이럴 경우\r
-		외부의도는 거침없이 순조롭게 작용한다. 다만 그 전이는 점진적으로 일어난다.\r
-		슬라이드에 지나친 중요성을 부여하기를 그치거나 긍정적 슬라이드를 만들어내는\r
-		쪽으로 방향을 돌릴 때까지 계속된다.\r
-	</p>\r
-\r
-	<p>\r
-		당신이 할 일은 자신의 좋아하는 면이나 가지고 싶은 면으로 주의를 전환시키는\r
-		것이다. 긍정적 슬라이드는 부정적 슬라이드가 그랬던 것과 마찬가지로 당신의\r
-		행동과 태도에 직접적인 힘을 미칠 것이다. 당신은 뜻밖에, 무의식적으로\r
-		슬라이드에 맞추어 행동하게 될 것이다. 그리고 중요한 일은 모두 외부의도가\r
-		슬라이드의 이미지에 맞추어 해줄 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		<span class="post-underline"\r
-			>슬라이드가 해체될 때까지 우리는 만들어낸 이미지를 생각 속에 계속\r
-			재생시켜야 한다.</span\r
-		>\r
-		시간이 지나면 슬라이드는 실질적으로 당신의 일부가 될 것이고, 그러면 그것은\r
-		더 이상 슬라이드가 아니다. 원하는 것을 얻으면 그것은 더 이상 당신에게\r
-		중요하지 않게 될 것이다. 중요성은 사라지고 슬라이드도 해체되지만 임무는\r
-		완수되어 있을 것이다. 그것은 당신의 영혼이 마음과 일치했다는 뜻이다.\r
-	</p>\r
-\r
-	<p>\r
-		마음이 슬라이드를 현실로 만들려고 애쓰는 동안에도 영혼 깊은 곳에서 당신은\r
-		이것이 한갓 현실로 가장한 게임일 뿐이라는 사실을 알고 있다. 하지만 당신이\r
-		조직적으로 용의주도하게 이 이미지를 계속 굳혀 가면 결국 영혼은 거기에\r
-		익숙해져서 그 슬라이드를 자신의 빼놓을 수 없는 일부로 받아들이게 될 것이다.\r
-		외부의도는 슬라이드를 금방 인식하지 못하고 서서히 인식한다는 점을 유념하라.\r
-		슬라이드의 이미지를 잊지 말고 그것을 늘 의식하라. 슬라이드의 가장 중요한\r
-		성질은 그 내용이 외부의도에 의해서 서서히, 그러나 어김없이 현실화된다는\r
-		것이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">안락지대</h2>\r
-\r
-	<p>\r
-		자신이 성공하리라는 생각에 익숙해져야만 한다. 부자가 되고 싶어 하면서 비싼\r
-		가게에 들어가기를 겁낸다면 아무런 일도 일어나지 않을 것이다. 비싼 가게에서\r
-		눈곱만큼이라도 불편을 느낀다면 당신은 비싼 물건을 소유하도록 스스로 허락할\r
-		준비가 되어 있지 않은 것이다. 비싼 가게의 물건을 살 수 있다고 자신을\r
-		확신시키려 애쓰는 자기암시 훈련은 물론 아무짝에도 소용없다. 호주머니엔 빈\r
-		지갑밖에 없으면서 비싼 물건을 살 수 있다고 자신을 확신시키려고 애써야 한다는\r
-		것도 아니다. 요점은 그게 아니다. 당신은 어쨌든 간에 소원은 실현되리라는 말에\r
-		대해 영혼 깊은 곳에서 늘 얼마간의 의심을 품고 있다. 욕망을 이루기 위해\r
-		행동할 준비가 다 되어 있다고 해도 그것만으로는 충분하지 않다. 의심한다는\r
-		것은 자신이 자격이 있다고 느끼도록 스스로 허용하지 않는 것이다. 백만장자가\r
-		된 사람들은 원하는 것을 가지도록 스스로 허용했다는 점에서 남다른 것이다.\r
-		당신도 자신에게 가지도록 허락해야 한다. 이 상태는 자전거를 처음으로 탈 수\r
-		있게 되었을 때의 기분과도 흡사하다. 의심과 주저와 반론이 사라져 버렸다. 남아\r
-		있는 유일한 것은 고요한 명료함, 곧 앎이었다.\r
-		<span class="post-underline"\r
-			>말 없는 명료한 느낌, 뭔가를 믿지 않고 아는 것, 주저 없는 자신감이 바로\r
-			영혼과 마음이 일치된 상태다.</span\r
-		>\r
-		이 같은 상태는 자신이 마치 우주를 지배하는 무언의 힘의 필수불가결한 일부가\r
-		된 것 같은 느낌이다.\r
-	</p>\r
-\r
-	<p>\r
-		이루기 힘든 꿈을 가진다는 것이 단지 개인적 선택의 문제일 뿐이라는 것을\r
-		당신은 가슴속에서 믿지 않는다.\r
-		<span class="post-underline"\r
-			>하지만 긍정적 슬라이드가 이 믿기지 않는 것을 당신의 안락지대 안으로\r
-			들여놓을 수 있도록 도와줄 것이다.</span\r
-		>\r
-		모든 꿈을 이룰 수 있다는 생각이 더 이상 거북하게 느껴지지 않게 되면 망설임이\r
-		사라지고 믿음은 앎으로 바뀔 것이다. 영혼은 마음과 일치를 이뤄내고, 그것이\r
-		당신이 가지기로 결정하는 때다.\r
-	</p>\r
-\r
-	<p>\r
-		영혼을 설득하려 드는 것은 부질없는 짓이다. 영혼은 생각하지 않고 그저\r
-		알뿐이다. 영혼은 길들일 수 있을 뿐이다.\r
-		<span class="post-underline"\r
-			>영혼은 새로운 안락지대에 익숙해져야 한다. 슬라이드가 필요한 것은 이\r
-			때문이다. 슬라이드의 도움을 받으면 영혼과 마음의 일치가 서서히 이루어진다.\r
-			이 요새는 오랜 기간의 지배로써만 빼앗을 수 있다.</span\r
-		>\r
-		머릿속에 당신의 꿈의 슬라이드를 만들어내고 그것을 의식 속에 늘 간직하라.\r
-		외부의 관찰자처럼 슬라이드를 바라보고만 있지 말라. 그 속에 자신을 몰입시키고\r
-		최소한 가상으로라도 그 속에서 살라. 슬라이드는 오랫동안 용의주도하게\r
-		상영되었을 때만 결실을 가져올 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		비싼 가게에서 물건 고르는 연습을 할 수도 있다. 돈에 대해서는 생각하지 말고\r
-		가격표도 들여다보지 말라. 목표는 돈이 아니라 돈으로 살 수 있는 그것이다.\r
-		그저 가까이에서 그것의 느낌을 느끼면서 골라보고, 말없이 살펴보면서 평가하는\r
-		것으로 충분하다. 그것을 가질 수 없는 사치품인 것처럼 바라보지 말고 사려는\r
-		물건처럼 바라보라. 당신이 그것의 주인인 것처럼 느껴라. 그것이 어떻게 당신의\r
-		것이 될지에 대해서는 걱정할 필요가 없다. 가지기로 결정하기만 하면 외부의도가\r
-		당신이 생각조차 못 한 방법을 찾아낼 것이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">과정</h2>\r
-\r
-	<p>\r
-		많은 사람들이 저지르는 또 한 가지 실수는 모든 것을 한꺼번에 얻어내려고\r
-		덤벼드는 것이다. 가능태 흐름은 당신이 여러 방향으로 동시에 헤엄쳐가도록\r
-		허락하지 않는다. 최종 목표가 한 발짝 밖에 있지 않은 한 최종 목표에 집중하는\r
-		것으로는 한 걸음도 나아가지 못한다. 목표에 집중하는 것은 욕망이다. 목표를\r
-		향한 움직임에 집중하는 것은 의도다. 심상의 초점은 목표를 향해 다가가는\r
-		과정에 있다.\r
-		<span class="post-underline"\r
-			>욕망이 의도와 다른 것만큼이나, 목표 자체를 심상화하는 것은 목표를 이루는\r
-			과정을 심상화하는 것과 같지 않다.</span\r
-		>\r
-		팔을 올리려고 할 때, 팔을 올리고 싶어 한다는 것을 생각하고, 목표인 올려진\r
-		팔을 상상해 보라. 그리고 팔을 올려라. 앞부분에서는 욕망이 작용하고 있지만\r
-		이루어진 일은 아무것도 없다. 뒷부분에서는 의도가 작용하고 있는데, 의도는\r
-		팔이 올라가고 있는 동안 계속 작용하고 있다. 목표는 당신이 추구해야 할\r
-		무엇이기는 하지만 당신이 실제로 집중하고 있는 것은 목표에 다가가는\r
-		과정이라는 것을 알 수 있다. 결국 어디에 도달하기 위해서는 그것을 그저 원하고\r
-		자신이 거기에 있는 모습을 그리는 것만으로는 안 된다. 필요한 단계를\r
-		밟아가야만 하는 것이다. 즉 그 과정을 실천해야 한다.\r
-	</p>\r
-\r
-	<p>\r
-		무엇을 하든지 간에 그것이 오래 걸리는 과정이라면 그 과정 자체를 심상화하는\r
-		것이 도움이 된다.\r
-		<span class="post-underline"\r
-			>작업을 하는 중간중간에 작품이 점점 완성되어가는 모습을 상상해 보라.</span\r
-		>\r
-		오늘 당신은 작품의 세밀한 부분을 조금 완성시켰다. 내일은 또 새로운 모습을\r
-		갖출 것이다. 당신의 작품이 변해가는 모습을 상상하라. 어떤 경우든 과정을\r
-		심상화하라. 단지 최종 결과만을 상상하는 것은 안락지대를 넓혀주고, 그것만도\r
-		상당한 일이긴 하지만, 목표에 다가가는 과정을 심상화한다면 당신은 외부의도의\r
-		작용을 한층 가속시키고 있는 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		전이는 점진적으로 행해져야 한다. 목표가 멀리 있는 인생 트랙 위에 놓여\r
-		있다면 그 인생 트랙에 맞추어 사념 에너지를 방사한다는 것은 실질적으로\r
-		불가능하다. 금방 도달할 수 없는 인생트랙을 따라 움직이는 과정을 심상화하는\r
-		것은 당신을 완전히 엉뚱한 곳으로 데려다 놓을 수 있다. 목표가 여러 단계를\r
-		거쳐서 이루어져야 하는 것이라면 당신은 싫어도 각각의 단계를 순서대로 다\r
-		밟아야 한다. 트랜서핑의 심상화란 전이 사슬 중 현재의 고리가 현실화되는\r
-		과정을 마음에 그리는 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		목표를 실현시킬 방법을 알지 못하더라도 조바심 내지 말라. 침착하고\r
-		용의주도하게 슬라이드를 계속 심상화하라. 목표가 안락지대 안으로 완전히\r
-		융화되어 들어오면 외부의도가 적당한 방법을 던져줄 것이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">에너지</h2>\r
-\r
-	<p>\r
-		자유에너지는 인체를 통해 흐르는 우주의 에너지다. 당신이 만일 아무것도 하고\r
-		싶은 것이 없다면 그것은 바로 자유에너지가 부족함을 뜻한다. 자유에너지가\r
-		없으면 의도도 있을 수 없다. 의식적으로 에너지를 얻기 위해서는 에너지 통로를\r
-		의도적으로 넓혀야 한다. 그리고 그 통로로 에너지가 흐르게 해야 한다.\r
-	</p>\r
-\r
-	<p>\r
-		편안하게 근육을 긴장시키지 말고 똑바로 선다. 숨을 들이마시면서 땅에서 위로\r
-		올라오는 에너지의 흐름을 상상한다. 땅에서 올라온 에너지는 회음을 통해 몸으로\r
-		들어와 척추를 타고 위로 올라온다. 그 에너지는 머리 꼭대기에서 밖으로 나가\r
-		하늘로 올라간다. 이제 숨을 내쉬면서 상상한다. 하늘 높이 어딘가에서 에너지의\r
-		흐름이 내려온다. 그 에너지는 당신의 머리 꼭대기를 통해 들어온 다음 척추를\r
-		따라 내려와 몸 밖으로 나와서 땅속으로 들어간다. 이 흐름을 육체적 감각으로\r
-		느껴야만 하는 것은 아니다. 이 과정을 그저 상상하는 것으로 충분하다.\r
-		<span class="post-underline"\r
-			>시간이 지나면 당신의 감각도 발달하여 이 흐름이 지나가는 것을 감지할 수\r
-			있게 될 것이다.</span\r
-		>\r
-	</p>\r
-\r
-	<p>\r
-		인체 안에는 자유에너지를 모아둘 장소가 없다. 자유에너지는 온 우주로부터 몸\r
-		안으로 들어온다. 통로가 충분히 넓으면 그 에너지를 얻을 것이고, 통로가 좁으면\r
-		에너지를 얻지 못한다. 그러므로 강한 생명력을 지닌다는 것은 무엇보다도 통로의\r
-		넓이에 관련된 문제다. 이 에너지가 자신에게 흘러 들어오게 하는 법을, 그리고\r
-		<span class="post-underline">자신이 우주의 일부임을</span> 느끼는 법을\r
-		배워야 한다. 에너지 차원에서 주변 세상과 일체감을 느끼는 경지에\r
-		이르기까지 꾸준히 나아가야 한다. 에너지를 축적하려고 하지 말라. 에너지가\r
-		반대 방향의 두 흐름으로 당신의 몸속을 자유롭게 통과하도록 허용하라. 하나의\r
-		에너지 덩어리가 되려고 애쓰지 말고 자신이 대양 속의 한 물방울이라고\r
-		상상하라. 당신은 우주의 일부다. 우주의 모든 에너지를 마음껏 가져다 쓸 수\r
-		있다. 몸에다 에너지를 비축하지 말라. 온 우주와 하나가 되어라. 그렇게 하면\r
-		외부의도를 약간만 움직여도 내부의도로는 결코 이룰 수 없는 일을 어느 정도의\r
-		시간 안에 해낼 수 있을 것이다.\r
-	</p>\r
-\r
-	<p>\r
-		두 흐름은 균형을 이루어야 한다. 그 중심점이 몸의 가운데쯤에 위치하도록 하라.\r
-		마음으로, 그 중심점으로부터 에너지 구체 전체로 에너지를 방사하라. 너무\r
-		열심히 해서는 안 된다. 부지런함으로는 목적에 도달하지 못할 것이다. 그냥\r
-		이따금씩 척추 앞쪽 부위를 마음으로 응시하라. 그리고 상승 흐름이 올라가고\r
-		하강 흐름이 내려가는 것을 마음으로 그려라. 자연스럽게 흐름을 느끼는 습관이\r
-		길러진다.\r
-	</p>\r
-\r
-	<p>\r
-		에너지는 중앙의 흐름 형태로 사람의 몸 안에 들어온다. 그런 다음 그 에너지는\r
-		사념에 의해 모양이 갖춰지고, 몸에서 빠져나갈 때 이 사념들에 상응하는\r
-		매개변수를 획득한다. 이렇게 변조된 에너지는 가능태 공간의 상응하는 섹터에\r
-		가해지고, 그 결과 그 가능태가 물질적으로 실현된다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">조율</h2>\r
-\r
-	<p>\r
-		조율이란 마치 목표가 이미 이루어진 양 목표를 생각하는 데서 기쁨을 얻는\r
-		것이다. 조율을 지키기 위해서는 중요성을 내려놓고 의식적으로 흐름을 따라가야\r
-		한다. 중요성을 내려놓기는 어렵다. 이 상황을 효과적으로 빠져나가기 위해서는\r
-		모든 것을 통제하려 드는 마음의 습관을 이용해서, 마음에게 새로운 게임을\r
-		권하면 된다. 나쁜 일이 일어나면 의식을 일깨워서 일어나고 있는 일의 중요성을\r
-		의식적으로 따져보라. 그리고 당신의 태도를 바꾸라.\r
-		<span class="post-underline"\r
-			>비관적으로 보이는 변화를 낙관적인 것으로 바라보기를 의도하라.</span\r
-		>\r
-	</p>\r
-\r
-	<p>\r
-		해야 할 유일한 일은 목표의 슬라이드를 상영하고 조율의 원리를 따르는 것이다.\r
-		<span class="post-underline"\r
-			>조율은 연습의 문제라는 것을 명심해야 한다. 지켜보는 자가 항상 깨어있어야\r
-			한다.</span\r
-		>\r
-		조율은 가능태 공간 속을 움직여가는 가장 효율적인 방법이다. 모든 사건을\r
-		긍정적으로 대하여 항상 바람직한 갈래로 올라서라.\r
-	</p>\r
-\r
-	<p>\r
-		파괴적인 펜듈럼과의 게임을 받아들이지 말고, 쓸모가 있어 보이는 펜듈럼을\r
-		찾아서 게임을 벌이라. 이것은 긍정적이고 좋은 것에 주의를 기울이는 습관을\r
-		갖는 것을 의미한다. 불행한 일이 일어날 때마다 그것이 당신을 옭아매려는\r
-		펜듈럼임을 기억하는 것, 그것을 배우는 일이 중요하다.\r
-		<span class="post-underline"\r
-			>그것을 기억하는 순간 의식적인 선택을 할 수 있게 된다.</span\r
-		>\r
-		그것을 기억해 내기만 한다면, 펜듈럼을 그냥 지나가게 하거나 꺼버리는 것은\r
-		쉬운 일이다. 당신에게는 펜듈럼을 받아들일지, 거부할지를 의식적으로 결정할 수\r
-		있는 자유가 있다. 아주 끈기 있고 단호하게 이 방법을 사용한다면 결국에는\r
-		새로운 습관이 낡은 습관을 몰아낼 것이다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">의심</h2>\r
-\r
-	<p>\r
-		영혼이 의심을 품는다면 영혼을 설득하거나 확신시키는 것은 불가능하다. 한 가지\r
-		근본적인 조치를 취해야 한다. 믿음이라는 말을 당신의 관념틀 속에서 없애버리고\r
-		그 대신 앎을 그 자리에 갖다 놓으라.\r
-		<span class="post-underline"\r
-			>마음이 이런저런 일이 일어나리라는 것을 그저 알기만 한다면 설득할 필요\r
-			없이 영혼은 거기에 동의할 것이다.</span\r
-		>\r
-		이 앎을 얻는 것. 그러려면 이 앎에 익숙해지고 그것을 받아들일 필요가 있다.\r
-		세월과 함께 사람들은 전화, 텔레비전, 비행기 등 온갖 희한한 것들에도 곧잘\r
-		익숙해진다. 슬라이드 기법을 적용하라. 이 앎을 당신의 머릿속에 품어서 먹이고\r
-		길러야 한다. 목표가 이루어질 것임을 당신이 알고 있음을 수시로 자신에게\r
-		상기시키는 것이다. 목표를 생각할 때 당신은 다시 자기도 모르게 습관적으로\r
-		의심을 하고 목표를 이룰 방법을 궁리하고 있는 것을 발견할 것이다. 의심은 물론\r
-		있을 것이지만 당신은 그것을 알아차리고 바로잡아야 한다. 의심은 점차 사라질\r
-		것이다. 의심을 쫓아내려고 너무 애쓰지만 말라. 의심의 존재에 저항하지도 말라.\r
-		의심을 하면 반드시 실패하는 것은 아니라고 자신을 다독거려라.\r
-	</p>\r
-\r
-	<p>\r
-		믿음의 미궁에는 빠져나갈 길이 없다. 그러나 그 미궁의 벽도 외부의도가 사과가\r
-		하늘로 떨어지는 것을 당신 눈앞에 보여줄 때면 허물어지게 되리라는, 그런\r
-		희망은 있어야 한다. 이런 희망조차 없다면 트랜서핑을 실천하는 것은\r
-		불가능하다. 희망을 발견하면 마음이 발판을 얻고 영혼은 생기를 되찾는다.\r
-	</p>\r
-</div>\r
-`,ar=s({default:()=>or}),or=`<div class="post-meta">\r
-	<meta name="post-id" content="7">\r
-	<meta name="post-title" content="천재 광고기획자의 아이디어 생산 5단계 정리">\r
-  <meta name="post-published" content="2026-04-26T23:28">\r
-  <meta name="post-tags" content="아이디어, 제임스 웹 영, 60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/growth/7/book.jpg"\r
-			alt="60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법"\r
-			width="200"\r
-		/>\r
-		<figcaption>출처: 월북</figcaption>\r
-	</figure>\r
-\r
-	<h2 class="post-tab">총평</h2>\r
-\r
-	<p>\r
-		역시 진실은 간단하고 명료하다. 특정 정보를 얻기 위해서 읽은 책이, 서론이\r
-		길고, 불필요하게 사례를 추가하고, 주장을 반복하면서 수십 페이지면 충분할\r
-		내용을 수백 페이지로 늘리고 있으면 정말... 처음 책의 메시지에 받았던 희열은\r
-		고스란히 분노가 된다. 지금 상황에 나에게 꼭 필요한 정보를 담은 책이 그렇지\r
-		않아서 다행이다. 컴팩트한 마무리는 정보에 신뢰를 더한다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">원리</h2>\r
-\r
-	<p>\r
-		아이디어는 오래된 요소들의 새로운 조합, 그 이상도 이하도 아니다.\r
-	</p>\r
-\r
-	<p>\r
-		오래된 요소들을 가지고 새로운 조합을 만드는 능력은 ‘관계’를 보는 능력에 크게\r
-		의존한다. 팩트에는 관계와 유사성이 있다. 일련의 팩트에 일반 법칙이 적용되는\r
-		모습을 발견하는 것이 중요하다. 이는 훈련으로 키울 수 있다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">아이디어를 생산하는 5단계</h2>\r
-\r
-	<h3 class="post-point">\r
-		1. 자료를 모은다. 당면한 문제와 관련된 자료와 일반적 지식 둘 다를 꾸준히\r
-		저장하면서 점점 풍부해진 자료를 수집한다.\r
-	</h3>\r
-\r
-	<p>\r
-		수집해야 할 자료는 두 종류다. 구체적인 자료와 일반적인 자료.\r
-	</p>\r
-\r
-	<p>\r
-		구체적인 자료란 이를테면 제품과 소비자 사이의 미세한 관계를 집요하게\r
-		파고들어, 비누와 머리카락 관계에 대해 책 한 권을 써낼 만큼 철저하게 파헤친\r
-		지식을 말한다. 깊이 들어가면 언제나 모든 제품과 소비자 사이에는 개별적인\r
-		관계가 있고 바로 그 관계가 다시 아이디어로 이어질 수 있다. <br />\r
-	</p>\r
-\r
-	<p>\r
-		일반적인 자료란 말 그대로 온갖 분야의 정보를 말하는데, 이것이 중요한 이유는\r
-		간단히 만화경 속 유리 조각이 많을수록 손잡이를 돌릴 때마다 더 화려하고\r
-		새로운 패턴이 나타날 가능성이 높아지기 때문이다. "창의적 인간에게는 모든\r
-		것이 유의미하다."는 명언을 새겨두자.\r
-	</p>\r
-\r
-	<h3 class="post-point">2. 머릿속에서 이 자료들을 꼭꼭 씹어서 소화시킨다.</h3>\r
-\r
-	<h3 class="post-point">\r
-		3. 부화 단계. 의식적 생각이 아닌, 다른 것들이 종합 작용을 할 수 있게\r
-		내버려둔다.\r
-	</h3>\r
-\r
-	<p>\r
-		모든 주제를 내려놓고 고민하는 문제에 대한 생각을 머릿속에서 최대한 몰아내라.\r
-		앞선 두 단계만큼 필요한 단계라는 사실을 기억할 것. 고민하는 문제를\r
-		무의식으로 보내서 잠자는 동안 해결되게 하는 것이 목적.\r
-	</p>\r
-\r
-	<h3 class="post-point">4. 실제로 아이디어가 탄생하는 단계. “유레카! 이거야!” 단계.</h3>\r
-\r
-	<h3 class="post-point">5. 아이디어를 실용적 용도에 맞게 개발하고 다듬는 마지막 단계.</h3>\r
-\r
-	<p>\r
-		* 앞의 단계가 완료되기 전에 뒤의 단계 중 하나가 일어나는 일은 불가능하다는\r
-		것을 기억할 것. 즉, 귀찮다고 자료 모으는 과정을 피하려고 하지 마라.\r
-	</p>\r
-\r
-	<h2 class="post-tab">적용과 한계</h2>\r
-\r
-	<p>\r
-		엄밀히 말하면 저자 제임스 웹 영은 광고기획자이고, 이 책 또한 광고 분야를\r
-		타겟하고 있다. 그러나 이 책을 읽고 삶에 적용한 뒤 효과를 보았다고 편지를\r
-		보내온 독자들 중 상당수는 광고와 전혀 관계없는 분야에 종사하고 있었고,\r
-		저자가 광고계뿐만 아니라 정부의 활동이나 공익 사업을 함께 추진하며 겪었던\r
-		경험들에 비춰보더라도 크게 수정해야 할 부분을 찾지 못했다고 하니 용기를 잃지\r
-		말고 시도하도록 하자.\r
-	</p>\r
-\r
-	<h3>책에서 본 글 한 토막이 마음에 들어서 마지막으로 덧붙임</h3>\r
-\r
-	<blockquote>\r
-		"예컨대 죽어도 베개 밑에 제인 오스틴의 소설을 넣어둘 일은 없다고 생각한다면,\r
-		그 이상 생각할 필요는 없다. 그 경우에는 19세기 영국의 지주계급이 ‘상업’에\r
-		종사하는 사람들을 얼마나 비웃었는지, 그리고 지금 이 나라 허드슨강 유역에\r
-		사는 사람들이 왜 똑같은 짓을 하고 있는지 절대로 이해하지 못할 것이다.\r
-		그렇다면 언젠가 ‘부유층’을 위한 ‘속물근성에 호소하는’ 아주 효과적인 광고를\r
-		만들 방법은 없어질 수도 있다."\r
-	</blockquote>\r
-</div>\r
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">\r
-	<meta name="post-id" content="5">\r
-	<meta name="post-title" content="채권 듀레이션 정리">\r
-  <meta name="post-published" content="2026-04-18T23:03">\r
-  <meta name="post-tags" content="채권">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<h2 class="post-tab">타임라인</h2>\r
-\r
-	<p>\r
-		채권 타임라인이란 채권 투자에서 매수 시점부터 만기 원금 상환일까지 발생하는\r
-		모든 현금 흐름(이자 지급 및 원금 상환)을 시간 순서대로 배열한 도표를\r
-		의미한다. 연 1회 이자를 지급하는 8% 이표채 3년물 채권의 타임라인은 아래와\r
-		같다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/investment/5/timeline_a.png"\r
-			alt="채권 A 타임라인"\r
-			width="400"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h3 class="post-point">시장금리가 9%로 오른다면 어떻게 될까?</h3>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/investment/5/timeline_b.png"\r
-			alt="채권 B 타임라인"\r
-			width="400"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		이제 시장에는 위와 같은 채권B가 나타나게 된다. 채권B를 구매하면 총 2700원의\r
-		수익을 얻을 수 있는데 채권A를 구매하면 총 2400원의 수익밖에 얻지 못하는\r
-		상황에서, 채권A를 가진 사람이 자신의 채권을 팔고 싶다면, 시장에 있는 채권B와\r
-		동일한 보상을 제공해주어야 한다.\r
-	</p>\r
-\r
-	<p>\r
-		채권B를 구매한 것과 비교해 채권A를 구매하면 1년 후 100원, 2년 후 100원, 3년\r
-		후 100원이 손해므로, 간단히 1년 후 100원을 보상하고, 2년 후 100원을\r
-		보상하고, 3년 후 100원을 보상하면 된다.\r
-	</p>\r
-\r
-	<p>\r
-		채권A를 매도하면서 '1, 2, 3년 후의 100원'을 보상하기 위해서는 1, 2, 3년 후의\r
-		100원을 각각 현재가치로 할인해서 보상하면 된다. 할인율 공식은 아래와 같다.\r
-	</p>\r
-\r
-	<div class="post-note">\r
-		PV = FV ÷ (1 + r)ⁿ <br /><br />\r
-\r
-		PV(Present Value): 현재가치 <br />\r
-		FV(Future Value): 미래가치 <br />\r
-		r(Rate): 할인율 <br />\r
-		n(number of periods): 횟수\r
-	</div>\r
-\r
-	<div>\r
-		1년 후의 100원 = 100 ÷ (1 + 0.09)¹ = 현재 약 91.74원 <br />\r
-		2년 후의 100원 = 100 ÷ (1 + 0.09)² = 현재 약 84.17원 <br />\r
-		3년 후의 100원 = 100 ÷ (1 + 0.09)³ = 현재 약 77.22원\r
-	</div>\r
-\r
-	<p>\r
-		보상해야 할 총금액은 약 253.13원이 되고, 이를 판매하고자 하는 현재 채권 가격\r
-		10,000에서 빼주면 약 9,746.87원이 된다. 즉 이 가격까지는 내려줘야 비로소\r
-		시장은 채권A를 바라봐 주는 것이다.\r
-	</p>\r
-\r
-	<h3 class="posst-point">채권의 만기가 3년이 아니라 10년이었다면?</h3>\r
-\r
-	<p>\r
-		시장금리가 1% 상승했을 때, 기존 3년물 채권을 시장에 팔기 위해서 100원씩 세\r
-		번을 보상해줘야 했다. 그런데 기존 채권이 3년물이 아닌 10년물이었다면 이제는\r
-		100원씩 열 번을 보상해줘야 팔 수 있게 된다. 1년부터 10년 후의 100원을 모두\r
-		현재가치로 할인해서 합하면 약 642원이 나오고 이를 채권 가격에 반영하면 약\r
-		9,358이 된다.\r
-	</p>\r
-\r
-	<p>\r
-		결과적으로 시장금리가 1% 상승했을 때, 3년물은 약 2.53%(253원) 하락하고,\r
-		10년물은 약 6.42%(642원) 하락했다. 금리가 1% 변할 때, 남은 기간에 따라 가격\r
-		하락 폭이 달라졌다. 이처럼 만기가 길어질수록 보상해야 할 금액이 누적되어\r
-		금리라는 외부 충격에 대해 채권 가격이 반응하는 민감도가 달라진다. 이 두 가지\r
-		성격, 시간과 민감도를 한 바구니에 담아 듀레이션(Duration)이라고 부른다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">듀레이션(Duration)</h2>\r
-\r
-	<p>\r
-		채권 투자에서 투자 원금과 이자를 모두 회수하는 데 걸리는 시간(현재가치로\r
-		가중된 평균만기)을 의미하며, 동시에 시장 금리 변화에 대한 채권 가격의\r
-		민감도를 나타내는 핵심 지표.\r
-	</p>\r
-\r
-	<p>\r
-		채권A에 투자했을 때, 원리합계(원금 + 모든 이자)는 12,400원이다. 그렇다면 이\r
-		12,400원을 회수하는 데는 '평균적으로' 얼마의 시간이 걸릴까?\r
-	</p>\r
-\r
-	<p>\r
-		1년 후 이자 800원은 원리합계 12,400의 약 0.06%다. 2년 후 이자 800원 또한\r
-		원리합계 12,400의 약 0.06%고, 3년 후 원금 10,000원과 이자 800원은 원리합계\r
-		12,400의 약 0.87%다.\r
-	</p>\r
-\r
-	<p>\r
-		첫 번째 이자 800원을 회수하는 데는 1년이 걸렸고, 두 번째 이자 800원을\r
-		회수하는 데는 2년이 걸렸고, 만기 때 원금 10,000원과 이자 800원을 회수하는\r
-		데는 3년이 걸렸다.\r
-	</p>\r
-\r
-	<p>\r
-		회수하는 데 걸린 시간의 평균을 계산하면 2.79년이 걸린다. 이는 단순히\r
-		현금흐름을 기준으로 계산한 평균 회수 기간이며, 이후에는 각 금액을 현재가치로\r
-		할인해 보다 정확한 듀레이션을 구하게 된다.\r
-	</p>\r
-\r
-	<div class="post-note">(0.06 × 1) + (0.06 × 2) + (0.87 × 3) = 2.79</div>\r
-\r
-	<p>\r
-		위에서 정의했듯이 듀레이션은 원리합계를 회수하는 데 걸리는 평균 시간이면서\r
-		동시에 금리 변화에 따른 가격의 민감도를 나타낸다. 즉 금리가 1% 상승할 때\r
-		가격이 2.79% 하락한다는 얘기인데 앞서 직접 구한 2.53%와 차이가 발생했다.\r
-	</p>\r
-\r
-	<h3 class="post-point">⑴ 맥컬리 듀레이션 (Macaulay Duration)</h3>\r
-\r
-	<p>\r
-		우리는 12,400원이라는 '미래의 돈'을 그대로 사용해 2.79년을 구했는데, 사실은\r
-		그 돈을 현재가치로 할인해서 계산해야 한다.\r
-	</p>\r
-\r
-	<div class="post-note">\r
-		1년 후의 800원 = 800 ÷ (1 + 0.08)¹ = 740.74원(비중: 0.074). <br />\r
-		2년 후의 800원 = 800 ÷ (1 + 0.08)² = 685.87원(비중: 0.069). <br />\r
-		3년 후의 10,800원 = 10,800 ÷ (1 + 0.08)³ = 8,573.39원(비중: 0.857). <br /><br />\r
-\r
-		(0.074 × 1) + (0.069 × 2) + (0.857 × 3) = 2.783\r
-	</div>\r
-\r
-	<p>\r
-		이렇게 현재가치로 가중해 계산한 평균 회수 기간을 맥컬리 듀레이션이라 하며,\r
-		이는 채권의 ‘평균만기’로 해석된다. 이 채권에 투자하면 내 원금과 이자의\r
-		가치를 평균적으로 2.783년 만에 회수한다고 이해할 수 있다.\r
-	</p>\r
-\r
-	<h3 class="post-point">⑵ 수정 듀레이션 (Modified Duration)</h3>\r
-\r
-	<p>\r
-		맥컬리 듀레이션(2.78~2.79)이 '시간' 개념이었다면, 수정 듀레이션은 '가격\r
-		변동률'을 의미한다. 변환을 위해서 현재 시장의 유통수익률(YTM)로 한 번 더\r
-		나누어 준다.\r
-	</p>\r
-\r
-	<div>\r
-		* 여기서는 채권의 이자율과 시장금리(YTM)가 8%로 같은 상황을 가정했다. <br />\r
-		* 앞서 직접 가격을 구할 때는 변화한 금리인 9%를 대입했지만, 듀레이션은 '지금\r
-		이 순간'의 금리 수준에서 가격이 어느 정도의 기울기로 반응하는지를 나타내는\r
-		지표이기 때문에 현재 시점의 금리인 8%를 사용한다.\r
-	</div>\r
-\r
-	<p class="post-note">2.783 ÷ (1 + 0.08) = 약 2.57</p>\r
-\r
-	<p>\r
-		즉, 채권A는 금리 1%가 변동할 때 가격이 약 2.57% 변동하는 민감도를 가졌다라고\r
-		계산된다.\r
-	</p>\r
-\r
-	<h2 class="post-tab">볼록성(Convexity)</h2>\r
-\r
-	<p>수정 듀레이션 또한 우리가 직접 계산했던 값 2.53%와는 차이가 있다.</p>\r
-\r
-	<p>\r
-		수정 듀레이션은 현재 금리 지점에서의 순간적인 기울기로써, 금리가 아주\r
-		미세하게 변할 때를 가정한 '직선의 논리'다. 하지만 앞서 구한 것처럼 금리에\r
-		따른 채권의 가격을 일일히 계산해서 대입해보면, 금리 변화에 따라 가격은\r
-		곡선을 그리며 움직인다.\r
-	</p>\r
-\r
-	<p>이때 등장하는 개념이 바로 볼록성이다.</p>\r
-\r
-	<p>\r
-		수정 듀레이션이 금리 변화에 대한 ‘1차 반응(기울기)’이라면, 볼록성은 금리\r
-		변화가 커질수록 나타나는 ‘2차 효과(곡률)’를 반영한다.\r
-	</p>\r
-\r
-	<p>\r
-		이 곡률 구조 덕분에 채권 가격은 비대칭적으로 움직인다. 금리가 상승할 때는\r
-		가격 하락 폭이 완만해지고, 금리가 하락할 때는 가격 상승 폭이 더 커지게 된다.\r
-		즉, 손실은 줄이고 이익은 확대되는 방향으로 작용한다. 그래서 채권 투자자들은\r
-		듀레이션이 같더라도 볼록성이 더 큰 채권을 선호하는 경향이 있다. 이를테면 5년\r
-		만기 채권에 집중한 포트폴리와 1년 만기 채권 및 10년 만기 채권에 분산한\r
-		포트폴리오의 듀레이션은 같지만, 지금 시점으로부터 넓게 분산되어 있는 후자의\r
-		포트폴리오가 훨씬 큰 볼록성을 가진다.\r
-	</p>\r
-\r
-	<p>\r
-		다만 이러한 특성은 모든 채권에 동일하게 적용되는 것은 아니다. 일반적인\r
-		채권은 투자자에게 유리한 ‘양(+)의 볼록성’을 가지지만, 콜옵션이 포함된 채권\r
-		등은 금리 하락 시 가격 상승이 제한되는 ‘음(-)의 볼록성’을 보이기도 한다.\r
-	</p>\r
-\r
-	<p>\r
-		금리 변동 폭이 작을 때는 수정 듀레이션만으로도 충분히 정확한 예측이 가능지만\r
-		금리 변동 폭이 커질수록 볼록성의 영향이 점점 커지면서, 단순한 듀레이션 기반\r
-		추정과 실제 가격 변화 사이의 차이도 함께 확대된다.\r
-	</p>\r
-\r
-	<p>\r
-		결국 ‘직선적 근사’인 듀레이션에 반해 볼록성은 이면에 존재하는 실제 곡선\r
-		형태의 움직임을 반영해 그 추정이 어떻게 달라지는지를 보여준다. 따라서\r
-		듀레이션으로 채권 가격의 방향과 크기를 추산한 후에 볼록성을 통해 그 오차를\r
-		보정함으로써 보다 현실에 가까운 가격 변화를 파악할 수 있다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/archives/investment/5/convexity.png"\r
-			alt="볼록성 그래프"\r
-			width="400"\r
-		/>\r
-		<figcaption></figcaption>\r
-	</figure>\r
-\r
-	<h3 class="post-point">왜 듀레이션이 필요할까?</h3>\r
-\r
-	<p>\r
-		이렇듯 듀레이션은 직접 계산한 값과 비교하면 약간의 오차가 존재함에도\r
-		불구하고, 채권 투자에서 필수적인 지표로 활용되는데 그 이유는 다음과 같다.\r
-	</p>\r
-\r
-	<p>첫째, 듀레이션은 현재 금리 수준에서의 '기울기'를 의미한다.</p>\r
-\r
-	<p>\r
-		그리고 이 기울기 값을 활용하면 시장금리가 0.1% 변하든지 0.5% 변하든지 곱셈\r
-		한 번으로 채권 가격 향방을 즉시 추산할 수 있다. 엄밀한 정답보다는 실시간\r
-		대응을 위한 기동성에 최적화된 도구로 쓰인다.\r
-	</p>\r
-\r
-	<p>둘째, 포트폴리오 차원의 통합 관리가 가능하다.</p>\r
-\r
-	<p>\r
-		보유한 수십 가지 채권 가격을 금리 변동 시마다 일일이 재계산하는 것은\r
-		불가능에 가깝다. 하지만 각 채권의 듀레이션을 비중별로 합산한 '포트폴리오\r
-		듀레이션'을 구해두면, 시장 금리가 출렁일 때 내 전체 자산이 입을 타격이나\r
-		수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.\r
-	</p>\r
-</div>\r
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">\r
-	<meta name="post-id" content="11" />\r
-	<meta name="post-title" content="중력을 소진시키는 방법" />\r
-	<meta name="post-published" content="2026-05-27T21:30" />\r
-	<meta name="post-tags" content="소셜 네트워크" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		특별함을 추구하는 부류가 있다. 증명되지 않은 상태는 그들에게 있어 존재의\r
-		공백과 같다. 그 결핍은 계속해서 삶을 어딘가로 끌어당기는 중력으로, 거기서\r
-		벗어나는 일은 그들에게 평생의 숙제다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/essays/culture/11/poster.jpg"\r
-			alt="소셜 네트워크"\r
-			width="500"\r
-		/>\r
-		<figcaption>출처: 컬럼비아 픽처스</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		마크와 에리카가 펍 테이블에 앉아 이야기를 시작한다. 마크도 특별함을 추구하는\r
-		부류의 인간이다. 둘의 대화가 시작부터 삐걱거린 이유는 마크의 화두가 일상과\r
-		동떨어져서가 아니라, 결핍이 대개 배려를 앗아간다는 데 있다. 조금씩 엇나가는\r
-		대화 속에서 마크는 에리카의 학력을 비하하는 발언을 하게 되고, 결국 에리카는\r
-		마크가 컴퓨터 분야에서 성공하더라도 좋은 여자는 만나지 못할 거라고 욕설과\r
-		함께 쏘아붙인 후 자리를 떠난다.\r
-	</p>\r
-\r
-	<p>\r
-		그날 밤 마크는 술을 마시며 '페이스매시'를 만든다. 하버드 여학생들의 사진을\r
-		나란히 놓고 누가 더 예쁜지 투표하는 사이트였다. 심심풀이로 만든 그것이\r
-		서버를 다운시킬 만큼 퍼져나갔고, 이어 '더 페이스북'으로 확장되었다. 더\r
-		페이스북이 하나의 현상이 되었을 때, 마크는 유명인사가 되어 있었다. 어느 날\r
-		팬을 자처한 여성들과 파티장 화장실에서 섹스를 하고 나온 마크의 눈에, 저 멀리\r
-		테이블에 앉아있는 에리카가 들어온다. 그 순간 마크는 에리카가 자신에게\r
-		마지막으로 남긴 말이 떠올랐을 것이다. 스스로가 증명되었다고 느껴지는 지금,\r
-		마크는 자신만만하게 에리카에게 다가가지만 세상(에리카)은 그에게 더없이\r
-		냉담하다. 마크는 처참함 속에 파티장을 빠져나오며 사업을 더 키우자고 말한다.\r
-	</p>\r
-\r
-	<p>\r
-		이후 마크의 사업은 완전히 정상궤도에 올라서지만 남의 아이디어를 훔쳤다는\r
-		소송이 걸리게 된다. 변호사는 그 정도 합의금은 벌금 수준이 아니냐며 그냥\r
-		줘버리라고 말하지만, 마크에게 그것은 증명의 문제였다. 남의 것으로는 자신을\r
-		증명할 수 없었다. 마크는 변호사를 먼저 보내고 잠시 컴퓨터 앞에 앉아 자신이\r
-		만든 세상을 들여다 본다. 에리카가 그 세상 속에 들어와 있었다. 마크는\r
-		에리카에게 친구 신청을 보낸다.\r
-	</p>\r
-\r
-	<p>\r
-		끈질겼던 결핍이 사라지는 건 일순간이다. 그 순간은 반드시 세상의 인정이나\r
-		스스로의 엄격한 잣대를 넘는 증명일 필요가 없다. 결핍은, 그저 채우기 위해 에너지를\r
-		소진하다 어느 순간 뒤돌아보면 사라져있다. 마크는 연달아\r
-		새로고침을 누르며 세상(에리카)의 답신을 기다리지만, 표정은 이미 무언가\r
-		내려앉은 사람처럼 조금씩 공허해진다. 더 이상 채울 필요가 없어진 은은한\r
-		해방감이 마크를 감싼다. 이후 마크는 소송과 관련해서 합의금을 지불한다.\r
-	</p>\r
-\r
-	<blockquote class="post-quotation">\r
-		"내가 냅스터를 시작한 이유? 고딩 때 좋아한 여자애가 대학 라크로스팀 주장과\r
-		사귀었어. 걜 뺏고 싶었지."\r
-	</blockquote>\r
-</div>\r
-`,dr=s({default:()=>fr}),fr=`<div class="post-meta">\r
-	<meta name="post-id" content="14" />\r
-	<meta name="post-title" content="시간이 쓸어내린 먼지" />\r
-	<meta name="post-published" content="2026-06-08T20:03" />\r
-	<meta name="post-tags" content="성난 군중으로부터 멀리" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고\r
-		자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/essays/culture/14/poster.jpg"\r
-			alt="성난 군중으로부터 멀리"\r
-			width="500"\r
-		/>\r
-		<figcaption>출처: 폭스 서치라이트 픽처스</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		양을 몰던 가브리엘은 우연히 숲에서 말을 타는 한 여자를 보게 된다. 여자는 말\r
-		위에서 대담하게 몸을 뒤로 젖힌 채 나뭇가지 사이를 지나가고 있었다. 여자가\r
-		그곳을 빠져나오며 몸을 일으키던 순간, 매고 있던 스카프가 나뭇가지에 걸린다.\r
-	</p>\r
-\r
-	<p>\r
-		어렸을 적 부모님을 잃은 에버딘은 혼자가 익숙했다. 가브리엘이 잃어버린 자신의\r
-		스카프를 건네며 청혼했을 때, 에버딘은 선뜻 대답하지 못했다. 가브리엘은\r
-		100에이커 농장에서 양 200마리를 키우는 건실한 사내였다. 빚을 다 갚고 나면\r
-		농장은 우리의 것이 될 테고, 그러면 편하게 취미를 즐기며 지내도 좋다고 했다.\r
-		그러나 그 말은 독립심 강한 에버딘을 망설이게 만든다.\r
-	</p>\r
-\r
-	<p>\r
-		그날 밤,가브리엘의 양치기 개는 실수로 양들을 모두 절벽으로 내몬다. 양을 잃은\r
-		가브리엘은 파산하게 되고, 새로운 일자리를 찾아 떠나는 신세가 된다. 일할\r
-		사람을 구한다는 소문을 듣고 가브리엘은 웨더버리 농장을 찾는다. 밤중에 도착한\r
-		그곳은 불길에 휩싸여 있었다. 가브리엘은 불길이 더 번지기 전에 헛간 위로\r
-		올라가 지붕을 내리쳤다. 밤새 진화 작업을 마치고 얼굴이 까맣게 탄 가브리엘\r
-		앞에 선 것은 말끔한 차림의 에버딘이었다. 에버딘은 삼촌에게 농장을 물려받아\r
-		이곳의 새 주인이 되어있었다. 둘의 처지는 이전과 달랐고, 가브리엘은 더 이상\r
-		에버딘을 욕심낼 수 없었다.\r
-	</p>\r
-\r
-	<p>\r
-		가브리엘은 에버딘 밑에서 일을 시작했다. 불길에 농장이 잿더미가 되는 것을\r
-		막고, 클로버 잎을 먹고 죽어가는 양들을 살리고, 폭풍으로부터 수확물을\r
-		지켜냈지만, 에버딘은 그런 성실함 대신 화려함에 유혹된다. 붉은 군복을 입고\r
-		날카로운 칼을 휘둘러 손쉽게 에버딘의 마음을 사로잡아버린 사내를 보면서도,\r
-		가브리엘은 여전히 성실하게 신뢰할 수 있는 사람으로 남으려 한다.\r
-	</p>\r
-\r
-	<p>\r
-		변덕스러운 세상에 비웃음 당할 때, 우리는 시간에 기댈 수 있다. 흐르는 시간\r
-		안에서 일상은 반복되고, 반복은 끝끝내 포장을 벗겨내어 그 본질을 드러낸다.\r
-		주인이 된 에버딘을 가질 수 있을 거라 생각하지 않지만, 자신의 처지가\r
-		언제까지나 이렇지는 않을 거라는 가브리엘의 말은, 선언이나 위협이 아닌\r
-		스스로에게 건네는 다짐이었다. 눈에 띄지 않아도 언제나 그 자리를 지킨 손들을\r
-		비로소 에버딘이 알아본 것은, 극적인 어느 순간이 아니라 반복된 일상의\r
-		나날들이 쌓인 결과였다. 시간은 그렇게 조금씩 먼지를 쓸어내린다. 그리고\r
-		마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.\r
-	</p>\r
-</div>\r
+`},{className:`string`,begin:`\\d{4}-\\d{2}-\\d{2}(\\s+)\\d{2}:\\d{2}:\\d{2}.\\d+Z`},{className:`string`,begin:`(\\+|-)\\d+`},{className:`keyword`,relevance:10,variants:[{begin:`^(test|testing|success|successful|failure|error|skip|xfail|uxsuccess)(:?)\\s+(test)?`},{begin:`^progress(:?)(\\s+)?(pop|push)?`},{begin:`^tags:`},{begin:`^time:`}]}]}}t.exports=n})),bn=o(((e,t)=>{function n(e){return e?typeof e==`string`?e:e.source:null}function r(e){return i(`(?=`,e,`)`)}function i(...e){return e.map(e=>n(e)).join(``)}function a(e){let t=e[e.length-1];return typeof t==`object`&&t.constructor===Object?(e.splice(e.length-1,1),t):{}}function o(...e){return`(`+(a(e).capture?``:`?:`)+e.map(e=>n(e)).join(`|`)+`)`}var s=e=>i(/\b/,e,/\w$/.test(e)?/\b/:/\B/),c=[`Protocol`,`Type`].map(s),l=[`init`,`self`].map(s),u=[`Any`,`Self`],d=[`actor`,`any`,`associatedtype`,`async`,`await`,/as\?/,/as!/,`as`,`borrowing`,`break`,`case`,`catch`,`class`,`consume`,`consuming`,`continue`,`convenience`,`copy`,`default`,`defer`,`deinit`,`didSet`,`distributed`,`do`,`dynamic`,`each`,`else`,`enum`,`extension`,`fallthrough`,/fileprivate\(set\)/,`fileprivate`,`final`,`for`,`func`,`get`,`guard`,`if`,`import`,`indirect`,`infix`,/init\?/,/init!/,`inout`,/internal\(set\)/,`internal`,`in`,`is`,`isolated`,`nonisolated`,`lazy`,`let`,`macro`,`mutating`,`nonmutating`,/open\(set\)/,`open`,`operator`,`optional`,`override`,`package`,`postfix`,`precedencegroup`,`prefix`,/private\(set\)/,`private`,`protocol`,/public\(set\)/,`public`,`repeat`,`required`,`rethrows`,`return`,`set`,`some`,`static`,`struct`,`subscript`,`super`,`switch`,`throws`,`throw`,/try\?/,/try!/,`try`,`typealias`,/unowned\(safe\)/,/unowned\(unsafe\)/,`unowned`,`var`,`weak`,`where`,`while`,`willSet`],f=[`false`,`nil`,`true`],p=[`assignment`,`associativity`,`higherThan`,`left`,`lowerThan`,`none`,`right`],m=[`#colorLiteral`,`#column`,`#dsohandle`,`#else`,`#elseif`,`#endif`,`#error`,`#file`,`#fileID`,`#fileLiteral`,`#filePath`,`#function`,`#if`,`#imageLiteral`,`#keyPath`,`#line`,`#selector`,`#sourceLocation`,`#warning`],h=`abs.all.any.assert.assertionFailure.debugPrint.dump.fatalError.getVaList.isKnownUniquelyReferenced.max.min.numericCast.pointwiseMax.pointwiseMin.precondition.preconditionFailure.print.readLine.repeatElement.sequence.stride.swap.swift_unboxFromSwiftValueWithType.transcode.type.unsafeBitCast.unsafeDowncast.withExtendedLifetime.withUnsafeMutablePointer.withUnsafePointer.withVaList.withoutActuallyEscaping.zip`.split(`.`),g=o(/[/=\-+!*%<>&|^~?]/,/[\u00A1-\u00A7]/,/[\u00A9\u00AB]/,/[\u00AC\u00AE]/,/[\u00B0\u00B1]/,/[\u00B6\u00BB\u00BF\u00D7\u00F7]/,/[\u2016-\u2017]/,/[\u2020-\u2027]/,/[\u2030-\u203E]/,/[\u2041-\u2053]/,/[\u2055-\u205E]/,/[\u2190-\u23FF]/,/[\u2500-\u2775]/,/[\u2794-\u2BFF]/,/[\u2E00-\u2E7F]/,/[\u3001-\u3003]/,/[\u3008-\u3020]/,/[\u3030]/),_=o(g,/[\u0300-\u036F]/,/[\u1DC0-\u1DFF]/,/[\u20D0-\u20FF]/,/[\uFE00-\uFE0F]/,/[\uFE20-\uFE2F]/),v=i(g,_,`*`),y=o(/[a-zA-Z_]/,/[\u00A8\u00AA\u00AD\u00AF\u00B2-\u00B5\u00B7-\u00BA]/,/[\u00BC-\u00BE\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF]/,/[\u0100-\u02FF\u0370-\u167F\u1681-\u180D\u180F-\u1DBF]/,/[\u1E00-\u1FFF]/,/[\u200B-\u200D\u202A-\u202E\u203F-\u2040\u2054\u2060-\u206F]/,/[\u2070-\u20CF\u2100-\u218F\u2460-\u24FF\u2776-\u2793]/,/[\u2C00-\u2DFF\u2E80-\u2FFF]/,/[\u3004-\u3007\u3021-\u302F\u3031-\u303F\u3040-\uD7FF]/,/[\uF900-\uFD3D\uFD40-\uFDCF\uFDF0-\uFE1F\uFE30-\uFE44]/,/[\uFE47-\uFEFE\uFF00-\uFFFD]/),b=o(y,/\d/,/[\u0300-\u036F\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]/),x=i(y,b,`*`),S=i(/[A-Z]/,b,`*`),C=[`attached`,`autoclosure`,i(/convention\(/,o(`swift`,`block`,`c`),/\)/),`discardableResult`,`dynamicCallable`,`dynamicMemberLookup`,`escaping`,`freestanding`,`frozen`,`GKInspectable`,`IBAction`,`IBDesignable`,`IBInspectable`,`IBOutlet`,`IBSegueAction`,`inlinable`,`main`,`nonobjc`,`NSApplicationMain`,`NSCopying`,`NSManaged`,i(/objc\(/,x,/\)/),`objc`,`objcMembers`,`propertyWrapper`,`requires_stored_property_inits`,`resultBuilder`,`Sendable`,`testable`,`UIApplicationMain`,`unchecked`,`unknown`,`usableFromInline`,`warn_unqualified_access`],w=[`iOS`,`iOSApplicationExtension`,`macOS`,`macOSApplicationExtension`,`macCatalyst`,`macCatalystApplicationExtension`,`watchOS`,`watchOSApplicationExtension`,`tvOS`,`tvOSApplicationExtension`,`swift`];function T(e){let t={match:/\s+/,relevance:0},n=e.COMMENT(`/\\*`,`\\*/`,{contains:[`self`]}),a=[e.C_LINE_COMMENT_MODE,n],g={match:[/\./,o(...c,...l)],className:{2:`keyword`}},y={match:i(/\./,o(...d)),relevance:0},T=d.filter(e=>typeof e==`string`).concat([`_|0`]),E={variants:[{className:`keyword`,match:o(...d.filter(e=>typeof e!=`string`).concat(u).map(s),...l)}]},D={$pattern:o(/\b\w+/,/#\w+/),keyword:T.concat(m),literal:f},O=[g,y,E],k=[{match:i(/\./,o(...h)),relevance:0},{className:`built_in`,match:i(/\b/,o(...h),/(?=\()/)}],A={match:/->/,relevance:0},j=[A,{className:`operator`,relevance:0,variants:[{match:v},{match:`\\.(\\.|${_})+`}]}],M=`([0-9]_*)+`,N=`([0-9a-fA-F]_*)+`,P={className:`number`,relevance:0,variants:[{match:`\\b(${M})(\\.(${M}))?([eE][+-]?(${M}))?\\b`},{match:`\\b0x(${N})(\\.(${N}))?([pP][+-]?(${M}))?\\b`},{match:/\b0o([0-7]_*)+\b/},{match:/\b0b([01]_*)+\b/}]},F=(e=``)=>({className:`subst`,variants:[{match:i(/\\/,e,/[0\\tnr"']/)},{match:i(/\\/,e,/u\{[0-9a-fA-F]{1,8}\}/)}]}),I=(e=``)=>({className:`subst`,match:i(/\\/,e,/[\t ]*(?:[\r\n]|\r\n)/)}),L=(e=``)=>({className:`subst`,label:`interpol`,begin:i(/\\/,e,/\(/),end:/\)/}),R=(e=``)=>({begin:i(e,/"""/),end:i(/"""/,e),contains:[F(e),I(e),L(e)]}),z=(e=``)=>({begin:i(e,/"/),end:i(/"/,e),contains:[F(e),L(e)]}),B={className:`string`,variants:[R(),R(`#`),R(`##`),R(`###`),z(),z(`#`),z(`##`),z(`###`)]},ee=[e.BACKSLASH_ESCAPE,{begin:/\[/,end:/\]/,relevance:0,contains:[e.BACKSLASH_ESCAPE]}],te={begin:/\/[^\s](?=[^/\n]*\/)/,end:/\//,contains:ee},V=e=>{let t=i(e,/\//),n=i(/\//,e);return{begin:t,end:n,contains:[...ee,{scope:`comment`,begin:`#(?!.*${n})`,end:/$/}]}},H={scope:`regexp`,variants:[V(`###`),V(`##`),V(`#`),te]},U={match:i(/`/,x,/`/)},W=[U,{className:`variable`,match:/\$\d+/},{className:`variable`,match:`\\$${b}+`}],G=[{match:/(@|#(un)?)available/,scope:`keyword`,starts:{contains:[{begin:/\(/,end:/\)/,keywords:w,contains:[...j,P,B]}]}},{scope:`keyword`,match:i(/@/,o(...C),r(o(/\(/,/\s+/)))},{scope:`meta`,match:i(/@/,x)}],K={match:r(/\b[A-Z]/),relevance:0,contains:[{className:`type`,match:i(/(AV|CA|CF|CG|CI|CL|CM|CN|CT|MK|MP|MTK|MTL|NS|SCN|SK|UI|WK|XC)/,b,`+`)},{className:`type`,match:S,relevance:0},{match:/[?!]+/,relevance:0},{match:/\.\.\./,relevance:0},{match:i(/\s+&\s+/,r(S)),relevance:0}]},ne={begin:/</,end:/>/,keywords:D,contains:[...a,...O,...G,A,K]};K.contains.push(ne);let re={begin:/\(/,end:/\)/,relevance:0,keywords:D,contains:[`self`,{match:i(x,/\s*:/),keywords:`_|0`,relevance:0},...a,H,...O,...k,...j,P,B,...W,...G,K]},q={begin:/</,end:/>/,keywords:`repeat each`,contains:[...a,K]},J={begin:/\(/,end:/\)/,keywords:D,contains:[{begin:o(r(i(x,/\s*:/)),r(i(x,/\s+/,x,/\s*:/))),end:/:/,relevance:0,contains:[{className:`keyword`,match:/\b_\b/},{className:`params`,match:x}]},...a,...O,...j,P,B,...G,K,re],endsParent:!0,illegal:/["']/},ie={match:[/(func|macro)/,/\s+/,o(U.match,x,v)],className:{1:`keyword`,3:`title.function`},contains:[q,J,t],illegal:[/\[/,/%/]},ae={match:[/\b(?:subscript|init[?!]?)/,/\s*(?=[<(])/],className:{1:`keyword`},contains:[q,J,t],illegal:/\[|%/},oe={match:[/operator/,/\s+/,v],className:{1:`keyword`,3:`title`}},se={begin:[/precedencegroup/,/\s+/,S],className:{1:`keyword`,3:`title`},contains:[K],keywords:[...p,...f],end:/}/},Y={match:[/class\b/,/\s+/,/func\b/,/\s+/,/\b[A-Za-z_][A-Za-z0-9_]*\b/],scope:{1:`keyword`,3:`keyword`,5:`title.function`}},ce={match:[/class\b/,/\s+/,/var\b/],scope:{1:`keyword`,3:`keyword`}},le={begin:[/(struct|protocol|class|extension|enum|actor)/,/\s+/,x,/\s*/],beginScope:{1:`keyword`,3:`title.class`},keywords:D,contains:[q,...O,{begin:/:/,end:/\{/,keywords:D,contains:[{scope:`title.class.inherited`,match:S},...O],relevance:0}]};for(let e of B.variants){let t=e.contains.find(e=>e.label===`interpol`);t.keywords=D;let n=[...O,...k,...j,P,B,...W];t.contains=[...n,{begin:/\(/,end:/\)/,contains:[`self`,...n]}]}return{name:`Swift`,keywords:D,contains:[...a,ie,ae,Y,ce,le,oe,se,{beginKeywords:`import`,end:/$/,contains:[...a],relevance:0},H,...O,...k,...j,P,B,...W,...G,K,re]}}t.exports=T})),xn=o(((e,t)=>{function n(e){return{name:`Tagger Script`,contains:[{className:`comment`,begin:/\$noop\(/,end:/\)/,contains:[{begin:/\\[()]/},{begin:/\(/,end:/\)/,contains:[{begin:/\\[()]/},`self`]}],relevance:10},{className:`keyword`,begin:/\$[_a-zA-Z0-9]+(?=\()/},{className:`variable`,begin:/%[_a-zA-Z0-9:]+%/},{className:`symbol`,begin:/\\[\\nt$%,()]/},{className:`symbol`,begin:/\\u[a-fA-F0-9]{4}/}]}}t.exports=n})),Sn=o(((e,t)=>{function n(e){let t=`true false yes no null`,n=`[\\w#;/?:@&=+$,.~*'()[\\]]+`,r={className:`attr`,variants:[{begin:/[\w*@][\w*@ :()\./-]*:(?=[ \t]|$)/},{begin:/"[\w*@][\w*@ :()\./-]*":(?=[ \t]|$)/},{begin:/'[\w*@][\w*@ :()\./-]*':(?=[ \t]|$)/}]},i={className:`template-variable`,variants:[{begin:/\{\{/,end:/\}\}/},{begin:/%\{/,end:/\}/}]},a={className:`string`,relevance:0,begin:/'/,end:/'/,contains:[{match:/''/,scope:`char.escape`,relevance:0}]},o={className:`string`,relevance:0,variants:[{begin:/"/,end:/"/},{begin:/\S+/}],contains:[e.BACKSLASH_ESCAPE,i]},s=e.inherit(o,{variants:[{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]},{begin:/"/,end:/"/},{begin:/[^\s,{}[\]]+/}]}),c={className:`number`,begin:`\\b[0-9]{4}(-[0-9][0-9]){0,2}([Tt \\t][0-9][0-9]?(:[0-9][0-9]){2})?(\\.[0-9]*)?([ \\t])*(Z|[-+][0-9][0-9]?(:[0-9][0-9])?)?\\b`},l={end:`,`,endsWithParent:!0,excludeEnd:!0,keywords:t,relevance:0},u={begin:/\{/,end:/\}/,contains:[l],illegal:`\\n`,relevance:0},d={begin:`\\[`,end:`\\]`,contains:[l],illegal:`\\n`,relevance:0},f=[r,{className:`meta`,begin:`^---\\s*$`,relevance:10},{className:`string`,begin:`[\\|>]([1-9]?[+-])?[ ]*\\n( +)[^ ][^\\n]*\\n(\\2[^\\n]+\\n?)*`},{begin:`<%[%=-]?`,end:`[%-]?%>`,subLanguage:`ruby`,excludeBegin:!0,excludeEnd:!0,relevance:0},{className:`type`,begin:`!\\w+!`+n},{className:`type`,begin:`!<`+n+`>`},{className:`type`,begin:`!`+n},{className:`type`,begin:`!!`+n},{className:`meta`,begin:`&`+e.UNDERSCORE_IDENT_RE+`$`},{className:`meta`,begin:`\\*`+e.UNDERSCORE_IDENT_RE+`$`},{className:`bullet`,begin:`-(?=[ ]|$)`,relevance:0},e.HASH_COMMENT_MODE,{beginKeywords:t,keywords:{literal:t}},c,{className:`number`,begin:e.C_NUMBER_RE+`\\b`,relevance:0},u,d,a,o],p=[...f];return p.pop(),p.push(s),l.contains=p,{name:`YAML`,case_insensitive:!0,aliases:[`yml`],contains:f}}t.exports=n})),Cn=o(((e,t)=>{function n(e){return{name:`Test Anything Protocol`,case_insensitive:!0,contains:[e.HASH_COMMENT_MODE,{className:`meta`,variants:[{begin:`^TAP version (\\d+)$`},{begin:`^1\\.\\.(\\d+)$`}]},{begin:/---$/,end:`\\.\\.\\.$`,subLanguage:`yaml`,relevance:0},{className:`number`,begin:` (\\d+) `},{className:`symbol`,variants:[{begin:`^ok`},{begin:`^not ok`}]}]}}t.exports=n})),wn=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z_][a-zA-Z0-9_]*/,r={className:`number`,variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]};return{name:`Tcl`,aliases:[`tk`],keywords:`after.append.apply.array.auto_execok.auto_import.auto_load.auto_mkindex.auto_mkindex_old.auto_qualify.auto_reset.bgerror.binary.break.catch.cd.chan.clock.close.concat.continue.dde.dict.encoding.eof.error.eval.exec.exit.expr.fblocked.fconfigure.fcopy.file.fileevent.filename.flush.for.foreach.format.gets.glob.global.history.http.if.incr.info.interp.join.lappend|10.lassign|10.lindex|10.linsert|10.list.llength|10.load.lrange|10.lrepeat|10.lreplace|10.lreverse|10.lsearch|10.lset|10.lsort|10.mathfunc.mathop.memory.msgcat.namespace.open.package.parray.pid.pkg::create.pkg_mkIndex.platform.platform::shell.proc.puts.pwd.read.refchan.regexp.registry.regsub|10.rename.return.safe.scan.seek.set.socket.source.split.string.subst.switch.tcl_endOfWord.tcl_findLibrary.tcl_startOfNextWord.tcl_startOfPreviousWord.tcl_wordBreakAfter.tcl_wordBreakBefore.tcltest.tclvars.tell.time.tm.trace.unknown.unload.unset.update.uplevel.upvar.variable.vwait.while`.split(`.`),contains:[e.COMMENT(`;[ \\t]*#`,`$`),e.COMMENT(`^[ \\t]*#`,`$`),{beginKeywords:`proc`,end:`[\\{]`,excludeEnd:!0,contains:[{className:`title`,begin:`[ \\t\\n\\r]+(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`[ \\t\\n\\r]`,endsWithParent:!0,excludeEnd:!0}]},{className:`variable`,variants:[{begin:t.concat(/\$/,t.optional(/::/),n,`(::`,n,`)*`)},{begin:`\\$\\{(::)?[a-zA-Z_]((::)?[a-zA-Z0-9_])*`,end:`\\}`,contains:[r]}]},{className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},r]}}t.exports=n})),Tn=o(((e,t)=>{function n(e){let t=[`bool`,`byte`,`i16`,`i32`,`i64`,`double`,`string`,`binary`];return{name:`Thrift`,keywords:{keyword:[`namespace`,`const`,`typedef`,`struct`,`enum`,`service`,`exception`,`void`,`oneway`,`set`,`list`,`map`,`required`,`optional`],type:t,literal:`true false`},contains:[e.QUOTE_STRING_MODE,e.NUMBER_MODE,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`class`,beginKeywords:`struct enum service exception`,end:/\{/,illegal:/\n/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,excludeEnd:!0}})]},{begin:`\\b(set|list|map)\\s*<`,keywords:{type:[...t,`set`,`list`,`map`]},end:`>`,contains:[`self`]}]}}t.exports=n})),En=o(((e,t)=>{function n(e){let t={className:`number`,begin:`[1-9][0-9]*`,relevance:0},n={className:`symbol`,begin:`:[^\\]]+`};return{name:`TP`,keywords:{keyword:`ABORT.ACC.ADJUST.AND.AP_LD.BREAK.CALL.CNT.COL.CONDITION.CONFIG.DA.DB.DIV.DETECT.ELSE.END.ENDFOR.ERR_NUM.ERROR_PROG.FINE.FOR.GP.GUARD.INC.IF.JMP.LINEAR_MAX_SPEED.LOCK.MOD.MONITOR.OFFSET.Offset.OR.OVERRIDE.PAUSE.PREG.PTH.RT_LD.RUN.SELECT.SKIP.Skip.TA.TB.TO.TOOL_OFFSET.Tool_Offset.UF.UT.UFRAME_NUM.UTOOL_NUM.UNLOCK.WAIT.X.Y.Z.W.P.R.STRLEN.SUBSTR.FINDSTR.VOFFSET.PROG.ATTR.MN.POS`.split(`.`),literal:[`ON`,`OFF`,`max_speed`,`LPOS`,`JPOS`,`ENABLE`,`DISABLE`,`START`,`STOP`,`RESET`]},contains:[{className:`built_in`,begin:`(AR|P|PAYLOAD|PR|R|SR|RSR|LBL|VR|UALM|MESSAGE|UTOOL|UFRAME|TIMER|TIMER_OVERFLOW|JOINT_MAX_SPEED|RESUME_PROG|DIAG_REC)\\[`,end:`\\]`,contains:[`self`,t,n]},{className:`built_in`,begin:`(AI|AO|DI|DO|F|RI|RO|UI|UO|GI|GO|SI|SO)\\[`,end:`\\]`,contains:[`self`,t,e.QUOTE_STRING_MODE,n]},{className:`keyword`,begin:`/(PROG|ATTR|MN|POS|END)\\b`},{className:`keyword`,begin:`(CALL|RUN|POINT_LOGIC|LBL)\\b`},{className:`keyword`,begin:`\\b(ACC|CNT|Skip|Offset|PSPD|RT_LD|AP_LD|Tool_Offset)`},{className:`number`,begin:`\\d+(sec|msec|mm/sec|cm/min|inch/min|deg/sec|mm|in|cm)?\\b`,relevance:0},e.COMMENT(`//`,`[;$]`),e.COMMENT(`!`,`[;$]`),e.COMMENT(`--eg:`,`$`),e.QUOTE_STRING_MODE,{className:`string`,begin:`'`,end:`'`},e.C_NUMBER_MODE,{className:`variable`,begin:`\\$[A-Za-z0-9_]+`}]}}t.exports=n})),Dn=o(((e,t)=>{function n(e){let t=e.regex,n=`absolute_url.asset|0.asset_version.attribute.block.constant.controller|0.country_timezones.csrf_token.cycle.date.dump.expression.form|0.form_end.form_errors.form_help.form_label.form_rest.form_row.form_start.form_widget.html_classes.include.is_granted.logout_path.logout_url.max.min.parent.path|0.random.range.relative_path.render.render_esi.source.template_from_string.url|0`.split(`.`),r=`abs.abbr_class.abbr_method.batch.capitalize.column.convert_encoding.country_name.currency_name.currency_symbol.data_uri.date.date_modify.default.escape.file_excerpt.file_link.file_relative.filter.first.format.format_args.format_args_as_text.format_currency.format_date.format_datetime.format_file.format_file_from_text.format_number.format_time.html_to_markdown.humanize.inky_to_html.inline_css.join.json_encode.keys.language_name.last.length.locale_name.lower.map.markdown.markdown_to_html.merge.nl2br.number_format.raw.reduce.replace.reverse.round.slice.slug.sort.spaceless.split.striptags.timezone_name.title.trans.transchoice.trim.u|0.upper.url_encode.yaml_dump.yaml_encode`.split(`.`),i=`apply.autoescape.block.cache.deprecated.do.embed.extends.filter.flush.for.form_theme.from.if.import.include.macro.sandbox.set.stopwatch.trans.trans_default_domain.transchoice.use.verbatim.with`.split(`.`);i=i.concat(i.map(e=>`end${e}`));let a={scope:`string`,variants:[{begin:/'/,end:/'/},{begin:/"/,end:/"/}]},o={scope:`number`,match:/\d+/},s={begin:/\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,contains:[a,o]},c={beginKeywords:n.join(` `),keywords:{name:n},relevance:0,contains:[s]},l={match:/\|(?=[A-Za-z_]+:?)/,beginScope:`punctuation`,relevance:0,contains:[{match:/[A-Za-z_]+:?/,keywords:r}]},u=(e,{relevance:n})=>({beginScope:{1:`template-tag`,3:`name`},relevance:n||2,endScope:`template-tag`,begin:[/\{%/,/\s*/,t.either(...e)],end:/%\}/,keywords:`in`,contains:[l,c,a,o]}),d=/[a-z_]+/,f=u(i,{relevance:2}),p=u([d],{relevance:1});return{name:`Twig`,aliases:[`craftcms`],case_insensitive:!0,subLanguage:`xml`,contains:[e.COMMENT(/\{#/,/#\}/),f,p,{className:`template-variable`,begin:/\{\{/,end:/\}\}/,contains:[`self`,l,c,a,o]}]}}t.exports=n})),On=o(((e,t)=>{var n=`[A-Za-z$_][0-9A-Za-z$_]*`,r=`as.in.of.if.for.while.finally.var.new.function.do.return.void.else.break.catch.instanceof.with.throw.case.default.try.switch.continue.typeof.delete.let.yield.const.class.debugger.async.await.static.import.from.export.extends.using`.split(`.`),i=[`true`,`false`,`null`,`undefined`,`NaN`,`Infinity`],a=`Object.Function.Boolean.Symbol.Math.Date.Number.BigInt.String.RegExp.Array.Float32Array.Float64Array.Int8Array.Uint8Array.Uint8ClampedArray.Int16Array.Int32Array.Uint16Array.Uint32Array.BigInt64Array.BigUint64Array.Set.Map.WeakSet.WeakMap.ArrayBuffer.SharedArrayBuffer.Atomics.DataView.JSON.Promise.Generator.GeneratorFunction.AsyncFunction.Reflect.Proxy.Intl.WebAssembly`.split(`.`),o=[`Error`,`EvalError`,`InternalError`,`RangeError`,`ReferenceError`,`SyntaxError`,`TypeError`,`URIError`],s=[`setInterval`,`setTimeout`,`clearInterval`,`clearTimeout`,`require`,`exports`,`eval`,`isFinite`,`isNaN`,`parseFloat`,`parseInt`,`decodeURI`,`decodeURIComponent`,`encodeURI`,`encodeURIComponent`,`escape`,`unescape`],c=[`arguments`,`this`,`super`,`console`,`window`,`document`,`localStorage`,`sessionStorage`,`module`,`global`],l=[].concat(s,a,o);function u(e){let t=e.regex,u=(e,{after:t})=>{let n=`</`+e[0].slice(1);return e.input.indexOf(n,t)!==-1},d=n,f={begin:`<>`,end:`</>`},p=/<[A-Za-z0-9\\._:-]+\s*\/>/,m={begin:/<[A-Za-z0-9\\._:-]+/,end:/\/[A-Za-z0-9\\._:-]+>|\/>/,isTrulyOpeningTag:(e,t)=>{let n=e[0].length+e.index,r=e.input[n];if(r===`<`||r===`,`){t.ignoreMatch();return}r===`>`&&(u(e,{after:n})||t.ignoreMatch());let i,a=e.input.substring(n);if(i=a.match(/^\s*=/)){t.ignoreMatch();return}if((i=a.match(/^\s+extends\s+/))&&i.index===0){t.ignoreMatch();return}}},h={$pattern:n,keyword:r,literal:i,built_in:l,"variable.language":c},g=`[0-9](_?[0-9])*`,_=`\\.(${g})`,v=`0|[1-9](_?[0-9])*|0[0-7]*[89][0-9]*`,y={className:`number`,variants:[{begin:`(\\b(${v})((${_})|\\.)?|(${_}))[eE][+-]?(${g})\\b`},{begin:`\\b(${v})\\b((${_})\\b|\\.)?|(${_})\\b`},{begin:`\\b(0|[1-9](_?[0-9])*)n\\b`},{begin:`\\b0[xX][0-9a-fA-F](_?[0-9a-fA-F])*n?\\b`},{begin:`\\b0[bB][0-1](_?[0-1])*n?\\b`},{begin:`\\b0[oO][0-7](_?[0-7])*n?\\b`},{begin:`\\b0[0-7]+n?\\b`}],relevance:0},b={className:`subst`,begin:`\\$\\{`,end:`\\}`,keywords:h,contains:[]},x={begin:".?html`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`xml`}},S={begin:".?css`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`css`}},C={begin:".?gql`",end:``,starts:{end:"`",returnEnd:!1,contains:[e.BACKSLASH_ESCAPE,b],subLanguage:`graphql`}},w={className:`string`,begin:"`",end:"`",contains:[e.BACKSLASH_ESCAPE,b]},T={className:`comment`,variants:[e.COMMENT(/\/\*\*(?!\/)/,`\\*/`,{relevance:0,contains:[{begin:`(?=@[A-Za-z]+)`,relevance:0,contains:[{className:`doctag`,begin:`@[A-Za-z]+`},{className:`type`,begin:`\\{`,end:`\\}`,excludeEnd:!0,excludeBegin:!0,relevance:0},{className:`variable`,begin:d+`(?=\\s*(-)|$)`,endsParent:!0,relevance:0},{begin:/(?=[^\n])\s/,relevance:0}]}]}),e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE]},E=[e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,{match:/\$\d+/},y];b.contains=E.concat({begin:/\{/,end:/\}/,keywords:h,contains:[`self`].concat(E)});let D=[].concat(T,b.contains),O=D.concat([{begin:/(\s*)\(/,end:/\)/,keywords:h,contains:[`self`].concat(D)}]),k={className:`params`,begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O},A={variants:[{match:[/class/,/\s+/,d,/\s+/,/extends/,/\s+/,t.concat(d,`(`,t.concat(/\./,d),`)*`)],scope:{1:`keyword`,3:`title.class`,5:`keyword`,7:`title.class.inherited`}},{match:[/class/,/\s+/,d],scope:{1:`keyword`,3:`title.class`}}]},j={relevance:0,match:t.either(/\bJSON/,/\b[A-Z][a-z]+([A-Z][a-z]*|\d)*/,/\b[A-Z]{2,}([A-Z][a-z]+|\d)+([A-Z][a-z]*)*/,/\b[A-Z]{2,}[a-z]+([A-Z][a-z]+|\d)*([A-Z][a-z]*)*/),className:`title.class`,keywords:{_:[...a,...o]}},M={label:`use_strict`,className:`meta`,relevance:10,begin:/^\s*['"]use (strict|asm)['"]/},N={variants:[{match:[/function/,/\s+/,d,/(?=\s*\()/]},{match:[/function/,/\s*(?=\()/]}],className:{1:`keyword`,3:`title.function`},label:`func.def`,contains:[k],illegal:/%/},P={relevance:0,match:/\b[A-Z][A-Z_0-9]+\b/,className:`variable.constant`};function F(e){return t.concat(`(?!`,e.join(`|`),`)`)}let I={match:t.concat(/\b/,F([...s,`super`,`import`].map(e=>`${e}\\s*\\(`)),d,t.lookahead(/\s*\(/)),className:`title.function`,relevance:0},L={begin:t.concat(/\./,t.lookahead(t.concat(d,/(?![0-9A-Za-z$_(])/))),end:d,excludeBegin:!0,keywords:`prototype`,className:`property`,relevance:0},R={match:[/get|set/,/\s+/,d,/(?=\()/],className:{1:`keyword`,3:`title.function`},contains:[{begin:/\(\)/},k]},z=`(\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)|`+e.UNDERSCORE_IDENT_RE+`)\\s*=>`,B={match:[/const|var|let/,/\s+/,d,/\s*/,/=\s*/,/(async\s*)?/,t.lookahead(z)],keywords:`async`,className:{1:`keyword`,3:`title.function`},contains:[k]};return{name:`JavaScript`,aliases:[`js`,`jsx`,`mjs`,`cjs`],keywords:h,exports:{PARAMS_CONTAINS:O,CLASS_REFERENCE:j},illegal:/#(?![$_A-z])/,contains:[e.SHEBANG({label:`shebang`,binary:`node`,relevance:5}),M,e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,x,S,C,w,T,{match:/\$\d+/},y,j,{scope:`attr`,match:d+t.lookahead(`:`),relevance:0},B,{begin:`(`+e.RE_STARTERS_RE+`|\\b(case|return|throw)\\b)\\s*`,keywords:`return throw case`,relevance:0,contains:[T,e.REGEXP_MODE,{className:`function`,begin:z,returnBegin:!0,end:`\\s*=>`,contains:[{className:`params`,variants:[{begin:e.UNDERSCORE_IDENT_RE,relevance:0},{className:null,begin:/\(\s*\)/,skip:!0},{begin:/(\s*)\(/,end:/\)/,excludeBegin:!0,excludeEnd:!0,keywords:h,contains:O}]}]},{begin:/,/,relevance:0},{match:/\s+/,relevance:0},{variants:[{begin:f.begin,end:f.end},{match:p},{begin:m.begin,"on:begin":m.isTrulyOpeningTag,end:m.end}],subLanguage:`xml`,contains:[{begin:m.begin,end:m.end,skip:!0,contains:[`self`]}]}]},N,{beginKeywords:`while if switch catch for`},{begin:`\\b(?!function)`+e.UNDERSCORE_IDENT_RE+`\\([^()]*(\\([^()]*(\\([^()]*\\)[^()]*)*\\)[^()]*)*\\)\\s*\\{`,returnBegin:!0,label:`func.def`,contains:[k,e.inherit(e.TITLE_MODE,{begin:d,className:`title.function`})]},{match:/\.\.\./,relevance:0},L,{match:`\\$`+d,relevance:0},{match:[/\bconstructor(?=\s*\()/],className:{1:`title.function`},contains:[k]},I,P,A,R,{match:/\$[(.]/}]}}function d(e){let t=e.regex,a=u(e),o=n,s=[`any`,`void`,`number`,`boolean`,`string`,`object`,`never`,`symbol`,`bigint`,`unknown`],d={begin:[/namespace/,/\s+/,e.IDENT_RE],beginScope:{1:`keyword`,3:`title.class`}},f={beginKeywords:`interface`,end:/\{/,excludeEnd:!0,keywords:{keyword:`interface extends`,built_in:s},contains:[a.exports.CLASS_REFERENCE]},p={className:`meta`,relevance:10,begin:/^\s*['"]use strict['"]/},m={$pattern:n,keyword:r.concat([`type`,`interface`,`public`,`private`,`protected`,`implements`,`declare`,`abstract`,`readonly`,`enum`,`override`,`satisfies`]),literal:i,built_in:l.concat(s),"variable.language":c},h={className:`meta`,begin:`@`+o},g=(e,t,n)=>{let r=e.contains.findIndex(e=>e.label===t);if(r===-1)throw Error(`can not find mode to replace`);e.contains.splice(r,1,n)};Object.assign(a.keywords,m),a.exports.PARAMS_CONTAINS.push(h);let _=a.contains.find(e=>e.scope===`attr`),v=Object.assign({},_,{match:t.concat(o,t.lookahead(/\s*\?:/))});a.exports.PARAMS_CONTAINS.push([a.exports.CLASS_REFERENCE,_,v]),a.contains=a.contains.concat([h,d,f,v]),g(a,`shebang`,e.SHEBANG()),g(a,`use_strict`,p);let y=a.contains.find(e=>e.label===`func.def`);return y.relevance=0,Object.assign(a,{name:`TypeScript`,aliases:[`ts`,`tsx`,`mts`,`cts`]}),a}t.exports=d})),kn=o(((e,t)=>{function n(e){return{name:`Vala`,keywords:{keyword:`char uchar unichar int uint long ulong short ushort int8 int16 int32 int64 uint8 uint16 uint32 uint64 float double bool struct enum string void weak unowned owned async signal static abstract interface override virtual delegate if while do for foreach else switch case break default return try catch public private protected internal using new this get set const stdout stdin stderr var`,built_in:`DBus GLib CCode Gee Object Gtk Posix`,literal:`false true null`},contains:[{className:`class`,beginKeywords:`class interface namespace`,end:/\{/,excludeEnd:!0,illegal:`[^,:\\n\\s\\.]`,contains:[e.UNDERSCORE_TITLE_MODE]},e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,{className:`string`,begin:`"""`,end:`"""`,relevance:5},e.APOS_STRING_MODE,e.QUOTE_STRING_MODE,e.C_NUMBER_MODE,{className:`meta`,begin:`^#`,end:`$`}]}}t.exports=n})),An=o(((e,t)=>{function n(e){let t=e.regex,n={className:`string`,begin:/"(""|[^/n])"C\b/},r={className:`string`,begin:/"/,end:/"/,illegal:/\n/,contains:[{begin:/""/}]},i=/\d{1,2}\/\d{1,2}\/\d{4}/,a=/\d{4}-\d{1,2}-\d{1,2}/,o=/(\d|1[012])(:\d+){0,2} *(AM|PM)/,s=/\d{1,2}(:\d{1,2}){1,2}/,c={className:`literal`,variants:[{begin:t.concat(/# */,t.either(a,i),/ *#/)},{begin:t.concat(/# */,s,/ *#/)},{begin:t.concat(/# */,o,/ *#/)},{begin:t.concat(/# */,t.either(a,i),/ +/,t.either(o,s),/ *#/)}]},l={className:`number`,relevance:0,variants:[{begin:/\b\d[\d_]*((\.[\d_]+(E[+-]?[\d_]+)?)|(E[+-]?[\d_]+))[RFD@!#]?/},{begin:/\b\d[\d_]*((U?[SIL])|[%&])?/},{begin:/&H[\dA-F_]+((U?[SIL])|[%&])?/},{begin:/&O[0-7_]+((U?[SIL])|[%&])?/},{begin:/&B[01_]+((U?[SIL])|[%&])?/}]},u={className:`label`,begin:/^\w+:/},d=e.COMMENT(/'''/,/$/,{contains:[{className:`doctag`,begin:/<\/?/,end:/>/}]}),f=e.COMMENT(null,/$/,{variants:[{begin:/'/},{begin:/([\t ]|^)REM(?=\s)/}]});return{name:`Visual Basic .NET`,aliases:[`vb`],case_insensitive:!0,classNameAliases:{label:`symbol`},keywords:{keyword:`addhandler alias aggregate ansi as async assembly auto binary by byref byval call case catch class compare const continue custom declare default delegate dim distinct do each equals else elseif end enum erase error event exit explicit finally for friend from function get global goto group handles if implements imports in inherits interface into iterator join key let lib loop me mid module mustinherit mustoverride mybase myclass namespace narrowing new next notinheritable notoverridable of off on operator option optional order overloads overridable overrides paramarray partial preserve private property protected public raiseevent readonly redim removehandler resume return select set shadows shared skip static step stop structure strict sub synclock take text then throw to try unicode until using when where while widening with withevents writeonly yield`,built_in:`addressof and andalso await directcast gettype getxmlnamespace is isfalse isnot istrue like mod nameof new not or orelse trycast typeof xor cbool cbyte cchar cdate cdbl cdec cint clng cobj csbyte cshort csng cstr cuint culng cushort`,type:`boolean byte char date decimal double integer long object sbyte short single string uinteger ulong ushort`,literal:`true false nothing`},illegal:`//|\\{|\\}|endif|gosub|variant|wend|^\\$ `,contains:[n,r,c,l,u,d,f,{className:`meta`,begin:/[\t ]*#(const|disable|else|elseif|enable|end|externalsource|if|region)\b/,end:/$/,keywords:{keyword:`const disable else elseif enable end externalsource if region then`},contains:[f]}]}}t.exports=n})),jn=o(((e,t)=>{function n(e){let t=e.regex,n=`lcase.month.vartype.instrrev.ubound.setlocale.getobject.rgb.getref.string.weekdayname.rnd.dateadd.monthname.now.day.minute.isarray.cbool.round.formatcurrency.conversions.csng.timevalue.second.year.space.abs.clng.timeserial.fixs.len.asc.isempty.maths.dateserial.atn.timer.isobject.filter.weekday.datevalue.ccur.isdate.instr.datediff.formatdatetime.replace.isnull.right.sgn.array.snumeric.log.cdbl.hex.chr.lbound.msgbox.ucase.getlocale.cos.cdate.cbyte.rtrim.join.hour.oct.typename.trim.strcomp.int.createobject.loadpicture.tan.formatnumber.mid.split.cint.sin.datepart.ltrim.sqr.time.derived.eval.date.formatpercent.exp.inputbox.left.ascw.chrw.regexp.cstr.err`.split(`.`),r=[`server`,`response`,`request`,`scriptengine`,`scriptenginebuildversion`,`scriptengineminorversion`,`scriptenginemajorversion`],i={begin:t.concat(t.either(...n),`\\s*\\(`),relevance:0,keywords:{built_in:n}};return{name:`VBScript`,aliases:[`vbs`],case_insensitive:!0,keywords:{keyword:`call.class.const.dim.do.loop.erase.execute.executeglobal.exit.for.each.next.function.if.then.else.on.error.option.explicit.new.private.property.let.get.public.randomize.redim.rem.select.case.set.stop.sub.while.wend.with.end.to.elseif.is.or.xor.and.not.class_initialize.class_terminate.default.preserve.in.me.byval.byref.step.resume.goto`.split(`.`),built_in:r,literal:[`true`,`false`,`null`,`nothing`,`empty`]},illegal:`//`,contains:[i,e.inherit(e.QUOTE_STRING_MODE,{contains:[{begin:`""`}]}),e.COMMENT(/'/,/$/,{relevance:0}),e.C_NUMBER_MODE]}}t.exports=n})),Mn=o(((e,t)=>{function n(e){return{name:`VBScript in HTML`,subLanguage:`xml`,contains:[{begin:`<%`,end:`%>`,subLanguage:`vbscript`}]}}t.exports=n})),Nn=o(((e,t)=>{function n(e){let t=e.regex,n={$pattern:/\$?[\w]+(\$[\w]+)*/,keyword:`accept_on.alias.always.always_comb.always_ff.always_latch.and.assert.assign.assume.automatic.before.begin.bind.bins.binsof.bit.break.buf|0.bufif0.bufif1.byte.case.casex.casez.cell.chandle.checker.class.clocking.cmos.config.const.constraint.context.continue.cover.covergroup.coverpoint.cross.deassign.default.defparam.design.disable.dist.do.edge.else.end.endcase.endchecker.endclass.endclocking.endconfig.endfunction.endgenerate.endgroup.endinterface.endmodule.endpackage.endprimitive.endprogram.endproperty.endspecify.endsequence.endtable.endtask.enum.event.eventually.expect.export.extends.extern.final.first_match.for.force.foreach.forever.fork.forkjoin.function.generate|5.genvar.global.highz0.highz1.if.iff.ifnone.ignore_bins.illegal_bins.implements.implies.import.incdir.include.initial.inout.input.inside.instance.int.integer.interconnect.interface.intersect.join.join_any.join_none.large.let.liblist.library.local.localparam.logic.longint.macromodule.matches.medium.modport.module.nand.negedge.nettype.new.nexttime.nmos.nor.noshowcancelled.not.notif0.notif1.or.output.package.packed.parameter.pmos.posedge.primitive.priority.program.property.protected.pull0.pull1.pulldown.pullup.pulsestyle_ondetect.pulsestyle_onevent.pure.rand.randc.randcase.randsequence.rcmos.real.realtime.ref.reg.reject_on.release.repeat.restrict.return.rnmos.rpmos.rtran.rtranif0.rtranif1.s_always.s_eventually.s_nexttime.s_until.s_until_with.scalared.sequence.shortint.shortreal.showcancelled.signed.small.soft.solve.specify.specparam.static.string.strong.strong0.strong1.struct.super.supply0.supply1.sync_accept_on.sync_reject_on.table.tagged.task.this.throughout.time.timeprecision.timeunit.tran.tranif0.tranif1.tri.tri0.tri1.triand.trior.trireg.type.typedef.union.unique.unique0.unsigned.until.until_with.untyped.use.uwire.var.vectored.virtual.void.wait.wait_order.wand.weak.weak0.weak1.while.wildcard.wire.with.within.wor.xnor.xor`.split(`.`),literal:[`null`],built_in:`$finish.$stop.$exit.$fatal.$error.$warning.$info.$realtime.$time.$printtimescale.$bitstoreal.$bitstoshortreal.$itor.$signed.$cast.$bits.$stime.$timeformat.$realtobits.$shortrealtobits.$rtoi.$unsigned.$asserton.$assertkill.$assertpasson.$assertfailon.$assertnonvacuouson.$assertoff.$assertcontrol.$assertpassoff.$assertfailoff.$assertvacuousoff.$isunbounded.$sampled.$fell.$changed.$past_gclk.$fell_gclk.$changed_gclk.$rising_gclk.$steady_gclk.$coverage_control.$coverage_get.$coverage_save.$set_coverage_db_name.$rose.$stable.$past.$rose_gclk.$stable_gclk.$future_gclk.$falling_gclk.$changing_gclk.$display.$coverage_get_max.$coverage_merge.$get_coverage.$load_coverage_db.$typename.$unpacked_dimensions.$left.$low.$increment.$clog2.$ln.$log10.$exp.$sqrt.$pow.$floor.$ceil.$sin.$cos.$tan.$countbits.$onehot.$isunknown.$fatal.$warning.$dimensions.$right.$high.$size.$asin.$acos.$atan.$atan2.$hypot.$sinh.$cosh.$tanh.$asinh.$acosh.$atanh.$countones.$onehot0.$error.$info.$random.$dist_chi_square.$dist_erlang.$dist_exponential.$dist_normal.$dist_poisson.$dist_t.$dist_uniform.$q_initialize.$q_remove.$q_exam.$async$and$array.$async$nand$array.$async$or$array.$async$nor$array.$sync$and$array.$sync$nand$array.$sync$or$array.$sync$nor$array.$q_add.$q_full.$psprintf.$async$and$plane.$async$nand$plane.$async$or$plane.$async$nor$plane.$sync$and$plane.$sync$nand$plane.$sync$or$plane.$sync$nor$plane.$system.$display.$displayb.$displayh.$displayo.$strobe.$strobeb.$strobeh.$strobeo.$write.$readmemb.$readmemh.$writememh.$value$plusargs.$dumpvars.$dumpon.$dumplimit.$dumpports.$dumpportson.$dumpportslimit.$writeb.$writeh.$writeo.$monitor.$monitorb.$monitorh.$monitoro.$writememb.$dumpfile.$dumpoff.$dumpall.$dumpflush.$dumpportsoff.$dumpportsall.$dumpportsflush.$fclose.$fdisplay.$fdisplayb.$fdisplayh.$fdisplayo.$fstrobe.$fstrobeb.$fstrobeh.$fstrobeo.$swrite.$swriteb.$swriteh.$swriteo.$fscanf.$fread.$fseek.$fflush.$feof.$fopen.$fwrite.$fwriteb.$fwriteh.$fwriteo.$fmonitor.$fmonitorb.$fmonitorh.$fmonitoro.$sformat.$sformatf.$fgetc.$ungetc.$fgets.$sscanf.$rewind.$ftell.$ferror`.split(`.`)},r=[`__FILE__`,`__LINE__`],i=`begin_keywords.celldefine.default_nettype.default_decay_time.default_trireg_strength.define.delay_mode_distributed.delay_mode_path.delay_mode_unit.delay_mode_zero.else.elsif.end_keywords.endcelldefine.endif.ifdef.ifndef.include.line.nounconnected_drive.pragma.resetall.timescale.unconnected_drive.undef.undefineall`.split(`.`);return{name:`Verilog`,aliases:[`v`,`sv`,`svh`],case_insensitive:!1,keywords:n,contains:[e.C_BLOCK_COMMENT_MODE,e.C_LINE_COMMENT_MODE,e.QUOTE_STRING_MODE,{scope:`number`,contains:[e.BACKSLASH_ESCAPE],variants:[{begin:/\b((\d+'([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\B(('([bhodBHOD]))[0-9xzXZa-fA-F_]+)/},{begin:/\b[0-9][0-9_]*/,relevance:0}]},{scope:`variable`,variants:[{begin:`#\\((?!parameter).+\\)`},{begin:`\\.\\w+`,relevance:0}]},{scope:`variable.constant`,match:t.concat(/`/,t.either(...r))},{scope:`meta`,begin:t.concat(/`/,t.either(...i)),end:/$|\/\/|\/\*/,returnEnd:!0,keywords:i}]}}t.exports=n})),Pn=o(((e,t)=>{function n(e){let t=`\\d(_|\\d)*`;return``+t,t+``,t+``,{name:`VHDL`,case_insensitive:!0,keywords:{keyword:`abs.access.after.alias.all.and.architecture.array.assert.assume.assume_guarantee.attribute.begin.block.body.buffer.bus.case.component.configuration.constant.context.cover.disconnect.downto.default.else.elsif.end.entity.exit.fairness.file.for.force.function.generate.generic.group.guarded.if.impure.in.inertial.inout.is.label.library.linkage.literal.loop.map.mod.nand.new.next.nor.not.null.of.on.open.or.others.out.package.parameter.port.postponed.procedure.process.property.protected.pure.range.record.register.reject.release.rem.report.restrict.restrict_guarantee.return.rol.ror.select.sequence.severity.shared.signal.sla.sll.sra.srl.strong.subtype.then.to.transport.type.unaffected.units.until.use.variable.view.vmode.vprop.vunit.wait.when.while.with.xnor.xor`.split(`.`),built_in:`boolean.bit.character.integer.time.delay_length.natural.positive.string.bit_vector.file_open_kind.file_open_status.std_logic.std_logic_vector.unsigned.signed.boolean_vector.integer_vector.std_ulogic.std_ulogic_vector.unresolved_unsigned.u_unsigned.unresolved_signed.u_signed.real_vector.time_vector`.split(`.`),literal:[`false`,`true`,`note`,`warning`,`error`,`failure`,`line`,`text`,`side`,`width`]},illegal:/\{/,contains:[e.C_BLOCK_COMMENT_MODE,e.COMMENT(`--`,`$`),e.QUOTE_STRING_MODE,{className:`number`,begin:`\\b(\\d(_|\\d)*#\\w+(\\.\\w+)?#([eE][-+]?\\d(_|\\d)*)?|\\d(_|\\d)*(\\.\\d(_|\\d)*)?([eE][-+]?\\d(_|\\d)*)?)`,relevance:0},{className:`string`,begin:`'(U|X|0|1|Z|W|L|H|-)'`,contains:[e.BACKSLASH_ESCAPE]},{className:`symbol`,begin:`'[A-Za-z](_?[A-Za-z0-9])*`,contains:[e.BACKSLASH_ESCAPE]}]}}t.exports=n})),Fn=o(((e,t)=>{function n(e){return{name:`Vim Script`,keywords:{$pattern:/[!#@\w]+/,keyword:`N|0 P|0 X|0 a|0 ab abc abo al am an|0 ar arga argd arge argdo argg argl argu as au aug aun b|0 bN ba bad bd be bel bf bl bm bn bo bp br brea breaka breakd breakl bro bufdo buffers bun bw c|0 cN cNf ca cabc caddb cad caddf cal cat cb cc ccl cd ce cex cf cfir cgetb cgete cg changes chd che checkt cl cla clo cm cmapc cme cn cnew cnf cno cnorea cnoreme co col colo com comc comp con conf cope cp cpf cq cr cs cst cu cuna cunme cw delm deb debugg delc delf dif diffg diffo diffp diffpu diffs diffthis dig di dl dell dj dli do doautoa dp dr ds dsp e|0 ea ec echoe echoh echom echon el elsei em en endfo endf endt endw ene ex exe exi exu f|0 files filet fin fina fini fir fix fo foldc foldd folddoc foldo for fu go gr grepa gu gv ha helpf helpg helpt hi hid his ia iabc if ij il im imapc ime ino inorea inoreme int is isp iu iuna iunme j|0 ju k|0 keepa kee keepj lN lNf l|0 lad laddb laddf la lan lat lb lc lch lcl lcs le lefta let lex lf lfir lgetb lgete lg lgr lgrepa lh ll lla lli lmak lm lmapc lne lnew lnf ln loadk lo loc lockv lol lope lp lpf lr ls lt lu lua luad luaf lv lvimgrepa lw m|0 ma mak map mapc marks mat me menut mes mk mks mksp mkv mkvie mod mz mzf nbc nb nbs new nm nmapc nme nn nnoreme noa no noh norea noreme norm nu nun nunme ol o|0 om omapc ome on ono onoreme opt ou ounme ow p|0 profd prof pro promptr pc ped pe perld po popu pp pre prev ps pt ptN ptf ptj ptl ptn ptp ptr pts pu pw py3 python3 py3d py3f py pyd pyf quita qa rec red redi redr redraws reg res ret retu rew ri rightb rub rubyd rubyf rund ru rv sN san sa sal sav sb sbN sba sbf sbl sbm sbn sbp sbr scrip scripte scs se setf setg setl sf sfir sh sim sig sil sl sla sm smap smapc sme sn sni sno snor snoreme sor so spelld spe spelli spellr spellu spellw sp spr sre st sta startg startr star stopi stj sts sun sunm sunme sus sv sw sy synti sync tN tabN tabc tabdo tabe tabf tabfir tabl tabm tabnew tabn tabo tabp tabr tabs tab ta tags tc tcld tclf te tf th tj tl tm tn to tp tr try ts tu u|0 undoj undol una unh unl unlo unm unme uns up ve verb vert vim vimgrepa vi viu vie vm vmapc vme vne vn vnoreme vs vu vunme windo w|0 wN wa wh wi winc winp wn wp wq wqa ws wu wv x|0 xa xmapc xm xme xn xnoreme xu xunme y|0 z|0 ~ Next Print append abbreviate abclear aboveleft all amenu anoremenu args argadd argdelete argedit argglobal arglocal argument ascii autocmd augroup aunmenu buffer bNext ball badd bdelete behave belowright bfirst blast bmodified bnext botright bprevious brewind break breakadd breakdel breaklist browse bunload bwipeout change cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile call catch cbuffer cclose center cexpr cfile cfirst cgetbuffer cgetexpr cgetfile chdir checkpath checktime clist clast close cmap cmapclear cmenu cnext cnewer cnfile cnoremap cnoreabbrev cnoremenu copy colder colorscheme command comclear compiler continue confirm copen cprevious cpfile cquit crewind cscope cstag cunmap cunabbrev cunmenu cwindow delete delmarks debug debuggreedy delcommand delfunction diffupdate diffget diffoff diffpatch diffput diffsplit digraphs display deletel djump dlist doautocmd doautoall deletep drop dsearch dsplit edit earlier echo echoerr echohl echomsg else elseif emenu endif endfor endfunction endtry endwhile enew execute exit exusage file filetype find finally finish first fixdel fold foldclose folddoopen folddoclosed foldopen function global goto grep grepadd gui gvim hardcopy help helpfind helpgrep helptags highlight hide history insert iabbrev iabclear ijump ilist imap imapclear imenu inoremap inoreabbrev inoremenu intro isearch isplit iunmap iunabbrev iunmenu join jumps keepalt keepmarks keepjumps lNext lNfile list laddexpr laddbuffer laddfile last language later lbuffer lcd lchdir lclose lcscope left leftabove lexpr lfile lfirst lgetbuffer lgetexpr lgetfile lgrep lgrepadd lhelpgrep llast llist lmake lmap lmapclear lnext lnewer lnfile lnoremap loadkeymap loadview lockmarks lockvar lolder lopen lprevious lpfile lrewind ltag lunmap luado luafile lvimgrep lvimgrepadd lwindow move mark make mapclear match menu menutranslate messages mkexrc mksession mkspell mkvimrc mkview mode mzscheme mzfile nbclose nbkey nbsart next nmap nmapclear nmenu nnoremap nnoremenu noautocmd noremap nohlsearch noreabbrev noremenu normal number nunmap nunmenu oldfiles open omap omapclear omenu only onoremap onoremenu options ounmap ounmenu ownsyntax print profdel profile promptfind promptrepl pclose pedit perl perldo pop popup ppop preserve previous psearch ptag ptNext ptfirst ptjump ptlast ptnext ptprevious ptrewind ptselect put pwd py3do py3file python pydo pyfile quit quitall qall read recover redo redir redraw redrawstatus registers resize retab return rewind right rightbelow ruby rubydo rubyfile rundo runtime rviminfo substitute sNext sandbox sargument sall saveas sbuffer sbNext sball sbfirst sblast sbmodified sbnext sbprevious sbrewind scriptnames scriptencoding scscope set setfiletype setglobal setlocal sfind sfirst shell simalt sign silent sleep slast smagic smapclear smenu snext sniff snomagic snoremap snoremenu sort source spelldump spellgood spellinfo spellrepall spellundo spellwrong split sprevious srewind stop stag startgreplace startreplace startinsert stopinsert stjump stselect sunhide sunmap sunmenu suspend sview swapname syntax syntime syncbind tNext tabNext tabclose tabedit tabfind tabfirst tablast tabmove tabnext tabonly tabprevious tabrewind tag tcl tcldo tclfile tearoff tfirst throw tjump tlast tmenu tnext topleft tprevious trewind tselect tunmenu undo undojoin undolist unabbreviate unhide unlet unlockvar unmap unmenu unsilent update vglobal version verbose vertical vimgrep vimgrepadd visual viusage view vmap vmapclear vmenu vnew vnoremap vnoremenu vsplit vunmap vunmenu write wNext wall while winsize wincmd winpos wnext wprevious wqall wsverb wundo wviminfo xit xall xmapclear xmap xmenu xnoremap xnoremenu xunmap xunmenu yank`,built_in:`synIDtrans atan2 range matcharg did_filetype asin feedkeys xor argv complete_check add getwinposx getqflist getwinposy screencol clearmatches empty extend getcmdpos mzeval garbagecollect setreg ceil sqrt diff_hlID inputsecret get getfperm getpid filewritable shiftwidth max sinh isdirectory synID system inputrestore winline atan visualmode inputlist tabpagewinnr round getregtype mapcheck hasmapto histdel argidx findfile sha256 exists toupper getcmdline taglist string getmatches bufnr strftime winwidth bufexists strtrans tabpagebuflist setcmdpos remote_read printf setloclist getpos getline bufwinnr float2nr len getcmdtype diff_filler luaeval resolve libcallnr foldclosedend reverse filter has_key bufname str2float strlen setline getcharmod setbufvar index searchpos shellescape undofile foldclosed setqflist buflisted strchars str2nr virtcol floor remove undotree remote_expr winheight gettabwinvar reltime cursor tabpagenr finddir localtime acos getloclist search tanh matchend rename gettabvar strdisplaywidth type abs py3eval setwinvar tolower wildmenumode log10 spellsuggest bufloaded synconcealed nextnonblank server2client complete settabwinvar executable input wincol setmatches getftype hlID inputsave searchpair or screenrow line settabvar histadd deepcopy strpart remote_peek and eval getftime submatch screenchar winsaveview matchadd mkdir screenattr getfontname libcall reltimestr getfsize winnr invert pow getbufline byte2line soundfold repeat fnameescape tagfiles sin strwidth spellbadword trunc maparg log lispindent hostname setpos globpath remote_foreground getchar synIDattr fnamemodify cscope_connection stridx winbufnr indent min complete_add nr2char searchpairpos inputdialog values matchlist items hlexists strridx browsedir expand fmod pathshorten line2byte argc count getwinvar glob foldtextresult getreg foreground cosh matchdelete has char2nr simplify histget searchdecl iconv winrestcmd pumvisible writefile foldlevel haslocaldir keys cos matchstr foldtext histnr tan tempname getcwd byteidx getbufvar islocked escape eventhandler remote_send serverlist winrestview synstack pyeval prevnonblank readfile cindent filereadable changenr exp`},illegal:/;/,contains:[e.NUMBER_MODE,{className:`string`,begin:`'`,end:`'`,illegal:`\\n`},{className:`string`,begin:/"(\\"|\n\\|[^"\n])*"/},e.COMMENT(`"`,`$`),{className:`variable`,begin:/[bwtglsav]:[\w\d_]+/},{begin:[/\b(?:function|function!)/,/\s+/,e.IDENT_RE],className:{1:`keyword`,3:`title`},end:`$`,relevance:0,contains:[{className:`params`,begin:`\\(`,end:`\\)`}]},{className:`symbol`,begin:/<[\w-]+>/}]}}t.exports=n})),In=o(((e,t)=>{function n(e){e.regex;let t=e.COMMENT(/\(;/,/;\)/);return t.contains.push(`self`),{name:`WebAssembly`,keywords:{$pattern:/[\w.]+/,keyword:`anyfunc,block,br,br_if,br_table,call,call_indirect,data,drop,elem,else,end,export,func,global.get,global.set,local.get,local.set,local.tee,get_global,get_local,global,if,import,local,loop,memory,memory.grow,memory.size,module,mut,nop,offset,param,result,return,select,set_global,set_local,start,table,tee_local,then,type,unreachable`.split(`,`)},contains:[e.COMMENT(/;;/,/$/),t,{match:[/(?:offset|align)/,/\s*/,/=/],className:{1:`keyword`,3:`operator`}},{className:`variable`,begin:/\$[\w_]+/},{match:/(\((?!;)|\))+/,className:`punctuation`,relevance:0},{begin:[/(?:func|call|call_indirect)/,/\s+/,/\$[^\s)]+/],className:{1:`keyword`,3:`title.function`}},e.QUOTE_STRING_MODE,{match:/(i32|i64|f32|f64)(?!\.)/,className:`type`},{className:`keyword`,match:/\b(f32|f64|i32|i64)(?:\.(?:abs|add|and|ceil|clz|const|convert_[su]\/i(?:32|64)|copysign|ctz|demote\/f64|div(?:_[su])?|eqz?|extend_[su]\/i32|floor|ge(?:_[su])?|gt(?:_[su])?|le(?:_[su])?|load(?:(?:8|16|32)_[su])?|lt(?:_[su])?|max|min|mul|nearest|neg?|or|popcnt|promote\/f32|reinterpret\/[fi](?:32|64)|rem_[su]|rot[lr]|shl|shr_[su]|store(?:8|16|32)?|sqrt|sub|trunc(?:_[su]\/f(?:32|64))?|wrap\/i64|xor))\b/},{className:`number`,relevance:0,match:/[+-]?\b(?:\d(?:_?\d)*(?:\.\d(?:_?\d)*)?(?:[eE][+-]?\d(?:_?\d)*)?|0x[\da-fA-F](?:_?[\da-fA-F])*(?:\.[\da-fA-F](?:_?[\da-fA-D])*)?(?:[pP][+-]?\d(?:_?\d)*)?)\b|\binf\b|\bnan(?::0x[\da-fA-F](?:_?[\da-fA-D])*)?\b/}]}}t.exports=n})),Ln=o(((e,t)=>{function n(e){let t=e.regex,n=/[a-zA-Z]\w*/,r=[`as`,`break`,`class`,`construct`,`continue`,`else`,`for`,`foreign`,`if`,`import`,`in`,`is`,`return`,`static`,`var`,`while`],i=[`true`,`false`,`null`],a=[`this`,`super`],o=[`Bool`,`Class`,`Fiber`,`Fn`,`List`,`Map`,`Null`,`Num`,`Object`,`Range`,`Sequence`,`String`,`System`],s=[`-`,`~`,/\*/,`%`,/\.\.\./,/\.\./,/\+/,`<<`,`>>`,`>=`,`<=`,`<`,`>`,/\^/,/!=/,/!/,/\bis\b/,`==`,`&&`,`&`,/\|\|/,/\|/,/\?:/,`=`],c={relevance:0,match:t.concat(/\b(?!(if|while|for|else|super)\b)/,n,/(?=\s*[({])/),className:`title.function`},l={match:t.concat(t.either(t.concat(/\b(?!(if|while|for|else|super)\b)/,n),t.either(...s)),/(?=\s*\([^)]+\)\s*\{)/),className:`title.function`,starts:{contains:[{begin:/\(/,end:/\)/,contains:[{relevance:0,scope:`params`,match:n}]}]}},u={variants:[{match:[/class\s+/,n,/\s+is\s+/,n]},{match:[/class\s+/,n]}],scope:{2:`title.class`,4:`title.class.inherited`},keywords:r},d={relevance:0,match:t.either(...s),className:`operator`},f={className:`string`,begin:/"""/,end:/"""/},p={className:`property`,begin:t.concat(/\./,t.lookahead(n)),end:n,excludeBegin:!0,relevance:0},m={relevance:0,match:t.concat(/\b_/,n),scope:`variable`},h={relevance:0,match:/\b[A-Z]+[a-z]+([A-Z]+[a-z]+)*/,scope:`title.class`,keywords:{_:o}},g=e.C_NUMBER_MODE,_={match:[n,/\s*/,/=/,/\s*/,/\(/,n,/\)\s*\{/],scope:{1:`title.function`,3:`operator`,6:`params`}},v=e.COMMENT(/\/\*\*/,/\*\//,{contains:[{match:/@[a-z]+/,scope:`doctag`},`self`]}),y={scope:`subst`,begin:/%\(/,end:/\)/,contains:[g,h,c,m,d]},b={scope:`string`,begin:/"/,end:/"/,contains:[y,{scope:`char.escape`,variants:[{match:/\\\\|\\["0%abefnrtv]/},{match:/\\x[0-9A-F]{2}/},{match:/\\u[0-9A-F]{4}/},{match:/\\U[0-9A-F]{8}/}]}]};y.contains.push(b);let x=[...r,...a,...i],S={relevance:0,match:t.concat(`\\b(?!`,x.join(`|`),`\\b)`,/[a-zA-Z_]\w*(?:[?!]|\b)/),className:`variable`};return{name:`Wren`,keywords:{keyword:r,"variable.language":a,literal:i},contains:[{scope:`comment`,variants:[{begin:[/#!?/,/[A-Za-z_]+(?=\()/],beginScope:{},keywords:{literal:i},contains:[],end:/\)/},{begin:[/#!?/,/[A-Za-z_]+/],beginScope:{},end:/$/}]},g,b,f,v,e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,h,u,_,l,c,d,m,p,S]}}t.exports=n})),Rn=o(((e,t)=>{function n(e){return{name:`Intel x86 Assembly`,case_insensitive:!0,keywords:{$pattern:`[.%]?`+e.IDENT_RE,keyword:`lock rep repe repz repne repnz xaquire xrelease bnd nobnd aaa aad aam aas adc add and arpl bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts call cbw cdq cdqe clc cld cli clts cmc cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg486 cmpxchg8b cmpxchg16b cpuid cpu_read cpu_write cqo cwd cwde daa das dec div dmint emms enter equ f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip fucomp fucompp fxam fxch fxtract fyl2x fyl2xp1 hlt ibts icebp idiv imul in inc incbin insb insd insw int int01 int1 int03 int3 into invd invpcid invlpg invlpga iret iretd iretq iretw jcxz jecxz jrcxz jmp jmpe lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait neg nop not or out outsb outsd outsw packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad pushaw pushf pushfd pushfq pushfw pxor rcl rcr rdshr rdmsr rdpmc rdtsc rdtscp ret retf retn rol ror rdm rsdc rsldt rsm rsts sahf sal salc sar sbb scasb scasd scasq scasw sfence sgdt shl shld shr shrd sidt sldt skinit smi smint smintold smsw stc std sti stosb stosd stosq stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret test ud0 ud1 ud2b ud2 ud2a umov verr verw fwait wbinvd wrshr wrmsr xadd xbts xchg xlatb xlat xor cmove cmovz cmovne cmovnz cmova cmovnbe cmovae cmovnb cmovb cmovnae cmovbe cmovna cmovg cmovnle cmovge cmovnl cmovl cmovnge cmovle cmovng cmovc cmovnc cmovo cmovno cmovs cmovns cmovp cmovpe cmovnp cmovpo je jz jne jnz ja jnbe jae jnb jb jnae jbe jna jg jnle jge jnl jl jnge jle jng jc jnc jo jno js jns jpo jnp jpe jp sete setz setne setnz seta setnbe setae setnb setnc setb setnae setcset setbe setna setg setnle setge setnl setl setnge setle setng sets setns seto setno setpe setp setpo setnp addps addss andnps andps cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpunordps cmpunordss cmpps cmpss comiss cvtpi2ps cvtps2pi cvtsi2ss cvtss2si cvttps2pi cvttss2si divps divss ldmxcsr maxps maxss minps minss movaps movhps movlhps movlps movhlps movmskps movntps movss movups mulps mulss orps rcpps rcpss rsqrtps rsqrtss shufps sqrtps sqrtss stmxcsr subps subss ucomiss unpckhps unpcklps xorps fxrstor fxrstor64 fxsave fxsave64 xgetbv xsetbv xsave xsave64 xsaveopt xsaveopt64 xrstor xrstor64 prefetchnta prefetcht0 prefetcht1 prefetcht2 maskmovq movntq pavgb pavgw pextrw pinsrw pmaxsw pmaxub pminsw pminub pmovmskb pmulhuw psadbw pshufw pf2iw pfnacc pfpnacc pi2fw pswapd maskmovdqu clflush movntdq movnti movntpd movdqa movdqu movdq2q movq2dq paddq pmuludq pshufd pshufhw pshuflw pslldq psrldq psubq punpckhqdq punpcklqdq addpd addsd andnpd andpd cmpeqpd cmpeqsd cmplepd cmplesd cmpltpd cmpltsd cmpneqpd cmpneqsd cmpnlepd cmpnlesd cmpnltpd cmpnltsd cmpordpd cmpordsd cmpunordpd cmpunordsd cmppd comisd cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtps2dq cvtps2pd cvtsd2si cvtsd2ss cvtsi2sd cvtss2sd cvttpd2pi cvttpd2dq cvttps2dq cvttsd2si divpd divsd maxpd maxsd minpd minsd movapd movhpd movlpd movmskpd movupd mulpd mulsd orpd shufpd sqrtpd sqrtsd subpd subsd ucomisd unpckhpd unpcklpd xorpd addsubpd addsubps haddpd haddps hsubpd hsubps lddqu movddup movshdup movsldup clgi stgi vmcall vmclear vmfunc vmlaunch vmload vmmcall vmptrld vmptrst vmread vmresume vmrun vmsave vmwrite vmxoff vmxon invept invvpid pabsb pabsw pabsd palignr phaddw phaddd phaddsw phsubw phsubd phsubsw pmaddubsw pmulhrsw pshufb psignb psignw psignd extrq insertq movntsd movntss lzcnt blendpd blendps blendvpd blendvps dppd dpps extractps insertps movntdqa mpsadbw packusdw pblendvb pblendw pcmpeqq pextrb pextrd pextrq phminposuw pinsrb pinsrd pinsrq pmaxsb pmaxsd pmaxud pmaxuw pminsb pminsd pminud pminuw pmovsxbw pmovsxbd pmovsxbq pmovsxwd pmovsxwq pmovsxdq pmovzxbw pmovzxbd pmovzxbq pmovzxwd pmovzxwq pmovzxdq pmuldq pmulld ptest roundpd roundps roundsd roundss crc32 pcmpestri pcmpestrm pcmpistri pcmpistrm pcmpgtq popcnt getsec pfrcpv pfrsqrtv movbe aesenc aesenclast aesdec aesdeclast aesimc aeskeygenassist vaesenc vaesenclast vaesdec vaesdeclast vaesimc vaeskeygenassist vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vandpd vandps vandnpd vandnps vblendpd vblendps vblendvpd vblendvps vbroadcastss vbroadcastsd vbroadcastf128 vcmpeq_ospd vcmpeqpd vcmplt_ospd vcmpltpd vcmple_ospd vcmplepd vcmpunord_qpd vcmpunordpd vcmpneq_uqpd vcmpneqpd vcmpnlt_uspd vcmpnltpd vcmpnle_uspd vcmpnlepd vcmpord_qpd vcmpordpd vcmpeq_uqpd vcmpnge_uspd vcmpngepd vcmpngt_uspd vcmpngtpd vcmpfalse_oqpd vcmpfalsepd vcmpneq_oqpd vcmpge_ospd vcmpgepd vcmpgt_ospd vcmpgtpd vcmptrue_uqpd vcmptruepd vcmplt_oqpd vcmple_oqpd vcmpunord_spd vcmpneq_uspd vcmpnlt_uqpd vcmpnle_uqpd vcmpord_spd vcmpeq_uspd vcmpnge_uqpd vcmpngt_uqpd vcmpfalse_ospd vcmpneq_ospd vcmpge_oqpd vcmpgt_oqpd vcmptrue_uspd vcmppd vcmpeq_osps vcmpeqps vcmplt_osps vcmpltps vcmple_osps vcmpleps vcmpunord_qps vcmpunordps vcmpneq_uqps vcmpneqps vcmpnlt_usps vcmpnltps vcmpnle_usps vcmpnleps vcmpord_qps vcmpordps vcmpeq_uqps vcmpnge_usps vcmpngeps vcmpngt_usps vcmpngtps vcmpfalse_oqps vcmpfalseps vcmpneq_oqps vcmpge_osps vcmpgeps vcmpgt_osps vcmpgtps vcmptrue_uqps vcmptrueps vcmplt_oqps vcmple_oqps vcmpunord_sps vcmpneq_usps vcmpnlt_uqps vcmpnle_uqps vcmpord_sps vcmpeq_usps vcmpnge_uqps vcmpngt_uqps vcmpfalse_osps vcmpneq_osps vcmpge_oqps vcmpgt_oqps vcmptrue_usps vcmpps vcmpeq_ossd vcmpeqsd vcmplt_ossd vcmpltsd vcmple_ossd vcmplesd vcmpunord_qsd vcmpunordsd vcmpneq_uqsd vcmpneqsd vcmpnlt_ussd vcmpnltsd vcmpnle_ussd vcmpnlesd vcmpord_qsd vcmpordsd vcmpeq_uqsd vcmpnge_ussd vcmpngesd vcmpngt_ussd vcmpngtsd vcmpfalse_oqsd vcmpfalsesd vcmpneq_oqsd vcmpge_ossd vcmpgesd vcmpgt_ossd vcmpgtsd vcmptrue_uqsd vcmptruesd vcmplt_oqsd vcmple_oqsd vcmpunord_ssd vcmpneq_ussd vcmpnlt_uqsd vcmpnle_uqsd vcmpord_ssd vcmpeq_ussd vcmpnge_uqsd vcmpngt_uqsd vcmpfalse_ossd vcmpneq_ossd vcmpge_oqsd vcmpgt_oqsd vcmptrue_ussd vcmpsd vcmpeq_osss vcmpeqss vcmplt_osss vcmpltss vcmple_osss vcmpless vcmpunord_qss vcmpunordss vcmpneq_uqss vcmpneqss vcmpnlt_usss vcmpnltss vcmpnle_usss vcmpnless vcmpord_qss vcmpordss vcmpeq_uqss vcmpnge_usss vcmpngess vcmpngt_usss vcmpngtss vcmpfalse_oqss vcmpfalsess vcmpneq_oqss vcmpge_osss vcmpgess vcmpgt_osss vcmpgtss vcmptrue_uqss vcmptruess vcmplt_oqss vcmple_oqss vcmpunord_sss vcmpneq_usss vcmpnlt_uqss vcmpnle_uqss vcmpord_sss vcmpeq_usss vcmpnge_uqss vcmpngt_uqss vcmpfalse_osss vcmpneq_osss vcmpge_oqss vcmpgt_oqss vcmptrue_usss vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtps2dq vcvtps2pd vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinsertps vlddqu vldqqu vldmxcsr vmaskmovdqu vmaskmovps vmaskmovpd vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmovapd vmovaps vmovd vmovq vmovddup vmovdqa vmovqqa vmovdqu vmovqqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq vmovntqq vmovntdqa vmovntpd vmovntps vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsw vpabsd vpacksswb vpackssdw vpackuswb vpackusdw vpaddb vpaddw vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpcmpestri vpcmpestrm vpcmpistri vpcmpistrm vpcmpeqb vpcmpeqw vpcmpeqd vpcmpeqq vpcmpgtb vpcmpgtw vpcmpgtd vpcmpgtq vpermilpd vpermilps vperm2f128 vpextrb vpextrw vpextrd vpextrq vphaddw vphaddd vphaddsw vphminposuw vphsubw vphsubd vphsubsw vpinsrb vpinsrw vpinsrd vpinsrq vpmaddwd vpmaddubsw vpmaxsb vpmaxsw vpmaxsd vpmaxub vpmaxuw vpmaxud vpminsb vpminsw vpminsd vpminub vpminuw vpminud vpmovmskb vpmovsxbw vpmovsxbd vpmovsxbq vpmovsxwd vpmovsxwq vpmovsxdq vpmovzxbw vpmovzxbd vpmovzxbq vpmovzxwd vpmovzxwq vpmovzxdq vpmulhuw vpmulhrsw vpmulhw vpmullw vpmulld vpmuludq vpmuldq vpor vpsadbw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignw vpsignd vpslldq vpsrldq vpsllw vpslld vpsllq vpsraw vpsrad vpsrlw vpsrld vpsrlq vptest vpsubb vpsubw vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpunpckhbw vpunpckhwd vpunpckhdq vpunpckhqdq vpunpcklbw vpunpcklwd vpunpckldq vpunpcklqdq vpxor vrcpps vrcpss vrsqrtps vrsqrtss vroundpd vroundps vroundsd vroundss vshufpd vshufps vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestps vtestpd vucomisd vucomiss vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper pclmullqlqdq pclmulhqlqdq pclmullqhqdq pclmulhqhqdq pclmulqdq vpclmullqlqdq vpclmulhqlqdq vpclmullqhqdq vpclmulhqhqdq vpclmulqdq vfmadd132ps vfmadd132pd vfmadd312ps vfmadd312pd vfmadd213ps vfmadd213pd vfmadd123ps vfmadd123pd vfmadd231ps vfmadd231pd vfmadd321ps vfmadd321pd vfmaddsub132ps vfmaddsub132pd vfmaddsub312ps vfmaddsub312pd vfmaddsub213ps vfmaddsub213pd vfmaddsub123ps vfmaddsub123pd vfmaddsub231ps vfmaddsub231pd vfmaddsub321ps vfmaddsub321pd vfmsub132ps vfmsub132pd vfmsub312ps vfmsub312pd vfmsub213ps vfmsub213pd vfmsub123ps vfmsub123pd vfmsub231ps vfmsub231pd vfmsub321ps vfmsub321pd vfmsubadd132ps vfmsubadd132pd vfmsubadd312ps vfmsubadd312pd vfmsubadd213ps vfmsubadd213pd vfmsubadd123ps vfmsubadd123pd vfmsubadd231ps vfmsubadd231pd vfmsubadd321ps vfmsubadd321pd vfnmadd132ps vfnmadd132pd vfnmadd312ps vfnmadd312pd vfnmadd213ps vfnmadd213pd vfnmadd123ps vfnmadd123pd vfnmadd231ps vfnmadd231pd vfnmadd321ps vfnmadd321pd vfnmsub132ps vfnmsub132pd vfnmsub312ps vfnmsub312pd vfnmsub213ps vfnmsub213pd vfnmsub123ps vfnmsub123pd vfnmsub231ps vfnmsub231pd vfnmsub321ps vfnmsub321pd vfmadd132ss vfmadd132sd vfmadd312ss vfmadd312sd vfmadd213ss vfmadd213sd vfmadd123ss vfmadd123sd vfmadd231ss vfmadd231sd vfmadd321ss vfmadd321sd vfmsub132ss vfmsub132sd vfmsub312ss vfmsub312sd vfmsub213ss vfmsub213sd vfmsub123ss vfmsub123sd vfmsub231ss vfmsub231sd vfmsub321ss vfmsub321sd vfnmadd132ss vfnmadd132sd vfnmadd312ss vfnmadd312sd vfnmadd213ss vfnmadd213sd vfnmadd123ss vfnmadd123sd vfnmadd231ss vfnmadd231sd vfnmadd321ss vfnmadd321sd vfnmsub132ss vfnmsub132sd vfnmsub312ss vfnmsub312sd vfnmsub213ss vfnmsub213sd vfnmsub123ss vfnmsub123sd vfnmsub231ss vfnmsub231sd vfnmsub321ss vfnmsub321sd rdfsbase rdgsbase rdrand wrfsbase wrgsbase vcvtph2ps vcvtps2ph adcx adox rdseed clac stac xstore xcryptecb xcryptcbc xcryptctr xcryptcfb xcryptofb montmul xsha1 xsha256 llwpcb slwpcb lwpval lwpins vfmaddpd vfmaddps vfmaddsd vfmaddss vfmaddsubpd vfmaddsubps vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vpcmov vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vphaddbd vphaddbq vphaddbw vphadddq vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddwd vphaddwq vphsubbw vphsubdq vphsubwd vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpperm vprotb vprotd vprotq vprotw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vbroadcasti128 vpblendd vpbroadcastb vpbroadcastw vpbroadcastd vpbroadcastq vpermd vpermpd vpermps vpermq vperm2i128 vextracti128 vinserti128 vpmaskmovd vpmaskmovq vpsllvd vpsllvq vpsravd vpsrlvd vpsrlvq vgatherdpd vgatherqpd vgatherdps vgatherqps vpgatherdd vpgatherqd vpgatherdq vpgatherqq xabort xbegin xend xtest andn bextr blci blcic blsi blsic blcfill blsfill blcmsk blsmsk blsr blcs bzhi mulx pdep pext rorx sarx shlx shrx tzcnt tzmsk t1mskc valignd valignq vblendmpd vblendmps vbroadcastf32x4 vbroadcastf64x4 vbroadcasti32x4 vbroadcasti64x4 vcompresspd vcompressps vcvtpd2udq vcvtps2udq vcvtsd2usi vcvtss2usi vcvttpd2udq vcvttps2udq vcvttsd2usi vcvttss2usi vcvtudq2pd vcvtudq2ps vcvtusi2sd vcvtusi2ss vexpandpd vexpandps vextractf32x4 vextractf64x4 vextracti32x4 vextracti64x4 vfixupimmpd vfixupimmps vfixupimmsd vfixupimmss vgetexppd vgetexpps vgetexpsd vgetexpss vgetmantpd vgetmantps vgetmantsd vgetmantss vinsertf32x4 vinsertf64x4 vinserti32x4 vinserti64x4 vmovdqa32 vmovdqa64 vmovdqu32 vmovdqu64 vpabsq vpandd vpandnd vpandnq vpandq vpblendmd vpblendmq vpcmpltd vpcmpled vpcmpneqd vpcmpnltd vpcmpnled vpcmpd vpcmpltq vpcmpleq vpcmpneqq vpcmpnltq vpcmpnleq vpcmpq vpcmpequd vpcmpltud vpcmpleud vpcmpnequd vpcmpnltud vpcmpnleud vpcmpud vpcmpequq vpcmpltuq vpcmpleuq vpcmpnequq vpcmpnltuq vpcmpnleuq vpcmpuq vpcompressd vpcompressq vpermi2d vpermi2pd vpermi2ps vpermi2q vpermt2d vpermt2pd vpermt2ps vpermt2q vpexpandd vpexpandq vpmaxsq vpmaxuq vpminsq vpminuq vpmovdb vpmovdw vpmovqb vpmovqd vpmovqw vpmovsdb vpmovsdw vpmovsqb vpmovsqd vpmovsqw vpmovusdb vpmovusdw vpmovusqb vpmovusqd vpmovusqw vpord vporq vprold vprolq vprolvd vprolvq vprord vprorq vprorvd vprorvq vpscatterdd vpscatterdq vpscatterqd vpscatterqq vpsraq vpsravq vpternlogd vpternlogq vptestmd vptestmq vptestnmd vptestnmq vpxord vpxorq vrcp14pd vrcp14ps vrcp14sd vrcp14ss vrndscalepd vrndscaleps vrndscalesd vrndscaless vrsqrt14pd vrsqrt14ps vrsqrt14sd vrsqrt14ss vscalefpd vscalefps vscalefsd vscalefss vscatterdpd vscatterdps vscatterqpd vscatterqps vshuff32x4 vshuff64x2 vshufi32x4 vshufi64x2 kandnw kandw kmovw knotw kortestw korw kshiftlw kshiftrw kunpckbw kxnorw kxorw vpbroadcastmb2q vpbroadcastmw2d vpconflictd vpconflictq vplzcntd vplzcntq vexp2pd vexp2ps vrcp28pd vrcp28ps vrcp28sd vrcp28ss vrsqrt28pd vrsqrt28ps vrsqrt28sd vrsqrt28ss vgatherpf0dpd vgatherpf0dps vgatherpf0qpd vgatherpf0qps vgatherpf1dpd vgatherpf1dps vgatherpf1qpd vgatherpf1qps vscatterpf0dpd vscatterpf0dps vscatterpf0qpd vscatterpf0qps vscatterpf1dpd vscatterpf1dps vscatterpf1qpd vscatterpf1qps prefetchwt1 bndmk bndcl bndcu bndcn bndmov bndldx bndstx sha1rnds4 sha1nexte sha1msg1 sha1msg2 sha256rnds2 sha256msg1 sha256msg2 hint_nop0 hint_nop1 hint_nop2 hint_nop3 hint_nop4 hint_nop5 hint_nop6 hint_nop7 hint_nop8 hint_nop9 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15 hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop20 hint_nop21 hint_nop22 hint_nop23 hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop30 hint_nop31 hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48 hint_nop49 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56 hint_nop57 hint_nop58 hint_nop59 hint_nop60 hint_nop61 hint_nop62 hint_nop63`,built_in:`ip eip rip al ah bl bh cl ch dl dh sil dil bpl spl r8b r9b r10b r11b r12b r13b r14b r15b ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w eax ebx ecx edx esi edi ebp esp eip r8d r9d r10d r11d r12d r13d r14d r15d rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15 cs ds es fs gs ss st st0 st1 st2 st3 st4 st5 st6 st7 mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7 xmm0  xmm1  xmm2  xmm3  xmm4  xmm5  xmm6  xmm7  xmm8  xmm9 xmm10  xmm11 xmm12 xmm13 xmm14 xmm15 xmm16 xmm17 xmm18 xmm19 xmm20 xmm21 xmm22 xmm23 xmm24 xmm25 xmm26 xmm27 xmm28 xmm29 xmm30 xmm31 ymm0  ymm1  ymm2  ymm3  ymm4  ymm5  ymm6  ymm7  ymm8  ymm9 ymm10  ymm11 ymm12 ymm13 ymm14 ymm15 ymm16 ymm17 ymm18 ymm19 ymm20 ymm21 ymm22 ymm23 ymm24 ymm25 ymm26 ymm27 ymm28 ymm29 ymm30 ymm31 zmm0  zmm1  zmm2  zmm3  zmm4  zmm5  zmm6  zmm7  zmm8  zmm9 zmm10  zmm11 zmm12 zmm13 zmm14 zmm15 zmm16 zmm17 zmm18 zmm19 zmm20 zmm21 zmm22 zmm23 zmm24 zmm25 zmm26 zmm27 zmm28 zmm29 zmm30 zmm31 k0 k1 k2 k3 k4 k5 k6 k7 bnd0 bnd1 bnd2 bnd3 cr0 cr1 cr2 cr3 cr4 cr8 dr0 dr1 dr2 dr3 dr8 tr3 tr4 tr5 tr6 tr7 r0 r1 r2 r3 r4 r5 r6 r7 r0b r1b r2b r3b r4b r5b r6b r7b r0w r1w r2w r3w r4w r5w r6w r7w r0d r1d r2d r3d r4d r5d r6d r7d r0h r1h r2h r3h r0l r1l r2l r3l r4l r5l r6l r7l r8l r9l r10l r11l r12l r13l r14l r15l db dw dd dq dt ddq do dy dz resb resw resd resq rest resdq reso resy resz incbin equ times byte word dword qword nosplit rel abs seg wrt strict near far a32 ptr`,meta:`%define %xdefine %+ %undef %defstr %deftok %assign %strcat %strlen %substr %rotate %elif %else %endif %if %ifmacro %ifctx %ifidn %ifidni %ifid %ifnum %ifstr %iftoken %ifempty %ifenv %error %warning %fatal %rep %endrep %include %push %pop %repl %pathsearch %depend %use %arg %stacksize %local %line %comment %endcomment .nolist __FILE__ __LINE__ __SECT__  __BITS__ __OUTPUT_FORMAT__ __DATE__ __TIME__ __DATE_NUM__ __TIME_NUM__ __UTC_DATE__ __UTC_TIME__ __UTC_DATE_NUM__ __UTC_TIME_NUM__  __PASS__ struc endstruc istruc at iend align alignb sectalign daz nodaz up down zero default option assume public bits use16 use32 use64 default section segment absolute extern global common cpu float __utf16__ __utf16le__ __utf16be__ __utf32__ __utf32le__ __utf32be__ __float8__ __float16__ __float32__ __float64__ __float80m__ __float80e__ __float128l__ __float128h__ __Infinity__ __QNaN__ __SNaN__ Inf NaN QNaN SNaN float8 float16 float32 float64 float80m float80e float128l float128h __FLOAT_DAZ__ __FLOAT_ROUND__ __FLOAT__`},contains:[e.COMMENT(`;`,`$`,{relevance:0}),{className:`number`,variants:[{begin:`\\b(?:([0-9][0-9_]*)?\\.[0-9_]*(?:[eE][+-]?[0-9_]+)?|(0[Xx])?[0-9][0-9_]*(\\.[0-9_]*)?(?:[pP](?:[+-]?[0-9_]+)?)?)\\b`,relevance:0},{begin:`\\$[0-9][0-9A-Fa-f]*`,relevance:0},{begin:`\\b(?:[0-9A-Fa-f][0-9A-Fa-f_]*[Hh]|[0-9][0-9_]*[DdTt]?|[0-7][0-7_]*[QqOo]|[0-1][0-1_]*[BbYy])\\b`},{begin:`\\b(?:0[Xx][0-9A-Fa-f_]+|0[DdTt][0-9_]+|0[QqOo][0-7_]+|0[BbYy][0-1_]+)\\b`}]},e.QUOTE_STRING_MODE,{className:`string`,variants:[{begin:`'`,end:`[^\\\\]'`},{begin:"`",end:"[^\\\\]`"}],relevance:0},{className:`symbol`,variants:[{begin:`^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)`},{begin:`^\\s*%%[A-Za-z0-9_$#@~.?]*:`}],relevance:0},{className:`subst`,begin:`%[0-9]+`,relevance:0},{className:`subst`,begin:`%!S+`,relevance:0},{className:`meta`,begin:/^\s*\.[\w_-]+/}]}}t.exports=n})),zn=o(((e,t)=>{function n(e){let t={$pattern:/[a-zA-Z][a-zA-Z0-9_?]*/,keyword:`if.then.else.do.while.until.for.loop.import.with.is.as.where.when.by.data.constant.integer.real.text.name.boolean.symbol.infix.prefix.postfix.block.tree`.split(`.`),literal:[`true`,`false`,`nil`],built_in:`in.mod.rem.and.or.xor.not.abs.sign.floor.ceil.sqrt.sin.cos.tan.asin.acos.atan.exp.expm1.log.log2.log10.log1p.pi.at.text_length.text_range.text_find.text_replace.contains.page.slide.basic_slide.title_slide.title.subtitle.fade_in.fade_out.fade_at.clear_color.color.line_color.line_width.texture_wrap.texture_transform.texture.scale_?x.scale_?y.scale_?z?.translate_?x.translate_?y.translate_?z?.rotate_?x.rotate_?y.rotate_?z?.rectangle.circle.ellipse.sphere.path.line_to.move_to.quad_to.curve_to.theme.background.contents.locally.time.mouse_?x.mouse_?y.mouse_buttons`.split(`.`).concat([`ObjectLoader`,`Animate`,`MovieCredits`,`Slides`,`Filters`,`Shading`,`Materials`,`LensFlare`,`Mapping`,`VLCAudioVideo`,`StereoDecoder`,`PointCloud`,`NetworkAccess`,`RemoteControl`,`RegExp`,`ChromaKey`,`Snowfall`,`NodeJS`,`Speech`,`Charts`])},n={className:`string`,begin:`"`,end:`"`,illegal:`\\n`},r={className:`string`,begin:`'`,end:`'`,illegal:`\\n`},i={className:`string`,begin:`<<`,end:`>>`},a={className:`number`,begin:`[0-9]+#[0-9A-Z_]+(\\.[0-9-A-Z_]+)?#?([Ee][+-]?[0-9]+)?`},o={beginKeywords:`import`,end:`$`,keywords:t,contains:[n]},s={className:`function`,begin:/[a-z][^\n]*->/,returnBegin:!0,end:/->/,contains:[e.inherit(e.TITLE_MODE,{starts:{endsWithParent:!0,keywords:t}})]};return{name:`XL`,aliases:[`tao`],keywords:t,contains:[e.C_LINE_COMMENT_MODE,e.C_BLOCK_COMMENT_MODE,n,r,i,s,o,a,e.NUMBER_MODE]}}t.exports=n})),Bn=o(((e,t)=>{function n(e){return{name:`XQuery`,aliases:[`xpath`,`xq`,`xqm`],case_insensitive:!1,illegal:/(proc)|(abstract)|(extends)|(until)|(#)/,keywords:{$pattern:/[a-zA-Z$][a-zA-Z0-9_:-]*/,keyword:`module.schema.namespace.boundary-space.preserve.no-preserve.strip.default.collation.base-uri.ordering.context.decimal-format.decimal-separator.copy-namespaces.empty-sequence.except.exponent-separator.external.grouping-separator.inherit.no-inherit.lax.minus-sign.per-mille.percent.schema-attribute.schema-element.strict.unordered.zero-digit.declare.import.option.function.validate.variable.for.at.in.let.where.order.group.by.return.if.then.else.tumbling.sliding.window.start.when.only.end.previous.next.stable.ascending.descending.allowing.empty.greatest.least.some.every.satisfies.switch.case.typeswitch.try.catch.and.or.to.union.intersect.instance.of.treat.as.castable.cast.map.array.delete.insert.into.replace.value.rename.copy.modify.update`.split(`.`),type:`item.document-node.node.attribute.document.element.comment.namespace.namespace-node.processing-instruction.text.construction.xs:anyAtomicType.xs:untypedAtomic.xs:duration.xs:time.xs:decimal.xs:float.xs:double.xs:gYearMonth.xs:gYear.xs:gMonthDay.xs:gMonth.xs:gDay.xs:boolean.xs:base64Binary.xs:hexBinary.xs:anyURI.xs:QName.xs:NOTATION.xs:dateTime.xs:dateTimeStamp.xs:date.xs:string.xs:normalizedString.xs:token.xs:language.xs:NMTOKEN.xs:Name.xs:NCName.xs:ID.xs:IDREF.xs:ENTITY.xs:integer.xs:nonPositiveInteger.xs:negativeInteger.xs:long.xs:int.xs:short.xs:byte.xs:nonNegativeInteger.xs:unisignedLong.xs:unsignedInt.xs:unsignedShort.xs:unsignedByte.xs:positiveInteger.xs:yearMonthDuration.xs:dayTimeDuration`.split(`.`),literal:[`eq`,`ne`,`lt`,`le`,`gt`,`ge`,`is`,`self::`,`child::`,`descendant::`,`descendant-or-self::`,`attribute::`,`following::`,`following-sibling::`,`parent::`,`ancestor::`,`ancestor-or-self::`,`preceding::`,`preceding-sibling::`,`NaN`]},contains:[{className:`variable`,begin:/[$][\w\-:]+/},{className:`built_in`,variants:[{begin:/\barray:/,end:/(?:append|filter|flatten|fold-(?:left|right)|for-each(?:-pair)?|get|head|insert-before|join|put|remove|reverse|size|sort|subarray|tail)\b/},{begin:/\bmap:/,end:/(?:contains|entry|find|for-each|get|keys|merge|put|remove|size)\b/},{begin:/\bmath:/,end:/(?:a(?:cos|sin|tan[2]?)|cos|exp(?:10)?|log(?:10)?|pi|pow|sin|sqrt|tan)\b/},{begin:/\bop:/,end:/\(/,excludeEnd:!0},{begin:/\bfn:/,end:/\(/,excludeEnd:!0},{begin:/[^</$:'"-]\b(?:abs|accumulator-(?:after|before)|adjust-(?:date(?:Time)?|time)-to-timezone|analyze-string|apply|available-(?:environment-variables|system-properties)|avg|base-uri|boolean|ceiling|codepoints?-(?:equal|to-string)|collation-key|collection|compare|concat|contains(?:-token)?|copy-of|count|current(?:-)?(?:date(?:Time)?|time|group(?:ing-key)?|output-uri|merge-(?:group|key))?data|dateTime|days?-from-(?:date(?:Time)?|duration)|deep-equal|default-(?:collation|language)|distinct-values|document(?:-uri)?|doc(?:-available)?|element-(?:available|with-id)|empty|encode-for-uri|ends-with|environment-variable|error|escape-html-uri|exactly-one|exists|false|filter|floor|fold-(?:left|right)|for-each(?:-pair)?|format-(?:date(?:Time)?|time|integer|number)|function-(?:arity|available|lookup|name)|generate-id|has-children|head|hours-from-(?:dateTime|duration|time)|id(?:ref)?|implicit-timezone|in-scope-prefixes|index-of|innermost|insert-before|iri-to-uri|json-(?:doc|to-xml)|key|lang|last|load-xquery-module|local-name(?:-from-QName)?|(?:lower|upper)-case|matches|max|minutes-from-(?:dateTime|duration|time)|min|months?-from-(?:date(?:Time)?|duration)|name(?:space-uri-?(?:for-prefix|from-QName)?)?|nilled|node-name|normalize-(?:space|unicode)|not|number|one-or-more|outermost|parse-(?:ietf-date|json)|path|position|(?:prefix-from-)?QName|random-number-generator|regex-group|remove|replace|resolve-(?:QName|uri)|reverse|root|round(?:-half-to-even)?|seconds-from-(?:dateTime|duration|time)|snapshot|sort|starts-with|static-base-uri|stream-available|string-?(?:join|length|to-codepoints)?|subsequence|substring-?(?:after|before)?|sum|system-property|tail|timezone-from-(?:date(?:Time)?|time)|tokenize|trace|trans(?:form|late)|true|type-available|unordered|unparsed-(?:entity|text)?-?(?:public-id|uri|available|lines)?|uri-collection|xml-to-json|years?-from-(?:date(?:Time)?|duration)|zero-or-one)\b/},{begin:/\blocal:/,end:/\(/,excludeEnd:!0},{begin:/\bzip:/,end:/(?:zip-file|(?:xml|html|text|binary)-entry| (?:update-)?entries)\b/},{begin:/\b(?:util|db|functx|app|xdmp|xmldb):/,end:/\(/,excludeEnd:!0}]},{className:`string`,variants:[{begin:/"/,end:/"/,contains:[{begin:/""/,relevance:0}]},{begin:/'/,end:/'/,contains:[{begin:/''/,relevance:0}]}]},{className:`number`,begin:/(\b0[0-7_]+)|(\b0x[0-9a-fA-F_]+)|(\b[1-9][0-9_]*(\.[0-9_]+)?)|[0_]\b/,relevance:0},{className:`comment`,begin:/\(:/,end:/:\)/,relevance:10,contains:[{className:`doctag`,begin:/@\w+/}]},{className:`meta`,begin:/%[\w\-:]+/},{className:`title`,begin:/\bxquery version "[13]\.[01]"\s?(?:encoding ".+")?/,end:/;/},{beginKeywords:`element attribute comment document processing-instruction`,end:/\{/,excludeEnd:!0},{begin:/<([\w._:-]+)(\s+\S*=('|").*('|"))?>/,end:/(\/[\w._:-]+>)/,subLanguage:`xml`,contains:[{begin:/\{/,end:/\}/,subLanguage:`xquery`},`self`]}]}}t.exports=n})),Vn=o(((e,t)=>{function n(e){let t={className:`string`,contains:[e.BACKSLASH_ESCAPE],variants:[e.inherit(e.APOS_STRING_MODE,{illegal:null}),e.inherit(e.QUOTE_STRING_MODE,{illegal:null})]},n=e.UNDERSCORE_TITLE_MODE,r={variants:[e.BINARY_NUMBER_MODE,e.C_NUMBER_MODE]},i=`namespace class interface use extends function return abstract final public protected private static deprecated throw try catch Exception echo empty isset instanceof unset let var new const self require if else elseif switch case default do while loop for continue break likely unlikely __LINE__ __FILE__ __DIR__ __FUNCTION__ __CLASS__ __TRAIT__ __METHOD__ __NAMESPACE__ array boolean float double integer object resource string char long unsigned bool int uint ulong uchar true false null undefined`;return{name:`Zephir`,aliases:[`zep`],keywords:i,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(/\/\*/,/\*\//,{contains:[{className:`doctag`,begin:/@[A-Za-z]+/}]}),{className:`string`,begin:/<<<['"]?\w+['"]?$/,end:/^\w+;/,contains:[e.BACKSLASH_ESCAPE]},{begin:/(::|->)+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/},{className:`function`,beginKeywords:`function fn`,end:/[;{]/,excludeEnd:!0,illegal:/\$|\[|%/,contains:[n,{className:`params`,begin:/\(/,end:/\)/,keywords:i,contains:[`self`,e.C_BLOCK_COMMENT_MODE,t,r]}]},{className:`class`,beginKeywords:`class interface`,end:/\{/,excludeEnd:!0,illegal:/[:($"]/,contains:[{beginKeywords:`extends implements`},n]},{beginKeywords:`namespace`,end:/;/,illegal:/[.']/,contains:[n]},{beginKeywords:`use`,end:/;/,contains:[n]},{begin:/=>/},t,r]}}t.exports=n})),Hn=l(o(((e,t)=>{var n=u();n.registerLanguage(`1c`,d()),n.registerLanguage(`abnf`,f()),n.registerLanguage(`accesslog`,p()),n.registerLanguage(`actionscript`,m()),n.registerLanguage(`ada`,h()),n.registerLanguage(`angelscript`,g()),n.registerLanguage(`apache`,_()),n.registerLanguage(`applescript`,v()),n.registerLanguage(`arcade`,y()),n.registerLanguage(`arduino`,b()),n.registerLanguage(`armasm`,x()),n.registerLanguage(`xml`,S()),n.registerLanguage(`asciidoc`,C()),n.registerLanguage(`aspectj`,w()),n.registerLanguage(`autohotkey`,T()),n.registerLanguage(`autoit`,E()),n.registerLanguage(`avrasm`,D()),n.registerLanguage(`awk`,O()),n.registerLanguage(`axapta`,k()),n.registerLanguage(`bash`,A()),n.registerLanguage(`basic`,j()),n.registerLanguage(`bnf`,M()),n.registerLanguage(`brainfuck`,N()),n.registerLanguage(`c`,P()),n.registerLanguage(`cal`,F()),n.registerLanguage(`capnproto`,I()),n.registerLanguage(`ceylon`,L()),n.registerLanguage(`clean`,R()),n.registerLanguage(`clojure`,z()),n.registerLanguage(`clojure-repl`,B()),n.registerLanguage(`cmake`,ee()),n.registerLanguage(`coffeescript`,te()),n.registerLanguage(`coq`,V()),n.registerLanguage(`cos`,H()),n.registerLanguage(`cpp`,U()),n.registerLanguage(`crmsh`,W()),n.registerLanguage(`crystal`,G()),n.registerLanguage(`csharp`,K()),n.registerLanguage(`csp`,ne()),n.registerLanguage(`css`,re()),n.registerLanguage(`d`,q()),n.registerLanguage(`markdown`,J()),n.registerLanguage(`dart`,ie()),n.registerLanguage(`delphi`,ae()),n.registerLanguage(`diff`,oe()),n.registerLanguage(`django`,se()),n.registerLanguage(`dns`,Y()),n.registerLanguage(`dockerfile`,ce()),n.registerLanguage(`dos`,le()),n.registerLanguage(`dsconfig`,ue()),n.registerLanguage(`dts`,X()),n.registerLanguage(`dust`,de()),n.registerLanguage(`ebnf`,Z()),n.registerLanguage(`elixir`,Q()),n.registerLanguage(`elm`,fe()),n.registerLanguage(`ruby`,pe()),n.registerLanguage(`erb`,me()),n.registerLanguage(`erlang-repl`,he()),n.registerLanguage(`erlang`,ge()),n.registerLanguage(`excel`,_e()),n.registerLanguage(`fix`,ve()),n.registerLanguage(`flix`,ye()),n.registerLanguage(`fortran`,be()),n.registerLanguage(`fsharp`,xe()),n.registerLanguage(`gams`,Se()),n.registerLanguage(`gauss`,Ce()),n.registerLanguage(`gcode`,we()),n.registerLanguage(`gherkin`,Te()),n.registerLanguage(`glsl`,Ee()),n.registerLanguage(`gml`,$()),n.registerLanguage(`go`,De()),n.registerLanguage(`golo`,Oe()),n.registerLanguage(`gradle`,ke()),n.registerLanguage(`graphql`,Ae()),n.registerLanguage(`groovy`,je()),n.registerLanguage(`haml`,Me()),n.registerLanguage(`handlebars`,Ne()),n.registerLanguage(`haskell`,Pe()),n.registerLanguage(`haxe`,Fe()),n.registerLanguage(`hsp`,Ie()),n.registerLanguage(`http`,Le()),n.registerLanguage(`hy`,Re()),n.registerLanguage(`inform7`,ze()),n.registerLanguage(`ini`,Be()),n.registerLanguage(`irpf90`,Ve()),n.registerLanguage(`isbl`,He()),n.registerLanguage(`java`,Ue()),n.registerLanguage(`javascript`,We()),n.registerLanguage(`jboss-cli`,Ge()),n.registerLanguage(`json`,Ke()),n.registerLanguage(`julia`,qe()),n.registerLanguage(`julia-repl`,Je()),n.registerLanguage(`kotlin`,Ye()),n.registerLanguage(`lasso`,Xe()),n.registerLanguage(`latex`,Ze()),n.registerLanguage(`ldif`,Qe()),n.registerLanguage(`leaf`,$e()),n.registerLanguage(`less`,et()),n.registerLanguage(`lisp`,tt()),n.registerLanguage(`livecodeserver`,nt()),n.registerLanguage(`livescript`,rt()),n.registerLanguage(`llvm`,it()),n.registerLanguage(`lsl`,at()),n.registerLanguage(`lua`,ot()),n.registerLanguage(`makefile`,st()),n.registerLanguage(`mathematica`,ct()),n.registerLanguage(`matlab`,lt()),n.registerLanguage(`maxima`,ut()),n.registerLanguage(`mel`,dt()),n.registerLanguage(`mercury`,ft()),n.registerLanguage(`mipsasm`,pt()),n.registerLanguage(`mizar`,mt()),n.registerLanguage(`perl`,ht()),n.registerLanguage(`mojolicious`,gt()),n.registerLanguage(`monkey`,_t()),n.registerLanguage(`moonscript`,vt()),n.registerLanguage(`n1ql`,yt()),n.registerLanguage(`nestedtext`,bt()),n.registerLanguage(`nginx`,xt()),n.registerLanguage(`nim`,St()),n.registerLanguage(`nix`,Ct()),n.registerLanguage(`node-repl`,wt()),n.registerLanguage(`nsis`,Tt()),n.registerLanguage(`objectivec`,Et()),n.registerLanguage(`ocaml`,Dt()),n.registerLanguage(`openscad`,Ot()),n.registerLanguage(`oxygene`,kt()),n.registerLanguage(`parser3`,At()),n.registerLanguage(`pf`,jt()),n.registerLanguage(`pgsql`,Mt()),n.registerLanguage(`php`,Nt()),n.registerLanguage(`php-template`,Pt()),n.registerLanguage(`plaintext`,Ft()),n.registerLanguage(`pony`,It()),n.registerLanguage(`powershell`,Lt()),n.registerLanguage(`processing`,Rt()),n.registerLanguage(`profile`,zt()),n.registerLanguage(`prolog`,Bt()),n.registerLanguage(`properties`,Vt()),n.registerLanguage(`protobuf`,Ht()),n.registerLanguage(`puppet`,Ut()),n.registerLanguage(`purebasic`,Wt()),n.registerLanguage(`python`,Gt()),n.registerLanguage(`python-repl`,Kt()),n.registerLanguage(`q`,qt()),n.registerLanguage(`qml`,Jt()),n.registerLanguage(`r`,Yt()),n.registerLanguage(`reasonml`,Xt()),n.registerLanguage(`rib`,Zt()),n.registerLanguage(`roboconf`,Qt()),n.registerLanguage(`routeros`,$t()),n.registerLanguage(`rsl`,en()),n.registerLanguage(`ruleslanguage`,tn()),n.registerLanguage(`rust`,nn()),n.registerLanguage(`sas`,rn()),n.registerLanguage(`scala`,an()),n.registerLanguage(`scheme`,on()),n.registerLanguage(`scilab`,sn()),n.registerLanguage(`scss`,cn()),n.registerLanguage(`shell`,ln()),n.registerLanguage(`smali`,un()),n.registerLanguage(`smalltalk`,dn()),n.registerLanguage(`sml`,fn()),n.registerLanguage(`sqf`,pn()),n.registerLanguage(`sql`,mn()),n.registerLanguage(`stan`,hn()),n.registerLanguage(`stata`,gn()),n.registerLanguage(`step21`,_n()),n.registerLanguage(`stylus`,vn()),n.registerLanguage(`subunit`,yn()),n.registerLanguage(`swift`,bn()),n.registerLanguage(`taggerscript`,xn()),n.registerLanguage(`yaml`,Sn()),n.registerLanguage(`tap`,Cn()),n.registerLanguage(`tcl`,wn()),n.registerLanguage(`thrift`,Tn()),n.registerLanguage(`tp`,En()),n.registerLanguage(`twig`,Dn()),n.registerLanguage(`typescript`,On()),n.registerLanguage(`vala`,kn()),n.registerLanguage(`vbnet`,An()),n.registerLanguage(`vbscript`,jn()),n.registerLanguage(`vbscript-html`,Mn()),n.registerLanguage(`verilog`,Nn()),n.registerLanguage(`vhdl`,Pn()),n.registerLanguage(`vim`,Fn()),n.registerLanguage(`wasm`,In()),n.registerLanguage(`wren`,Ln()),n.registerLanguage(`x86asm`,Rn()),n.registerLanguage(`xl`,zn()),n.registerLanguage(`xquery`,Bn()),n.registerLanguage(`zephir`,Vn()),n.HighlightJS=n,n.default=n,t.exports=n}))()).default,Un=s({default:()=>Wn}),Wn=`<div class="post-meta">
+  <meta name="post-id" content="19" />
+  <meta name="post-title" content="자주 쓰는 Git 명령어 모음" />
+  <meta name="post-published" content="2026-07-01T20:40" />
+  <meta name="post-tags" content="Git" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 초기 설정.</h2>
+  <pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)
+git config --global user.name "이름"
+git config --global user.email "메일주소"
+
+# 기본 브랜치 이름을 main으로 설정한다
+git config --global init.defaultBranch main
+
+# 현재 설정 전체를 확인한다
+git config --list</code></pre>
+
+  <h2 class="post-tab">2. 저장소 시작.</h2>
+  <pre><code class="language-bash"># 현재 폴더를 새 저장소로 초기화한다
+git init
+
+# 원격 저장소를 복제한다
+git clone &lt;url&gt;
+
+# 히스토리를 최소화해 얕게 복제한다
+git clone --depth 1 &lt;url&gt;</code></pre>
+
+  <h2 class="post-tab">3. 상태 확인.</h2>
+  <pre><code class="language-bash"># 작업 트리 상태를 확인한다
+git status
+
+# 한 줄로 간결하게 확인한다
+git status -s
+
+# 스테이징 전 변경 사항을 비교한다
+git diff
+
+# 스테이징된 변경 사항을 비교한다
+git diff --staged</code></pre>
+
+  <h2 class="post-tab">4. 스테이징과 커밋.</h2>
+  <pre><code class="language-bash"># 특정 파일을 스테이징한다
+git add &lt;파일&gt;
+
+# 변경 사항 전체를 스테이징한다
+git add .
+
+# 커밋을 생성한다
+git commit -m "메시지"
+
+# 스테이징과 커밋을 한 번에 한다 (추적 중인 파일 한정)
+git commit -am "메시지"
+
+# 직전 커밋에 현재 변경을 더하고 메시지도 수정한다
+git commit --amend
+
+# 직전 커밋에 현재 변경만 더한다 (메시지는 그대로 둔다)
+git commit --amend --no-edit</code></pre>
+
+  <h2 class="post-tab">5. 브랜치.</h2>
+  <pre><code class="language-bash"># 브랜치 목록을 확인한다
+git branch
+
+# 원격 포함 전체 브랜치를 확인한다
+git branch -a
+
+# 브랜치를 생성하고 이동한다
+git switch -c &lt;브랜치&gt;
+
+# 기존 브랜치로 이동한다
+git switch &lt;브랜치&gt;
+
+# 브랜치를 삭제한다
+git branch -d &lt;브랜치&gt;
+
+# 병합하지 않은 브랜치를 강제로 삭제한다
+git branch -D &lt;브랜치&gt;</code></pre>
+
+  <h2 class="post-tab">6. 병합과 리베이스.</h2>
+  <pre><code class="language-bash"># 현재 브랜치에 다른 브랜치를 병합한다
+git merge &lt;브랜치&gt;
+
+# 다른 브랜치의 여러 커밋을 하나로 합쳐 가져온다 (스테이징만 되므로 커밋이 필요하다)
+git merge --squash &lt;브랜치&gt;
+git commit -m "메시지"
+
+# 커밋 히스토리를 한 줄로 재정렬하며 병합한다
+git rebase &lt;브랜치&gt;
+
+# 충돌을 해결한 뒤 리베이스를 계속한다
+git rebase --continue
+
+# 리베이스를 중단하고 원래대로 되돌린다
+git rebase --abort</code></pre>
+
+  <h2 class="post-tab">7. 원격 저장소.</h2>
+  <pre><code class="language-bash"># 등록된 원격을 확인한다
+git remote -v
+
+# 원격을 추가한다
+git remote add origin &lt;url&gt;
+
+# 원격 변경을 병합 없이 내려받는다
+git fetch
+
+# 원격 변경을 내려받아 병합한다
+git pull
+
+# 커밋을 올린다
+git push
+
+# 새 브랜치를 원격에 처음 올리며 추적을 설정한다 (이후로는 git push, git pull만 써도 된다)
+git push -u origin &lt;브랜치&gt;</code></pre>
+
+  <h2 class="post-tab">8. 되돌리기.</h2>
+  <pre><code class="language-bash"># 스테이징하지 않은(Unstaged) 변경을 취소한다
+git restore &lt;파일&gt;
+
+# 스테이징을 취소한다 (변경은 유지한다)
+git restore --staged &lt;파일&gt;
+
+# 스테이징도 취소하고 변경도 취소한다
+git restore --staged --worktree &lt;파일&gt;
+
+# 직전 커밋을 취소하되 변경은 스테이징 상태로 유지한다
+git reset --soft HEAD~1
+
+# 직전 커밋과 변경을 모두 폐기한다 (주의한다)
+git reset --hard HEAD~1
+
+# 특정 커밋을 취소하는 새 커밋을 생성한다 (히스토리를 보존한다)
+git revert &lt;커밋&gt;</code></pre>
+
+  <h2 class="post-tab">9. 임시 저장.</h2>
+  <pre><code class="language-bash"># 작업 중인 변경을 임시로 치워둔다
+git stash
+
+# 추적하지 않는 파일까지 포함한다
+git stash -u
+
+# 저장 목록을 확인한다
+git stash list
+
+# 가장 최근 저장을 복원하고 목록에서 제거한다
+git stash pop
+
+# 복원하되 목록에는 남겨둔다
+git stash apply</code></pre>
+
+  <h2 class="post-tab">10. 히스토리 확인.</h2>
+  <pre><code class="language-bash"># 커밋 히스토리를 확인한다
+git log
+
+# 한 줄 요약으로 확인한다
+git log --oneline
+
+# 브랜치 그래프까지 함께 확인한다
+git log --oneline --graph --all
+
+# 특정 커밋의 정보와 변경 사항을 확인한다
+git show <커밋>
+
+# 특정 커밋에서 변경된 파일 목록만 확인한다
+git show --name-only <커밋>
+
+# 특정 커밋의 변경 통계를 확인한다
+git show --stat <커밋>
+
+# 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다
+git blame &lt;파일&gt;</code></pre>
+
+  <h2 class="post-tab">11. 태그.</h2>
+  <pre><code class="language-bash"># 태그 목록을 확인한다
+git tag
+
+# 주석 있는 태그를 생성한다
+git tag -a v1.0.0 -m "메시지"
+
+# 태그를 원격에 올린다
+git push origin v1.0.0
+
+# 모든 태그를 원격에 올린다
+git push --tags</code></pre>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="https://git-scm.com/doc" target="_blank"
+      >Git 공식 문서 (git-scm.com/doc)</a
+    >
+  </p>
+</div>
+`,Gn=s({default:()=>Kn}),Kn=`<div class="post-meta">
+  <meta name="post-id" content="20" />
+  <meta name="post-title" content="헷갈리는 CSS 선택자와 변수 정리" />
+  <meta name="post-published" content="2026-07-01T20:50" />
+  <meta name="post-tags" content="CSS" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 결합자.</h2>
+  <pre><code class="language-css">/* 자손 (하위 전체) */
+article p {}
+
+/* 자식 (바로 아래 한 단계만) */
+article &gt; p {}
+
+/* 인접 형제 (바로 다음에 오는 하나) */
+h2 + p {}
+
+/* 일반 형제 (뒤따르는 모든 형제) */
+h2 ~ p {}</code></pre>
+
+  <h2 class="post-tab">2. 가상 클래스 (콜론 하나).</h2>
+  <p>요소의 상태나 위치를 조건으로 거는 선택자다. 콜론을 하나 붙인다.</p>
+  <pre><code class="language-css">/* 첫 번째, 마지막 자식 */
+li:first-child {}
+li:last-child {}
+
+/* n번째 자식 (홀수 / 3의 배수마다) */
+li:nth-child(odd) {}
+li:nth-child(3n) {}
+
+/* 조건에 해당하지 않는 요소 */
+li:not(.active) {}
+
+/* 여러 선택자를 하나로 묶는다 (특정도가 인자 중 가장 높은 값) */
+:is(h1, h2, h3) {}
+
+/* :is와 같지만 특정도가 항상 0이라 덮어쓰기 쉽다 */
+:where(h1, h2, h3) {}</code></pre>
+  <p>:first-child는 타입이 아니라 순서를 본다. 아래 둘은 다르게 동작한다.</p>
+  <pre><code class="language-css">/* 부모의 첫 자식이면서 그게 p일 때만 적용된다 */
+p:first-child {}
+
+/* 형제 중 p 타입의 첫 번째에 적용된다 */
+p:first-of-type {}</code></pre>
+
+  <h2 class="post-tab">3. 가상 요소 (콜론 두 개).</h2>
+  <p>
+    가상 클래스가 상태를 고른다면, 가상 요소는 실제로 없는 요소를 만들어낸다.
+    그래서 콜론을 두 개 붙여 가상 클래스와 구분한다.
+    <span class="post-underline"
+      >:before처럼 하나만 써도 옛 문법으로 동작하지만, 표준은 콜론 두
+      개다.</span
+    >
+  </p>
+  <pre><code class="language-css">/* 요소 앞뒤에 콘텐츠를 삽입한다. content가 반드시 필요하다 */
+.tag::before { content: "#"; }
+.price::after { content: " 원"; }
+
+/* 첫 줄, 첫 글자에만 스타일을 준다 */
+p::first-line {}
+p::first-letter {}
+
+/* 사용자가 드래그로 선택한 영역 */
+::selection { background: yellow; }</code></pre>
+
+  <h2 class="post-tab">4. 속성 선택자.</h2>
+  <pre><code class="language-css">/* 해당 속성을 가진 요소 */
+a[target] {}
+
+/* 값이 정확히 일치하는 요소 */
+input[type="text"] {}
+
+/* 값이 특정 문자열로 시작 */
+a[href^="https"] {}
+
+/* 값이 특정 문자열로 끝남 */
+a[href$=".pdf"] {}
+
+/* 값에 특정 문자열이 포함 */
+a[href*="github"] {}</code></pre>
+
+  <h2 class="post-tab">5. 커스텀 프로퍼티 (변수).</h2>
+  <p>
+    :root에 선언하면 문서 전역에서 쓸 수 있다. var()로 꺼내 쓰며, SCSS 변수와
+    달리 런타임에 살아 있어 미디어 쿼리나 특정 범위에서 값을 덮어쓸 수 있다.
+  </p>
+  <pre><code class="language-css">/* :root에 전역 변수를 선언한다 */
+:root {
+	--main-color: #3b82f6;
+	--gap: 16px;
+}
+
+/* var()로 꺼내 쓴다 */
+.button {
+	background: var(--main-color);
+	padding: var(--gap);
+}
+
+/* 변수가 없을 때 쓸 대체값을 두 번째 인자로 준다 */
+.card {
+	color: var(--text-color, #333);
+}
+
+/* 특정 범위에서만 값을 덮어쓴다 */
+.dark {
+	--main-color: #60a5fa;
+}</code></pre>
+
+  <h2 class="post-tab">6. calc.</h2>
+  <pre><code class="language-css">/* 서로 다른 단위를 섞어 계산한다 (연산자 양옆 공백은 필수다) */
+.sidebar {
+	width: calc(100% - 240px);
+}
+
+/* 변수와 함께 쓸 수 있다 */
+.box {
+	padding: calc(var(--gap) * 2);
+}</code></pre>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="https://developer.mozilla.org/ko/docs/Web/CSS" target="_blank"
+      >MDN CSS 문서 (developer.mozilla.org)</a
+    >
+  </p>
+</div>
+`,qn=s({default:()=>Jn}),Jn=`<div class="post-meta">
+  <meta name="post-id" content="21" />
+  <meta name="post-title" content="자주 쓰는 SCSS 문법 정리" />
+  <meta name="post-published" content="2026-07-01T21:00" />
+  <meta name="post-tags" content="SCSS" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 변수.</h2>
+  <p>
+    $로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로 치환되어
+    박히므로, 런타임에 바꿀 수는 없다.
+  </p>
+  <pre><code class="language-scss">$main-color: #3b82f6;
+$gap: 16px;
+
+.button {
+	background: $main-color;
+	padding: $gap;
+}</code></pre>
+
+  <h2 class="post-tab">2. 중첩과 부모 참조.</h2>
+  <p>
+    선택자를 중첩하면 자동으로 자손(공백)으로 컴파일된다. &amp;는 부모 선택자를
+    가리키는데, 뒤에 공백을 두면 결국 자손이 되어 &amp; 없이 쓴 것과 똑같아진다.
+    반대로 공백 없이 붙이면 부모와 같은 요소를 겨냥하거나 이름을 이어 붙이므로,
+    이때는 &amp;가 반드시 필요하다.
+  </p>
+  <pre><code class="language-scss">.card {
+	padding: 16px;
+
+	/* 중첩만 해도 자손이 된다 → .card .title */
+	.title {
+		font-weight: bold;
+	}
+
+	/* &amp; 뒤에 공백을 두면 위와 똑같은 .card .title 이라 굳이 쓸 필요가 없다 */
+	&amp; .title {}
+
+	/* 공백 없이 붙이면 부모와 같은 요소를 겨냥한다 → .card:hover */
+	&amp;:hover {
+		background: #f5f5f5;
+	}
+
+	/* 이름을 이어 붙인다 → .card--active */
+	&amp;--active {
+		border: 1px solid;
+	}
+}</code></pre>
+
+  <h2 class="post-tab">3. 믹스인.</h2>
+  <p>재사용할 스타일 묶음이다. 인자와 기본값을 받을 수 있다.</p>
+  <pre><code class="language-scss">@mixin flex-center($direction: row) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: $direction;
+}
+
+.box {
+	@include flex-center(column);
+}</code></pre>
+
+  <h2 class="post-tab">4. 함수.</h2>
+  <p>믹스인이 스타일 덩어리를 반환한다면, 함수는 값을 계산해 반환한다.</p>
+  <pre><code class="language-scss">@function double($n) {
+	@return $n * 2;
+}
+
+.box {
+	padding: double(8px); /* 16px */
+}</code></pre>
+
+  <h2 class="post-tab">5. 반복문.</h2>
+  <p>
+    셋 다 반복이지만 쓰임이 다르다. @for는 정해진 횟수만큼 숫자를 셀 때, @each는
+    미리 정해둔 목록(이름, 색상 등)을 훑을 때, @while은 종료 조건이 숫자 범위로
+    딱 떨어지지 않을 때 쓴다.
+  </p>
+  <pre><code class="language-scss">/* @for: 1부터 3까지 센다 (through는 끝값 3 포함, to로 쓰면 3 제외) */
+@for $i from 1 through 3 {
+	.col-#{$i} {
+		width: calc(100% / #{$i});
+	}
+}
+/* 결과:
+   .col-1 { width: calc(100% / 1); }
+   .col-2 { width: calc(100% / 2); }
+   .col-3 { width: calc(100% / 3); } */
+
+/* @each: 맵의 항목을 이름과 값으로 하나씩 꺼낸다 */
+@each $name, $color in ("info": blue, "warn": orange) {
+	.text-#{$name} {
+		color: $color;
+	}
+}
+/* 결과:
+   .text-info { color: blue; }
+   .text-warn { color: orange; } */
+
+/* @while: 조건이 참인 동안 반복한다. 카운터를 직접 증가시켜야 한다 */
+$i: 1;
+@while $i &lt;= 3 {
+	.m-#{$i} { margin: #{$i * 4}px; }
+	$i: $i + 1;
+}
+/* 결과:
+   .m-1 { margin: 4px; }
+   .m-2 { margin: 8px; }
+   .m-3 { margin: 12px; } */</code></pre>
+
+  <h2 class="post-tab">6. 조건문.</h2>
+  <p>
+    넘긴 인자에 따라 어느 가지를 내보낼지 컴파일 시점에 고른다. 참인 가지의
+    스타일만 최종 CSS에 남는다. @else if로 여러 조건을, @else로 나머지 경우를
+    처리한다.
+  </p>
+  <pre><code class="language-scss">@mixin theme($mode) {
+	@if $mode == dark {
+		background: #111;
+		color: #eee;
+	} @else if $mode == sepia {
+		background: #f4ecd8;
+		color: #5b4636;
+	} @else {
+		background: #fff;
+		color: #111;
+	}
+}
+
+.page {
+	@include theme(dark);
+}
+/* dark 가지가 참이라 .page 에는 그 스타일만 박힌다:
+   .page { background: #111; color: #eee; } */</code></pre>
+
+  <h2 class="post-tab">7. 보간.</h2>
+  <p>
+    값이 오는 자리(속성 값)에서는 그냥 $변수로 쓰면 된다. 하지만 선택자 이름이나
+    속성 이름처럼 변수를 "코드의 일부"로 끼워 넣어야 할 때는 SCSS가 그게 변수인
+    줄 모르므로, #{}로 감싸 "여기에 값을 넣어라"라고 알려줘야 한다. calc()는
+    CSS가 실행 시점에 계산하는 함수라 안쪽을 문자열로 넘기는데, 이때 SCSS 변수도
+    문자 그대로 남으므로 마찬가지로 보간해 값을 미리 넣어줘야 한다.
+  </p>
+  <pre><code class="language-scss">$side: left;
+$gap: 16px;
+
+.menu {
+	/* 값 자리에서는 보간이 필요 없다 → padding: 16px */
+	padding: $gap;
+
+	/* 속성 이름에 끼워 넣을 땐 보간해야 한다 → margin-left: 20px */
+	margin-#{$side}: 20px;
+
+	/* 보간 없이 margin-$side 라고 쓰면 값이 안 들어가고 문자 그대로 깨진다 */
+
+	/* calc 안의 SCSS 변수도 보간해야 값이 들어간다 → width: calc(100% - 16px) */
+	width: calc(100% - #{$gap});
+}</code></pre>
+
+  <h2 class="post-tab">8. 파일 분리와 @use.</h2>
+  <p>
+    큰 스타일을 여러 파일로 쪼갤 때, 다른 파일에서 불러다 쓸 조각은 이름을
+    밑줄로 시작한다. 밑줄은 컴파일러에게 "이 파일은 단독으로 쓰는 게 아니니
+    _colors.css 같은 결과 파일을 따로 만들지 말라"고 알려주는 표시다. 밑줄이
+    없으면 colors.scss는 그 자체로 colors.css까지 만들어내 불필요한 파일이
+    생긴다.
+  </p>
+  <p>
+    그리고 불러올 때는 밑줄과 .scss 확장자를 뺀 이름으로 쓴다. 즉 파일이
+    _colors.scss여도 @use "colors"라고 적으면 컴파일러가 알아서 _colors.scss를
+    찾아 연결한다. 이렇게 불러오면 파일 이름(colors)이 네임스페이스가 되어
+    접두어를 붙여 접근하고, 접두어가 번거로우면 as *로 생략할 수 있다.
+  </p>
+  <pre><code class="language-scss">/* 파일명: _colors.scss (밑줄로 시작 → 단독 .css로 컴파일되지 않는다) */
+$primary: #3b82f6;</code></pre>
+  <pre><code class="language-scss">/* ── 네임스페이스로 쓰는 경우 ── */
+@use "colors"; /* _colors.scss 를 밑줄·확장자 없이 부른다. colors 가 네임스페이스가 된다 */
+
+.button {
+	color: colors.$primary; /* 접두어를 붙여 접근한다 */
+}
+
+/* ── 네임스페이스를 생략하는 경우 ── */
+@use "colors" as *;
+
+.button {
+	color: $primary; /* 접두어 없이 바로 쓴다 */
+}</code></pre>
+
+  <h2 class="post-tab">9. 상속과 자리표시자.</h2>
+  <p>
+    @extend로 다른 선택자의 스타일을 물려받는다. %로 시작하는 자리표시자는
+    단독으로 출력되지 않고, 상속될 때만 실제 스타일로 나타난다.
+  </p>
+  <pre><code class="language-scss">%card-base {
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.notice {
+	@extend %card-base;
+	background: #eef;
+}
+/* 결과: .notice 는 물려받은 속성과 자기 속성을 모두 갖는다
+   .notice {
+     border-radius: 8px;
+     padding: 16px;
+     background: #eef;
+   } */</code></pre>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="https://sass-lang.com/documentation/" target="_blank"
+      >Sass 공식 문서 (sass-lang.com)</a
+    >
+  </p>
+</div>
+`,Yn=s({default:()=>Xn}),Xn=`<div class="post-meta">
+  <meta name="post-id" content="22" />
+  <meta name="post-title" content="IP 주소와 서브넷 마스크 정리" />
+  <meta name="post-published" content="2026-07-01T21:10" />
+  <meta name="post-tags" content="IP, 네트워크, 서브넷 마스크" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. IP 주소란.</h2>
+  <p>
+    네트워크에 연결된 기기는 저마다 주소를 가진다. 편지를 보내려면 받는 사람의
+    주소가 있어야 하듯, 데이터를 주고받으려면 상대 기기의 주소가 필요하다. 그
+    주소가 IP 주소다. 우리가 흔히 보는 건 이런 모양이다.
+  </p>
+  <p
+    style="
+      text-align: center;
+      font-family: monospace;
+      font-size: 1.6rem;
+      letter-spacing: 0.08em;
+    "
+  >
+    192.168.0.1
+  </p>
+  <p>
+    점 세 개로 숫자 네 덩어리가 나뉘어 있다. 이 점과 덩어리가 무엇인지 아는 것이
+    시작이다.
+  </p>
+
+  <h2 class="post-tab">2. 32비트와 옥텟.</h2>
+  <p>
+    지금 널리 쓰이는 IPv4 주소는 <span class="post-bold">32개의 비트</span>, 즉
+    0과 1이 32개 늘어선 것이다. 사람이 0과 1을 32개나 읽기는 힘드니, 8비트씩 네
+    묶음으로 끊고 각 묶음을 10진수로 바꿔 점으로 이어 적는다. 이 8비트 묶음
+    하나를 <span class="post-bold">옥텟(octet)</span>이라 부른다.
+  </p>
+  <p>
+    8비트로 표현할 수 있는 값은 2의 8제곱, 즉 256가지다. 0부터 세므로 한 옥텟이
+    가질 수 있는 값은 <span class="post-bold">0부터 255까지</span>다. IP의 각
+    칸에 256 같은 숫자가 올 수 없는 이유가 여기 있다.
+  </p>
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+비트 8개가 전부 0 → 00000000 → 0   (가장 작은 값)
+비트 8개가 전부 1 → 11111111 → 255 (가장 큰 값)</pre>
+
+  <h2 class="post-tab">3. 2진수로 펼쳐 보기.</h2>
+  <p>
+    앞서 본 192.168.0.1을 옥텟별로 2진수로 바꿔 나란히 놓으면 이렇게 된다. 결국
+    컴퓨터가 보는 건 이 32개의 0과 1이다.
+  </p>
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+192 = 11000000
+168 = 10101000
+  0 = 00000000
+  1 = 00000001</pre>
+  <p>
+    이 32비트가 뒤에 나올 모든 이야기의 바탕이다. 서브넷 마스크도, CIDR도 결국
+    이 0과 1을 어디서 자르느냐의 문제일 뿐이다.
+  </p>
+
+  <h2 class="post-tab">4. 네트워크 부분과 호스트 부분.</h2>
+  <p>
+    IP 주소는 사실 두 부분으로 나뉜다. 아파트 주소를 떠올리면 쉽다. "101동
+    304호"에서 앞의 <span class="post-italic">동</span>은 어느 건물인지를, 뒤의
+    <span class="post-italic">호수</span>는 그 건물 안 어느 집인지를 가리킨다.
+  </p>
+  <p>
+    IP도 똑같다. 앞부분은
+    <span style="color: #2563eb; font-weight: bold">네트워크 부분</span>(어느
+    네트워크인지, 동에 해당), 뒷부분은
+    <span style="color: #d62828; font-weight: bold">호스트 부분</span>(그
+    네트워크 안 어느 기기인지, 호수에 해당)이다. 같은 동에 사는 사람끼리
+    복도에서 바로 만나듯, 같은 네트워크에 속한 기기끼리는 직접 통신한다. 동이
+    다르면 정문(라우터)을 거쳐야 한다.
+  </p>
+  <p>
+    문제는 32비트 중
+    <span class="post-underline">어디까지가 동이고 어디부터 호수인지</span>가
+    주소만 봐서는 안 보인다는 것이다. 그 경계를 알려주는 것이 바로 서브넷
+    마스크다.
+  </p>
+
+  <h2 class="post-tab">5. 서브넷 마스크.</h2>
+  <p>
+    서브넷 마스크는 IP와 똑같이 생긴 32비트 값인데, 역할이 다르다. 2진수로 폈을
+    때
+    <span style="color: #2563eb; font-weight: bold"
+      >1로 채워진 자리는 네트워크 부분</span
+    >,
+    <span style="color: #d62828; font-weight: bold"
+      >0으로 채워진 자리는 호스트 부분</span
+    >이라고 알려주는 자(尺)다. 가장 흔한 255.255.255.0을 펼쳐 보자.
+  </p>
+  <pre
+    style="font-family: monospace; font-size: 1rem; line-height: 1.7"
+  >255 . 255 . 255 . 0
+= <span style="color: #2563eb;">11111111 . 11111111 . 11111111</span> . <span style="color: #d62828;">00000000</span></pre>
+  <p>
+    1이 앞의 24자리, 0이 뒤의 8자리다. 즉 이 마스크는 "앞 세 옥텟은 동, 마지막
+    한 옥텟은 호수"라고 선언하는 셈이다. 이 마스크를 IP에 겹쳐 보면 어느 부분이
+    동이고 호수인지 그대로 드러난다.
+  </p>
+  <pre
+    style="font-family: monospace; font-size: 1rem; line-height: 1.7"
+  >IP    : <span style="color: #2563eb;">192 . 168 . 0</span> . <span style="color: #d62828;">1</span>
+마스크: <span style="color: #2563eb;">255 . 255 . 255</span> . <span style="color: #d62828;">0</span></pre>
+  <p>
+    그래서 <span style="color: #2563eb; font-weight: bold">192.168.0</span>.1과
+    <span style="color: #2563eb; font-weight: bold">192.168.0</span>.2는
+    네트워크 부분이 같으니 같은 네트워크, 192.168.<span
+      style="color: #2563eb; font-weight: bold"
+      >1</span
+    >.1은 세 번째 옥텟이 달라 다른 네트워크가 된다.
+  </p>
+
+  <h2 class="post-tab">6. CIDR 표기 (/24).</h2>
+  <p>
+    255.255.255.0처럼 매번 마스크를 다 적기는 번거롭다. 그래서 그냥
+    <span class="post-bold">1이 몇 개인지</span>만 슬래시 뒤에 붙여 쓴다. 이걸
+    CIDR 표기라고 한다. 255.255.255.0은 1이 24개이므로 /24다.
+  </p>
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+/24 = 255.255.255.0   (호스트 254개)
+/16 = 255.255.0.0     (호스트 65,534개)
+/8  = 255.0.0.0       (호스트 16,777,214개)</pre>
+  <p>
+    그래서 192.168.1.3/24라고 쓰면 두 정보가 한 줄에 담긴다. 앞의 192.168.1.3은
+    IP 주소, 뒤의 /24는 "앞 24비트가 네트워크"라는 뜻이니 마스크 255.255.255.0과
+    같은 말이다. 색으로 나누면 이렇게 읽힌다.
+  </p>
+  <pre
+    style="font-family: monospace; font-size: 1rem; line-height: 1.7"
+  ><span style="color: #2563eb;">192 . 168 . 1</span> . <span style="color: #d62828;">3</span>  / 24
+= IP <span style="color: #2563eb; font-weight: bold;">192.168.1</span>.<span style="color: #d62828; font-weight: bold;">3</span> + 마스크 255.255.255.0</pre>
+  <p>
+    슬래시 뒤 숫자가 클수록(/24 &gt; /16) 네트워크 부분이 길고 호스트 부분이
+    짧아, 한 네트워크에 담을 수 있는 기기 수가 적어진다.
+  </p>
+
+  <h2 class="post-tab">7. 네트워크 주소와 브로드캐스트 주소.</h2>
+  <p>
+    한 네트워크 안의 호스트 자리를 특별하게 쓰는 두 주소가 있다. 호스트 비트가
+    <span class="post-bold">전부 0인 주소는 네트워크 주소</span>로, 그 네트워크
+    자체를 가리키는 이름표다. 호스트 비트가
+    <span class="post-bold">전부 1인 주소는 브로드캐스트 주소</span>로, 그
+    네트워크의 모든 기기에게 한꺼번에 보낼 때 쓴다.
+  </p>
+  <p>
+    이 둘은 기기에 배정할 수 없다. 그래서 실제로 기기가 쓸 수 있는 주소는
+    전체에서 2개를 뺀 만큼이다. /24라면 호스트 자리가 8비트라 256개지만, 앞뒤
+    2개를 빼고 <span class="post-bold">254개</span>가 남는 것이다.
+  </p>
+  <p>
+    그럼 네트워크 주소는 무엇을 할까. 특정 기기를 가리키는 게 아니라
+    <span class="post-underline">네트워크 그 자체를 부르는 이름</span>이다. 앞서
+    본 192.168.1.0/24처럼 "이 네트워크"를 말할 때, 라우터가 경로를 정리하는 표에
+    "192.168.1.0 대역은 이쪽으로" 하고 적을 때 쓰인다. 그래서 여기로 데이터를
+    보낸다기보다, 네트워크를 지칭하는 대표 주소라고 보면 된다.
+  </p>
+  <p>
+    반면 브로드캐스트 주소로는 실제로 쏠 수 있다. 당연한 얘기지만, 한 옥텟은
+    255를 넘을 수 없기 때문에 192.168.0.256은 불가능. /24 네트워크의
+    브로드캐스트는 <span class="post-bold">192.168.0.255</span>이고, 여기로
+    보내면 그 네트워크의 모든 기기가 함께 받는다.
+  </p>
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스는 보통 -b 필요)</pre>
+  <p>
+    다만 요즘 기기나 방화벽은 보안상 브로드캐스트 핑에 응답하지 않도록 막아둔
+    경우가 많아, 실제로는 답이 안 올 수도 있다.
+  </p>
+
+  <h2 class="post-tab">8. 사설 IP와 공인 IP.</h2>
+  <p>
+    공인 IP는 인터넷 전체에서 겹치지 않는 고유한 주소다. 반면 집이나 회사 내부
+    에서만 쓰는, 인터넷에 그대로 노출되지 않는 대역이 따로 정해져 있는데 이를
+    사설 IP라 한다. 집 공유기에 물린 기기들이 192.168로 시작하는 주소를 받는
+    이유다.
+  </p>
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+10.0.0.0    ~ 10.255.255.255    (/8)
+172.16.0.0  ~ 172.31.255.255   (/12)
+192.168.0.0 ~ 192.168.255.255  (/16)</pre>
+  <p>
+    사설 대역은 여러 집에서 똑같이 써도 된다. 우리 집 192.168.0.1과 옆집
+    192.168.0.1이 충돌하지 않는 건, 각자 공유기 안에서만 통하는 주소이기
+    때문이다. 바깥 인터넷으로 나갈 때는 공유기가 이 사설 주소를 공인 주소로
+    바꿔주는데, 그 변환을 NAT라고 부른다.
+  </p>
+  <p>
+    KT가 공유기 WAN 쪽에 공인 IP(예: 1.2.3.4)를 하나 주고, 공유기는 집 안
+    기기들에게 192.168.1.7, 192.168.1.8 같은 사설 IP를 나눠준다. 이때
+    192.168.1.7이 ping 8.8.8.8을 때리면, 공유기가 출발지 주소를
+    <span class="post-bold">사설 192.168.1.7 → 공인 1.2.3.4</span>로 바꿔서
+    내보낸다. 192.168.1.8이 때려도 마찬가지로 1.2.3.4로 나간다. 즉 바깥에서 보면
+    집 안의 모든 기기가 KT가 준 하나의 공인 IP로 보인다.
+  </p>
+  <pre
+    style="font-family: monospace; font-size: 1rem; line-height: 1.7"
+  ><span style="color: #d62828;">192.168.1.7</span> → 공유기(NAT) → <span style="color: #2563eb;">1.2.3.4</span> → 8.8.8.8
+<span style="color: #d62828;">192.168.1.8</span> → 공유기(NAT) → <span style="color: #2563eb;">1.2.3.4</span> → 8.8.8.8</pre>
+  <p>
+    그럼 8.8.8.8이 1.2.3.4로 답을 돌려줬을 때, 공유기는 그게 .7이 보낸 것인지
+    .8이 보낸 것인지 어떻게 알까. 공유기는 내보낼 때 출발지 IP뿐 아니라
+    <span class="post-underline">포트 번호까지 함께 기록해둔다</span>. 돌아온
+    응답의 포트를 보고 원래 주인을 찾아 그 사설 IP로 되돌려준다. 이렇게 포트까지
+    활용하는 방식이라 기기 수십 대가 공인 IP 하나를 공유할 수 있다.
+  </p>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a
+      href="https://developer.mozilla.org/ko/docs/Glossary/IP_Address"
+      target="_blank"
+      >MDN IP 주소 (developer.mozilla.org)</a
+    >
+  </p>
+</div>
+`,Zn=s({default:()=>Qn}),Qn=`<div class="post-meta">
+  <meta name="post-id" content="26" />
+  <meta name="post-title" content="Git Bash 새 탭을 현재 경로에서 열기" />
+  <meta name="post-published" content="2026-07-07T21:00" />
+  <meta name="post-tags" content="Git Bash" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 문제.</h2>
+  <p>
+    Windows Terminal에서 Git Bash를 쓰다 보면, 탭 바의 + 버튼으로 새 탭을 열
+    때마다 홈 디렉터리로 돌아간다. 지금 작업하던 경로를 그대로 이어받아 새 탭을
+    열고 싶다.
+  </p>
+
+  <h2 class="post-tab">2. 새 탭과 탭 복제.</h2>
+  <p>
+    + 버튼(새 탭)은 항상 프로필의 startingDirectory 값으로 열리므로 현재 경로를
+    무시한다. 반면 탭 복제(Duplicate Tab)는 현재 셸이 있는 경로를 물려받는다. 즉
+    "현재 경로에서 열기"의 정체는 새 탭이 아니라 탭 복제.
+  </p>
+
+  <h2 class="post-tab">3. Git Bash가 자기 경로를 알리게 하기.</h2>
+  <p>
+    Git Bash는 기본적으로 자기 현재 위치를 터미널에 보고하지 않는다. 셸이
+    디렉터리를 옮길 때마다 그 경로를 이스케이프 신호(OSC)로 터미널에 알려주도록
+    PROMPT_COMMAND를 설정. Git Bash를 열고 아래 한 줄을 ~/.bashrc에 추가한다.
+  </p>
+  <pre><code class="language-bash">echo 'export PROMPT_COMMAND='\\''printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'\\''' &gt;&gt; ~/.bashrc</code></pre>
+  <p>
+    cygpath -w는 Git Bash식 경로(/d/foo)를 Windows식 경로(D:\\foo)로 바꿔
+    넘겨주는 역할이고, \\e]9;9;...\\e\\\\ 가 Windows Terminal이 알아듣는 "현재
+    디렉터리는 여기다"라는 신호.
+  </p>
+
+  <h2 class="post-tab">5. 적용과 확인.</h2>
+  <p>추가한 설정을 지금 세션에 바로 반영한다.</p>
+  <pre><code class="language-bash">source ~/.bashrc</code></pre>
+  <p>제대로 들어갔는지는 cat으로 확인.</p>
+  <pre><code class="language-bash">cat ~/.bashrc
+# ...
+# export PROMPT_COMMAND='printf "\\e]9;9;%s\\e\\\\" "$(cygpath -w "$PWD")"'</code></pre>
+
+  <h2 class="post-tab">6. 사용.</h2>
+  <p>
+    이제 Git Bash에서 원하는 폴더로 이동한 뒤, 탭 바를 우클릭하고 "탭 복제"를
+    고르면 그 경로 그대로 새 탭이 열린다. 단축키 Ctrl + Shift + D가 기본으로 탭
+    복제에 걸려있다.
+  </p>
+
+  <h2 class="post-tab">7. 신호가 안 먹힐 때.</h2>
+  <p>
+    \\e]9;9; 방식은 Windows Terminal의 확장 신호라 버전에 따라 안 먹을 수 있다.
+    그럴 땐 표준인 OSC 7 방식으로 바꾼다. ~/.bashrc의 그 줄을 아래로 교체하면
+    된다.
+  </p>
+  <pre><code class="language-bash">export PROMPT_COMMAND='printf "\\e]7;file://%s%s\\e\\\\" "$HOSTNAME" "$(cygpath -w "$PWD" | sed "s|\\\\\\\\|/|g")"'</code></pre>
+  <p>
+    여기서는 경로의 역슬래시(\\)를 sed로 슬래시(/)로 바꿔 file:// URL 형태로
+    넘긴다. 교체 후 다시 source ~/.bashrc로 적용하고 탭 복제로 확인한다.
+  </p>
+</div>
+`,$n=s({default:()=>er}),er=`<div class="post-meta">
+  <meta name="post-id" content="4" />
+  <meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기" />
+  <meta name="post-published" content="2026-03-28T19:23" />
+  <meta name="post-tags" content="Linux, CAN" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 의존성 설치.</h2>
+  <div>
+    sudo apt-get update<br />
+    sudo apt-get install can-utils
+  </div>
+
+  <h2 class="post-tab">2. CANable USB 연결.</h2>
+
+  <h2 class="post-tab">3. 연결 확인.</h2>
+  <div>ls /dev/ttyACM*</div>
+  <figure>
+    <img
+      src="/assets/archives/development/4/result_ttyACM.png"
+      alt="ttyACM 출력 예시"
+      width="200"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h2 class="post-tab">4. idvendor, idproduct 확인.</h2>
+  <div>lsusb</div>
+  <figure>
+    <img
+      src="/assets/archives/development/4/result_lsusb.png"
+      alt="lsusb 출력 예시"
+      width="600"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h2 class="post-tab">5. serial 확인.</h2>
+  <div>sudo lsusb -d 16d0:117e -v | grep -i serial</div>
+  <figure>
+    <img
+      src="/assets/archives/development/4/result_serial.png"
+      alt="serial 출력 예시"
+      width="400"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h2 class="post-tab">6. .rules 파일 생성.</h2>
+  <div>
+    제조사 기준 (교체 대응형) <br /><br />
+    echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{idVendor}=="16d0",
+    ATTRS{idProduct}=="117e", SYMLINK+="can0", MODE:="0777" > can0.rules<br />
+  </div>
+  <div>
+    시리얼 기준 (장치 특정형) <br /><br />
+    echo ACTION=="add", SUBSYSTEM=="tty", ATTRS{serial}=="207B30705330",
+    SYMLINK+="can0", MODE:="0777" > can0.rules<br />
+  </div>
+
+  <h2 class="post-tab">7. .rules 파일 복사.</h2>
+  <div>sudo cp can0.rules /etc/udev/rules.d/</div>
+
+  <h2 class="post-tab">8. 적용.</h2>
+  <div>sudo udevadm control --reload-rules</div>
+
+  <h2 class="post-tab">9. USB 재연결.</h2>
+
+  <h2 class="post-tab">10. 인터페이스 생성 및 띄우기.</h2>
+  <div>
+    sudo slcand -o -c -s5 /dev/can0 can0<br />
+    sudo ifconfig can0 up<br />
+    ifconfig
+  </div>
+  <figure>
+    <img
+      src="/assets/archives/development/4/result_interface.png"
+      alt="interface 출력 예시"
+      width="600"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h2 class="post-tab">11. 테스트.</h2>
+  <div>터미널 A / sudo candump can0</div>
+  <div>터미널 B / sudo cansend can0 000#R</div>
+  <figure>
+    <img
+      src="/assets/archives/development/4/result_test.png"
+      alt="test 출력 예시"
+      width="200"
+    />
+    <figcaption></figcaption>
+  </figure>
+</div>
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">
+  <meta name="post-id" content="12" />
+  <meta name="post-title" content="나의 행동 매뉴얼" />
+  <meta name="post-published" content="2026-05-27T23:03" />
+  <meta name="post-tags" content="습관, 행동" />
+</div>
+
+<div class="post-content">
+  <p class="post-ref">
+    습관의 힘, 아주 작은 습관의 힘, 습관의 디테일을 읽고 실천하면서 내 것을
+    추려내 정리함.
+  </p>
+
+  <h2 class="post-tab">동기</h2>
+
+  <h3 class="post-point">* 스스로에게 정체성 부여하기</h3>
+
+  <h3 class="post-point">* 의무를 선행</h3>
+
+  <div>
+    해야 할 일을 금요일에 하지 못해 월요일에 하게 되면 주말에 불쾌함만 남는다.
+    <br />
+    의무를 다하고 자기통제감을 느낀 상태에서 마신 맥주.
+  </div>
+
+  <h3 class="post-point">* 지우고 싶은 습관을 한심하게 바라보기</h3>
+
+  <div>하루 종일 휴대폰을 보고 있는 모습.</div>
+
+  <h3 class="post-point">
+    * 하지 말아야 할 행동을 하고 난 뒤의 불쾌감 떠올리기
+  </h3>
+
+  <div>
+    기어이 피자를 시켜 먹고 난 뒤의 상태. <br />
+    헛된 만남에서 낭비한 잃어버린 생산성. <br />
+    불필요한 쇼핑에서 잃어버린 투자비용.
+  </div>
+
+  <h2 class="post-tab">환경</h2>
+
+  <div>
+    당장 트랙 위에 있을 수 있다면 유튜브를 보지 않고 러닝을 했을 것. <br />
+    노트북이 있다면 유튜브를 보지만 휴대폰과 책이 있다면 책을 본다.
+  </div>
+
+  <h2 class="post-tab">작은 시작</h2>
+
+  <h3 class="post-point">* 목표를 아주 잘게 쪼개기</h3>
+
+  <div>
+    겨울 아침, 이불 밖으로 나오는 게 힘들어도 무릎을 굽혀 네 발로 엎드리는
+    것까지는 할 수 있다.
+  </div>
+
+  <h3 class="post-point">* 상태 전환</h3>
+
+  <div>
+    '애매한 저각성 정체 상태에서는' 각성 레벨을 올려줄 저부하 자극 활동부터
+    시작하여 단계적으로 상태를 전환하므로써 감당 가능한 인지 강도를 점진적으로
+    높인다.
+  </div>
+
+  <h2 class="post-tab">4. 메모</h2>
+
+  <div>
+    통제가 어렵다면 마음의 차분함을 먼저 얻어라. <br />
+    시작하면 시작된다. <br />
+    통제감을 느껴야 지속가능하다. <br />
+    육체적 활동, 명상, 몰입, 성장이 모든 문제의 해결점.
+  </div>
+</div>
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">
+  <meta name="post-id" content="16" />
+  <meta
+    name="post-title"
+    content="원하는 운명을 골라잡는 기술, 리얼리티 트랜서핑 정리"
+  />
+  <meta name="post-published" content="2026-06-23T21:54" />
+  <meta name="post-tags" content="바딤 젤란드, 리얼리티 트랜서핑" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/archives/growth/16/reality_transurfing.png"
+      alt="리얼리티 트랜서핑"
+      width="400"
+    />
+    <figcaption>출처: 정신세계사</figcaption>
+  </figure>
+
+  <h2 class="post-tab">트랜서핑</h2>
+
+  <p>
+    트랜서핑은 자신의 운명을 말 그대로 골라잡는 방법이다. 중요한 것은 납득할
+    만한 설명이 아닌 현실과 얼마나 맞아떨어지느냐다. 공리들은 그 자체가
+    양자물리학의 최초의 기준점이기 때문에 증명될 수 없다. 우리는 오직 진리가
+    구체화되어 실현된 것이나 어떤 법칙만을 알 수 있을 뿐이다. 우리의 목표는 단지
+    우리의 모델을 실질적으로 활용하는 것이다.
+  </p>
+
+  <h2 class="post-tab">가능태</h2>
+
+  <p>
+    존재 가능한 모든 물체와 그 동선상의 무한수 지점에 관한 데이터는 정보의 장
+    속에 저장된다. 이 정보의 장을 가능태 공간이라 한다. 가능태 공간은 과거에
+    존재했던 모든 것과, 현재에 존재하는 모든 것, 그리고 미래에 존재할 모든 것에
+    대한 정보를 담고 있다.
+  </p>
+
+  <p>
+    사념 에너지의 파동은 잠재된 가능태를 물질화시킨다. 뭔가를 생각할 때마다 사념
+    에너지의 주파수는 가능태 공간의 한 섹터에 동조된다. 그러면 그 섹터 고유의
+    가능태가 물질화하기 시작한다.
+  </p>
+
+  <p>
+    한 사람의 사념 에너지가 특정 주파수에 고정되면, 그 사람은 거기에 맞는
+    인생트랙으로 옮겨진다. 뭔가를 피하려는 욕구가 강하면 강할수록 그것을 갖게 될
+    위험은 더욱 커진다. 원하지 않는 것에 맞서 싸우는 것은 사실 바로 그것을
+    인생의 한 부분으로 만들려고 갖은 애를 쓰는 것이나 마찬가지다.
+  </p>
+
+  <h2 class="post-tab">펜듈럼</h2>
+
+  <p>
+    사람들의 사념 에너지에 의해 그 특질이 형성된 모든 구조체를 펜듈럼이라고
+    한다. 펜듈럼은 오직 하나의 목적을 가진다. 그것은 지지자 개인으로부터
+    에너지가 끊임없이 흘러오게 하는 것이다. 펜듈럼은 지지자의 에너지를 먹고산다.
+    그로써 펜듈럼은 진폭이 점점 커진다. 트랜서핑도 하나의 펜듈럼이 될 수 있다.
+    펜듈럼의 파괴적인 정도는 저마다 다르다. 트랜서핑은 최악의 경우에도 훨씬 덜
+    파괴적인 것으로 나타날 것이다. 펜듈럼에게는 새로운 에너지가 반드시 필요하다.
+    에너지를 얻어내지 못하면 펜듈럼은 멈춘다. 펜듈럼은 자신에게만 건설적이고,
+    우리에게는 건설적이지 않다.
+  </p>
+
+  <p>
+    성공을 위한 첫 번째 조건은 펜듈럼과 싸우기를 거부하는 것이다. 선택하기가
+    무엇을 의미하는지를 알려면 거부하기를 먼저 배워야 한다. 거부하기 위해서는
+    받아들임이 필요하다.
+    <span class="post-underline"
+      >받아들임은 무엇을 껴안아 자신의 일부로 만들라는 의미가 아니다.
+      받아들임이란, 만물이 그 자체로서 존재할 권리를 지니고 있음을 인정해 주고
+      그것을 담담하게 지나쳐 가라는 뜻이다.</span
+    >
+    삶에서 어떤 것을 원하지 않는다면, 거기에 대해 생각하기를 멈추고 그것을
+    담담하게 지나쳐가라. 삶 밖으로 무엇을 내던진다는 것은 회피가 아니라 그냥
+    무시하라는 뜻이다.
+  </p>
+
+  <p>
+    문제는 인간 세상이 온통 펜듈럼 위에 건설되어 있다는 점이다. 인간은 항상
+    뭔가를 추구하도록 설계되어 있는 존재다. 자유란 다른 사람들의 펜듈럼으로부터
+    자유로운 것을 말한다. 우리가 해야 할 일은 자유로운 상태로 있으면서 동시에
+    진정한 성공과 행복이 기다리고 있는 인생 트랙을 선택하는 것이다. 자신의
+    행동과 상황을 스스로 알아차리고만 있다면 펜듈럼이 절대적으로 나쁜 것은
+    아니다. 펜듈럼으로부터 전적으로 벗어나는 것은 불가능하다. 유일한 문제는
+    어떻게 하면 펜듈럼의 영향 아래에 놓이는 것을 피하고 펜듈럼을 자신의 목적에
+    맞게 의식적으로 이용할 것인가이다.
+  </p>
+
+  <h2 class="post-tab">균형력</h2>
+
+  <p>
+    자연 속의 모든 것은 균형 상태를 유지하려고 애쓴다. 에너지의 잉여 포텐셜이
+    존재할 수 있는 모든 곳에는 불균형을 제거하려는 균형력이 나타난다.
+  </p>
+
+  <p>
+    어떤 평가에 지나치게 많은 의미와 중요성이 부여될 경우에만 잉여 포텐셜이
+    일어난다. 잉여포텐셜은 어떤 것의 가치가 실제에 비해 큰 차이(변위)가 있을 때
+    생겨난다.
+  </p>
+
+  <p>
+    세상과 조화롭게 지내고 펜듈럼에게서 벗어나려면 과도한 중요성을 감소시킬
+    필요가 있다. 당신이 자신과 주변 세상에 대해 얼마만큼의 중요성을 부여하고
+    있는지를 늘 지켜보고 있어야 한다. 당신 내면의 '지켜보는 자'는 잠들어서는 안
+    된다. 중요성이 줄어들면 당신은 이내 균형 상태에 들어가고, 펜듈럼이 당신을
+    지배할 수 없게 된다.
+  </p>
+
+  <p>
+    그러나 모든 것을 정도에 알맞게 하라. 이따금씩 균형력을 깨뜨리도록 자신을
+    허락하라. 그런다고 해서 끔찍한 일이 일어나지는 않는다. 중요한 것은, 바늘이
+    적절한 범위의 눈금을 벗어나지 않도록 지키는 일이다.
+  </p>
+
+  <h2 class="post-tab">영혼</h2>
+
+  <p>
+    잠재의식(영혼)이 정보장으로부터 데이터를 받아들이면 의식(마음)이 그것을
+    소리나 상징으로 번역한다. 이것이 새로운 것―음악, 미술작품 등 사람이
+    직접적으로 보거나 알 수 없는 모든 것―이 창조되거나 새로이 발견되는 방식이다.
+    또한 직관적 지식과 예감이 일어나는 방식이기도 하다.
+  </p>
+
+  <p>
+    영혼은 범주를 사용하지 않는다. 영혼은 느낌으로써 안다. 마음의 통제가
+    약해지면 그 틈을 타서 직관적 지식과 느낌이 의식 속으로 뚫고 들어갈 수 있게
+    된다. 이것을 내면의 목소리라고 부르기도 한다. 생각하지 않고 직감으로 느낀다.
+  </p>
+
+  <p>
+    마음은 끊임없이 생각을 지어내느라 바쁘다. 영혼의 목소리는 이 '생각 믹서'의
+    시끄러운 소리 때문에 들리지 않는다. 만일 이 생각의 흐름을 멈추고 단순히 비어
+    있는 상태를 묵상할 수 있다면 우리는 새벽별이 속삭이는 소리, 내면의 말 없는
+    목소리를 들을 수 있을 것이다.
+  </p>
+
+  <p>
+    영혼은 두 가지 대조적인 느낌을 가지고 있다. 영혼은 정보장에 접근할 수 있다.
+    영혼은 아직 현실화되지 않았으나 다가오고 있는 섹터들에 놓여 있는 것을
+    어떻게든 미리 내다본다. 만일 영혼이 아직 현실화되지 않은 섹터에 동조한다면,
+    그것이 실현되었을 때 좋든 나쁘든 무슨 일이 일어날지를 알게 될 것이다. 이런
+    영혼의 느낌들이 마음에게는 편안한 기분이나 불편한 기분과 같은 모호한
+    느낌으로 인지되는 것이다. 우리가 해야 할 일은 결정의 순간에 영혼이 마음에게
+    하는 말을 명확히 알아듣는 법을 터득하는 것이다. 당신의 지켜보는 자에게
+    영혼의 기분 상태를 잘 살피라고 부탁해놓기만 하면 된다. 새벽별이 속삭이는
+    소리를 들으려면 영혼의 기분 상태 살피기를 제때에 기억하기만 하면 된다.
+  </p>
+
+  <p>
+    만일 뚜렷한 느낌이 없다면 그것은 당신의 마음이 아직도 귀 기울여 듣는 데에
+    아주 서툴다는 뜻이다. 당신의 질문에 대한 답은 정말 애매모호할 수도 있다.
+    그런 경우에는 그런 부정확한 데이터에 의지해서는 안 된다. 그때는 마음이
+    제안하는 대로 행동할 수밖에 없다. 아니라면 질문을 좀 더 단순하게 만들어야
+    한다.
+  </p>
+
+  <h2 class="post-tab">의도</h2>
+
+  <p>
+    자각몽 속에서는 당신이 원하는 것을 무엇이든지 할 수 있다. 꿈속에서 의식이
+    깨어서 공중을 날고 싶어졌다면 날고자 하는 의도만 떠올리면 된다. 여기서
+    욕망과 의도의 차이가 분명해진다. 몸을 공중에 띄우기를 원하기만 하는 것으로는
+    아무 일도 일어나지 않는다. 팔을 들어 올리려는 욕망을 예로 들어보자. 당신은
+    자신에게 팔을 올리고 싶다고 말하고 있다. 하지만 아직 그것을 하고 있지는
+    않다. 이제는 그냥 팔을 들어 올려보라. 당신의 희망은 행동으로 옮겨졌다.
+    당신은 팔을 어떻게 들어 올릴지를 생각하고 있는 것이 아니라 그저 그렇게 하고
+    있다. 꿈에서도 마찬가지다. 순수한 의도를 사용하여 그냥 자신을 공중에 띄워라.
+    그리고 어디든지 원하는 곳으로 날아가라.
+  </p>
+
+  <p>
+    꿈은 흔히 생각하는 것과 같은 환영이 아니다. 마음은 꿈을 상상해 내는 것이
+    아니라 실제로 그것을 보고 있다. 꿈은 과거나 미래의 가능한 사건을 보여준다.
+    꿈은 영혼이 가능태 공간 속을 여행하는 것이다. 가능태 공간 속에는 온갖
+    시나리오가 다 있다. 자각몽 속에서 꿈의 시나리오를 마음대로 바꿀 수 있는
+    이유도 이것이다. 시나리오 자체가 실제로 고쳐지는 것은 아니다. 당신이 수시로
+    시나리오를 마음대로 골라잡는 것이다.
+  </p>
+
+  <p>
+    <span class="post-underline">꿈과 현실은 기본적으로 같다.</span> 유일한
+    차이는 시나리오가 현실로 나타나는 속도뿐이다. 현실 속의 사건도 꿈속의 사건과
+    동일한 법칙을 따라 일어난다. 하지만 그것은 번개처럼 빨리 일어나지는 않는다.
+    가능태가 물질 차원에 실현되는 데에는 불활성이 작용하기 때문이다. 우리가
+    실패하는 이유는 아주 종종, 목표를 향해 충분히 끈기 있게 노력하지 않기
+    때문이다. 많은 목표들이, 단지 현실화될 시간을 갖지 못한 이유로 이루어지지
+    않는다.
+  </p>
+
+  <p>
+    실제 삶에서는 의식의 각성도가 꿈속에서보다 높다. 이것은 내부의도를
+    제어하기에는 충분하다. 하지만 외부의도는 이보다 훨씬 높은 각성도를 요구한다.
+    자각몽에서와 마찬가지로 현실의 삶에서도 외부의도를 제어하려면 의식이
+    깨어있어야 한다. 현실 또한 당신에게 일어나는 것일 뿐이다. 꿈에 대해서, 삶에
+    대해서도 지배력을 얻으려면 참여자로부터 관찰자로 역할을 바꿀 필요가 있다.
+    수동적인 꿈에서는 관찰자는 없고 배우만 있다. 당신은 자신의 역에 완전히
+    빠져들어 있어서 상황을 밖으로부터 바라보지 못한다. 자신의 역할에 너무 깊이
+    빠져들지 말라. 내적, 외적 중요성을 최저 수준으로 유지하는 것이 그 열쇠다.
+    당신의 지켜보는 자를 항상 대기시켜라. 상황을 지배하는 능력은 당신의 깨어있는
+    정도에 비례한다. 꿈속에서는 의식의 각성도가 낮고, 그것이 꿈이 '일어나는'
+    이유다.
+    <span class="post-underline"
+      >꿈꾸고 있다는 사실을 깨닫기만 하면 상황이 통째로 지배하에 놓이게
+      된다.</span
+    >
+    원하는 것을 무엇이든 할 수 있게 되는 것이다. 그러나 만사를 절대적으로 완전히
+    지배한다는 것은 꿈속에서조차 일어날 수 없는 일이다. 당신은 단지 선택할
+    권리가 있을 뿐이지 무엇을 변화시킬 권리는 없다. 개어있는 의식은 통제와
+    지배를 위한 것이 아니라 관찰을 위한 것이다. 통제력은 오직 부정적인 함정에
+    빠지지 않고 그 대신 유쾌한 시나리오를 상상하고 그것을 당신의 삶 속에
+    맞이하여 온 가슴으로 받아들이는 데에만 발휘되어야 한다. 당신의 시나리오를
+    세상에 강요하지 말라. 특정 가능태가 스스로 실현되게끔 세상이 허용하는 일이
+    일어날 가능성을 열어두라.
+  </p>
+
+  <p>
+    현실화를 가져오는 것은 욕망 자체가 아니라 원하는 대상을 노리고 있는
+    당신이다. 가지겠다는, 그리고 행동하겠다는 결정으로 정의할 의도다. 욕망은
+    목표 그 자체를 지향하지만 의도는 그 목표에 다다르는 과정을 지향한다. 의도는
+    잉여 포텐셜을 만들어내지 않는다. 욕망에 의해 만들어진 포텐셜 에너지가 행동에
+    사용되기 때문이다. 욕망과 행동은 의도 속에서 하나가 된다. 의도는 욕망과
+    행동의 조합이다. 자신만의 힘으로써 무엇을 하고자 하는 의도가 내부의도다.
+    의도의 작용을 외부 세계로 확대시키는 것은 그보다 훨씬 힘들다. 그것이
+    외부의도다. 외부의도의 도움으로 우리는 세상을 다스릴 수 있다. 주변 세상이
+    어떻게 행동하게 할지를 선택할 수 있게 된다.
+  </p>
+
+  <p>
+    탁자 위에 연필이 놓여 있다. 당신은 의도의 힘으로써 그것이 움직이기 시작하는
+    것을 상상한다. 당신의 의도는 연필이 다른 장소에 놓여있는 가능태 공간의
+    섹터를 찾아낸다. 사념 에너지가 충분한 힘으로 방사된다면 연필은 실제 공간
+    속의 새로운 지점들로 차례로 옮겨가면서 물질화될 것이다. 연필을 전혀 움직이지
+    못하더라도 놀라운 일은 아니다. 거의 모든 사람들이 초자연적 능력을 지니고
+    있지만 그 힘은 매우 미약하다. 그런 일이 가능하다고 믿기가 너무나 어려워서
+    자기 안에서 순수한 의도를 일으키기가 매우 힘들기 때문이다. 물체를 원격
+    이동시키는 염력을 지닌 사람들은 대상 자체를 움직이는 것이 아니다. 그들은
+    의도의 힘으로 에너지를 보내어 가능태 공간에서 대상이 물질화되는 지점을
+    변화시키는 능력을 지닌 것이다.
+  </p>
+
+  <p>
+    욕망은 목표 자체에다 주의를 모으는 것이다. 내부의도는 목표를 향해 움직여가는
+    과정에 주의를 모으는 것이다. 외부의도는 목표가 스스로 실현되는 이치에 주의를
+    모으는 것이다. 내부의도는 목표를 성취하는 반면에 외부의도는 목표를 선택한다.
+    내부의도가 행동하겠다는 결정이라고 한다면 외부의도는 가지겠다는 결정이다.
+  </p>
+
+  <p>
+    <span class="post-underline">외부의도는 관찰자의 입장을 취한다.</span>
+    당신의 의지에 따라 일어나지만 그것은 저절로 일어나는 일이다. 당신은 무엇을
+    변화시키지 않는다. 대신 선택한다. 외부의도는 내가 날고 있다고 주장하지 않고
+    내가 날고 있는 것을 인지한다.
+  </p>
+
+  <p>
+    <span class="post-underline"
+      >꿈속에서 졸고 있는 마음은 공중을 나는 것이 가능하다고 믿을 수 있다.</span
+    >
+    하지만 아무리 설득하려고 애써도 깨어있는 마음으로서는 난다는 것은 상상하기
+    힘든 일이다. 그래서 단지
+    <span class="post-underline">믿음이 아니라 지식이 있어야 한다.</span> 믿음은
+    의심의 가능성을 내포한다. 지식은 의심을 쫓아내준다. 믿는 것이 아니라 안다.
+  </p>
+
+  <p>
+    꿈속에서 날기 위해서는 약간의 외부의도만 있으면 충분한 반면에 불활성 물질
+    현실의 세계에서는 의도가 절대적으로 순수해야 한다.
+    <span class="post-underline"
+      >순수한 의도를 얻기란 불가능하지만 다행히 목표를 이루는 데는 '2등급'
+      의도만 가지고도 충분하다. 불활성 물질이 '제대로 펼쳐져서' 실현되는 데는
+      단지 약간의 시간이 필요할 뿐이다.</span
+    >
+  </p>
+
+  <p>
+    즉각적인 응답을 기대하지 말라. 당신이 주문한 것이 올 때까지는 오래 기다려야
+    할 수도 있다. 모든 것은 의도의 순수성에 달려 있다. 의도에서 욕망을 반드시
+    씻어내야 한다.
+    <span class="post-underline"
+      >일자리를 구한다고 가정했을 때, 당신은 고용되기 위해서가 아니라 면접을
+      하기 위해서 면접장에 간다.</span
+    >
+    자신이 주문한 것에 무관심할수록 그것은 더 빨리 이루어진다.
+  </p>
+
+  <p>
+    의도의 균형을 유지해야 한다. 의도는 믿지도 않고 소망하지도 않는다. 의도는
+    단지 행동할 뿐이다. 의도는 모든 것이 이미 결정되어 있다고 생각한다. 팔을
+    들어 머리를 긁고자 하는 의도는 잉여 포텐셜이 전혀 없는 의도의 한 보기다.
+    아무런 욕망도 없이 오로지 순수한 의도만을 가져야 한다. 거기에 이르기
+    위해서는 내적, 외적 중요성을 낮춰야 한다. 중요성을 처리하는 간단하고
+    효과적인 처방이 하나 있다. 미리 패배를 받아들이라. 일단 패배를 받아들였으면
+    더 이상은 패배도 성공도 생각지 말고 그저 목표를 향해 계속 걸어가라. 잡지를
+    사러 신문 가판대로 걸어가듯이 목표를 향해 걸어가라. 가판대에 신문을 사러
+    가는 데에 결단성과 힘이 필요한 것은 아니다. 여기에 욕망은 이미 없다. 욕망은
+    내가 그렇게 하기로 결정하던 순간까지만 있었다. 욕망이 충족되지 않을 가능성은
+    매우 희박하다.
+    <span class="post-underline"
+      >그 가판대에 신문이 없더라도 당신은 흥분하지 않는다. 설사 충족되지
+      않는다고 하더라도 무슨 재앙이 일어나는 것은 아니다. 다른 데 가서 사면
+      그만이다.</span
+    >
+    의도가 욕망으로부터 완전히 자유로운 것은 이 때문이다. 그래서 그것은 잉여
+    포텐셜로부터도 자유롭다.
+  </p>
+
+  <p>
+    트랜서핑의 핵심은 내부의도를 거부하고 외부의도를 사용하는 것이다. 내부의도가
+    끝나고 외부의도가 시작되는 경계선을 긋기는 어렵다. 내부의도는 마음(의식)이
+    영혼(잠재의식)과 합쳐서 일치되고 조율될 때 외부의도로 변한다. 이 경계선은
+    감지되지 않는다. 그것은 꿈속에서 의도적으로 자신을 공중에 띄워서 나는 느낌과
+    가장 비슷할 것이다. 또는 자유낙하의 느낌이나, 자전거 타기에 처음 성공했을
+    때의 느낌과도 비슷하다.
+  </p>
+
+  <h2 class="post-tab">슬라이드</h2>
+
+  <p>
+    인간은 백 퍼센트 객관적으로 주변 세계를 인식할 수 없다. 이것은 슬라이드
+    영사기와도 유사하다. 고르고 규칙적인 빛이 슬라이드 필름을 통과하면 화면 위의
+    그림으로 변한다. 인식이 스크린이라면 빛은 우리 주변 세계이고, 슬라이드는
+    세계에 대한 우리의 이해 곧 세계관이라고 할 수 있다.
+  </p>
+
+  <p>
+    슬라이드는 현실의 왜곡된 표현이다. 슬라이드는 당신의 머릿속에는 있지만 다른
+    사람들 속에는 없는 무엇이다. 당신이 자신의 못생긴 외모에 대한 슬라이드를
+    마음속에 끼우고 있다고 가정해 보자. 당신은 다른 사람들이 보여주는 모든 것을
+    그 슬라이드를 통해 인식한다. 우호적인 미소는 비웃음으로 바뀌어 보인다.
+    실제로는 그런 생각을 품지 않았다. 그것은 당신의 머릿속에만 있는 것이다.
+    그것은 당신의 슬라이드다.
+  </p>
+
+  <p>
+    슬라이드를 만들어내는 것은 중요성이다. 외모에 신경이 쓰인다는 것은 외모가
+    당신에게 중요하기 때문이다. 슬라이드는 당신의 머릿속에 들어 있다. 슬라이드는
+    상상의 산물이며 그런 의미에서 환영이라고 봐도 된다.
+    <span class="post-underline"
+      >이런 종류의 환영은 삶에 실질적인 영향을 미친다.</span
+    >
+    이것이 외부의도가 그 사람의 의지에 반하여 파괴적으로 작용하는 예다.
+  </p>
+
+  <p>
+    부정적 슬라이드는 대개 영혼과 마음의 일치를 불러일으킨다. 이럴 경우
+    외부의도는 거침없이 순조롭게 작용한다. 다만 그 전이는 점진적으로 일어난다.
+    슬라이드에 지나친 중요성을 부여하기를 그치거나 긍정적 슬라이드를 만들어내는
+    쪽으로 방향을 돌릴 때까지 계속된다.
+  </p>
+
+  <p>
+    당신이 할 일은 자신의 좋아하는 면이나 가지고 싶은 면으로 주의를 전환시키는
+    것이다. 긍정적 슬라이드는 부정적 슬라이드가 그랬던 것과 마찬가지로 당신의
+    행동과 태도에 직접적인 힘을 미칠 것이다. 당신은 뜻밖에, 무의식적으로
+    슬라이드에 맞추어 행동하게 될 것이다. 그리고 중요한 일은 모두 외부의도가
+    슬라이드의 이미지에 맞추어 해줄 것이다.
+  </p>
+
+  <p>
+    <span class="post-underline"
+      >슬라이드가 해체될 때까지 우리는 만들어낸 이미지를 생각 속에 계속
+      재생시켜야 한다.</span
+    >
+    시간이 지나면 슬라이드는 실질적으로 당신의 일부가 될 것이고, 그러면 그것은
+    더 이상 슬라이드가 아니다. 원하는 것을 얻으면 그것은 더 이상 당신에게
+    중요하지 않게 될 것이다. 중요성은 사라지고 슬라이드도 해체되지만 임무는
+    완수되어 있을 것이다. 그것은 당신의 영혼이 마음과 일치했다는 뜻이다.
+  </p>
+
+  <p>
+    마음이 슬라이드를 현실로 만들려고 애쓰는 동안에도 영혼 깊은 곳에서 당신은
+    이것이 한갓 현실로 가장한 게임일 뿐이라는 사실을 알고 있다. 하지만 당신이
+    조직적으로 용의주도하게 이 이미지를 계속 굳혀 가면 결국 영혼은 거기에
+    익숙해져서 그 슬라이드를 자신의 빼놓을 수 없는 일부로 받아들이게 될 것이다.
+    외부의도는 슬라이드를 금방 인식하지 못하고 서서히 인식한다는 점을 유념하라.
+    슬라이드의 이미지를 잊지 말고 그것을 늘 의식하라. 슬라이드의 가장 중요한
+    성질은 그 내용이 외부의도에 의해서 서서히, 그러나 어김없이 현실화된다는
+    것이다.
+  </p>
+
+  <h2 class="post-tab">안락지대</h2>
+
+  <p>
+    자신이 성공하리라는 생각에 익숙해져야만 한다. 부자가 되고 싶어 하면서 비싼
+    가게에 들어가기를 겁낸다면 아무런 일도 일어나지 않을 것이다. 비싼 가게에서
+    눈곱만큼이라도 불편을 느낀다면 당신은 비싼 물건을 소유하도록 스스로 허락할
+    준비가 되어 있지 않은 것이다. 비싼 가게의 물건을 살 수 있다고 자신을
+    확신시키려 애쓰는 자기암시 훈련은 물론 아무짝에도 소용없다. 호주머니엔 빈
+    지갑밖에 없으면서 비싼 물건을 살 수 있다고 자신을 확신시키려고 애써야 한다는
+    것도 아니다. 요점은 그게 아니다. 당신은 어쨌든 간에 소원은 실현되리라는 말에
+    대해 영혼 깊은 곳에서 늘 얼마간의 의심을 품고 있다. 욕망을 이루기 위해
+    행동할 준비가 다 되어 있다고 해도 그것만으로는 충분하지 않다. 의심한다는
+    것은 자신이 자격이 있다고 느끼도록 스스로 허용하지 않는 것이다. 백만장자가
+    된 사람들은 원하는 것을 가지도록 스스로 허용했다는 점에서 남다른 것이다.
+    당신도 자신에게 가지도록 허락해야 한다. 이 상태는 자전거를 처음으로 탈 수
+    있게 되었을 때의 기분과도 흡사하다. 의심과 주저와 반론이 사라져 버렸다. 남아
+    있는 유일한 것은 고요한 명료함, 곧 앎이었다.
+    <span class="post-underline"
+      >말 없는 명료한 느낌, 뭔가를 믿지 않고 아는 것, 주저 없는 자신감이 바로
+      영혼과 마음이 일치된 상태다.</span
+    >
+    이 같은 상태는 자신이 마치 우주를 지배하는 무언의 힘의 필수불가결한 일부가
+    된 것 같은 느낌이다.
+  </p>
+
+  <p>
+    이루기 힘든 꿈을 가진다는 것이 단지 개인적 선택의 문제일 뿐이라는 것을
+    당신은 가슴속에서 믿지 않는다.
+    <span class="post-underline"
+      >하지만 긍정적 슬라이드가 이 믿기지 않는 것을 당신의 안락지대 안으로
+      들여놓을 수 있도록 도와줄 것이다.</span
+    >
+    모든 꿈을 이룰 수 있다는 생각이 더 이상 거북하게 느껴지지 않게 되면 망설임이
+    사라지고 믿음은 앎으로 바뀔 것이다. 영혼은 마음과 일치를 이뤄내고, 그것이
+    당신이 가지기로 결정하는 때다.
+  </p>
+
+  <p>
+    영혼을 설득하려 드는 것은 부질없는 짓이다. 영혼은 생각하지 않고 그저
+    알뿐이다. 영혼은 길들일 수 있을 뿐이다.
+    <span class="post-underline"
+      >영혼은 새로운 안락지대에 익숙해져야 한다. 슬라이드가 필요한 것은 이
+      때문이다. 슬라이드의 도움을 받으면 영혼과 마음의 일치가 서서히 이루어진다.
+      이 요새는 오랜 기간의 지배로써만 빼앗을 수 있다.</span
+    >
+    머릿속에 당신의 꿈의 슬라이드를 만들어내고 그것을 의식 속에 늘 간직하라.
+    외부의 관찰자처럼 슬라이드를 바라보고만 있지 말라. 그 속에 자신을 몰입시키고
+    최소한 가상으로라도 그 속에서 살라. 슬라이드는 오랫동안 용의주도하게
+    상영되었을 때만 결실을 가져올 것이다.
+  </p>
+
+  <p>
+    비싼 가게에서 물건 고르는 연습을 할 수도 있다. 돈에 대해서는 생각하지 말고
+    가격표도 들여다보지 말라. 목표는 돈이 아니라 돈으로 살 수 있는 그것이다.
+    그저 가까이에서 그것의 느낌을 느끼면서 골라보고, 말없이 살펴보면서 평가하는
+    것으로 충분하다. 그것을 가질 수 없는 사치품인 것처럼 바라보지 말고 사려는
+    물건처럼 바라보라. 당신이 그것의 주인인 것처럼 느껴라. 그것이 어떻게 당신의
+    것이 될지에 대해서는 걱정할 필요가 없다. 가지기로 결정하기만 하면 외부의도가
+    당신이 생각조차 못 한 방법을 찾아낼 것이다.
+  </p>
+
+  <h2 class="post-tab">과정</h2>
+
+  <p>
+    많은 사람들이 저지르는 또 한 가지 실수는 모든 것을 한꺼번에 얻어내려고
+    덤벼드는 것이다. 가능태 흐름은 당신이 여러 방향으로 동시에 헤엄쳐가도록
+    허락하지 않는다. 최종 목표가 한 발짝 밖에 있지 않은 한 최종 목표에 집중하는
+    것으로는 한 걸음도 나아가지 못한다. 목표에 집중하는 것은 욕망이다. 목표를
+    향한 움직임에 집중하는 것은 의도다. 심상의 초점은 목표를 향해 다가가는
+    과정에 있다.
+    <span class="post-underline"
+      >욕망이 의도와 다른 것만큼이나, 목표 자체를 심상화하는 것은 목표를 이루는
+      과정을 심상화하는 것과 같지 않다.</span
+    >
+    팔을 올리려고 할 때, 팔을 올리고 싶어 한다는 것을 생각하고, 목표인 올려진
+    팔을 상상해 보라. 그리고 팔을 올려라. 앞부분에서는 욕망이 작용하고 있지만
+    이루어진 일은 아무것도 없다. 뒷부분에서는 의도가 작용하고 있는데, 의도는
+    팔이 올라가고 있는 동안 계속 작용하고 있다. 목표는 당신이 추구해야 할
+    무엇이기는 하지만 당신이 실제로 집중하고 있는 것은 목표에 다가가는
+    과정이라는 것을 알 수 있다. 결국 어디에 도달하기 위해서는 그것을 그저 원하고
+    자신이 거기에 있는 모습을 그리는 것만으로는 안 된다. 필요한 단계를
+    밟아가야만 하는 것이다. 즉 그 과정을 실천해야 한다.
+  </p>
+
+  <p>
+    무엇을 하든지 간에 그것이 오래 걸리는 과정이라면 그 과정 자체를 심상화하는
+    것이 도움이 된다.
+    <span class="post-underline"
+      >작업을 하는 중간중간에 작품이 점점 완성되어가는 모습을 상상해 보라.</span
+    >
+    오늘 당신은 작품의 세밀한 부분을 조금 완성시켰다. 내일은 또 새로운 모습을
+    갖출 것이다. 당신의 작품이 변해가는 모습을 상상하라. 어떤 경우든 과정을
+    심상화하라. 단지 최종 결과만을 상상하는 것은 안락지대를 넓혀주고, 그것만도
+    상당한 일이긴 하지만, 목표에 다가가는 과정을 심상화한다면 당신은 외부의도의
+    작용을 한층 가속시키고 있는 것이다.
+  </p>
+
+  <p>
+    전이는 점진적으로 행해져야 한다. 목표가 멀리 있는 인생 트랙 위에 놓여 있다면
+    그 인생 트랙에 맞추어 사념 에너지를 방사한다는 것은 실질적으로 불가능하다.
+    금방 도달할 수 없는 인생트랙을 따라 움직이는 과정을 심상화하는 것은 당신을
+    완전히 엉뚱한 곳으로 데려다 놓을 수 있다. 목표가 여러 단계를 거쳐서
+    이루어져야 하는 것이라면 당신은 싫어도 각각의 단계를 순서대로 다 밟아야
+    한다. 트랜서핑의 심상화란 전이 사슬 중 현재의 고리가 현실화되는 과정을
+    마음에 그리는 것이다.
+  </p>
+
+  <p>
+    목표를 실현시킬 방법을 알지 못하더라도 조바심 내지 말라. 침착하고
+    용의주도하게 슬라이드를 계속 심상화하라. 목표가 안락지대 안으로 완전히
+    융화되어 들어오면 외부의도가 적당한 방법을 던져줄 것이다.
+  </p>
+
+  <h2 class="post-tab">에너지</h2>
+
+  <p>
+    자유에너지는 인체를 통해 흐르는 우주의 에너지다. 당신이 만일 아무것도 하고
+    싶은 것이 없다면 그것은 바로 자유에너지가 부족함을 뜻한다. 자유에너지가
+    없으면 의도도 있을 수 없다. 의식적으로 에너지를 얻기 위해서는 에너지 통로를
+    의도적으로 넓혀야 한다. 그리고 그 통로로 에너지가 흐르게 해야 한다.
+  </p>
+
+  <p>
+    편안하게 근육을 긴장시키지 말고 똑바로 선다. 숨을 들이마시면서 땅에서 위로
+    올라오는 에너지의 흐름을 상상한다. 땅에서 올라온 에너지는 회음을 통해 몸으로
+    들어와 척추를 타고 위로 올라온다. 그 에너지는 머리 꼭대기에서 밖으로 나가
+    하늘로 올라간다. 이제 숨을 내쉬면서 상상한다. 하늘 높이 어딘가에서 에너지의
+    흐름이 내려온다. 그 에너지는 당신의 머리 꼭대기를 통해 들어온 다음 척추를
+    따라 내려와 몸 밖으로 나와서 땅속으로 들어간다. 이 흐름을 육체적 감각으로
+    느껴야만 하는 것은 아니다. 이 과정을 그저 상상하는 것으로 충분하다.
+    <span class="post-underline"
+      >시간이 지나면 당신의 감각도 발달하여 이 흐름이 지나가는 것을 감지할 수
+      있게 될 것이다.</span
+    >
+  </p>
+
+  <p>
+    인체 안에는 자유에너지를 모아둘 장소가 없다. 자유에너지는 온 우주로부터 몸
+    안으로 들어온다. 통로가 충분히 넓으면 그 에너지를 얻을 것이고, 통로가 좁으면
+    에너지를 얻지 못한다. 그러므로 강한 생명력을 지닌다는 것은 무엇보다도 통로의
+    넓이에 관련된 문제다. 이 에너지가 자신에게 흘러 들어오게 하는 법을, 그리고
+    <span class="post-underline">자신이 우주의 일부임을</span> 느끼는 법을
+    배워야 한다. 에너지 차원에서 주변 세상과 일체감을 느끼는 경지에 이르기까지
+    꾸준히 나아가야 한다. 에너지를 축적하려고 하지 말라. 에너지가 반대 방향의 두
+    흐름으로 당신의 몸속을 자유롭게 통과하도록 허용하라. 하나의 에너지 덩어리가
+    되려고 애쓰지 말고 자신이 대양 속의 한 물방울이라고 상상하라. 당신은 우주의
+    일부다. 우주의 모든 에너지를 마음껏 가져다 쓸 수 있다. 몸에다 에너지를
+    비축하지 말라. 온 우주와 하나가 되어라. 그렇게 하면 외부의도를 약간만
+    움직여도 내부의도로는 결코 이룰 수 없는 일을 어느 정도의 시간 안에 해낼 수
+    있을 것이다.
+  </p>
+
+  <p>
+    두 흐름은 균형을 이루어야 한다. 그 중심점이 몸의 가운데쯤에 위치하도록 하라.
+    마음으로, 그 중심점으로부터 에너지 구체 전체로 에너지를 방사하라. 너무
+    열심히 해서는 안 된다. 부지런함으로는 목적에 도달하지 못할 것이다. 그냥
+    이따금씩 척추 앞쪽 부위를 마음으로 응시하라. 그리고 상승 흐름이 올라가고
+    하강 흐름이 내려가는 것을 마음으로 그려라. 자연스럽게 흐름을 느끼는 습관이
+    길러진다.
+  </p>
+
+  <p>
+    에너지는 중앙의 흐름 형태로 사람의 몸 안에 들어온다. 그런 다음 그 에너지는
+    사념에 의해 모양이 갖춰지고, 몸에서 빠져나갈 때 이 사념들에 상응하는
+    매개변수를 획득한다. 이렇게 변조된 에너지는 가능태 공간의 상응하는 섹터에
+    가해지고, 그 결과 그 가능태가 물질적으로 실현된다.
+  </p>
+
+  <h2 class="post-tab">조율</h2>
+
+  <p>
+    조율이란 마치 목표가 이미 이루어진 양 목표를 생각하는 데서 기쁨을 얻는
+    것이다. 조율을 지키기 위해서는 중요성을 내려놓고 의식적으로 흐름을 따라가야
+    한다. 중요성을 내려놓기는 어렵다. 이 상황을 효과적으로 빠져나가기 위해서는
+    모든 것을 통제하려 드는 마음의 습관을 이용해서, 마음에게 새로운 게임을
+    권하면 된다. 나쁜 일이 일어나면 의식을 일깨워서 일어나고 있는 일의 중요성을
+    의식적으로 따져보라. 그리고 당신의 태도를 바꾸라.
+    <span class="post-underline"
+      >비관적으로 보이는 변화를 낙관적인 것으로 바라보기를 의도하라.</span
+    >
+  </p>
+
+  <p>
+    해야 할 유일한 일은 목표의 슬라이드를 상영하고 조율의 원리를 따르는 것이다.
+    <span class="post-underline"
+      >조율은 연습의 문제라는 것을 명심해야 한다. 지켜보는 자가 항상 깨어있어야
+      한다.</span
+    >
+    조율은 가능태 공간 속을 움직여가는 가장 효율적인 방법이다. 모든 사건을
+    긍정적으로 대하여 항상 바람직한 갈래로 올라서라.
+  </p>
+
+  <p>
+    파괴적인 펜듈럼과의 게임을 받아들이지 말고, 쓸모가 있어 보이는 펜듈럼을
+    찾아서 게임을 벌이라. 이것은 긍정적이고 좋은 것에 주의를 기울이는 습관을
+    갖는 것을 의미한다. 불행한 일이 일어날 때마다 그것이 당신을 옭아매려는
+    펜듈럼임을 기억하는 것, 그것을 배우는 일이 중요하다.
+    <span class="post-underline"
+      >그것을 기억하는 순간 의식적인 선택을 할 수 있게 된다.</span
+    >
+    그것을 기억해 내기만 한다면, 펜듈럼을 그냥 지나가게 하거나 꺼버리는 것은
+    쉬운 일이다. 당신에게는 펜듈럼을 받아들일지, 거부할지를 의식적으로 결정할 수
+    있는 자유가 있다. 아주 끈기 있고 단호하게 이 방법을 사용한다면 결국에는
+    새로운 습관이 낡은 습관을 몰아낼 것이다.
+  </p>
+
+  <h2 class="post-tab">의심</h2>
+
+  <p>
+    영혼이 의심을 품는다면 영혼을 설득하거나 확신시키는 것은 불가능하다. 한 가지
+    근본적인 조치를 취해야 한다. 믿음이라는 말을 당신의 관념틀 속에서 없애버리고
+    그 대신 앎을 그 자리에 갖다 놓으라.
+    <span class="post-underline"
+      >마음이 이런저런 일이 일어나리라는 것을 그저 알기만 한다면 설득할 필요
+      없이 영혼은 거기에 동의할 것이다.</span
+    >
+    이 앎을 얻는 것. 그러려면 이 앎에 익숙해지고 그것을 받아들일 필요가 있다.
+    세월과 함께 사람들은 전화, 텔레비전, 비행기 등 온갖 희한한 것들에도 곧잘
+    익숙해진다. 슬라이드 기법을 적용하라. 이 앎을 당신의 머릿속에 품어서 먹이고
+    길러야 한다. 목표가 이루어질 것임을 당신이 알고 있음을 수시로 자신에게
+    상기시키는 것이다. 목표를 생각할 때 당신은 다시 자기도 모르게 습관적으로
+    의심을 하고 목표를 이룰 방법을 궁리하고 있는 것을 발견할 것이다. 의심은 물론
+    있을 것이지만 당신은 그것을 알아차리고 바로잡아야 한다. 의심은 점차 사라질
+    것이다. 의심을 쫓아내려고 너무 애쓰지만 말라. 의심의 존재에 저항하지도 말라.
+    의심을 하면 반드시 실패하는 것은 아니라고 자신을 다독거려라.
+  </p>
+
+  <p>
+    믿음의 미궁에는 빠져나갈 길이 없다. 그러나 그 미궁의 벽도 외부의도가 사과가
+    하늘로 떨어지는 것을 당신 눈앞에 보여줄 때면 허물어지게 되리라는, 그런
+    희망은 있어야 한다. 이런 희망조차 없다면 트랜서핑을 실천하는 것은
+    불가능하다. 희망을 발견하면 마음이 발판을 얻고 영혼은 생기를 되찾는다.
+  </p>
+</div>
+`,ar=s({default:()=>or}),or=`<div class="post-meta">
+  <meta name="post-id" content="7" />
+  <meta
+    name="post-title"
+    content="천재 광고기획자의 아이디어 생산 5단계 정리"
+  />
+  <meta name="post-published" content="2026-04-26T23:28" />
+  <meta
+    name="post-tags"
+    content="아이디어, 제임스 웹 영, 60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법"
+  />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/archives/growth/7/book.jpg"
+      alt="60분 만에 읽었지만 평생 당신 곁을 떠나지 않을 아이디어 생산법"
+      width="200"
+    />
+    <figcaption>출처: 월북</figcaption>
+  </figure>
+
+  <h2 class="post-tab">총평</h2>
+
+  <p>
+    역시 진실은 간단하고 명료하다. 특정 정보를 얻기 위해서 읽은 책이, 서론이
+    길고, 불필요하게 사례를 추가하고, 주장을 반복하면서 수십 페이지면 충분할
+    내용을 수백 페이지로 늘리고 있으면 정말... 처음 책의 메시지에 받았던 희열은
+    고스란히 분노가 된다. 지금 상황에 나에게 꼭 필요한 정보를 담은 책이 그렇지
+    않아서 다행이다. 컴팩트한 마무리는 정보에 신뢰를 더한다.
+  </p>
+
+  <h2 class="post-tab">원리</h2>
+
+  <p>아이디어는 오래된 요소들의 새로운 조합, 그 이상도 이하도 아니다.</p>
+
+  <p>
+    오래된 요소들을 가지고 새로운 조합을 만드는 능력은 ‘관계’를 보는 능력에 크게
+    의존한다. 팩트에는 관계와 유사성이 있다. 일련의 팩트에 일반 법칙이 적용되는
+    모습을 발견하는 것이 중요하다. 이는 훈련으로 키울 수 있다.
+  </p>
+
+  <h2 class="post-tab">아이디어를 생산하는 5단계</h2>
+
+  <h3 class="post-point">
+    1. 자료를 모은다. 당면한 문제와 관련된 자료와 일반적 지식 둘 다를 꾸준히
+    저장하면서 점점 풍부해진 자료를 수집한다.
+  </h3>
+
+  <p>수집해야 할 자료는 두 종류다. 구체적인 자료와 일반적인 자료.</p>
+
+  <p>
+    구체적인 자료란 이를테면 제품과 소비자 사이의 미세한 관계를 집요하게
+    파고들어, 비누와 머리카락 관계에 대해 책 한 권을 써낼 만큼 철저하게 파헤친
+    지식을 말한다. 깊이 들어가면 언제나 모든 제품과 소비자 사이에는 개별적인
+    관계가 있고 바로 그 관계가 다시 아이디어로 이어질 수 있다. <br />
+  </p>
+
+  <p>
+    일반적인 자료란 말 그대로 온갖 분야의 정보를 말하는데, 이것이 중요한 이유는
+    간단히 만화경 속 유리 조각이 많을수록 손잡이를 돌릴 때마다 더 화려하고
+    새로운 패턴이 나타날 가능성이 높아지기 때문이다. "창의적 인간에게는 모든
+    것이 유의미하다."는 명언을 새겨두자.
+  </p>
+
+  <h3 class="post-point">2. 머릿속에서 이 자료들을 꼭꼭 씹어서 소화시킨다.</h3>
+
+  <h3 class="post-point">
+    3. 부화 단계. 의식적 생각이 아닌, 다른 것들이 종합 작용을 할 수 있게
+    내버려둔다.
+  </h3>
+
+  <p>
+    모든 주제를 내려놓고 고민하는 문제에 대한 생각을 머릿속에서 최대한 몰아내라.
+    앞선 두 단계만큼 필요한 단계라는 사실을 기억할 것. 고민하는 문제를
+    무의식으로 보내서 잠자는 동안 해결되게 하는 것이 목적.
+  </p>
+
+  <h3 class="post-point">
+    4. 실제로 아이디어가 탄생하는 단계. “유레카! 이거야!” 단계.
+  </h3>
+
+  <h3 class="post-point">
+    5. 아이디어를 실용적 용도에 맞게 개발하고 다듬는 마지막 단계.
+  </h3>
+
+  <p>
+    * 앞의 단계가 완료되기 전에 뒤의 단계 중 하나가 일어나는 일은 불가능하다는
+    것을 기억할 것. 즉, 귀찮다고 자료 모으는 과정을 피하려고 하지 마라.
+  </p>
+
+  <h2 class="post-tab">적용과 한계</h2>
+
+  <p>
+    엄밀히 말하면 저자 제임스 웹 영은 광고기획자이고, 이 책 또한 광고 분야를
+    타겟하고 있다. 그러나 이 책을 읽고 삶에 적용한 뒤 효과를 보았다고 편지를
+    보내온 독자들 중 상당수는 광고와 전혀 관계없는 분야에 종사하고 있었고,
+    저자가 광고계뿐만 아니라 정부의 활동이나 공익 사업을 함께 추진하며 겪었던
+    경험들에 비춰보더라도 크게 수정해야 할 부분을 찾지 못했다고 하니 용기를 잃지
+    말고 시도하도록 하자.
+  </p>
+
+  <h3>책에서 본 글 한 토막이 마음에 들어서 마지막으로 덧붙임</h3>
+
+  <blockquote>
+    "예컨대 죽어도 베개 밑에 제인 오스틴의 소설을 넣어둘 일은 없다고 생각한다면,
+    그 이상 생각할 필요는 없다. 그 경우에는 19세기 영국의 지주계급이 ‘상업’에
+    종사하는 사람들을 얼마나 비웃었는지, 그리고 지금 이 나라 허드슨강 유역에
+    사는 사람들이 왜 똑같은 짓을 하고 있는지 절대로 이해하지 못할 것이다.
+    그렇다면 언젠가 ‘부유층’을 위한 ‘속물근성에 호소하는’ 아주 효과적인 광고를
+    만들 방법은 없어질 수도 있다."
+  </blockquote>
+</div>
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">
+  <meta name="post-id" content="5" />
+  <meta name="post-title" content="채권 듀레이션 정리" />
+  <meta name="post-published" content="2026-04-18T23:03" />
+  <meta name="post-tags" content="채권" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">타임라인</h2>
+
+  <p>
+    채권 타임라인이란 채권 투자에서 매수 시점부터 만기 원금 상환일까지 발생하는
+    모든 현금 흐름(이자 지급 및 원금 상환)을 시간 순서대로 배열한 도표를
+    의미한다. 연 1회 이자를 지급하는 8% 이표채 3년물 채권의 타임라인은 아래와
+    같다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/investment/5/timeline_a.png"
+      alt="채권 A 타임라인"
+      width="400"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h3 class="post-point">시장금리가 9%로 오른다면 어떻게 될까?</h3>
+
+  <figure>
+    <img
+      src="/assets/archives/investment/5/timeline_b.png"
+      alt="채권 B 타임라인"
+      width="400"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <p>
+    이제 시장에는 위와 같은 채권B가 나타나게 된다. 채권B를 구매하면 총 2700원의
+    수익을 얻을 수 있는데 채권A를 구매하면 총 2400원의 수익밖에 얻지 못하는
+    상황에서, 채권A를 가진 사람이 자신의 채권을 팔고 싶다면, 시장에 있는 채권B와
+    동일한 보상을 제공해주어야 한다.
+  </p>
+
+  <p>
+    채권B를 구매한 것과 비교해 채권A를 구매하면 1년 후 100원, 2년 후 100원, 3년
+    후 100원이 손해므로, 간단히 1년 후 100원을 보상하고, 2년 후 100원을
+    보상하고, 3년 후 100원을 보상하면 된다.
+  </p>
+
+  <p>
+    채권A를 매도하면서 '1, 2, 3년 후의 100원'을 보상하기 위해서는 1, 2, 3년 후의
+    100원을 각각 현재가치로 할인해서 보상하면 된다. 할인율 공식은 아래와 같다.
+  </p>
+
+  <div class="post-note">
+    PV = FV ÷ (1 + r)ⁿ <br /><br />
+
+    PV(Present Value): 현재가치 <br />
+    FV(Future Value): 미래가치 <br />
+    r(Rate): 할인율 <br />
+    n(number of periods): 횟수
+  </div>
+
+  <div>
+    1년 후의 100원 = 100 ÷ (1 + 0.09)¹ = 현재 약 91.74원 <br />
+    2년 후의 100원 = 100 ÷ (1 + 0.09)² = 현재 약 84.17원 <br />
+    3년 후의 100원 = 100 ÷ (1 + 0.09)³ = 현재 약 77.22원
+  </div>
+
+  <p>
+    보상해야 할 총금액은 약 253.13원이 되고, 이를 판매하고자 하는 현재 채권 가격
+    10,000에서 빼주면 약 9,746.87원이 된다. 즉 이 가격까지는 내려줘야 비로소
+    시장은 채권A를 바라봐 주는 것이다.
+  </p>
+
+  <h3 class="posst-point">채권의 만기가 3년이 아니라 10년이었다면?</h3>
+
+  <p>
+    시장금리가 1% 상승했을 때, 기존 3년물 채권을 시장에 팔기 위해서 100원씩 세
+    번을 보상해줘야 했다. 그런데 기존 채권이 3년물이 아닌 10년물이었다면 이제는
+    100원씩 열 번을 보상해줘야 팔 수 있게 된다. 1년부터 10년 후의 100원을 모두
+    현재가치로 할인해서 합하면 약 642원이 나오고 이를 채권 가격에 반영하면 약
+    9,358이 된다.
+  </p>
+
+  <p>
+    결과적으로 시장금리가 1% 상승했을 때, 3년물은 약 2.53%(253원) 하락하고,
+    10년물은 약 6.42%(642원) 하락했다. 금리가 1% 변할 때, 남은 기간에 따라 가격
+    하락 폭이 달라졌다. 이처럼 만기가 길어질수록 보상해야 할 금액이 누적되어
+    금리라는 외부 충격에 대해 채권 가격이 반응하는 민감도가 달라진다. 이 두 가지
+    성격, 시간과 민감도를 한 바구니에 담아 듀레이션(Duration)이라고 부른다.
+  </p>
+
+  <h2 class="post-tab">듀레이션(Duration)</h2>
+
+  <p>
+    채권 투자에서 투자 원금과 이자를 모두 회수하는 데 걸리는 시간(현재가치로
+    가중된 평균만기)을 의미하며, 동시에 시장 금리 변화에 대한 채권 가격의
+    민감도를 나타내는 핵심 지표.
+  </p>
+
+  <p>
+    채권A에 투자했을 때, 원리합계(원금 + 모든 이자)는 12,400원이다. 그렇다면 이
+    12,400원을 회수하는 데는 '평균적으로' 얼마의 시간이 걸릴까?
+  </p>
+
+  <p>
+    1년 후 이자 800원은 원리합계 12,400의 약 0.06%다. 2년 후 이자 800원 또한
+    원리합계 12,400의 약 0.06%고, 3년 후 원금 10,000원과 이자 800원은 원리합계
+    12,400의 약 0.87%다.
+  </p>
+
+  <p>
+    첫 번째 이자 800원을 회수하는 데는 1년이 걸렸고, 두 번째 이자 800원을
+    회수하는 데는 2년이 걸렸고, 만기 때 원금 10,000원과 이자 800원을 회수하는
+    데는 3년이 걸렸다.
+  </p>
+
+  <p>
+    회수하는 데 걸린 시간의 평균을 계산하면 2.79년이 걸린다. 이는 단순히
+    현금흐름을 기준으로 계산한 평균 회수 기간이며, 이후에는 각 금액을 현재가치로
+    할인해 보다 정확한 듀레이션을 구하게 된다.
+  </p>
+
+  <div class="post-note">(0.06 × 1) + (0.06 × 2) + (0.87 × 3) = 2.79</div>
+
+  <p>
+    위에서 정의했듯이 듀레이션은 원리합계를 회수하는 데 걸리는 평균 시간이면서
+    동시에 금리 변화에 따른 가격의 민감도를 나타낸다. 즉 금리가 1% 상승할 때
+    가격이 2.79% 하락한다는 얘기인데 앞서 직접 구한 2.53%와 차이가 발생했다.
+  </p>
+
+  <h3 class="post-point">⑴ 맥컬리 듀레이션 (Macaulay Duration)</h3>
+
+  <p>
+    우리는 12,400원이라는 '미래의 돈'을 그대로 사용해 2.79년을 구했는데, 사실은
+    그 돈을 현재가치로 할인해서 계산해야 한다.
+  </p>
+
+  <div class="post-note">
+    1년 후의 800원 = 800 ÷ (1 + 0.08)¹ = 740.74원(비중: 0.074). <br />
+    2년 후의 800원 = 800 ÷ (1 + 0.08)² = 685.87원(비중: 0.069). <br />
+    3년 후의 10,800원 = 10,800 ÷ (1 + 0.08)³ = 8,573.39원(비중: 0.857).
+    <br /><br />
+
+    (0.074 × 1) + (0.069 × 2) + (0.857 × 3) = 2.783
+  </div>
+
+  <p>
+    이렇게 현재가치로 가중해 계산한 평균 회수 기간을 맥컬리 듀레이션이라 하며,
+    이는 채권의 ‘평균만기’로 해석된다. 이 채권에 투자하면 내 원금과 이자의
+    가치를 평균적으로 2.783년 만에 회수한다고 이해할 수 있다.
+  </p>
+
+  <h3 class="post-point">⑵ 수정 듀레이션 (Modified Duration)</h3>
+
+  <p>
+    맥컬리 듀레이션(2.78~2.79)이 '시간' 개념이었다면, 수정 듀레이션은 '가격
+    변동률'을 의미한다. 변환을 위해서 현재 시장의 유통수익률(YTM)로 한 번 더
+    나누어 준다.
+  </p>
+
+  <div>
+    * 여기서는 채권의 이자율과 시장금리(YTM)가 8%로 같은 상황을 가정했다. <br />
+    * 앞서 직접 가격을 구할 때는 변화한 금리인 9%를 대입했지만, 듀레이션은 '지금
+    이 순간'의 금리 수준에서 가격이 어느 정도의 기울기로 반응하는지를 나타내는
+    지표이기 때문에 현재 시점의 금리인 8%를 사용한다.
+  </div>
+
+  <p class="post-note">2.783 ÷ (1 + 0.08) = 약 2.57</p>
+
+  <p>
+    즉, 채권A는 금리 1%가 변동할 때 가격이 약 2.57% 변동하는 민감도를 가졌다라고
+    계산된다.
+  </p>
+
+  <h2 class="post-tab">볼록성(Convexity)</h2>
+
+  <p>수정 듀레이션 또한 우리가 직접 계산했던 값 2.53%와는 차이가 있다.</p>
+
+  <p>
+    수정 듀레이션은 현재 금리 지점에서의 순간적인 기울기로써, 금리가 아주
+    미세하게 변할 때를 가정한 '직선의 논리'다. 하지만 앞서 구한 것처럼 금리에
+    따른 채권의 가격을 일일히 계산해서 대입해보면, 금리 변화에 따라 가격은
+    곡선을 그리며 움직인다.
+  </p>
+
+  <p>이때 등장하는 개념이 바로 볼록성이다.</p>
+
+  <p>
+    수정 듀레이션이 금리 변화에 대한 ‘1차 반응(기울기)’이라면, 볼록성은 금리
+    변화가 커질수록 나타나는 ‘2차 효과(곡률)’를 반영한다.
+  </p>
+
+  <p>
+    이 곡률 구조 덕분에 채권 가격은 비대칭적으로 움직인다. 금리가 상승할 때는
+    가격 하락 폭이 완만해지고, 금리가 하락할 때는 가격 상승 폭이 더 커지게 된다.
+    즉, 손실은 줄이고 이익은 확대되는 방향으로 작용한다. 그래서 채권 투자자들은
+    듀레이션이 같더라도 볼록성이 더 큰 채권을 선호하는 경향이 있다. 이를테면 5년
+    만기 채권에 집중한 포트폴리와 1년 만기 채권 및 10년 만기 채권에 분산한
+    포트폴리오의 듀레이션은 같지만, 지금 시점으로부터 넓게 분산되어 있는 후자의
+    포트폴리오가 훨씬 큰 볼록성을 가진다.
+  </p>
+
+  <p>
+    다만 이러한 특성은 모든 채권에 동일하게 적용되는 것은 아니다. 일반적인
+    채권은 투자자에게 유리한 ‘양(+)의 볼록성’을 가지지만, 콜옵션이 포함된 채권
+    등은 금리 하락 시 가격 상승이 제한되는 ‘음(-)의 볼록성’을 보이기도 한다.
+  </p>
+
+  <p>
+    금리 변동 폭이 작을 때는 수정 듀레이션만으로도 충분히 정확한 예측이 가능지만
+    금리 변동 폭이 커질수록 볼록성의 영향이 점점 커지면서, 단순한 듀레이션 기반
+    추정과 실제 가격 변화 사이의 차이도 함께 확대된다.
+  </p>
+
+  <p>
+    결국 ‘직선적 근사’인 듀레이션에 반해 볼록성은 이면에 존재하는 실제 곡선
+    형태의 움직임을 반영해 그 추정이 어떻게 달라지는지를 보여준다. 따라서
+    듀레이션으로 채권 가격의 방향과 크기를 추산한 후에 볼록성을 통해 그 오차를
+    보정함으로써 보다 현실에 가까운 가격 변화를 파악할 수 있다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/investment/5/convexity.png"
+      alt="볼록성 그래프"
+      width="400"
+    />
+    <figcaption></figcaption>
+  </figure>
+
+  <h3 class="post-point">왜 듀레이션이 필요할까?</h3>
+
+  <p>
+    이렇듯 듀레이션은 직접 계산한 값과 비교하면 약간의 오차가 존재함에도
+    불구하고, 채권 투자에서 필수적인 지표로 활용되는데 그 이유는 다음과 같다.
+  </p>
+
+  <p>첫째, 듀레이션은 현재 금리 수준에서의 '기울기'를 의미한다.</p>
+
+  <p>
+    그리고 이 기울기 값을 활용하면 시장금리가 0.1% 변하든지 0.5% 변하든지 곱셈
+    한 번으로 채권 가격 향방을 즉시 추산할 수 있다. 엄밀한 정답보다는 실시간
+    대응을 위한 기동성에 최적화된 도구로 쓰인다.
+  </p>
+
+  <p>둘째, 포트폴리오 차원의 통합 관리가 가능하다.</p>
+
+  <p>
+    보유한 수십 가지 채권 가격을 금리 변동 시마다 일일이 재계산하는 것은
+    불가능에 가깝다. 하지만 각 채권의 듀레이션을 비중별로 합산한 '포트폴리오
+    듀레이션'을 구해두면, 시장 금리가 출렁일 때 내 전체 자산이 입을 타격이나
+    수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.
+  </p>
+</div>
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">
+  <meta name="post-id" content="11" />
+  <meta name="post-title" content="중력을 소진시키는 방법" />
+  <meta name="post-published" content="2026-05-27T21:30" />
+  <meta name="post-tags" content="소셜 네트워크" />
+</div>
+
+<div class="post-content">
+  <p>
+    특별함을 추구하는 부류가 있다. 증명되지 않은 상태는 그들에게 있어 존재의
+    공백과 같다. 그 결핍은 계속해서 삶을 어딘가로 끌어당기는 중력으로, 거기서
+    벗어나는 일은 그들에게 평생의 숙제다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/columns/culture/11/poster.jpg"
+      alt="소셜 네트워크"
+      width="500"
+    />
+    <figcaption>출처: 컬럼비아 픽처스</figcaption>
+  </figure>
+
+  <p>
+    마크와 에리카가 펍 테이블에 앉아 이야기를 시작한다. 마크도 특별함을 추구하는
+    부류의 인간이다. 둘의 대화가 시작부터 삐걱거린 이유는 마크의 화두가 일상과
+    동떨어져서가 아니라, 결핍이 대개 배려를 앗아간다는 데 있다. 조금씩 엇나가는
+    대화 속에서 마크는 에리카의 학력을 비하하는 발언을 하게 되고, 결국 에리카는
+    마크가 컴퓨터 분야에서 성공하더라도 좋은 여자는 만나지 못할 거라고 욕설과
+    함께 쏘아붙인 후 자리를 떠난다.
+  </p>
+
+  <p>
+    그날 밤 마크는 술을 마시며 '페이스매시'를 만든다. 하버드 여학생들의 사진을
+    나란히 놓고 누가 더 예쁜지 투표하는 사이트였다. 심심풀이로 만든 그것이
+    서버를 다운시킬 만큼 퍼져나갔고, 이어 '더 페이스북'으로 확장되었다. 더
+    페이스북이 하나의 현상이 되었을 때, 마크는 유명인사가 되어 있었다. 어느 날
+    팬을 자처한 여성들과 파티장 화장실에서 섹스를 하고 나온 마크의 눈에, 저 멀리
+    테이블에 앉아있는 에리카가 들어온다. 그 순간 마크는 에리카가 자신에게
+    마지막으로 남긴 말이 떠올랐을 것이다. 스스로가 증명되었다고 느껴지는 지금,
+    마크는 자신만만하게 에리카에게 다가가지만 세상(에리카)은 그에게 더없이
+    냉담하다. 마크는 처참함 속에 파티장을 빠져나오며 사업을 더 키우자고 말한다.
+  </p>
+
+  <p>
+    이후 마크의 사업은 완전히 정상궤도에 올라서지만 남의 아이디어를 훔쳤다는
+    소송이 걸리게 된다. 변호사는 그 정도 합의금은 벌금 수준이 아니냐며 그냥
+    줘버리라고 말하지만, 마크에게 그것은 증명의 문제였다. 남의 것으로는 자신을
+    증명할 수 없었다. 마크는 변호사를 먼저 보내고 잠시 컴퓨터 앞에 앉아 자신이
+    만든 세상을 들여다 본다. 에리카가 그 세상 속에 들어와 있었다. 마크는
+    에리카에게 친구 신청을 보낸다.
+  </p>
+
+  <p>
+    마크는 연달아 새로고침을 누르며 세상(에리카)의 답신을 기다린다. 무언가
+    내려앉은 듯 조금씩 공허해지는 그 표정은 채워지지 않은 갈망의 초상으로 읽히기
+    쉽다. 그러나 마크는 곧 합의금을 지불한다. 조금 전까지 증명의 문제라며
+    거부하던 그 돈이다. 공허함은 갈망이 아닌 해방이었다.
+  </p>
+
+  <p>
+    끈질겼던 결핍이 사라지는 건 일순간이다. 그 순간은 반드시 세상의 인정이나
+    스스로의 엄격한 잣대를 넘는 증명일 필요가 없다. 결핍은, 그저 채우기 위해
+    에너지를 소진하다 어느 순간 뒤돌아보면 사라져있다.
+  </p>
+
+  <blockquote class="post-quotation">
+    "내가 냅스터를 시작한 이유? 고딩 때 좋아한 여자애가 대학 라크로스팀 주장과
+    사귀었어. 걜 뺏고 싶었지."
+  </blockquote>
+</div>
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">
+  <meta name="post-id" content="2" />
+  <meta
+    name="post-title"
+    content="청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결"
+  />
+  <meta name="post-published" content="2026-03-24T21:58" />
+  <meta name="post-tags" content="헤밍웨이, 노인과 바다" />
+</div>
+
+<div class="post-content">
+  <p>
+    몇십 분째 프로그래밍 작업에 진전이 없었다. 평소와 다르게 복도 문 여닫는
+    소음도 날카로운 파편처럼 날아와 박혔다. 점점 더 신경은 예민하게 반응했다.
+    마침내 나는 논리적인 생각을 조금도 이어나갈 수 없는 지경에 이르렀다. 나는 내
+    안의 회복탄력성이 완전히 무너졌음을 깨달았다. 왜 이렇게 지친 걸까? 내 일련의
+    노력들이 오랜기간 성과를 내지 못했고, 그래서 보상을 받지 못해서라는 생각이
+    들었다. 저녁에 집에 돌아와 헤밍웨이의 《노인과 바다》를 꺼냈다.
+  </p>
+
+  <p>
+    어떤 기대가 있었던 것은 아니었다. 보상 없는 노력에 지친 이에게 이 소설은
+    잔인하다. 84일을 버틴 노인이 85일째 백골만 들고 오는 이야기는 대개 굴하지
+    않는 인간의 승리로 읽히지만, 그렇게 더 버티라는 말만큼 그때의 나에게
+    쓸모없는 것도 없었다. 그러나 책을 다시 펼치고 얼마 지나지 않아, 그 안에서
+    나는 다른 것을 읽게 되었다. 산티아고를 지킨 것은 의지의 확장이 아니라
+    축소다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/columns/culture/2/book.jpg"
+      alt="노인과 바다"
+      width="200"
+    />
+    <figcaption>출처: 민음사</figcaption>
+  </figure>
+
+  <p>
+    소설 속 노인, 산티아고가 처한 현실은 오랜 실패가 쌓인 결과처럼 보인다.
+    조업이 끝나고 밀가루 부대로 기워진 돛을 펼친 조각배 하나가 항구에 도착하면,
+    그것이 산티아고의 배다. 동료 어부들에게서 홀로 떨어져 고기잡이를 하는
+    산티아고는 지난 84일 동안 단 한 마리의 고기도 낚지 못했다. 산티아고는 운이
+    없는 사람이라 불렸고, 놀림과 동정을 샀다. 양성 피부암 반점으로 덮인 깡마른
+    몸을 이끌고 도착한 판잣집에는 마땅히 먹을 음식조차 없었다.
+  </p>
+
+  <p>
+    지난한 실패가 일상을 잠식할 때도 산티아고의 중심은 흔들리지 않았다. 그는
+    자신이 정확히 미끼를 드리울 수 있음을 알았고, 운은 단지 아직 찾아오지 않았을
+    뿐이라 믿었다. 그에게 정말 중요한 것은 운 그 자체가 아니라, 마침내 기회가
+    찾아왔을 때 그것을 낚아챌 만반의 준비를 갖추는 일이었다. 84일째 빈손으로
+    돌아온 저녁에도 산티아고가 묵묵히 어구를 나르며 어부로서의 정체성을 지켜낸
+    이유가 여기에 있다. 이러한 내면의 단단함은 다음날 새벽 조업을 나가기 전,
+    소년 마놀린과 커피를 마시며 건넨 '오늘은 자신감이 생긴다'라는 말에 무게를
+    더한다. 이는 대책 없는 낙관주의자의 헛된 희망이 아니라, 자신이 할 수 있는
+    모든 준비를 마친 이만이 내뱉을 수 있는 철인<span class="post-sub"
+      >(哲人)</span
+    >의 선언에 가깝다.
+  </p>
+
+  <p>
+    스토아 철학자 에픽테토스의 사유를 옮긴 '엥케이리디온' 1장 1절은 이렇게
+    시작한다.
+  </p>
+
+  <p class="post-quotation">
+    "존재하는 것들 가운데 어떤 것들은 우리에게 달려 있는 것들이고 다른 어떤
+    것들은 우리에게 달려 있는 것들이 아니다."
+  </p>
+
+  <p>
+    현대 실천 철학에서 '통제의 이분법'이라 일컫는 이 사상은 스토아 학파의 중추를
+    이룬다. 스토아 철학은 어떤 것이 가치가 있으려면 그것이 언제나 나를 행복하게
+    해줄 수 있어야 한다고 가르친다. 그들의 관점에서 보자면 재물이나 명예는
+    있으면 좋지만 언제든 나를 타락시키거나 혼란에 빠뜨릴 수 있기 때문에
+    '무관심사', 즉 가치중립적인 영역에 속했다. 에픽테토스는 통제할 수 없는
+    사건을 마주했을 때, 그것이 우리에게 달려 있지 않은 것들에 관한 것이라면,
+    '그것은 나에게 아무것도 아니다'라는 말을 할 수 있도록 준비하라고 훈련시킨다.
+    아무것도 아닌 것은 무가치한 것이고, 우리는 무가치한 것에 상처 입지 않는다.
+    우리는 무가치한 것에 패배할 수 없다.
+  </p>
+
+  <p>
+    이 철학적 사유는 산티아고의 사투 속에 선명히 녹아있다. 85일째 정오 무렵
+    찾아온 거대한 청새치는 그가 온 힘을 다해 쫓은 목표였으나 동시에 통제할 수
+    없는 운명이었다. 긴 투쟁 끝에 작살을 꽂아 그 거대한 놈을 배에 묶었을 때,
+    산티아고는 마침내 승리한 듯 보였다. 그러나 전리품을 챙겨 돌아오는 길, 작살에
+    찔려 바다로 흐른 청새치의 피 냄새를 맡은 상어 떼의 습격과 함께, 통제할 수
+    없는 거대한 운명 앞에 선 한 개인의 무력함이 가감 없이 드러난다.
+  </p>
+
+  <p>
+    상어 떼는 가차없는 현실이었다. 상어 떼들에 의해 청새치의 살점이 뜯겨나갈
+    때마다 산티아고는 깊은 절망을 느낀다. 생명력을 쥐어짜낸 노력이 무(無)로
+    돌아가는 과정은 잔인했다. 산티아고는 급기야 청새치를 잡은 것을 후회하기에
+    이른다. 그러나 바로 이 지점에서 산티아고는 위대해진다. 그는 일어난 사건을
+    원망하며 손을 놓아버리는 대신 지금 당장 할 수 있는 일에 집중한다. 산티아고는
+    상황을 수용하면서 그 안에서 자신에게 유리한 점을 찾아내 스스로를 설득했다.
+    그는 다시 일어서서 몽둥이를 휘두르고, 칼을 묶고, 남은 키를 휘두른다. 평소
+    패배감에 잠식되어 있는 인간에게서는 결코 기대할 수 없는 투쟁력이었다.
+    처참하게 파먹힌 청새치를 옆에 두고도 그는 마치 단 한 번도 패배한 적이 없는
+    사람처럼 행동한다. 이 절망스러운 투쟁 끝에 결국 고기를 모두 잃을 거라고
+    어렴풋 짐작하면서도 그는 지금 이 순간의 싸움만큼은 온전히 자신의 통제 하에
+    있음을 알았다.
+  </p>
+
+  <blockquote class="post-quotation">
+    "인간은 파멸당할 수는 있을지 몰라도 패배할 수는 없어."
+  </blockquote>
+
+  <p>
+    항구로 돌아온 산티아고는 배에 단단히 붙들어 맨 청새치를 그대로 두고,
+    판잣집에서 깊은 잠에 빠진다. 산티아고의 배 근처로 몰려든 사람들은 청새치를
+    보고 경탄한다. 가로등 불빛 아래 뾰족한 주둥이가 달린 시커먼 머리통으로부터
+    18피트에 달하는 거대한 백골이 드러나 있었다.
+  </p>
+
+  <p>
+    산티아고가 백골을 배에 매단 채 평온히 잠들 수 있었던 이유는 파멸 속에서도
+    패배하지 않았기 때문이 아니다. 그가 항구로 끌고 온 것이 잃어버린 것의 목록이
+    아니라 끝까지 자신이 해낸 일의 기록이었기 때문이다. 백골은 실패의 흔적이
+    아니라 통제 가능했던 것의 완결된 형해다. 그날 내가 무너진 것은 성과가
+    없어서가 아니라, 내 백골들을 패배의 흔적으로 바라보았기 때문이 아닐까.
+  </p>
+</div>
 `,pr=s({default:()=>mr}),mr=`<div class="post-meta">
-	<meta name="post-id" content="17" />
-	<meta name="post-title" content="긴 계단 가장 높은 곳에서 맞던 밤바람" />
-	<meta name="post-published" content="2026-06-27T23:37" />
-	<meta name="post-tags" content="Beyonce, Broken-Hearted Gril" />
+  <meta name="post-id" content="13" />
+  <meta name="post-title" content="1조의 무게" />
+  <meta name="post-published" content="2026-05-30T13:35" />
+  <meta name="post-tags" content="AI" />
 </div>
 
 <div class="post-content">
-<p>
-피아노가 연주하는 세 번의 블록 코드와 한 번의 아르페지오로 시작된다. 세 번의 앞선 블록 코드는 비장하고 단단하지만 뒤에 따라오는 한 번의 아르페지오는 슬프고 약하다. 이는 곡 중 깨진 심장의 여자가 되지 않겠다고 내내 다짐하던 여자의 심장이 끝내 깨져버린 것을 상징하는 것처럼 다가온다.
-</p>
+  <p>
+    Evercore와 Bank of America는 2027년 빅테크 자본 지출이 1조 달러를 넘어설
+    것으로 전망했다.
+  </p>
 
-<p>
-지인들과 밤바다로 떠나기 직전에, 나는 처음 이 노래를 들었다. 눈부신 청춘이었고 꿈이 많았다. 그 날은 밤바람이 시원한 초여름이었던 걸로 기억한다.
-</p>
+  <p>
+    그러나 우리는 이 엄청난 금액 대신 성장률에 주목해야 한다. 26년 예상치는
+    8천억 달러에서 9천억 달러 사이다. 성장률은 약 18%다. 18%는 높은 수치지만
+    지금까지 AI 산업이 보여온 성장률에 비할 수는 없다.
+  </p>
 
-<p>
-이후 나는 살던 동네에서 긴 계단이 있는 곳을 발견하고는, 때때로 자정 가까운 시간에 그 긴 계단 가장 높은 곳에 앉아 밤바람을 맞으면서 이 노래를 들었다. 이십 대 때, 나는 자주 외로웠다.
-</p>
+  <p>
+    엔비디아를 기준으로 보면, 23년도 1분기 매출은 약 72억 달러다. 24년도는 전년
+    동기 대비 262%, 25년도는 69%, 26년도는 85% 성장했다. 시장은 어떻게 판단하고
+    있을까?
+  </p>
 
-<p>
-여자는 상처받고 싶지 않아서 사랑하고 싶지 않지만 그러나 자신이 사랑하고 있다는 것을 안다. 곡의 클라이맥스에서, 여자는 새로운 세계에 도달하고 마침내 자신의 상처받은 마음을 받아들이면서 해방된다.
-</p>
+  <p>
+    2022년 10월 31일 엔비디아 P/E Ratio는 57.36이었다. 그로부터 한 달 뒤인 11월
+    30일 GPT-3.5가 세상에 공개되었고, 엔비디아 P/E Ratio는 2023년 4월 30일
+    147.47까지 오른 뒤, 2026년 5월 29일 32.33에 안착했다. 다른 팹리스 기업
+    수준으로 회귀했다.
+  </p>
 
-<p>
-노래를 듣고 있으면 꿈을 버렸던 그 날이 떠오른다. 커다란 슬픔이 다른 감정을 밀어내서 그때는 제대로 인지하지 못했지만, 분명 내 마음 한 켠에 해방감이 있었다. 
-</p>
+  <figure>
+    <img
+      src="/assets/columns/investment/13/nvidia.png"
+      alt="엔비디아 멀티플 추이"
+      width="400"
+    />
+    <figcaption>
+      출처:
+      <a
+        href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/pe-ratio"
+        target="_blank"
+        >Macrotrends</a
+      >
+    </figcaption>
+  </figure>
+
+  <p>
+    AI 칩은 소모품으로 교체 주기가 있어 매년 일정 수요가 발생한다. 그러나 현재
+    AI 관련 섹터의 주가를 단순히 유지하려고만 해도 지금의 이 거대한 투자 규모가
+    매년 반복되어야 한다. 주가가 더 오르려면? 그때는 거대함을 넘어선 광폭함이
+    필요하다.
+  </p>
+
+  <p>이제 여름이다. 지구가 더 뜨거워지지 않았으면 좋겠다.</p>
+
+  <p class="post-ref">
+    * 참고<br />
+    NVDA Form 10-Q, Q1 FY2024–Q1 FY2027<br />
+
+    CNBC,
+    <a
+      href="https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html"
+      target="_blank"
+      >"AI boom: Big Tech capital expenditures now seen topping $1 trillion in
+      2027" (2026.04.30)</a
+    >
+  </p>
 </div>
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">\r
-	<meta name="post-id" content="2" />\r
-	<meta\r
-		name="post-title"\r
-		content="청새치의 형해(形骸), 실패라는 이름으로 기록된 내면의 완결"\r
-	/>\r
-	<meta name="post-published" content="2026-03-24T21:58" />\r
-	<meta name="post-tags" content="헤밍웨이, 노인과 바다" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		몇십 분째 프로그래밍 작업에 진전이 없었다. 나는 인공지능이 제시한 간단한\r
-		해답을 이해하지 못했다. 평소와 다르게 복도 문 여닫는 소음도 날카로운\r
-		파편처럼 날아와 박혔다. 점점 더 신경은 예민하게 반응했다. 마침내 나는\r
-		논리적인 생각을 조금도 이어나갈 수 없는 지경에 이르렀다. 나는 내 안의\r
-		회복탄력성이 완전히 무너졌음을 깨달았다. 왜 이렇게 지친 걸까? 내 일련의\r
-		노력들이 오랜기간 성과를 내지 못했고, 그래서 보상을 받지 못해서라는 생각이\r
-		들었다. 저녁에 집에 돌아와 헤밍웨이의 《노인과 바다》를 꺼냈다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/essays/culture/2/book.jpg"\r
-			alt="노인과 바다"\r
-			width="200"\r
-		/>\r
-		<figcaption>출처: 민음사</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		소설 속 노인, 산티아고가 처한 현실은 오랜 실패가 쌓인 결과처럼 보인다.\r
-		조업이 끝나고 밀가루 부대로 기워진 돛을 펼친 조각배 하나가 항구에 도착하면,\r
-		그것이 산티아고의 배다. 동료 어부들에게서 홀로 떨어져 고기잡이를 하는\r
-		산티아고는 지난 84일 동안 단 한 마리의 고기도 낚지 못했다. 산티아고는 운이\r
-		없는 사람이라 불렸고, 놀림과 동정을 샀다. 양성 피부암 반점으로 덮인 깡마른\r
-		몸을 이끌고 도착한 판잣집에는 마땅히 먹을 음식조차 없었다.\r
-	</p>\r
-\r
-	<p>\r
-		지난한 실패가 일상을 잠식할 때도 산티아고의 중심은 흔들리지 않았다. 그는\r
-		자신이 정확히 미끼를 드리울 수 있음을 알았고, 운은 단지 아직 찾아오지 않았을\r
-		뿐이라 믿었다. 그에게 정말 중요한 것은 운 그 자체가 아니라, 마침내 기회가\r
-		찾아왔을 때 그것을 낚아챌 만반의 준비를 갖추는 일이었다. 84일째 빈손으로\r
-		돌아온 저녁에도 산티아고가 묵묵히 어구를 나르며 어부로서의 정체성을 지켜낸\r
-		이유가 여기에 있다. 이러한 내면의 단단함은 다음날 새벽 조업을 나가기 전,\r
-		소년 마놀린과 커피를 마시며 건넨 '오늘은 자신감이 생긴다'라는 말에 무게를\r
-		더한다. 이는 대책 없는 낙관주의자의 헛된 희망이 아니라, 자신이 할 수 있는\r
-		모든 준비를 마친 이만이 내뱉을 수 있는 철인<span class="post-sub"\r
-			>(哲人)</span\r
-		>의 선언에 가깝다.\r
-	</p>\r
-\r
-	<p>\r
-		스토아 철학자 에픽테토스의 사유를 옮긴 '엥케이리디온' 1장 1절은 이렇게\r
-		시작한다.\r
-	</p>\r
-\r
-	<p class="post-quotation">\r
-		"존재하는 것들 가운데 어떤 것들은 우리에게 달려 있는 것들이고 다른 어떤\r
-		것들은 우리에게 달려 있는 것들이 아니다."\r
-	</p>\r
-\r
-	<p>\r
-		현대 실천 철학에서 '통제의 이분법'이라 일컫는 이 사상은 스토아 학파의 중추를\r
-		이룬다. 스토아 철학은 어떤 것이 가치가 있으려면 그것이 언제나 나를 행복하게\r
-		해줄 수 있어야 한다고 가르친다. 그들의 관점에서 보자면 재물이나 명예는\r
-		있으면 좋지만 언제든 나를 타락시키거나 혼란에 빠뜨릴 수 있기 때문에\r
-		'무관심사', 즉 가치중립적인 영역에 속했다. 에픽테토스는 통제할 수 없는\r
-		사건을 마주했을 때, 그것이 우리에게 달려 있지 않은 것들에 관한 것이라면,\r
-		'그것은 나에게 아무것도 아니다'라는 말을 할 수 있도록 준비하라고 훈련시킨다.\r
-		아무것도 아닌 것은 무가치한 것이고, 우리는 무가치한 것에 상처 입지 않는다.\r
-		우리는 무가치한 것에 패배할 수 없다.\r
-	</p>\r
-\r
-	<p>\r
-		이 철학적 사유는 산티아고의 사투 속에 선명히 녹아있다. 85일째 정오 무렵\r
-		찾아온 거대한 청새치는 그가 온 힘을 다해 쫓은 목표였으나 동시에 통제할 수\r
-		없는 운명이었다. 긴 투쟁 끝에 작살을 꽂아 그 거대한 놈을 배에 묶었을 때,\r
-		산티아고는 마침내 승리한 듯 보였다. 그러나 전리품을 챙겨 돌아오는 길, 작살에\r
-		찔려 바다로 흐른 청새치의 피 냄새를 맡은 상어 떼의 습격과 함께, 통제할 수\r
-		없는 거대한 운명 앞에 선 한 개인의 무력함이 가감 없이 드러난다.\r
-	</p>\r
-\r
-	<p>\r
-		상어 떼는 가차없는 현실이었다. 상어 떼들에 의해 청새치의 살점이 뜯겨나갈\r
-		때마다 산티아고는 깊은 절망을 느낀다. 생명력을 쥐어짜낸 노력이 무(無)로\r
-		돌아가는 과정은 잔인했다. 산티아고는 급기야 청새치를 잡은 것을 후회하기에\r
-		이른다. 그러나 바로 이 지점에서 산티아고는 위대해진다. 그는 일어난 사건을\r
-		원망하며 손을 놓아버리는 대신 지금 당장 할 수 있는 일에 집중한다. 산티아고는\r
-		상황을 수용하면서 그 안에서 자신에게 유리한 점을 찾아내 스스로를 설득했다.\r
-		그런 태도는 곧 의지의 회복으로 이어졌다. 그는 다시 일어서서 몽둥이를\r
-		휘두르고, 칼을 묶고, 남은 키를 휘두른다. 평소 패배감에 잠식되어 있는\r
-		인간에게서는 결코 기대할 수 없는 회복력이었다. 처참하게 파먹힌 청새치를 옆에\r
-		두고도 그는 마치 단 한 번도 패배한 적이 없는 사람처럼 행동한다. 이\r
-		절망스러운 투쟁 끝에 결국 고기를 모두 잃을 거라고 어렴풋 짐작하면서도 그는\r
-		지금 이 순간의 투쟁만은 온전히 자신의 통제 하에 있음을 알았다.\r
-	</p>\r
-\r
-	<blockquote class="post-quotation">\r
-		"인간은 파멸당할 수는 있을지 몰라도 패배할 수는 없어."\r
-	</blockquote>\r
-\r
-	<p>\r
-		항구로 돌아온 산티아고는 배에 단단히 붙들어 맨 청새치를 그대로 두고,\r
-		판잣집에서 깊은 잠에 빠진다. 산티아고의 배 근처로 몰려든 사람들은 청새치를\r
-		보고 경탄한다. 가로등 불빛 아래 뾰족한 주둥이가 달린 시커먼 머리통으로부터\r
-		18피트에 달하는 거대한 백골이 드러나 있었다.\r
-	</p>\r
-\r
-	<p>\r
-		오늘 내가 심적으로 무너진 것은 내가 나의 청새치 백골들을, 패배의 흔적으로\r
-		바라보았기 때문이 아닐까. 판잣집에 누워 평온한 얼굴로 잠든 산티아고는\r
-		어땠을까? 스스로가 통제할 수 있는 것에만 집중했던, 자기효능감의 원천으로\r
-		바라보지 않았을까. 그렇게 믿고 싶다.\r
-	</p>\r
-</div>\r
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">\r
-	<meta name="post-id" content="27" />\r
-	<meta name="post-title" content="시간의 밀도" />\r
-	<meta name="post-published" content="2026-07-17T05:53" />\r
-	<meta name="post-tags" content="콜드 마운틴" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		이곳을 목적지로 두지 않은, 여기서 살 생각이 없는 이들은 무너뜨릴 수\r
-		없다. 그들은 무너질 자리를 다른 곳에 둔 것이다. 생의 한순간을 붙들고 사는 것은\r
-		다른 시간을 견디게 한다.\r
-	</p>\r
-\r
-	<!-- <figure>\r
-		<img\r
-			src="/assets/essays/culture/27/poster.jpg"\r
-			alt="콜드 마운틴"\r
-			width="200"\r
-		/>\r
-		<figcaption>출처: 미라맥스</figcaption>\r
-	</figure> -->\r
-\r
-	<p>\r
-		미국 남북전쟁의 발발로 인만과\r
-		에이다의 만남은 그 시작만 남긴 채\r
-		끝이 났다. 둘의 대화는 글자수로 셀 수 있을 만큼 적었다.\r
-	</p>\r
-\r
-	<p>\r
-		둘은 4년이 지나고 재회한다. 눈 덮인 길 위에 서서 그렇게 그리던 에이다를\r
-		바라보는 인만의 공허한 눈빛을 나는 평생 잊지 못할 것 같다. 인만은\r
-		에이다에게, 자신이 어떤 어두운 곳으로 미끄러지지 않게 당신이 지켜주었다고\r
-		고백했다. 몇 번 만나지도 않은 자신이 어떻게 그럴 수 있느냐는 에이다의\r
-		물음에는 수천 번이었다고 답한다. 현실인지 상상인지는 중요하지 않았다고 했다. 그날\r
-		밤 둘은 둘만의 결혼식을 치렀다.\r
-	</p>\r
-\r
-	<blockquote class="post-quotation">\r
-		"I lost your mother after twenty-two months of marriage. It was enough to\r
-		fill a life."\r
-	</blockquote>\r
-</div>\r
-`,yr=s({default:()=>br}),br=`<div class="post-meta">\r
-	<meta name="post-id" content="8" />\r
-	<meta name="post-title" content="삶은 역사적일 필요가 없다" />\r
-	<meta name="post-published" content="2026-05-09T21:15" />\r
-	<meta name="post-tags" content="마이 네임" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		마치 신에게 소명이라도 받은 것처럼 모든 것을 뒤로한 채 하나의 목적만을 향해\r
-		달려가는 이들이 있다. 하나의 목적 아래 삶의 모든 질서가 재편되어 정돈된\r
-		상태, 그 압축된 간결함을 나는 열망했다. 그 목적이, 가진 파괴력만큼 대단해야\r
-		한다고 따로 결론 내린 적은 없다. 그런데 돌이켜보면 나는 무의식중에 그렇게\r
-		정리했던 것 같다. 삶의 의미에 대한 내 집착은 아주 오랜기간 나를 괴롭혔다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/essays/culture/8/poster.jpg"\r
-			alt="마이 네임"\r
-			width="2000"\r
-		/>\r
-		<figcaption>출처: 넷플릭스</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		17번째 생일날 저녁, 지우<span class="post-sub">(한소희)</span>는 즉석 식품\r
-		두어 개로 차려진 상 앞에 혼자였다. 그 날은 그래도 생일이라고 평소 어디서 뭘\r
-		하는지 연락 한 번 되지 않던 아빠, 동훈<span class="post-sub">(윤경호)</span\r
-		>에게서 전화가 왔다. 지우는 '조폭 딸'로 소문난 자신이 겪고 있는 일에 대해\r
-		말하게 되고, 이에 동훈은 위험을 무릅쓰고 일부러 집을 찾아온다. 그런데 문을\r
-		여는 사이 나타난 의문의 괴한과 대치하게 되고, 인기척에 현관으로 나온 지우는\r
-		아빠 동훈의 죽음을 눈앞에서 본다. 그렇게 지우의 삶에는 질서가 찾아온다.\r
-		복수라는 대의 아래 모든 것들은 뒤로 밀려났다. 이름, 미래 그리고 목숨까지.\r
-	</p>\r
-\r
-	<blockquote class="post-quotation">\r
-		"아빠 죽인 새끼 잡겠다고 미래도 이름도 다 버렸어. 그 새끼 못 죽이면 내\r
-		인생에 의미 같은 거 없어."\r
-	</blockquote>\r
-\r
-	<p>\r
-		지우의 절규가 슬프게 들렸던 건, 자신의 모든 것을 희생해서 이루고자 하는 그\r
-		일이, 결국 누구도 구원하지 못할 거라는 사실 때문이었다. 그러니까 그것은\r
-		사회적으로 아무 쓸모가 없는 일이었다.\r
-	</p>\r
-\r
-	<p>\r
-		그런데 나는 바로 그 무가치함에 완전히 매료되었다. 나는, 나도 아무런 의미가\r
-		없는 삶을 살고 싶다는 생각을 했다. 남이 보기에 아무 의미가 없지만, 나에게는\r
-		세상 전부인 삶을 살고 싶다는 생각을 했다. 무가치함의 아름다움이 삶의 의미에\r
-		대한 집착으로부터 나를 해방시킨 순간이었다. 나는 그때 처음으로, 삶이 반드시\r
-		세상에 남을 필요는 없다는 사실을 받아들이게 되었다.\r
-	</p>\r
-</div>\r
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">\r
-	<meta name="post-id" content="0" />\r
-	<meta name="post-title" content="까만 우산" />\r
-	<meta name="post-published" content="2025-05-10T18:41" />\r
-	<meta name="post-tags" content="시선" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/essays/daily/0/umbrella.jpg"\r
-			alt="까만 우산"\r
-			width="200"\r
-		/>\r
-	</figure>\r
-\r
-	<p>나는 우산을 자주 도둑 맞는다.</p>\r
-\r
-	<p>\r
-		우산을 찾으려고 우산꽂이를 뒤적이다 보면 왜 하필 내 우산이 도둑맞았는지 알게\r
-		된다. 우산꽂이에 남아있는 다른 우산들은 하나같이 안 예쁘다. 정확히는 어딘가\r
-		튄다. 색이 바랬거나 알록달록하다. 또는 없으면 좋았을 무늬가 있거나, 손잡이가\r
-		별로다. 이런 것들은 훔치기 싫기 이전에 훔치기 어렵다.\r
-	</p>\r
-\r
-	<p>\r
-		나는 미니멀한 까만 우산만 쓴다. 무난해서 예쁘다. 그리고 무난해서 훔치기도\r
-		좋다. 떳떳하지 못할 때는 튀지 않아야 하니까.\r
-	</p>\r
-\r
-	<p>\r
-		심리적 장벽을 만들어주기 위해 우산에 이름표를 달았다. 이름표는 간단히 풀어서\r
-		버릴 수 있는 끈에 허술하게 달렸지만, 이 이름표를 보고도 양심의 가책을 이겨낼\r
-		수 있는 사람은 많지 않겠지.\r
-	</p>\r
-</div>\r
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">\r
-	<meta name="post-id" content="23" />\r
-	<meta name="post-title" content="새벽" />\r
-	<meta name="post-published" content="2026-07-04T07:28" />\r
-	<meta name="post-tags" content="인상" />\r
-</div>\r
-\r
-<div class="post-content">\r
-<p>\r
-간밤에 비가 왔었는지 아직 세상이 젖어있던 새벽, 편의점 가는 길.\r
-</p>\r
-\r
-<p>\r
-수백 미터 앞 사거리에 신호를 기다리는 사람이 있었다.\r
-</p>\r
-\r
-<p>\r
-애매한 길이에 색이 바랜 장화, 짙은 검정으로 형태를 구분할 수 없는 바지.\r
-</p>\r
-\r
-<p>\r
-방금 세탁한 것 같은, 깨끗하지만 주름진 흰색 셔츠는 폭이 넓고 허리 아래까지 내려온다.\r
-</p>\r
-\r
-<p>\r
-길고 짙은 노란색의 머리칼, 그리고 작은 얼굴.\r
-</p>\r
-\r
-<p>\r
-그 자체로 한 폭의 고전 미술처럼 보였다.\r
-</p>\r
-\r
-<p>\r
-집에 돌아오니 틀어놓고 간 유튜브 뮤직에서는 Judas Priest의 Before the Dawn이 흘러나오고 있었다.\r
-</p>\r
-\r
-<p>\r
-미학적인 새벽이었다.\r
-</p>\r
-</div>\r
-`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">\r
-	<meta name="post-id" content="24" />\r
-	<meta name="post-title" content="손톱" />\r
-	<meta name="post-published" content="2026-07-04T08:42" />\r
-	<meta name="post-tags" content="인상" />\r
-</div>\r
-\r
-<div class="post-content">\r
-<p>\r
-바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을 것 같다.\r
-</p>\r
-\r
-<p>\r
-가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의 모든 것이 좋아진다.\r
-</p>\r
-</div>\r
-`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">\r
-	<meta name="post-id" content="25" />\r
-	<meta name="post-title" content="흰 티" />\r
-	<meta name="post-published" content="2026-07-05T12:32" />\r
-	<meta name="post-tags" content="취향" />\r
-</div>\r
-\r
-<div class="post-content">\r
-<p>\r
-깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.\r
-</p>\r
-</div>\r
-`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">\r
-	<meta name="post-id" content="1">\r
-	<meta name="post-title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계">\r
-  <meta name="post-published" content="2026-03-23T19:41">\r
-  <meta name="post-tags" content="TypeScript">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를 들면,</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		type AppEvent = &quot;claimPromotionItem&quot;\r
-		type UserRole = &quot;admin&quot; | &quot;member&quot; | &quot;guest&quot;\r
-		type ServicePlan = &quot;premium&quot; | &quot;free&quot;\r
-	</code></pre>\r
-\r
-	<p>\r
-		이벤트, 역할, 플랜으로 상태를 나누고, 이벤트 발생 시 유저의 역할과 이용 중인\r
-		플랜에 따라 처리를 분기하기 위한 핸들러를 정의해서,\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		const handler = {\r
-			claimPromotionItem: {\r
-				admin: {\r
-					default: () =&gt; console.log(\`관리자 계정은 신청할 수 없습니다.\`),\r
-				},\r
-				member: {\r
-					premium: (postId: number) =&gt; console.log(\`프리미엄 회원 \${postId}번 상품 요청.\`),\r
-					free: (postId: number, reason: string) =&gt; console.log(\`일반 회원 \${postId}번 상품 요청. 사유: \${reason}\`),\r
-				},\r
-				guest: {\r
-					default: () =&gt; console.log(&quot;로그인 페이지로 이동&quot;),\r
-				},\r
-			}\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		handler["claimPromotionItem"]["member"]["free"](1, "더 좋은 서비스로 이동")\r
-		이런 식으로 쓰려고 하는 상황. 우선 실제 서비스에서 저렇게 하드코딩 할 일은 없고\r
-		참조로 가져오게 될 텐데,\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		function getRoleStatusAfterComplecatedLogic(): UserRole {\r
-			return &quot;member&quot;\r
-		}\r
-		function getPlanStatusWithReferenceLogic() : ServicePlan {\r
-			return &quot;premium&quot;\r
-		}\r
-\r
-		const r = getRoleStatusAfterComplecatedLogic ()\r
-		const p = getPlanStatusWithReferenceLogic ()\r
-		handler[&quot;claimPromotionItem&quot;][r][p](1, &quot;더 좋은 서비스로 이동&quot;)\r
-	</code></pre>\r
-\r
-	<p>그러다보면 타입스크립트가 에러를 던진다.</p>\r
-\r
-	<p>\r
-		Element implicitly has an 'any' type because expression of type 'string'\r
-		can't be used to index type '{ admin: { default: () => void; }; member: {\r
-		premium: (postId: number) => void; free: (postId: number, reason: string) =>\r
-		void; }; guest: { default: () => void; }; }'. No index signature with a\r
-		parameter of type 'string' was found on type '{ admin: { default: () =>\r
-		void; }; member: { premium: (postId: number) => void; free: (postId: number,\r
-		reason: string) => void; }; guest: { default: () => void; }; }'.\r
-	</p>\r
-\r
-	<p>\r
-		각 이벤트마다 모든 역할, 그리고 그 역할마다 또 모든 플랜을 모두 정의하면 저\r
-		에러는 사라지지만 당연히 그건 말도 안 된다. 필요한 것만 정의할 수 있어야\r
-		한다. 또 특정 이벤트는 특정 역할만 처리하거나 특정 역할만 다른 로직으로\r
-		처리하고 나머지 역할은 모두 같은 로직으로 처리하고 싶다. 일단 핸들러부터\r
-		타입을 명시해 보았다. 모든 타입이 아닌 필요한 것만 정의할 수 있도록 하는\r
-		방법으로 Partial을 사용하고 후에 공통로직을 위해 OR 연산으로 default를\r
-		넣었다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		type HandlerMap = {\r
-			[E in AppEvent]: Partial&lt;\r
-				Record&lt;\r
-					UserRole | "default",\r
-						Partial&lt;\r
-							Record&lt;ServicePlan | "default", (...args: any[]) =&gt; void | Promise&lt;void&gt;\r
-						&gt;\r
-					&gt;\r
-				&gt;\r
-			&gt;\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		여기서 [E in AppEvent]는 Mapped Type 문법인데, 기존의 타입을 순회하면서\r
-		새로운 객체 타입을 만들어내는 문법이다. AppEvent에 정의된 모든 문자열을 키로\r
-		강제하고 그 값으로 역할과 플랜에 따른 메서드 구조를 할당하고 있다.\r
-		여기까지만 하고 다시 핸들러에 마우스를 올려다 대면, Object is possibly\r
-		'undefined'로 에러가 바뀌었다. 핸들러에 핸들러맵으로 타입을 명시해주어야\r
-		한다. 다음으로 디스패치 메서드를 정의.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		async function dispatch(event: AppEvent, role: UserRole, plan: ServicePlan, ...args: any[]) {\r
-			const eventNode = handler[event]\r
-			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)\r
-\r
-			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]\r
-			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)\r
-\r
-			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]\r
-			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)\r
-\r
-			await hanlder(...args)\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		저런 식으로 이벤트-역할-플랜에 해당하는 경우가 없을 때를 처리해주면 에러를\r
-		없앨 수 있다. 사용자 입력을 받는 것이 아닌 프로그래머틱한 에러이므로\r
-		assert를 써서 크래시를 내버리자.\r
-	</p>\r
-\r
-	<pre><code>\r
-		dispatch(&quot;claimPromotionItem&quot;, r, p, 1, &quot;더 좋은 서비스로 이동&quot;)\r
-	</code></pre>\r
-\r
-	<p>\r
-		핸들러 대신 디스패치 메서드를 쓰면 이제 에러는 없는데, 핸들러 객체의 플랜이\r
-		프리미엄일 경우 인자가 postId 하나여야 함에도 불구하고 지금 reason까지 두\r
-		개를 보냈는데 인텔리센스가 잡아내지 못한다. args 타입까지 안전하게 만들어야\r
-		하는데.. 여기서부터 서서히 해낼 수 없을 것 같다는 의심이 들기 시작한다..\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		type handleEventWithArgs = {\r
-			claimPromotionItem: {\r
-				admin: {\r
-					default: []\r
-				},\r
-				member: {\r
-					premium: [postId: number],\r
-					free: [postId: number, reason: string],\r
-				},\r
-				guest: {\r
-					default: []\r
-				},\r
-			}\r
-		}\r
-	</code></pre>\r
-\r
-	<p>각 경우의 인자를 별도 타입으로 관리하고,</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		async function dispatch&lt;\r
-			E extends keyof handleEventWithArgs,\r
-			R extends keyof handleEventWithArgs[E] &amp; (UserRole | &quot;default&quot;),\r
-			P extends keyof handleEventWithArgs[E][R] &amp; (ServicePlan | &quot;default&quot;)\r
-		&gt;(\r
-			event: E,\r
-			role: R,\r
-			plan: P,\r
-			...args: handleEventWithArgs[E][R][P] extends any[]\r
-				? handleEventWithArgs[E][R][P]\r
-				: never\r
-		) {\r
-			const eventNode = handler[event]\r
-			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)\r
-\r
-			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]\r
-			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)\r
-\r
-			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]\r
-			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)\r
-\r
-			await hanlder(...args)\r
-		}\r
-	</code></pre>\r
-\r
-	<p>dispatch에 제네릭을 적용해 보았지만,</p>\r
-\r
-	<p>\r
-		Argument of type 'ServicePlan' is not assignable to parameter of type\r
-		'never'. Type '"premium"' is not assignable to type 'never'.\r
-	</p>\r
-\r
-	<p>\r
-		role과 plan이 런타임에 결정되는 넓은 타입(UserRole, ServicePlan)으로\r
-		추론되는 순간 제네릭 추론이 붕괴되어 args가 never로 떨어진다. :'(\r
-	</p>\r
-\r
-	<p>\r
-		결국 args는 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는\r
-		것으로 일단 사용하면서 후에 대안을 찾아보기로.\r
-	</p>\r
-</div>\r
-`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">\r
-	<meta name="post-id" content="28">\r
-	<meta name="post-title" content="명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계">\r
-  <meta name="post-published" content="2026-07-23T18:54">\r
-  <meta name="post-tags" content="TypeScript">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를\r
-		any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로\r
-		물러났었다. SVG 편집기 명령 레이어를 만들다가 같은 문제를 다시 만났다.\r
-	</p>\r
-\r
-	<p>\r
-		단축키·툴바 아이콘·메뉴가 전부 하나의 진입점(runCommand)을 타는 명령\r
-		테이블이다. 대부분의 명령은 페이로드가 없지만 몇 개는 있다. 회전은 각도를,\r
-		크기 창은 폭과 높이를 받아야 한다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		interface CommandPayloads {\r
-			rotate: { deltaDeg: number }\r
-			offset: { deltaMm: number; join: OffsetJoin }\r
-			nest: { gapMm: number; mode: NestMode }\r
-			setPosition: { x: number; y: number }\r
-			setSize: { w: number; h: number }\r
-		}\r
-\r
-		interface Command&lt;P extends CommandPayloads[keyof CommandPayloads] | void = void&gt; {\r
-			when?: (editor: Editor) =&gt; boolean\r
-			run: (editor: Editor, ctx: CommandContext, payload: P) =&gt; void | Promise&lt;void&gt;\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		명령마다 페이로드 타입이 제각각인데 이걸 테이블 하나에 담아야 한다. 타입\r
-		표기는 P를 하나로 골라 전 키에 똑같이 퍼뜨리므로, Command&lt;void&gt;로 못\r
-		박으면 페이로드 명령이 컴파일에서 죽고, 모든 페이로드 시그니처를 받아주는\r
-		표기는 하한인 Command&lt;never&gt; 하나뿐이다(함수 인자는 반공변이니까).\r
-		그래서 처음엔 이렇게 했다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		export const commands = {\r
-			rotate: { ... },\r
-			setPosition: { ... },\r
-			// ...\r
-		} satisfies Record&lt;string, Command&lt;never&gt;&gt;\r
-	</code></pre>\r
-\r
-	<p>\r
-		그러나 "모두 허용한다"는 것은 "아무것도 검사하지 않는다"는\r
-		뜻. setPosition에 setSize의 페이로드를 잘못 적어도 통과한다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		setPosition: {\r
-			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt;  // 오타!\r
-				editor.engine.moveSelectionTo(payload.w, payload.h)\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		호출부는 오버로드대로 { x, y }를 넘기니 payload.w는 undefined, 계산 결과는\r
-		NaN, 도형은 엉뚱한 곳으로 간다. 타입은 조용하고 앱에서 터진다.\r
-	</p>\r
-\r
-	<p>\r
-		지난 글에서 붕괴의 원인은 키(role, plan)가 런타임에 결정되는 넓은 타입이라는\r
-		것이었다. handler[event][r][p]에서 r, p가 런타임 변수인 순간 제네릭 추론이\r
-		무너져 args가 never로 떨어졌다. 이번엔 사정이 다르다 — 명령 이름은 호출부에\r
-		리터럴로 박힌다. runCommand("rotate", editor, ctx, { deltaDeg: 15 }) 식이다.\r
-		좁힐 키를 컴파일 타임에 이미 알고 있으므로, 디스패처 쪽은 오버로드로 잡을 수\r
-		있다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		export function runCommand(name: PayloadlessCommandName, editor: Editor, ctx: CommandContext): void\r
-		export function runCommand&lt;N extends keyof CommandPayloads&gt;(\r
-			name: N,\r
-			editor: Editor,\r
-			ctx: CommandContext,\r
-			payload: CommandPayloads[N]\r
-		): void\r
-	</code></pre>\r
-\r
-	<p>\r
-		남은 건 테이블 정의 쪽이다. 키마다 다른 페이로드를 요구해야 하는데 표기\r
-		하나로는 표현할 수 없다. 그래서 표기를 붙이는 대신, 항등함수에 자기참조\r
-		제약을 걸어 통과시키는 방법을 썼다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		const defineCommands = &lt;\r
-			T extends {\r
-				[K in keyof T]: K extends keyof CommandPayloads ? Command&lt;CommandPayloads[K]&gt; : Command&lt;void&gt;\r
-			}\r
-		&gt;(\r
-			table: T\r
-		): T =&gt; table\r
-\r
-		export const commands = defineCommands({ ... })\r
-	</code></pre>\r
-\r
-	<p>\r
-		몸통은 받은 것을 그대로 돌려줄 뿐이다. 대신 T를 있는 그대로 반환하므로\r
-		리터럴 타입이 보존되어 keyof typeof commands가 정확한 명령 이름 유니온으로\r
-		남는다. 일은 껍데기가 한다. 제약의 키가 T 자신의 키(keyof T)라서 규칙이\r
-		고정 목록이 아니라 넘긴 객체를 따라 만들어진다. 넣은 키가\r
-		CommandPayloads에 있으면 그 페이로드, 아니면 void. 지난\r
-		글에서 하나의 타입으로는 못 하던 "키마다 다른 요구"가 Mapped Type 제약으로는\r
-		된다. 실제로 잡는지 tsc --strict로 확인해 보면,\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		// 시나리오 A: payload를 setSize로 잘못 명시\r
-		rotate: {\r
-			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt; { ... }\r
-		}\r
-		// error TS2322: Type '(..., payload: { w, h }) =&gt; void' is not assignable\r
-		//   to type '(..., payload: { deltaDeg }) =&gt; void | Promise&lt;void&gt;'.\r
-\r
-		// 시나리오 B: 표기 생략 후 엉뚱한 속성 접근\r
-		rotate: {\r
-			run: (editor, _ctx, payload) =&gt; { console.log(payload.w) }\r
-		}\r
-		// error TS2339: Property 'w' does not exist on type '{ deltaDeg: number }'.\r
-	</code></pre>\r
-\r
-	<p>\r
-		표기를 생략하면 문맥 타이핑으로 payload가 { deltaDeg }로 추론되어 엉뚱한\r
-		속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던 지점 — 잘못된 인자를\r
-		넘겨도 인텔리센스가 침묵하던 — 이 여기서는 잡힌다.\r
-	</p>\r
-\r
-	<p>그러나 두 페이로드의 구조가 똑같다면..</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		interface CommandPayloads {\r
-			a: { n: number }\r
-			b: { n: number }  // a와 모양이 같다\r
-		}\r
-\r
-		const commands = defineCommands({\r
-			a: {\r
-				run: (editor, _ctx, payload: CommandPayloads['b']) =&gt; { ... }  // 뒤바꿔도\r
-			},\r
-		})\r
-		// tsc --strict --noEmit → 에러 0. 통과.\r
-	</code></pre>\r
-\r
-	<p>\r
-		TypeScript는 구조적 타이핑이라 이름이 아니라 모양으로 같고 다름을 판단한다.\r
-		CommandPayloads['a']와 CommandPayloads['b']가 둘 다 { n: number }면 컴파일러\r
-		입장에선 완전히 같은 타입이고, 뒤바뀜을 인식할 근거 자체가 없다. 명목적\r
-		타이핑 언어라면 애초에 성립하지 않는 사고다. 같은 상황을 Java로 옮겨 보면,\r
-	</p>\r
-\r
-	<pre><code class="language-java">\r
-		record RotatePayload(double n) {}\r
-		record ScalePayload(double n) {}  // 모양은 완전히 같다\r
-\r
-		void runRotate(RotatePayload p) { engine.rotate(p.n()); }\r
-\r
-		runRotate(new ScalePayload(2.0));\r
-		// error: incompatible types: ScalePayload cannot be converted to RotatePayload\r
-	</code></pre>\r
-\r
-	<p>\r
-		Java는 이름이 곧 정체성이다. 모양이 같아도 이름이 다르면 다른 타입이고,\r
-		뒤바꾸는 실수는 위처럼 컴파일에서 죽는다. 반면 TypeScript의 이름은 모양에\r
-		붙인 별명일 뿐이다. CommandPayloads['a']라고 부르든 ['b']라고 부르든\r
-		컴파일러가 보는 건 { n: number }라는 모양 하나. 별명이 몇 개든 타입은\r
-		하나라서, 뒤바뀜이라는 개념 자체가 성립하지 않는다.\r
-	</p>\r
-\r
-	<p>\r
-		그래도 갈라내고 싶다면 방법은 하나뿐이다. 이름을 구별 못 하니, 모양 자체를\r
-		다르게 만드는 것. 브랜드 타입이 그 트릭이다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		type A = { n: number } &amp; { readonly __brand: 'a' }\r
-		type B = { n: number } &amp; { readonly __brand: 'b' }\r
-		// __brand 값이 다르니 이제 모양부터 다르다. 뒤바꾸면 컴파일 에러.\r
-	</code></pre>\r
-\r
-	<p>\r
-		대신 페이로드가 태어나는 모든 곳에서 __brand라는 가짜 속성을 채워 넣어야\r
-		한다. 지금은 다섯 페이로드가 전부 모양이 달라 그 비용을 치를 실익이 없어\r
-		보류. 사실 모양이 같으면 런타임에 읽는 값도 같아서 데이터 사고는 안 나고,\r
-		남는 위험은 엉뚱한 run 로직을 그 키에 배선하는 것뿐인데 그건 애초에 타입이\r
-		아니라 리뷰와 테스트의 영역이다.\r
-	</p>\r
-\r
-	<p>\r
-		VSCode는 어떻게 했나 열어봤다. 이 when/run 명령 테이블 방식의\r
-		원조 격이니까.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		export function registerCommand(command: string, callback: (...args: any[]) =&gt; any, thisArg?: any): Disposable;\r
-		export function executeCommand&lt;T = unknown&gt;(command: string, ...rest: any[]): Thenable&lt;T&gt;;\r
-	</code></pre>\r
-\r
-	<p>\r
-		명령은 string, 인자는 any[]. 잡고 못 잡고 이전에 시도 자체를 안 했다. 확장\r
-		생태계라 명령 등록이 열려 있으니 페이로드 목록을 닫힌 타입으로 가둘 수 없는\r
-		사정이 있긴 하다. when마저 함수가 아니라 package.json의 문자열 컨텍스트\r
-		표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론 — 정의\r
-		자체를 명세 삼아 호출부에서 맞춰라 — 를 공식 API로 채택한 셈이라 묘한 위안이\r
-		됐다.\r
-	</p>\r
-</div>\r
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">\r
-	<meta name="post-id" content="3">\r
-	<meta name="post-title" content="addEventListener에서 커스텀 이벤트 타입 추론하기">\r
-  <meta name="post-published" content="2026-03-28T17:21">\r
-  <meta name="post-tags" content="TypeScript">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		나만의 컬러 피커 커스텀 엘리먼트를 만들었고, updateColor 발생 시 커스텀\r
-		이벤트를 디스패치하는 상황이었다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		class MyColorPicker extends HTMLElement {\r
-			constructor() {\r
-				super()\r
-			}\r
-\r
-			updateColor(color: string) {\r
-				this.dispatchEvent(new CustomEvent(&quot;update-color&quot;, {\r
-					detail: { color }\r
-				}));\r
-			}\r
-		}\r
-\r
-		customElements.define(&quot;my-color-picker&quot;, MyColorPicker);\r
-	</code></pre>\r
-\r
-	<p>\r
-		이를 등록한 이벤트 리스너에서 발생한 커스텀 이벤트 정보를 가져오고 싶다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		function main() {\r
-			const cp = document.createElement(&quot;my-color-picker&quot;) as MyColorPicker\r
-\r
-			cp.addEventListener(&quot;update-color&quot;, (e) => {\r
-				console.log(&quot;change color: &quot;, e.detail.color)\r
-			})\r
-\r
-			cp.updateColor(&quot;red&quot;)\r
-		}\r
-	</code></pre>\r
-\r
-	<p>Property 'detail' does not exist on type 'Event'. 에러 발생.</p>\r
-\r
-	<p>\r
-		TypeScript는 기본적으로 addEventListener에 들어오는 이벤트 객체를 가장\r
-		뿌리가 되는 Event 타입으로 간주한다. Event는 모든 이벤트의 조상으로 target,\r
-		type 같은 기본 속성만 있을 뿐, detail이란 속성은 없다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {\r
-			console.log(&quot;change color: &quot;, e.detail.color)\r
-		})\r
-	</code></pre>\r
-\r
-	<p>\r
-		그럼 저 e의 타입은 커스텀 이벤트가 되어야 맞고, 코드를 수정하면 detail에\r
-		그였던 에러는 addEventListener로 옮겨 간다.\r
-	</p>\r
-\r
-	<p>\r
-		No overload matches this call. Overload 1 of 2, '(type: keyof\r
-		HTMLElementEventMap, listener: (this: HTMLElement, ev: Event | UIEvent |\r
-		AnimationEvent | PointerEvent | MouseEvent | ... 14 more ... | WheelEvent)\r
-		=&gt; any, options?: boolean | ... 1 more ... | undefined): void', gave the\r
-		following error. Argument of type '"update-color"' is not assignable to\r
-		parameter of type 'keyof HTMLElementEventMap'. Overload 2 of 2, '(type:\r
-		string, listener: EventListenerOrEventListenerObject, options?: boolean |\r
-		AddEventListenerOptions | undefined): void', gave the following error.\r
-		Argument of type '(e: CustomEvent) => void' is not assignable to parameter\r
-		of type 'EventListenerOrEventListenerObject'. Type '(e: CustomEvent) =>\r
-		void' is not assignable to type 'EventListener'. Types of parameters 'e' and\r
-		'evt' are incompatible. Type 'Event' is missing the following properties\r
-		from type 'CustomEvent&lt;any&gt;': detail, initCustomEvent\r
-	</p>\r
-\r
-	<p>\r
-		addEventListener는 첫 번째 인자인 type이 무엇인지에 따라 두 번째 인자인\r
-		listener 타입을 결정하는데, 'update-color'란 타입이 없어서 발생한다.\r
-		그러니까 기본 등록된 click, scroll을 기대하고 있는데 엉뚱한 것이 들어왔고 또\r
-		addEventListener의 두 번째 인자는 (e: Event) => void를 기대하는데 Event 대신\r
-		CustomEvent를 써버렸다. 이를 해결하기 위해서는 addEventListener 메서드를\r
-		오버로딩 해줘야 한다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		class BaseComponent&lt;T extends Record&lt;string, any&gt;&gt; extends HTMLElement {}\r
-	</code></pre>\r
-\r
-	<p>\r
-		다른 커스텀 컴포넌트들도 다 같이 적용되어야 할 테니 부모 클래스를 만들어\r
-		줬고, 저기 제네릭에는 이벤트를 정의해둔 인터페이스를 받으면 될 것 같다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		interface MyColorPickerCustomEvents {\r
-			&quot;update-color&quot;: { color: string }\r
-		}\r
-\r
-		class MyColorPicker extends BaseComponent&lt;MyColorPickerCustomEvents&gt; {}\r
-	</code></pre>\r
-\r
-	<p>\r
-		커스텀 이벤트 정보를 담은 인터페이스를 만들고, HTMLElement 대신 좀 전에 만든\r
-		부모 클래스를 확장하면서 만든 인터페이스를 등록한다. 그리고 첫 번째\r
-		오버로드, 이것의 목적은 우리가 선언한 커스텀 이벤트 타입을 등록해서\r
-		타입스크립트에게 알려준다.\r
-	</p>\r
-\r
-	<pre><code>\r
-		override addEventListener&lt;\r
-			K extends keyof (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })\r
-		&gt;(\r
-			type: K,\r
-			listener: (\r
-				this: this,\r
-				ev: (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })[K]\r
-			) =&gt; any,\r
-			options?: boolean | AddEventListenerOptions\r
-		): void;\r
-	</code></pre>\r
-\r
-	<p>[P in keyof T] 부터 보면, T는 우리가 보낸 인터페이스다.</p>\r
-\r
-	<p>\r
-		mapped types으로 그 인터페이스의 키를 하나씩 꺼내 P라는 변수를 사용해\r
-		키(update-color), CustomEvent&lt;{ color: string }&gt;를 값으로 묶어 새로운\r
-		객체를 만든다.\r
-	</p>\r
-\r
-	<p>\r
-		쉽게 T, { &quot;update-color&quot;: { color: string } }를 { &quot;update-color&quot;: CustomEvent&lt;{ color: string }&gt; }로 바꾼 것.\r
-	</p>\r
-\r
-	<p>\r
-		그렇게 우리가 등록한 인터페이스의 모든 키에 대해 CustomEvent를 기존 이벤트\r
-		HTMLElementEventMap과 합치고 거기서 key만 뽑아내 K를 만들어\r
-		addEventListener의 첫 인자로 보내준다.\r
-	</p>\r
-\r
-	<p>참고로 HTMLElementEventMap는 GlobalEventHandlersEventMap를 상속하는데,</p>\r
-\r
-	<pre><code>\r
-		interface GlobalEventHandlersEventMap {\r
-			...\r
-			&quot;click&quot;: PointerEvent;\r
-			...\r
-		}\r
-	</code></pre>\r
-\r
-	<p>이런 기존 이벤트를 모은 인터페이스다.</p>\r
-\r
-	<p>\r
-		두 번째 인자 리스너의 첫 번째 인자를 this로 지정하여 this가 단순히\r
-		HTMLElement가 아닌 현재 클래스 MyColorPicker임을 보장해야 리스너 안에서 해당\r
-		클래스의 멤버에 안전하게 접근할 수 있다.\r
-	</p>\r
-\r
-	<p>\r
-		두 번째 인자 리스너의 두 번째 인자 ev는 기존 이벤트와 등록한 커스텀 이벤트를\r
-		합친 객체에 키 즉 K를 넣어서 이벤트 객체를 가져온다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {\r
-			console.log(&quot;change color: &quot;, e.detail.color)\r
-		})\r
-	</code></pre>\r
-\r
-	<p>\r
-		이렇게 update-color를 넣으면 그에 해당하는 값을 가져오게 되고 그 값은?\r
-		위에서 봤듯이 CustomEvent&lt;{ color: string }&gt;가 된다.\r
-	</p>\r
-\r
-	<p>\r
-		addEventListener의 세 번째 인자는 addEventListener 본래 코드 그대로\r
-		넣어준다.\r
-	</p>\r
-\r
-	<p>\r
-		두 번째 오버로드는 등록하지 않은 이벤트도 사용할 수 있도록 string으로\r
-		선언하는 건데 빼도 상관 없을 것 같다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		override addEventListener(\r
-			type: string,\r
-			listener: EventListenerOrEventListenerObject,\r
-			options?: boolean | AddEventListenerOptions\r
-		): void;\r
-	</code></pre>\r
-\r
-	<p>\r
-		그리고 세 번째는 타입스크립트 규칙에 의해 앞서 선언한 오버로드 모두를\r
-		수용하는 실제 구현을 써주는데 그냥 기존 addEventListener 호출을 래핑해주면\r
-		된다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		override addEventListener(\r
-			type: string,\r
-			listener: any,\r
-			options?: boolean | AddEventListenerOptions\r
-		): void {\r
-			super.addEventListener(type, listener, options);\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		이러면 이제 addEventListener를 사용하는 순간, 순서대로 먼저 커스텀 이벤트를\r
-		체크하고, 해당되지 않으면 다음 유연한 string으로 처리된다.\r
-		removeEventListener도 이와 같이 만들어주면 완성.\r
-	</p>\r
-\r
-	<p>\r
-		마지막으로 HTMLElementTagNameMap에 내 커스텀 엘리먼트를 추가한다. 추가하지\r
-		않으면 createElement로 커스텀 엘리먼트를 만들었을 때 타입을 HTMLElement로\r
-		추정하게 되는데, 거기엔 지금 만든 커스텀 오버로딩이 없다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		declare global {\r
-			interface HTMLElementTagNameMap {\r
-				&quot;my-color-picker&quot;: MyColorPicker;\r
-			}\r
-		}\r
-	</code></pre>\r
-\r
-	<p>\r
-		이제 createElement로 생성 후 as MyColorPicker 같은 타입 단언을 하지 않아도\r
-		된다!\r
-	</p>\r
-\r
-	<p>\r
-		또 e의 정확한 타입은 CustomEvent&lt;MyColorPickerCustomEvents\r
-		['update-color']&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입\r
-		추론 시스템이 추론하게 내버려 두어야 e.detail까지 쳤을 때 color가 자동완성\r
-		된다.\r
-	</p>\r
-\r
-	<pre><code class="language-typescript">\r
-		function main() {\r
-			const cp = document.createElement("my-color-picker")\r
-\r
-			cp.addEventListener("update-color", (e) => {\r
-				console.log("change color: ", e.detail.color)\r
-			})\r
-\r
-			cp.updateColor("red")\r
-		}\r
-	</code></pre>\r
-</div>\r
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">\r
-	<meta name="post-id" content="10" />\r
-	<meta name="post-title" content="배당 9%의 속사정" />\r
-	<meta name="post-published" content="2026-05-25T15:28" />\r
-	<meta name="post-tags" content="주식, 흥국에프엔비" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/journals/investment/10/chart.png"\r
-			alt="흥국에프엔비 차트"\r
-			width="400"\r
-		/>\r
-		<figcaption>출처: 네이버 증권</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		26년 5월 12일 발표한 미국 소비자 물가가 3.8%로 뛰었다. 금리 인하가\r
-		기정사실인 줄 알았지만 이제는 방향을 가늠하기 어려워지고 있다. 미국 이란\r
-		전쟁의 흐름을 예측할 수 없는 상황에서 리스크를 대비해 하방이 닫힌 경기방어주\r
-		비중을 늘리고 싶다.\r
-	</p>\r
-\r
-	<p>\r
-		흥국에프엔비의 현금 배당수익률이 9.27%((최근 결산 보통주 수정 DPS / 전일자\r
-		보통주 수정 주가) × 100)까지 올라섰다. 흥국에프엔비는 카페 토탈 솔루션 ODM\r
-		기업으로 과일농축액, 스무디, 주스 등의 제조·판매를 주요 사업으로 영위하고\r
-		있다. 매출은 프랜차이즈 카페·레스토랑에서 발생하는 B2B 비중이 높으며, 이마트\r
-		및 BGF리테일과의 장기 공급 계약을 통해 리테일 채널도 병행하고 있다. 유통\r
-		다각화를 위해 향후 친환경 유기농 매장 및 고속도로 휴게소 등 특수경로\r
-		시장으로의 진출 또한 고려하고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		흥국에프엔비의 주력 상품인 과일농축액, 스무디, 과일·채소주스 등의 매출\r
-		상황을 보면(단위: 백만 원) 내수가 88,854(23년), 91,189(24년),\r
-		88,934(25년)으로 정체 중이지만 수출은 2,091(23년) 2,360(24년),\r
-		3,158(25년)으로 증가세에 있다. 전체 매출과 영업이익은 소폭 감소했다.\r
-	</p>\r
-\r
-	<p>\r
-		흥국에프엔비는 상장 이후 20% 이상 배당성향을 목표로 경영해온 주주친화적인\r
-		기업이다. 오너 지분이 50%에 육박하므로 높은 배당은 오너의 높은 수익과\r
-		연결되지만 그것을 부정적인 시각으로 바라볼 필요까지는 없어보인다.\r
-		18기(25년도) 배당 지급액은 약 78억으로 17기 약 15억에 비해 5배가량 증가했다.\r
-		78억이면 그 해 벌어들인 수익 전부가 고스란히 배당금으로 지급된 셈이다. 다소\r
-		과하다는 생각이 드는 건 사실이지만 별다른 이유를 찾지는 못했다. 26년부터\r
-		시행된 고배당기업 배당소득 과세특례 시기와 묘하게 맞물리기는 했지만\r
-		기획재정부 세제개편안 발표(25년 7월) 이전인 25년 3월에도 이미 상당한 배당을\r
-		지급했다는 점에서 그 의심은 과한 해석 같다.\r
-	</p>\r
-\r
-	<p>\r
-		흥국에프엔비가 낮은 멀티플을 받는 이유는 알 것도 같다. 그럼에도 PER 8배\r
-		수준의 저평가와 9%대 배당수익률은 분명 매력적이다. 내수 매출 정체와 영업이익\r
-		감소 추세가 부담이지만, 수출 증가와 유통 채널 다각화가 진행 중이라는 점에서\r
-		지켜볼 여지가 있다. 26년부터 시행된 고배당 분리과세 혜택까지 더해진 만큼,\r
-		영업이익 회복 여부를 확인하며 접근해보면 좋을 것 같다.\r
-	</p>\r
-\r
-	<p class="post-ref">\r
-		* 참고<br />\r
-		흥국에프엔비 사업보고서<br />\r
-		네이버 증권<br />\r
-		기획재정부 2025년 세제개편안\r
-	</p>\r
-</div>\r
-`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">\r
-	<meta name="post-id" content="13" />\r
-	<meta name="post-title" content="1조의 무게" />\r
-	<meta name="post-published" content="2026-05-30T13:35" />\r
-	<meta name="post-tags" content="AI" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		Evercore와 Bank of America는 2027년 빅테크 자본 지출이 1조 달러를 넘어설\r
-		것으로 전망했다.\r
-	</p>\r
-\r
-	<p>\r
-		그러나 우리는 이 엄청난 금액 대신 성장률에 주목해야 한다. 26년 예상치는\r
-		8천억 달러에서 9천억 달러 사이다. 성장률은 약 18%다. 18%는 높은 수치지만\r
-		지금까지 AI 산업이 보여온 성장률에 비할 수는 없다.\r
-	</p>\r
-\r
-	<p>\r
-		엔비디아를 기준으로 보면, 23년도 1분기 매출은 약 72억 달러다. 24년도는 전년\r
-		동기 대비 262%, 25년도는 69%, 26년도는 85% 성장했다. 시장은 어떻게 판단하고\r
-		있을까?\r
-	</p>\r
-\r
-	<p>\r
-		2022년 10월 31일 엔비디아 P/E Ratio는 57.36이었다. 그로부터 한 달 뒤인 11월\r
-		30일 GPT-3.5가 세상에 공개되었고, 엔비디아 P/E Ratio는 2023년 4월 30일\r
-		147.47까지 오른 뒤, 2026년 5월 29일 32.33에 안착했다. 다른 팹리스 기업\r
-		수준으로 회귀했다.\r
-	</p>\r
-\r
-	<figure>\r
-		<img\r
-			src="/assets/journals/investment/13/nvidia.png"\r
-			alt="엔비디아 멀티플 추이"\r
-			width="400"\r
-		/>\r
-		<figcaption>\r
-			출처:\r
-			<a\r
-				href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/pe-ratio"\r
-				target="_blank"\r
-				>Macrotrends</a\r
-			>\r
-		</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		AI 칩은 소모품으로 교체 주기가 있어 매년 일정 수요가 발생한다. 그러나 현재\r
-		AI 관련 섹터의 주가를 단순히 유지하려고만 해도 지금의 이 거대한 투자 규모가\r
-		매년 반복되어야 한다. 주가가 더 오르려면? 그때는 거대함을 넘어선 광폭함이\r
-		필요하다.\r
-	</p>\r
-\r
-	<p>이제 여름이다. 지구가 더 뜨거워지지 않았으면 좋겠다.</p>\r
-\r
-	<p class="post-ref">\r
-		* 참고<br />\r
-		NVDA Form 10-Q, Q1 FY2024–Q1 FY2027<br />\r
-\r
-		CNBC,\r
-		<a\r
-			href="https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html"\r
-			target="_blank"\r
-			>"AI boom: Big Tech capital expenditures now seen topping $1 trillion in\r
-			2027" (2026.04.30)</a\r
-		>\r
-	</p>\r
-</div>\r
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
+  <meta name="post-id" content="29" />
+  <meta name="post-title" content="목표비중은 왜 올랐나" />
+  <meta name="post-published" content="2026-07-31T12:55" />
+  <meta name="post-tags" content="국민연금" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/columns/investment/29/chart.png"
+      alt="코스피 차트"
+      width="400"
+    />
+    <figcaption>출처: 네이버 증권</figcaption>
+  </figure>
+
+  <p>
+    26년 7월, 코스피가 한 달 만에 28% 넘게 빠졌다. 국민연금이 정부 압력 때문에
+    제때 팔지 않아 손실을 키웠다는 비판이 거세다.
+  </p>
+
+  <p>
+    선을 긋자면, 정부의 증시 정책이나 최근 보이는 대응 방식을 옹호하고 싶지
+    않다. 그쪽은 그쪽대로 따질 지점이 있다. 다만 쉽게 동의하기 힘든 것은
+    국민연금이 노후자금을 동원해 그간 주가를 떠받쳤다는 주장이다. 매매 기록으로
+    확인되는 사실 관계라 한국거래소 정보데이터시스템에서 투자자별 거래실적을
+    받아 확인해봤다.
+  </p>
+
+  <p>
+    확인된 사실은 다음과 같다. 2025년 6월 2일부터 2026년 6월 말까지 13개월간
+    연기금은 코스피에서 11조2782억 원을 순매도했다. 이 가운데 8조7326억 원이
+    주가가 탄력을 받기 시작한 2026년 상반기에 나왔다. 지수가 4224에서 6224로
+    오른 1~2월에 2조5728억 원, 6165에서 5052로 밀린 3월에 7648억 원, 5330에서
+    8476까지 뛴 4~5월에 3조579억 원을 팔았다. 6월은 오르내림이 있었으나 종가
+    기준으로 8476에서 시작해 8476으로 끝났다. 지수가 제자리인 그 한 달에도
+    2조3371억 원이 나왔다.
+  </p>
+
+  <p>
+    그럼에도 같은 기간 코스피가 2692에서 8476으로 3.1배가 되었기 때문에 연기금의
+    국내주식 보유비중은 오히려 늘었다. 지수가 세 배 오르는 그 속도에 매도를
+    맞추라는 건 현실적이지 않다.
+  </p>
+
+  <p>
+    목표비중은 두 차례 움직였다. 2025년에 세운 2026년 기금운용계획의 국내주식
+    목표비중은 14.4%였다. 2026년 1월 26일 제1차 기금운용위원회는 이를 14.9%로
+    올리면서, 전략적 자산배분 허용범위를 벗어나도 기계적으로 매도하지 않도록
+    리밸런싱을 6월 말까지 한시 유예했다. 1월 초 코스피는 4224다. 5월 28일 제5차
+    회의는 14.9%를 20.8%로 올렸다. 이때 코스피는 8476이다. 새 목표비중은 유예가
+    끝나는 6월 말부터 적용됐다.
+  </p>
+
+  <p>
+    보건복지부는 상법 개정 등에 따른 국내주식 시장의 구조적 변화 가능성을
+    언급했다. 목표비중 14.4%는 코리아 디스카운트라는 전제 위에 세워진 것이다.
+    2025년 상법 개정으로 이사의 충실의무 대상이 회사에서 주주로 바뀌었고,
+    지배구조를 이유로 한국 시장에 매기던 할인이 줄었다는 평가가 안팎에서 나왔다.
+    할인 요인이 해소되는 중이라면 할인을 전제로 만든 목표치를 그대로 고수하는
+    쪽이 오히려 오류다. 목표비중을 그대로 둔 채 유예만 끝냈다면 수십조 원을 한
+    번에 쏟아내야 했다. 그 매도 자체가 가격을 떨어뜨려 수익을 줄일 것이라는
+    당시의 판단은 비합리적이지 않다.
+  </p>
+
+  <p>
+    목표비중을 올린 시점이 최고점 부근인 것은 안타깝다. 더 일찍 더 많이
+    덜어냈다면 좋았겠지만, 그건 우리가 7월을 알고 난 뒤의 판단이다. 5월에는 AI
+    수요와 반도체 실적 전망을 근거로 한 낙관이 시장의 공통된 시각이었다.
+  </p>
+
+  <p>
+    기록이 말하는 건 단순하다. 연기금은 본격적인 주가 상승기인 2026년 상반기에
+    매도를 집중했다. 노후자금으로 주가를 떠받쳤다는 그림은 매매 데이터에 없다.
+    목표비중을 올린 것은 매수 결정이 아니라, 유예 종료와 함께 쏟아질 물량을
+    줄이는 결정이었다.
+  </p>
+
+  <p class="post-ref">
+    * 참조 <br />
+    한국거래소 정보데이터시스템, 투자자별 거래실적 (코스피,
+    2025.06.01~2026.06.30)<br />
+    보건복지부, 2026년도 제1차 국민연금기금운용위원회 (2026.01.26)<br />
+    보건복지부, 2026년도 제5차 국민연금기금운용위원회 (2026.05.28)<br />
+    <a
+      href="https://fund.nps.or.kr/oprtprcn/ivsmprcn/getOHED0003M0.do"
+      target="_blank"
+    >
+      국민연금기금운용본부, 자산군별 현황</a
+    ><br />
+    서울경제, "연기금, 5년 만에 月 최대 순매도" (2026.06.24)<br />
+    머니투데이, "국민연금 '매도 폭탄' 없었다" (2026.07.28)
+  </p>
+</div>
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
+  <meta name="post-id" content="9" />
+  <meta name="post-title" content="혁신이 아니라 효율화" />
+  <meta name="post-published" content="2026-05-11T19:50" />
+  <meta name="post-tags" content="AI" />
+</div>
+
+<div class="post-content">
+  <p>
+    2026년 1분기 글로벌 클라우드 3사(구글, 마이크로소프트, 아마존)는 전년 동기
+    대비 capex를 두 배가량 늘렸다. 1분기 어닝콜에서 구글 CEO Sundar Pichai는
+    AI가 검색 사용량 증가를 주도하고 있다고 말했다. 주변을 봐도 AI 사용은 이미
+    일상적이다. 그러나 AI가 일상에 자리 잡은 지금까지도 산업의 근본 구조는
+    이전과 크게 달라지지 않았다. McKinsey(2025)가 실시한 설문에 따르면 응답자의
+    대부분은 소속 조직에서 AI를 사용하고 있지만 기업 수준의 가치를 창출하는 데
+    있어서는 여전히 초기 단계에 머물러 있는 것으로 판단했다.
+  </p>
+
+  <p>
+    이유를 살펴보면 기술 발전이 아직 무르익지 않아서가 정답일 것 같다. 혁신은
+    새로운 시장을 만든다. 자동차는 교외 생활과 관광, 물류 산업을 만들었고,
+    인터넷은 전자상거래와 SNS, 스트리밍 서비스를 만들었다. 그리고 스마트폰은 앱
+    생태계 자체를 만들었다. 앞선 혁신들이 물리적 인프라나 네트워크 자체를 바꿨던
+    것과 달리, AI는 아직 기존 인프라 위에서 작동하는 수준에 머물러 있다. 또한
+    강점을 보였던 정보처리 영역에서도 여전히 검증과 신뢰 문제를 안고 있다.
+  </p>
+
+  <p>
+    현재 시장은 AI 수요 확산과 AGI에 대한 기대, 그 둘 사이 어딘가를 바라보고
+    있는 것 같다. 기대에 맞춰 질적 도약이 필요하다는 점은 분명하다.
+  </p>
+
+  <p>
+    현재 LLM을 가능하게 한 스케일링 법칙은, Epoch AI의 분석에 따르면 사전학습
+    단계에서 그 효과가 둔화되는 추세이며, 업계의 무게중심은 모델 크기 확장보다
+    추론 최적화와 데이터 품질 개선 쪽으로 이동하고 있다. 또한 DeepSeek 출시
+    이후를 보면 경량화를 통해 오히려 스케일을 낮추면서 효율화를 꾀하는 흐름이
+    나타나고 있다. 기술의 질적 도약에 있어 스케일링 법칙에 집중하지 않는다면
+    아키텍처 수준에서의 근본적인 전환이 필요하지만 지금 모델들은 여전히
+    트랜스포머 구조 위에 놓여 있다.
+  </p>
+
+  <p>
+    기술 발전 방향이 혁신보다 효율화에 집중되고 있는 상황에서, 수익 구조는
+    개선되고 있는 것으로 보인다. Stanford HAI의 2025 AI Index Report에 따르면
+    GPT-3.5 수준의 성능을 달성하는 추론 비용이 2022년 11월부터 2024년 10월 사이
+    280배 이상 하락했다. 또한 주요 AI 기업들은 정액제 중심의 가격 구조를 사용량
+    기반으로 조정하기 시작했다. 헤비유저에 대한 사용 제한이나 추가 과금을
+    도입하면서 비용을 수요에 맞게 전가하는 방향으로 움직이고 있다.
+  </p>
+
+  <p>
+    결국 기술의 질적 도약을 확신할 수 없지만 비용 구조가 개선될 여지가 있다는
+    사실은, AI가 인터넷 초기처럼 단기간에 모든 산업을 재편하기보다 기존 산업에
+    점진적으로 스며드는 형태로 성장할 가능성을 시사한다. 그렇다면 폭발적
+    성장보다 점진적 안착에 가까운 경로를 예상하고 시장에 대응하는 것이
+    지금으로선 합리적이지 않을까.
+  </p>
+
+  <p>사실 잘 모르겠다. 치솟는 주가를 보면.</p>
+
+  <p class="post-ref">
+    * 참고<br />
+    Alphabet Inc. Form 10-Q (Q1 2026)<br />
+    Microsoft Corporation Form 10-Q (Q1 2026)<br />
+    Amazon.com, Inc. Form 10-Q (Q1 2026)<br />
+
+    Stanford HAI,
+    <a
+      href="https://hai.stanford.edu/ai-index/2025-ai-index-report"
+      target="_blank"
+      >2025 AI Index Report</a
+    ><br />
+
+    McKinsey Global Institute,
+    <a
+      href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+      target="_blank"
+      >The State of AI</a
+    ><br />
+
+    EPOCH AI,
+    <a
+      href="https://epoch.ai/blog/scaling-laws-literature-review"
+      target="_blank"
+      >Scaling Laws Literature Review</a
+    >
+  </p>
+</div>
+`,yr=s({default:()=>br}),br=`<div class="post-meta">
+  <meta name="post-id" content="17" />
+  <meta name="post-title" content="긴 계단 가장 높은 곳에서 맞던 밤바람" />
+  <meta name="post-published" content="2026-06-27T23:37" />
+  <meta name="post-tags" content="Beyonce, Broken-Hearted Gril" />
+</div>
+
+<div class="post-content">
+  <p>
+    피아노가 연주하는 세 번의 블록 코드와 한 번의 아르페지오로 시작된다. 세 번의
+    앞선 블록 코드는 비장하고 단단하지만 뒤에 따라오는 한 번의 아르페지오는
+    슬프고 약하다. 이는 곡 중 깨진 심장의 여자가 되지 않겠다고 내내 다짐하던
+    여자의 심장이 끝내 깨져버린 것을 상징하는 것처럼 다가온다.
+  </p>
+
+  <p>
+    지인들과 밤바다로 떠나기 직전에, 나는 처음 이 노래를 들었다. 눈부신
+    청춘이었고 꿈이 많았다. 그 날은 밤바람이 시원한 초여름이었던 걸로 기억한다.
+  </p>
+
+  <p>
+    이후 나는 살던 동네에서 긴 계단이 있는 곳을 발견하고는, 때때로 자정 가까운
+    시간에 그 긴 계단 가장 높은 곳에 앉아 밤바람을 맞으면서 이 노래를 들었다.
+    이십 대 때, 나는 자주 외로웠다.
+  </p>
+
+  <p>
+    여자는 상처받고 싶지 않아서 사랑하고 싶지 않지만 그러나 자신이 사랑하고
+    있다는 것을 안다. 곡의 클라이맥스에서, 여자는 새로운 세계에 도달하고 마침내
+    자신의 상처받은 마음을 받아들이면서 해방된다.
+  </p>
+
+  <p>
+    노래를 듣고 있으면 꿈을 버렸던 그 날이 떠오른다. 커다란 슬픔이 다른 감정을
+    밀어내서 그때는 제대로 인지하지 못했지만, 분명 내 마음 한 켠에 해방감이
+    있었다.
+  </p>
+</div>
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
+  <meta name="post-id" content="8" />
+  <meta name="post-title" content="삶은 역사적일 필요가 없다" />
+  <meta name="post-published" content="2026-05-09T21:15" />
+  <meta name="post-tags" content="마이 네임" />
+</div>
+
+<div class="post-content">
+  <p>
+    마치 신에게 소명이라도 받은 것처럼 모든 것을 뒤로한 채 하나의 목적만을 향해
+    달려가는 이들이 있다. 하나의 목적 아래 삶의 모든 질서가 재편되어 정돈된
+    상태, 그 압축된 간결함을 나는 열망했다. 그 목적이, 가진 파괴력만큼 대단해야
+    한다고 따로 결론 내린 적은 없다. 그런데 돌이켜보면 나는 무의식중에 그렇게
+    정리했던 것 같다. 삶의 의미에 대한 내 집착은 아주 오랜기간 나를 괴롭혔다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/essays/culture/8/poster.jpg"
+      alt="마이 네임"
+      width="2000"
+    />
+    <figcaption>출처: 넷플릭스</figcaption>
+  </figure>
+
+  <p>
+    17번째 생일날 저녁, 지우<span class="post-sub">(한소희)</span>는 즉석 식품
+    두어 개로 차려진 상 앞에 혼자였다. 그 날은 그래도 생일이라고 평소 어디서 뭘
+    하는지 연락 한 번 되지 않던 아빠, 동훈<span class="post-sub">(윤경호)</span
+    >에게서 전화가 왔다. 지우는 '조폭 딸'로 소문난 자신이 겪고 있는 일에 대해
+    말하게 되고, 이에 동훈은 위험을 무릅쓰고 일부러 집을 찾아온다. 그런데 문을
+    여는 사이 나타난 의문의 괴한과 대치하게 되고, 인기척에 현관으로 나온 지우는
+    아빠 동훈의 죽음을 눈앞에서 본다. 그렇게 지우의 삶에는 질서가 찾아온다.
+    복수라는 대의 아래 모든 것들은 뒤로 밀려났다. 이름, 미래 그리고 목숨까지.
+  </p>
+
+  <blockquote class="post-quotation">
+    "아빠 죽인 새끼 잡겠다고 미래도 이름도 다 버렸어. 그 새끼 못 죽이면 내
+    인생에 의미 같은 거 없어."
+  </blockquote>
+
+  <p>
+    지우의 절규가 슬프게 들렸던 건, 자신의 모든 것을 희생해서 이루고자 하는 그
+    일이, 결국 누구도 구원하지 못할 거라는 사실 때문이었다. 그러니까 그것은
+    사회적으로 아무 쓸모가 없는 일이었다.
+  </p>
+
+  <p>
+    그런데 나는 바로 그 무가치함에 완전히 매료되었다. 나는, 나도 아무런 의미가
+    없는 삶을 살고 싶다는 생각을 했다. 남이 보기에 아무 의미가 없지만, 나에게는
+    세상 전부인 삶을 살고 싶다는 생각을 했다. 무가치함의 아름다움이 삶의 의미에
+    대한 집착으로부터 나를 해방시킨 순간이었다. 나는 그때 처음으로, 삶이 반드시
+    세상에 남을 필요는 없다는 사실을 받아들이게 되었다.
+  </p>
+</div>
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
+  <meta name="post-id" content="0" />
+  <meta name="post-title" content="까만 우산" />
+  <meta name="post-published" content="2025-05-10T18:41" />
+  <meta name="post-tags" content="시선" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/essays/daily/0/umbrella.jpg"
+      alt="까만 우산"
+      width="200"
+    />
+  </figure>
+
+  <p>나는 우산을 자주 도둑 맞는다.</p>
+
+  <p>
+    우산을 찾으려고 우산꽂이를 뒤적이다 보면 왜 하필 내 우산이 도둑맞았는지 알게
+    된다. 우산꽂이에 남아있는 다른 우산들은 하나같이 안 예쁘다. 정확히는 어딘가
+    튄다. 색이 바랬거나 알록달록하다. 또는 없으면 좋았을 무늬가 있거나, 손잡이가
+    별로다. 이런 것들은 훔치기 싫기 이전에 훔치기 어렵다.
+  </p>
+
+  <p>
+    나는 미니멀한 까만 우산만 쓴다. 무난해서 예쁘다. 그리고 무난해서 훔치기도
+    좋다. 떳떳하지 못할 때는 튀지 않아야 하니까.
+  </p>
+
+  <p>
+    심리적 장벽을 만들어주기 위해 우산에 이름표를 달았다. 이름표는 간단히 풀어서
+    버릴 수 있는 끈에 허술하게 달렸지만, 이 이름표를 보고도 양심의 가책을 이겨낼
+    수 있는 사람은 많지 않겠지.
+  </p>
+</div>
+`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">
+  <meta name="post-id" content="1" />
+  <meta
+    name="post-title"
+    content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계"
+  />
+  <meta name="post-published" content="2026-03-23T19:41" />
+  <meta name="post-tags" content="TypeScript" />
+</div>
+
+<div class="post-content">
+  <p>
+    이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를
+    들면,
+  </p>
+
+  <pre><code class="language-typescript">
+		type AppEvent = &quot;claimPromotionItem&quot;
+		type UserRole = &quot;admin&quot; | &quot;member&quot; | &quot;guest&quot;
+		type ServicePlan = &quot;premium&quot; | &quot;free&quot;
+	</code></pre>
+
+  <p>
+    이벤트, 역할, 플랜으로 상태를 나누고, 이벤트 발생 시 유저의 역할과 이용 중인
+    플랜에 따라 처리를 분기하기 위한 핸들러를 정의해서,
+  </p>
+
+  <pre><code class="language-typescript">
+		const handler = {
+			claimPromotionItem: {
+				admin: {
+					default: () =&gt; console.log(\`관리자 계정은 신청할 수 없습니다.\`),
+				},
+				member: {
+					premium: (postId: number) =&gt; console.log(\`프리미엄 회원 \${postId}번 상품 요청.\`),
+					free: (postId: number, reason: string) =&gt; console.log(\`일반 회원 \${postId}번 상품 요청. 사유: \${reason}\`),
+				},
+				guest: {
+					default: () =&gt; console.log(&quot;로그인 페이지로 이동&quot;),
+				},
+			}
+		}
+	</code></pre>
+
+  <p>
+    handler["claimPromotionItem"]["member"]["free"](1, "더 좋은 서비스로 이동")
+    이런 식으로 쓰려고 하는 상황. 우선 실제 서비스에서 저렇게 하드코딩 할 일은
+    없고 참조로 가져오게 될 텐데,
+  </p>
+
+  <pre><code class="language-typescript">
+		function getRoleStatusAfterComplecatedLogic(): UserRole {
+			return &quot;member&quot;
+		}
+		function getPlanStatusWithReferenceLogic() : ServicePlan {
+			return &quot;premium&quot;
+		}
+
+		const r = getRoleStatusAfterComplecatedLogic ()
+		const p = getPlanStatusWithReferenceLogic ()
+		handler[&quot;claimPromotionItem&quot;][r][p](1, &quot;더 좋은 서비스로 이동&quot;)
+	</code></pre>
+
+  <p>그러다보면 타입스크립트가 에러를 던진다.</p>
+
+  <p>
+    Element implicitly has an 'any' type because expression of type 'string'
+    can't be used to index type '{ admin: { default: () => void; }; member: {
+    premium: (postId: number) => void; free: (postId: number, reason: string) =>
+    void; }; guest: { default: () => void; }; }'. No index signature with a
+    parameter of type 'string' was found on type '{ admin: { default: () =>
+    void; }; member: { premium: (postId: number) => void; free: (postId: number,
+    reason: string) => void; }; guest: { default: () => void; }; }'.
+  </p>
+
+  <p>
+    각 이벤트마다 모든 역할, 그리고 그 역할마다 또 모든 플랜을 모두 정의하면 저
+    에러는 사라지지만 당연히 그건 말도 안 된다. 필요한 것만 정의할 수 있어야
+    한다. 또 특정 이벤트는 특정 역할만 처리하거나 특정 역할만 다른 로직으로
+    처리하고 나머지 역할은 모두 같은 로직으로 처리하고 싶다. 일단 핸들러부터
+    타입을 명시해 보았다. 모든 타입이 아닌 필요한 것만 정의할 수 있도록 하는
+    방법으로 Partial을 사용하고 후에 공통로직을 위해 OR 연산으로 default를
+    넣었다.
+  </p>
+
+  <pre><code class="language-typescript">
+		type HandlerMap = {
+			[E in AppEvent]: Partial&lt;
+				Record&lt;
+					UserRole | "default",
+						Partial&lt;
+							Record&lt;ServicePlan | "default", (...args: any[]) =&gt; void | Promise&lt;void&gt;
+						&gt;
+					&gt;
+				&gt;
+			&gt;
+		}
+	</code></pre>
+
+  <p>
+    여기서 [E in AppEvent]는 Mapped Type 문법인데, 기존의 타입을 순회하면서
+    새로운 객체 타입을 만들어내는 문법이다. AppEvent에 정의된 모든 문자열을 키로
+    강제하고 그 값으로 역할과 플랜에 따른 메서드 구조를 할당하고 있다.
+    여기까지만 하고 다시 핸들러에 마우스를 올려다 대면, Object is possibly
+    'undefined'로 에러가 바뀌었다. 핸들러에 핸들러맵으로 타입을 명시해주어야
+    한다. 다음으로 디스패치 메서드를 정의.
+  </p>
+
+  <pre><code class="language-typescript">
+		async function dispatch(event: AppEvent, role: UserRole, plan: ServicePlan, ...args: any[]) {
+			const eventNode = handler[event]
+			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)
+
+			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]
+			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)
+
+			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]
+			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)
+
+			await hanlder(...args)
+		}
+	</code></pre>
+
+  <p>
+    저런 식으로 이벤트-역할-플랜에 해당하는 경우가 없을 때를 처리해주면 에러를
+    없앨 수 있다. 사용자 입력을 받는 것이 아닌 프로그래머틱한 에러이므로
+    assert를 써서 크래시를 내버리자.
+  </p>
+
+  <pre><code>
+		dispatch(&quot;claimPromotionItem&quot;, r, p, 1, &quot;더 좋은 서비스로 이동&quot;)
+	</code></pre>
+
+  <p>
+    핸들러 대신 디스패치 메서드를 쓰면 이제 에러는 없는데, 핸들러 객체의 플랜이
+    프리미엄일 경우 인자가 postId 하나여야 함에도 불구하고 지금 reason까지 두
+    개를 보냈는데 인텔리센스가 잡아내지 못한다. args 타입까지 안전하게 만들어야
+    하는데.. 여기서부터 서서히 해낼 수 없을 것 같다는 의심이 들기 시작한다..
+  </p>
+
+  <pre><code class="language-typescript">
+		type handleEventWithArgs = {
+			claimPromotionItem: {
+				admin: {
+					default: []
+				},
+				member: {
+					premium: [postId: number],
+					free: [postId: number, reason: string],
+				},
+				guest: {
+					default: []
+				},
+			}
+		}
+	</code></pre>
+
+  <p>각 경우의 인자를 별도 타입으로 관리하고,</p>
+
+  <pre><code class="language-typescript">
+		async function dispatch&lt;
+			E extends keyof handleEventWithArgs,
+			R extends keyof handleEventWithArgs[E] &amp; (UserRole | &quot;default&quot;),
+			P extends keyof handleEventWithArgs[E][R] &amp; (ServicePlan | &quot;default&quot;)
+		&gt;(
+			event: E,
+			role: R,
+			plan: P,
+			...args: handleEventWithArgs[E][R][P] extends any[]
+				? handleEventWithArgs[E][R][P]
+				: never
+		) {
+			const eventNode = handler[event]
+			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: \${event}&#96;)
+
+			const roleNode = eventNode[role] || eventNode[&quot;default&quot;]
+			if (!roleNode) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}&#96;)
+
+			const hanlder = roleNode[plan] || roleNode[&quot;default&quot;]
+			if (!hanlder) throw new Error(&#96;error occur in handle, AppEvent: \${event}, UserRole: \${role}, ServicePlan: \${plan}&#96;)
+
+			await hanlder(...args)
+		}
+	</code></pre>
+
+  <p>dispatch에 제네릭을 적용해 보았지만,</p>
+
+  <p>
+    Argument of type 'ServicePlan' is not assignable to parameter of type
+    'never'. Type '"premium"' is not assignable to type 'never'.
+  </p>
+
+  <p>
+    role과 plan이 런타임에 결정되는 넓은 타입(UserRole, ServicePlan)으로
+    추론되는 순간 제네릭 추론이 붕괴되어 args가 never로 떨어진다. :'(
+  </p>
+
+  <p>
+    결국 args는 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는
+    것으로 일단 사용하면서 후에 대안을 찾아보기로.
+  </p>
+</div>
+`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">
+  <meta name="post-id" content="28" />
+  <meta
+    name="post-title"
+    content="명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계"
+  />
+  <meta name="post-published" content="2026-07-23T18:54" />
+  <meta name="post-tags" content="TypeScript" />
+</div>
+
+<div class="post-content">
+  <p>
+    지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를
+    any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로
+    물러났었다. SVG 편집기 명령 레이어를 만들다가 같은 문제를 다시 만났다.
+  </p>
+
+  <p>
+    단축키·툴바 아이콘·메뉴가 전부 하나의 진입점(runCommand)을 타는 명령
+    테이블이다. 대부분의 명령은 페이로드가 없지만 몇 개는 있다. 회전은 각도를,
+    크기 창은 폭과 높이를 받아야 한다.
+  </p>
+
+  <pre><code class="language-typescript">
+		interface CommandPayloads {
+			rotate: { deltaDeg: number }
+			offset: { deltaMm: number; join: OffsetJoin }
+			nest: { gapMm: number; mode: NestMode }
+			setPosition: { x: number; y: number }
+			setSize: { w: number; h: number }
+		}
+
+		interface Command&lt;P extends CommandPayloads[keyof CommandPayloads] | void = void&gt; {
+			when?: (editor: Editor) =&gt; boolean
+			run: (editor: Editor, ctx: CommandContext, payload: P) =&gt; void | Promise&lt;void&gt;
+		}
+	</code></pre>
+
+  <p>
+    명령마다 페이로드 타입이 제각각인데 이걸 테이블 하나에 담아야 한다. 타입
+    표기는 P를 하나로 골라 전 키에 똑같이 퍼뜨리므로, Command&lt;void&gt;로 못
+    박으면 페이로드 명령이 컴파일에서 죽고, 모든 페이로드 시그니처를 받아주는
+    표기는 하한인 Command&lt;never&gt; 하나뿐이다(함수 인자는 반공변이니까).
+    그래서 처음엔 이렇게 했다.
+  </p>
+
+  <pre><code class="language-typescript">
+		export const commands = {
+			rotate: { ... },
+			setPosition: { ... },
+			// ...
+		} satisfies Record&lt;string, Command&lt;never&gt;&gt;
+	</code></pre>
+
+  <p>
+    그러나 "모두 허용한다"는 것은 "아무것도 검사하지 않는다"는 뜻. setPosition에
+    setSize의 페이로드를 잘못 적어도 통과한다.
+  </p>
+
+  <pre><code class="language-typescript">
+		setPosition: {
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt;  // 오타!
+				editor.engine.moveSelectionTo(payload.w, payload.h)
+		}
+	</code></pre>
+
+  <p>
+    호출부는 오버로드대로 { x, y }를 넘기니 payload.w는 undefined, 계산 결과는
+    NaN, 도형은 엉뚱한 곳으로 간다. 타입은 조용하고 앱에서 터진다.
+  </p>
+
+  <p>
+    지난 글에서 붕괴의 원인은 키(role, plan)가 런타임에 결정되는 넓은 타입이라는
+    것이었다. handler[event][r][p]에서 r, p가 런타임 변수인 순간 제네릭 추론이
+    무너져 args가 never로 떨어졌다. 이번엔 사정이 다르다 — 명령 이름은 호출부에
+    리터럴로 박힌다. runCommand("rotate", editor, ctx, { deltaDeg: 15 }) 식이다.
+    좁힐 키를 컴파일 타임에 이미 알고 있으므로, 디스패처 쪽은 오버로드로 잡을 수
+    있다.
+  </p>
+
+  <pre><code class="language-typescript">
+		export function runCommand(name: PayloadlessCommandName, editor: Editor, ctx: CommandContext): void
+		export function runCommand&lt;N extends keyof CommandPayloads&gt;(
+			name: N,
+			editor: Editor,
+			ctx: CommandContext,
+			payload: CommandPayloads[N]
+		): void
+	</code></pre>
+
+  <p>
+    남은 건 테이블 정의 쪽이다. 키마다 다른 페이로드를 요구해야 하는데 표기
+    하나로는 표현할 수 없다. 그래서 표기를 붙이는 대신, 항등함수에 자기참조
+    제약을 걸어 통과시키는 방법을 썼다.
+  </p>
+
+  <pre><code class="language-typescript">
+		const defineCommands = &lt;
+			T extends {
+				[K in keyof T]: K extends keyof CommandPayloads ? Command&lt;CommandPayloads[K]&gt; : Command&lt;void&gt;
+			}
+		&gt;(
+			table: T
+		): T =&gt; table
+
+		export const commands = defineCommands({ ... })
+	</code></pre>
+
+  <p>
+    몸통은 받은 것을 그대로 돌려줄 뿐이다. 대신 T를 있는 그대로 반환하므로
+    리터럴 타입이 보존되어 keyof typeof commands가 정확한 명령 이름 유니온으로
+    남는다. 일은 껍데기가 한다. 제약의 키가 T 자신의 키(keyof T)라서 규칙이 고정
+    목록이 아니라 넘긴 객체를 따라 만들어진다. 넣은 키가 CommandPayloads에
+    있으면 그 페이로드, 아니면 void. 지난 글에서 하나의 타입으로는 못 하던
+    "키마다 다른 요구"가 Mapped Type 제약으로는 된다. 실제로 잡는지 tsc
+    --strict로 확인해 보면,
+  </p>
+
+  <pre><code class="language-typescript">
+		// 시나리오 A: payload를 setSize로 잘못 명시
+		rotate: {
+			run: (editor, _ctx, payload: CommandPayloads['setSize']) =&gt; { ... }
+		}
+		// error TS2322: Type '(..., payload: { w, h }) =&gt; void' is not assignable
+		//   to type '(..., payload: { deltaDeg }) =&gt; void | Promise&lt;void&gt;'.
+
+		// 시나리오 B: 표기 생략 후 엉뚱한 속성 접근
+		rotate: {
+			run: (editor, _ctx, payload) =&gt; { console.log(payload.w) }
+		}
+		// error TS2339: Property 'w' does not exist on type '{ deltaDeg: number }'.
+	</code></pre>
+
+  <p>
+    표기를 생략하면 문맥 타이핑으로 payload가 { deltaDeg }로 추론되어 엉뚱한
+    속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던 지점 — 잘못된 인자를 넘겨도
+    인텔리센스가 침묵하던 — 이 여기서는 잡힌다.
+  </p>
+
+  <p>그러나 두 페이로드의 구조가 똑같다면..</p>
+
+  <pre><code class="language-typescript">
+		interface CommandPayloads {
+			a: { n: number }
+			b: { n: number }  // a와 모양이 같다
+		}
+
+		const commands = defineCommands({
+			a: {
+				run: (editor, _ctx, payload: CommandPayloads['b']) =&gt; { ... }  // 뒤바꿔도
+			},
+		})
+		// tsc --strict --noEmit → 에러 0. 통과.
+	</code></pre>
+
+  <p>
+    TypeScript는 구조적 타이핑이라 이름이 아니라 모양으로 같고 다름을 판단한다.
+    CommandPayloads['a']와 CommandPayloads['b']가 둘 다 { n: number }면 컴파일러
+    입장에선 완전히 같은 타입이고, 뒤바뀜을 인식할 근거 자체가 없다. 명목적
+    타이핑 언어라면 애초에 성립하지 않는 사고다. 같은 상황을 Java로 옮겨 보면,
+  </p>
+
+  <pre><code class="language-java">
+		record RotatePayload(double n) {}
+		record ScalePayload(double n) {}  // 모양은 완전히 같다
+
+		void runRotate(RotatePayload p) { engine.rotate(p.n()); }
+
+		runRotate(new ScalePayload(2.0));
+		// error: incompatible types: ScalePayload cannot be converted to RotatePayload
+	</code></pre>
+
+  <p>
+    Java는 이름이 곧 정체성이다. 모양이 같아도 이름이 다르면 다른 타입이고,
+    뒤바꾸는 실수는 위처럼 컴파일에서 죽는다. 반면 TypeScript의 이름은 모양에
+    붙인 별명일 뿐이다. CommandPayloads['a']라고 부르든 ['b']라고 부르든
+    컴파일러가 보는 건 { n: number }라는 모양 하나. 별명이 몇 개든 타입은
+    하나라서, 뒤바뀜이라는 개념 자체가 성립하지 않는다.
+  </p>
+
+  <p>
+    그래도 갈라내고 싶다면 방법은 하나뿐이다. 이름을 구별 못 하니, 모양 자체를
+    다르게 만드는 것. 브랜드 타입이 그 트릭이다.
+  </p>
+
+  <pre><code class="language-typescript">
+		type A = { n: number } &amp; { readonly __brand: 'a' }
+		type B = { n: number } &amp; { readonly __brand: 'b' }
+		// __brand 값이 다르니 이제 모양부터 다르다. 뒤바꾸면 컴파일 에러.
+	</code></pre>
+
+  <p>
+    대신 페이로드가 태어나는 모든 곳에서 __brand라는 가짜 속성을 채워 넣어야
+    한다. 지금은 다섯 페이로드가 전부 모양이 달라 그 비용을 치를 실익이 없어
+    보류. 사실 모양이 같으면 런타임에 읽는 값도 같아서 데이터 사고는 안 나고,
+    남는 위험은 엉뚱한 run 로직을 그 키에 배선하는 것뿐인데 그건 애초에 타입이
+    아니라 리뷰와 테스트의 영역이다.
+  </p>
+
+  <p>
+    VSCode는 어떻게 했나 열어봤다. 이 when/run 명령 테이블 방식의 원조 격이니까.
+  </p>
+
+  <pre><code class="language-typescript">
+		export function registerCommand(command: string, callback: (...args: any[]) =&gt; any, thisArg?: any): Disposable;
+		export function executeCommand&lt;T = unknown&gt;(command: string, ...rest: any[]): Thenable&lt;T&gt;;
+	</code></pre>
+
+  <p>
+    명령은 string, 인자는 any[]. 잡고 못 잡고 이전에 시도 자체를 안 했다. 확장
+    생태계라 명령 등록이 열려 있으니 페이로드 목록을 닫힌 타입으로 가둘 수 없는
+    사정이 있긴 하다. when마저 함수가 아니라 package.json의 문자열 컨텍스트
+    표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론 — 정의
+    자체를 명세 삼아 호출부에서 맞춰라 — 를 공식 API로 채택한 셈이라 묘한 위안이
+    됐다.
+  </p>
+</div>
+`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
+  <meta name="post-id" content="3" />
+  <meta
+    name="post-title"
+    content="addEventListener에서 커스텀 이벤트 타입 추론하기"
+  />
+  <meta name="post-published" content="2026-03-28T17:21" />
+  <meta name="post-tags" content="TypeScript" />
+</div>
+
+<div class="post-content">
+  <p>
+    나만의 컬러 피커 커스텀 엘리먼트를 만들었고, updateColor 발생 시 커스텀
+    이벤트를 디스패치하는 상황이었다.
+  </p>
+
+  <pre><code class="language-typescript">
+		class MyColorPicker extends HTMLElement {
+			constructor() {
+				super()
+			}
+
+			updateColor(color: string) {
+				this.dispatchEvent(new CustomEvent(&quot;update-color&quot;, {
+					detail: { color }
+				}));
+			}
+		}
+
+		customElements.define(&quot;my-color-picker&quot;, MyColorPicker);
+	</code></pre>
+
+  <p>
+    이를 등록한 이벤트 리스너에서 발생한 커스텀 이벤트 정보를 가져오고 싶다.
+  </p>
+
+  <pre><code class="language-typescript">
+		function main() {
+			const cp = document.createElement(&quot;my-color-picker&quot;) as MyColorPicker
+
+			cp.addEventListener(&quot;update-color&quot;, (e) => {
+				console.log(&quot;change color: &quot;, e.detail.color)
+			})
+
+			cp.updateColor(&quot;red&quot;)
+		}
+	</code></pre>
+
+  <p>Property 'detail' does not exist on type 'Event'. 에러 발생.</p>
+
+  <p>
+    TypeScript는 기본적으로 addEventListener에 들어오는 이벤트 객체를 가장
+    뿌리가 되는 Event 타입으로 간주한다. Event는 모든 이벤트의 조상으로 target,
+    type 같은 기본 속성만 있을 뿐, detail이란 속성은 없다.
+  </p>
+
+  <pre><code class="language-typescript">
+		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {
+			console.log(&quot;change color: &quot;, e.detail.color)
+		})
+	</code></pre>
+
+  <p>
+    그럼 저 e의 타입은 커스텀 이벤트가 되어야 맞고, 코드를 수정하면 detail에
+    그였던 에러는 addEventListener로 옮겨 간다.
+  </p>
+
+  <p>
+    No overload matches this call. Overload 1 of 2, '(type: keyof
+    HTMLElementEventMap, listener: (this: HTMLElement, ev: Event | UIEvent |
+    AnimationEvent | PointerEvent | MouseEvent | ... 14 more ... | WheelEvent)
+    =&gt; any, options?: boolean | ... 1 more ... | undefined): void', gave the
+    following error. Argument of type '"update-color"' is not assignable to
+    parameter of type 'keyof HTMLElementEventMap'. Overload 2 of 2, '(type:
+    string, listener: EventListenerOrEventListenerObject, options?: boolean |
+    AddEventListenerOptions | undefined): void', gave the following error.
+    Argument of type '(e: CustomEvent) => void' is not assignable to parameter
+    of type 'EventListenerOrEventListenerObject'. Type '(e: CustomEvent) =>
+    void' is not assignable to type 'EventListener'. Types of parameters 'e' and
+    'evt' are incompatible. Type 'Event' is missing the following properties
+    from type 'CustomEvent&lt;any&gt;': detail, initCustomEvent
+  </p>
+
+  <p>
+    addEventListener는 첫 번째 인자인 type이 무엇인지에 따라 두 번째 인자인
+    listener 타입을 결정하는데, 'update-color'란 타입이 없어서 발생한다.
+    그러니까 기본 등록된 click, scroll을 기대하고 있는데 엉뚱한 것이 들어왔고 또
+    addEventListener의 두 번째 인자는 (e: Event) => void를 기대하는데 Event 대신
+    CustomEvent를 써버렸다. 이를 해결하기 위해서는 addEventListener 메서드를
+    오버로딩 해줘야 한다.
+  </p>
+
+  <pre><code class="language-typescript">
+		class BaseComponent&lt;T extends Record&lt;string, any&gt;&gt; extends HTMLElement {}
+	</code></pre>
+
+  <p>
+    다른 커스텀 컴포넌트들도 다 같이 적용되어야 할 테니 부모 클래스를 만들어
+    줬고, 저기 제네릭에는 이벤트를 정의해둔 인터페이스를 받으면 될 것 같다.
+  </p>
+
+  <pre><code class="language-typescript">
+		interface MyColorPickerCustomEvents {
+			&quot;update-color&quot;: { color: string }
+		}
+
+		class MyColorPicker extends BaseComponent&lt;MyColorPickerCustomEvents&gt; {}
+	</code></pre>
+
+  <p>
+    커스텀 이벤트 정보를 담은 인터페이스를 만들고, HTMLElement 대신 좀 전에 만든
+    부모 클래스를 확장하면서 만든 인터페이스를 등록한다. 그리고 첫 번째
+    오버로드, 이것의 목적은 우리가 선언한 커스텀 이벤트 타입을 등록해서
+    타입스크립트에게 알려준다.
+  </p>
+
+  <pre><code>
+		override addEventListener&lt;
+			K extends keyof (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })
+		&gt;(
+			type: K,
+			listener: (
+				this: this,
+				ev: (HTMLElementEventMap & { [P in keyof T]: CustomEvent&lt;T[P]&gt; })[K]
+			) =&gt; any,
+			options?: boolean | AddEventListenerOptions
+		): void;
+	</code></pre>
+
+  <p>[P in keyof T] 부터 보면, T는 우리가 보낸 인터페이스다.</p>
+
+  <p>
+    mapped types으로 그 인터페이스의 키를 하나씩 꺼내 P라는 변수를 사용해
+    키(update-color), CustomEvent&lt;{ color: string }&gt;를 값으로 묶어 새로운
+    객체를 만든다.
+  </p>
+
+  <p>
+    쉽게 T, { &quot;update-color&quot;: { color: string } }를 {
+    &quot;update-color&quot;: CustomEvent&lt;{ color: string }&gt; }로 바꾼 것.
+  </p>
+
+  <p>
+    그렇게 우리가 등록한 인터페이스의 모든 키에 대해 CustomEvent를 기존 이벤트
+    HTMLElementEventMap과 합치고 거기서 key만 뽑아내 K를 만들어
+    addEventListener의 첫 인자로 보내준다.
+  </p>
+
+  <p>참고로 HTMLElementEventMap는 GlobalEventHandlersEventMap를 상속하는데,</p>
+
+  <pre><code>
+		interface GlobalEventHandlersEventMap {
+			...
+			&quot;click&quot;: PointerEvent;
+			...
+		}
+	</code></pre>
+
+  <p>이런 기존 이벤트를 모은 인터페이스다.</p>
+
+  <p>
+    두 번째 인자 리스너의 첫 번째 인자를 this로 지정하여 this가 단순히
+    HTMLElement가 아닌 현재 클래스 MyColorPicker임을 보장해야 리스너 안에서 해당
+    클래스의 멤버에 안전하게 접근할 수 있다.
+  </p>
+
+  <p>
+    두 번째 인자 리스너의 두 번째 인자 ev는 기존 이벤트와 등록한 커스텀 이벤트를
+    합친 객체에 키 즉 K를 넣어서 이벤트 객체를 가져온다.
+  </p>
+
+  <pre><code class="language-typescript">
+		cp.addEventListener(&quot;update-color&quot;, (e: CustomEvent) =&gt; {
+			console.log(&quot;change color: &quot;, e.detail.color)
+		})
+	</code></pre>
+
+  <p>
+    이렇게 update-color를 넣으면 그에 해당하는 값을 가져오게 되고 그 값은?
+    위에서 봤듯이 CustomEvent&lt;{ color: string }&gt;가 된다.
+  </p>
+
+  <p>
+    addEventListener의 세 번째 인자는 addEventListener 본래 코드 그대로
+    넣어준다.
+  </p>
+
+  <p>
+    두 번째 오버로드는 등록하지 않은 이벤트도 사용할 수 있도록 string으로
+    선언하는 건데 빼도 상관 없을 것 같다.
+  </p>
+
+  <pre><code class="language-typescript">
+		override addEventListener(
+			type: string,
+			listener: EventListenerOrEventListenerObject,
+			options?: boolean | AddEventListenerOptions
+		): void;
+	</code></pre>
+
+  <p>
+    그리고 세 번째는 타입스크립트 규칙에 의해 앞서 선언한 오버로드 모두를
+    수용하는 실제 구현을 써주는데 그냥 기존 addEventListener 호출을 래핑해주면
+    된다.
+  </p>
+
+  <pre><code class="language-typescript">
+		override addEventListener(
+			type: string,
+			listener: any,
+			options?: boolean | AddEventListenerOptions
+		): void {
+			super.addEventListener(type, listener, options);
+		}
+	</code></pre>
+
+  <p>
+    이러면 이제 addEventListener를 사용하는 순간, 순서대로 먼저 커스텀 이벤트를
+    체크하고, 해당되지 않으면 다음 유연한 string으로 처리된다.
+    removeEventListener도 이와 같이 만들어주면 완성.
+  </p>
+
+  <p>
+    마지막으로 HTMLElementTagNameMap에 내 커스텀 엘리먼트를 추가한다. 추가하지
+    않으면 createElement로 커스텀 엘리먼트를 만들었을 때 타입을 HTMLElement로
+    추정하게 되는데, 거기엔 지금 만든 커스텀 오버로딩이 없다.
+  </p>
+
+  <pre><code class="language-typescript">
+		declare global {
+			interface HTMLElementTagNameMap {
+				&quot;my-color-picker&quot;: MyColorPicker;
+			}
+		}
+	</code></pre>
+
+  <p>
+    이제 createElement로 생성 후 as MyColorPicker 같은 타입 단언을 하지 않아도
+    된다!
+  </p>
+
+  <p>
+    또 e의 정확한 타입은 CustomEvent&lt;MyColorPickerCustomEvents
+    ['update-color']&gt;기 때문에 CustomEvent라고 명시하지 말고 지금 설계한 타입
+    추론 시스템이 추론하게 내버려 두어야 e.detail까지 쳤을 때 color가 자동완성
+    된다.
+  </p>
+
+  <pre><code class="language-typescript">
+		function main() {
+			const cp = document.createElement("my-color-picker")
+
+			cp.addEventListener("update-color", (e) => {
+				console.log("change color: ", e.detail.color)
+			})
+
+			cp.updateColor("red")
+		}
+	</code></pre>
+</div>
+`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
+  <meta name="post-id" content="10" />
+  <meta name="post-title" content="배당 9%의 속사정" />
+  <meta name="post-published" content="2026-05-25T15:28" />
+  <meta name="post-tags" content="주식, 흥국에프엔비" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/journals/investment/10/chart.png"
+      alt="흥국에프엔비 차트"
+      width="400"
+    />
+    <figcaption>출처: 네이버 증권</figcaption>
+  </figure>
+
+  <p>
+    26년 5월 12일 발표한 미국 소비자 물가가 3.8%로 뛰었다. 금리 인하가
+    기정사실인 줄 알았지만 이제는 방향을 가늠하기 어려워지고 있다. 미국 이란
+    전쟁의 흐름을 예측할 수 없는 상황에서 리스크를 대비해 하방이 닫힌 경기방어주
+    비중을 늘리고 싶다.
+  </p>
+
+  <p>
+    흥국에프엔비의 현금 배당수익률이 9.27%((최근 결산 보통주 수정 DPS / 전일자
+    보통주 수정 주가) × 100)까지 올라섰다. 흥국에프엔비는 카페 토탈 솔루션 ODM
+    기업으로 과일농축액, 스무디, 주스 등의 제조·판매를 주요 사업으로 영위하고
+    있다. 매출은 프랜차이즈 카페·레스토랑에서 발생하는 B2B 비중이 높으며, 이마트
+    및 BGF리테일과의 장기 공급 계약을 통해 리테일 채널도 병행하고 있다. 유통
+    다각화를 위해 향후 친환경 유기농 매장 및 고속도로 휴게소 등 특수경로
+    시장으로의 진출 또한 고려하고 있다.
+  </p>
+
+  <p>
+    흥국에프엔비의 주력 상품인 과일농축액, 스무디, 과일·채소주스 등의 매출
+    상황을 보면(단위: 백만 원) 내수가 88,854(23년), 91,189(24년),
+    88,934(25년)으로 정체 중이지만 수출은 2,091(23년) 2,360(24년),
+    3,158(25년)으로 증가세에 있다. 전체 매출과 영업이익은 소폭 감소했다.
+  </p>
+
+  <p>
+    흥국에프엔비는 상장 이후 20% 이상 배당성향을 목표로 경영해온 주주친화적인
+    기업이다. 오너 지분이 50%에 육박하므로 높은 배당은 오너의 높은 수익과
+    연결되지만 그것을 부정적인 시각으로 바라볼 필요까지는 없어보인다.
+    18기(25년도) 배당 지급액은 약 78억으로 17기 약 15억에 비해 5배가량 증가했다.
+    78억이면 그 해 벌어들인 수익 전부가 고스란히 배당금으로 지급된 셈이다. 다소
+    과하다는 생각이 드는 건 사실이지만 별다른 이유를 찾지는 못했다. 26년부터
+    시행된 고배당기업 배당소득 과세특례 시기와 묘하게 맞물리기는 했지만
+    기획재정부 세제개편안 발표(25년 7월) 이전인 25년 3월에도 이미 상당한 배당을
+    지급했다는 점에서 그 의심은 과한 해석 같다.
+  </p>
+
+  <p>
+    흥국에프엔비가 낮은 멀티플을 받는 이유는 알 것도 같다. 그럼에도 PER 8배
+    수준의 저평가와 9%대 배당수익률은 분명 매력적이다. 내수 매출 정체와 영업이익
+    감소 추세가 부담이지만, 수출 증가와 유통 채널 다각화가 진행 중이라는 점에서
+    지켜볼 여지가 있다. 26년부터 시행된 고배당 분리과세 혜택까지 더해진 만큼,
+    영업이익 회복 여부를 확인하며 접근해보면 좋을 것 같다.
+  </p>
+
+  <p class="post-ref">
+    * 참고<br />
+    흥국에프엔비 사업보고서<br />
+    네이버 증권<br />
+    기획재정부 2025년 세제개편안
+  </p>
+</div>
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
+  <meta name="post-id" content="15" />
+  <meta name="post-title" content="식히는 사업, 식지 않은 의문" />
+  <meta name="post-published" content="2026-06-20T11:41" />
+  <meta name="post-tags" content="주식, SNT에너지" />
+</div>
+
+<div class="post-content">
+  <p>
+    AFC<span class="post-sub">(Air Fin Cooler)</span>는 화공플랜트에서 나오는
+    고온의 유체를 물이 아닌 공기로 식히는 장치로써, 산업 용수 공급에 어려움이
+    있는 중동에서 주로 쓰인다.
+  </p>
+
+  <p>
+    2025년 사업보고서 기준, SNT에너지는 AFC 매출 비중이 81.8%를 차지한다.
+    24년도까지 매출액은 3천억 원을 넘지 못했는데 25년도부터 두 배 이상 증가해
+    6천억 원대를 유지하고 있다. 현재 멀티플 약 7배 선에서 거래되고 있는데,
+    LS증권에서 26년 1월 30일에 발행한 SNT에너지 리포트에 쓰인 SNT에너지 글로벌
+    peers PER 20X와 비교하면 터무니 없이 낮다.
+  </p>
+
+  <p>
+    SNT에너지의 사우디아라비아 현지법인 SNT걸프는 2022년 사우디 아람코와 AFC
+    장기조달계약(CPA)을 체결했다. CPA는 아람코와 아람코 합작·자회사가 추진하는
+    프로젝트에서 SNT에너지의 AFC가 우선적으로 채택되도록 하는 장기 공급 자격을
+    부여하는 계약으로, 개별 수주가 일회성으로 끝나지 않고 향후 발주되는
+    프로젝트들로 이어질 수 있는 기반이 된다. 2025년 실적은 해당 계약의 영향이
+    본격적으로 반영된 결과로 보인다. 그 기간 주가는 폭발적으로 올랐지만 멀티플은
+    전과 같았다. 시장은 당시 단일 고객에게 의존한 SNT에너지의 성장을 지속
+    가능하다고 보지 않았다.
+  </p>
+
+  <p>
+    핵심 상품의 한계도 명확하다. 공랭식은 수냉식보다 초기 설치비가 더 들고,
+    열교환 효율이 낮다. 물이 풍부한 지역에서는 공랭식을 채택할 이유가 적다. 또한
+    교체주기가 3, 40년에 이르는 내구재로 A/S 매출을 기대하기도 어렵다. 매출이
+    일회성이지 않기 위해서는 신규 플랜트 capex 투자가 꾸준히 이어져야 한다.
+  </p>
+
+  <p>
+    최근 늘고 있는 미국향 매출은 주목할 만하다. 2025년 1월 트럼프 행정부가
+    들어서면서 바이든 정부 시절 묶여 있던 LNG 수출 허가가 재개됐고, 그 직후
+    SNT에너지는 벡텔을 통해 미국 루이지애나·텍사스 LNG 수출 터미널에 AFC를
+    공급하는 계약을 잇따라 체결했다. 러시아-우크라이나 전쟁 이후 유럽을 비롯한
+    여러 국가가 러시아산 가스 의존도를 낮추려는 흐름이 있어 이는 정책에 따른
+    일회성 수혜가 아닌 추세에 가깝다고 보여진다.
+  </p>
+
+  <p>
+    다만 이 흐름이 사우디 아람코 때만큼 가파른 성장으로 이어질지는 다른 문제다.
+    신규 프로젝트가 FID(최종투자결정)를 거쳐 실제 매출로 인식되기까지 통상
+    수년이 걸리고, 정권에 따라 허가 속도가 빨라지거나 느려질 수 있어 단기간에
+    폭발적으로 늘어나기보다는 완만하게 쌓여가는 그림에 가까울 것으로 보인다.
+  </p>
+
+  <p>
+    추세로 볼 만한 변화가 하나 더 있다. AI 데이터센터발 전력 수요 증가로 LNG
+    발전소 건설이 늘어나는 흐름인데, 이는 SNT에너지의 매출 비중 16.7%로 두
+    번째로 큰 파이를 차지하는 HRSG<span class="post-sub"
+      >(Heat Recovery Steam Generator)</span
+    >와 맞닿아 있다.
+  </p>
+
+  <p>
+    최근 새로 짓는 가스 발전소는 대부분 복합화력 방식이다. 가스터빈으로 1차
+    발전을 하고, 거기서 나오는 고온의 배기가스를 그냥 버리지 않고 HRSG로 회수해
+    증기를 만들어 증기터빈을 한 번 더 돌리는 구조다. 같은 연료로 전기를 두 번
+    만드는 셈이라 효율이 단순 화력발전보다 훨씬 높다. 결국 발전소가 어디에
+    지어지든 HRSG는 필수로 따라붙는 설비이고, 데이터센터 인근에 LNG 발전소가
+    늘어나는 흐름이 이어진다면 SNT에너지가 가져갈 몫도 같이 늘어날 여지가 있다.
+  </p>
+
+  <p>
+    HRSG가 AFC만큼 성장할 수 있을까. 화공플랜트 하나에는 통상 수백 대 단위로
+    AFC가 들어가는 반면, 발전소는 1기당 HRSG가 한두 대 들어가는 구조로 알려져
+    있어 절대적인 물량 자체가 다를 가능성이 크다. 추정치를 보면 그 차이가
+    드러난다. 같은 리포트에 따르면 HRSG 및 기타 매출은 2026년 16.3%, 2027년 6.1%
+    성장에 그칠 것으로 추정되는데, 이는 AFC가 아람코향 매출 반영 첫해(2025년)에
+    두 배 이상 뛰었던 것과는 다른 속도다. 결국 HRSG가 AFC를 대체할 두 번째
+    성장축이 되기보다는, AFC 사이클이 주춤할 때를 보완해주는 정도의 역할에 그칠
+    가능성이 더 커 보인다.
+  </p>
+
+  <p>
+    갈래는 여럿이지만 같은 질문으로 수렴한다. AFC를 먹여 살리는 중동과 미국의
+    가스 인프라 투자, 그리고 보조축인 HRSG까지, 이 모든 성장이 구조적으로
+    이어지느냐다. 사우디 쪽은 이미 수주잔고로 잡힌 프로젝트들의 가시성은 높지만,
+    2030년 가스 확장 전략에 맞춰진 투자 사이클인 만큼 그 이후에도 비슷한 속도의
+    신규 발주가 이어질지는 알 수 없다. 미국 쪽은 산업 자체는 10년 가까이 커온
+    흐름이지만, SNT에너지 입장에서는 2023년 진출 이후 이제 막 매출이 쌓이기
+    시작한 단계라 속도와 규모를 더 지켜봐야 한다. 더디게 보이는 HRSG 역시 AI발
+    전력 수요가 예상보다 가파르게 현실화된다면 추정치를 웃도는 변수가 될 수
+    있다. 결국 지금의 정보로는 이 낮은 멀티플이 기회라고 판단하기 어려웠다.
+  </p>
+
+  <p class="post-ref">
+    * 참조 <br />
+    SNT에너지 사업보고서(2025) <br />
+    LS증권, 김세련, "SNT에너지(100840) LNG의 파도, 높아지는 파고"
+    (2026.01.30)<br />
+    한국무역협회(KITA),
+    <a
+      href="https://www.kita.net/board/totalTradeNews/totalTradeNewsDetail.do?no=89180&siteId=2"
+      target="_blank"
+    >
+      "美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a
+    ><br />
+  </p>
+</div>
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
+  <meta name="post-id" content="18" />
+  <meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />
+  <meta name="post-published" content="2026-06-29T16:43" />
+  <meta name="post-tags" content="주식, 에스투더블유" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/journals/investment/18/chart.png"
+      alt="에스투더블유 차트"
+      width="400"
+    />
+    <figcaption>출처: 네이버 증권</figcaption>
+  </figure>
+
+  <p>
+    에스투더블유(S2W)는 멀티도메인 교차분석 기술을 통해 데이터를 의미 기반으로
+    연결하고 통합적으로 분석하여 맞춤형 인텔리전스를 제공한다.
+  </p>
+
+  <p>
+    에스투더블유의 주요 상품으로는 기업용 사이버 위협 분석 플랫폼
+    '퀘이사(QUAXAR)'와 기관용 빅데이터 분석 플랫폼 '자비스(XARVIS)', 그리고
+    산업특화 생성형 AI 플랫폼 '에스에이아이피(SAIP)'가 있다.
+  </p>
+
+  <p>
+    26년 5월 14일 공시된 분기보고서 기준, 퀘이사(55.15%)와 자비스(40.5%)는
+    사실상 에스투더블유의 매출 전부를 구성한다. 두 제품 모두 다크웹·텔레그램 등
+    히든 채널에서 데이터를 자동 수집해 위협의 정황을 분석한다. 차이는 타깃인데,
+    퀘이사는 민간 기업의 외부 위협 모니터링에, 자비스는 수사·안보기관을 위한
+    도구로 범죄자를 특정하고 추적하는 데 쓰인다. 자비스에는 자체 개발한 다크웹
+    전용 언어모델 DarkBERT 기반의 DarkCHAT이 탑재돼 있어, 수사관이 자연어
+    질의만으로 방대한 범죄 데이터를 검색하고 조사할 수 있다. 인터폴 민관협력
+    프로그램 '게이트웨이 이니셔티브'의 국내 최초 파트너사로, 일본 내각, 대만
+    증권거래소, 싱가포르·인도네시아·사우디아라비아 정부기관을 고객으로 확보하고
+    있다.
+  </p>
+
+  <p>
+    에스투더블유는 퀘이사와 자비스를 운영하며 쌓아온 도메인 특화 AI 분석
+    노하우를 기반으로 산업특화 빅데이터 분석 플랫폼(SAIP)을 출시하며 철강, 유통
+    분야 우수한 레퍼런스를 빠르게 확보한 뒤, 금융/보험, 공공 등 적용 산업을
+    확대해 나가고 있다.
+  </p>
+
+  <p>
+    에스에이아이피가 적용된 사례로 현대제철의 HIP와 롯데멤버스의 세그먼트랩이
+    있다. HIP는 사내 문서 검색 효율화와 전문가 수준의 지식정보 활용을 지원하고,
+    세그먼트랩은 소비 데이터와 외부 뉴스를 결합해 트렌드 분석과 예측을
+    자동화한다.
+  </p>
+
+  <p>
+    네이버 증권으로 확인한 컨센서스는 희망적이다. 26년 흑자전환을 시작으로 이후
+    실적 개선 흐름이 가파르게 그려진다. SaaS 기반 구조 특성상 손익분기점을
+    넘기면 이익 레버리지가 크게 나타나고, 퀘이사와 자비스의 고객 유지율이 100%에
+    가깝다는 점이 근거로 보인다. AI 발달로 사이버 공격이 고도화될수록 두 제품은
+    빛을 발할 것으로 기대된다. 더불어 에스투더블유의 성장을 본격적으로
+    가속화하기 위해서는, 사이버 보안 노하우를 범용 산업 데이터로 확장해줄
+    에스에이아이피(SAIP)의 역할이 무엇보다 중요해 보인다.
+  </p>
+
+  <p>
+    현대제철·롯데멤버스 납품이 지속적인 계약으로 이어지는지, 또 금융·보험 등으로
+    적용 산업이 확장되는지 확인이 필요할 것 같다.
+  </p>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="s2w.inc/ko" target="_blank"> 에스투더블유 (s2w.inc/ko)</a><br />
+    에스투더블유 분기보고서 (2026.05.14)<br />
+    네이버 증권,
+    <a
+      href="https://finance.naver.com/item/coinfo.naver?code=488280"
+      target="_blank"
+    >
+      에스투더블유(488280)</a
+    ><br />
+    신한투자증권 최승환, "바겐세일" (2026.04.09)
+  </p>
+</div>
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
+  <meta name="post-id" content="6" />
+  <meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플" />
+  <meta name="post-published" content="2026-04-25T19:10" />
+  <meta name="post-tags" content="주식, 케이프" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/journals/investment/6/chart.png"
+      alt="케이프 차트"
+      width="400"
+    />
+    <figcaption>출처: 네이버 증권</figcaption>
+  </figure>
+
+  <p>
+    케이프는 실린더 라이너 한 가지 제품 생산에만 매진한다. 실린더 라이너는
+    대형엔진 기준 5~14개가 필요하며, 소모품으로 교환주기는 5 ~7년이다.
+  </p>
+
+  <p>
+    현재 국내 3대 엔진 빌더와 중국, 일본, 유럽 엔진 빌더에 신조선용 실린더
+    라이너를 공급하고 있고, HD현대마린솔루션를 통하여 세계 A/S시장에도 참여하고
+    있다. 최근 결산일 기준 신조선용 실린더 라이너 공급과 A/S 매출 비율은 약
+    2:1이다.
+  </p>
+
+  <p>사업보고서를 보면 확인하고 싶어지는 부분이 두 곳 있다.</p>
+
+  <p>
+    첫째는 24년도 케이프가 판매한 실린더 라이너는 전년 대비 약 11%(269개)
+    증가했는데, 내수가 9,875백만 원 증가한 것에 비해 전년 대비 달러 원 환율이 약
+    60원이나 높았음에도 수출은 12,133백만 원(약 54%!!) 감소한 부분인데, 케이프가
+    양산이 아닌 주문생산 방식을 채택하고 있기 때문에 단순히 당시 해외 주문이
+    줄었던 걸 수도 있고, 혹은 전략적으로 글로벌 시장을 지배하고 있는 현대중공업
+    그룹향 매출 비중을 늘린 것 같기도 한데, 이 부분은 조금 더 확인이 필요해
+    보인다. 현대중공업 그룹향 매출 비중은 2023년 34.2%에서 2024년 57.4%로 무려
+    23.2%p 폭등했고, 최근 결산일까지도 46.6%로 높게 유지되고 있다. 고객 집중도가
+    상승하는 것은 리스크 측면에서 좋지 않을 수 있지만 어쨌거나 현대중공업 그룹향
+    매출 비중 증가는 경쟁력이 부족한 것은 아니라는 방증.
+  </p>
+
+  <p>
+    둘째는 25년도 케이프가 판매한 실린더 라이너 개수가 1,856개로 전년 대비 약
+    32%(878개) 감소한 부분인데, 이는 순환주기에 따른 것으로 24년도 재고 소진 및
+    25년도 발주 정상화가 이루어졌다.
+  </p>
+
+  <p>
+    최근 결산일 별도 재무제표 기준 케이프의 멀티플은 8.51배다. 상장한 실린더
+    라이너 전문 업체가 있다면 비교해 보면 좋겠지만 마땅치가 않다. 아쉬운 대로
+    케이프가 속한 선박 기자재 섹터 중에서 비슷한 시가총액을 가진
+    인화정공(27.2배), 오리엔탈정공(30.03배), 현대힘스(29.55배)와 비교해 보면
+    케이프는 압도적으로 낮은 멀티플을 받고 있다.
+  </p>
+
+  <p>
+    정확히는 선박 기자재 업체들이 좀 높은 멀티플을 받고 있지 않나... 싶지만
+    아무튼 같은 무리에서 혼자 소외된 상태. 게다가 비교를 위해 나열한 업체들은
+    선체 구조물이나 범용 의장품을 판매한다. 엔진 내부에서 피스톤 운동으로
+    발생하는 고온, 고압, 그리고 거친 마찰을 견뎌야 하는 실린더 라이너의 생산
+    난이도가 그 제품들보다 낮을 리 없다.
+  </p>
+
+  <p>
+    친환경 연료 엔진 도입의 가속화는 자명하다. 올해 검증이 본격화 되는
+    국제해사기구(IMO)의 5,000GT 이상 선박의 온실가스 배출량을 규제하는
+    탄소집약도지수(CII)는 도덕적 권고가 아니라 실질적 제재다. 이제 실린더
+    라이너는 친환경 엔진 안에서 더욱 높은 온도와 압력 그리고 부식성을 견뎌야
+    하므로 기술적 진입장벽은 더욱 견고해질 예정이다.
+  </p>
+
+  <p>
+    높은 시장 지배력에도 케이프가 낮게 평가하는 이유는, 삼성전자가
+    SK하이닉스보다 높은 멀티플을 받는 이유와 마찬가지로 사업 부문이 다각화되어
+    있지 않다는 점 때문일까? 어쨌든 온전히 납득하기 힘든 이 상황을 시장은 조금씩
+    해소하고 있다.
+  </p>
+
+  <p>
+    24년도 종가 기준 현재까지 주가 추이를 보면 인화정공(약 73% 상승),
+    오리엔탈정공(약 60% 상승), 현대힘스(약 57% 상승) 대비 케이프(약 188% 상승)는
+    약 2.5~3.3배 높은 상승률을 기록했다. 최근 한동안 하락횡보 하던 케이프는
+    6거래일 전, 다시 상승하기 시작해 26년 4월 17일 기준 현재 약 48% 상승했다.
+    섹터 내 아웃퍼폼은 여전히 유효했다.
+  </p>
+
+  <p>
+    시장이 불균형을 어느 선까지 해소할지는 모르겠지만, 높은 주가 상승을 단순
+    변동성이 아닌 밸류에이션 재평가로 볼 근거가 있고 최근 가격 추이가 이를
+    증명하므로, 단기 급등 국면에서 차익실현 후 다시 기회를 노리는 전략보다는
+    가만히 보유하는 전략이 매력적으로 느껴진다.
+  </p>
+
+  <p>
+    지금 시장 자체가 최고점이라 추가적인 탄력 둔화가 우려되기도 하지만, 케이프는
+    25년도 기준 배당수익률이 7.04%에 달하는 주주친화적인 기업이다. 현 시점
+    기준으로도 약 5% 정도. 국내 조선 3사가 약 3.5년~4년 치 수주량을 확보한
+    상태로 실적은 당분간 견조할 것이니 시장의 열기가 식더라도 '무너지지만
+    않는다면', 높은 배당 매력에 기대어 일정 수준의 조정까지도 감내할 수 있는
+    구간으로 판단.
+  </p>
+
+  <p class="post-ref">
+    * 참고<br />
+    케이프 사업보고서(2023~2025)<br />
+    네이버 증권
+  </p>
+</div>
 `,zr=s({default:()=>Br}),Br=`<div class="post-meta">
-	<meta name="post-id" content="15" />
-	<meta name="post-title" content="식히는 사업, 식지 않은 의문" />
-	<meta name="post-published" content="2026-06-20T11:41" />
-	<meta name="post-tags" content="주식, SNT에너지" />
+  <meta name="post-id" content="14" />
+  <meta name="post-title" content="시간이 쓸어내린 먼지" />
+  <meta name="post-published" content="2026-06-08T20:03" />
+  <meta name="post-tags" content="성난 군중으로부터 멀리" />
 </div>
 
 <div class="post-content">
-<p>
-AFC<span class="post-sub">(Air Fin Cooler)</span>는 화공플랜트에서 나오는 고온의 유체를 물이 아닌 공기로 식히는 장치로써, 산업 용수 공급에 어려움이 있는 중동에서 주로 쓰인다.
-</p>
+  <p>
+    부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고
+    자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.
+  </p>
 
-<p>
-2025년 사업보고서 기준, SNT에너지는 AFC 매출 비중이 81.8%를 차지한다. 24년도까지 매출액은 3천억 원을 넘지 못했는데 25년도부터 두 배 이상 증가해 6천억 원대를 유지하고 있다. 현재 멀티플 약 7배 선에서 거래되고 있는데, LS증권에서 26년 1월 30일에 발행한 SNT에너지 리포트에 쓰인 SNT에너지 글로벌 peers PER 20X와 비교하면 터무니 없이 낮다.
-</p>
+  <figure>
+    <img
+      src="/assets/musings/culture/14/poster.jpg"
+      alt="성난 군중으로부터 멀리"
+      width="500"
+    />
+    <figcaption>출처: 폭스 서치라이트 픽처스</figcaption>
+  </figure>
 
-<p>
-SNT에너지의 사우디아라비아 현지법인 SNT걸프는 2022년 사우디 아람코와 AFC 장기조달계약(CPA)을 체결했다. CPA는 아람코와 아람코 합작·자회사가 추진하는 프로젝트에서 SNT에너지의 AFC가 우선적으로 채택되도록 하는 장기 공급 자격을 부여하는 계약으로, 개별 수주가 일회성으로 끝나지 않고 향후 발주되는 프로젝트들로 이어질 수 있는 기반이 된다. 2025년 실적은 해당 계약의 영향이 본격적으로 반영된 결과로 보인다. 그 기간 주가는 폭발적으로 올랐지만 멀티플은 전과 같았다. 시장은 당시 단일 고객에게 의존한 SNT에너지의 성장을 지속 가능하다고 보지 않았다.
-</p>
+  <p>
+    양을 몰던 가브리엘은 우연히 숲에서 말을 타는 한 여자를 보게 된다. 여자는 말
+    위에서 대담하게 몸을 뒤로 젖힌 채 나뭇가지 사이를 지나가고 있었다. 여자가
+    그곳을 빠져나오며 몸을 일으키던 순간, 매고 있던 스카프가 나뭇가지에 걸린다.
+  </p>
 
-<p>
-핵심 상품의 한계도 명확하다. 공랭식은 수냉식보다 초기 설치비가 더 들고, 열교환 효율이 낮다. 물이 풍부한 지역에서는 공랭식을 채택할 이유가 적다. 또한 교체주기가 3, 40년에 이르는 내구재로 A/S 매출을 기대하기도 어렵다. 매출이 일회성이지 않기 위해서는 신규 플랜트 capex 투자가 꾸준히 이어져야 한다.
-</p>
+  <p>
+    어렸을 적 부모님을 잃은 에버딘은 혼자가 익숙했다. 가브리엘이 잃어버린 자신의
+    스카프를 건네며 청혼했을 때, 에버딘은 선뜻 대답하지 못했다. 가브리엘은
+    100에이커 농장에서 양 200마리를 키우는 건실한 사내였다. 빚을 다 갚고 나면
+    농장은 우리의 것이 될 테고, 그러면 편하게 취미를 즐기며 지내도 좋다고 했다.
+    그러나 그 말은 독립심 강한 에버딘을 망설이게 만든다.
+  </p>
 
-<p>
-최근 늘고 있는 미국향 매출은 주목할 만하다. 2025년 1월 트럼프 행정부가 들어서면서 바이든 정부 시절 묶여 있던 LNG 수출 허가가 재개됐고, 그 직후 SNT에너지는 벡텔을 통해 미국 루이지애나·텍사스 LNG 수출 터미널에 AFC를 공급하는 계약을 잇따라 체결했다. 러시아-우크라이나 전쟁 이후 유럽을 비롯한 여러 국가가 러시아산 가스 의존도를 낮추려는 흐름이 있어 이는 정책에 따른 일회성 수혜가 아닌 추세에 가깝다고 보여진다.
-</p>
+  <p>
+    그날 밤,가브리엘의 양치기 개는 실수로 양들을 모두 절벽으로 내몬다. 양을 잃은
+    가브리엘은 파산하게 되고, 새로운 일자리를 찾아 떠나는 신세가 된다. 일할
+    사람을 구한다는 소문을 듣고 가브리엘은 웨더버리 농장을 찾는다. 밤중에 도착한
+    그곳은 불길에 휩싸여 있었다. 가브리엘은 불길이 더 번지기 전에 헛간 위로
+    올라가 지붕을 내리쳤다. 밤새 진화 작업을 마치고 얼굴이 까맣게 탄 가브리엘
+    앞에 선 것은 말끔한 차림의 에버딘이었다. 에버딘은 삼촌에게 농장을 물려받아
+    이곳의 새 주인이 되어있었다. 둘의 처지는 이전과 달랐고, 가브리엘은 더 이상
+    에버딘을 욕심낼 수 없었다.
+  </p>
 
-<p>
-다만 이 흐름이 사우디 아람코 때만큼 가파른 성장으로 이어질지는 다른 문제다. 신규 프로젝트가 FID(최종투자결정)를 거쳐 실제 매출로 인식되기까지 통상 수년이 걸리고, 정권에 따라 허가 속도가 빨라지거나 느려질 수 있어 단기간에 폭발적으로 늘어나기보다는 완만하게 쌓여가는 그림에 가까울 것으로 보인다.
-</p>
+  <p>
+    가브리엘은 에버딘 밑에서 일을 시작했다. 불길에 농장이 잿더미가 되는 것을
+    막고, 클로버 잎을 먹고 죽어가는 양들을 살리고, 폭풍으로부터 수확물을
+    지켜냈지만, 에버딘은 그런 성실함 대신 화려함에 유혹된다. 붉은 군복을 입고
+    날카로운 칼을 휘둘러 손쉽게 에버딘의 마음을 사로잡아버린 사내를 보면서도,
+    가브리엘은 여전히 성실하게 신뢰할 수 있는 사람으로 남으려 한다.
+  </p>
 
-<p>
-추세로 볼 만한 변화가 하나 더 있다. AI 데이터센터발 전력 수요 증가로 LNG 발전소 건설이 늘어나는 흐름인데, 이는 SNT에너지의 매출 비중 16.7%로 두 번째로 큰 파이를 차지하는 HRSG<span class="post-sub">(Heat Recovery Steam Generator)</span>와 맞닿아 있다.
-</p>
-
-<p>
-최근 새로 짓는 가스 발전소는 대부분 복합화력 방식이다. 가스터빈으로 1차 발전을 하고, 거기서 나오는 고온의 배기가스를 그냥 버리지 않고 HRSG로 회수해 증기를 만들어 증기터빈을 한 번 더 돌리는 구조다. 같은 연료로 전기를 두 번 만드는 셈이라 효율이 단순 화력발전보다 훨씬 높다. 결국 발전소가 어디에 지어지든 HRSG는 필수로 따라붙는 설비이고, 데이터센터 인근에 LNG 발전소가 늘어나는 흐름이 이어진다면 SNT에너지가 가져갈 몫도 같이 늘어날 여지가 있다.
-</p>
-
-<p>
-HRSG가 AFC만큼 성장할 수 있을까. 화공플랜트 하나에는 통상 수백 대 단위로 AFC가 들어가는 반면, 발전소는 1기당 HRSG가 한두 대 들어가는 구조로 알려져 있어 절대적인 물량 자체가 다를 가능성이 크다. 추정치를 보면 그 차이가 드러난다. 같은 리포트에 따르면 HRSG 및 기타 매출은 2026년 16.3%, 2027년 6.1% 성장에 그칠 것으로 추정되는데, 이는 AFC가 아람코향 매출 반영 첫해(2025년)에 두 배 이상 뛰었던 것과는 다른 속도다. 결국 HRSG가 AFC를 대체할 두 번째 성장축이 되기보다는, AFC 사이클이 주춤할 때를 보완해주는 정도의 역할에 그칠 가능성이 더 커 보인다.
-</p>
-
-<p>
-갈래는 여럿이지만 같은 질문으로 수렴한다. AFC를 먹여 살리는 중동과 미국의 가스 인프라 투자, 그리고 보조축인 HRSG까지, 이 모든 성장이 구조적으로 이어지느냐다. 사우디 쪽은 이미 수주잔고로 잡힌 프로젝트들의 가시성은 높지만, 2030년 가스 확장 전략에 맞춰진 투자 사이클인 만큼 그 이후에도 비슷한 속도의 신규 발주가 이어질지는 알 수 없다. 미국 쪽은 산업 자체는 10년 가까이 커온 흐름이지만, SNT에너지 입장에서는 2023년 진출 이후 이제 막 매출이 쌓이기 시작한 단계라 속도와 규모를 더 지켜봐야 한다. 더디게 보이는 HRSG 역시 AI발 전력 수요가 예상보다 가파르게 현실화된다면 추정치를 웃도는 변수가 될 수 있다. 결국 지금의 정보로는 이 낮은 멀티플이 기회라고 판단하기 어려웠다.
-</p>
-
-<p class="post-ref">
-* 참조 <br />
-SNT에너지 사업보고서(2025) <br />
-LS증권, 김세련, "SNT에너지(100840) LNG의 파도, 높아지는 파고" (2026.01.30)<br />
-한국무역협회(KITA),
-<a href="https://www.kita.net/board/totalTradeNews/totalTradeNewsDetail.do?no=89180&siteId=2"
-target="_blank">
-"美 LNG 수출 재개에 가스公, 수입 안정화·실적개선 기대감↑" (2025.01.24)</a><br />
-</p>
+  <p>
+    변덕스러운 세상에 비웃음 당할 때, 우리는 시간에 기댈 수 있다. 흐르는 시간
+    안에서 일상은 반복되고, 반복은 끝끝내 포장을 벗겨내어 그 본질을 드러낸다.
+    주인이 된 에버딘을 가질 수 있을 거라 생각하지 않지만, 자신의 처지가
+    언제까지나 이렇지는 않을 거라는 가브리엘의 말은, 선언이나 위협이 아닌
+    스스로에게 건네는 다짐이었다. 눈에 띄지 않아도 언제나 그 자리를 지킨 손들을
+    비로소 에버딘이 알아본 것은, 극적인 어느 순간이 아니라 반복된 일상의
+    나날들이 쌓인 결과였다. 시간은 그렇게 조금씩 먼지를 쓸어내린다. 그리고
+    마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.
+  </p>
 </div>
-`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">\r
-	<meta name="post-id" content="18" />\r
-	<meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />\r
-	<meta name="post-published" content="2026-06-29T16:43" />\r
-	<meta name="post-tags" content="주식, 에스투더블유" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/journals/investment/18/chart.png"\r
-			alt="에스투더블유 차트"\r
-			width="400"\r
-		/>\r
-		<figcaption>출처: 네이버 증권</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		에스투더블유(S2W)는 멀티도메인 교차분석 기술을 통해 데이터를 의미 기반으로\r
-		연결하고 통합적으로 분석하여 맞춤형 인텔리전스를 제공한다.\r
-	</p>\r
-\r
-	<p>\r
-		에스투더블유의 주요 상품으로는 기업용 사이버 위협 분석 플랫폼\r
-		'퀘이사(QUAXAR)'와 기관용 빅데이터 분석 플랫폼 '자비스(XARVIS)', 그리고\r
-		산업특화 생성형 AI 플랫폼 '에스에이아이피(SAIP)'가 있다.\r
-	</p>\r
-\r
-	<p>\r
-		26년 5월 14일 공시된 분기보고서 기준, 퀘이사(55.15%)와 자비스(40.5%)는\r
-		사실상 에스투더블유의 매출 전부를 구성한다. 두 제품 모두 다크웹·텔레그램 등\r
-		히든 채널에서 데이터를 자동 수집해 위협의 정황을 분석한다. 차이는 타깃인데,\r
-		퀘이사는 민간 기업의 외부 위협 모니터링에, 자비스는 수사·안보기관을 위한\r
-		도구로 범죄자를 특정하고 추적하는 데 쓰인다. 자비스에는 자체 개발한 다크웹\r
-		전용 언어모델 DarkBERT 기반의 DarkCHAT이 탑재돼 있어, 수사관이 자연어\r
-		질의만으로 방대한 범죄 데이터를 검색하고 조사할 수 있다. 인터폴 민관협력\r
-		프로그램 '게이트웨이 이니셔티브'의 국내 최초 파트너사로, 일본 내각, 대만\r
-		증권거래소, 싱가포르·인도네시아·사우디아라비아 정부기관을 고객으로 확보하고\r
-		있다.\r
-	</p>\r
-\r
-	<p>\r
-		에스투더블유는 퀘이사와 자비스를 운영하며 쌓아온 도메인 특화 AI 분석\r
-		노하우를 기반으로 산업특화 빅데이터 분석 플랫폼(SAIP)을 출시하며 철강, 유통\r
-		분야 우수한 레퍼런스를 빠르게 확보한 뒤, 금융/보험, 공공 등 적용 산업을\r
-		확대해 나가고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		에스에이아이피가 적용된 사례로 현대제철의 HIP와 롯데멤버스의 세그먼트랩이\r
-		있다. HIP는 사내 문서 검색 효율화와 전문가 수준의 지식정보 활용을 지원하고,\r
-		세그먼트랩은 소비 데이터와 외부 뉴스를 결합해 트렌드 분석과 예측을\r
-		자동화한다.\r
-	</p>\r
-\r
-	<p>\r
-		네이버 증권으로 확인한 컨센서스는 희망적이다. 26년 흑자전환을 시작으로 이후\r
-		실적 개선 흐름이 가파르게 그려진다. SaaS 기반 구조 특성상 손익분기점을\r
-		넘기면 이익 레버리지가 크게 나타나고, 퀘이사와 자비스의 고객 유지율이 100%에\r
-		가깝다는 점이 근거로 보인다. AI 발달로 사이버 공격이 고도화될수록 두 제품은\r
-		빛을 발할 것으로 기대된다. 더불어 에스투더블유의 성장을 본격적으로 가속화하기\r
-		위해서는, 사이버 보안 노하우를 범용 산업 데이터로 확장해줄\r
-		에스에이아이피(SAIP)의 역할이 무엇보다 중요해 보인다.\r
-	</p>\r
-\r
-	<p>\r
-		현대제철·롯데멤버스 납품이 지속적인 계약으로 이어지는지, 또 금융·보험 등으로\r
-		적용 산업이 확장되는지 확인이 필요할 것 같다.\r
-	</p>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		<a href="s2w.inc/ko" target="_blank"> 에스투더블유 (s2w.inc/ko)</a><br />\r
-		에스투더블유 분기보고서 (2026.05.14)<br />\r
-		네이버 증권,\r
-		<a\r
-			href="https://finance.naver.com/item/coinfo.naver?code=488280"\r
-			target="_blank"\r
-		>\r
-			에스투더블유(488280)</a\r
-		><br />\r
-		신한투자증권 최승환, "바겐세일" (2026.04.09)\r
-	</p>\r
-</div>\r
-`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">\r
-	<meta name="post-id" content="29" />\r
-	<meta name="post-title" content="목표비중은 왜 올랐나" />\r
-	<meta name="post-published" content="2026-07-31T12:55" />\r
-	<meta name="post-tags" content="주식, 연기금" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/journals/investment/29/chart.png"\r
-			alt="코스피 차트"\r
-			width="400"\r
-		/>\r
-		<figcaption>출처: 네이버 증권</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		26년 7월, 코스피가 한 달 만에 28% 넘게 빠졌다. 국민연금이 정부 압력 때문에\r
-		제때 팔지 않아 손실을 키웠다는 비판이 거세다.\r
-	</p>\r
-\r
-	<p>\r
-		선을 긋자면, 정부의 증시 정책이나 최근 보이는 대응 방식을 옹호하고 싶지\r
-		않다. 그쪽은 그쪽대로 따질 지점이 있다. 다만 쉽게 동의하기 힘든 것은\r
-		국민연금이 노후자금을 동원해 그간 주가를 떠받쳤다는 주장이다. 매매 기록으로\r
-		확인되는 사실 관계라 한국거래소 정보데이터시스템에서 투자자별 거래실적을\r
-		받아 확인해봤다.\r
-	</p>\r
-\r
-	<p>\r
-		확인된 사실은 다음과 같다. 2025년 6월 2일부터 2026년 6월 말까지 13개월간\r
-		연기금은 코스피에서 11조2782억 원을 순매도했다. 이 가운데 8조7326억 원이\r
-		주가가 탄력을 받기 시작한 2026년 상반기에 나왔다. 지수가 4224에서 6224로\r
-		오른 1~2월에 2조5728억 원, 6165에서 5052로 밀린 3월에 7648억 원, 5330에서\r
-		8476까지 뛴 4~5월에 3조579억 원을 팔았다. 6월은 오르내림이 있었으나 종가\r
-		기준으로 8476에서 시작해 8476으로 끝났다. 지수가 제자리인 그 한 달에도\r
-		2조3371억 원이 나왔다.\r
-	</p>\r
-\r
-	<p>\r
-		그럼에도 같은 기간 코스피가 2692에서 8476으로 3.1배가 되었기 때문에 연기금의\r
-		국내주식 보유비중은 오히려 늘었다. 지수가 세 배 오르는 그 속도에 매도를\r
-		맞추라는 건 현실적이지 않다.\r
-	</p>\r
-\r
-	<p>\r
-		목표비중은 두 차례 움직였다. 2025년에 세운 2026년 기금운용계획의 국내주식\r
-		목표비중은 14.4%였다. 2026년 1월 26일 제1차 기금운용위원회는 이를 14.9%로\r
-		올리면서, 전략적 자산배분 허용범위를 벗어나도 기계적으로 매도하지 않도록\r
-		리밸런싱을 6월 말까지 한시 유예했다. 1월 초 코스피는 4224다. 5월 28일 제5차\r
-		회의는 14.9%를 20.8%로 올렸다. 이때 코스피는 8476이다. 새 목표비중은 유예가\r
-		끝나는 6월 말부터 적용됐다.\r
-	</p>\r
-\r
-	<p>\r
-		보건복지부는 상법 개정 등에 따른 국내주식 시장의 구조적 변화 가능성을\r
-		언급했다. 목표비중 14.4%는 코리아 디스카운트라는 전제 위에 세워진 것이다.\r
-		2025년 상법 개정으로 이사의 충실의무 대상이 회사에서 주주로 바뀌었고,\r
-		지배구조를 이유로 한국 시장에 매기던 할인이 줄었다는 평가가 안팎에서 나왔다.\r
-		할인 요인이 해소되는 중이라면 할인을 전제로 만든 목표치를 그대로 고수하는\r
-		쪽이 오히려 오류다. 목표비중을 그대로 둔 채 유예만 끝냈다면 수십조 원을 한\r
-		번에 쏟아내야 했다. 그 매도 자체가 가격을 떨어뜨려 수익을 줄일 것이라는\r
-		당시의 판단은 비합리적이지 않다.\r
-	</p>\r
-\r
-	<p>\r
-		목표비중을 올린 시점이 최고점 부근인 것은 안타깝다. 더 일찍 더 많이 덜어냈다면\r
-		좋았겠지만, 그건 우리가 7월을 알고 난 뒤의 판단이다. 5월에는 AI 수요와\r
-		반도체 실적 전망을 근거로 한 낙관이 시장의 공통된 시각이었다.\r
-	</p>\r
-\r
-	<p>\r
-		기록이 말하는 건 단순하다. 연기금은 본격적인 주가 상승기인 26년 상반기에\r
-		매도를 집중했다. 노후자금으로 주가를 떠받쳤다는 그림은 매매 데이터에 없다.\r
-		목표비중을 올린 것은 매수 결정이 아니라, 유예 종료와 함께 쏟아질 물량을\r
-		줄이는 결정이었다.\r
-	</p>\r
-\r
-	<p class="post-ref">\r
-		* 참조 <br />\r
-		한국거래소 정보데이터시스템, 투자자별 거래실적 (코스피,\r
-		2025.06.01~2026.06.30)<br />\r
-		보건복지부, 2026년도 제1차 국민연금기금운용위원회 (2026.01.26)<br />\r
-		보건복지부, 2026년도 제5차 국민연금기금운용위원회 (2026.05.28)<br />\r
-		<a\r
-			href="https://fund.nps.or.kr/oprtprcn/ivsmprcn/getOHED0003M0.do"\r
-			target="_blank"\r
-		>\r
-			국민연금기금운용본부, 자산군별 현황</a\r
-		><br />\r
-		서울경제, "연기금, 5년 만에 月 최대 순매도" (2026.06.24)<br />\r
-		머니투데이, "국민연금 '매도 폭탄' 없었다" (2026.07.28)\r
-	</p>\r
-</div>\r
-`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">\r
-	<meta name="post-id" content="6">\r
-	<meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플">\r
-  <meta name="post-published" content="2026-04-25T19:10">\r
-  <meta name="post-tags" content="주식, 케이프">\r
-</div>\r
-\r
-<div class="post-content">\r
-	<figure>\r
-		<img\r
-			src="/assets/journals/investment/6/chart.png"\r
-			alt="케이프 차트"\r
-			width="400"\r
-		/>\r
-		<figcaption>출처: 네이버 증권</figcaption>\r
-	</figure>\r
-\r
-	<p>\r
-		케이프는 실린더 라이너 한 가지 제품 생산에만 매진한다. 실린더 라이너는\r
-		대형엔진 기준 5~14개가 필요하며, 소모품으로 교환주기는 5 ~7년이다.\r
-	</p>\r
-\r
-	<p>\r
-		현재 국내 3대 엔진 빌더와 중국, 일본, 유럽 엔진 빌더에 신조선용 실린더\r
-		라이너를 공급하고 있고, HD현대마린솔루션를 통하여 세계 A/S시장에도 참여하고\r
-		있다. 최근 결산일 기준 신조선용 실린더 라이너 공급과 A/S 매출 비율은 약\r
-		2:1이다.\r
-	</p>\r
-\r
-	<p>사업보고서를 보면 확인하고 싶어지는 부분이 두 곳 있다.</p>\r
-\r
-	<p>\r
-		첫째는 24년도 케이프가 판매한 실린더 라이너는 전년 대비 약 11%(269개)\r
-		증가했는데, 내수가 9,875백만 원 증가한 것에 비해 전년 대비 달러 원 환율이 약\r
-		60원이나 높았음에도 수출은 12,133백만 원(약 54%!!) 감소한 부분인데, 케이프가\r
-		양산이 아닌 주문생산 방식을 채택하고 있기 때문에 단순히 당시 해외 주문이\r
-		줄었던 걸 수도 있고, 혹은 전략적으로 글로벌 시장을 지배하고 있는 현대중공업\r
-		그룹향 매출 비중을 늘린 것 같기도 한데, 이 부분은 조금 더 확인이 필요해\r
-		보인다. 현대중공업 그룹향 매출 비중은 2023년 34.2%에서 2024년 57.4%로 무려\r
-		23.2%p 폭등했고, 최근 결산일까지도 46.6%로 높게 유지되고 있다. 고객 집중도가\r
-		상승하는 것은 리스크 측면에서 좋지 않을 수 있지만 어쨌거나 현대중공업 그룹향\r
-		매출 비중 증가는 경쟁력이 부족한 것은 아니라는 방증.\r
-	</p>\r
-\r
-	<p>\r
-		둘째는 25년도 케이프가 판매한 실린더 라이너 개수가 1,856개로 전년 대비 약\r
-		32%(878개) 감소한 부분인데, 이는 순환주기에 따른 것으로 24년도 재고 소진 및\r
-		25년도 발주 정상화가 이루어졌다.\r
-	</p>\r
-\r
-	<p>\r
-		최근 결산일 별도 재무제표 기준 케이프의 멀티플은 8.51배다. 상장한 실린더\r
-		라이너 전문 업체가 있다면 비교해 보면 좋겠지만 마땅치가 않다. 아쉬운 대로\r
-		케이프가 속한 선박 기자재 섹터 중에서 비슷한 시가총액을 가진\r
-		인화정공(27.2배), 오리엔탈정공(30.03배), 현대힘스(29.55배)와 비교해 보면\r
-		케이프는 압도적으로 낮은 멀티플을 받고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		정확히는 선박 기자재 업체들이 좀 높은 멀티플을 받고 있지 않나... 싶지만\r
-		아무튼 같은 무리에서 혼자 소외된 상태. 게다가 비교를 위해 나열한 업체들은\r
-		선체 구조물이나 범용 의장품을 판매한다. 엔진 내부에서 피스톤 운동으로\r
-		발생하는 고온, 고압, 그리고 거친 마찰을 견뎌야 하는 실린더 라이너의 생산\r
-		난이도가 그 제품들보다 낮을 리 없다.\r
-	</p>\r
-\r
-	<p>\r
-		친환경 연료 엔진 도입의 가속화는 자명하다. 올해 검증이 본격화 되는\r
-		국제해사기구(IMO)의 5,000GT 이상 선박의 온실가스 배출량을 규제하는\r
-		탄소집약도지수(CII)는 도덕적 권고가 아니라 실질적 제재다. 이제 실린더\r
-		라이너는 친환경 엔진 안에서 더욱 높은 온도와 압력 그리고 부식성을 견뎌야\r
-		하므로 기술적 진입장벽은 더욱 견고해질 예정이다.\r
-	</p>\r
-\r
-	<p>\r
-		높은 시장 지배력에도 케이프가 낮게 평가하는 이유는, 삼성전자가\r
-		SK하이닉스보다 높은 멀티플을 받는 이유와 마찬가지로 사업 부문이 다각화되어\r
-		있지 않다는 점 때문일까? 어쨌든 온전히 납득하기 힘든 이 상황을 시장은 조금씩\r
-		해소하고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		24년도 종가 기준 현재까지 주가 추이를 보면 인화정공(약 73% 상승),\r
-		오리엔탈정공(약 60% 상승), 현대힘스(약 57% 상승) 대비 케이프(약 188% 상승)는\r
-		약 2.5~3.3배 높은 상승률을 기록했다. 최근 한동안 하락횡보 하던 케이프는\r
-		6거래일 전, 다시 상승하기 시작해 26년 4월 17일 기준 현재 약 48% 상승했다.\r
-		섹터 내 아웃퍼폼은 여전히 유효했다.\r
-	</p>\r
-\r
-	<p>\r
-		시장이 불균형을 어느 선까지 해소할지는 모르겠지만, 높은 주가 상승을 단순\r
-		변동성이 아닌 밸류에이션 재평가로 볼 근거가 있고 최근 가격 추이가 이를\r
-		증명하므로, 단기 급등 국면에서 차익실현 후 다시 기회를 노리는 전략보다는\r
-		가만히 보유하는 전략이 매력적으로 느껴진다.\r
-	</p>\r
-\r
-	<p>\r
-		지금 시장 자체가 최고점이라 추가적인 탄력 둔화가 우려되기도 하지만, 케이프는\r
-		25년도 기준 배당수익률이 7.04%에 달하는 주주친화적인 기업이다. 현 시점\r
-		기준으로도 약 5% 정도. 국내 조선 3사가 약 3.5년~4년 치 수주량을 확보한\r
-		상태로 실적은 당분간 견조할 것이니 시장의 열기가 식더라도 '무너지지만\r
-		않는다면', 높은 배당 매력에 기대어 일정 수준의 조정까지도 감내할 수 있는\r
-		구간으로 판단.\r
-	</p>\r
-\r
-	<p class="post-ref">\r
-		* 참고<br />\r
-		케이프 사업보고서(2023~2025)<br />\r
-		네이버 증권\r
-	</p>\r
-</div>\r
-`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">\r
-	<meta name="post-id" content="9" />\r
-	<meta name="post-title" content="AI 투자 단상" />\r
-	<meta name="post-published" content="2026-05-11T19:50" />\r
-	<meta name="post-tags" content="AI" />\r
-</div>\r
-\r
-<div class="post-content">\r
-	<p>\r
-		2026년 1분기 글로벌 클라우드 3사(구글, 마이크로소프트, 아마존)는 전년 동기\r
-		대비 capex를 두 배가량 늘렸다. 1분기 어닝콜에서 구글 CEO Sundar Pichai는\r
-		AI가 검색 사용량 증가를 주도하고 있다고 말했다. 주변을 봐도 AI 사용은 이미\r
-		일상적이다. 그러나 AI가 일상에 자리 잡은 지금까지도 산업의 근본 구조는\r
-		이전과 크게 달라지지 않았다. McKinsey(2025)가 실시한 설문에 따르면 응답자의\r
-		대부분은 소속 조직에서 AI를 사용하고 있지만 기업 수준의 가치를 창출하는 데\r
-		있어서는 여전히 초기 단계에 머물러 있는 것으로 판단했다.\r
-	</p>\r
-\r
-	<p>\r
-		이유를 살펴보면 기술 발전이 아직 무르익지 않아서가 정답일 것 같다. 혁신은\r
-		새로운 시장을 만든다. 자동차는 교외 생활과 관광, 물류 산업을 만들었고,\r
-		인터넷은 전자상거래와 SNS, 스트리밍 서비스를 만들었다. 그리고 스마트폰은 앱\r
-		생태계 자체를 만들었다. 앞선 혁신들이 물리적 인프라나 네트워크 자체를 바꿨던\r
-		것과 달리, AI는 아직 기존 인프라 위에서 작동하는 수준에 머물러 있다. 또한\r
-		강점을 보였던 정보처리 영역에서도 여전히 검증과 신뢰 문제를 안고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		현재 시장은 AI 수요 확산과 AGI에 대한 기대, 그 둘 사이 어딘가를 바라보고\r
-		있는 것 같다. 기대에 맞춰 질적 도약이 필요하다는 점은 분명하다.\r
-	</p>\r
-\r
-	<p>\r
-		현재 LLM을 가능하게 한 스케일링 법칙은, Epoch AI의 분석에 따르면 사전학습\r
-		단계에서 그 효과가 둔화되는 추세이며, 업계의 무게중심은 모델 크기 확장보다\r
-		추론 최적화와 데이터 품질 개선 쪽으로 이동하고 있다. 또한 DeepSeek 출시\r
-		이후를 보면 경량화를 통해 오히려 스케일을 낮추면서 효율화를 꾀하는 흐름이\r
-		나타나고 있다. 기술의 질적 도약에 있어 스케일링 법칙에 집중하지 않는다면\r
-		아키텍처 수준에서의 근본적인 전환이 필요하지만 지금 모델들은 여전히\r
-		트랜스포머 구조 위에 놓여 있다.\r
-	</p>\r
-\r
-	<p>\r
-		기술 발전 방향이 혁신보다 효율화에 집중되고 있는 상황에서, 수익 구조는\r
-		개선되고 있는 것으로 보인다. Stanford HAI의 2025 AI Index Report에 따르면\r
-		GPT-3.5 수준의 성능을 달성하는 추론 비용이 2022년 11월부터 2024년 10월 사이\r
-		280배 이상 하락했다. 또한 주요 AI 기업들은 정액제 중심의 가격 구조를 사용량\r
-		기반으로 조정하기 시작했다. 헤비유저에 대한 사용 제한이나 추가 과금을\r
-		도입하면서 비용을 수요에 맞게 전가하는 방향으로 움직이고 있다.\r
-	</p>\r
-\r
-	<p>\r
-		결국 기술의 질적 도약을 확신할 수 없지만 비용 구조가 개선될 여지가 있다는\r
-		사실은, AI가 인터넷 초기처럼 단기간에 모든 산업을 재편하기보다 기존 산업에\r
-		점진적으로 스며드는 형태로 성장할 가능성을 시사한다. 그렇다면 폭발적\r
-		성장보다 점진적 안착에 가까운 경로를 예상하고 시장에 대응하는 것이\r
-		지금으로선 합리적이지 않을까.\r
-	</p>\r
-\r
-	<p>사실 잘 모르겠다. 치솟는 주가를 보면.</p>\r
-\r
-	<p class="post-ref">\r
-		* 참고<br />\r
-		Alphabet Inc. Form 10-Q (Q1 2026)<br />\r
-		Microsoft Corporation Form 10-Q (Q1 2026)<br />\r
-		Amazon.com, Inc. Form 10-Q (Q1 2026)<br />\r
-\r
-		Stanford HAI,\r
-		<a\r
-			href="https://hai.stanford.edu/ai-index/2025-ai-index-report"\r
-			target="_blank"\r
-			>2025 AI Index Report</a\r
-		><br />\r
-\r
-		McKinsey Global Institute,\r
-		<a\r
-			href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"\r
-			target="_blank"\r
-			>The State of AI</a\r
-		><br />\r
-\r
-		EPOCH AI,\r
-		<a\r
-			href="https://epoch.ai/blog/scaling-laws-literature-review"\r
-			target="_blank"\r
-			>Scaling Laws Literature Review</a\r
-		>\r
-	</p>\r
-</div>\r
-`;function Yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Xr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/essays/culture/11/index.html":lr,"../content/essays/culture/14/index.html":dr,"../content/essays/culture/17/index.html":pr,"../content/essays/culture/2/index.html":hr,"../content/essays/culture/27/index.html":_r,"../content/essays/culture/8/index.html":yr,"../content/essays/daily/0/index.html":xr,"../content/essays/daily/23/index.html":Cr,"../content/essays/daily/24/index.html":Tr,"../content/essays/daily/25/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/28/index.html":jr,"../content/journals/development/3/index.html":Nr,"../content/journals/investment/10/index.html":Fr,"../content/journals/investment/13/index.html":Lr,"../content/journals/investment/15/index.html":zr,"../content/journals/investment/18/index.html":Vr,"../content/journals/investment/29/index.html":Ur,"../content/journals/investment/6/index.html":Gr,"../content/journals/investment/9/index.html":qr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Zr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`essays`,displayName:`에세이`,boards:[{id:`daily`,displayName:`일상`},{id:`culture`,displayName:`문화`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`growth`,displayName:`자기계발`},{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Zr.common?.siteName;function Qr(e){e.innerHTML=Zr.navigation.map(e=>`
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
+  <meta name="post-id" content="27" />
+  <meta name="post-title" content="시간의 밀도" />
+  <meta name="post-published" content="2026-07-17T05:53" />
+  <meta name="post-tags" content="콜드 마운틴" />
+</div>
+
+<div class="post-content">
+  <p>
+    이곳을 목적지로 두지 않은, 여기서 살 생각이 없는 이들은 무너뜨릴 수 없다.
+    그들은 무너질 자리를 다른 곳에 둔 것이다. 생의 한순간을 붙들고 사는 것은
+    다른 시간을 견디게 한다.
+  </p>
+
+  <!-- <figure>
+		<img
+			src="/assets/musings/culture/27/poster.jpg"
+			alt="콜드 마운틴"
+			width="200"
+		/>
+		<figcaption>출처: 미라맥스</figcaption>
+	</figure> -->
+
+  <p>
+    미국 남북전쟁의 발발로 인만과 에이다의 만남은 그 시작만 남긴 채 끝이 났다.
+    둘의 대화는 글자수로 셀 수 있을 만큼 적었다.
+  </p>
+
+  <p>
+    둘은 4년이 지나고 재회한다. 눈 덮인 길 위에 서서 그렇게 그리던 에이다를
+    바라보는 인만의 공허한 눈빛을 나는 평생 잊지 못할 것 같다. 인만은
+    에이다에게, 자신이 어떤 어두운 곳으로 미끄러지지 않게 당신이 지켜주었다고
+    고백했다. 몇 번 만나지도 않은 자신이 어떻게 그럴 수 있느냐는 에이다의
+    물음에는 수천 번이었다고 답한다. 현실인지 상상인지는 중요하지 않았다고 했다.
+    그날 밤 둘은 둘만의 결혼식을 치렀다.
+  </p>
+
+  <blockquote class="post-quotation">
+    "I lost your mother after twenty-two months of marriage. It was enough to
+    fill a life."
+  </blockquote>
+</div>
+`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
+  <meta name="post-id" content="23" />
+  <meta name="post-title" content="새벽" />
+  <meta name="post-published" content="2026-07-04T07:28" />
+  <meta name="post-tags" content="인상" />
+</div>
+
+<div class="post-content">
+  <p>간밤에 비가 왔었는지 아직 세상이 젖어있던 새벽, 편의점 가는 길.</p>
+
+  <p>수백 미터 앞 사거리에 신호를 기다리는 사람이 있었다.</p>
+
+  <p>애매한 길이에 색이 바랜 장화, 짙은 검정으로 형태를 구분할 수 없는 바지.</p>
+
+  <p>
+    방금 세탁한 것 같은, 깨끗하지만 주름진 흰색 셔츠는 폭이 넓고 허리 아래까지
+    내려온다.
+  </p>
+
+  <p>길고 짙은 노란색의 머리칼, 그리고 작은 얼굴.</p>
+
+  <p>그 자체로 한 폭의 고전 미술처럼 보였다.</p>
+
+  <p>
+    집에 돌아오니 틀어놓고 간 유튜브 뮤직에서는 Judas Priest의 Before the Dawn이
+    흘러나오고 있었다.
+  </p>
+
+  <p>미학적인 새벽이었다.</p>
+</div>
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
+  <meta name="post-id" content="24" />
+  <meta name="post-title" content="손톱" />
+  <meta name="post-published" content="2026-07-04T08:42" />
+  <meta name="post-tags" content="인상" />
+</div>
+
+<div class="post-content">
+  <p>
+    바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을
+    것 같다.
+  </p>
+
+  <p>
+    가느다란 눈매와 얇은 입술을 지나, 짓는 표정과 웃는 모습으로 번져 끝내 그녀의
+    모든 것이 좋아진다.
+  </p>
+</div>
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
+  <meta name="post-id" content="25" />
+  <meta name="post-title" content="흰 티" />
+  <meta name="post-published" content="2026-07-05T12:32" />
+  <meta name="post-tags" content="취향" />
+</div>
+
+<div class="post-content">
+  <p>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</p>
+</div>
+`;function Yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Xr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/investment/13/index.html":pr,"../content/columns/investment/29/index.html":hr,"../content/columns/investment/9/index.html":_r,"../content/essays/culture/17/index.html":yr,"../content/essays/culture/8/index.html":xr,"../content/essays/daily/0/index.html":Cr,"../content/journals/development/1/index.html":Tr,"../content/journals/development/28/index.html":Dr,"../content/journals/development/3/index.html":kr,"../content/journals/investment/10/index.html":jr,"../content/journals/investment/15/index.html":Nr,"../content/journals/investment/18/index.html":Fr,"../content/journals/investment/6/index.html":Lr,"../content/musings/culture/14/index.html":zr,"../content/musings/culture/27/index.html":Vr,"../content/musings/daily/23/index.html":Ur,"../content/musings/daily/24/index.html":Gr,"../content/musings/daily/25/index.html":qr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Zr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Zr.common?.siteName;function Qr(e){e.innerHTML=Zr.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
 					<h2 class="category-title">${$r()} ${e.displayName}</h2>
 					<ul class="board-list">

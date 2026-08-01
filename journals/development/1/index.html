@@ -1,200 +1,264 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<!-- Google Tag Manager -->
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-				var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s),
-					dl = l != "dataLayer" ? "&l=" + l : "";
-				j.async = true;
-				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-				f.parentNode.insertBefore(j, f);
-			})(window, document, "script", "dataLayer", "GTM-NLCK842B");
-		</script>
-		<!-- End Google Tag Manager -->
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NLCK842B");
+    </script>
+    <!-- End Google Tag Manager -->
 
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계 - 닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-CdMrPkcB.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
-	
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계 - 닫힌 파편</title>
+    <script type="module" crossorigin src="/assets/index-Ysvo0Pbt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BOpklQhw.css">
+  
     <link rel="canonical" href="https://tarenx.com/journals/development/1/" />
-    <meta name="description" content="이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를 들면," />
+    <meta name="description" content="이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를
+    들면," />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tarenx.com/journals/development/1/" />
     <meta property="og:title" content="전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계" />
-    <meta property="og:description" content="이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를 들면," />
+    <meta property="og:description" content="이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를
+    들면," />
     <meta property="article:published_time" content="2026-03-23T19:41" />
 </head>
-	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript
-			><iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-NLCK842B"
-				height="0"
-				width="0"
-				style="display: none; visibility: hidden"
-			></iframe
-		></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NLCK842B"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-		<header id="site-header">
-			<h1>
-				<a href="/">
-					<svg
-						width="512"
-						height="512"
-						viewBox="0 0 48 48"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<polygon
-							points="24,6 36,20 28,42 14,36 10,18"
-							fill="none"
-							stroke="#222"
-							stroke-width="1"
-							stroke-linejoin="round"
-							opacity="0.85"
-						/>
-						<polygon
-							points="24,12 34,22 26,38 16,32 14,20"
-							fill="none"
-							stroke="#222"
-							stroke-width="0.6"
-							stroke-linejoin="round"
-							opacity="0.3"
-						/>
-						<polygon
-							points="24,18 30,26 24,34 18,28 20,20"
-							fill="none"
-							stroke="#222"
-							stroke-width="0.4"
-							stroke-linejoin="round"
-							opacity="0.18"
-						/>
-					</svg>
-					<span class="sr-only">닫힌 파편</span>
-				</a>
-			</h1>
-		</header>
-		<main class="nav-closed">
-			<nav id="main-nav">
-				<div id="content-tree"></div>
-				<hr class="divider" />
-				<div id="link">
-					<ul>
-						<li>
-							<a
-								href="https://github.com/taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-										d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
-									/>
-								</svg>
-								<span>Github</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.threads.com/@taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-										d="M20,8 C19,3.66666667 16.1666667,1.5 11.5,1.5 C5.5,1.5 3,5.5 3,11.5 C3,17.5 6,21.5 11.5,21.5 C17,21.5 19,18 19,15.5 C19,13 17,10.5 12.5,10.5 C10,10.5 8.5,12 8.5,13.5 C8.5,15 10,16 12,16 C14,16 15.5,14 15.5,11.5 C15.5,9 14.5,6.5 12,6.5 C10.3333333,6.5 9.16666667,7.16666667 8.5,8.5"
-									/>
-								</svg>
-								<span>Thread</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://medium.com/@taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path d="M4 6l6 12l6-12" />
-									<path d="M4 6v12" />
-									<path d="M16 6v12" />
-								</svg>
-								<span>Medium</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<section id="main-section">
-				<button id="main-nav-toggle" aria-label="내비게이션 열기">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="svg-close"
-						viewBox="0 0 24 24"
-						width="16"
-						height="16"
-					>
-						<path
-							d="M6 6L18 18M18 6L6 18"
-							stroke="black"
-							stroke-width="2"
-							stroke-linecap="round"
-						/>
-					</svg>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="svg-menu"
-						viewBox="0 0 24 24"
-						width="16"
-						height="16"
-					>
-						<path
-							d="M4 6H20M4 12H20M4 18H20"
-							stroke="black"
-							stroke-width="2"
-							stroke-linecap="round"
-						/>
-					</svg>
-				</button>
-				<div id="content-container">
+    <header id="site-header">
+      <h1>
+        <a href="/">
+          <svg
+            width="512"
+            height="512"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon
+              points="24,6 36,20 28,42 14,36 10,18"
+              fill="none"
+              stroke="#222"
+              stroke-width="1"
+              stroke-linejoin="round"
+              opacity="0.85"
+            />
+            <polygon
+              points="24,12 34,22 26,38 16,32 14,20"
+              fill="none"
+              stroke="#222"
+              stroke-width="0.6"
+              stroke-linejoin="round"
+              opacity="0.3"
+            />
+            <polygon
+              points="24,18 30,26 24,34 18,28 20,20"
+              fill="none"
+              stroke="#222"
+              stroke-width="0.4"
+              stroke-linejoin="round"
+              opacity="0.18"
+            />
+          </svg>
+          <span class="sr-only">닫힌 파편</span>
+        </a>
+      </h1>
+    </header>
+    <main class="nav-closed">
+      <nav id="main-nav">
+        <div id="content-tree"></div>
+        <hr class="divider" />
+        <div id="link">
+          <ul class="link-group">
+            <li>
+              <a
+                href="https://tools.tarenx.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+                <span>Tools</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://games.tarenx.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <g
+                    transform="translate(12 12) scale(0.85) translate(-16 -17)"
+                  >
+                    <path
+                      d="M10.5 10h11a5.5 5.5 0 0 1 5.4 6.6l-1 5a3.2 3.2 0 0 1-5.5 1.5L18 20.5h-4l-2.4 2.6a3.2 3.2 0 0 1-5.5-1.5l-1-5A5.5 5.5 0 0 1 10.5 10Z"
+                      vector-effect="non-scaling-stroke"
+                    />
+                    <path
+                      d="M11.5 13.5v4M9.5 15.5h4"
+                      vector-effect="non-scaling-stroke"
+                    />
+                    <circle cx="20.5" cy="14.5" r="1.2" fill="currentColor" />
+                    <circle cx="23.5" cy="16.5" r="1.2" fill="currentColor" />
+                  </g>
+                </svg>
+                <span>Games</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="link-group">
+            <li>
+              <a
+                href="https://github.com/taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
+                  />
+                </svg>
+                <span>Github</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.threads.com/@taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M20,8 C19,3.66666667 16.1666667,1.5 11.5,1.5 C5.5,1.5 3,5.5 3,11.5 C3,17.5 6,21.5 11.5,21.5 C17,21.5 19,18 19,15.5 C19,13 17,10.5 12.5,10.5 C10,10.5 8.5,12 8.5,13.5 C8.5,15 10,16 12,16 C14,16 15.5,14 15.5,11.5 C15.5,9 14.5,6.5 12,6.5 C10.3333333,6.5 9.16666667,7.16666667 8.5,8.5"
+                  />
+                </svg>
+                <span>Thread</span>
+              </a>
+            </li>
+            <!-- Medium:
+            <li>
+              <a
+                href="https://medium.com/@taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 6l6 12l6-12" />
+                  <path d="M4 6v12" />
+                  <path d="M16 6v12" />
+                </svg>
+                <span>Medium</span>
+              </a>
+            </li>
+            -->
+          </ul>
+        </div>
+      </nav>
+      <section id="main-section">
+        <button id="main-nav-toggle" aria-label="내비게이션 열기">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-close"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path
+              d="M6 6L18 18M18 6L6 18"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-menu"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <div id="content-container">
 
     <article class="post-detail">
       <header class="post-header">
@@ -207,20 +271,23 @@
 
 			<div class="post-body">
         <div class="post-content">
-	<p>이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를 들면,</p>
+  <p>
+    이벤트 발생 시, 현재 상태에 따라 처리가 분기되어야 하는 상황이 있었다. 예를
+    들면,
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		type AppEvent = &quot;claimPromotionItem&quot;
 		type UserRole = &quot;admin&quot; | &quot;member&quot; | &quot;guest&quot;
 		type ServicePlan = &quot;premium&quot; | &quot;free&quot;
 	</code></pre>
 
-	<p>
-		이벤트, 역할, 플랜으로 상태를 나누고, 이벤트 발생 시 유저의 역할과 이용 중인
-		플랜에 따라 처리를 분기하기 위한 핸들러를 정의해서,
-	</p>
+  <p>
+    이벤트, 역할, 플랜으로 상태를 나누고, 이벤트 발생 시 유저의 역할과 이용 중인
+    플랜에 따라 처리를 분기하기 위한 핸들러를 정의해서,
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		const handler = {
 			claimPromotionItem: {
 				admin: {
@@ -237,13 +304,13 @@
 		}
 	</code></pre>
 
-	<p>
-		handler["claimPromotionItem"]["member"]["free"](1, "더 좋은 서비스로 이동")
-		이런 식으로 쓰려고 하는 상황. 우선 실제 서비스에서 저렇게 하드코딩 할 일은 없고
-		참조로 가져오게 될 텐데,
-	</p>
+  <p>
+    handler["claimPromotionItem"]["member"]["free"](1, "더 좋은 서비스로 이동")
+    이런 식으로 쓰려고 하는 상황. 우선 실제 서비스에서 저렇게 하드코딩 할 일은
+    없고 참조로 가져오게 될 텐데,
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		function getRoleStatusAfterComplecatedLogic(): UserRole {
 			return &quot;member&quot;
 		}
@@ -256,29 +323,29 @@
 		handler[&quot;claimPromotionItem&quot;][r][p](1, &quot;더 좋은 서비스로 이동&quot;)
 	</code></pre>
 
-	<p>그러다보면 타입스크립트가 에러를 던진다.</p>
+  <p>그러다보면 타입스크립트가 에러를 던진다.</p>
 
-	<p>
-		Element implicitly has an 'any' type because expression of type 'string'
-		can't be used to index type '{ admin: { default: () => void; }; member: {
-		premium: (postId: number) => void; free: (postId: number, reason: string) =>
-		void; }; guest: { default: () => void; }; }'. No index signature with a
-		parameter of type 'string' was found on type '{ admin: { default: () =>
-		void; }; member: { premium: (postId: number) => void; free: (postId: number,
-		reason: string) => void; }; guest: { default: () => void; }; }'.
-	</p>
+  <p>
+    Element implicitly has an 'any' type because expression of type 'string'
+    can't be used to index type '{ admin: { default: () => void; }; member: {
+    premium: (postId: number) => void; free: (postId: number, reason: string) =>
+    void; }; guest: { default: () => void; }; }'. No index signature with a
+    parameter of type 'string' was found on type '{ admin: { default: () =>
+    void; }; member: { premium: (postId: number) => void; free: (postId: number,
+    reason: string) => void; }; guest: { default: () => void; }; }'.
+  </p>
 
-	<p>
-		각 이벤트마다 모든 역할, 그리고 그 역할마다 또 모든 플랜을 모두 정의하면 저
-		에러는 사라지지만 당연히 그건 말도 안 된다. 필요한 것만 정의할 수 있어야
-		한다. 또 특정 이벤트는 특정 역할만 처리하거나 특정 역할만 다른 로직으로
-		처리하고 나머지 역할은 모두 같은 로직으로 처리하고 싶다. 일단 핸들러부터
-		타입을 명시해 보았다. 모든 타입이 아닌 필요한 것만 정의할 수 있도록 하는
-		방법으로 Partial을 사용하고 후에 공통로직을 위해 OR 연산으로 default를
-		넣었다.
-	</p>
+  <p>
+    각 이벤트마다 모든 역할, 그리고 그 역할마다 또 모든 플랜을 모두 정의하면 저
+    에러는 사라지지만 당연히 그건 말도 안 된다. 필요한 것만 정의할 수 있어야
+    한다. 또 특정 이벤트는 특정 역할만 처리하거나 특정 역할만 다른 로직으로
+    처리하고 나머지 역할은 모두 같은 로직으로 처리하고 싶다. 일단 핸들러부터
+    타입을 명시해 보았다. 모든 타입이 아닌 필요한 것만 정의할 수 있도록 하는
+    방법으로 Partial을 사용하고 후에 공통로직을 위해 OR 연산으로 default를
+    넣었다.
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		type HandlerMap = {
 			[E in AppEvent]: Partial&lt;
 				Record&lt;
@@ -292,16 +359,16 @@
 		}
 	</code></pre>
 
-	<p>
-		여기서 [E in AppEvent]는 Mapped Type 문법인데, 기존의 타입을 순회하면서
-		새로운 객체 타입을 만들어내는 문법이다. AppEvent에 정의된 모든 문자열을 키로
-		강제하고 그 값으로 역할과 플랜에 따른 메서드 구조를 할당하고 있다.
-		여기까지만 하고 다시 핸들러에 마우스를 올려다 대면, Object is possibly
-		'undefined'로 에러가 바뀌었다. 핸들러에 핸들러맵으로 타입을 명시해주어야
-		한다. 다음으로 디스패치 메서드를 정의.
-	</p>
+  <p>
+    여기서 [E in AppEvent]는 Mapped Type 문법인데, 기존의 타입을 순회하면서
+    새로운 객체 타입을 만들어내는 문법이다. AppEvent에 정의된 모든 문자열을 키로
+    강제하고 그 값으로 역할과 플랜에 따른 메서드 구조를 할당하고 있다.
+    여기까지만 하고 다시 핸들러에 마우스를 올려다 대면, Object is possibly
+    'undefined'로 에러가 바뀌었다. 핸들러에 핸들러맵으로 타입을 명시해주어야
+    한다. 다음으로 디스패치 메서드를 정의.
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		async function dispatch(event: AppEvent, role: UserRole, plan: ServicePlan, ...args: any[]) {
 			const eventNode = handler[event]
 			if (!eventNode) throw new Error(&#96;error occur in handle, 이벤트: ${event}&#96;)
@@ -316,24 +383,24 @@
 		}
 	</code></pre>
 
-	<p>
-		저런 식으로 이벤트-역할-플랜에 해당하는 경우가 없을 때를 처리해주면 에러를
-		없앨 수 있다. 사용자 입력을 받는 것이 아닌 프로그래머틱한 에러이므로
-		assert를 써서 크래시를 내버리자.
-	</p>
+  <p>
+    저런 식으로 이벤트-역할-플랜에 해당하는 경우가 없을 때를 처리해주면 에러를
+    없앨 수 있다. 사용자 입력을 받는 것이 아닌 프로그래머틱한 에러이므로
+    assert를 써서 크래시를 내버리자.
+  </p>
 
-	<pre><code>
+  <pre><code>
 		dispatch(&quot;claimPromotionItem&quot;, r, p, 1, &quot;더 좋은 서비스로 이동&quot;)
 	</code></pre>
 
-	<p>
-		핸들러 대신 디스패치 메서드를 쓰면 이제 에러는 없는데, 핸들러 객체의 플랜이
-		프리미엄일 경우 인자가 postId 하나여야 함에도 불구하고 지금 reason까지 두
-		개를 보냈는데 인텔리센스가 잡아내지 못한다. args 타입까지 안전하게 만들어야
-		하는데.. 여기서부터 서서히 해낼 수 없을 것 같다는 의심이 들기 시작한다..
-	</p>
+  <p>
+    핸들러 대신 디스패치 메서드를 쓰면 이제 에러는 없는데, 핸들러 객체의 플랜이
+    프리미엄일 경우 인자가 postId 하나여야 함에도 불구하고 지금 reason까지 두
+    개를 보냈는데 인텔리센스가 잡아내지 못한다. args 타입까지 안전하게 만들어야
+    하는데.. 여기서부터 서서히 해낼 수 없을 것 같다는 의심이 들기 시작한다..
+  </p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		type handleEventWithArgs = {
 			claimPromotionItem: {
 				admin: {
@@ -350,9 +417,9 @@
 		}
 	</code></pre>
 
-	<p>각 경우의 인자를 별도 타입으로 관리하고,</p>
+  <p>각 경우의 인자를 별도 타입으로 관리하고,</p>
 
-	<pre><code class="language-typescript">
+  <pre><code class="language-typescript">
 		async function dispatch&lt;
 			E extends keyof handleEventWithArgs,
 			R extends keyof handleEventWithArgs[E] &amp; (UserRole | &quot;default&quot;),
@@ -378,22 +445,22 @@
 		}
 	</code></pre>
 
-	<p>dispatch에 제네릭을 적용해 보았지만,</p>
+  <p>dispatch에 제네릭을 적용해 보았지만,</p>
 
-	<p>
-		Argument of type 'ServicePlan' is not assignable to parameter of type
-		'never'. Type '"premium"' is not assignable to type 'never'.
-	</p>
+  <p>
+    Argument of type 'ServicePlan' is not assignable to parameter of type
+    'never'. Type '"premium"' is not assignable to type 'never'.
+  </p>
 
-	<p>
-		role과 plan이 런타임에 결정되는 넓은 타입(UserRole, ServicePlan)으로
-		추론되는 순간 제네릭 추론이 붕괴되어 args가 never로 떨어진다. :'(
-	</p>
+  <p>
+    role과 plan이 런타임에 결정되는 넓은 타입(UserRole, ServicePlan)으로
+    추론되는 순간 제네릭 추론이 붕괴되어 args가 never로 떨어진다. :'(
+  </p>
 
-	<p>
-		결국 args는 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는
-		것으로 일단 사용하면서 후에 대안을 찾아보기로.
-	</p>
+  <p>
+    결국 args는 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는
+    것으로 일단 사용하면서 후에 대안을 찾아보기로.
+  </p>
 </div>
       </div>
     </article>
@@ -437,11 +504,11 @@
 		
 	</div>
 </div>
-			</section>
-		</main>
-		<footer id="site-footer">
-			<span>© 2026 · taren250424@gmail.com</span>
-		</footer>
-
-	</body>
+      </section>
+    </main>
+    <footer id="site-footer">
+      <span>© 2026 · taren250424@gmail.com</span>
+    </footer>
+
+  </body>
 </html>

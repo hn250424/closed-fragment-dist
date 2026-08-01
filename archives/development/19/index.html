@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<!-- Google Tag Manager -->
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-				var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s),
-					dl = l != "dataLayer" ? "&l=" + l : "";
-				j.async = true;
-				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-				f.parentNode.insertBefore(j, f);
-			})(window, document, "script", "dataLayer", "GTM-NLCK842B");
-		</script>
-		<!-- End Google Tag Manager -->
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NLCK842B");
+    </script>
+    <!-- End Google Tag Manager -->
 
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>자주 쓰는 Git 명령어 모음 - 닫힌 파편</title>
-		<script type="module" crossorigin src="/assets/index-CdMrPkcB.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-CkB0Wcax.css">
-	
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자주 쓰는 Git 명령어 모음 - 닫힌 파편</title>
+    <script type="module" crossorigin src="/assets/index-Ysvo0Pbt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BOpklQhw.css">
+  
     <link rel="canonical" href="https://tarenx.com/archives/development/19/" />
     <meta name="description" content="# 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)
 git config --global user.name "이름"
 git config --global user.email "메일주소"
 
-# 기본 브랜..." />
+# 기본 브랜치 이름..." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://tarenx.com/archives/development/19/" />
     <meta property="og:title" content="자주 쓰는 Git 명령어 모음" />
@@ -36,173 +36,235 @@ git config --global user.email "메일주소"
 git config --global user.name "이름"
 git config --global user.email "메일주소"
 
-# 기본 브랜..." />
+# 기본 브랜치 이름..." />
     <meta property="article:published_time" content="2026-07-01T20:40" />
 </head>
-	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript
-			><iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-NLCK842B"
-				height="0"
-				width="0"
-				style="display: none; visibility: hidden"
-			></iframe
-		></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NLCK842B"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-		<header id="site-header">
-			<h1>
-				<a href="/">
-					<svg
-						width="512"
-						height="512"
-						viewBox="0 0 48 48"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<polygon
-							points="24,6 36,20 28,42 14,36 10,18"
-							fill="none"
-							stroke="#222"
-							stroke-width="1"
-							stroke-linejoin="round"
-							opacity="0.85"
-						/>
-						<polygon
-							points="24,12 34,22 26,38 16,32 14,20"
-							fill="none"
-							stroke="#222"
-							stroke-width="0.6"
-							stroke-linejoin="round"
-							opacity="0.3"
-						/>
-						<polygon
-							points="24,18 30,26 24,34 18,28 20,20"
-							fill="none"
-							stroke="#222"
-							stroke-width="0.4"
-							stroke-linejoin="round"
-							opacity="0.18"
-						/>
-					</svg>
-					<span class="sr-only">닫힌 파편</span>
-				</a>
-			</h1>
-		</header>
-		<main class="nav-closed">
-			<nav id="main-nav">
-				<div id="content-tree"></div>
-				<hr class="divider" />
-				<div id="link">
-					<ul>
-						<li>
-							<a
-								href="https://github.com/taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-										d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
-									/>
-								</svg>
-								<span>Github</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.threads.com/@taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path
-										d="M20,8 C19,3.66666667 16.1666667,1.5 11.5,1.5 C5.5,1.5 3,5.5 3,11.5 C3,17.5 6,21.5 11.5,21.5 C17,21.5 19,18 19,15.5 C19,13 17,10.5 12.5,10.5 C10,10.5 8.5,12 8.5,13.5 C8.5,15 10,16 12,16 C14,16 15.5,14 15.5,11.5 C15.5,9 14.5,6.5 12,6.5 C10.3333333,6.5 9.16666667,7.16666667 8.5,8.5"
-									/>
-								</svg>
-								<span>Thread</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://medium.com/@taren250424"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="1"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								>
-									<path d="M4 6l6 12l6-12" />
-									<path d="M4 6v12" />
-									<path d="M16 6v12" />
-								</svg>
-								<span>Medium</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<section id="main-section">
-				<button id="main-nav-toggle" aria-label="내비게이션 열기">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="svg-close"
-						viewBox="0 0 24 24"
-						width="16"
-						height="16"
-					>
-						<path
-							d="M6 6L18 18M18 6L6 18"
-							stroke="black"
-							stroke-width="2"
-							stroke-linecap="round"
-						/>
-					</svg>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="svg-menu"
-						viewBox="0 0 24 24"
-						width="16"
-						height="16"
-					>
-						<path
-							d="M4 6H20M4 12H20M4 18H20"
-							stroke="black"
-							stroke-width="2"
-							stroke-linecap="round"
-						/>
-					</svg>
-				</button>
-				<div id="content-container">
+    <header id="site-header">
+      <h1>
+        <a href="/">
+          <svg
+            width="512"
+            height="512"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon
+              points="24,6 36,20 28,42 14,36 10,18"
+              fill="none"
+              stroke="#222"
+              stroke-width="1"
+              stroke-linejoin="round"
+              opacity="0.85"
+            />
+            <polygon
+              points="24,12 34,22 26,38 16,32 14,20"
+              fill="none"
+              stroke="#222"
+              stroke-width="0.6"
+              stroke-linejoin="round"
+              opacity="0.3"
+            />
+            <polygon
+              points="24,18 30,26 24,34 18,28 20,20"
+              fill="none"
+              stroke="#222"
+              stroke-width="0.4"
+              stroke-linejoin="round"
+              opacity="0.18"
+            />
+          </svg>
+          <span class="sr-only">닫힌 파편</span>
+        </a>
+      </h1>
+    </header>
+    <main class="nav-closed">
+      <nav id="main-nav">
+        <div id="content-tree"></div>
+        <hr class="divider" />
+        <div id="link">
+          <ul class="link-group">
+            <li>
+              <a
+                href="https://tools.tarenx.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+                <span>Tools</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://games.tarenx.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <g
+                    transform="translate(12 12) scale(0.85) translate(-16 -17)"
+                  >
+                    <path
+                      d="M10.5 10h11a5.5 5.5 0 0 1 5.4 6.6l-1 5a3.2 3.2 0 0 1-5.5 1.5L18 20.5h-4l-2.4 2.6a3.2 3.2 0 0 1-5.5-1.5l-1-5A5.5 5.5 0 0 1 10.5 10Z"
+                      vector-effect="non-scaling-stroke"
+                    />
+                    <path
+                      d="M11.5 13.5v4M9.5 15.5h4"
+                      vector-effect="non-scaling-stroke"
+                    />
+                    <circle cx="20.5" cy="14.5" r="1.2" fill="currentColor" />
+                    <circle cx="23.5" cy="16.5" r="1.2" fill="currentColor" />
+                  </g>
+                </svg>
+                <span>Games</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="link-group">
+            <li>
+              <a
+                href="https://github.com/taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
+                  />
+                </svg>
+                <span>Github</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.threads.com/@taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M20,8 C19,3.66666667 16.1666667,1.5 11.5,1.5 C5.5,1.5 3,5.5 3,11.5 C3,17.5 6,21.5 11.5,21.5 C17,21.5 19,18 19,15.5 C19,13 17,10.5 12.5,10.5 C10,10.5 8.5,12 8.5,13.5 C8.5,15 10,16 12,16 C14,16 15.5,14 15.5,11.5 C15.5,9 14.5,6.5 12,6.5 C10.3333333,6.5 9.16666667,7.16666667 8.5,8.5"
+                  />
+                </svg>
+                <span>Thread</span>
+              </a>
+            </li>
+            <!-- Medium:
+            <li>
+              <a
+                href="https://medium.com/@taren250424"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 6l6 12l6-12" />
+                  <path d="M4 6v12" />
+                  <path d="M16 6v12" />
+                </svg>
+                <span>Medium</span>
+              </a>
+            </li>
+            -->
+          </ul>
+        </div>
+      </nav>
+      <section id="main-section">
+        <button id="main-nav-toggle" aria-label="내비게이션 열기">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-close"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path
+              d="M6 6L18 18M18 6L6 18"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg-menu"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+          >
+            <path
+              d="M4 6H20M4 12H20M4 18H20"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <div id="content-container">
 
     <article class="post-detail">
       <header class="post-header">
@@ -215,8 +277,8 @@ git config --global user.email "메일주소"
 
 			<div class="post-body">
         <div class="post-content">
-	<h2 class="post-tab">1. 초기 설정.</h2>
-	<pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)
+  <h2 class="post-tab">1. 초기 설정.</h2>
+  <pre><code class="language-bash"># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다)
 git config --global user.name "이름"
 git config --global user.email "메일주소"
 
@@ -226,8 +288,8 @@ git config --global init.defaultBranch main
 # 현재 설정 전체를 확인한다
 git config --list</code></pre>
 
-	<h2 class="post-tab">2. 저장소 시작.</h2>
-	<pre><code class="language-bash"># 현재 폴더를 새 저장소로 초기화한다
+  <h2 class="post-tab">2. 저장소 시작.</h2>
+  <pre><code class="language-bash"># 현재 폴더를 새 저장소로 초기화한다
 git init
 
 # 원격 저장소를 복제한다
@@ -236,8 +298,8 @@ git clone &lt;url&gt;
 # 히스토리를 최소화해 얕게 복제한다
 git clone --depth 1 &lt;url&gt;</code></pre>
 
-	<h2 class="post-tab">3. 상태 확인.</h2>
-	<pre><code class="language-bash"># 작업 트리 상태를 확인한다
+  <h2 class="post-tab">3. 상태 확인.</h2>
+  <pre><code class="language-bash"># 작업 트리 상태를 확인한다
 git status
 
 # 한 줄로 간결하게 확인한다
@@ -249,8 +311,8 @@ git diff
 # 스테이징된 변경 사항을 비교한다
 git diff --staged</code></pre>
 
-	<h2 class="post-tab">4. 스테이징과 커밋.</h2>
-	<pre><code class="language-bash"># 특정 파일을 스테이징한다
+  <h2 class="post-tab">4. 스테이징과 커밋.</h2>
+  <pre><code class="language-bash"># 특정 파일을 스테이징한다
 git add &lt;파일&gt;
 
 # 변경 사항 전체를 스테이징한다
@@ -268,8 +330,8 @@ git commit --amend
 # 직전 커밋에 현재 변경만 더한다 (메시지는 그대로 둔다)
 git commit --amend --no-edit</code></pre>
 
-	<h2 class="post-tab">5. 브랜치.</h2>
-	<pre><code class="language-bash"># 브랜치 목록을 확인한다
+  <h2 class="post-tab">5. 브랜치.</h2>
+  <pre><code class="language-bash"># 브랜치 목록을 확인한다
 git branch
 
 # 원격 포함 전체 브랜치를 확인한다
@@ -287,8 +349,8 @@ git branch -d &lt;브랜치&gt;
 # 병합하지 않은 브랜치를 강제로 삭제한다
 git branch -D &lt;브랜치&gt;</code></pre>
 
-	<h2 class="post-tab">6. 병합과 리베이스.</h2>
-	<pre><code class="language-bash"># 현재 브랜치에 다른 브랜치를 병합한다
+  <h2 class="post-tab">6. 병합과 리베이스.</h2>
+  <pre><code class="language-bash"># 현재 브랜치에 다른 브랜치를 병합한다
 git merge &lt;브랜치&gt;
 
 # 다른 브랜치의 여러 커밋을 하나로 합쳐 가져온다 (스테이징만 되므로 커밋이 필요하다)
@@ -304,8 +366,8 @@ git rebase --continue
 # 리베이스를 중단하고 원래대로 되돌린다
 git rebase --abort</code></pre>
 
-	<h2 class="post-tab">7. 원격 저장소.</h2>
-	<pre><code class="language-bash"># 등록된 원격을 확인한다
+  <h2 class="post-tab">7. 원격 저장소.</h2>
+  <pre><code class="language-bash"># 등록된 원격을 확인한다
 git remote -v
 
 # 원격을 추가한다
@@ -323,8 +385,8 @@ git push
 # 새 브랜치를 원격에 처음 올리며 추적을 설정한다 (이후로는 git push, git pull만 써도 된다)
 git push -u origin &lt;브랜치&gt;</code></pre>
 
-	<h2 class="post-tab">8. 되돌리기.</h2>
-	<pre><code class="language-bash"># 스테이징하지 않은(Unstaged) 변경을 취소한다
+  <h2 class="post-tab">8. 되돌리기.</h2>
+  <pre><code class="language-bash"># 스테이징하지 않은(Unstaged) 변경을 취소한다
 git restore &lt;파일&gt;
 
 # 스테이징을 취소한다 (변경은 유지한다)
@@ -342,8 +404,8 @@ git reset --hard HEAD~1
 # 특정 커밋을 취소하는 새 커밋을 생성한다 (히스토리를 보존한다)
 git revert &lt;커밋&gt;</code></pre>
 
-	<h2 class="post-tab">9. 임시 저장.</h2>
-	<pre><code class="language-bash"># 작업 중인 변경을 임시로 치워둔다
+  <h2 class="post-tab">9. 임시 저장.</h2>
+  <pre><code class="language-bash"># 작업 중인 변경을 임시로 치워둔다
 git stash
 
 # 추적하지 않는 파일까지 포함한다
@@ -358,8 +420,8 @@ git stash pop
 # 복원하되 목록에는 남겨둔다
 git stash apply</code></pre>
 
-	<h2 class="post-tab">10. 히스토리 확인.</h2>
-	<pre><code class="language-bash"># 커밋 히스토리를 확인한다
+  <h2 class="post-tab">10. 히스토리 확인.</h2>
+  <pre><code class="language-bash"># 커밋 히스토리를 확인한다
 git log
 
 # 한 줄 요약으로 확인한다
@@ -380,8 +442,8 @@ git show --stat <커밋>
 # 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다
 git blame &lt;파일&gt;</code></pre>
 
-	<h2 class="post-tab">11. 태그.</h2>
-	<pre><code class="language-bash"># 태그 목록을 확인한다
+  <h2 class="post-tab">11. 태그.</h2>
+  <pre><code class="language-bash"># 태그 목록을 확인한다
 git tag
 
 # 주석 있는 태그를 생성한다
@@ -393,12 +455,12 @@ git push origin v1.0.0
 # 모든 태그를 원격에 올린다
 git push --tags</code></pre>
 
-	<p class="post-ref">
-		* 참조 <br />
-		<a href="https://git-scm.com/doc" target="_blank"
-			>Git 공식 문서 (git-scm.com/doc)</a
-		>
-	</p>
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="https://git-scm.com/doc" target="_blank"
+      >Git 공식 문서 (git-scm.com/doc)</a
+    >
+  </p>
 </div>
       </div>
     </article>
@@ -471,11 +533,11 @@ git push --tags</code></pre>
 		<div class="pagination"><button type="button" class="page-link active" data-target-page="1">1</button><button type="button" class="page-link " data-target-page="2">2</button></div>
 	</div>
 </div>
-			</section>
-		</main>
-		<footer id="site-footer">
-			<span>© 2026 · taren250424@gmail.com</span>
-		</footer>
-
-	</body>
+      </section>
+    </main>
+    <footer id="site-footer">
+      <span>© 2026 · taren250424@gmail.com</span>
+    </footer>
+
+  </body>
 </html>
