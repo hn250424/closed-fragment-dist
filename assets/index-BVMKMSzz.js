@@ -169,13 +169,13 @@ git log --oneline
 git log --oneline --graph --all
 
 # 특정 커밋의 정보와 변경 사항을 확인한다
-git show <커밋>
+git show &lt;커밋&gt;
 
 # 특정 커밋에서 변경된 파일 목록만 확인한다
-git show --name-only <커밋>
+git show --name-only &lt;커밋&gt;
 
 # 특정 커밋의 변경 통계를 확인한다
-git show --stat <커밋>
+git show --stat &lt;커밋&gt;
 
 # 특정 파일의 각 줄을 누가 언제 바꿨는지 확인한다
 git blame &lt;파일&gt;</code></pre>
@@ -184,14 +184,49 @@ git blame &lt;파일&gt;</code></pre>
   <pre><code class="language-bash"># 태그 목록을 확인한다
 git tag
 
-# 주석 있는 태그를 생성한다
+# 주석 있는 태그를 생성한다 (작성자와 날짜, 메시지가 함께 기록된다)
 git tag -a v1.0.0 -m "메시지"
 
-# 태그를 원격에 올린다
+# 이름만 가리키는 가벼운 태그를 생성한다 (기록이 남지 않는다)
+git tag v1.0.0
+
+# 지나간 특정 커밋에 태그를 생성한다
+git tag -a v1.0.0 &lt;커밋&gt; -m "메시지"
+
+# 태그가 가리키는 커밋과 변경 사항을 확인한다
+git show v1.0.0
+
+# 태그의 종류를 확인한다 (tag이면 주석 있는 태그, commit이면 가벼운 태그다)
+git cat-file -t v1.0.0
+
+# 가장 가까운 태그를 기준으로 현재 위치를 표현한다 (가벼운 태그까지 포함하려면 --tags를 붙인다)
+git describe --tags</code></pre>
+
+  <h2 class="post-tab">12. 태그 공유와 정리.</h2>
+  <pre><code class="language-bash"># 태그 하나를 원격에 올린다
 git push origin v1.0.0
 
 # 모든 태그를 원격에 올린다
-git push --tags</code></pre>
+git push --tags
+
+# 커밋을 올리면서 거기에 딸린 주석 있는 태그만 함께 올린다
+git push --follow-tags
+
+# 원격의 태그 목록을 확인한다 (^{} 줄이 함께 나오면 주석 있는 태그다)
+git ls-remote --tags origin
+
+# 태그를 다른 커밋으로 옮긴다 (원격에는 강제로 밀어야 반영된다)
+git tag -f -a v1.0.0 -m "메시지"
+git push -f origin refs/tags/v1.0.0
+
+# 로컬 태그를 삭제한다
+git tag -d v1.0.0
+
+# 원격 태그를 삭제한다
+git push origin --delete v1.0.0
+
+# 원격의 태그를 로컬에 그대로 맞춘다 (이미 있는 태그도 덮어쓴다)
+git fetch --tags --force</code></pre>
 
   <p class="post-ref">
     * 참조 <br />
