@@ -20,7 +20,7 @@
     <link rel="icon" type="image/svg+xml" href="/images/closed_fragment.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>addEventListener에서 커스텀 이벤트 타입 추론하기 - 닫힌 파편</title>
-    <script type="module" crossorigin src="/assets/index-BVMKMSzz.js"></script>
+    <script type="module" crossorigin src="/assets/index-fRIkpgkK.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BOpklQhw.css">
   
     <link rel="canonical" href="https://tarenx.com/journals/development/3/" />
@@ -85,6 +85,13 @@
       </h1>
     </header>
     <main class="nav-closed">
+      <!-- Restore nav state before first paint to survive full page loads (SSG). -->
+      <script>
+        try {
+          if (sessionStorage.getItem("nav-open") === "1")
+            document.currentScript.parentElement.classList.remove("nav-closed");
+        } catch (e) {}
+      </script>
       <nav id="main-nav">
         <div id="content-tree"></div>
         <hr class="divider" />
