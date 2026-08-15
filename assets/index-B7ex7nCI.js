@@ -2216,7 +2216,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 `,pr=s({default:()=>mr}),mr=`<div class="post-meta">
   <meta name="post-id" content="30" />
   <meta name="post-title" content="머무름의 재료" />
-  <meta name="post-published" content="2026-08-15T17:30" />
+  <meta name="post-published" content="2026-08-15T17:34" />
   <meta name="post-tags" content="올가미" />
 </div>
 
