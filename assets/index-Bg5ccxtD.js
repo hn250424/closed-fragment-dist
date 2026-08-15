@@ -2216,7 +2216,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 `,pr=s({default:()=>mr}),mr=`<div class="post-meta">
   <meta name="post-id" content="30" />
   <meta name="post-title" content="머무름의 재료" />
-  <meta name="post-published" content="2026-08-15T17:12" />
+  <meta name="post-published" content="2026-08-15T17:30" />
   <meta name="post-tags" content="올가미" />
 </div>
 
@@ -2235,11 +2235,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </p>
 
   <figure>
-    <img
-      src="/assets/columns/culture/30/poster.jpg"
-      alt="올가미"
-      width="500"
-    />
+    <img src="/assets/columns/culture/30/poster.jpg" alt="올가미" width="500" />
     <figcaption>출처: 한국영상자료원 KMDb</figcaption>
   </figure>
 
@@ -2265,8 +2261,9 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </blockquote>
 
   <p>
-    수진은 가까스로 탈출하는 데 성공한다. 그 순간, 살아났던 동우는 죽고 진숙의
-    세상은 무너진다. 진숙은 동우의 죽음을 직면하면서 조용히 손목을 긋는다.
+    진숙과 몸싸움 끝에 수진은 가까스로 탈출하는 데 성공한다. 그 순간, 살아났던
+    동우는 죽고 진숙의 세상은 무너진다. 진숙은 동우의 죽음을 직면하면서 조용히
+    손목을 긋는다.
   </p>
 
   <p>
