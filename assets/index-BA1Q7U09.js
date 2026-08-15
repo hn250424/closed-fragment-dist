@@ -2214,6 +2214,80 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </p>
 </div>
 `,pr=s({default:()=>mr}),mr=`<div class="post-meta">
+  <meta name="post-id" content="30" />
+  <meta name="post-title" content="머무름의 재료" />
+  <meta name="post-published" content="2026-08-15T17:12" />
+  <meta name="post-tags" content="올가미" />
+</div>
+
+<div class="post-content">
+  <p>
+    진숙<span class="post-sub">(윤소정)</span>이 아들 동우<span class="post-sub"
+      >(박용우)</span
+    >를 깨우는 모습은 흡사 연인 같다. 입고 갈 양복을 골라두고, 아침을 준비하고,
+    속옷 빨래를 하고, 심지어 목욕까지 시키는 일은 삼십 년 동안 지속된
+    일상이었다. 동우가 늘 그 자리에 있었으므로 그 긴 세월은 진숙을 배신하지
+    않았다. 결혼할 사람을 소개하겠다는 동우의 말에 진숙의 얼굴이 싸늘히 굳는
+    것은 그래서다. 하지만 진숙은 결혼을 승낙하고, 그렇게 며느리가 된 수진<span
+      class="post-sub"
+      >(최지우)</span
+    >이 둘의 공간에 들어오면서, 이야기는 시작된다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/columns/culture/30/poster.jpg"
+      alt="올가미"
+      width="500"
+    />
+    <figcaption>출처: 한국영상자료원 KMDb</figcaption>
+  </figure>
+
+  <p>
+    결혼은 승낙했지만, 진숙은 동우를 수진에게 넘길 생각이 없었다. 진숙은
+    동우와의 관계를 수진에게 드러내면서 소유권을 주장한다. 그럼에도 수진이
+    물러나지 않자 진숙은 자신의 소유권을 지키기 위해 주저 없이 폭력을 선택한다.
+    결국 수진은 공포에 떨며 집을 나가고, 이 일로 동우는 진숙과 실랑이를 벌이다
+    사고로 죽음을 맞이한다.
+  </p>
+
+  <p>
+    그러나 그 죽음을 받아들이지 못한 진숙은 수진을 속여 집으로 불러들인 뒤
+    그대로 감금한다. 동우에게는 아내가 있었다. 그러니 동우를 되살리려면 그
+    아내부터 제자리에 돌려놓아야 했다. 그렇게 다시 살아난 동우는 온전히 진숙의
+    영향 아래 있다. 진숙은 동우와 함께 밖으로 나가 대화를 주고받으며 데이트를
+    즐긴다. 좋은 시간을 보내고 돌아온 진숙은, 친구의 도움을 받아 집에서 탈출하려
+    하던 수진을 발견한다.
+  </p>
+
+  <blockquote class="post-quotation">
+    "넌 왜 내 말 안 듣는 거니? 그럼 넌 죽어야 해."
+  </blockquote>
+
+  <p>
+    수진은 가까스로 탈출하는 데 성공한다. 그 순간, 살아났던 동우는 죽고 진숙의
+    세상은 무너진다. 진숙은 동우의 죽음을 직면하면서 조용히 손목을 긋는다.
+  </p>
+
+  <p>
+    파괴는 완전한 소유를 가능하게 하는 것처럼 보인다. 그런 면에서 파괴는 소유의
+    마지막 형태지만, 파괴된 것은 그 순간 성질이 변해 본래의 그것이 아니게 된다.
+    삼십 년 동안 동우는 그 자리에 있었다. 그러나 그 세월이 진숙을 배신하지
+    않았던 것은 동우가 떠날 수 없어서가 아니라 떠나지 않기를 매일 다시 선택했기
+    때문이다. 머무름이라는 성질은 떠날 수 있음을 재료로 삼아서만 만들어진다.
+    선택지가 없는 자리에 남아 있는 것은 머무름이 아니라 단순한 위치에 불과하다.
+    그래서 파괴는 소유를 무의미하게 만들기 이전에, 원했던 성질이 성립할 조건
+    자체를 없앤다.
+  </p>
+
+  <p>
+    사람이 다른 사람에게서 원하는 것들은 대체로 그가 달리 할 수도 있었다는
+    사실을 재료로 삼는다. 그것을 원하면서 동시에 그 자유를 견디지 못할 때 길은
+    언제나 같은 쪽으로 열려 있고, 그 길 끝에는 반드시 아들과 데이트를 나가는
+    사람이 서 있다.
+  </p>
+</div>
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
   <meta name="post-id" content="13" />
   <meta name="post-title" content="1조의 무게" />
   <meta name="post-published" content="2026-05-30T13:35" />
@@ -2283,7 +2357,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     >
   </p>
 </div>
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
   <meta name="post-id" content="29" />
   <meta name="post-title" content="목표비중은 왜 올랐나" />
   <meta name="post-published" content="2026-07-31T12:55" />
@@ -2378,7 +2452,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     머니투데이, "국민연금 '매도 폭탄' 없었다" (2026.07.28)
   </p>
 </div>
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
+`,yr=s({default:()=>br}),br=`<div class="post-meta">
   <meta name="post-id" content="9" />
   <meta name="post-title" content="혁신이 아니라 효율화" />
   <meta name="post-published" content="2026-05-11T19:50" />
@@ -2467,7 +2541,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     >
   </p>
 </div>
-`,yr=s({default:()=>br}),br=`<div class="post-meta">
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
   <meta name="post-id" content="17" />
   <meta name="post-title" content="긴 계단 가장 높은 곳에서 맞던 밤바람" />
   <meta name="post-published" content="2026-06-27T23:37" />
@@ -2505,7 +2579,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     있었다.
   </p>
 </div>
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
   <meta name="post-id" content="8" />
   <meta name="post-title" content="삶은 역사적일 필요가 없다" />
   <meta name="post-published" content="2026-05-09T21:15" />
@@ -2560,7 +2634,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     세상에 남을 필요는 없다는 사실을 받아들이게 되었다.
   </p>
 </div>
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
+`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">
   <meta name="post-id" content="0" />
   <meta name="post-title" content="까만 우산" />
   <meta name="post-published" content="2025-05-10T18:41" />
@@ -2596,7 +2670,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     수 있는 사람은 많지 않겠지.
   </p>
 </div>
-`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">
+`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">
   <meta name="post-id" content="1" />
   <meta
     name="post-title"
@@ -2798,7 +2872,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     것으로 일단 사용하면서 후에 대안을 찾아보기로.
   </p>
 </div>
-`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">
+`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
   <meta name="post-id" content="28" />
   <meta
     name="post-title"
@@ -3015,7 +3089,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     됐다.
   </p>
 </div>
-`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
+`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
   <meta name="post-id" content="3" />
   <meta
     name="post-title"
@@ -3275,7 +3349,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 		}
 	</code></pre>
 </div>
-`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
   <meta name="post-id" content="10" />
   <meta name="post-title" content="배당 9%의 속사정" />
   <meta name="post-published" content="2026-05-25T15:28" />
@@ -3343,7 +3417,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     기획재정부 2025년 세제개편안
   </p>
 </div>
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
   <meta name="post-id" content="15" />
   <meta name="post-title" content="식히는 사업, 식지 않은 의문" />
   <meta name="post-published" content="2026-06-20T11:41" />
@@ -3453,7 +3527,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     ><br />
   </p>
 </div>
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
   <meta name="post-id" content="18" />
   <meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />
   <meta name="post-published" content="2026-06-29T16:43" />
@@ -3537,7 +3611,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     신한투자증권 최승환, "바겐세일" (2026.04.09)
   </p>
 </div>
-`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
+`,zr=s({default:()=>Br}),Br=`<div class="post-meta">
   <meta name="post-id" content="6" />
   <meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플" />
   <meta name="post-published" content="2026-04-25T19:10" />
@@ -3648,7 +3722,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     네이버 증권
   </p>
 </div>
-`,zr=s({default:()=>Br}),Br=`<div class="post-meta">
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
   <meta name="post-id" content="14" />
   <meta name="post-title" content="시간이 쓸어내린 먼지" />
   <meta name="post-published" content="2026-06-08T20:03" />
@@ -3714,7 +3788,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.
   </p>
 </div>
-`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
+`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
   <meta name="post-id" content="27" />
   <meta name="post-title" content="시간의 밀도" />
   <meta name="post-published" content="2026-07-17T05:53" />
@@ -3756,7 +3830,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     fill a life."
   </blockquote>
 </div>
-`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
   <meta name="post-id" content="23" />
   <meta name="post-title" content="새벽" />
   <meta name="post-published" content="2026-07-04T07:28" />
@@ -3786,7 +3860,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 
   <p>미학적인 새벽이었다.</p>
 </div>
-`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
   <meta name="post-id" content="24" />
   <meta name="post-title" content="손톱" />
   <meta name="post-published" content="2026-07-04T08:42" />
@@ -3804,7 +3878,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     모든 것이 좋아진다.
   </p>
 </div>
-`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
+`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
   <meta name="post-id" content="25" />
   <meta name="post-title" content="흰 티" />
   <meta name="post-published" content="2026-07-05T12:32" />
@@ -3814,21 +3888,21 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 <div class="post-content">
   <p>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</p>
 </div>
-`;function Yr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Xr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/investment/13/index.html":pr,"../content/columns/investment/29/index.html":hr,"../content/columns/investment/9/index.html":_r,"../content/essays/culture/17/index.html":yr,"../content/essays/culture/8/index.html":xr,"../content/essays/daily/0/index.html":Cr,"../content/journals/development/1/index.html":Tr,"../content/journals/development/28/index.html":Dr,"../content/journals/development/3/index.html":kr,"../content/journals/investment/10/index.html":jr,"../content/journals/investment/15/index.html":Nr,"../content/journals/investment/18/index.html":Fr,"../content/journals/investment/6/index.html":Lr,"../content/musings/culture/14/index.html":zr,"../content/musings/culture/27/index.html":Vr,"../content/musings/daily/23/index.html":Ur,"../content/musings/daily/24/index.html":Gr,"../content/musings/daily/25/index.html":qr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Yr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var Zr={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};Zr.common?.siteName;function Qr(e){e.innerHTML=Zr.navigation.map(e=>`
+`;function Zr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Qr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/6/index.html":zr,"../content/musings/culture/14/index.html":Vr,"../content/musings/culture/27/index.html":Ur,"../content/musings/daily/23/index.html":Gr,"../content/musings/daily/24/index.html":qr,"../content/musings/daily/25/index.html":Yr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Zr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var $r={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};$r.common?.siteName;function ei(e){e.innerHTML=$r.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${$r()} ${e.displayName}</h2>
+					<h2 class="category-title">${ti()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${Zr.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${ei()} ${t.displayName}
+								<a href="${$r.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${ni()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function $r(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function ti(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function ei(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ni(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function ti(e,t,n,r){Qr(n)}function ni(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ri(){let e=Xr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),ti(e,n,i,o),ni(e,o)}function ii(){Hn.highlightAll(),ri()}function ai(){ii()}document.addEventListener(`DOMContentLoaded`,ai);
+	</svg>`}function ri(e,t,n,r){ei(n)}function ii(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ai(){let e=Qr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),ri(e,n,i,o),ii(e,o)}function oi(){Hn.highlightAll(),ai()}function si(){oi()}document.addEventListener(`DOMContentLoaded`,si);
