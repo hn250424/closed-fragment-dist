@@ -3828,6 +3828,39 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </blockquote>
 </div>
 `,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
+  <meta name="post-id" content="31" />
+  <meta name="post-title" content="빈 공간" />
+  <meta name="post-published" content="2026-08-17T21:52" />
+  <meta name="post-tags" content="벌새, 김새벽" />
+</div>
+
+<div class="post-content">
+  <p>
+    얇은 외투 소매를 몇 번 걷어 마르고 단단한 손목이 드러나 있다. 무심한 듯 바지
+    주머니에 손을 찔러 넣고, 허공을 바라보며 담배를 피우는 그 텅 비어버린 듯한
+    모습은 내가 열망하던 모습이었지만….
+  </p>
+
+  <p>
+    바로 느껴진다. 그녀가 저 자리에서 삶을 견디고 있다는 것이. 그렇다면 나는 왜
+    저 상태로 나아가고 싶었던 걸까?
+  </p>
+
+  <p>
+    영화 내내 나를 이끌었던 그녀가 김새벽이었는지 영지였는지 모르겠다. 아무튼
+    취향이 하나 생긴 것 같은데, 재밌게도 위스키나 패션처럼 강박적인 느낌이 없다.
+    늘려야 할 것도 치워야 할 것도 없이, 원할 때 손을 뻗으면 되는 홀가분함이
+    선선한 바람처럼 다가온다.
+  </p>
+
+  <p>김새벽의 다른 작품을 또 보고 싶다.</p>
+
+  <blockquote class="post-quotation">
+    "선생님은 자기가 싫어진 적 있으세요?"<br />
+    "응 많아. 아주 많아."
+  </blockquote>
+</div>
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
   <meta name="post-id" content="23" />
   <meta name="post-title" content="새벽" />
   <meta name="post-published" content="2026-07-04T07:28" />
@@ -3857,7 +3890,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 
   <p>미학적인 새벽이었다.</p>
 </div>
-`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
+`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
   <meta name="post-id" content="24" />
   <meta name="post-title" content="손톱" />
   <meta name="post-published" content="2026-07-04T08:42" />
@@ -3875,7 +3908,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     모든 것이 좋아진다.
   </p>
 </div>
-`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
+`,Zr=s({default:()=>Qr}),Qr=`<div class="post-meta">
   <meta name="post-id" content="25" />
   <meta name="post-title" content="흰 티" />
   <meta name="post-published" content="2026-07-05T12:32" />
@@ -3885,21 +3918,21 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 <div class="post-content">
   <p>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</p>
 </div>
-`;function Zr(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function Qr(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/6/index.html":zr,"../content/musings/culture/14/index.html":Vr,"../content/musings/culture/27/index.html":Ur,"../content/musings/daily/23/index.html":Gr,"../content/musings/daily/24/index.html":qr,"../content/musings/daily/25/index.html":Yr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=Zr(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var $r={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};$r.common?.siteName;function ei(e){e.innerHTML=$r.navigation.map(e=>`
+`;function $r(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function ei(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/6/index.html":zr,"../content/musings/culture/14/index.html":Vr,"../content/musings/culture/27/index.html":Ur,"../content/musings/culture/31/index.html":Gr,"../content/musings/daily/23/index.html":qr,"../content/musings/daily/24/index.html":Yr,"../content/musings/daily/25/index.html":Zr}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=$r(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var ti={common:{siteName:`닫힌 파편`,itemsPerBoardPage:10,itemsPerPostBottomPage:5},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://raw.githubusercontent.com/taren250424/tarenx-assets/main/`}};ti.common?.siteName;function ni(e){e.innerHTML=ti.navigation.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${ti()} ${e.displayName}</h2>
+					<h2 class="category-title">${ri()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(t=>`
 							<li>
-								<a href="${$r.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
-									${ni()} ${t.displayName}
+								<a href="${ti.build.siteBaseUrl}${e.id}/${t.id}/" class="board-link" data-category="${e.id}" data-board="${t.id}">
+									${ii()} ${t.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function ti(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function ri(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function ni(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ii(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}function ri(e,t,n,r){ei(n)}function ii(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function ai(){let e=Qr(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),ri(e,n,i,o),ii(e,o)}function oi(){Hn.highlightAll(),ai()}function si(){oi()}document.addEventListener(`DOMContentLoaded`,si);
+	</svg>`}function ai(e,t,n,r){ni(n)}function oi(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function si(){let e=ei(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),ai(e,n,i,o),oi(e,o)}function ci(){Hn.highlightAll(),si()}function li(){ci()}document.addEventListener(`DOMContentLoaded`,li);
