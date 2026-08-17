@@ -3830,7 +3830,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 `,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
   <meta name="post-id" content="31" />
   <meta name="post-title" content="빈 공간" />
-  <meta name="post-published" content="2026-08-17T21:52" />
+  <meta name="post-published" content="2026-08-17T21:54" />
   <meta name="post-tags" content="벌새, 김새벽" />
 </div>
 
@@ -3847,7 +3847,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </p>
 
   <p>
-    영화 내내 나를 이끌었던 그녀가 김새벽이었는지 영지였는지 모르겠다. 아무튼
+    영화 내내 나를 이끌었던 그녀가 김새벽이었는지, 영지였는지 모르겠다. 아무튼
     취향이 하나 생긴 것 같은데, 재밌게도 위스키나 패션처럼 강박적인 느낌이 없다.
     늘려야 할 것도 치워야 할 것도 없이, 원할 때 손을 뻗으면 되는 홀가분함이
     선선한 바람처럼 다가온다.
