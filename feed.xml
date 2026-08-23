@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>닫힌 파편</title>
+  <subtitle>흩어진 생각을 파편으로 닫아 남기는 기록.</subtitle>
+  <link href="https://tarenx.com/" />
+  <link href="https://tarenx.com/feed.xml" rel="self" />
+  <id>https://tarenx.com/</id>
+  <updated>2026-08-19T22:50:00+09:00</updated>
+  <author>
+    <name>taren250424</name>
+  </author>
+  <entry>
+    <title>우아한 천박함</title>
+    <link href="https://tarenx.com/musings/culture/32/" />
+    <id>https://tarenx.com/musings/culture/32/</id>
+    <published>2026-08-19T22:50:00+09:00</published>
+    <updated>2026-08-19T22:50:00+09:00</updated>
+    <summary>쿠사나기 진은 등장부터 목을 누른다. 동료의 죽음보다 자신의 한 끼 식사를 우선하는 그 솔직함은 탄성을 자아낸다. 그녀는 권위에 고개 숙이고 약자를 멸시하며 욕망을 부끄러움 없이 드러낸다. 천박함이 잘 다려진 정장 밖으로 새어 나오지만 그 자체로 우아하다.</summary>
+    <category term="킬러들의 쇼핑몰" />
+    <category term="쿠사나기 진" />
+  </entry>
+  <entry>
+    <title>빈 공간</title>
+    <link href="https://tarenx.com/musings/culture/31/" />
+    <id>https://tarenx.com/musings/culture/31/</id>
+    <published>2026-08-17T21:54:00+09:00</published>
+    <updated>2026-08-17T21:54:00+09:00</updated>
+    <summary>얇은 외투 소매를 몇 번 걷어 마르고 단단한 손목이 드러나 있다. 무심한 듯 바지 주머니에 손을 찔러 넣고, 허공을 바라보며 담배를 피우는 그 텅 비어버린 듯한 모습은 내가 열망하던 모습이었지만….</summary>
+    <category term="벌새" />
+    <category term="김새벽" />
+  </entry>
+  <entry>
+    <title>머무름의 재료</title>
+    <link href="https://tarenx.com/columns/culture/30/" />
+    <id>https://tarenx.com/columns/culture/30/</id>
+    <published>2026-08-15T17:34:00+09:00</published>
+    <updated>2026-08-15T17:34:00+09:00</updated>
+    <summary>진숙(윤소정)이 아들 동우(박용우)를 깨우는 모습은 흡사 연인 같다. 입고 갈 양복을 골라두고, 아침을 준비하고, 속옷 빨래를 하고, 심지어 목욕까지 시키는 일은 삼십 년 동안 지속된 일상이었다. 동우가 늘 그 자리에 있었으므로 그 긴 세월은 진숙을 배신하지 않았다. 결혼할 사람을 소개...</summary>
+    <category term="올가미" />
+  </entry>
+  <entry>
+    <title>목표비중은 왜 올랐나</title>
+    <link href="https://tarenx.com/columns/investment/29/" />
+    <id>https://tarenx.com/columns/investment/29/</id>
+    <published>2026-07-31T12:55:00+09:00</published>
+    <updated>2026-07-31T12:55:00+09:00</updated>
+    <summary>26년 7월, 코스피가 한 달 만에 28% 넘게 빠졌다. 국민연금이 정부 압력 때문에 제때 팔지 않아 손실을 키웠다는 비판이 거세다.</summary>
+    <category term="국민연금" />
+  </entry>
+  <entry>
+    <title>명령-디스패처 패턴에서 페이로드 타입 강제, 그리고 구조적 타이핑의 한계</title>
+    <link href="https://tarenx.com/journals/development/28/" />
+    <id>https://tarenx.com/journals/development/28/</id>
+    <published>2026-07-23T18:54:00+09:00</published>
+    <updated>2026-07-23T18:54:00+09:00</updated>
+    <summary>지난 글(전략-디스패처 패턴에서 가변 인자(any[]) 타입 추론의 한계)에서 args를 any[]로 두고, handler 정의 자체를 명세 삼아 호출부에서 맞춰주는 것으로 물러났었다. SVG 편집기 명령 레이어를 만들다가 같은 문제를 다시 만났다.</summary>
+    <category term="TypeScript" />
+  </entry>
+  <entry>
+    <title>시간의 밀도</title>
+    <link href="https://tarenx.com/musings/culture/27/" />
+    <id>https://tarenx.com/musings/culture/27/</id>
+    <published>2026-07-17T05:53:00+09:00</published>
+    <updated>2026-07-17T05:53:00+09:00</updated>
+    <summary>이곳을 목적지로 두지 않은, 여기서 살 생각이 없는 이들은 무너뜨릴 수 없다. 그들은 무너질 자리를 다른 곳에 둔 것이다. 생의 한순간을 붙들고 사는 것은 다른 시간을 견디게 한다.</summary>
+    <category term="콜드 마운틴" />
+  </entry>
+  <entry>
+    <title>Git Bash 새 탭을 현재 경로에서 열기</title>
+    <link href="https://tarenx.com/archives/development/26/" />
+    <id>https://tarenx.com/archives/development/26/</id>
+    <published>2026-07-07T21:00:00+09:00</published>
+    <updated>2026-07-07T21:00:00+09:00</updated>
+    <summary>Windows Terminal에서 Git Bash를 쓰다 보면, 탭 바의 + 버튼으로 새 탭을 열 때마다 홈 디렉터리로 돌아간다. 지금 작업하던 경로를 그대로 이어받아 새 탭을 열고 싶다.</summary>
+    <category term="Git Bash" />
+  </entry>
+  <entry>
+    <title>흰 티</title>
+    <link href="https://tarenx.com/musings/daily/25/" />
+    <id>https://tarenx.com/musings/daily/25/</id>
+    <published>2026-07-05T12:32:00+09:00</published>
+    <updated>2026-07-05T12:32:00+09:00</updated>
+    <summary>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</summary>
+    <category term="취향" />
+  </entry>
+  <entry>
+    <title>손톱</title>
+    <link href="https://tarenx.com/musings/daily/24/" />
+    <id>https://tarenx.com/musings/daily/24/</id>
+    <published>2026-07-04T08:42:00+09:00</published>
+    <updated>2026-07-04T08:42:00+09:00</updated>
+    <summary>바짝 깎인 손톱... 투명할 만큼 옅은 매니큐어. 그녀 안에는 불순물 한 점 없을 것 같다.</summary>
+    <category term="인상" />
+  </entry>
+  <entry>
+    <title>새벽</title>
+    <link href="https://tarenx.com/musings/daily/23/" />
+    <id>https://tarenx.com/musings/daily/23/</id>
+    <published>2026-07-04T07:28:00+09:00</published>
+    <updated>2026-07-04T07:28:00+09:00</updated>
+    <summary>간밤에 비가 왔었는지 아직 세상이 젖어있던 새벽, 편의점 가는 길.</summary>
+    <category term="인상" />
+  </entry>
+  <entry>
+    <title>IP 주소와 서브넷 마스크 정리</title>
+    <link href="https://tarenx.com/archives/development/22/" />
+    <id>https://tarenx.com/archives/development/22/</id>
+    <published>2026-07-01T21:10:00+09:00</published>
+    <updated>2026-07-01T21:10:00+09:00</updated>
+    <summary>네트워크에 연결된 기기는 저마다 주소를 가진다. 편지를 보내려면 받는 사람의 주소가 있어야 하듯, 데이터를 주고받으려면 상대 기기의 주소가 필요하다. 그 주소가 IP 주소다. 우리가 흔히 보는 건 이런 모양이다.</summary>
+    <category term="IP" />
+    <category term="네트워크" />
+    <category term="서브넷 마스크" />
+  </entry>
+  <entry>
+    <title>자주 쓰는 SCSS 문법 정리</title>
+    <link href="https://tarenx.com/archives/development/21/" />
+    <id>https://tarenx.com/archives/development/21/</id>
+    <published>2026-07-01T21:00:00+09:00</published>
+    <updated>2026-07-01T21:00:00+09:00</updated>
+    <summary>$로 선언한다. CSS의 커스텀 프로퍼티(--)와 달리 컴파일 시점에 값으로 치환되어 박히므로, 런타임에 바꿀 수는 없다.</summary>
+    <category term="SCSS" />
+  </entry>
+  <entry>
+    <title>헷갈리는 CSS 선택자와 변수 정리</title>
+    <link href="https://tarenx.com/archives/development/20/" />
+    <id>https://tarenx.com/archives/development/20/</id>
+    <published>2026-07-01T20:50:00+09:00</published>
+    <updated>2026-07-01T20:50:00+09:00</updated>
+    <summary>/* 자손 (하위 전체) */ article p {} /* 자식 (바로 아래 한 단계만) */ article &gt; p {} /* 인접 형제 (바로 다음에 오는 하나) */ h2 + p {} /* 일반 형제 (뒤따르는 모든 형제) */ h2 ~ p {} 2. 가상 클래스 (콜론 하나)...</summary>
+    <category term="CSS" />
+  </entry>
+  <entry>
+    <title>자주 쓰는 Git 명령어 모음</title>
+    <link href="https://tarenx.com/archives/development/19/" />
+    <id>https://tarenx.com/archives/development/19/</id>
+    <published>2026-07-01T20:40:00+09:00</published>
+    <updated>2026-07-01T20:40:00+09:00</updated>
+    <summary># 사용자 이름과 이메일을 등록한다 (커밋 작성자로 기록된다) git config --global user.name &quot;이름&quot; git config --global user.email &quot;메일주소&quot; # 기본 브랜치 이름을 main으로 설정한다 git config --global init.de...</summary>
+    <category term="Git" />
+  </entry>
+  <entry>
+    <title>사이버 위협에서 산업 데이터 플랫폼으로</title>
+    <link href="https://tarenx.com/journals/investment/18/" />
+    <id>https://tarenx.com/journals/investment/18/</id>
+    <published>2026-06-29T16:43:00+09:00</published>
+    <updated>2026-06-29T16:43:00+09:00</updated>
+    <summary>에스투더블유(S2W)는 멀티도메인 교차분석 기술을 통해 데이터를 의미 기반으로 연결하고 통합적으로 분석하여 맞춤형 인텔리전스를 제공한다.</summary>
+    <category term="주식" />
+    <category term="에스투더블유" />
+  </entry>
+  <entry>
+    <title>긴 계단 가장 높은 곳에서 맞던 밤바람</title>
+    <link href="https://tarenx.com/essays/culture/17/" />
+    <id>https://tarenx.com/essays/culture/17/</id>
+    <published>2026-06-27T23:37:00+09:00</published>
+    <updated>2026-06-27T23:37:00+09:00</updated>
+    <summary>피아노가 연주하는 세 번의 블록 코드와 한 번의 아르페지오로 시작된다. 세 번의 앞선 블록 코드는 비장하고 단단하지만 뒤에 따라오는 한 번의 아르페지오는 슬프고 약하다. 이는 곡 중 깨진 심장의 여자가 되지 않겠다고 내내 다짐하던 여자의 심장이 끝내 깨져버린 것을 상징하는 것처럼 다가온...</summary>
+    <category term="Beyonce" />
+    <category term="Broken-Hearted Gril" />
+  </entry>
+  <entry>
+    <title>원하는 운명을 골라잡는 기술, 리얼리티 트랜서핑 정리</title>
+    <link href="https://tarenx.com/archives/growth/16/" />
+    <id>https://tarenx.com/archives/growth/16/</id>
+    <published>2026-06-23T21:54:00+09:00</published>
+    <updated>2026-06-23T21:54:00+09:00</updated>
+    <summary>트랜서핑은 자신의 운명을 말 그대로 골라잡는 방법이다. 중요한 것은 납득할 만한 설명이 아닌 현실과 얼마나 맞아떨어지느냐다. 공리들은 그 자체가 양자물리학의 최초의 기준점이기 때문에 증명될 수 없다. 우리는 오직 진리가 구체화되어 실현된 것이나 어떤 법칙만을 알 수 있을 뿐이다. 우리의...</summary>
+    <category term="바딤 젤란드" />
+    <category term="리얼리티 트랜서핑" />
+  </entry>
+  <entry>
+    <title>식히는 사업, 식지 않은 의문</title>
+    <link href="https://tarenx.com/journals/investment/15/" />
+    <id>https://tarenx.com/journals/investment/15/</id>
+    <published>2026-06-20T11:41:00+09:00</published>
+    <updated>2026-06-20T11:41:00+09:00</updated>
+    <summary>AFC(Air Fin Cooler)는 화공플랜트에서 나오는 고온의 유체를 물이 아닌 공기로 식히는 장치로써, 산업 용수 공급에 어려움이 있는 중동에서 주로 쓰인다.</summary>
+    <category term="주식" />
+    <category term="SNT에너지" />
+  </entry>
+  <entry>
+    <title>시간이 쓸어내린 먼지</title>
+    <link href="https://tarenx.com/musings/culture/14/" />
+    <id>https://tarenx.com/musings/culture/14/</id>
+    <published>2026-06-08T20:03:00+09:00</published>
+    <updated>2026-06-08T20:03:00+09:00</updated>
+    <summary>부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고 자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.</summary>
+    <category term="성난 군중으로부터 멀리" />
+  </entry>
+  <entry>
+    <title>1조의 무게</title>
+    <link href="https://tarenx.com/columns/investment/13/" />
+    <id>https://tarenx.com/columns/investment/13/</id>
+    <published>2026-05-30T13:35:00+09:00</published>
+    <updated>2026-05-30T13:35:00+09:00</updated>
+    <summary>Evercore와 Bank of America는 2027년 빅테크 자본 지출이 1조 달러를 넘어설 것으로 전망했다.</summary>
+    <category term="AI" />
+  </entry>
+</feed>

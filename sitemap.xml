@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tarenx.com/</loc>
-    
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://tarenx.com/page/2/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/page/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/page/4/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://tarenx.com/archives/development/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/archives/growth/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/archives/investment/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/columns/culture/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/columns/investment/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/essays/culture/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/essays/daily/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/journals/development/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/journals/investment/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/musings/culture/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tarenx.com/musings/daily/</loc>
-    
     <priority>0.8</priority>
   </url>
   <url>
