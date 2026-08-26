@@ -5,10 +5,20 @@
   <link href="https://tarenx.com/" />
   <link href="https://tarenx.com/feed.xml" rel="self" />
   <id>https://tarenx.com/</id>
-  <updated>2026-08-19T22:50:00+09:00</updated>
+  <updated>2026-08-26T23:49:00+09:00</updated>
   <author>
     <name>taren250424</name>
   </author>
+  <entry>
+    <title>레일 위의 AI</title>
+    <link href="https://tarenx.com/journals/investment/33/" />
+    <id>https://tarenx.com/journals/investment/33/</id>
+    <published>2026-08-26T23:49:00+09:00</published>
+    <updated>2026-08-26T23:49:00+09:00</updated>
+    <summary>SFA의 본체는 AI로보틱스사업으로 유통 및 일반제조, 반도체, 이차전지, 디스플레이 각 산업에 물류·제조 자동화 설비를 공급한다. 26년 반기 누적 별도 매출은 3,796억 원이고 제품군은 로봇AI물류자동화 2,590억 원, 로봇AI제조자동화 778억 원, AI인프라 428억 원으로 ...</summary>
+    <category term="주식" />
+    <category term="SFA" />
+  </entry>
   <entry>
     <title>우아한 천박함</title>
     <link href="https://tarenx.com/musings/culture/32/" />
@@ -187,14 +197,5 @@
     <updated>2026-06-08T20:03:00+09:00</updated>
     <summary>부조리는 소리 없이 쌓인다. 그리고 어느 순간, 세상을 향하던 독은 방향을 잃고 자신을 향해 무너져 내린다. 가브리엘의 이야기는 그 잠식의 바깥을 보여준다.</summary>
     <category term="성난 군중으로부터 멀리" />
-  </entry>
-  <entry>
-    <title>1조의 무게</title>
-    <link href="https://tarenx.com/columns/investment/13/" />
-    <id>https://tarenx.com/columns/investment/13/</id>
-    <published>2026-05-30T13:35:00+09:00</published>
-    <updated>2026-05-30T13:35:00+09:00</updated>
-    <summary>Evercore와 Bank of America는 2027년 빅테크 자본 지출이 1조 달러를 넘어설 것으로 전망했다.</summary>
-    <category term="AI" />
   </entry>
 </feed>

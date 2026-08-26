@@ -3004,8 +3004,8 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 
   <p>
     표기를 생략하면 문맥 타이핑으로 payload가 { deltaDeg }로 추론되어 엉뚱한
-    속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던 지점 — 잘못된 인자를 넘겨도
-    인텔리센스가 침묵하던 — 이 여기서는 잡힌다.
+    속성은 읽는 줄에서 걸린다. 지난 글에서 항복했던, 잘못된 인자를 넘겨도
+    인텔리센스가 침묵하던 지점이 여기서는 잡힌다.
   </p>
 
   <p>그러나 두 페이로드의 구조가 똑같다면..</p>
@@ -3081,8 +3081,8 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     명령은 string, 인자는 any[]. 잡고 못 잡고 이전에 시도 자체를 안 했다. 확장
     생태계라 명령 등록이 열려 있으니 페이로드 목록을 닫힌 타입으로 가둘 수 없는
     사정이 있긴 하다. when마저 함수가 아니라 package.json의 문자열 컨텍스트
-    표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론 — 정의
-    자체를 명세 삼아 호출부에서 맞춰라 — 를 공식 API로 채택한 셈이라 묘한 위안이
+    표현식이라 오타가 나면 런타임에 조용히 false다. 지난 글의 내 결론, 정의
+    자체를 명세 삼아 호출부에서 맞춰라, 를 공식 API로 채택한 셈이라 묘한 위안이
     됐다.
   </p>
 </div>
@@ -3609,6 +3609,71 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </p>
 </div>
 `,zr=s({default:()=>Br}),Br=`<div class="post-meta">
+  <meta name="post-id" content="33" />
+  <meta name="post-title" content="레일 위의 AI" />
+  <meta name="post-published" content="2026-08-26T23:49" />
+  <meta name="post-tags" content="주식, SFA" />
+</div>
+
+<div class="post-content">
+  <figure>
+    <img
+      src="/assets/journals/investment/33/chart.png"
+      alt="SFA 차트"
+      width="400"
+    />
+    <figcaption>출처: 네이버 증권</figcaption>
+  </figure>
+
+  <p>
+    SFA의 본체는 AI로보틱스사업으로 유통 및 일반제조, 반도체, 이차전지,
+    디스플레이 각 산업에 물류·제조 자동화 설비를 공급한다. 26년 반기 누적 별도
+    매출은 3,796억 원이고 제품군은 로봇AI물류자동화 2,590억 원, 로봇AI제조자동화
+    778억 원, AI인프라 428억 원으로 나뉜다. 멀티플은 14배 정도.
+  </p>
+
+  <p>
+    사업부문 이름이 AI로보틱스고 제품군에도 하나같이 '로봇AI'가 붙는다. 그러나
+    연구개발 실적 열일곱 항목 중 학습이 필요한 것은 일곱이고, 대부분 완료·사업화
+    상태다. 응용기술 마지막 줄에 올라온 Rail 주행형 Robot Picking Station은
+    물건을 골라 담는 로봇을 레일에 태운 물건인데, 무엇을 집을지는 학습에 맡기되
+    어디로 갈지는 궤도에 고정해 둔 셈이다. 판단은 열어두고 이동은 닫는 형태.
+    양산 라인에서 비결정성은 미덕이 아니니 사실 합리적이다. 그러나 기억해둘 것은
+    이 일곱이 전부 비전이라는 점이다. 그래서 이 회사의 AI 기술은 똑똑한 두뇌가
+    아닌 정해진 동선 위의 눈을 만드는 데 쓰인다. 회사의 기술력은 그 눈을 얹을
+    라인을 설계하는 데 있다.
+  </p>
+
+  <p>
+    SFA는 2030년 완전자율제조를 목표로 하고 있다. 수단은 통합 물류관제시스템
+    (WES/WCS)이다. 공장과 물류센터 안의 상황을 스스로 인지/판단해 실행하는
+    자율최적화와 자율복구를 얹고, 그에 맞춰 자율로봇 포트폴리오를 넓히겠다는
+    전략이다.
+  </p>
+
+  <p>
+    연결 매출은 8년째 1.6조에서 2조 사이를 오간다. 완전자율제조를 달성하면 판이
+    바뀔까? 무인화 설비는 더 비싸게 팔리겠지만 라인이 더 많이 깔리지는 않는다.
+    시장 규모 추정치를 보면 노동력 투입이 많은 유통·일반제조에서 없던 수요를
+    기대해볼 만하다. 그 전망이 수주로 나타나는지, 또 자율복구처럼 아직 연구개발
+    실적에 오르지 않은 항목이 채워지는지 확인이 필요할 것 같다.
+  </p>
+
+  <p class="post-ref">
+    * 참조 <br />
+    <a href="https://www.sfa.co.kr" target="_blank"> 에스에프에이 (sfa.co.kr)</a
+    ><br />
+    에스에프에이 반기보고서 (2026.08.12)<br />
+    네이버 증권,
+    <a
+      href="https://finance.naver.com/item/coinfo.naver?code=056190"
+      target="_blank"
+    >
+      에스에프에이(056190)</a
+    ><br />
+  </p>
+</div>
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
   <meta name="post-id" content="6" />
   <meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플" />
   <meta name="post-published" content="2026-04-25T19:10" />
@@ -3719,7 +3784,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     네이버 증권
   </p>
 </div>
-`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
+`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
   <meta name="post-id" content="14" />
   <meta name="post-title" content="시간이 쓸어내린 먼지" />
   <meta name="post-published" content="2026-06-08T20:03" />
@@ -3785,7 +3850,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.
   </p>
 </div>
-`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
   <meta name="post-id" content="27" />
   <meta name="post-title" content="시간의 밀도" />
   <meta name="post-published" content="2026-07-17T05:53" />
@@ -3827,7 +3892,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     fill a life."
   </blockquote>
 </div>
-`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
   <meta name="post-id" content="31" />
   <meta name="post-title" content="빈 공간" />
   <meta name="post-published" content="2026-08-17T21:54" />
@@ -3860,7 +3925,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     "응 많아. 아주 많아."
   </blockquote>
 </div>
-`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
+`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
   <meta name="post-id" content="32" />
   <meta name="post-title" content="우아한 천박함" />
   <meta name="post-published" content="2026-08-19T22:50" />
@@ -3885,7 +3950,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     그녀는 총알 한 발을 머리에 맞고 군더더기 없이 죽는다. 마지막까지 깔끔하다.
   </p>
 </div>
-`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
+`,Zr=s({default:()=>Qr}),Qr=`<div class="post-meta">
   <meta name="post-id" content="23" />
   <meta name="post-title" content="새벽" />
   <meta name="post-published" content="2026-07-04T07:28" />
@@ -3915,7 +3980,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 
   <p>미학적인 새벽이었다.</p>
 </div>
-`,Zr=s({default:()=>Qr}),Qr=`<div class="post-meta">
+`,$r=s({default:()=>ei}),ei=`<div class="post-meta">
   <meta name="post-id" content="24" />
   <meta name="post-title" content="손톱" />
   <meta name="post-published" content="2026-07-04T08:42" />
@@ -3933,7 +3998,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     모든 것이 좋아진다.
   </p>
 </div>
-`,$r=s({default:()=>ei}),ei=`<div class="post-meta">
+`,ti=s({default:()=>ni}),ni=`<div class="post-meta">
   <meta name="post-id" content="25" />
   <meta name="post-title" content="흰 티" />
   <meta name="post-published" content="2026-07-05T12:32" />
@@ -3943,21 +4008,21 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 <div class="post-content">
   <p>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</p>
 </div>
-`;function ti(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function ni(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/6/index.html":zr,"../content/musings/culture/14/index.html":Vr,"../content/musings/culture/27/index.html":Ur,"../content/musings/culture/31/index.html":Gr,"../content/musings/culture/32/index.html":qr,"../content/musings/daily/23/index.html":Yr,"../content/musings/daily/24/index.html":Zr,"../content/musings/daily/25/index.html":$r}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ti(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var ri={common:{siteName:`닫힌 파편`,siteDescription:`흩어진 생각을 파편으로 닫아 남기는 기록.`,timezone:`+09:00`,author:`taren250424`,itemsPerBoardPage:10,itemsPerPostBottomPage:5,newBadgeDays:7},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://assets.tarenx.com/`}};function ii(e,t=`/`){return e.map(e=>`
+`;function ri(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function ii(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/33/index.html":zr,"../content/journals/investment/6/index.html":Vr,"../content/musings/culture/14/index.html":Ur,"../content/musings/culture/27/index.html":Gr,"../content/musings/culture/31/index.html":qr,"../content/musings/culture/32/index.html":Yr,"../content/musings/daily/23/index.html":Zr,"../content/musings/daily/24/index.html":$r,"../content/musings/daily/25/index.html":ti}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ri(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var ai={common:{siteName:`닫힌 파편`,siteDescription:`흩어진 생각을 파편으로 닫아 남기는 기록.`,timezone:`+09:00`,author:`taren250424`,itemsPerBoardPage:10,itemsPerPostBottomPage:5,newBadgeDays:7},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://assets.tarenx.com/`}};function oi(e,t=`/`){return e.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${ai()} ${e.displayName}</h2>
+					<h2 class="category-title">${si()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(n=>`
 							<li>
 								<a href="${t}${e.id}/${n.id}/" class="board-link" data-category="${e.id}" data-board="${n.id}">
-									${oi()} ${n.displayName}
+									${ci()} ${n.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function ai(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function si(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function oi(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ci(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}var si=1440*60*1e3;function ci(e=document,t=3){let n=Date.now(),r=t*si;e.querySelectorAll(`time.post-datetime[datetime]`).forEach(e=>{let t=new Date(e.getAttribute(`datetime`)).getTime();if(Number.isNaN(t))return;let i=n-t;if(i<0||i>r)return;let a=e.closest(`li, .post-header, article`),o=a?.querySelector(`.post-title`);!o||a.querySelector(`.new-badge`)||o.insertAdjacentHTML(`beforeend`,` <span class="new-badge" aria-label="새 글">NEW</span>`)})}ri.common?.siteName;function li(e){e.innerHTML=ii(ri.navigation,ri.build.siteBaseUrl)}function ui(e,t,n,r){n.childElementCount===0&&li(n)}function di(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function fi(){let e=ni(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),ui(e,n,i,o),di(e,o)}function pi(){Hn.highlightAll(),fi(),ci(document,ri.common?.newBadgeDays)}function mi(){pi()}document.addEventListener(`DOMContentLoaded`,mi);
+	</svg>`}var li=1440*60*1e3;function ui(e=document,t=3){let n=Date.now(),r=t*li;e.querySelectorAll(`time.post-datetime[datetime]`).forEach(e=>{let t=new Date(e.getAttribute(`datetime`)).getTime();if(Number.isNaN(t))return;let i=n-t;if(i<0||i>r)return;let a=e.closest(`li, .post-header, article`),o=a?.querySelector(`.post-title`);!o||a.querySelector(`.new-badge`)||o.insertAdjacentHTML(`beforeend`,` <span class="new-badge" aria-label="새 글">NEW</span>`)})}ai.common?.siteName;function di(e){e.innerHTML=oi(ai.navigation,ai.build.siteBaseUrl)}function fi(e,t,n,r){n.childElementCount===0&&di(n)}function pi(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function mi(){let e=ii(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),fi(e,n,i,o),pi(e,o)}function hi(){Hn.highlightAll(),mi(),ui(document,ai.common?.newBadgeDays)}function gi(){hi()}document.addEventListener(`DOMContentLoaded`,gi);
