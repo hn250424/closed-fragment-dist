@@ -861,6 +861,265 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
   </p>
 </div>
 `,$n=s({default:()=>er}),er=`<div class="post-meta">
+  <meta name="post-id" content="34" />
+  <meta name="post-title" content="Windows 내장 기능만으로 내부망 파일 공유(SMB) 설정하기" />
+  <meta name="post-published" content="2026-08-31T13:00" />
+  <meta name="post-tags" content="Windows, SMB, 파일 공유, 네트워크" />
+</div>
+
+<div class="post-content">
+  <h2 class="post-tab">1. 목표.</h2>
+
+  <p>
+    같은 공유기 아래 사설 IP 대역을 쓰는 내부망 안에서, 다른 호스트가
+    <span class="post-bold">SMB(Server Message Block)</span> 프로토콜로 이
+    PC의 특정 폴더에 접근해 파일을 읽고 쓸 수 있도록 구성한다. 리눅스의
+    삼바(Samba) 서버가 하는 역할과 동일하지만, Windows는 SMB 서버 기능을
+    커널·서비스 수준에서 이미 내장하고 있어서 별도 데몬 설치 없이
+    <span class="post-bold">방화벽·공유·권한 설정만으로</span> 충분하다.
+  </p>
+
+  <h2 class="post-tab">2. 네트워크 프로필을 개인으로.</h2>
+
+  <p>
+    Windows는 연결된 네트워크를
+    <span class="post-bold">공용</span>과
+    <span class="post-bold">개인</span> 두 프로필로 구분해 방화벽 정책을
+    다르게 적용한다. 공용은 카페·공항처럼 낯선 사람과 같이 쓰는 네트워크를
+    가정해 외부 접근을 전부 차단하고, 개인은 집·회사처럼 신뢰하는
+    네트워크를 가정해 공유를 허용한다. 파일 공유를 켜려면 먼저 이 프로필을
+    개인으로 바꿔야 한다.
+  </p>
+
+  <p>
+    설정 → 네트워크 및 인터넷 → Wi-Fi(또는 이더넷) → 연결된 네트워크 클릭 →
+    네트워크 프로필 유형을 <span class="post-bold">개인</span>으로 선택.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/network-profile-select.png"
+      alt="네트워크 프로필 유형 선택 화면"
+      width="600"
+    />
+    <figcaption>공용은 검색·공유를 차단, 개인은 허용한다. 신뢰하는 내부망이면 개인을 선택.</figcaption>
+  </figure>
+
+  <p>인터넷 연결 자체와는 무관한, 방화벽 정책 전환일 뿐이라 웹 서핑 등은 영향받지 않는다.</p>
+
+  <h2 class="post-tab">3. 네트워크 검색 및 파일/프린터 공유 켜기.</h2>
+
+  <p>
+    제어판 → 네트워크 및 공유 센터 → 왼쪽 메뉴
+    <span class="post-bold">고급 공유 설정 변경</span>. "개인" 프로필
+    섹션을 펼쳐서 아래 두 항목을 켠다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/private-network-toggles.png"
+      alt="개인 네트워크의 네트워크 검색, 파일 및 프린터 공유 토글"
+      width="600"
+    />
+    <figcaption>둘 다 "켬"으로 되어 있어야 다른 장치가 이 PC를 찾고 공유 폴더에 접근할 수 있다.</figcaption>
+  </figure>
+
+  <p>
+    "모든 네트워크" 섹션의
+    <span class="post-bold">암호로 보호된 공유</span>는 켜둔 채로 진행.
+  </p>
+
+  <h2 class="post-tab">4. IP 고정.</h2>
+
+  <p>
+    접속할 주소가 매번 바뀌면 곤란하므로, 이 PC의 IP를 고정하기 위해 어댑터의
+    IPv4 속성에서 수동으로 지정한다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/static-ip.png"
+      alt="IPv4 속성에서 고정 IP를 지정하는 화면"
+      width="360"
+    />
+    <figcaption>기본 게이트웨이는 공유기 IP, DNS는 공유기 IP나 공용 DNS(8.8.8.8 등) 아무거나 넣어도 된다.</figcaption>
+  </figure>
+
+  <h2 class="post-tab">5. 컴퓨터 관리로 공유 폴더 만들기.</h2>
+
+  <p>
+    탐색기 우클릭 메뉴의 "공유" 마법사는 정책이나 버전에 따라 아예 빠져
+    있는 경우가 있어
+    <span class="post-bold">컴퓨터 관리(compmgmt.msc)</span>로 직접
+    만드는 쪽으로 진행한다.
+  </p>
+
+  <p>
+    Windows 키 → "컴퓨터 관리" 실행 → 시스템 도구 →
+    <span class="post-bold">공유 폴더</span> → 공유 → 오른쪽 작업 패널에서
+    "새 공유".
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/share-wizard-start.png"
+      alt="공유 폴더 만들기 마법사 시작 화면"
+      width="500"
+    />
+    <figcaption>이 마법사가 공유 자체와 그에 맞는 방화벽 예외까지 함께 설정해준다.</figcaption>
+  </figure>
+
+  <p>다음으로 진행하면 공유할 폴더 경로를 지정하는 화면이 나온다.</p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/share-wizard-path.png"
+      alt="공유할 폴더 경로를 지정하는 화면"
+      width="500"
+    />
+    <figcaption>예시처럼 절대 경로(예: D:\\공유폴더)를 직접 입력하거나 찾아보기로 선택한다.</figcaption>
+  </figure>
+
+  <p>경로 지정 후 이름·권한 단계를 거치면 아래처럼 공유 목록에 새 항목이 잡힌다.</p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/computer-management-shares.png"
+      alt="컴퓨터 관리의 공유 폴더 목록"
+      width="600"
+    />
+    <figcaption>ADMIN$, C$, D$ 같은 기본 관리용 공유는 무시하고, 여기서 새 공유를 추가한다.</figcaption>
+  </figure>
+
+  <h2 class="post-tab">6. 공유 권한 설정.</h2>
+
+  <p>
+    마법사의 권한 화면에서 대상 그룹(Everyone 등)에 어떤 권한을 줄지
+    정한다. 가져가기만 하면 되면
+    <span class="post-bold">읽기</span>만, 서로 파일을 주고받으려면
+    <span class="post-bold">모든 권한</span>(또는 변경)까지 체크한다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/share-permissions.png"
+      alt="공유 사용 권한 지정 화면"
+      width="420"
+    />
+    <figcaption>읽기만 체크하면 다운로드만 가능하고, 업로드·수정까지 허용하려면 모든 권한을 켠다.</figcaption>
+  </figure>
+
+  <h2 class="post-tab">7. NTFS 보안 권한도 맞추기.</h2>
+
+  <p>
+    SMB로 공유 폴더에 접근할 때는 권한 검사가 두 겹으로 걸린다. 하나는
+    5·6단계에서 설정한 <span class="post-bold">공유 권한</span>(네트워크
+    너머에서 이 공유에 들어올 수 있는지), 다른 하나는 폴더 자체에 걸린
+    <span class="post-bold">NTFS 권한</span>(파일 시스템 차원에서 이
+    사용자가 이 폴더를 읽고 쓸 수 있는지)이다. 실제 적용되는 건 이 둘 중
+    <span class="post-underline">더 제한적인 쪽</span>이라, 공유 권한을
+    "모든 권한"으로 열어놔도 NTFS 권한이 "읽기"뿐이면 결과는 읽기만
+    가능하다.
+  </p>
+
+  <p>
+    NTFS 권한은 폴더 속성 →
+    <span class="post-bold">보안</span> 탭에서 확인한다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/ntfs-security-tab.png"
+      alt="폴더 속성의 보안 탭, 사용자별 허용 권한 목록"
+      width="380"
+    />
+    <figcaption>
+      <span class="post-bold">D:\\공유폴더</span>의 보안 탭. Users에 "모든 권한"·"수정"까지 허용되어
+      있으면 쓰기도 그대로 된다. 접속에 쓸 계정(또는 Everyone)이 목록에
+      없으면 "편집" → "추가"로 넣고 필요한 권한을 체크한다.
+    </figcaption>
+  </figure>
+
+  <p>
+    즉 6단계에서 공유 권한을 "모든 권한"으로 줬다면, 여기 NTFS 권한도
+    최소 "수정"까지는 허용되어 있어야 실제로 쓰기가 된다.
+  </p>
+
+  <h2 class="post-tab">8. 접속 전용 로컬 계정 만들기.</h2>
+
+  <p>
+    "암호로 보호된 공유"를 끄면 Windows가 익명(Guest) 접속을 시도하는데,
+    최신 Windows는 보안 정책상 Guest 계정의 네트워크 로그온 자체를 막아둬서
+    끄고 접속하면 오히려 "액세스 거부"가 뜬다. 암호 보호는 켜둔 채,
+    <span class="post-bold">공유 전용 로컬 계정</span>을 하나 만들어 그
+    계정 정보만 필요한 사람에게 나눠주는 편이 안전하고 확실하다.
+  </p>
+
+  <p>
+    컴퓨터 관리 → 시스템 도구 →
+    <span class="post-bold">로컬 사용자 및 그룹</span> → 사용자.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/local-users-and-groups.png"
+      alt="컴퓨터 관리의 로컬 사용자 및 그룹 트리"
+      width="600"
+    />
+    <figcaption>여기서 우클릭 → "새 사용자"를 선택한다.</figcaption>
+  </figure>
+
+  <p>
+    사용자 이름과 암호를 지정하고, "다음 로그온 시 암호 변경"은 해제,
+    "암호 사용 기간 제한 없음"은 체크한 뒤 만든다.
+  </p>
+
+  <figure>
+    <img
+      src="/assets/archives/development/34/new-user-dialog.png"
+      alt="새 사용자 만들기 대화상자"
+      width="380"
+    />
+    <figcaption>기본값(암호 변경 강제)을 꺼야 접속할 때마다 암호 변경을 요구받지 않는다.</figcaption>
+  </figure>
+
+  <h2 class="post-tab">9. 방화벽 확인.</h2>
+
+  <p>
+    "파일 및 프린터 공유"를 켜면 관련 방화벽 규칙이 자동으로 활성화된다.
+    특히 실제 SMB 트래픽을 받는 규칙이 켜져 있는지 파워셸로 확인할 수
+    있다.
+  </p>
+
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+Get-NetFirewallRule -DisplayGroup "파일 및 프린터 공유" |
+  Where-Object { $_.Enabled -eq "True" } |
+  Select-Object DisplayName, Direction, Profile</pre>
+
+  <p>
+    목록에 <span class="post-bold">SMB-In</span>이 Private 프로필로
+    포함되어 있으면 인바운드 접속을 막을 요소는 없는 상태다.
+  </p>
+
+  <h2 class="post-tab">10. 접속.</h2>
+
+  <p>
+    같은 내부망의 다른 PC 탐색기 주소창에 아래처럼 입력한다.
+  </p>
+
+  <pre style="font-family: monospace; font-size: 1rem; line-height: 1.7">
+\\\\192.168.x.x\\공유이름</pre>
+
+  <p>
+    로그인 창이 뜨면 사용자 이름에
+    <span class="post-bold">PC이름\\계정이름</span>(예: WS\\share) 형식으로
+    입력하고, 암호는 8단계에서 만든 계정의 비밀번호를 넣으면 접속된다.
+    Windows가 아닌 macOS/Linux 클라이언트는
+    <span class="post-bold">smb://192.168.x.x/공유이름</span> 형식으로
+    동일하게 접근할 수 있다.
+  </p>
+</div>
+`,tr=s({default:()=>nr}),nr=`<div class="post-meta">
   <meta name="post-id" content="4" />
   <meta name="post-title" content="Linux에서 오픈 소스 CANable 사용하기" />
   <meta name="post-published" content="2026-03-28T19:23" />
@@ -956,7 +1215,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     <figcaption></figcaption>
   </figure>
 </div>
-`,tr=s({default:()=>nr}),nr=`<div class="post-meta">
+`,rr=s({default:()=>ir}),ir=`<div class="post-meta">
   <meta name="post-id" content="12" />
   <meta name="post-title" content="나의 행동 매뉴얼" />
   <meta name="post-published" content="2026-05-27T23:03" />
@@ -1028,7 +1287,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     육체적 활동, 명상, 몰입, 성장이 모든 문제의 해결점.
   </div>
 </div>
-`,rr=s({default:()=>ir}),ir=`<div class="post-meta">
+`,ar=s({default:()=>or}),or=`<div class="post-meta">
   <meta name="post-id" content="16" />
   <meta
     name="post-title"
@@ -1645,7 +1904,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     불가능하다. 희망을 발견하면 마음이 발판을 얻고 영혼은 생기를 되찾는다.
   </p>
 </div>
-`,ar=s({default:()=>or}),or=`<div class="post-meta">
+`,sr=s({default:()=>cr}),cr=`<div class="post-meta">
   <meta name="post-id" content="7" />
   <meta
     name="post-title"
@@ -1759,7 +2018,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     만들 방법은 없어질 수도 있다."
   </blockquote>
 </div>
-`,sr=s({default:()=>cr}),cr=`<div class="post-meta">
+`,lr=s({default:()=>ur}),ur=`<div class="post-meta">
   <meta name="post-id" content="5" />
   <meta name="post-title" content="채권 듀레이션 정리" />
   <meta name="post-published" content="2026-04-18T23:03" />
@@ -2016,7 +2275,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     수익 기회를 한눈에 파악하고 전략적인 의사결정을 내릴 수 있게 된다.
   </p>
 </div>
-`,lr=s({default:()=>ur}),ur=`<div class="post-meta">
+`,dr=s({default:()=>fr}),fr=`<div class="post-meta">
   <meta name="post-id" content="11" />
   <meta name="post-title" content="중력을 소진시키는 방법" />
   <meta name="post-published" content="2026-05-27T21:30" />
@@ -2088,7 +2347,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     사귀었어. 걜 뺏고 싶었지."
   </blockquote>
 </div>
-`,dr=s({default:()=>fr}),fr=`<div class="post-meta">
+`,pr=s({default:()=>mr}),mr=`<div class="post-meta">
   <meta name="post-id" content="2" />
   <meta
     name="post-title"
@@ -2214,7 +2473,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     없어서가 아니라, 내 백골들을 패배의 흔적으로 바라보았기 때문이 아닐까.
   </p>
 </div>
-`,pr=s({default:()=>mr}),mr=`<div class="post-meta">
+`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
   <meta name="post-id" content="30" />
   <meta name="post-title" content="머무름의 재료" />
   <meta name="post-published" content="2026-08-15T17:34" />
@@ -2285,7 +2544,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     사람이 서 있다.
   </p>
 </div>
-`,hr=s({default:()=>gr}),gr=`<div class="post-meta">
+`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
   <meta name="post-id" content="13" />
   <meta name="post-title" content="1조의 무게" />
   <meta name="post-published" content="2026-05-30T13:35" />
@@ -2355,7 +2614,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     >
   </p>
 </div>
-`,_r=s({default:()=>vr}),vr=`<div class="post-meta">
+`,yr=s({default:()=>br}),br=`<div class="post-meta">
   <meta name="post-id" content="29" />
   <meta name="post-title" content="목표비중은 왜 올랐나" />
   <meta name="post-published" content="2026-07-31T12:55" />
@@ -2459,7 +2718,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     머니투데이, "국민연금 '매도 폭탄' 없었다" (2026.07.28)
   </p>
 </div>
-`,yr=s({default:()=>br}),br=`<div class="post-meta">
+`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
   <meta name="post-id" content="9" />
   <meta name="post-title" content="혁신이 아니라 효율화" />
   <meta name="post-published" content="2026-05-11T19:50" />
@@ -2548,7 +2807,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     >
   </p>
 </div>
-`,xr=s({default:()=>Sr}),Sr=`<div class="post-meta">
+`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
   <meta name="post-id" content="17" />
   <meta name="post-title" content="긴 계단 가장 높은 곳에서 맞던 밤바람" />
   <meta name="post-published" content="2026-06-27T23:37" />
@@ -2586,7 +2845,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     있었다.
   </p>
 </div>
-`,Cr=s({default:()=>wr}),wr=`<div class="post-meta">
+`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">
   <meta name="post-id" content="8" />
   <meta name="post-title" content="삶은 역사적일 필요가 없다" />
   <meta name="post-published" content="2026-05-09T21:15" />
@@ -2641,7 +2900,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     세상에 남을 필요는 없다는 사실을 받아들이게 되었다.
   </p>
 </div>
-`,Tr=s({default:()=>Er}),Er=`<div class="post-meta">
+`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">
   <meta name="post-id" content="0" />
   <meta name="post-title" content="까만 우산" />
   <meta name="post-published" content="2025-05-10T18:41" />
@@ -2677,7 +2936,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     수 있는 사람은 많지 않겠지.
   </p>
 </div>
-`,Dr=s({default:()=>Or}),Or=`<div class="post-meta">
+`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
   <meta name="post-id" content="1" />
   <meta
     name="post-title"
@@ -2879,7 +3138,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     것으로 일단 사용하면서 후에 대안을 찾아보기로.
   </p>
 </div>
-`,kr=s({default:()=>Ar}),Ar=`<div class="post-meta">
+`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
   <meta name="post-id" content="28" />
   <meta
     name="post-title"
@@ -3096,7 +3355,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     됐다.
   </p>
 </div>
-`,jr=s({default:()=>Mr}),Mr=`<div class="post-meta">
+`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
   <meta name="post-id" content="3" />
   <meta
     name="post-title"
@@ -3356,7 +3615,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 		}
 	</code></pre>
 </div>
-`,Nr=s({default:()=>Pr}),Pr=`<div class="post-meta">
+`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
   <meta name="post-id" content="10" />
   <meta name="post-title" content="배당 9%의 속사정" />
   <meta name="post-published" content="2026-05-25T15:28" />
@@ -3433,7 +3692,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     기획재정부 2025년 세제개편안
   </p>
 </div>
-`,Fr=s({default:()=>Ir}),Ir=`<div class="post-meta">
+`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
   <meta name="post-id" content="15" />
   <meta name="post-title" content="식히는 사업, 식지 않은 의문" />
   <meta name="post-published" content="2026-06-20T11:41" />
@@ -3543,7 +3802,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     ><br />
   </p>
 </div>
-`,Lr=s({default:()=>Rr}),Rr=`<div class="post-meta">
+`,zr=s({default:()=>Br}),Br=`<div class="post-meta">
   <meta name="post-id" content="18" />
   <meta name="post-title" content="사이버 위협에서 산업 데이터 플랫폼으로" />
   <meta name="post-published" content="2026-06-29T16:43" />
@@ -3627,7 +3886,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     신한투자증권 최승환, "바겐세일" (2026.04.09)
   </p>
 </div>
-`,zr=s({default:()=>Br}),Br=`<div class="post-meta">
+`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
   <meta name="post-id" content="33" />
   <meta name="post-title" content="레일 위의 AI" />
   <meta name="post-published" content="2026-08-26T23:49" />
@@ -3692,7 +3951,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     ><br />
   </p>
 </div>
-`,Vr=s({default:()=>Hr}),Hr=`<div class="post-meta">
+`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
   <meta name="post-id" content="6" />
   <meta name="post-title" content="묵직한 실린더 라이너에 담긴 가벼운 멀티플" />
   <meta name="post-published" content="2026-04-25T19:10" />
@@ -3803,7 +4062,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     네이버 증권
   </p>
 </div>
-`,Ur=s({default:()=>Wr}),Wr=`<div class="post-meta">
+`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
   <meta name="post-id" content="14" />
   <meta name="post-title" content="시간이 쓸어내린 먼지" />
   <meta name="post-published" content="2026-06-08T20:03" />
@@ -3869,7 +4128,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     마침내, 가브리엘은 에버딘의 삶 안으로 들어서게 된다.
   </p>
 </div>
-`,Gr=s({default:()=>Kr}),Kr=`<div class="post-meta">
+`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
   <meta name="post-id" content="27" />
   <meta name="post-title" content="시간의 밀도" />
   <meta name="post-published" content="2026-07-17T05:53" />
@@ -3911,7 +4170,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     fill a life."
   </blockquote>
 </div>
-`,qr=s({default:()=>Jr}),Jr=`<div class="post-meta">
+`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
   <meta name="post-id" content="31" />
   <meta name="post-title" content="빈 공간" />
   <meta name="post-published" content="2026-08-17T21:54" />
@@ -3944,7 +4203,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     "응 많아. 아주 많아."
   </blockquote>
 </div>
-`,Yr=s({default:()=>Xr}),Xr=`<div class="post-meta">
+`,Zr=s({default:()=>Qr}),Qr=`<div class="post-meta">
   <meta name="post-id" content="32" />
   <meta name="post-title" content="우아한 천박함" />
   <meta name="post-published" content="2026-08-19T22:50" />
@@ -3969,7 +4228,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     그녀는 총알 한 발을 머리에 맞고 군더더기 없이 죽는다. 마지막까지 깔끔하다.
   </p>
 </div>
-`,Zr=s({default:()=>Qr}),Qr=`<div class="post-meta">
+`,$r=s({default:()=>ei}),ei=`<div class="post-meta">
   <meta name="post-id" content="23" />
   <meta name="post-title" content="새벽" />
   <meta name="post-published" content="2026-07-04T07:28" />
@@ -3994,7 +4253,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     흘러나오고 있었다. 미학적인 새벽.
   </p>
 </div>
-`,$r=s({default:()=>ei}),ei=`<div class="post-meta">
+`,ti=s({default:()=>ni}),ni=`<div class="post-meta">
   <meta name="post-id" content="24" />
   <meta name="post-title" content="손톱" />
   <meta name="post-published" content="2026-07-04T08:42" />
@@ -4012,7 +4271,7 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
     모든 것이 좋아진다.
   </p>
 </div>
-`,ti=s({default:()=>ni}),ni=`<div class="post-meta">
+`,ri=s({default:()=>ii}),ii=`<div class="post-meta">
   <meta name="post-id" content="25" />
   <meta name="post-title" content="흰 티" />
   <meta name="post-published" content="2026-07-05T12:32" />
@@ -4022,21 +4281,21 @@ ping 192.168.0.255   # 같은 네트워크 전체에 핑을 뿌린다 (리눅스
 <div class="post-content">
   <p>깨끗함과 세미 포멀함을 가진 흰색 티셔츠가 좋다.</p>
 </div>
-`;function ri(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function ii(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/4/index.html":$n,"../content/archives/growth/12/index.html":tr,"../content/archives/growth/16/index.html":rr,"../content/archives/growth/7/index.html":ar,"../content/archives/investment/5/index.html":sr,"../content/columns/culture/11/index.html":lr,"../content/columns/culture/2/index.html":dr,"../content/columns/culture/30/index.html":pr,"../content/columns/investment/13/index.html":hr,"../content/columns/investment/29/index.html":_r,"../content/columns/investment/9/index.html":yr,"../content/essays/culture/17/index.html":xr,"../content/essays/culture/8/index.html":Cr,"../content/essays/daily/0/index.html":Tr,"../content/journals/development/1/index.html":Dr,"../content/journals/development/28/index.html":kr,"../content/journals/development/3/index.html":jr,"../content/journals/investment/10/index.html":Nr,"../content/journals/investment/15/index.html":Fr,"../content/journals/investment/18/index.html":Lr,"../content/journals/investment/33/index.html":zr,"../content/journals/investment/6/index.html":Vr,"../content/musings/culture/14/index.html":Ur,"../content/musings/culture/27/index.html":Gr,"../content/musings/culture/31/index.html":qr,"../content/musings/culture/32/index.html":Yr,"../content/musings/daily/23/index.html":Zr,"../content/musings/daily/24/index.html":$r,"../content/musings/daily/25/index.html":ti}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ri(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var ai={common:{siteName:`닫힌 파편`,siteDescription:`흩어진 생각을 파편으로 닫아 남기는 기록.`,timezone:`+09:00`,author:`taren250424`,itemsPerBoardPage:10,itemsPerPostBottomPage:5,newBadgeDays:7},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://assets.tarenx.com/`}};function oi(e,t=`/`){return e.map(e=>`
+`;function ai(e){let t=e.match(/<div class="post-meta">([\s\S]*?)<\/div>/i);if(!t)return null;let n=t[1],r={};return(n.match(/<meta[\s\S]*?>/gi)||[]).forEach(e=>{let t=e.match(/name="([^"]*)"/i),n=e.match(/content="([^"]*)"/i);if(t&&n){let e=t[1],i=n[1];switch(e){case`post-id`:r.id=parseInt(i,10);break;case`post-title`:r.title=i;break;case`post-published`:r.published=i;break;case`post-tags`:r.tags=i?i.split(`,`).map(e=>e.trim()).filter(Boolean):[];break}}}),r}function oi(){let e=Object.assign({"../content/archives/development/19/index.html":Un,"../content/archives/development/20/index.html":Gn,"../content/archives/development/21/index.html":qn,"../content/archives/development/22/index.html":Yn,"../content/archives/development/26/index.html":Zn,"../content/archives/development/34/index.html":$n,"../content/archives/development/4/index.html":tr,"../content/archives/growth/12/index.html":rr,"../content/archives/growth/16/index.html":ar,"../content/archives/growth/7/index.html":sr,"../content/archives/investment/5/index.html":lr,"../content/columns/culture/11/index.html":dr,"../content/columns/culture/2/index.html":pr,"../content/columns/culture/30/index.html":hr,"../content/columns/investment/13/index.html":_r,"../content/columns/investment/29/index.html":yr,"../content/columns/investment/9/index.html":xr,"../content/essays/culture/17/index.html":Cr,"../content/essays/culture/8/index.html":Tr,"../content/essays/daily/0/index.html":Dr,"../content/journals/development/1/index.html":kr,"../content/journals/development/28/index.html":jr,"../content/journals/development/3/index.html":Nr,"../content/journals/investment/10/index.html":Fr,"../content/journals/investment/15/index.html":Lr,"../content/journals/investment/18/index.html":zr,"../content/journals/investment/33/index.html":Vr,"../content/journals/investment/6/index.html":Ur,"../content/musings/culture/14/index.html":Gr,"../content/musings/culture/27/index.html":qr,"../content/musings/culture/31/index.html":Yr,"../content/musings/culture/32/index.html":Zr,"../content/musings/daily/23/index.html":$r,"../content/musings/daily/24/index.html":ti,"../content/musings/daily/25/index.html":ri}),t={};return Object.entries(e).forEach(([e,n])=>{let r=typeof n==`string`?n:n.default;if(typeof r!=`string`)return;let i=ai(r);if(!i||i.id===void 0)return;let a=e.split(`/`),o=a[a.length-4],s=a[a.length-3];o&&s&&o!==`..`&&o!==`content`&&(t[o]||(t[o]={}),t[o][s]||(t[o][s]=[]),t[o][s].push({...i,categoryId:o,boardId:s}))}),Object.values(t).forEach(e=>{Object.values(e).forEach(e=>{e.sort((e,t)=>new Date(t.published).getTime()-new Date(e.published).getTime())})}),t}var si={common:{siteName:`닫힌 파편`,siteDescription:`흩어진 생각을 파편으로 닫아 남기는 기록.`,timezone:`+09:00`,author:`taren250424`,itemsPerBoardPage:10,itemsPerPostBottomPage:5,newBadgeDays:7},navigation:[{id:`columns`,displayName:`칼럼`,boards:[{id:`investment`,displayName:`투자`},{id:`culture`,displayName:`문화`}]},{id:`essays`,displayName:`에세이`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`musings`,displayName:`단상`,boards:[{id:`culture`,displayName:`문화`},{id:`daily`,displayName:`일상`}]},{id:`journals`,displayName:`저널`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`}]},{id:`archives`,displayName:`아카이브`,boards:[{id:`investment`,displayName:`투자`},{id:`development`,displayName:`개발`},{id:`growth`,displayName:`자기계발`}]}],build:{siteOriginUrl:`https://tarenx.com`,siteBaseUrl:`/`,assetBaseUrl:`https://assets.tarenx.com/`}};function ci(e,t=`/`){return e.map(e=>`
 				<div class="nav-category" data-category="${e.id}">
-					<h2 class="category-title">${si()} ${e.displayName}</h2>
+					<h2 class="category-title">${li()} ${e.displayName}</h2>
 					<ul class="board-list">
 						${e.boards.map(n=>`
 							<li>
 								<a href="${t}${e.id}/${n.id}/" class="board-link" data-category="${e.id}" data-board="${n.id}">
-									${ci()} ${n.displayName}
+									${ui()} ${n.displayName}
 								</a>
 							</li>
 						`).join(``)}
 					</ul>
 				</div>
-			`).join(``)}function si(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			`).join(``)}function li(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 		<polyline points="6 9 12 15 18 9"/>
-	</svg>`}function ci(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+	</svg>`}function ui(){return`<svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
 		<line x1="12" y1="4" x2="12" y2="20"/>
-	</svg>`}var li=1440*60*1e3;function ui(e=document,t=3){let n=Date.now(),r=t*li;e.querySelectorAll(`time.post-datetime[datetime]`).forEach(e=>{let t=new Date(e.getAttribute(`datetime`)).getTime();if(Number.isNaN(t))return;let i=n-t;if(i<0||i>r)return;let a=e.closest(`li, .post-header, article`),o=a?.querySelector(`.post-title`);!o||a.querySelector(`.new-badge`)||o.insertAdjacentHTML(`beforeend`,` <span class="new-badge" aria-label="새 글">NEW</span>`)})}ai.common?.siteName;function di(e){e.innerHTML=oi(ai.navigation,ai.build.siteBaseUrl)}function fi(e,t,n,r){n.childElementCount===0&&di(n)}function pi(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function mi(){let e=ii(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),fi(e,n,i,o),pi(e,o)}function hi(){Hn.highlightAll(),mi(),ui(document,ai.common?.newBadgeDays)}function gi(){hi()}document.addEventListener(`DOMContentLoaded`,gi);
+	</svg>`}var di=1440*60*1e3;function fi(e=document,t=3){let n=Date.now(),r=t*di;e.querySelectorAll(`time.post-datetime[datetime]`).forEach(e=>{let t=new Date(e.getAttribute(`datetime`)).getTime();if(Number.isNaN(t))return;let i=n-t;if(i<0||i>r)return;let a=e.closest(`li, .post-header, article`),o=a?.querySelector(`.post-title`);!o||a.querySelector(`.new-badge`)||o.insertAdjacentHTML(`beforeend`,` <span class="new-badge" aria-label="새 글">NEW</span>`)})}si.common?.siteName;function pi(e){e.innerHTML=ci(si.navigation,si.build.siteBaseUrl)}function mi(e,t,n,r){n.childElementCount===0&&pi(n)}function hi(e,t){t.addEventListener(`click`,e=>{let t=e.target.closest(`.post-bottom .page-link`);if(t){e.preventDefault();let n=t.dataset.targetPage;if(!n)return;let r=t.closest(`.post-bottom`);if(!r)return;r.querySelectorAll(`.post-list[data-page]`).forEach(e=>{e.style.display=`none`});let i=r.querySelector(`.post-list[data-page="${n}"]`);i&&(i.style.display=``),r.querySelectorAll(`.pagination .page-link`).forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)}})}function gi(){let e=oi(),t=document.querySelector(`main`),n=t.querySelector(`#main-nav`),r=t.querySelector(`#main-section`),i=n.querySelector(`#content-tree`),a=r.querySelector(`#main-nav-toggle`),o=r.querySelector(`#content-container`);a.addEventListener(`click`,()=>{let e=t.classList.contains(`nav-closed`);t.classList.toggle(`nav-closed`,!e);try{sessionStorage.setItem(`nav-open`,e?`1`:`0`)}catch{}}),mi(e,n,i,o),hi(e,o)}function _i(){Hn.highlightAll(),gi(),fi(document,si.common?.newBadgeDays)}function vi(){_i()}document.addEventListener(`DOMContentLoaded`,vi);
