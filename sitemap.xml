@@ -235,4 +235,12 @@
     <lastmod>2025-05-10</lastmod>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://tarenx.com/about/</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://tarenx.com/privacy/</loc>
+    <priority>0.4</priority>
+  </url>
 </urlset>
